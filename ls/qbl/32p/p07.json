@@ -1,0 +1,40 @@
+{
+    "ls_id": "LS-QBL-32P-P07",
+    "ls_ttl": "The 7th Path",
+    "scion_id": "ls_qbl_32p_p07",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts of 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_txts",
+            "scions": [
+                {
+                    "insc_ttl": "List of Translations + Texts of (The 7th Path) ::",
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Texts",
+                    "scion_id": "ls_qbl_32p_p07_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Wade Coleman Translation",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "[&emsp;The 7th Path is the Hidden Intelligence (Sekhel Nistar). It is the splendor that illuminates all intellectual powers that is visible to the mind's eye and contemplation of faith.&emsp;]"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Latin Commentary",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "[&emsp;The 7th Path is called the Hidden Intelligence because it is the splendor, shining on all intellectual virtues, which are perceived by the eyes of our reason and by the contemplation of our faith. It is called \"hidden\" because it is not understood but through the intelligences of the Measures [Sephiroth], and it is distinguished from the first path in this way because that one is incomprehensible, while this one is comprehensible. It is called the \"Path of Intellectual Entities\".&emsp;]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

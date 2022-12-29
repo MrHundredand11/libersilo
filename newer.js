@@ -193,40 +193,40 @@ function whatsOnTheMenu() {
                 m_top.appendChild(side_seal);
 
 
-                for (mn in data.record.scions) {
+                for (mn in data.scions) {
                     var accrd_cntnr = createElementWithClass('div', 'styl_mnu_accrd_cntnr');
                     var accrd_ttl = createElementWithClass('div', 'styl_mnu_accrd_ttl');
                     
-                    accrd_cntnr.setAttribute('id', `mnu_accrd_cntnr_${data.record.scions[mn].scion_id}`);
-                    accrd_ttl.setAttribute('id', `mnu_accrd_ttl_${data.record.scions[mn].scion_id}`)
-                    accrd_ttl.innerHTML = `${data.record.scions[mn].ls_ttl}`;
+                    accrd_cntnr.setAttribute('id', `mnu_accrd_cntnr_${data.scions[mn].scion_id}`);
+                    accrd_ttl.setAttribute('id', `mnu_accrd_ttl_${data.scions[mn].scion_id}`)
+                    accrd_ttl.innerHTML = `${data.scions[mn].ls_ttl}`;
                     accrd_cntnr.appendChild(accrd_ttl);
 
                     var accrd_list = createElementWithClass('div', 'styl_mnu_accrd_list');
-                    accrd_list.setAttribute('id', `mnu_accrd_list_${data.record.scions[mn].scion_id}`);
+                    accrd_list.setAttribute('id', `mnu_accrd_list_${data.scions[mn].scion_id}`);
                     accrd_cntnr.appendChild(accrd_list);                   
-                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.record.scions[mn].scion_id}')`); 
+                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`); 
 
-                    for (entry in data.record.scions[mn].scions) {
+                    for (entry in data.scions[mn].scions) {
                         
-                        if (data.record.scions[mn].scions[entry].ls_type === "=>") {
+                        if (data.scions[mn].scions[entry].ls_type === "=>") {
                             var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
                             var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
                             var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                            mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${data.record.scions[mn].scions[entry].scion_id}`);
-                            mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${data.record.scions[mn].scions[entry].scion_id}`);
-                            mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${data.record.scions[mn].scions[entry].scion_id}`)
-                            mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${data.record.scions[mn].scions[entry].scion_id}')`);
-                            mnu_fldr_ttl.innerHTML = `${data.record.scions[mn].scions[entry].ls_type}&nbsp${data.record.scions[mn].scions[entry].ls_ttl}`;
+                            mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${data.scions[mn].scions[entry].scion_id}`);
+                            mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${data.scions[mn].scions[entry].scion_id}`);
+                            mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${data.scions[mn].scions[entry].scion_id}`)
+                            mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${data.scions[mn].scions[entry].scion_id}')`);
+                            mnu_fldr_ttl.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
                             
                             mnu_fldr.appendChild(mnu_fldr_ttl);
                             mnu_fldr.appendChild(mnu_fldr_cntn);
                             accrd_list.appendChild(mnu_fldr);
-                            for (entry2 in data.record.scions[mn].scions[entry].scions) {
+                            for (entry2 in data.scions[mn].scions[entry].scions) {
                                 var menu_entry2 = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                                menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                                menu_entry2.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].scions[entry2].ls_url}')`);
-                                menu_entry2.innerHTML = data.record.scions[mn].scions[entry].scions[entry2].ls_ttl;
+                                menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scions[entry2].scion_id}`);
+                                menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}')`);
+                                menu_entry2.innerHTML = data.scions[mn].scions[entry].scions[entry2].ls_ttl;
                                 mnu_fldr_cntn.appendChild(menu_entry2);
                             }
 
@@ -289,11 +289,11 @@ function whatsOnTheMenu() {
                         //     accrd_list.appendChild(menu_entry);
                         // }
 
-                        } else if (data.record.scions[mn].scions[entry].ls_type === "+>") {
+                        } else if (data.scions[mn].scions[entry].ls_type === "+>") {
                             var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                            menu_entry.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scion_id}`);
-                            menu_entry.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].ls_url}')`);
-                            menu_entry.innerHTML = `${data.record.scions[mn].scions[entry].ls_type}&nbsp${data.record.scions[mn].scions[entry].ls_ttl}`;
+                            menu_entry.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scion_id}`);
+                            menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}')`);
+                            menu_entry.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
                             accrd_list.appendChild(menu_entry);
                         }
                         
@@ -690,14 +690,14 @@ async function fetchy(zz) {
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'styl_head_tail');
-                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.record.ls_id}<br><br>`;
+                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.record.ls_ttl + " <-";
+                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 
                 headBoard.appendChild(ls_ttl);
                 headBoard.appendChild(lsid);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.record.ls_id}</strong></u>:`;
+                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
                 mainContainer.appendChild(headBoard);
                 headBoard.appendChild(directory_div);
                 directory_div.appendChild(directory_name);
@@ -705,10 +705,10 @@ async function fetchy(zz) {
                 headBoard.appendChild(headboard_tail);
                 for (i in data.record.scions) {
                     var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = generatePointer(data.record.scions[i].scion_id, i);
+                    var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
                     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.record.scions[i].scion_id}`);
-                    drct_i_ttl.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}`;
+                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
+                    drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
                     drct_i.appendChild(drct_i_pnt);
                     drct_i.appendChild(drct_i_ttl);
                     //drct_i.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}</a></span></b>`;
@@ -719,7 +719,7 @@ async function fetchy(zz) {
 
             function pop_main(data) {
                 var trst_cntnr = document.getElementById("trestleboard");
-                var trst_brnchs = data.record.scions;
+                var trst_brnchs = data.scions;
                 for (i in trst_brnchs) {
                     var brnch_id = trst_brnchs[i].scion_id;
                     var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;

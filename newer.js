@@ -679,7 +679,10 @@ async function fetchy(zz) {
             return response.json();
         })
         .then(data => {
-        console.log(data);    
+        console.log(data);
+        console.log(data.ls_id);
+        console.log(data.record);
+        console.log(data.record.ls_id);
         function gen_head(data) {                      
                 var mainContainer = document.getElementById('trestleboard');
                 var headBoard = createElementWithClass('div', 'branch_container');

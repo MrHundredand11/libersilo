@@ -226,7 +226,7 @@ function whatsOnTheMenu() {
                             for (entry2 in data.scions[mn].scions[entry].scions) {
                                 var menu_entry2 = createElementWithClass('div', 'styl_mnu_accrd_entry');
                                 menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                                menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].scions[entry2].ls_url});`);
+                                menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].scions[entry2].ls_id});`);
                                 menu_entry2.innerHTML = data.scions[mn].scions[entry].scions[entry2].ls_ttl;
                                 mnu_fldr_cntn.appendChild(menu_entry2);
                             }
@@ -293,7 +293,7 @@ function whatsOnTheMenu() {
                         } else if (data.scions[mn].scions[entry].ls_type === "+>") {
                             var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
                             menu_entry.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scion_id}`);
-                            menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].ls_url});`);
+                            menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].ls_id});`);
                             menu_entry.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
                             accrd_list.appendChild(menu_entry);
                         }

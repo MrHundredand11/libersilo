@@ -1,0 +1,100 @@
+{
+    "ls_id": "LS-DGTL-ISEC-ACSCTRL",
+    "ls_ttl": "Access Control",
+    "scions": [
+        {
+            "drct_id": "MDLS",
+            "drct_ttl": "Models of 'Access Control'",
+            "scion_id": "ls_dgtl_isec_acsctrl_mdls",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_ttl": "<span class='span_list_title'>What is</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_defn",
+                    "scions": [
+                        {
+                            "insc_type": "blade",
+                            "insc_tag": "Definition",
+                            "insc_term": "<span class='styl_main_term'>Access Control</span>",
+                            "insc_cntn": "methods used to secure data and information by verifying a user has permissions to read, write, delete, or otherwise modify it."
+                        }
+                    ]
+                },
+                {
+                    "insc_ttl": "<span class='span_list_title'>List</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>Models</span>&nbsp::",
+                    "insc_type": "stm_olst_exp",
+                    "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd",
+                    "insc_name": "<span class='span_list_title'>List</span>&nbsp&nbsp  <span class='span_tiny_words'>of </span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control Models</span><span class='span_opn_cls'>)</span>",
+                    "scions": [
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "(DAC) Discretionary Access Control",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd_dac",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Definition",
+                                    "insc_term": "<span class='styl_main_term'>Discretionary Access Control (DAC)</span>",
+                                    "insc_cntn": "is where the access control policy is determined by the owner"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "<span class='styl_main_term'>DAC</span> is commonly used"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Every object in a system must have an owner"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Every owner determines access rights and permissions for each object"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "(MAC) Mandatory Access Control",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd_mac",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "<span class='styl_main_term'>MAC</span> is a feature is FreeBSD & SELinux"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "<span class='styl_main_term'>MAC</span> is used only in high security systems due to its complex configuration."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Examples",
+                                    "insc_cntn": "<b>Unclassified</b>, <b>Confidential</b>, <b>Secret</b>, and <b>Top Secret</b> levels of classification in the military."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Implementation",
+                                    "insc_cntn": "<span class='styl_main_term'>MAC</span> is implemented through the <b>Rule-based</b> and the <b>Lattice-based</b> access control methods."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "(RBAC) Role-Based Access Control",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd_rbac"
+                        },
+                        {
+                            "type": "li_top",
+                            "insc_term": "(ABAC) Access-Based Access Control",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd_abac"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

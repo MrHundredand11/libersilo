@@ -2,6 +2,7 @@ var m_a = 'https://api.jsonbin.io/v3/b/63a19f9b01a72b59f2353a0a';
 var m_aa = 'https://api.jsonbin.io/v3/b/63aac3ff01a72b59f23a2f38';
 var m_a2 = './json/menu.json';
 var m_a3 = '/json/menu.json';
+var m_a4 = '/ls/000/am.json';
 let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
 let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";
@@ -176,7 +177,7 @@ function mnu_showHide_fldr(scion_id) {
 
 
 function whatsOnTheMenu() {
-    fetch(m_aa)
+    fetch(m_a4)
         .then(response => {
             return response.json();
         })
@@ -679,7 +680,7 @@ async function fetchy(zz) {
             return response.json();
         })
         .then(data => {
-        function gen_head(data) {                      
+            function gen_head(data) {                      
                 var mainContainer = document.getElementById('trestleboard');
                 var headBoard = createElementWithClass('div', 'branch_container');
                 
@@ -689,28 +690,28 @@ async function fetchy(zz) {
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'styl_head_tail');
-                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
+                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.record.ls_id}<br><br>`;
                
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
+                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.record.ls_ttl + " <-";
                 
                 headBoard.appendChild(ls_ttl);
                 headBoard.appendChild(lsid);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
+                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.record.ls_id}</strong></u>:`;
                 mainContainer.appendChild(headBoard);
                 headBoard.appendChild(directory_div);
                 directory_div.appendChild(directory_name);
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);
-                for (i in data.scions) {
+                for (i in data.record.scions) {
                     var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
+                    var drct_i_pnt = generatePointer(data.record.scions[i].scion_id, i);
                     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
-                    drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
+                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.record.scions[i].scion_id}`);
+                    drct_i_ttl.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}`;
                     drct_i.appendChild(drct_i_pnt);
                     drct_i.appendChild(drct_i_ttl);
-                    //drct_i.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}</a></span></b>`;
+                    //drct_i.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}</a></span></b>`;
                     directory_cntn.appendChild(drct_i);
                 }
             };
@@ -718,7 +719,7 @@ async function fetchy(zz) {
 
             function pop_main(data) {
                 var trst_cntnr = document.getElementById("trestleboard");
-                var trst_brnchs = data.scions;
+                var trst_brnchs = data.record.scions;
                 for (i in trst_brnchs) {
                     var brnch_id = trst_brnchs[i].scion_id;
                     var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;

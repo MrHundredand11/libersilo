@@ -1,0 +1,330 @@
+{
+    "ls_id": "LS-DGTL-ISEC-000",
+    "ls_ttl": "Overview of Information Security",
+    "scions": [
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_dgtl_isec_000_qccl",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_ttl": "<span class='span_list_title'>Names of</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Information Security</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_dgtl_isec_000_qccl_whatis",
+                    "scions": [
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<strong>Information Security</strong>"
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<strong>InfoSec</strong> (<strong>Info</strong>rmation <strong>Sec</strong>urity)"
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<strong>Cyber Security</strong>"
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<strong>CyberSec</strong> (<strong>Cyber Sec</strong>urity)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Information Security'",
+            "scion_id": "ls_dgtl_isec_000_000",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_name": "<span class='span_list_title'>What is</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Information Security</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_dgtl_isec_000_whatis",
+                    "scions": [
+                       {
+                            "insc_tag": "Definition",    
+                            "insc_type": "blade",
+                            "insc_term": "Information Security",
+                            "insc_cntn": "is the act of protecting data and information from unauthorized access, unlawful modification and disruption, disclosure, corruption, and destruction."
+                        },
+                        {
+                            "insc_tag": "Definition",
+                            "insc_type": "blade",
+                            "insc_term": "Information Systems Security",
+                            "insc_cntn": "is the act of protecting the systems that hold and process our critical data"
+                        }
+                    ]
+                },
+                {
+                    "insc_name": "<span class='span_list_title'>Elements of</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Information Security</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "list_extn",
+                    "scion_id": "ls_dgtl_isec_000_elementsof",
+                    "scions": [
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> supports the mission of the organization."
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> is an integral element of good, sound management."
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> protections are implements so as to be commensurate with risk."
+                        },
+                        {
+                            "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> responsibilities and accountability are made explicit."
+                        },
+                        {   "insc_type": "li_ext",
+                            "insc_cntn": "System owners have <span class='styl_main_term'>information security</span> responsibilities outside their own organizations."
+                        },
+                        {   "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> requires a comprehensive and integrated approach."
+                        },
+                        {   "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> is assessed regularly."
+                        },
+                        {   "insc_type": "li_ext",
+                            "insc_cntn": "<span class='styl_main_term'>InfoSec</span> is constrained by societal factors."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DOMN",
+            "drct_ttl": "Domains of 'Information Security'",
+            "scion_id": "ls_dgtl_isec_000_domn",
+            "scions": [
+                {
+                    "insc_name": "<span class='span_list_title'>List</span>&nbsp&nbsp  <span class='span_tiny_words'>of </span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Information Security Domains</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_olst_exp",
+                    "scion_id": "ls_dgtl_isec_000_domn_lst",
+                    "scions": [
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Application Security",
+                            "scion_id": "ls_dgtl_isec_000_domn_appsec",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "<span class='styl_main_term'>Secure application data storage</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "<span class='styl_main_term'>Application Server Configuration</span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Network Security",
+                            "scion_id": "ls_dgtl_isec_000_domn_netsec"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Hardware Security",
+                            "scion_id": "ls_dgtl_isec_000_domn_hwdsec",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_term": "<span class='styl_main_term'>Physical Infrastructure</span>",
+                                    "insc_itr": "1"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "<span class='styl_main_term'>IoT Devices</span>",
+                                    "insc_itr": "2"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "<span class='styl_main_term'>Embedded Devices</span>",
+                                    "insc_itr": "3"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "<span class='styl_main_term'>Desktops // Laptops</span> (<em>Disk Encryption / DLP</em>)",
+                                    "insc_itr": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Physical Security",
+                            "scion_id": "ls_dgtl_isec_000_domn_physec",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Physical Access Control</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Badging System // Employee Badges</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Gates</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Mantraps</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Guest Check-In Procedures</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Security Guards</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>CCTV</span>"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Prevention",
+                                    "insc_cntn": "<span class='styl_main_term'>Alarm Systems</span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CNCS",
+            "drct_ttl": "Enterprise Environment Concerns + Concepts",
+            "scion_id": "ls_dgtl_isec_000_cncs",
+            "scions": [
+                {
+                    "insc_name": "<span class='span_list_title'>List</span>&nbsp&nbsp  <span class='span_tiny_words'>of </span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Security Concepts</span><span class='span_opn_cls'>)</span><span class='span_tiny_words'> in an </span><span class='span_list_title'>Enterprise Environment</span>",
+                    "insc_type": "stm_olst_exp",
+                    "scion_id": "ls_dgtl_isec_cncs_lst",
+                    "scions": [
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Configuration Management",
+                            "scion_id": "ls_dgtl_isec_000_cncs_cnfgmgmt",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Definition",
+                                    "insc_term": "Configuration Management",
+                                    "insc_cntn": "is the management and control of configurations for an information system with the goal of enabling security and managing risk."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "Standards are maintained to:",
+                                    "scions": [
+                                        {
+                                            "insc_cntn": "Standardize the environment"
+                                        },
+                                        {
+                                            "insc_cntn": "Set Baselines to Understand \"Normal\""
+                                        },
+                                        {
+                                            "insc_cntn": "Identify Conflicts // Collissions // Changes"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Data Sovereignty",
+                            "scion_id": "ls_dgtl_isec_000_cncs_dtsvrgnty",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "When data is stored electronically, it is subject to the laws of the country in which it's located."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Who owns the data?"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Who has access to the data?"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Who can mine the data?"
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Laws governing data use, access, storage, and deletion vary from country to country."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Data Protection",
+                            "scion_id": "ls_dgtl_isec_000_cncs_dtprtct"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Geographical Considerations",
+                            "scion_id": "ls_dgtl_isec_000_cncs_geocnsdr",
+                            "scions": [
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "'Where people log in from' can identify potential security issues."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Suspicious Activity",
+                                    "insc_cntn": "Logins from geographically diverse areas within a short period of time (unless VPN'd)."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Suspicious Activity",
+                                    "insc_cntn": "Logins from foreign countries."
+                                },
+                                {
+                                    "insc_type": "blade",
+                                    "insc_tag": "Suspicious Activity",
+                                    "insc_cntn": "Unusual or flagged IP Blocks."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Site Resiliency",
+                            "scion_id": "ls_dgtl_isec_000_cncs_strslncy"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Deception + Disruption",
+                            "scion_id": "ls_dgtl_isec_000_cncs_dcpdsrp"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

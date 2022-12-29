@@ -153,9 +153,7 @@ function showHideStmExp(lf_id) {
 function mnu_showHide_top(scion_id) {
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");
-    console.log(cnt);
     var panel = document.getElementById(`mnu_accrd_list_${scion_id}`);
-    console.log(panel);
     if (panel.style.display === "block") {
         panel.style.display = "none";
     } else {
@@ -165,14 +163,17 @@ function mnu_showHide_top(scion_id) {
 function mnu_showHide_fldr(scion_id) {
     var cnt = document.getElementById(`mnu_accrd_fldr_${scion_id}`);
     cnt.classList.toggle("styl_mnu_accrd_fldr_active");
-    console.log(cnt);
     var panel = document.getElementById(`mnu_accrd_fldr_cntn_${scion_id}`);
-    console.log(panel);
     if (panel.style.display === "block") {
         panel.style.display = "none";
     } else {
         panel.style.display = "block";
     }
+}
+
+function mnu_active_entry(scion_id) {
+    var cnt = document.getElementById(`mnu_accrd_entry_${scion_id}`);
+    cnt.classList.toggle("active");
 }
 
 
@@ -225,7 +226,7 @@ function whatsOnTheMenu() {
                             for (entry2 in data.scions[mn].scions[entry].scions) {
                                 var menu_entry2 = createElementWithClass('div', 'styl_mnu_accrd_entry');
                                 menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                                menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}')`);
+                                menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].scions[entry2].ls_url});`);
                                 menu_entry2.innerHTML = data.scions[mn].scions[entry].scions[entry2].ls_ttl;
                                 mnu_fldr_cntn.appendChild(menu_entry2);
                             }
@@ -292,7 +293,7 @@ function whatsOnTheMenu() {
                         } else if (data.scions[mn].scions[entry].ls_type === "+>") {
                             var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
                             menu_entry.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scion_id}`);
-                            menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}')`);
+                            menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}'); mnu_active_entry(${data.scions[mn].scions[entry].ls_url});`);
                             menu_entry.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
                             accrd_list.appendChild(menu_entry);
                         }

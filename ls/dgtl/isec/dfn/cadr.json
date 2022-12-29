@@ -1,0 +1,41 @@
+{
+    "ls_id": "LS-DGTL-ISEC-DFN-CADR",
+    "ls_ttl": "Continuity Assurance + Disaster Recovery",
+    "scions": [
+        {
+            "drct_id": "RDND",
+            "drct_ttl": "Areas of Redundancy",
+            "scion_id": "ls_dgtl_isec_dfn_cadr_rdnd",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_ttl": "<span class='span_list_title'>List</span> of <span class='span_list_title'>Areas</span> with <span class='span_opn_cls'>(</span><span class='span_obj_name'>Required Redundancy</span><span class='span_opn_cls'>)</span> ::",
+                    "insc_type": "stm_olst_exp",
+                    "scion_id": "ls_dgtl_isec_dfn_cadr_rdnd_reqred",
+                    "scions": [
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Power Redundancy"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Data Redundancy"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Network Redundancy"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Server Redundancy"
+                        },
+                        {
+                            "insc_type": "li_top",
+                            "insc_term": "Site Redundancy"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

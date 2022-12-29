@@ -703,7 +703,7 @@ async function fetchy(zz) {
                 directory_div.appendChild(directory_name);
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);
-                for (i in data.record.scions) {
+                for (i in data.scions) {
                     var drct_i = createElementWithClass('div', 'styl_drct_item');
                     var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
                     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');

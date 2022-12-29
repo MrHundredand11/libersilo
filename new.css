@@ -365,6 +365,7 @@ a {
     display: none;
     left: 23px;
     margin-top: 7px;
+    padding-right: 17px;
     padding-inline-start: 0px;
     width: 97%;
 }
@@ -724,6 +725,7 @@ a {
     padding-top: 7px;
     padding-bottom: 7px;
     padding-right: 7px;
+    margin-right: 11px;
     border: 1px solid black;
     border-radius: 7px;
     width: -moz-fit-content;

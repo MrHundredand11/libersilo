@@ -679,10 +679,6 @@ async function fetchy(zz) {
             return response.json();
         })
         .then(data => {
-        console.log(data);
-        console.log(data.ls_id);
-        console.log(data.record);
-        console.log(data.record.ls_id);
         function gen_head(data) {                      
                 var mainContainer = document.getElementById('trestleboard');
                 var headBoard = createElementWithClass('div', 'branch_container');
@@ -693,28 +689,28 @@ async function fetchy(zz) {
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'styl_head_tail');
-                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.record.ls_id}<br><br>`;
+                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.record.ls_ttl + " <-";
+                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 
                 headBoard.appendChild(ls_ttl);
                 headBoard.appendChild(lsid);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.record.ls_id}</strong></u>:`;
+                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
                 mainContainer.appendChild(headBoard);
                 headBoard.appendChild(directory_div);
                 directory_div.appendChild(directory_name);
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);
-                for (i in data.record.scions) {
+                for (i in data.scions) {
                     var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = generatePointer(data.record.scions[i].scion_id, i);
+                    var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
                     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.record.scions[i].scion_id}`);
-                    drct_i_ttl.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}`;
+                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
+                    drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
                     drct_i.appendChild(drct_i_pnt);
                     drct_i.appendChild(drct_i_ttl);
-                    //drct_i.innerHTML = `${data.record.scions[i].drct_id} = ${data.record.scions[i].drct_ttl}</a></span></b>`;
+                    //drct_i.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}</a></span></b>`;
                     directory_cntn.appendChild(drct_i);
                 }
             };
@@ -722,7 +718,7 @@ async function fetchy(zz) {
 
             function pop_main(data) {
                 var trst_cntnr = document.getElementById("trestleboard");
-                var trst_brnchs = data.record.scions;
+                var trst_brnchs = data.scions;
                 for (i in trst_brnchs) {
                     var brnch_id = trst_brnchs[i].scion_id;
                     var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;

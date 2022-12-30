@@ -202,11 +202,13 @@
                         },
                         {
                             "ls_ttl": "Access Control",
+                            "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
                             "scion_id": "ls_dgtl_isec_dfn_acsctrl"
                         },
                         {
                             "ls_ttl": "Continuity Assurance + Disaster Recovery",
+                            "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
                             "scion_id": "ls_dgtl_isec_dfn_cadr"
                         },

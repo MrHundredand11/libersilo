@@ -532,6 +532,7 @@
             "ls_id": "LS-LULS",
             "ls_ttl": "Line Upon Line Scriptures + Spirituality",
             "ls_type": "->",
+            "scion_id": "ls_luls",
             "scions": [
                 {
                     "ls_id": "LS-LULS-000",
@@ -542,11 +543,13 @@
                     "ls_id": "LS-LULS-APOC",
                     "ls_ttl": "The Apocryphal Scriptures",
                     "ls_type": "=>",
+                    "scion_id": "ls_luls_apoc",
                     "scions": [
                         {
                             "ls_id": "LS-LULS-APOC-ESDRS2",
                             "ls_ttl": "The Second Book of Esdras",
                             "ls_type": "=>",
+                            "scion_id": "ls_luls_apoc_esdrs2",
                             "scions": [
                                 {
                                     "ls_id": "LS-LULS-APOC-ESDRS2-C02",
@@ -561,6 +564,7 @@
                     "ls_id": "LS-LULS-BBL",
                     "ls_ttl": "Books of The Bible",
                     "ls_type": "=>",
+                    "scion_id": "ls_luls_bbl",
                     "scions": [
                         {
                             "ls_id": "LS-LULS-BBL-000",

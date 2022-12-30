@@ -263,10 +263,10 @@ function whatsOnTheMenu() {
                         }
                     }
 
-                    for (ent in data.scions[mn]) {
-                        console.log(data.scions[mn].scions[ent].ls_ttl);
-                        console.log(gen_men(data.scions[mn].scions[ent]));
-                    }
+                    // for (ent in data.scions[mn]) {
+                    //     console.log(data.scions[mn].scions[ent].ls_ttl);
+                    //     console.log(gen_men(data.scions[mn].scions[ent]));
+                    // }
 
                     // for (i in data.scions) {
                     //     var drct_i = createElementWithClass('div', 'styl_drct_item');

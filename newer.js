@@ -214,10 +214,13 @@ function whatsOnTheMenu() {
                     var accrd_list = createElementWithClass('div', 'styl_mnu_accrd_list');
                     accrd_list.setAttribute('id', `mnu_accrd_list_${data.scions[mn].scion_id}`);
                     accrd_cntnr.appendChild(accrd_list);                   
-                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`); 
+                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`);
+                    
+                    console.log(data.scions[mn].ls_id);
+                    console.log(data.scions[mn]);
 
 
-                    function gen_men (mnu) {
+                    function gen_men(mnu) {
                         switch (mnu.ls_type) {
                             case '=>':
                                 var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
@@ -263,9 +266,11 @@ function whatsOnTheMenu() {
                         }
                     }
 
+                    
+
                     // for (ent in data.scions[mn]) {
                     //     console.log(data.scions[mn].scions[ent].ls_ttl);
-                    //     console.log(gen_men(data.scions[mn].scions[ent]));
+                    //     //console.log(gen_men(data.scions[mn].scions[ent]));
                     // }
 
                     // for (i in data.scions) {
@@ -372,10 +377,6 @@ function whatsOnTheMenu() {
                         
                     }
                 menu_tablet.appendChild(accrd_cntnr);
-
-                   
-                
-            
                 m_btm.appendChild(menu_tablet);
             }
             genMen(data);

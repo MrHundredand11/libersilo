@@ -1,1134 +1,1020 @@
-let m_a4 = '/ls/000/am.json';
-let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
-let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
-let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";
-let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
-let bmp_brnch_top = "<div class='bumpers'>---<br>--- ---<br>--- --- ---</div>"
-let bmp_stem_top = "<div class='bumpers'>--- ---<br>--- --- ---</div>";
-let bmp_stem_bttm = "<div class='bump_butt'>---- ---- ----<br>---- ----</div>";
-let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
-let bmp_stem_cycl = "<div class='styl_stem_cycl bumpers'><br>------- ------- -------<br>------- -------<br>-------</div>";
-let bmp_stem_exli = "<div class='bumper'>---<br>--- ---<br></div>";
-let bmp_stem_exli_bttm = "<div class='styl_stem_tail'><br>---- ----<br>----<br></div>";
-let bmp_brnch_tail = "<div class='styl_stem_tail'>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----</div>";
-let bmp_sld_01 = "\\_";
-let bmp_def = "&nbsp=&nbsp";
-let bmp_stm_02 = "-- --<br>-- -- --<br>";
-
-function fillErUp(x) {
-    fetchy(x);
-};
-
-function createElementWithClass(type, className) {
-    const element = document.createElement(type);
-    element.className = className;
-    return element;
-}
-
-function gen_ECI(type, className, id) {
-    const element = document.createElement(type);
-    element.className = className;
-    element.setAttribute('id', id);
-    return element;
-}
-
-function shovelDigging(scion_id) {
-    var shvl = document.getElementById("id_b_p_" + scion_id).className;    
-    switch(shvl) {
-        case 'styl_shvl_s0':
-            document.getElementById('id_b_bmp_top_' + scion_id).style.display = "block";
-            document.getElementById('id_b_bmp_btm_' + scion_id).style.display = "block";
-            document.getElementById('id_b_trstlbrd_' + scion_id).style.display = "block";
-            document.getElementById('id_b_p_' + scion_id).classList.remove('styl_shvl_s0');
-            document.getElementById('id_b_p_' + scion_id).classList.add('styl_shvl_s1');
-            document.getElementById('id_b_cntnr_' + scion_id).classList.add('styl_brnch_hide');
-            document.getElementById('id_b_cntnr_' + scion_id).classList.remove('styl_stm_show');
-            break;
-
-        case 'styl_shvl_s1':
-            document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s2');
-            break;
-
-        case 'styl_shvl_s2':
-            document.getElementById('id_b_bmp_top_' + scion_id).style.display = "none";
-            document.getElementById('id_b_bmp_btm_' + scion_id).style.display = "none";
-            document.getElementById('id_b_trstlbrd_' + scion_id).style.display = "none";
-            document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s0');
-            break;
-    }
-    
-
-}
-
-function showHideStem(scion_id) {
-    var stm_clss = document.getElementById("id_stm_cntnr_" + scion_id).className;
-    if (stm_clss.includes('stt_show')) {
-        document.getElementById('id_stm_bmp_top_' + scion_id).style.display = "none";
-        document.getElementById('id_stm_bmp_btm_' + scion_id).style.display = "none";
-        document.getElementById('id_stm_trstlbrd_' + scion_id).style.display = "none";
-        document.getElementById('id_stm_cntnr_' + scion_id).classList.add('stt_hide');
-        document.getElementById('id_stm_cntnr_' + scion_id).classList.remove('stt_show');
-    } else if (stm_clss.includes('stt_hide')) {
-        document.getElementById('id_stm_bmp_top_' + scion_id).style.display = "block";
-        document.getElementById('id_stm_bmp_btm_' + scion_id).style.display = "block";
-        document.getElementById('id_stm_trstlbrd_' + scion_id).style.display = "block";
-        document.getElementById('id_stm_cntnr_' + scion_id).classList.add('stt_show');
-        document.getElementById('id_stm_cntnr_' + scion_id).classList.remove('stt_hide');
-    }
-    
-
-}
-
-function showHideTwig(scion_id) {
-    var twg_clss = document.getElementById("id_twg_cntnr_" + scion_id).className;
-    if (twg_clss.includes('stt_show')) {
-        document.getElementById('id_twg_bmp_top_' + scion_id).style.display = "none";
-        document.getElementById('id_twg_bmp_btm_' + scion_id).style.display = "none";
-        document.getElementById('id_twg_trstlbrd_' + scion_id).style.display = "none";
-        document.getElementById('id_twg_cntnr_' + scion_id).classList.add('stt_hide');
-        document.getElementById('id_twg_cntnr_' + scion_id).classList.remove('stt_show');
-    } else if (twg_clss.includes('stt_hide')) {
-        document.getElementById('id_twg_bmp_top_' + scion_id).style.display = "block";
-        document.getElementById('id_twg_bmp_btm_' + scion_id).style.display = "block";
-        document.getElementById('id_twg_trstlbrd_' + scion_id).style.display = "block";
-        document.getElementById('id_twg_cntnr_' + scion_id).classList.add('stt_show');
-        document.getElementById('id_twg_cntnr_' + scion_id).classList.remove('stt_hide');
-    }
-}
-
-function showHideStmExp(lf_id) {
-    var twg_clss = document.getElementById(`${lf_id}_lf_stm_olst_exp`).className;
-   // `${lf_id}_stm_olst_exp`
-   console.log(twg_clss);
-    if (twg_clss.includes('stt_show')) {
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "none";
-        console.log("1");
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "none";
-        console.log("2");
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "none";
-        console.log("3");
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.add('stt_hide');
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.remove('stt_show');
-    } else if (twg_clss.includes('stt_hide')) {
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.add('stt_show');
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.remove('stt_hide');
-    }
-}
-
-// function createBranch(name, scion_id) {
-//     var mainContainer = document.getElementById("trestleboard");
-//     mainContainer.innerHTML = "";
-    
-//     var brnch_cntnr = createElementWithClass('div', 'styl_brnch_cntnr');
-//     var brnch_bmp_top = createElementWithClass('div', 'styl_brnch_bmp_top');
-//     var brnch_nametag = createElementWithClass('div', 'styl_brnch_nametag');
-//     var brnch_trstlbrd = createElementWithClass('div', 'styl_brnch_trstlbrd');
-//     var brnch_bmp_btm = createElementWithClass('div', 'styl_brnch_bmp_btm');
-
-//     brnch_cntnr.setAttribute('id', ('b_id_cntnr_' + scion_id));
-//     brnch_bmp_top.setAttribute('id', ('b_id_bmp_top_' + scion_id));
-//     brnch_nametag.setAttribute('id', ('b_id_nametag_' + scion_id));
-//     brnch_trstlbrd.setAttribute('id', ('b_id_trstlbrd_' + scion_id));
-//     brnch_bmp_btm.setAttribute('id', ('b_id_bmp_btm_' + scion_id));
-
-//     brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
-//     brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-//     brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='b_id_p_${scion_id}' onclick='shovelDigging(\"${scion_id}\")'>-></span> <span class='styl_brnch_nametag_name'>Directory to ${name}</span>:`;
-
-//     brnch_cntnr.appendChild(brnch_bmp_top);
-//     brnch_cntnr.appendChild(brnch_nametag);
-//     brnch_cntnr.appendChild(brnch_trstlbrd);
-//     brnch_cntnr.appendChild(brnch_bmp_btm);
-//     mainContainer.appendChild(brnch_cntnr);
-//     return;
-// };
-
-function mnu_showHide_top(scion_id) {
-    var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
-    cnt.classList.toggle("active");
-    var panel = document.getElementById(`mnu_accrd_list_${scion_id}`);
-    if (panel.style.display === "block") {
-        panel.style.display = "none";
-    } else {
-        panel.style.display = "block";
-    }
-}
-function mnu_showHide_fldr(scion_id) {
-    var cnt = document.getElementById(`mnu_accrd_fldr_${scion_id}`);
-    cnt.classList.toggle("styl_mnu_accrd_fldr_active");
-    var panel = document.getElementById(`mnu_accrd_fldr_cntn_${scion_id}`);
-    if (panel.style.display === "block") {
-        panel.style.display = "none";
-    } else {
-        panel.style.display = "block";
-    }
-}
-
-function mnu_active_entry(scion_id) {
-    var cnt = document.getElementById(`mnu_accrd_entry_${scion_id}`);
-    cnt.classList.toggle("active");
-
-    if (cnt.style['background-color'] === '#F0F0F0') {
-        cnt.style['background-color'] = '#B0B0B0';
-    } else {
-        cnt.style['background-color'] = '#F0F0F0';
-    }
-}
-
-
-function whatsOnTheMenu() {
-    fetch(m_a4)
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
-            function genMen(data) {
-                var m_top = document.getElementById('id_mnu_top');
-                var m_btm = document.getElementById('id_mnu_btm');
-                var menu_tablet = createElementWithClass('div', 'styl_menu_tablet');
-                var side_seal = createElementWithClass('div', 'styl_side_seal');
-                side_seal.setAttribute('onclick', 'homeFetch()');
-                side_seal.innerHTML = "<img src='Seal.jpg' width='111' height='111'></img><br>-> Menu <-<br>";
-                m_top.appendChild(side_seal);
-
-                // for (x1 in data.scions) {
-                //     console.log(gen_menu(data.scions[x1]));
-                // }
-
-
-
-                
-
-                for (mn in data.scions) {
-                    var accrd_cntnr = createElementWithClass('div', 'styl_mnu_accrd_cntnr');
-                    var accrd_ttl = createElementWithClass('div', 'styl_mnu_accrd_ttl');
-                    
-                    accrd_cntnr.setAttribute('id', `mnu_accrd_cntnr_${data.scions[mn].scion_id}`);
-                    accrd_ttl.setAttribute('id', `mnu_accrd_ttl_${data.scions[mn].scion_id}`)
-                    accrd_ttl.innerHTML = `${data.scions[mn].ls_ttl}`;
-                    accrd_cntnr.appendChild(accrd_ttl);
-
-                    var accrd_list = createElementWithClass('div', 'styl_mnu_accrd_list');
-                    accrd_list.setAttribute('id', `mnu_accrd_list_${data.scions[mn].scion_id}`);
-                    accrd_cntnr.appendChild(accrd_list);                   
-                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`);
-                    
-                    console.log(data.scions[mn].ls_id);
-                    console.log(data.scions[mn]);
-                    for (mnu in data.scions[mn].scions) {
-                        console.log(data.scions[mn].scions[mnu]);
-                        console.log(data.scions[mn].scions[mnu].ls_id);
-                        console.log(data.scions[mn].scions[mnu].ls_ttl);
-                        console.log(data.scions[mn].scions[mnu].scions);
-                    }
-
-
-                    function gen_men(mnu) {
-                        switch (mnu.ls_type) {
-                            case '=>':
-                                var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
-                                var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
-                                var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                                mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${mnu.scion_id}`);
-                                mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${mnu.scion_id}`);
-                                mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${mnu.scion_id}`)
-                                mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${mnu.scion_id}')`);
-                                mnu_fldr_ttl.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
-                            
-                                mnu_fldr.appendChild(mnu_fldr_ttl);
-                                mnu_fldr.appendChild(mnu_fldr_cntn);
-                                accrd_list.appendChild(mnu_fldr);
-
-                                console.log(mnu.ls_id);
-                                    console.log(mnu.ls_ttl);
-                                    console.log(mnu.ls_type);
-
-                                // for (mnu_i in mnu.scions) {
-                                //     console.log(mnu_i.ls_id);
-                                //     console.log(mnu_i.ls_ttl);
-                                //     console.log(mnu_i.ls_type);
-                                //     console.log(mnu.scions[mnu_i].ls_id);
-                                //     console.log(mnu.scions[mnu_i].ls_ttl);
-                                //     console.log(mnu.scions[mnu_i].ls_type);
-                                //     console.log(gen_men(mnu.scions[mnu_i]));
-                                //     mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
-                                // }
-                                return mnu_fldr;
-
-                            case '+>':
-                            console.log(mnu.ls_id);
-                            console.log(mnu.ls_ttl);
-                            console.log(mnu.ls_type);    
-                            // var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                            //     menu_entry.setAttribute('id', `mnu_accrd_entry_${mnu.scion_id}`);
-                            //     menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);
-                            //     menu_entry.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
-                            //     accrd_list.appendChild(menu_entry);
-                            //     return menu_entry;
-                                break;
+{
+    "ls_ttl": "Accordian Menu to Liber Silo",
+    "ls_id": "ls_000_drct",
+    "scions": [
+        {
+            "ls_id": "LS-000",
+            "ls_ttl": "Overview",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_000",
+            "scions": [
+                {
+                    "ls_id": "LS-000-ABOUT",
+                    "ls_ttl": "About the Author + Compiler",
+                    "ls_type": "+>",
+                    "ls_url": "",
+                    "scion_id": "ls_000_about"
+                },
+                {
+                    "ls_id": "LS-000-CITE",
+                    "ls_ttl": "Citation Lists",
+                    "ls_type": "+>",
+                    "ls_url": "https://api.jsonbin.io/v3/b/63ab10afdfc68e59d5721014",
+                    "scion_id": "ls_000_cite"
+                },
+                {
+                    "ls_id": "LS-000-DRCT",
+                    "ls_ttl": "Directory to 'Liber Silo'",
+                    "ls_type": "+>",
+                    "ls_url": "",
+                    "scion_id": "ls_000_drct"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-DGTL",
+            "ls_ttl": "Digital Realms",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_dgtl",
+            "scions": [
+                {
+                    "ls_ttl": "Automation Intelligence",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_ai",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-AI-000",
+                            "ls_ttl": "Overview of 'Automation Intelligence'",
+                            "scion_id": "ls_dgtl_ai_000",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-CLD",
+                            "ls_ttl": "AI Cloud Offerings",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-ML",
+                            "ls_ttl": "Machine Learning",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-NLP",
+                            "ls_ttl": "Natural Language Processing",
+                            "ls_type": "+>"
                         }
-                    }
-
-                    
-
-                    // for (ent in data.scions[mn]) {
-                    //     console.log(data.scions[mn].scions[ent].ls_ttl);
-                    //     //console.log(gen_men(data.scions[mn].scions[ent]));
-                    // }
-
-                    // for (i in data.scions) {
-                    //     var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    //     var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
-                    //     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    //     drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
-                    //     drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
-                    //     drct_i.appendChild(drct_i_pnt);
-                    //     drct_i.appendChild(drct_i_ttl);
-                    //     directory_cntn.appendChild(drct_i);
-                    // }
-                    
-
-                    // for (entry in data.scions[mn].scions) {
-                        
-                    //     if (data.scions[mn].scions[entry].ls_type === "=>") {
-                    //         var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
-                    //         var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
-                    //         var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                    //         mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${data.scions[mn].scions[entry].scion_id}`);
-                    //         mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${data.scions[mn].scions[entry].scion_id}`);
-                    //         mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${data.scions[mn].scions[entry].scion_id}`)
-                    //         mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${data.scions[mn].scions[entry].scion_id}')`);
-                    //         mnu_fldr_ttl.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
-                            
-                    //         mnu_fldr.appendChild(mnu_fldr_ttl);
-                    //         mnu_fldr.appendChild(mnu_fldr_cntn);
-                    //         accrd_list.appendChild(mnu_fldr);
-                    //         for (entry2 in data.scions[mn].scions[entry].scions) {
-                    //             var menu_entry2 = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //             menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                    //             menu_entry2.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].scions[entry2].ls_url}'); mnu_active_entry('${data.scions[mn].scions[entry].scions[entry2].scion_id}');`);
-                    //             menu_entry2.innerHTML = data.scions[mn].scions[entry].scions[entry2].ls_ttl;
-                    //             mnu_fldr_cntn.appendChild(menu_entry2);
-                    //         }
-
-                    //         // if (data.record.scions[mn].scions[entry].ls_type === "=>") {
-                    //         //     var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
-                    //         //     var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
-                    //         //     var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                    //         //     mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${data.record.scions[mn].scions[entry].scion_id}`);
-                    //         //     mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${data.record.scions[mn].scions[entry].scion_id}`);
-                    //         //     mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${data.record.scions[mn].scions[entry].scion_id}`)
-                    //         //     mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${data.record.scions[mn].scions[entry].scion_id}')`);
-                    //         //     mnu_fldr_ttl.innerHTML = `${data.record.scions[mn].scions[entry].ls_type}&nbsp${data.record.scions[mn].scions[entry].ls_ttl}`;
-                                
-                    //         //     mnu_fldr.appendChild(mnu_fldr_ttl);
-                    //         //     mnu_fldr.appendChild(mnu_fldr_cntn);
-                    //         //     accrd_list.appendChild(mnu_fldr);
-
-                    //             // for (entry3 in data.record.scions[mn].scions[entry].scions[entry2].scions) {
-                    //             //     var menu_entry3 = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //             //     menu_entry3.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scions[entry2].scions[entry3].scion_id}`);
-                    //             //     menu_entry3.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].scions[entry2].ls_url}')`);
-                    //             //     menu_entry3.innerHTML = data.record.scions[mn].scions[entry].scions[entry3].ls_ttl;
-                    //             //     mnu_fldr_cntn.appendChild(menu_entry3);
-
-                    //             //     // if (data.record.scions[mn].scions[entry].scions[entry2].ls_type === "=>") {
-                    //             //     //     var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
-                    //             //     //     var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
-                    //             //     //     var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                    //             //     //     mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${data.record.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                    //             //     //     mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${data.record.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                    //             //     //     mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${data.record.scions[mn].scions[entry].scions[entry2].scion_id}`)
-                    //             //     //     mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${data.record.scions[mn].scions[entry].scions[entry2].scion_id}')`);
-                    //             //     //     mnu_fldr_ttl.innerHTML = `${data.record.scions[mn].scions[entry].scions[entry2].ls_type}&nbsp${data.record.scions[mn].scions[entry].scions[entry2].ls_ttl}`;
-                                        
-                    //             //     //     mnu_fldr.appendChild(mnu_fldr_ttl);
-                    //             //     //     mnu_fldr.appendChild(mnu_fldr_cntn);
-                    //             //     //     menu_entry3.appendChild(mnu_fldr);
-                    //             //     //     for (entry2 in data.record.scions[mn].scions[entry].scions) {
-                    //             //     //         var menu_entry2 = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //             //     //         menu_entry2.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scions[entry2].scions[entry2].scion_id}`);
-                    //             //     //         menu_entry2.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].scions[entry2].scions[entry2].ls_url}')`);
-                    //             //     //         menu_entry2.innerHTML = data.record.scions[mn].scions[entry].scions[entry2].scions[entry2].ls_ttl;
-                    //             //     //         mnu_fldr_cntn.appendChild(menu_entry2);
-                    //             //     //     }
-                                        
-                    //             //     // } else if (data.record.scions[mn].scions[entry].scions[entry2].ls_type === "+>") {
-                    //             //     //     var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //             //     //     menu_entry.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scions[entry2].scion_id}`);
-                    //             //     //     menu_entry.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].scions[entry2].ls_url}')`);
-                    //             //     //     menu_entry.innerHTML = `${data.record.scions[mn].scions[entry].scions[entry2].ls_type}&nbsp${data.record.scions[mn].scions[entry].scions[entry2].ls_ttl}`;
-                    //             //     //     accrd_list.appendChild(menu_entry);
-                    //             //     // }
-                    //             // }
-                            
-                    //     // } else if (data.record.scions[mn].scions[entry].ls_type === "+>") {
-                    //     //     var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //     //     menu_entry.setAttribute('id', `mnu_accrd_entry_${data.record.scions[mn].scions[entry].scion_id}`);
-                    //     //     menu_entry.setAttribute('onclick', `fillErUp('${data.record.scions[mn].scions[entry].ls_url}')`);
-                    //     //     menu_entry.innerHTML = `${data.record.scions[mn].scions[entry].ls_type}&nbsp${data.record.scions[mn].scions[entry].ls_ttl}`;
-                    //     //     accrd_list.appendChild(menu_entry);
-                    //     // }
-
-                    //     } else if (data.scions[mn].scions[entry].ls_type === "+>") {
-                    //         var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                    //         menu_entry.setAttribute('id', `mnu_accrd_entry_${data.scions[mn].scions[entry].scion_id}`);
-                    //         menu_entry.setAttribute('onclick', `fillErUp('${data.scions[mn].scions[entry].ls_url}'); mnu_active_entry('${data.scions[mn].scions[entry].scion_id}');`);
-                    //         menu_entry.innerHTML = `${data.scions[mn].scions[entry].ls_type}&nbsp${data.scions[mn].scions[entry].ls_ttl}`;
-                    //         accrd_list.appendChild(menu_entry);
-                    //     }
-                        
-                    }
-                menu_tablet.appendChild(accrd_cntnr);
-                m_btm.appendChild(menu_tablet);
-            }
-            genMen(data);
-        })
-        .catch(err => {
-            console.log(err);
-        })
-};
-whatsOnTheMenu();
-
-function rotatePointer(pnt_id) {
-    var pnt_stt = document.getElementById(pnt_id);
-    
-    if (pnt_stt.className.includes('styl_pnt_0deg')) {
-        pnt_stt.classList.add('styl_pnt_30deg');
-        pnt_stt.classList.remove('styl_pnt_0deg');
-        //style.rotate = "30deg";
-        console.log(pnt_stt.classList);
-    } else if (pnt_stt.className.includes('styl_pnt_30deg')) {
-        pnt_stt.classList.add('styl_pnt_0deg');
-        pnt_stt.classList.remove('styl_pnt_30deg');
-        console.log(pnt_stt.classList);
-    }
-    
-};
-            
-function generatePointer(idx, lf_i) {
-    const idx2 = `id_pnt_${idx}_${lf_i}`;
-    var pnter = createElementWithClass('div', 'styl_pointers');
-    pnter.classList.add('styl_pnt_0deg');
-    pnter.setAttribute('id', idx2);
-    pnter.setAttribute('onclick', `rotatePointer('${idx2}')`);
-    pnter.innerHTML = "+>&nbsp";
-    //let pnt_plus_p = "<div class='styl_pointers' style='display: inline-block' onclick='rotatePointer(" + idx2 + ")' id='" + idx2 + "'>+> </div>";
-    return pnter;
-};
-
-function generateLeafIdNum(scion_id, lf_i) {
-    
-    if (scion_id == undefined) {
-        var randy = (Math.floor(Math.random() * (111 - 1) + 1)) * (Math.floor(Math.random() * (111 - 1) + 1)) * ((Math.floor(Math.random() * 111) + 1));
-        var rando = randy * randy * randy;
-        const lf_idx = "lf_" + rando + "_" + lf_i;
-        var lf_id = `id_lf_${lf_idx}_${lf_i}`;
-        console.log(lf_id);
-    } else {
-        var lf_id = `id_lf_${scion_id}_${lf_i}`;
-    }
-    return lf_id;
-};
-function generateBladeIdNum(scion_id, lf_i) {
-    //var randy = (Math.floor(Math.random() * (111 - 1) + 1)) * (Math.floor(Math.random() * (111 - 1) + 1)) * ((Math.floor(Math.random() * 111) + 1));
-    //var rando = randy * randy * randy;
-    //const lf_id = "lf_" + rando + "_" + xx;
-    var bld_id = `id_lf_bld_${scion_id}_${lf_i}`;
-    return bld_id;
-};
-
-function generateLeafletIdNum(xx) {
-    var randy = (Math.floor(Math.random() * (111 - 1) + 1)) * (Math.floor(Math.random() * (111 - 1) + 1)) * ((Math.floor(Math.random() * 111) + 1));
-    var rando = randy * randy * randy;
-    const leaflet_id = "leaflet_" + rando + "_" + xx;
-    return leaflet_id;
-}
-
-function generateTag(lf_id, twig_tag) {
-    var lf_tag_id = `${lf_id}_tag`;
-    var lf_tag_full = createElementWithClass('div', 'styl_tag');
-    lf_tag_full.setAttribute('id', lf_tag_id);
-    lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
-    lf_tag_full.innerHTML = `[${twig_tag}] ::&nbsp`;
-    return lf_tag_full;
-}
-
-function showHide(idx) {
-    var bld_cntn = document.getElementById(`${idx}_cntn`);
-    if (document.getElementById(`${idx}_cntn`).className.includes('stt_show')) {
-        document.getElementById(`${idx}_tag`).style.fontStyle = "normal";
-        bld_cntn.style.display = "none";
-        bld_cntn.classList.add('stt_hide');
-        bld_cntn.classList.remove('stt_show');
-    } else if (document.getElementById(`${idx}_cntn`).className.includes('stt_hide')) {
-        document.getElementById(`${idx}_tag`).style.fontStyle = "italic";
-        bld_cntn.style.display = "inline-block";
-        bld_cntn.classList.add('stt_show');
-        bld_cntn.classList.remove('stt_hide');
-    }
-}
-
-function generateBranchID(pnt) {
-    const brnch_id = "brnch_id_" + pnt;
-}
-
-function gen_term(lf_id, lf_term) {
-    if (lf_term == undefined) {
-        return undefined;
-    } else {
-        const term_id = "term_" + lf_id;
-        var term = createElementWithClass('div', 'styl_main_term');
-        term.setAttribute('id', term_id);
-        term.innerHTML = lf_term;
-        var term_pkg = `<span class='styl_main_term' id='${term_id}'>${lf_term}</span>`;
-        return term;
-    }
-}           
-
-
-            // function gen_leaflet(lf, leaf_cntn) {
-            //     var entries = createElementWithClass('li', 'styl_list_entry_ext');
-            //     var leaflet_id = generateLeafletIdNum(lf);
-            //     var pnter = generatePointer(leaflet_id);
-            //     var cntn_full = generateCntn(leaflet_id, leaf_cntn);  
-            //     var leaflet_full = pnter + " " + cntn_full;                  
-            //     entries.innerHTML = leaflet_full;
-            //     return entries;
-            // }
-
-
-function gen_lf(lf_i, lf) {
-    switch (lf.insc_type) {
-        case 'li_entr':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            var lf_pnt = generatePointer(lf.scion_id, lf_i);
-            var lf_trm = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-            var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-            var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-            
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_protrusion.appendChild(lf_sld);
-            lf_protrusion.appendChild(lf_pnt);
-            lf_protrusion.appendChild(lf_trm);
-
-            lf_cntnr.appendChild(lf_protrusion);
-            lf_cntnr.appendChild(lf_leaflets);
-            return lf_cntnr;
-
-        case 'in_txt':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            var lf_pnt = generatePointer(lf.scion_id, lf_i);
-            //var lf_trm = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-            var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-            //var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-            var lf_cntn = createElementWithClass('div', 'styl_in_txt');
-            lf_cntn.innerHTML = lf.insc_cntn;
-
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_protrusion.appendChild(lf_sld);
-            lf_protrusion.appendChild(lf_pnt);
-            lf_protrusion.appendChild(lf_cntn);
-
-            lf_cntnr.appendChild(lf_protrusion);
-            //lf_cntnr.appendChild(lf_leaflets);
-            return lf_cntnr;
-
-        // case 'li_cite':
-        //     var lf_id = generateLeafIdNum(scion_id, lf_i);
-        //     var lf_sld = createElementWithClass('span', 'styl_pointers');
-        //     var lf_pnt = generatePointer(scion_id, lf_i);
-        //     var lf_trm = gen_term(lf_id, lf_term);
-        //     var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-        //     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-        //     var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-                
-        //     lf_sld.innerHTML = bmp_sld_01;
-        //     lf_protrusion.appendChild(lf_sld);
-        //     lf_protrusion.appendChild(lf_pnt);
-        //     lf_protrusion.appendChild(lf_trm);
-    
-        //     lf_cntnr.appendChild(lf_protrusion);
-        //     lf_cntnr.appendChild(lf_leaflets);
-        //     return lf_cntnr;
-                    
-        case 'blade':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-            var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            var pnter = generatePointer(lf.scion_id, lf_i);
-            var bld_tag = generateTag(bld_id, lf.insc_tag);
-            var bld_term = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_cntnr');
-                        
-            lf_cntnr.setAttribute('id', lf_id);
-            var lf_bld = createElementWithClass('div', 'styl_lf_bld');
-            lf_bld.setAttribute('id', `${bld_id}_cntn`);
-            lf_bld.classList.add('stt_show');
-            lf_bld.innerHTML = lf.insc_cntn;
-
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_cntnr.appendChild(lf_sld);
-            lf_cntnr.appendChild(pnter);
-            lf_cntnr.appendChild(bld_tag);
-
-            if (bld_term !== undefined) {
-                lf_cntnr.appendChild(bld_term);
-                var lf_eqls = createElementWithClass('div', 'styl_pointers');
-                lf_eqls.innerHTML = bmp_def;
-                lf_cntnr.appendChild(lf_eqls);
-                lf_cntnr.appendChild(lf_bld);
-                            
-            } else {
-                lf_cntnr.appendChild(lf_bld);
-            }
-
-            return lf_cntnr;
-
-        //             case 'bld_smp_itr':
-        //                 var lf_id = generateLeafIdNum(scion_id, lf_i);
-        //                 var pnter = generatePointer(scion_id, lf_i);
-        //                 var bld_term = gen_term(lf_id, lf_term);
-        //                 var bld_cntn = createElementWithClass('div', 'styl_bld_smp_itr');
-        //                 var itr = createElementWithClass('span', 'styl_lf_itr_num');
-        //                 itr.innerHTML = `${bld_itr}&nbsp`;
-        //                 bld_cntn.appendChild(itr);
-        //                 bld_cntn.appendChild(pnter);
-        //                 bld_cntn.appendChild(bld_term);
-        //                 //bld_cntn.innerHTML = `${bld_itr}<span class='styl_entr_intro'>${pnter}</span>&nbsp${bld_term}<br>`;
-        //                 return bld_cntn;
-
-        //             case 'li_ext':
-        //                 var lf_id = generateLeafIdNum(scion_id, lf_i);
-        //                 var pnter = generatePointer(scion_id, lf_i);
-        //                 var bld_id = generateBladeIdNum(scion_id, lf_i);
-        //                 var lf_bld = createElementWithClass('div', 'styl_lf_li_ext_bld');
-        //                 lf_bld.setAttribute('id', `${bld_id}_cntn`);
-        //                 lf_bld.classList.add('stt_show');
-                        
-
-        //                 //var lf_cntn_full = generateCntn(lf_id, lf_cntn);
-        //                 var lf_full = createElementWithClass('div', 'styl_lf_li_ext');
-        //                 lf_full.appendChild(pnter);
-        //                 lf_full.appendChild(lf_bld);
-        //                 //var blade_full = pnter + " " + cntn_full;
-        //                 return lf_full;
-        //                 break;
-
-        case 'entry':
-            console.log(lf.insc_type);
-            break;
-
-        case 'stm_olst_exp':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-            var pnter = generatePointer(lf.scion_id, lf_i);
-            var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-
-            var lf_cntnr = gen_ECI('div', 'styl_lf_stm_olst_exp stt_show', `${lf_id}_lf_stm_olst_exp`);
-            var lf_bmp_top = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_top', `${lf_id}_lf_stm_olst_exp_bmp_top`);
-            var lf_ttl = gen_ECI('div', 'styl_lf_stm_olst_exp_ttl', `${lf_id}_lf_stm_olst_exp_ttl`);
-            var lf_cntn = gen_ECI('div', 'styl_lf_stm_olst_exp_cntn', `${lf_id}_lf_stm_olst_exp_cntn`);
-            var lf_ls_shrt = gen_ECI('div', 'styl_lf_stm_olst_exp_ls_shrt', `${lf_id}_lf_stm_olst_exp_ls_short`);
-            var lf_bmp_cycl = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_cycl', `${lf_id}_lf_stm_olst_exp_bmp_cycl`);
-            var lf_expnd = gen_ECI('div', 'styl_lf_stm_olst_exp_expnd', `${lf_id}_lf_stm_olst_exp_expnd`);
-            var lf_bmp_btm = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_btm', `${lf_id}_lf_stm_olst_exp_bmp_btm`);
-
-            lf_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
-            lf_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
-            lf_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
-            lf_ttl.innerHTML = `${pnt_branch}&nbsp${lf.insc_ttl}&nbsp`;
-
-            lf_bmp_btm.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
-            lf_bmp_top.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
-            lf_ttl.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
-
-            lf_cntn.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
-
-            lf_cntnr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
-
-            for (lfl in lf.scions) {
-                var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
-                var lfl_shrt_pnter = generatePointer(lf.scion_id[lfl].scion_id, lf_i);
-                var lfl_shrt_term = createElementWithClass('a', 'styl_lfl_shrt_term');
-                lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${lf.scion_id}_${lfl}`);
-                lfl_shrt_term.innerHTML = lf.scions[lfl].insc_term;
-                
-                lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
-                lf_ls_shrt.appendChild(lfl_shrt);
-                var lfl_cntnr = createElementWithClass('div', 'styl_lfl_cntnr');
-                var lfl_bmp_top = createElementWithClass('div', 'styl_lfl_bmp_top');
-                var lfl_ttl = createElementWithClass('div', 'styl_lfl_ttl');
-                var lfl_cntn = createElementWithClass('div', 'styl_lfl_cntn');
-                var lfl_bmp_btm = createElementWithClass('div', 'styl_lfl_bmp_btm');
-
-                lfl_ttl.setAttribute('id', `id_twg_cntn_${lf.scion_id}_${lfl}`);
-                lfl_bmp_top.innerHTML = "---<br>--- ---";
-                lfl_bmp_btm.innerHTML = "---- ----<br>----";
-                lfl_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>${lf.scions[lfl].insc_term}</span>&nbsp<span class='styl_pointers'>::</span>`;
-
-                lfl_cntnr.appendChild(lfl_bmp_top);
-                lfl_cntnr.appendChild(lfl_ttl);
-                lfl_cntnr.appendChild(lfl_cntn);
-                lfl_cntnr.appendChild(lfl_bmp_btm);
-                lf_expnd.appendChild(lfl_cntnr);
-                
-                for (i2 in lf.scions[lfl].scions) {
-                    console.log(lf.scions[lfl].scions[i2]);
-                    var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
-                    console.log(entr_full);
-                    lfl_cntn.appendChild(entr_full);
+                    ]
+                },
+                {
+                    "ls_ttl": "Cloud Systems",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_cld",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-CLD-000",
+                            "ls_ttl": "Overview of 'Cloud Systems'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CLD-MS",
+                            "ls_ttl": "Microsoft Cloud Offerings",
+                            "ls_type": "=>",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CLD-MS-AZR-000",
+                                    "ls_ttl": "Overview of 'Microsoft Azure'",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CLD-MS-AZR-DBANL",
+                                    "ls_ttl": "Azure Databases + Analytics Services",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CLD-MS-AZR-SEC",
+                                    "ls_ttl": "Azure Security Features",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CLD-MS-AZR-STRG",
+                                    "ls_ttl": "Azure Storage Services",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CLD-MS-M365",
+                                    "ls_ttl": "Microsoft 365",
+                                    "ls_type": "+>"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CLD-ORCH",
+                            "ls_ttl": "Cloud Orchestration",
+                            "ls_type": "+>",
+                            "scion_id": "ls_dgtl_cld_orch"
                         }
-            }
-
-                        
-
-                        return lf_cntnr;
-
-        case 'stm_list':
-            var stm_id = `id_stm_${lf.scion_id}`;    
-            var stm_name = lf.insc_ttl;    
-            var stm_cntnr = gen_ECI('div', 'styl_stm_cntnr stt_show', `id_stm_cntnr_${lf.scion_id}`);
-            var stm_bmp_top = gen_ECI('div', 'styl_stm_bmp_top', `id_stm_bmp_top_${lf.scion_id}`);
-            var stm_nametag = gen_ECI('div', 'styl_stm_nametag', `id_stm_nametag_${lf.scion_id}`);
-            var stm_trstlbrd = gen_ECI('div', 'styl_stm_trstlbrd', `id_stm_trstlbrd_${lf.scion_id}`);
-            var stm_bmp_btm = gen_ECI('div', 'styl_stm_bmp_btm', `id_stm_bmp_btm_${lf.scion_id}`);
-
-            stm_nametag.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
-            stm_bmp_top.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
-            stm_bmp_btm.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
-            
-            stm_bmp_top.innerHTML = bmp_stem_top;
-            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
-            stm_bmp_btm.innerHTML = bmp_stem_bttm;
-            
-            stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
-            
-            for (i2 in lf.scions) {
-                var entr_full = gen_lf(i2, lf.scions[i2]);
-                stm_trstlbrd.appendChild(entr_full);
-            }        
-            return stm_cntnr;
-
-                    // case 'term_def':
-                    //     var leaf_id = generateLeafIdNum(leaf_i);
-                    //     var pnter = generatePointer(leaf_id);
-                    //     var tag_full = generateTag(leaf_id, leaf_tag);
-                    //     var term_full = generateTerm(leaf_id, leaf_term);
-                    //     var cntn_full = generateCntn(leaf_id, leaf_cntn);
-                    //     var blade_full = createElementWithClass('li', 'styl_blade');
-                    //     blade_full.setAttribute('id', blade_id);
-                    //     var blade_text = "\\_" + pnter + " " + tag_full + term_full + " = " + cntn_full + "<br>";
-                    //     blade_full.innerHTML = blade_text;
-
-                    //     return blade_full;
-                    //     break;
-
-                    // case 'li_entr':
-                    //     var lf_id = generateLeafIdNum(lf_i);
-                    //     var pnter = generatePointer(lf_id);
-                    //     var lf_term = gen_term(lf_id, lf_term);
-                    //     var blade_full = createElementWithClass('li', 'styl_blade');
-                    //     var blade_text = "<span class='styl_entr_intro'>\\_" + pnter + "</span> " + lf_term + "<br>";
-                    //     blade_full.innerHTML = blade_text;
-                    //     return blade_text;
-
-
-                }
-            }
-
-
-
-async function fetchy(zz) {
-    var mainContainer = document.getElementById("trestleboard");
-    mainContainer.innerHTML = "";
-    fetch(zz
-    // fetch(zz, {
-    //     method: 'GET',
-    //     mode: 'no-cors',
-    //     headers: {
-    //         accept: 'application/json'
-    //     },
-    )
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
-            function gen_head(data) {                      
-                var mainContainer = document.getElementById('trestleboard');
-                var headBoard = createElementWithClass('div', 'branch_container');
-                
-                var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
-                var lsid = createElementWithClass('div', 'styl_head_lsid');
-                var directory_div = createElementWithClass('div', 'styl_head_drct');
-                var directory_name = createElementWithClass('div', 'styl_drct_name');
-                var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
-                var headboard_tail = createElementWithClass('div', 'styl_head_tail');
-                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
-               
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
-                
-                headBoard.appendChild(ls_ttl);
-                headBoard.appendChild(lsid);
-                headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
-                mainContainer.appendChild(headBoard);
-                headBoard.appendChild(directory_div);
-                directory_div.appendChild(directory_name);
-                directory_div.appendChild(directory_cntn);
-                headBoard.appendChild(headboard_tail);
-                for (i in data.scions) {
-                    var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
-                    var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
-                    drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
-                    drct_i.appendChild(drct_i_pnt);
-                    drct_i.appendChild(drct_i_ttl);
-                    directory_cntn.appendChild(drct_i);
-                }
-            };
-            gen_head(data);
-
-            function pop_main(data) {
-                var trst_cntnr = document.getElementById("trestleboard");
-                var trst_brnchs = data.scions;
-                for (i in trst_brnchs) {
-                    var brnch_id = trst_brnchs[i].scion_id;
-                    var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;
-                    var brnch_cntnr = createElementWithClass('div', 'styl_brnch_cntnr');
-                    var brnch_bmp_top = createElementWithClass('div', 'styl_brnch_bmp_top');
-                    var brnch_nametag = createElementWithClass('div', 'styl_brnch_nametag');
-                    var brnch_trstlbrd = createElementWithClass('div', 'styl_brnch_trstlbrd');
-                    var brnch_bmp_btm = createElementWithClass('div', 'styl_brnch_bmp_btm');
-                
-                    brnch_cntnr.setAttribute('id', ('id_b_cntnr_' + brnch_id));
-                    brnch_bmp_top.setAttribute('id', ('id_b_bmp_top_' + brnch_id));
-                    brnch_nametag.setAttribute('id', ('id_b_nametag_' + brnch_id));
-                    brnch_trstlbrd.setAttribute('id', ('id_b_trstlbrd_' + brnch_id));
-                    brnch_bmp_btm.setAttribute('id', ('id_b_bmp_btm_' + brnch_id));
-
-                    
-                    brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
-                    brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-                    brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
-                
-                    brnch_cntnr.append(brnch_bmp_top, brnch_nametag, brnch_trstlbrd, brnch_bmp_btm);
-                    trst_cntnr.appendChild(brnch_cntnr);
-
-                    var stems = trst_brnchs[i].scions;
-                    for (i2 in stems) {
-                        brnch_trstlbrd.appendChild(gen_lf(i2, stems[i2]));
-                    }
-                }
-            }
-        pop_main(data);
-
-            function populateTrestleboard(data) {
-                var trst_cntnr = document.getElementById("trestleboard");
-                var trst_brnchs = data.record.scions;
-                for (i in trst_brnchs) {
-                    var brnch_id = trst_brnchs[i].scion_id;
-                    var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;
-                    var brnch_cntnr = createElementWithClass('div', 'styl_brnch_cntnr');
-                    var brnch_bmp_top = createElementWithClass('div', 'styl_brnch_bmp_top');
-                    var brnch_nametag = createElementWithClass('div', 'styl_brnch_nametag');
-                    var brnch_trstlbrd = createElementWithClass('div', 'styl_brnch_trstlbrd');
-                    var brnch_bmp_btm = createElementWithClass('div', 'styl_brnch_bmp_btm');
-                
-                    brnch_cntnr.setAttribute('id', ('id_b_cntnr_' + brnch_id));
-                    brnch_bmp_top.setAttribute('id', ('id_b_bmp_top_' + brnch_id));
-                    brnch_nametag.setAttribute('id', ('id_b_nametag_' + brnch_id));
-                    brnch_trstlbrd.setAttribute('id', ('id_b_trstlbrd_' + brnch_id));
-                    brnch_bmp_btm.setAttribute('id', ('id_b_bmp_btm_' + brnch_id));
-
-                    
-                    brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
-                    brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-                    brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
-                
-                    brnch_cntnr.appendChild(brnch_bmp_top);
-                    brnch_cntnr.appendChild(brnch_nametag);
-                    brnch_cntnr.appendChild(brnch_trstlbrd);
-                    brnch_cntnr.appendChild(brnch_bmp_btm);
-                    trst_cntnr.appendChild(brnch_cntnr);
-
-                   
-                    var stems = trst_brnchs[i].scions;
-                    if (stems !== null) {
-                        for (i2 in stems) {
+                    ]
+                },
+                {
+                    "ls_ttl": "Coding + Scripting + Programming",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_code",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-CODE-000",
+                            "ls_ttl": "Overview of 'Coding + Scripting + Programming'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-API",
+                            "ls_ttl": "Application Programming Interfaces",
+                            "ls_type": "=>",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-API-FETCH",
+                                    "ls_ttl": "The Fetch API",
+                                    "ls_type": "+>"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-WEB",
+                            "ls_ttl": "Web Development + Design",
+                            "ls_type": "=>",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-000",
+                                    "ls_ttl": "Overview of 'Web Development + Design'",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-BTSTRP",
+                                    "ls_ttl": "Bootstrap",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-CDN",
+                                    "ls_ttl": "Content Delivery Networks",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-CSS",
+                                    "ls_ttl": "CSS Styling",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-DOM",
+                                    "ls_ttl": "The Document Object Model",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-HTML",
+                                    "ls_ttl": "HTML Structuring",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-JS",
+                                    "ls_ttl": "JavaScript",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-UI-MUI",
+                                    "ls_ttl": "Material UI",
+                                    "ls_type": "+>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_ttl": "Information Security",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_isec",
+                    "scions": [
+                        {
+                            "ls_ttl": "Overview of Information Security",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/000.json",
+                            "scion_id": "ls_dgtl_isec_000"
+                        },
+                        {
+                            "ls_ttl": "Access Control",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl"
+                        },
+                        {
+                            "ls_ttl": "Continuity Assurance + Disaster Recovery",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
+                            "scion_id": "ls_dgtl_isec_dfn_cadr"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
+                            "ls_ttl": "E-mail Defense",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/email.json",
+                            "scion_id": "ls_dgtl_isec_dfn_email"
                             
-                            switch (stems[i2].insc_type){
-                                case 'stm_list':
-                                    var stm_id = "stm_id_" + stems[i2].scion_id;    
-                                    var stm_name = stems[i2].insc_name;    
-                                    var stm_cntnr = createElementWithClass('div', 'styl_stm_cntnr');
-                                    var stm_bmp_top = createElementWithClass('div', 'styl_stm_bmp_top');
-                                    var stm_nametag = createElementWithClass('div', 'styl_stm_nametag');
-                                    var stm_trstlbrd = createElementWithClass('div', 'styl_stm_trstlbrd');
-                                    var stm_bmp_btm = createElementWithClass('div', 'styl_stm_bmp_btm');
-                                    
-                                    stm_cntnr.setAttribute('id', `id_stm_cntnr_${stems[i2].scion_id}`);
-                                    stm_bmp_top.setAttribute('id', `id_stm_bmp_top_${stems[i2].scion_id}`);
-                                    stm_bmp_btm.setAttribute('id', `id_stm_bmp_btm_${stems[i2].scion_id}`);
-                                    stm_nametag.setAttribute('id', `id_stm_nametag_${stems[i2].scion_id}`);
-                                    stm_trstlbrd.setAttribute('id', `id_stm_trstlbrd_${stems[i2].scion_id}`);
-                                    stm_cntnr.classList.add('stt_show');
-                                    stm_nametag.setAttribute('onclick', `showHideStem('${stems[i2].scion_id}');`);
-                                    stm_bmp_top.innerHTML = bmp_stem_top;
-                                    stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
-                                    stm_bmp_btm.innerHTML = bmp_stem_bttm;
-                                    stm_cntnr.appendChild(stm_bmp_top);
-                                    stm_cntnr.appendChild(stm_nametag);
-                                    stm_cntnr.appendChild(stm_trstlbrd);
-                                    stm_cntnr.appendChild(stm_bmp_btm);
-                                    brnch_trstlbrd.appendChild(stm_cntnr);
-                                    
-                                    for (i3 in stems[i2].scions) {
-                                        var entr_full = gen_lf(i3, stems[i2].scion_id, stems[i2].scions[i3].insc_type, stems[i2].scions[i3].insc_term, stems[i2].scions[i3].insc_tag, stems[i2].scions[i3].insc_cntn, stems[i2].scions[i3].scions);
-                                        stm_trstlbrd.appendChild(entr_full);
-                                    }
-                                    
-                                    break;
-
-                                case 'stm_olst_exp':
-                                    var entr_full = gen_lf(i2, stems[i2].scion_id, stems[i2].scions[i3].insc_type, stems[i2].scions[i3].insc_term, stems[i2].scions[i3].insc_tag, stems[i2].scions[i3].insc_cntn, stems[i2].scions[i3].scions);
-                                    stm_trstlbrd.appendChild(entr_full);
-                                    break;
-
-                                case 'brnch_explst':
-                                    var b_explst_id = `b_explst_id${stems[i2].scion_id}`;
-                                    var b_explst_name = stems[i2].insc_name;   
-                                    var b_explst_cntnr = createElementWithClass('div', 'styl_b_explst_cntnr');
-                                    var b_explst_bmp_top = createElementWithClass('div', 'styl_b_explst_bmp_top');
-                                    var b_explst_lst_shrt = createElementWithClass('div', 'styl_b_explst_lst_shrt');
-                                    var b_explst_lst_shm = createElementWithClass('div', 'styl_b_explst_lst_shm');
-                                    var b_explst_lst_itms = createElementWithClass('div', 'styl_b_explst_lst_items');
-                                    var b_explst_bmp_cycl = createElementWithClass('div', 'styl_b_explst_bmp_cycl');
-                                    var b_explst_lst_expn = createElementWithClass('div', 'styl_b_explst_lst_expn');
-
-                                    b_explst_cntnr.setAttribute('id', `id_b_explst_cntnr_${stems[i2].scion_id}`);
-                                    b_explst_bmp_top.setAttribute('id', `id_b_explst_bmp_top_${stems[i2].scion_id}`);
-                                    b_explst_lst_shrt.setAttribute('id', `id_b_explst_lst_shrt_${stems[i2].scion_id}`);
-                                    b_explst_lst_shm.setAttribute('id', `id_b_explst_lst_shm_${stems[i2].scion_id}`);
-                                    b_explst_lst_itms.setAttribute('id', `id_b_explst_lst_itms_${stems[i2].scion_id}`);
-                                    b_explst_bmp_cycl.setAttribute('id', `id_b_explst_bmp_cycl_${stems[i2].scion_id}`);
-                                    b_explst_lst_expn.setAttribute('id', `id_b_explst_lst_expn_${stems[i2].scion_id}`);
-
-                                    b_explst_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
-                                    b_explst_lst_shm.innerHTML = `${pnt_branch}<span id='${b_explst_id}'>${b_explst_name}</span> ::`;
-                                    b_explst_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------<br>";
-
-                                    b_explst_lst_shrt.appendChild(b_explst_lst_shm);
-                                    b_explst_lst_shrt.appendChild(b_explst_lst_itms);
-                                    b_explst_cntnr.appendChild(b_explst_bmp_top);
-                                    b_explst_cntnr.appendChild(b_explst_lst_shrt);
-                                    b_explst_cntnr.appendChild(b_explst_bmp_cycl);
-                                    b_explst_cntnr.appendChild(b_explst_lst_expn);
-                                    brnch_trstlbrd.appendChild(b_explst_cntnr);
-                                          
-                                    for (l in stems[i2].scions) {
-                                        
-                                        //class: styl_twig_li_shrt
-                                        var entr_shrt = createElementWithClass('div', 'styl_b_explst_entr_shrt');
-                                        entr_shrt.setAttribute('id', `#id_b_explst_entr_shrt_${stems[i2].scions[l].scion_id}_${l}`);
-                                        var entr_term_sck = createElementWithClass('span', 'styl_b_explst_entr_term');
-                                        //clsdd: list_elements + styl_li_top + style5
-                                        
-                                        var priv_pnt = generatePointer(stems[i2].scions[l].scion_id, l);
-                                        var entr_click = createElementWithClass('a', 'styl_b_explst_entr_term');
-                                        entr_click.setAttribute('href', `#id_twg_cntnr_${stems[i2].scions[l].scion_id}`);
-                                        entr_click.setAttribute('id', `#id_b_explst_entr_shrt_ttl_${stems[i2].scions[l].scion_id}_${l}`);
-                                        entr_click.innerHTML = stems[i2].scions[l].insc_term;
-                                        entr_shrt.appendChild(priv_pnt);
-                                        entr_shrt.appendChild(entr_click);
-                                        b_explst_lst_itms.appendChild(entr_shrt);
-
-                                        var twg_cntnr = createElementWithClass('div', 'styl_twg_cntnr');
-                                        var twg_bmp_top = createElementWithClass('div', 'styl_twg_bmp_top');
-                                        var twg_nametag = createElementWithClass('div', 'styl_twg_nametag');
-                                        var twg_trstlbrd = createElementWithClass('ul', 'styl_twg_trstlbrd');
-                                        var twg_bmp_btm = createElementWithClass('div', 'styl_twg_bmp_btm');
-                                        
-                                        twg_cntnr.setAttribute('id', `id_twg_cntnr_${stems[i2].scions[l].scion_id}`);
-                                        twg_bmp_top.setAttribute('id', `id_twg_bmp_top_${stems[i2].scions[l].scion_id}`);
-                                        twg_nametag.setAttribute('id', `id_twg_nametag_${stems[i2].scions[l].scion_id}`);
-                                        twg_trstlbrd.setAttribute('id', `id_twg_trstlbrd_${stems[i2].scions[l].scion_id}`);
-                                        twg_bmp_btm.setAttribute('id', `id_twg_bmp_btm_${stems[i2].scions[l].scion_id}`);
-
-                                        twg_bmp_btm.innerHTML = bmp_stem_exli_bttm;
-                                        twg_cntnr.classList.add('stt_show');
-                                        twg_nametag.setAttribute('onclick', `showHideTwig('${stems[i2].scions[l].scion_id}');`);
-                                        twg_bmp_top.innerHTML = bmp_stem_exli;
-                                        //var twg_ttl = createElementWithClass('span', 'styl_twg_ttl');
-                                        //twg_ttl.innerHTML = entr_term;
-                                        //twg_nametag.innerHTML = `${pnt_lixp}&nbsp${twg_ttl}&nbsp::`
-                                        twg_nametag.innerHTML = `${pnt_lixp}<span class='styl_twg_ttl'>${stems[i2].scions[l].insc_term}</span>&nbsp::`;
-                                        
-                                        twg_cntnr.appendChild(twg_bmp_top);
-                                        twg_cntnr.appendChild(twg_nametag);
-                                        twg_cntnr.appendChild(twg_trstlbrd);
-                                        twg_cntnr.appendChild(twg_bmp_btm);
-                                        b_explst_lst_expn.appendChild(twg_cntnr);
-                                        
-                                                                                                        
-                                        for (lf in stems[i2].scions[l].scions) {
-                                            twg_trstlbrd.appendChild(gen_lf(lf, stems[i2].scions[l].scion_id, stems[i2].scions[l].scions[lf].insc_type, stems[i2].scions[l].scions[lf].insc_term, stems[i2].scions[l].scions[lf].insc_tag, stems[i2].scions[l].scions[lf].insc_cntn, stems[i2].scions[l].scions[lf].insc_itr, stems[i2].scions[l].scions[lf].scions));
-                                        }
-                                    }
-                                    
-                                    break;
-
-                            };
-                            //brnch_trstlbrd.appendChild();
                         }
-                    }
+                    ]
                 }
-            }
-
-           // populateTrestleboard(data);
-
-            function appendBranch(data) {
-                var secondContainer = document.getElementById("trestleboard");
-                var branches = data.record.scions;                 
-                for (i in branches) {
-                    var branch_container = createElementWithClass('div', 'branch_container');
-                    var branch_name = createElementWithClass('div', 'branch_head');
-                    branch_container.setAttribute('id', branches[i].scion_id);
-                    branch_name.innerHTML = bmp_brnch_top + pnt_minus + " <span class='branch_title'>" + branches[i].drct_id + " = " + branches[i].drct_ttl + "</span>:";
-                    branch_container.appendChild(branch_name);
-                    secondContainer.appendChild(branch_container);
-                    
-                    var stems = branches[i].scions;
-                    if (stems !== null) {
-                        for (i2 in stems) {  
-                            var div_stem = createElementWithClass('div', 'styl_div_stem');
-                            var stem_head = createElementWithClass('div', 'styl_stem_head');
-                            var stem_body = createElementWithClass('div', 'styl_stem_body');
-                            var stem_tail = createElementWithClass('div', 'styl_stem_tail');
-                            var stem_title = "stm_id_" + stems[i2].scion_id;
-                            var twigs = stems[i2].scions;
-                            let stem_cycl = document.createRange().createContextualFragment(bmp_stem_cycl);
-
-                            div_stem.setAttribute('id', stem_title);
-                            div_stem.appendChild(stem_head);
-                            div_stem.appendChild(stem_body);
-                            branch_container.appendChild(div_stem);
-
-                            switch (stems[i2].type) {      
-                                case 'list_extn':
-                                    stem_head.innerHTML = bmp_stem_top + pnt_branch + " <span id='" + stem_title + "'>" + stems[i2].name + "</span> ::";
-                                    stem_tail.innerHTML = bmp_stem_bttm;
-                                    for (i4 in stems[i2].scions) {
-                                        var entries = createElementWithClass('div', 'styl_list_entry_ext');
-                                        var i_leaf_tag = stems[i2].scions[i4].tag_id;
-                                        var i_leaf_type = stems[i2].scions[i4].type;
-                                        var i_leaf_cntn = stems[i2].scions[i4].leaf_cntn;
-                                        var entry_full = generateLeaf(i4, i_leaf_type, i_leaf_tag, i_leaf_cntn);
-                                                    
-                                        entries.innerHTML = entry_full;
-                                        stem_body.appendChild(entries);
-                                    }
-                                    div_stem.appendChild(stem_tail);
-                                    break;
-
-                                
-
-                                    case 'list_expn_brnch':
-                                    stem_head.innerHTML = bmp_stem_top + pnt_branch + " <span id='" + stem_title + "'>" + stems[i2].name + "</span> ::";
-                                    
-                                    var stem_liex_shnm = createElementWithClass('div', 'styl_liex_shnm');
-                                    var stem_body_list = createElementWithClass('div', 'styl_brnch_list');
-                                    var stem_liex_cntn = createElementWithClass('div', 'styl_liex_cntn');
-                                    div_stem.appendChild(stem_liex_cntn);
-                                    stem_liex_shnm.innerHTML = bmp_stem_liste + pnt_branch + " <span id='" + stem_title + "' class='styl_stem_head'>" + stems[i2].short_list_title + "</span> ::";
-                                    stem_liex_cntn.appendChild(stem_liex_shnm);
-                                    stem_liex_cntn.appendChild(stem_body_list);
-                                    stem_liex_cntn.appendChild(stem_cycl);
-                                    var stem_list_short = createElementWithClass('div', 'style_stem_list_short');
-                                    stem_body_list.appendChild(stem_list_short);
-                                    var stem_list_expanded = createElementWithClass('div', 'styl_stem_list_expanded');
-                                    stem_liex_cntn.appendChild(stem_list_expanded);
-                                    stem_body = stem_liex_cntn;
-                                                
-                                    for (l in stems[i2].scions) {
-                                        var li_long = createElementWithClass('div', 'styl_twig_li_long');
-                                        var li_cont = createElementWithClass('ul', 'styl_twig_li_cont');
-                                        var twig_tail = createElementWithClass('div', 'styl_twig_tail');
-                                        var twig_name = createElementWithClass('div', 'list_elements');
-                                        var twig_li = createElementWithClass('li', 'style5');
-                                        var priv_pnt = generatePointer(l);
-                                        twig_name = twigs[l].content;
-                                        twig_li.innerHTML = priv_pnt + " <span class='styl_li_top'>" + twig_name + "</span>";
-                                                    
-                                        stem_list_short.appendChild(twig_li);
-                                                    
-                                        twig_tail.innerHTML = bmp_stem_exli_bttm;
-                                        li_long.innerHTML = bmp_stem_exli + "<div class='styl_twig_li_title_total'>" + pnt_lixp + "<span class='styl_li_title'>" + twigs[l].content + "</span>&nbsp::</div>";
-                                        li_long.appendChild(li_cont);
-                                        li_long.appendChild(twig_tail);
-                                        stem_list_expanded.appendChild(li_long);
-
-                                                                                                        
-                                        for (leaf in twigs[l].leaves) {
-                                            li_cont.appendChild(generateLeaf(leaf, twigs[l].leaves[leaf].type, twigs[l].leaves[leaf].tag_id, twigs[l].leaves[leaf].leaf_cntn, twigs[l].leaves[leaf].main_term, twigs[l].leaves[leaf].leaflets));
-                                            var ind_item = createElementWithClass('li', 'styl_twig_item');
-                                            //stem_body.appendChild(ind_item);
-                                        }
-                                    }
-                                    
-                                    break;
-
-                               
-
-                                case 'leaf_text':                                                         
-                                    var leaf_whole = createElementWithClass('div', 'styl_leaf_whole');
-                                    leaf_whole.innerHTML = pnt_plus + stems[i2].leaf_cntn;
-                                    stem_body.appendChild(leaf_whole);
-                                
-                                    for (l in twigs) {
-                                        var li_long = createElementWithClass('div', 'styl_twig_li_long');
-                                        var li_cont = createElementWithClass('ul', 'styl_twig_li_cont');
-                                        var twig_tail = createElementWithClass('div', 'styl_twig_tail');
-                                        var twig_name = createElementWithClass('div', 'list_elements');
-                                        var twig_li = createElementWithClass('li', 'style5');
-                                        var priv_pnt = generatePointer(l);
-                                        twig_name = twigs[l].leaf_cntn;
-
-                                        if (twigs[l].alt_name !== undefined) {
-                                            twig_li.innerHTML = priv_pnt + " <span class='styl_li_top'>" + twig_name + "</span>&nbsp" + "(<em>" + twigs[l].alt_name + "</em>)";
-                                        } else {
-                                            twig_li.innerHTML = priv_pnt + " <span class='styl_li_top'>" + twig_name + "</span>";
-                                        }        
-                                        stem_body.appendChild(twig_li);
-                                        twig_tail.innerHTML = bmp_stem_exli_bttm;
-                                                        
-                                        for (leaf in twigs[l].leaves) {
-                                            li_cont.appendChild(generateLeaf(leaf, twigs[l].leaves[leaf].type, twigs[l].leaves[leaf].tag_id, twigs[l].leaves[leaf].leaf_cntn, twigs[l].leaves[leaf].main_term, twigs[l].leaves[leaf].leaflets));  
-                                        }
-                                    }
-                                    break;
-                            }
-                           
-                            branch_container.appendChild(div_stem);                                                                     
+            ]
+        },
+        {
+            "ls_id": "LS-GUA",
+            "ls_ttl": "Trigrams + Hexagrams",
+            "ls_type": "->",
+            "scion_id": "ls_gua",
+            "scions": [
+                {
+                    "ls_id": "LS-GUA-000",
+                    "ls_ttl": "Overview of Trigrams + Hexagrams",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-01",
+                    "ls_ttl": "The Qian Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-02",
+                    "ls_ttl": "The Kun Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-03",
+                    "ls_ttl": "The Zhun Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-04",
+                    "ls_ttl": "The Meng Hexagram",
+                    "ls_type": "+>"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-HI",
+            "ls_ttl": "Handbook of Inhabitants",
+            "ls_type": "->",
+            "scions": [
+                {
+                    "ls_id": "LS-HI-000",
+                    "ls_ttl": "Overview of 'The Handbook of Inhabitants'",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-101-EGRGRE",
+                    "ls_ttl": "Egregores",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-101-PHNMNA",
+                    "ls_ttl": "The Phenomena",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-AA",
+                    "ls_ttl": "Angels + ArchAngels",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-AA-7A",
+                            "ls_ttl": "The 7 Archangels",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-ANGL",
+                            "ls_ttl": "Angels + Angelic Entities",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-HANIAL",
+                            "ls_ttl": "The ArchAngel Haniel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-MTTRN",
+                            "ls_ttl": "The ArchAngel Metatron",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-RZYAL",
+                            "ls_ttl": "The ArchAngel Raziel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-TzPKYAL",
+                            "ls_ttl": "The ArchAngel Tzaphkiel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-URYAL",
+                            "ls_ttl": "The ArchAngel Uriel",
+                            "ls_type": "+>"
                         }
-                        var branch_tail = createElementWithClass('div', 'styl_head_tail');
-                        branch_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                        branch_container.appendChild(branch_tail);
-                    }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-ALIEN",
+                    "ls_ttl": "Alien Life",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-ALIEN-ASHTAR",
+                            "ls_ttl": "Ashtar",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-EBE",
+                            "ls_ttl": "Extraterrestrial Biological Entity",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-GENTRY",
+                            "ls_ttl": "The Gentry",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-LYRA",
+                            "ls_ttl": "The Lyrans",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-OBSHAZR",
+                            "ls_ttl": "Obsidian Humans with Azure Eyes",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-UFO",
+                            "ls_ttl": "UFOs + Saucers + Aeros",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-ANML",
+                    "ls_ttl": "Animal Inhabitants",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-HI-CNTCT",
+                    "ls_ttl": "Contact Methods",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-CNTCT-TBLETP",
+                            "ls_ttl": "Table Tipping",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-DIV",
+                    "ls_ttl": "Manifestations of God",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-DIV-AO",
+                            "ls_ttl": "The Alpha-Omega Word",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-GM",
+                            "ls_ttl": "The Green Man",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-HGA",
+                            "ls_ttl": "The Holy Guardian Angel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-MITRAS",
+                            "ls_ttl": "Mithras",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-OT",
+                            "ls_ttl": "The One Thing",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-PAN",
+                            "ls_ttl": "The Great Green God Pan",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-QDShR",
+                            "ls_ttl": "The Holy Spirit",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-FAE",
+                    "ls_ttl": "The Gentle Faerie Folk",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-FAE-000",
+                            "ls_ttl": "Overview of 'The Gentle Faerie Folk'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT",
+                            "ls_ttl": "Directory + Dictionary of The Faerie Folk",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT-GRPS",
+                            "ls_ttl": "Directory to Fae Groups",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT-INDV",
+                            "ls_ttl": "Directory to Fae Individuals",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-FOODS",
+                            "ls_ttl": "Faerie Foods",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-WARD",
+                            "ls_ttl": "Defensive Measures for Faerie Emergencies",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-LMNT",
+                    "ls_ttl": "Elemental Entities",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-LMNT-UNDINES",
+                            "ls_ttl": "The Undines of Water",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-NTRU",
+                    "ls_ttl": "The Neteru",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-NTRU-ISIS",
+                            "ls_ttl": "The Goddess Isis",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-NTRU-MAAT",
+                            "ls_ttl": "The Goddess Ma'at",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-PPL",
+                    "ls_ttl": "Peoples + Persons",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-PPL-ANCSTR",
+                            "ls_ttl": "Ancestors + Ancestral Spirits",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-DEAD",
+                            "ls_ttl": "The Dead",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-HRYHMND",
+                            "ls_ttl": "Hairy Hominids",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-HUMAN",
+                            "ls_ttl": "Human People",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-PYTHGRS",
+                            "ls_ttl": "Pythagoras",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-SANTA",
+                            "ls_ttl": "Santa Claus",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-WLDONES",
+                            "ls_ttl": "The Wild Ones",
+                            "ls_type": "+>"
+                        }
+                    ]
                 }
-                                                                   
-            };
-        
-        })
-        .catch(err => {
-            console.log(err);
-        })
-    //return "";
+            ]
+        },
+        {
+            "ls_id": "LS-LCT",
+            "ls_ttl": "Lands + Locations",
+            "ls_type": "->"
+        },
+        {
+            "ls_id": "LS-LULS",
+            "ls_ttl": "Line Upon Line Scriptures + Spirituality",
+            "ls_type": "->",
+            "scion_id": "ls_luls",
+            "scions": [
+                {
+                    "ls_id": "LS-LULS-000",
+                    "ls_ttl": "Overview of 'Line Upon Line Scriptures + Spirituality",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-LULS-APOC",
+                    "ls_ttl": "The Apocryphal Scriptures",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_apoc",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-APOC-ESDRS2",
+                            "ls_ttl": "The Second Book of Esdras",
+                            "ls_type": "=>",
+                            "scion_id": "ls_luls_apoc_esdrs2",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-APOC-ESDRS2-C02",
+                                    "ls_ttl": "Ch 02 of The Second Book of Esdras",
+                                    "ls_type": "+>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-LULS-BBL",
+                    "ls_ttl": "Books of The Bible",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_bbl",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-BBL-000",
+                            "ls_ttl": "Overview of 'The Holy Bible'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-BPRB",
+                            "ls_ttl": "Biblical Parables",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-EVD",
+                            "ls_ttl": "Evidences for The Bible",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-NT",
+                            "ls_ttl": "The New Testament",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-OT",
+                            "ls_ttl": "The Old Testament",
+                            "ls_type": "=>"
+                        }  
+                    ]
+                },
+                {
+                    "ls_id": "LS-LULS-CHURCH",
+                    "ls_ttl": "Inspired Writings of The Church",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-CLTC",
+                    "ls_ttl": "Celtic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-CREED",
+                    "ls_ttl": "Creeds + Oaths",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-EGYPT",
+                    "ls_ttl": "Egyptian Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GN",
+                    "ls_ttl": "Golden Nuggets",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GQAM",
+                    "ls_ttl": "Grail Quest + Arthurian Mythos",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GRK",
+                    "ls_ttl": "Greek Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GRMR",
+                    "ls_ttl": "The Grimoires",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-HINDU",
+                    "ls_ttl": "Hindu Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-HRMTC",
+                    "ls_ttl": "Hermetic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-INIT",
+                    "ls_ttl": "The Initatic Journey",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-MRMN",
+                    "ls_ttl": "Mormon Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-NRDC",
+                    "ls_ttl": "Nordic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-PRYR",
+                    "ls_ttl": "Prayers",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-QBL",
+                    "ls_ttl": "Qabalistic Scriptures + Spirituality",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_qbl",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-QBL-YTzYRH",
+                            "ls_ttl": "The Sepher Yetzirah",
+                            "ls_type": "=>",
+                            "scion_id": "ls_luls_qbl_ytzyrh",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-QBL-YTzYRH-C01",
+                                    "ls_ttl": "Ch 01 of The Sepher Yetzirah",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/qbl/ytzyrh/c01.json",
+                                    "scion_id": "ls_luls_qbl_ytzyrh_c01"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-LULS-RC",
+                    "ls_ttl": "Rosicrucian Scriptures",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SHKSPR",
+                    "ls_ttl": "Shakespearean Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SIGN",
+                    "ls_ttl": "The Sacraments of The Church",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SUMER",
+                    "ls_ttl": "Sumerian Scriptures",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-TAO",
+                    "ls_ttl": "Taoist Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-THLMA",
+                    "ls_ttl": "Thelemic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-WRSHP",
+                    "ls_ttl": "Worship Songs",
+                    "ls_type": "=>"
+                }
+
+            ]
+        },
+        {
+            "ls_id": "LS-MD",
+            "ls_ttl": "Medical Directory",
+            "ls_type": "->"
+        },
+        {
+            "ls_id": "LS-MMM",
+            "ls_ttl": "MeshMath Model",
+            "ls_url": "",
+            "ls_type": "=>",
+            "scion_id": "ls_mmm",
+            "scions": [
+                {
+                    "ls_id": "LS-MMM-PTTRN",
+                    "ls_ttl": "MatheMagickal Patterns",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_pttrn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-PTTRN-3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_3712"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-NMBR",
+                    "ls_ttl": "Number Theory",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_mmm_nmbr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-NMBR-PRIME",
+                            "ls_ttl": "Prime Numbers",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_nmbr_prime",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-NN",
+            "ls_ttl": "Nurturing Nature",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_nn",
+            "scions": [
+                {
+                    "ls_id": "LS-NN-BF",
+                    "ls_ttl": "Blessed Food Recipes",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_bf"
+                },
+                {
+                    "ls_id": "LS-NN-GEO",
+                    "ls_ttl": "Geology + Gemology",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_geo"
+                },
+                {
+                    "ls_id": "LS-NN-ST",
+                    "ls_ttl": "Sacred Taxonomy",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_st"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-PCS",
+            "ls_ttl": "Principles + Concepts + Symbols",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_pcs"
+        },
+        {
+            "ls_id": "LS-QBL",
+            "ls_ttl": "The Qabalah",
+            "ls_type": "=>",
+            "ls_url": "",
+            "scion_id": "ls_qbl",
+            "scions": [
+                {
+                    "ls_id": "LS-QBL-32P",
+                    "ls_ttl": "The 32 Paths of The Qabalah",
+                    "ls_type": "=>",
+                    "scion_id": "ls_qbl_32p",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-32P-000",
+                            "ls_ttl": "Overview of 'The 32 Paths of The Qabalah'",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P02",
+                            "ls_ttl": "The 2nd Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P03",
+                            "ls_ttl": "The 3rd Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P03"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P04",
+                            "ls_ttl": "The 4th Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P04"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P07",
+                            "ls_ttl": "The 7th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p07.json",
+                            "scion_id": "ls_qbl_32p_P07"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P08",
+                            "ls_ttl": "The 8th Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P12",
+                            "ls_ttl": "The 12th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P13",
+                            "ls_ttl": "The 13th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P14",
+                            "ls_ttl": "The 14th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P15",
+                            "ls_ttl": "The 15th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P16",
+                            "ls_ttl": "The 16th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P23",
+                            "ls_ttl": "The 23rd Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-PW",
+                            "ls_ttl": "PathWorking The 32 Paths",
+                            "ls_type": "=>",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-32P-PW-P32",
+                                    "ls_ttl": "PathWorking the 32nd Path",
+                                    "ls_type": "+>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-AA",
+                    "ls_ttl": "The Arcana Alphabet",
+                    "ls_type": "=>",
+                    "scion_id": "ls_qbl_aa",
+                    "ls_url": "",
+                    "scions": [
+                        {
+                            "ls_ttl": "The Letter Daleth",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_aa_l04",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a876ebdfc68e59d570bd37"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-ALChY",
+                    "ls_ttl": "Alchemy + Alchemical Operations",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_alchy"
+                },
+                {
+                    "ls_id": "LS-QBL-ALG",
+                    "ls_ttl": "AstroLogos",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_alg",
+                    "scions": [
+                        {
+                            "ls_ttl": "The Sign Aries",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_alg_sgns_s01",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a6f3db01a72b59f238488b"
+                        },
+                        {
+                            "ls_ttl": "The Sign Pisces",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_alg_sgns_s12",
+                            "ls_url": "https://api.jsonbin.io/v3/b/6393a262c5b3a64f1bc7ab32"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-CoS",
+                    "ls_ttl": "The Cube of Space",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_cos"
+                },
+                {
+                    "ls_id": "LS-QBL-GVPH",
+                    "ls_ttl": "Parts of The Body",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_gvph"
+                },
+                {
+                    "ls_id": "LS-QBL-LMNT",
+                    "ls_ttl": "The Elements + Elemental Forces",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_lmnt"
+                },
+                {
+                    "ls_id": "LS-QBL-OTz",
+                    "ls_ttl": "The Sephiroth of The Tree of Life",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_otz",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR01",
+                            "ls_ttl": "The Sephirah Kether",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_otz_spr01",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a70f1d01a72b59f2385756"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-ShM",
+                    "ls_ttl": "The Divine Names",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_shm"
+                },
+                {
+                    "ls_id": "LS-QBL-TARO",
+                    "ls_ttl": "The 78 Arcana of The Tarot",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_taro",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-TARO-KEY-K11",
+                            "ls_ttl": "The Justice Card",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_taro_key_k11",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63ac665301a72b59f23b0bbb"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

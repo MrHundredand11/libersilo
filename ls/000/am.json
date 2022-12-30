@@ -4,7 +4,7 @@
     "scions": [
         {
             "ls_ttl": "Overview",
-            "ls_type": "=>",
+            "ls_type": "->",
             "ls_url": "",
             "scion_id": "ls_000",
             "scions": [

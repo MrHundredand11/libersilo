@@ -3,6 +3,7 @@
     "ls_id": "ls_000_drct",
     "scions": [
         {
+            "ls_id": "LS-000",
             "ls_ttl": "Overview",
             "ls_type": "->",
             "ls_url": "",
@@ -32,6 +33,7 @@
             ]
         },
         {
+            "ls_id": "LS-DGTL",
             "ls_ttl": "Digital Realms",
             "ls_type": "->",
             "ls_url": "",
@@ -733,16 +735,43 @@
             "ls_type": "->"
         },
         {
+            "ls_id": "LS-MMM",
             "ls_ttl": "MeshMath Model",
             "ls_url": "",
             "ls_type": "=>",
             "scion_id": "ls_mmm",
             "scions": [
                 {
-                    "ls_ttl": "Prime Numbers",
-                    "ls_type": "+>",
-                    "scion_id": "ls_mmm_nmbr_prime",
-                    "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                    "ls_id": "LS-MMM-PTTRN",
+                    "ls_ttl": "MatheMagickal Patterns",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_pttrn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-PTTRN-3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_3712"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-NMBR",
+                    "ls_ttl": "Number Theory",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_mmm_nmbr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-NMBR-PRIME",
+                            "ls_ttl": "Prime Numbers",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_nmbr_prime",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                        }
+                    ]
                 }
             ]
         },
@@ -784,6 +813,7 @@
             "scion_id": "ls_pcs"
         },
         {
+            "ls_id": "LS-QBL",
             "ls_ttl": "The Qabalah",
             "ls_type": "=>",
             "ls_url": "",
@@ -882,6 +912,7 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-QBL-AA",
                     "ls_ttl": "The Arcana Alphabet",
                     "ls_type": "=>",
                     "scion_id": "ls_qbl_aa",
@@ -896,12 +927,14 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-QBL-ALChY",
                     "ls_ttl": "Alchemy + Alchemical Operations",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_alchy"
                 },
                 {
+                    "ls_id": "LS-QBL-ALG",
                     "ls_ttl": "AstroLogos",
                     "ls_type": "=>",
                     "ls_url": "",
@@ -922,30 +955,35 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-QBL-CoS",
                     "ls_ttl": "The Cube of Space",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_cos"
                 },
                 {
+                    "ls_id": "LS-QBL-GVPH",
                     "ls_ttl": "Parts of The Body",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_gvph"
                 },
                 {
+                    "ls_id": "LS-QBL-LMNT",
                     "ls_ttl": "The Elements + Elemental Forces",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_lmnt"
                 },
                 {
+                    "ls_id": "LS-QBL-OTz",
                     "ls_ttl": "The Sephiroth of The Tree of Life",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_otz",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-OTz-SPR01",
                             "ls_ttl": "The Sephirah Kether",
                             "ls_type": "+>",
                             "scion_id": "ls_qbl_otz_spr01",
@@ -954,18 +992,21 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-QBL-ShM",
                     "ls_ttl": "The Divine Names",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_shm"
                 },
                 {
+                    "ls_id": "LS-QBL-TARO",
                     "ls_ttl": "The 78 Arcana of The Tarot",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_qbl_taro",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-TARO-KEY-K11",
                             "ls_ttl": "The Justice Card",
                             "ls_type": "+>",
                             "scion_id": "ls_qbl_taro_key_k11",

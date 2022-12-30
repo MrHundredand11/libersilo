@@ -112,7 +112,8 @@
                         {
                             "ls_id": "LS-DGTL-CLD-ORCH",
                             "ls_ttl": "Cloud Orchestration",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "scion_id": "ls_dgtl_cld_orch"
                         }
                     ]
                 },

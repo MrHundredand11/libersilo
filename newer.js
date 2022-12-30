@@ -235,7 +235,7 @@ function whatsOnTheMenu() {
 
                                 for (mnu_i in mnu.scions) {
                                     console.log(gen_men(mnu.scions[mnu_i]));
-                                    //mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
+                                    mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                                 }
                                 return mnu_fldr;
 
@@ -1108,4 +1108,5 @@ async function fetchy(zz) {
         .catch(err => {
             console.log(err);
         })
+    //return "";
 }

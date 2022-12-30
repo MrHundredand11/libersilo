@@ -263,7 +263,8 @@ function whatsOnTheMenu() {
                         }
                     }
 
-                    for (ent in data.scions[mn].scions) {
+                    for (ent in data.scions[mn]) {
+                        console.log(data.scions[mn].scions[ent].ls_ttl);
                         console.log(gen_men(data.scions[mn].scions[ent]));
                     }
 

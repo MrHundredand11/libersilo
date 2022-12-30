@@ -198,10 +198,6 @@ function whatsOnTheMenu() {
                 //     console.log(gen_menu(data.scions[x1]));
                 // }
 
-
-
-                
-
                 for (mn in data.scions) {
                     var accrd_cntnr = createElementWithClass('div', 'styl_mnu_accrd_cntnr');
                     var accrd_ttl = createElementWithClass('div', 'styl_mnu_accrd_ttl');
@@ -215,6 +211,9 @@ function whatsOnTheMenu() {
                     accrd_list.setAttribute('id', `mnu_accrd_list_${data.scions[mn].scion_id}`);
                     accrd_cntnr.appendChild(accrd_list);                   
                     accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`);
+                    
+                    menu_tablet.appendChild(accrd_cntnr);
+                    m_btm.appendChild(menu_tablet);
                     
                     console.log(data.scions[mn].ls_id);
                     console.log(data.scions[mn]);
@@ -388,8 +387,7 @@ function whatsOnTheMenu() {
                     //     }
                         
                     }
-                menu_tablet.appendChild(accrd_cntnr);
-                m_btm.appendChild(menu_tablet);
+                
             }
             genMen(data);
         })

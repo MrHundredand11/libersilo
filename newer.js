@@ -234,7 +234,8 @@ function whatsOnTheMenu() {
                                 accrd_list.appendChild(mnu_fldr);
 
                                 for (mnu_i in mnu.scions) {
-                                    mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
+                                    console.log(gen_men(mnu.scions[mnu_i]));
+                                    //mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                                 }
                                 return mnu_fldr;
 

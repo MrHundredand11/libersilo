@@ -222,7 +222,13 @@ function whatsOnTheMenu() {
                         console.log(data.scions[mn].scions[mnu]);
                         console.log(data.scions[mn].scions[mnu].ls_id);
                         console.log(data.scions[mn].scions[mnu].ls_ttl);
-                        console.log(data.scions[mn].scions[mnu].scions);
+                        //console.log(data.scions[mn].scions[mnu].scions);
+                        for (mnut in data.scions[mn].scions[mnu].scions) {
+                            console.log(data.scions[mn].scions[mnu].scions[mnut]);
+                            console.log(data.scions[mn].scions[mnu].scions[mnut].ls_id);
+                            console.log(data.scions[mn].scions[mnu].scions[mnut].ls_ttl);
+                            //console.log(data.scions[mn].scions[mnu].scions);
+                        }
                     }
 
 

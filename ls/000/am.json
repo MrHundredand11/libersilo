@@ -926,6 +926,7 @@
                     "ls_url": "",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-AA-L04",
                             "ls_ttl": "The Letter Daleth",
                             "ls_type": "+>",
                             "scion_id": "ls_qbl_aa_l04",
@@ -948,12 +949,14 @@
                     "scion_id": "ls_qbl_alg",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-ALG-SGNS-S01",
                             "ls_ttl": "The Sign Aries",
                             "ls_type": "+>",
                             "scion_id": "ls_qbl_alg_sgns_s01",
                             "ls_url": "https://api.jsonbin.io/v3/b/63a6f3db01a72b59f238488b"
                         },
                         {
+                            "ls_id": "LS-QBL-ALG-SGNS-S12",
                             "ls_ttl": "The Sign Pisces",
                             "ls_type": "+>",
                             "scion_id": "ls_qbl_alg_sgns_s12",

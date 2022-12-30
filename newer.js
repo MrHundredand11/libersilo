@@ -218,6 +218,12 @@ function whatsOnTheMenu() {
                     
                     console.log(data.scions[mn].ls_id);
                     console.log(data.scions[mn]);
+                    for (mnu in data.scions[mn].scions) {
+                        console.log(data.scions[mn].scions[mnu]);
+                        console.log(data.scions[mn].scions[mnu].ls_id);
+                        console.log(data.scions[mn].scions[mnu].ls_ttl);
+                        console.log(data.scions[mn].scions[mnu].scions);
+                    }
 
 
                     function gen_men(mnu) {

@@ -40,6 +40,7 @@
             "scion_id": "ls_dgtl",
             "scions": [
                 {
+                    "ls_id": "LS-DGTL-AI",
                     "ls_ttl": "Automation Intelligence",
                     "ls_type": "=>",
                     "ls_url": "",
@@ -69,6 +70,7 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-CLD",
                     "ls_ttl": "Cloud Systems",
                     "ls_type": "=>",
                     "ls_url": "",
@@ -120,6 +122,7 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-CODE",
                     "ls_ttl": "Coding + Scripting + Programming",
                     "ls_type": "=>",
                     "ls_url": "",
@@ -192,24 +195,28 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-ISEC",
                     "ls_ttl": "Information Security",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_isec",
                     "scions": [
                         {
+                            "ls_id": "LS-DGTL-ISEC-000",
                             "ls_ttl": "Overview of Information Security",
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/000.json",
                             "scion_id": "ls_dgtl_isec_000"
                         },
                         {
+                            "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
                             "ls_ttl": "Access Control",
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
                             "scion_id": "ls_dgtl_isec_dfn_acsctrl"
                         },
                         {
+                            "ls_id": "LS-DGTL-ISEC-DFN-CADR",
                             "ls_ttl": "Continuity Assurance + Disaster Recovery",
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/dfn/cadr.json",

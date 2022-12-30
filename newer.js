@@ -1,8 +1,4 @@
-var m_a = 'https://api.jsonbin.io/v3/b/63a19f9b01a72b59f2353a0a';
-var m_aa = 'https://api.jsonbin.io/v3/b/63aac3ff01a72b59f23a2f38';
-var m_a2 = './json/menu.json';
-var m_a3 = '/json/menu.json';
-var m_a4 = '/ls/000/am.json';
+let m_a4 = '/ls/000/am.json';
 let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
 let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";
@@ -197,6 +193,10 @@ function whatsOnTheMenu() {
                 side_seal.setAttribute('onclick', 'homeFetch()');
                 side_seal.innerHTML = "<img src='Seal.jpg' width='111' height='111'></img><br>-> Menu <-<br>";
                 m_top.appendChild(side_seal);
+
+                // for (x1 in data.scions) {
+                //     console.log(gen_menu(data.scions[x1]));
+                // }
 
 
 

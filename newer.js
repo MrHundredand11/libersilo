@@ -245,6 +245,7 @@ function whatsOnTheMenu() {
                                 menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);
                                 menu_entry.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
                                 accrd_list.appendChild(menu_entry);
+                                return menu_entry;
                         }
                     }
 
@@ -1107,5 +1108,4 @@ async function fetchy(zz) {
         .catch(err => {
             console.log(err);
         })
-    //return "";
 }

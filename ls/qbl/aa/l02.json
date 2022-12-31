@@ -1,0 +1,43 @@
+{
+    "ls_id": "LS-QBL-AA-L02",
+    "ls_ttl": "The Letter Bayt",
+    "scion_id": "ls_qbl_aa_l02",
+    "scions": [
+        {
+            "drct_id": "ASSC",
+            "drct_ttl": "Associations of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_assc",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Assocations of (The Letter Bayt) ::",
+                    "insc_tag": "Associations",
+                    "scion_id": "ls_qbl_aa_l02_assc_lst",
+                    "scions": [
+                        {
+                            "insc_term": "House"
+                        },
+                        {
+                            "insc_term": "Box // Container"
+                        },
+                        {
+                            "insc_term": "Body"
+                        },
+                        {
+                            "insc_term": "Blessing"
+                        },
+                        {
+                            "insc_term": "Book"
+                        },
+                        {
+                            "insc_term": "Duality"
+                        },
+                        {
+                            "insc_term": "Path of the Hearth Fire"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

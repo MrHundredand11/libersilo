@@ -55,6 +55,56 @@
             ]
         },
         {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Element of Fire'",
+            "scion_id": "ls_qbl_lmnt_w_cntr",
+            "scions": [
+                {
+                    "insc_tag": "Plants",
+                    "insc_ttl": "Plants of (The Element of Fire) ::",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_lmnt_w_cntr_plnts",
+                    "scions": [
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Ash"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Mustard"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Cactus"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Pepper"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Garlic"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Onion"
+                        },
+                        {
+                            "insc_tag": "Plant",
+                            "insc_type": "li_entr",
+                            "insc_term": "Thistle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "Scriptures around 'The Element of Fire'",
             "scion_id": "ls_qbl_lmnt_w_e01_luls",

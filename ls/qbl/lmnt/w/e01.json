@@ -1,0 +1,37 @@
+{
+    "ls_id": "LS-QBL-LMNT-W-E01",
+    "ls_ttl": "The Element of Fire",
+    "scion_id": "ls_qbl_lmnt_w_e01",
+    "scions": [
+        {
+            "drct_id": "QUAL",
+            "drct_ttl": "Qualities of 'The Element of Fire'",
+            "scion_id": "ls_qbl_lmnt_w_e01_qual",
+            "scions": [
+                {
+                    "insc_tag": "Qualities",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Qualities of (The Element of Fire) ::",
+                    "scion_id": "ls_qbl_lmnt_w_e01_qual_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Active"
+                        },
+                        {
+                            "insc_term": "Force"
+                        },
+                        {
+                            "insc_term": "Light"
+                        },
+                        {
+                            "insc_term": "Movement"
+                        },
+                        {
+                            "insc_term": "Masculine"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

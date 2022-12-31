@@ -721,14 +721,7 @@ function gen_lf(lf_i, lf) {
 async function fetchy(zz) {
     var mainContainer = document.getElementById("trestleboard");
     mainContainer.innerHTML = "";
-    fetch(zz
-    // fetch(zz, {
-    //     method: 'GET',
-    //     mode: 'no-cors',
-    //     headers: {
-    //         accept: 'application/json'
-    //     },
-    )
+    fetch(zz)
         .then(response => {
             return response.json();
         })
@@ -775,18 +768,11 @@ async function fetchy(zz) {
                 for (i in trst_brnchs) {
                     var brnch_id = trst_brnchs[i].scion_id;
                     var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;
-                    var brnch_cntnr = createElementWithClass('div', 'styl_brnch_cntnr');
-                    var brnch_bmp_top = createElementWithClass('div', 'styl_brnch_bmp_top');
-                    var brnch_nametag = createElementWithClass('div', 'styl_brnch_nametag');
-                    var brnch_trstlbrd = createElementWithClass('div', 'styl_brnch_trstlbrd');
-                    var brnch_bmp_btm = createElementWithClass('div', 'styl_brnch_bmp_btm');
-                
-                    brnch_cntnr.setAttribute('id', ('id_b_cntnr_' + brnch_id));
-                    brnch_bmp_top.setAttribute('id', ('id_b_bmp_top_' + brnch_id));
-                    brnch_nametag.setAttribute('id', ('id_b_nametag_' + brnch_id));
-                    brnch_trstlbrd.setAttribute('id', ('id_b_trstlbrd_' + brnch_id));
-                    brnch_bmp_btm.setAttribute('id', ('id_b_bmp_btm_' + brnch_id));
-
+                    var brnch_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${brnch_id}`);
+                    var brnch_bmp_top = gen_ECI('div', 'styl_brnch_bmp_top', `id_b_bmp_top_${brnch_id}`);
+                    var brnch_nametag = gen_ECI('div', 'styl_brnch_nametag', `id_b_nametag_${brnch_id}`);
+                    var brnch_trstlbrd = gen_ECI('div', 'styl_brnch_trstlbrd', `id_b_trstlbrd_${brnch_id}`);
+                    var brnch_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${brnch_id}`);
                     
                     brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
                     brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";

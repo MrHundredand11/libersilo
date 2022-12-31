@@ -123,7 +123,7 @@
                             "scions": [
                                 {
                                     "insc_type": "in_txt",
-                                    "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt.\n&emsp;The Earth heaves before Him, the world and all that dwell therein.\n&emsp;Who can stand before His wrath? Who can resist His fury?\n&emsp;strong>His anger pours out like fire</strong>, and rocks are shattered because of Him.&emsp;]"
+                                    "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt.\n&emsp;&emsp;The Earth heaves before Him, the world and all that dwell therein.\n&emsp;&emsp;Who can stand before His wrath? Who can resist His fury?\n&emsp;&emsp;<strong>His anger pours out like fire</strong>, and rocks are shattered because of Him.&emsp;]"
                                 }
                             ]
                         },

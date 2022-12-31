@@ -205,21 +205,21 @@ function whatsOnTheMenu() {
                     var accrd_cntnr = createElementWithClass('div', 'styl_mnu_accrd_cntnr');
                     var accrd_ttl = createElementWithClass('div', 'styl_mnu_accrd_ttl');
                     
-                    accrd_cntnr.setAttribute('id', `mnu_accrd_cntnr_${data.scions[mn].scion_id}`);
-                    accrd_ttl.setAttribute('id', `mnu_accrd_ttl_${data.scions[mn].scion_id}`)
-                    accrd_ttl.innerHTML = `${data.scions[mn].ls_ttl}`;
+                    accrd_cntnr.setAttribute('id', `mnu_accrd_cntnr_${drct_tree[mn].scion_id}`);
+                    accrd_ttl.setAttribute('id', `mnu_accrd_ttl_${drct_tree[mn].scion_id}`)
+                    accrd_ttl.innerHTML = `${drct_tree[mn].ls_ttl}`;
                     accrd_cntnr.appendChild(accrd_ttl);
 
                     var accrd_list = createElementWithClass('div', 'styl_mnu_accrd_list');
-                    accrd_list.setAttribute('id', `mnu_accrd_list_${data.scions[mn].scion_id}`);
+                    accrd_list.setAttribute('id', `mnu_accrd_list_${drct_tree[mn].scion_id}`);
                     accrd_cntnr.appendChild(accrd_list);                   
-                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`);
+                    accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${drct_tree[mn].scion_id}')`);
                     
                     menu_tablet.appendChild(accrd_cntnr);
                     
-                    for (mnu in data.scions[mn].scions) {
+                    for (mnu in drct_tree[mn].scions) {
                         //console.log(gen_men(data.scions[mn].scions[mnu]));
-                        accrd_cntnr.appendChild(gen_men(data.scions[mn].scions[mnu]));
+                        accrd_cntnr.appendChild(gen_men(drct_tree[mn].scions[mnu]));
                     }
 
 

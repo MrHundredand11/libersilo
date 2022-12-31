@@ -193,6 +193,7 @@ function whatsOnTheMenu() {
                 side_seal.setAttribute('onclick', 'homeFetch()');
                 side_seal.innerHTML = "<img src='Seal.jpg' width='111' height='111'></img><br>-> Menu <-<br>";
                 m_top.appendChild(side_seal);
+                m_btm.appendChild(menu_tablet);
 
                 // for (x1 in data.scions) {
                 //     console.log(gen_menu(data.scions[x1]));
@@ -213,19 +214,10 @@ function whatsOnTheMenu() {
                     accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${data.scions[mn].scion_id}')`);
                     
                     menu_tablet.appendChild(accrd_cntnr);
-                    m_btm.appendChild(menu_tablet);
                     
                     for (mnu in data.scions[mn].scions) {
                         console.log(gen_men(data.scions[mn].scions[mnu]));
                         accrd_cntnr.appendChild(gen_men(data.scions[mn].scions[mnu]));
-                        //console.log(data.scions[mn].scions[mnu].scions);
-                        
-                        for (mnut in data.scions[mn].scions[mnu].scions) {
-                            console.log(data.scions[mn].scions[mnu].scions[mnut]);
-                            console.log(data.scions[mn].scions[mnu].scions[mnut].ls_id);
-                            console.log(data.scions[mn].scions[mnu].scions[mnut].ls_ttl);
-                            //console.log(data.scions[mn].scions[mnu].scions);
-                        }
                     }
 
 
@@ -239,8 +231,7 @@ function whatsOnTheMenu() {
                                 mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${mnu.scion_id}`);
                                 mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${mnu.scion_id}`)
                                 mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${mnu.scion_id}')`);
-                                mnu_fldr_ttl.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
-                            
+                                mnu_fldr_ttl.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;                           
                                 mnu_fldr.appendChild(mnu_fldr_ttl);
                                 mnu_fldr.appendChild(mnu_fldr_cntn);
                                 //accrd_list.appendChild(mnu_fldr);

@@ -74,14 +74,14 @@ function homeFetch() {
             function populatePage(data) {
                 var headBoard = createElementWithClass('div', 'branch_container');
                 var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.record.ls_ttl + " <-";
+                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 headBoard.appendChild(ls_ttl);
                 mainContainer.appendChild(headBoard);
             }
             populatePage(data)
 
             function popDir(data) {
-                let drct_rcrd = data.record.scions
+                let drct_rcrd = data.scions
                 var drct_main = createElementWithClass('div', 'branch_container');
                 var drct_head = createElementWithClass('div', 'styl_drct_head');
                 var drct_cntn = gen_ECI('div', 'styl_drct_cntn', 'id_drct_cntn');

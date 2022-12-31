@@ -4,8 +4,8 @@
     "scion_id": "ls_dgtl_cld_ms_m365",
     "scions": [
         {
-            "brnch_id": "000",
-            "brnch_ttl": "Overview of 'Microsoft 365'",
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Microsoft 365'",
             "scion_id": "ls_dgtl_cld_ms_m365_000",
             "scions": [
                 {
@@ -22,8 +22,8 @@
             ]
         },
         {
-            "brnch_id": "SRVC",
-            "brnch_ttl": "'Microsoft 365' Services",
+            "drct_id": "SRVC",
+            "drct_ttl": "'Microsoft 365' Services",
             "scion_id": "ls_dgtl_cld_ms_m365_srvc",
             "scions": [
                 {

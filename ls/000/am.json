@@ -84,48 +84,11 @@
                             "scion_id": "ls_dgtl_cld_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-CLD-MS",
-                            "ls_ttl": "Microsoft Cloud Offerings",
-                            "ls_type": "=>",
+                            "ls_id": "LS-DGTL-CLD-MS-M365",
+                            "ls_ttl": "Microsoft 365",
+                            "ls_type": "+>",
                             "ls_url": "",
-                            "scion_id": "ls_dgtl_cld_ms",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-CLD-MS-AZR-000",
-                                    "ls_ttl": "Overview of 'Microsoft Azure'",
-                                    "ls_type": "+>",
-                                    "ls_url": "",
-                                    "scion_id": "ls_dgtl_cld_ms_azr_000"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-CLD-MS-AZR-DBANL",
-                                    "ls_ttl": "Azure Databases + Analytics Services",
-                                    "ls_type": "+>",
-                                    "ls_url": "",
-                                    "scion_id": "ls_dgtl_cld_ms_azr_dbanl"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-CLD-MS-AZR-SEC",
-                                    "ls_ttl": "Azure Security Features",
-                                    "ls_type": "+>",
-                                    "ls_url": "",
-                                    "scion_id": "ls_dgtl_cld_ms_azr_sec"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-CLD-MS-AZR-STRG",
-                                    "ls_ttl": "Azure Storage Services",
-                                    "ls_type": "+>",
-                                    "ls_url": "",
-                                    "scion_id": "ls_dgtl_cld_ms_azr_strg"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-CLD-MS-M365",
-                                    "ls_ttl": "Microsoft 365",
-                                    "ls_type": "+>",
-                                    "ls_url": "",
-                                    "scion_id": "ls_dgtl_cld_ms_m365"
-                                }
-                            ]
+                            "scion_id": "ls_dgtl_cld_ms_m365"
                         }
                     ]
                 },

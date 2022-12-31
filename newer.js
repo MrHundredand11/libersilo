@@ -204,10 +204,10 @@ function whatsOnTheMenu() {
                 for (mn in drct_tree) {
                     var accrd_cntnr = gen_ECI('div', 'styl_mnu_accrd_cntnr', `mnu_accrd_cntnr_${drct_tree[mn].scion_id}`);
                     var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${drct_tree[mn].scion_id}`);                    
-                    var accrd_list = gen_ECI('div', 'styl_mnu_accrd_list', `mnu_accrd_list_${drct_tree[mn].scion_id}`);
+                    var accrd_cntn = gen_ECI('div', 'styl_mnu_accrd_cntn', `mnu_accrd_cntn_${drct_tree[mn].scion_id}`);
                     accrd_ttl.innerHTML = `${drct_tree[mn].ls_ttl}`;
                     accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${drct_tree[mn].scion_id}')`);
-                    accrd_cntnr.append(accrd_ttl, accrd_list);          
+                    accrd_cntnr.append(accrd_ttl, accrd_cntn);          
                     menu_tablet.appendChild(accrd_cntnr);
                     
                     for (mnu in drct_tree[mn].scions) {

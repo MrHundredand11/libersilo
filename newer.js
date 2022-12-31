@@ -1,4 +1,4 @@
-let m_a4 = '/ls/000/am.json';
+let m_a4 = '/ls/000/am2.json';
 let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
 let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";

@@ -32,6 +32,77 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols of 'The Element of Fire'",
+            "scion_id": "ls_qbl_lmnt_w_e01_symb",
+            "scions": [
+                {
+                    "insc_tag": "Symbols",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Symbols of (The Element of Fire) ::",
+                    "scion_id": "ls_qbl_lmnt_w_e01_symb_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Upward Triangle"
+                        },
+                        {
+                            "insc_term": "The Pyramid"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Scriptures around 'The Element of Fire'",
+            "scion_id": "ls_qbl_lmnt_w_e01_luls",
+            "scions": [
+                {
+                    "insc_tag": "Scriptures",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Scriptures around (The Element of Fire) ::",
+                    "scion_id": "ls_qbl_lmnt_w_e01_luls_lst",
+                    "scions": [
+                        {
+                            "insc_tag": "Scripture",
+                            "insc_term": "Nahum 1:5-6"
+                        },
+                        {
+                            "insc_tag": "Scripture",
+                            "insc_term": "Job 1:19-20"
+                        },
+                        {
+                            "insc_tag": "Scripture",
+                            "insc_term": "Chaldean Oracles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CNSD",
+            "drct_ttl": "Considerations around 'Phyiscal Fire'",
+            "scion_id": "ls_qbl_lmnt_w_e01_cnsd",
+            "scions": [
+                {
+                    "insc_tag": "Considerations",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Considerations around (Physical Fire) ::",
+                    "scion_id": "ls_qbl_lmnt_w_e01_cnsd_lst",
+                    "scions": [
+                        {
+                            "insc_tag": "Consideration",
+                            "insc_term": "Ashes"
+                        },
+                        {
+                            "insc_tag": "Consideration",
+                            "insc_term": "\"Banking\" a Fire"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

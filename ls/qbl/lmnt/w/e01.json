@@ -123,19 +123,27 @@
                             "scions": [
                                 {
                                     "insc_type": "in_txt",
-                                    "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt.\nThe Earth heaves before Him, the world and all that dwell therein.\nWho can stand before His wrath? Who can resist His fury?\n<strong>His anger pours out like fire</strong>, and rocks are shattered because of Him.&emsp;]"
+                                    "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt.\n&emsp;The Earth heaves before Him, the world and all that dwell therein.\n&emsp;Who can stand before His wrath? Who can resist His fury?\n&emsp;strong>His anger pours out like fire</strong>, and rocks are shattered because of Him.&emsp;]"
                                 }
                             ]
                         },
                         {
                             "insc_type": "li_top",
                             "insc_tag": "Scripture",
-                            "insc_term": "Job 1:19-20"
+                            "insc_term": "Job 1:19-20",
+                            "scion_id": "ls_qbl_lmnt_w_e01_luls_i_job11920",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "{<b>Job 1:19-20</b>==>[&emsp;To you, O Lord, I cry, <strong>for fire has devoured the pastures of the plain</strong>, and flame has enkindled all the trees of the field.\n&emsp;Even the beasts of the field cry out to you, for the streams of water are dried up, and <strong>the fire has devoured the pastures of the plain</strong>.&emsp;]"
+                                }
+                            ]
                         },
                         {
                             "insc_type": "li_top",
                             "insc_tag": "Scripture",
-                            "insc_term": "Chaldean Oracles"
+                            "insc_term": "Chaldean Oracles",
+                            "scion_id": "ls_qbl_lmnt_w_e01_luls_i_chaldeanoracles"
                         }
                     ]
                 }

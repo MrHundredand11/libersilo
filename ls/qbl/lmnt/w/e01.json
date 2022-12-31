@@ -162,7 +162,25 @@
                     "scions": [
                         {
                             "insc_tag": "Consideration",
-                            "insc_term": "Ashes"
+                            "insc_term": "Ashes",
+                            "scion_id": "ls_qbl_lmnt_w_e01_cnsd_ashes",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "If you remove ashes from your wood stove or fireplace insert, make sure you carry the ashes outside. You don't want to leave ashes indoors because a stray ash may land on something combustibile and ignite."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_tag": "Consideration",
+                                    "insc_cntn": "Storing ashes in a small, metal pail with a lid is best. This way, your ashes won't get wet."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "You can use the ashes for multiple purposes including banking fires and mixing with soil."
+                                }
+                            ]
                         },
                         {
                             "insc_tag": "Consideration",

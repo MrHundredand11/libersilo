@@ -149,7 +149,7 @@ function showHideStmExp(lf_id) {
 function mnu_showHide_top(scion_id) {
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");
-    var panel = document.getElementById(`mnu_accrd_list_${scion_id}`);
+    var panel = document.getElementById(`mnu_accrd_cntn_${scion_id}`);
     if (panel.style.display === "block") {
         panel.style.display = "none";
     } else {

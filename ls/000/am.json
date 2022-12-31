@@ -87,7 +87,7 @@
                             "ls_id": "LS-DGTL-CLD-MS-M365",
                             "ls_ttl": "Microsoft 365",
                             "ls_type": "+>",
-                            "ls_url": "",
+                            "ls_url": "/ls/dgtl/cld/ms/m365.json",
                             "scion_id": "ls_dgtl_cld_ms_m365"
                         }
                     ]

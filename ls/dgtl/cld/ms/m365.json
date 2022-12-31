@@ -14,8 +14,10 @@
                     "scions_id": "ls_dgtl_cld_ms_m365_000_def",
                     "scions": [
                         {
-                            "insc_type": "in_txt",
-                            "insc_cntn": "Microsoft 365 is a <u>pay-as-you-go SaaS</u> offering that includes:"
+                            "insc_type": "blade",
+                            "insc_tag": "Definition",
+                            "insc_cntn": "Microsoft 365 is a&nbsp;<u>pay-as-you-go SaaS</u>&nbsp;offering that includes:",
+                            "scion_id": "ls_dgtl_cld_ms_m365_000_def_saasoff"
                         }
                     ]
                 }

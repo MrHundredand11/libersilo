@@ -216,6 +216,8 @@ function whatsOnTheMenu() {
                     }
 
                     function gen_men(mnu) {
+                        console.log(mnu);
+                        console.log(mnu.ls_type);
                         switch (mnu.ls_type) {
                             case '=>':
                                 var mnu_fldr = gen_ECI('div', 'styl_mnu_accrd_fldr', `mnu_accrd_fldr_${mnu.scion_id}`);

@@ -9,9 +9,9 @@
             "scion_id": "ls_qbl_aa_l03_assc",
             "scions": [
                 {
-                    "ls_type": "stm_olst_exp",
-                    "ls_ttl": "List of Associations of (The Letter Gimel) ::",
-                    "ls_tag": "Associations",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Associations of (The Letter Gimel) ::",
+                    "insc_tag": "Associations",
                     "scion_id": "ls_qbl_aa_l03_assc_lst",
                     "scions": [
                         {

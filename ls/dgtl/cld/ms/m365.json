@@ -1,0 +1,61 @@
+{
+    "ls_id": "LS-DGTL-CLD-MS-M365",
+    "ls_ttl": "Microsoft 365",
+    "scion_id": "ls_dgtl_cld_ms_m365",
+    "scions": [
+        {
+            "brnch_id": "000",
+            "brnch_ttl": "Overview of 'Microsoft 365'",
+            "scion_id": "ls_dgtl_cld_ms_m365_000",
+            "scions": [
+                {
+                    "insc_type": "stm_lst",
+                    "insc_ttl": "Definitions of (Microsoft 365)",
+                    "scions_id": "ls_dgtl_cld_ms_m365_000_def",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "Microsoft 365 is a <u>pay-as-you-go SaaS</u> offering that includes:"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "brnch_id": "SRVC",
+            "brnch_ttl": "'Microsoft 365' Services",
+            "scion_id": "ls_dgtl_cld_ms_m365_srvc",
+            "scions": [
+                {
+                    "insc_tag": "Services",
+                    "insc_type": "stm_olst_exp",
+                    "insc_ttl": "List of Services in (Microsoft 365) ::",
+                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Windows 10 Enterprise"
+                        },
+                        {
+                            "insc_term": "Exchange Online"
+                        },
+                        {
+                            "insc_term": "Sharepoint Online"
+                        },
+                        {
+                            "insc_term": "Microsoft Teams"
+                        },
+                        {
+                            "insc_term": "Microsoft InTune"
+                        },
+                        {
+                            "insc_term": "Office 365"
+                        },
+                        {
+                            "insc_term": "Outlook"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

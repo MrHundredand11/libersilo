@@ -246,14 +246,11 @@ function whatsOnTheMenu() {
                                 //accrd_list.appendChild(mnu_fldr);
 
                                 for (mnu_i in mnu.scions) {
-                                    // console.log(mnu_i.ls_id);
-                                    // console.log(mnu_i.ls_ttl);
-                                    // console.log(mnu_i.ls_type);
                                     // console.log(mnu.scions[mnu_i].ls_id);
                                     // console.log(mnu.scions[mnu_i].ls_ttl);
                                     // console.log(mnu.scions[mnu_i].ls_type);
                                     console.log(gen_men(mnu.scions[mnu_i]));
-                                    mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
+                                    //mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                                 }
                                 return mnu_fldr;
 

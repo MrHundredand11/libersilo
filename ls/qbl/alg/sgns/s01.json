@@ -6,10 +6,9 @@
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'The Sign Aries'",
             "scion_id": "ls_qbl_alg_sgns_s01_cntr",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_name": "<span class='span_list_title'>Flowers</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl": "<span class='span_list_title'>Flowers</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_flwrs",
                     "scions": [
@@ -31,7 +30,7 @@
                     ]
                 },
                 {
-                    "insc_name": "<span class='span_list_title'>Flower Essences</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl": "<span class='span_list_title'>Flower Essences</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_flwress",
                     "scions": [
@@ -68,7 +67,7 @@
                     ]
                 },
                 {
-                    "insc_name": "<span class='span_list_title'>Trees</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl": "<span class='span_list_title'>Trees</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_trees",
                     "scions": [
@@ -79,7 +78,7 @@
                     ]
                 },
                 {
-                    "insc_name":"<span class='span_list_title'>Familiar Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl":"<span class='span_list_title'>Familiar Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_famherb",
                     "scions": [
@@ -111,7 +110,7 @@
                     ]
                 },
                 {
-                    "insc_name":"<span class='span_list_title'>Remedy Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl":"<span class='span_list_title'>Remedy Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_remherb",
                     "scions": [
@@ -143,7 +142,7 @@
                     ]
                 },
                 {
-                    "insc_name": "<span class='span_list_title'>Stones</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl": "<span class='span_list_title'>Stones</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_cntr_stns",
                     "scions": [
@@ -170,10 +169,9 @@
             "drct_id": "PWAX",
             "drct_ttl": "Poetic Waxing about 'The Sign Aries'",
             "scion_id": "ls_qbl_alg_sgns_s01_pwax",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_type": "leaf_text",
+                    "insc_type": "in_txt",
                     "insc_cntn": "Out of the chaos comes order. In the midst of the void, a pattern is discernable. Within this pattern, consciousness is born and the spring of human spiritual endeavor can flow around the Earth and out into the boundless universe beyond."
                 }
             ]
@@ -182,10 +180,9 @@
             "drct_id": "LCTN",
             "drct_ttl": "Localities + Locations of 'The Sign Aries'",
             "scion_id": "ls_qbl_alg_sgns_s01_lctn",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_name":"<span class='span_list_title'>Cities</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl":"<span class='span_list_title'>Cities</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_lctn_city",
                     "scions": [
@@ -212,7 +209,7 @@
                     ]
                 },
                 {
-                    "insc_name":"<span class='span_list_title'>Coutries</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl":"<span class='span_list_title'>Coutries</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
                     "insc_type": "stm_list",
                     "scion_id": "ls_qbl_alg_sgns_s01_lctn_cntrs",
                     "scions": [
@@ -238,20 +235,17 @@
         {
             "drct_id": "LOVE",
             "drct_ttl": "'Aries' in Love",
-            "scion_id": "ls_qbl_alg_sgns_s01_love",
-            "type": "branch"
+            "scion_id": "ls_qbl_alg_sgns_s01_love"
         },
         {
             "drct_id": "WORK",
             "drct_ttl": "'Aries' in Career",
-            "scion_id": "ls_qbl_alg_sgns_s01_work",
-            "type": "branch"
+            "scion_id": "ls_qbl_alg_sgns_s01_work"
         },
         {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'The Sign Aries'",
-            "scion_id": "ls_qbl_alg_sgns_s01_mdcl",
-            "type": "branch"
+            "scion_id": "ls_qbl_alg_sgns_s01_mdcl"
         }
     ]
 }

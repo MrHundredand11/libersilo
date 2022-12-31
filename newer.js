@@ -245,26 +245,19 @@ function whatsOnTheMenu() {
                                 mnu_fldr.appendChild(mnu_fldr_cntn);
                                 //accrd_list.appendChild(mnu_fldr);
 
-                                console.log(mnu.ls_id);
-                                    console.log(mnu.ls_ttl);
-                                    console.log(mnu.ls_type);
-
-                                // for (mnu_i in mnu.scions) {
-                                //     console.log(mnu_i.ls_id);
-                                //     console.log(mnu_i.ls_ttl);
-                                //     console.log(mnu_i.ls_type);
-                                //     console.log(mnu.scions[mnu_i].ls_id);
-                                //     console.log(mnu.scions[mnu_i].ls_ttl);
-                                //     console.log(mnu.scions[mnu_i].ls_type);
-                                //     console.log(gen_men(mnu.scions[mnu_i]));
-                                //     mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
-                                // }
+                                for (mnu_i in mnu.scions) {
+                                    console.log(mnu_i.ls_id);
+                                    console.log(mnu_i.ls_ttl);
+                                    console.log(mnu_i.ls_type);
+                                    console.log(mnu.scions[mnu_i].ls_id);
+                                    console.log(mnu.scions[mnu_i].ls_ttl);
+                                    console.log(mnu.scions[mnu_i].ls_type);
+                                    console.log(gen_men(mnu.scions[mnu_i]));
+                                    mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
+                                }
                                 return mnu_fldr;
 
-                            case '+>':
-                            console.log(mnu.ls_id);
-                            console.log(mnu.ls_ttl);
-                            console.log(mnu.ls_type);    
+                            case '+>':   
                                 var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
                                 menu_entry.setAttribute('id', `mnu_accrd_entry_${mnu.scion_id}`);
                                 menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);

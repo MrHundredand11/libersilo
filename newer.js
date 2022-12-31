@@ -216,9 +216,10 @@ function whatsOnTheMenu() {
                     m_btm.appendChild(menu_tablet);
                     
                     for (mnu in data.scions[mn].scions) {
+                        console.log(gen_men(data.scions[mn].scions[mnu]));
                         accrd_cntnr.appendChild(gen_men(data.scions[mn].scions[mnu]));
                         //console.log(data.scions[mn].scions[mnu].scions);
-                        console.log(gen_men(data.scions[mn].scions[mnu]));
+                        
                         for (mnut in data.scions[mn].scions[mnu].scions) {
                             console.log(data.scions[mn].scions[mnu].scions[mnut]);
                             console.log(data.scions[mn].scions[mnu].scions[mnut].ls_id);
@@ -242,7 +243,7 @@ function whatsOnTheMenu() {
                             
                                 mnu_fldr.appendChild(mnu_fldr_ttl);
                                 mnu_fldr.appendChild(mnu_fldr_cntn);
-                                accrd_list.appendChild(mnu_fldr);
+                                //accrd_list.appendChild(mnu_fldr);
 
                                 console.log(mnu.ls_id);
                                     console.log(mnu.ls_ttl);

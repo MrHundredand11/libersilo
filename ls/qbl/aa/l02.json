@@ -40,6 +40,44 @@
             ]
         },
         {
+            "drct_id": "WORD",
+            "drct_ttl": "Important Words of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_word",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Important Words",
+                    "insc_ttl": "List of Important Words of (The Letter Bayt) ::",
+                    "scion_id": "ls_qbl_aa_l02_word_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Berakhoth",
+                            "scion_id": "ls_qbl_aa_l02_word_i_berakhoth"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_rltn",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Relationships",
+                    "insc_ttl": "List of Relationships of (The Letter Bayt) ::",
+                    "scion_id": "ls_qbl_aa_l02_rltn_lst",
+                    "scions": [
+                        {
+                            "insc_term": "(The Letter Bayt) + (The Letter Tau)",
+                            "scion_id": "ls_qbl_aa_l02_rltn_aa22"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "MNTR",
             "drct_ttl": "Mantras of 'The Letter Bayt'",
             "scion_id": "ls_qbl_aa_l02_mntr",

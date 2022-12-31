@@ -33,7 +33,24 @@
                     "scion_id": "ls_dgtl_cld_ms_m365_srvc_lst",
                     "scions": [
                         {
-                            "insc_term": "Windows 10 Enterprise"
+                            "insc_term": "Windows 10 Enterprise",
+                            "insc_type": "stm_olst_exp",
+                            "insc_ttl": "<span class='styl_stm_ttl_spprt'>Features</span> of <span class='span_opn_cls'>(</span>Windows 10 Enterprise<span class='span_opn_cls'>)</span> ::",
+                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e",
+                            "scions": [
+                                {
+                                    "insc_term": "Intelligent Security"
+                                },
+                                {
+                                    "insc_term": "Flexible Management"
+                                },
+                                {
+                                    "insc_term": "Streamlined Updates"
+                                },
+                                {
+                                    "insc_term": "Robust Productivity Tools"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Exchange Online"

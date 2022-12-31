@@ -206,8 +206,8 @@ function whatsOnTheMenu() {
                     var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${drct_tree[mn].scion_id}`);                    
                     var accrd_list = gen_ECI('div', 'styl_mnu_accrd_list', `mnu_accrd_list_${drct_tree[mn].scion_id}`);
                     accrd_ttl.innerHTML = `${drct_tree[mn].ls_ttl}`;
-                    accrd_cntnr.append(accrd_ttl, accrd_list);          
                     accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${drct_tree[mn].scion_id}')`);
+                    accrd_cntnr.append(accrd_ttl, accrd_list);          
                     menu_tablet.appendChild(accrd_cntnr);
                     
                     for (mnu in drct_tree[mn].scions) {
@@ -218,17 +218,12 @@ function whatsOnTheMenu() {
                     function gen_men(mnu) {
                         switch (mnu.ls_type) {
                             case '=>':
-                                var mnu_fldr = createElementWithClass('div', 'styl_mnu_accrd_fldr');
-                                var mnu_fldr_ttl = createElementWithClass('div', 'styl_mnu_accrd_fldr_ttl');
-                                var mnu_fldr_cntn = createElementWithClass('div', 'styl_mnu_accrd_fldr_cntn');
-                                mnu_fldr.setAttribute('id', `mnu_accrd_fldr_${mnu.scion_id}`);
-                                mnu_fldr_ttl.setAttribute('id', `mnu_accrd_fldr_ttl_${mnu.scion_id}`);
-                                mnu_fldr_cntn.setAttribute('id', `mnu_accrd_fldr_cntn_${mnu.scion_id}`)
+                                var mnu_fldr = gen_ECI('div', 'styl_mnu_accrd_fldr', `mnu_accrd_fldr_${mnu.scion_id}`);
+                                var mnu_fldr_ttl = gen_ECI('div', 'styl_mnu_accrd_fldr_ttl', `mnu_accrd_fldr_ttl_${mnu.scion_id}`);
+                                var mnu_fldr_cntn = gen_ECI('div', 'styl_mnu_accrd_fldr_cntn', `mnu_accrd_fldr_cntn_${mnu.scion_id}`);
+                                mnu_fldr_ttl.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
                                 mnu_fldr_ttl.setAttribute('onclick', `mnu_showHide_fldr('${mnu.scion_id}')`);
-                                mnu_fldr_ttl.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;                           
-                                mnu_fldr.appendChild(mnu_fldr_ttl);
-                                mnu_fldr.appendChild(mnu_fldr_cntn);
-                                //accrd_list.appendChild(mnu_fldr);
+                                mnu_fldr.append(mnu_fldr_ttl, mnu_fldr_cntn);
 
                                 for (mnu_i in mnu.scions) {
                                     // console.log(mnu.scions[mnu_i].ls_id);

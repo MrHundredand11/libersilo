@@ -716,6 +716,7 @@ a {
     flex-wrap: nowrap;
     display: flex;
     align-items: flex-start;
+    white-space: pre;
 }
 
 .styl_lf_stm_olst_exp {

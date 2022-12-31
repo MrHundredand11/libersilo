@@ -19,18 +19,18 @@ function fillErUp(x) {
     fetchy(x);
 };
 
-function createElementWithClass(type, className) {
-    const element = document.createElement(type);
-    element.className = className;
-    return element;
-}
+// function createElementWithClass(type, className) {
+//     const element = document.createElement(type);
+//     element.className = className;
+//     return element;
+// }
 
-function gen_ECI(type, className, id) {
-    const element = document.createElement(type);
-    element.className = className;
-    element.setAttribute('id', id);
-    return element;
-}
+// function gen_ECI(type, className, id) {
+//     const element = document.createElement(type);
+//     element.className = className;
+//     element.setAttribute('id', id);
+//     return element;
+// }
 
 function shovelDigging(scion_id) {
     var shvl = document.getElementById("id_b_p_" + scion_id).className;    

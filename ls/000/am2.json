@@ -803,15 +803,36 @@
                     "ls_id": "LS-QBL-AA",
                     "ls_ttl": "The Arcana Alphabet",
                     "ls_type": "=>",
-                    "scion_id": "ls_qbl_aa",
                     "ls_url": "",
+                    "scion_id": "ls_qbl_aa",
                     "scions": [
+                        {
+                            "ls_id": "LS-QBL-AA-L01",
+                            "ls_ttl": "The Letter Aleph",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l01.json",
+                            "scion_id": "ls_qbl_aa_l01"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L02",
+                            "ls_ttl": "The Letter Bayt",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l02.json",
+                            "scion_id": "ls_qbl_aa_l02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L03",
+                            "ls_ttl": "The Letter Gimel",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l03.json",
+                            "scion_id": "ls_qbl_aa_l03"
+                        },
                         {
                             "ls_id": "LS-QBL-AA-L04",
                             "ls_ttl": "The Letter Daleth",
                             "ls_type": "+>",
-                            "scion_id": "ls_qbl_aa_l04",
-                            "ls_url": "https://api.jsonbin.io/v3/b/63a876ebdfc68e59d570bd37"
+                            "ls_url": "/ls/qbl/aa/l04.json",
+                            "scion_id": "ls_qbl_aa_l04"
                         }
                     ]
                 },
@@ -854,8 +875,8 @@
                             "ls_id": "LS-QBL-ALG-SGNS-S12",
                             "ls_ttl": "The Sign Pisces",
                             "ls_type": "+>",
-                            "scion_id": "ls_qbl_alg_sgns_s12",
-                            "ls_url": "/ls/qbl/alg/sgns/s12.json"
+                            "ls_url": "/ls/qbl/alg/sgns/s12.json",
+                            "scion_id": "ls_qbl_alg_sgns_s12"
                         }
                     ]
                 },

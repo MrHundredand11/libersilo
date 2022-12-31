@@ -1,6 +1,5 @@
-let m_a4 = '/ls/000/am2.json';
 function whatsOnTheMenu() {
-    fetch(m_a4)
+    fetch('/ls/000/am2.json')
         .then(response => {
             return response.json();
         })

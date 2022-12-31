@@ -1,0 +1,257 @@
+{
+    "ls_id": "LS-QBL-ALG-SGNS-S01",
+    "ls_ttl": "The Sign Aries",
+    "scions": [
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Sign Aries'",
+            "scion_id": "ls_qbl_alg_sgns_s01_cntr",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_name": "<span class='span_list_title'>Flowers</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_flwrs",
+                    "scions": [
+                        {
+                            "insc_tag": "Flower",
+                            "insc_type": "li_entr",
+                            "insc_term": "Geranium"
+                        },
+                        {
+                            "insc_tag": "Flower",
+                            "insc_type": "li_entr",
+                            "insc_term": "Honeysuckle"
+                        },
+                        {
+                            "insc_tag": "Flower",
+                            "insc_type": "li_entr",
+                            "insc_term": "Sweet Pea"
+                        }
+                    ]
+                },
+                {
+                    "insc_name": "<span class='span_list_title'>Flower Essences</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_flwress",
+                    "scions": [
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Impatiens"
+                        },
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Black Eyed Susan"
+                        },
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Beech"
+                        },
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Wild Oat"
+                        },
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Vine"
+                        },
+                        {
+                            "insc_tag": "Flower Essence",
+                            "insc_type": "li_entr",
+                            "insc_term": "Scarley Monkeyflower"
+                        }
+                    ]
+                },
+                {
+                    "insc_name": "<span class='span_list_title'>Trees</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_trees",
+                    "scions": [
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "All Thorn-Bearing Trees"
+                        }
+                    ]
+                },
+                {
+                    "insc_name":"<span class='span_list_title'>Familiar Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_famherb",
+                    "scions": [
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Ginger",
+                            "alt_name": "Zingiber officinale"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Nettles",
+                            "alt_name": "Urtica dioica"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Bearberry",
+                            "alt_name": "Arctostaphylos uva-ursi"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Vitex",
+                            "alt_name": "Vitex agnus castus"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Wormwood",
+                            "alt_name": "Artemisia absinthium"
+                        }
+                    ]
+                },
+                {
+                    "insc_name":"<span class='span_list_title'>Remedy Herbs</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_remherb",
+                    "scions": [
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Yarrow",
+                            "alt_name": "Achillea millefolium"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Vervain",
+                            "alt_name": "Verbena officinalis"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Eucalyptus",
+                            "alt_name": "Eucalyptus globulus"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Hawthorn",
+                            "alt_name": "Crataegus monogyna"
+                        },
+                        {
+                            "insc_type": "li_entr",
+                            "insc_term": "Hops",
+                            "alt_name": "Humulus Lupulus"
+                        }
+                    ]
+                },
+                {
+                    "insc_name": "<span class='span_list_title'>Stones</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_cntr_stns",
+                    "scions": [
+                        {
+                            "insc_tag": "Stone",
+                            "insc_type": "li_entr",
+                            "insc_term": "Citrine"
+                        },
+                        {
+                            "insc_tag": "Stone",
+                            "insc_type": "li_entr",
+                            "insc_term": "Bloodstone"
+                        },
+                        {
+                            "insc_tag": "Stone",
+                            "insc_type": "li_entr",
+                            "insc_term": "Diamond"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "PWAX",
+            "drct_ttl": "Poetic Waxing about 'The Sign Aries'",
+            "scion_id": "ls_qbl_alg_sgns_s01_pwax",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_type": "leaf_text",
+                    "insc_cntn": "Out of the chaos comes order. In the midst of the void, a pattern is discernable. Within this pattern, consciousness is born and the spring of human spiritual endeavor can flow around the Earth and out into the boundless universe beyond."
+                }
+            ]
+        },
+        {
+            "drct_id": "LCTN",
+            "drct_ttl": "Localities + Locations of 'The Sign Aries'",
+            "scion_id": "ls_qbl_alg_sgns_s01_lctn",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_name":"<span class='span_list_title'>Cities</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_lctn_city",
+                    "scions": [
+                        {
+                            "isnc_tag": "City",
+                            "insc_type": "li_entr",
+                            "insc_term": "Florence"
+                        },
+                        {
+                            "insc_tag": "City",
+                            "insc_type": "li_entr",
+                            "insc_term": "Naples"
+                        },
+                        {
+                            "insc_tag": "City",
+                            "insc_type": "li_entr",
+                            "insc_term": "Verona"
+                        },
+                        {
+                            "insc_tag": "City",
+                            "insc_type": "li_entr",
+                            "insc_term": "Marseilles"
+                        }
+                    ]
+                },
+                {
+                    "insc_name":"<span class='span_list_title'>Coutries</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Aries</span><span class='span_opn_cls'>)</span>",
+                    "insc_type": "stm_list",
+                    "scion_id": "ls_qbl_alg_sgns_s01_lctn_cntrs",
+                    "scions": [
+                        {
+                            "insc_tag": "Country",
+                            "insc_type": "li_entr",
+                            "insc_term": "England"
+                        },
+                        {
+                            "insc_tag": "Country",
+                            "insc_type": "li_entr",
+                            "insc_term": "Germany"
+                        },
+                        {
+                            "insc_tag": "Country",
+                            "insc_type": "li_entr",
+                            "insc_term": "Poland"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LOVE",
+            "drct_ttl": "'Aries' in Love",
+            "scion_id": "ls_qbl_alg_sgns_s01_love",
+            "type": "branch"
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "'Aries' in Career",
+            "scion_id": "ls_qbl_alg_sgns_s01_work",
+            "type": "branch"
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'The Sign Aries'",
+            "scion_id": "ls_qbl_alg_sgns_s01_mdcl",
+            "type": "branch"
+        }
+    ]
+}

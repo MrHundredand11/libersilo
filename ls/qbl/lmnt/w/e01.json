@@ -116,14 +116,24 @@
                     "scion_id": "ls_qbl_lmnt_w_e01_luls_lst",
                     "scions": [
                         {
+                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
-                            "insc_term": "Nahum 1:5-6"
+                            "insc_term": "Nahum 1:5-6",
+                            "scion_id": "ls_qbl_lmnt_w_e01_luls_i_nahum156",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt. The Earth heaves before Him, the world and all that dwell therein. Who can stand before His wrath? Who can resist His fury? <b>His anger pours out like fire</b>, and rocks are shattered because of Him.&emsp;]"
+                                }
+                            ]
                         },
                         {
+                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
                             "insc_term": "Job 1:19-20"
                         },
                         {
+                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
                             "insc_term": "Chaldean Oracles"
                         }

@@ -1,6 +1,20 @@
 <html>
 <head>   
         <link rel="stylesheet" href="new.css">
+        <script>
+            function createElementWithClass(type, className) {
+                const element = document.createElement(type);
+                element.className = className;
+                return element;
+            }
+            
+            function gen_ECI(type, className, id) {
+                const element = document.createElement(type);
+                element.className = className;
+                element.setAttribute('id', id);
+                return element;
+            }
+        </script>
         <script src="/ls/000/code/js/whatsOnTheMenu.js"></script>
         <script src="/ls/000/code/js/homepage.js"></script>
         <script src="newer.js"></script>

@@ -1,0 +1,30 @@
+{
+    "ls_id": "LS-QBL-AA-L03",
+    "ls_ttl": "The Letter Gimel",
+    "scion_id": "ls_qbl_aa_l03",
+    "scions": [
+        {
+            "drct_id": "ASSC",
+            "drct_ttl": "Associations of 'The Letter Gimel'",
+            "scion_id": "ls_qbl_aa_l03_assc",
+            "scions": [
+                {
+                    "ls_type": "stm_olst_exp",
+                    "ls_ttl": "List of Associations of (The Letter Gimel) ::",
+                    "ls_tag": "Associations",
+                    "scion_id": "ls_qbl_aa_l03_assc_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Transportation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LTTR",
+            "drct_ttl": "The Letter of 'Gimel'",
+            "scion_id": "ls_qbl_aa_l03_lttr"
+        }
+    ]
+}

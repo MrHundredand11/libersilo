@@ -799,3 +799,8 @@ strong {
     text-decoration: underline;
     font-weight: bold;
 }
+
+.styl_in_txt_bld {
+    font-weight: bold;
+    display: inline-block;
+}

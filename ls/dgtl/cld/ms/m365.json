@@ -10,7 +10,7 @@
             "scions": [
                 {
                     "insc_type": "stm_list",
-                    "insc_ttl": "Definitions of (Microsoft 365)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Definitions</span> of <span class='span_opn_cls'>(</span>Microsoft 365<span class='span_opn_cls'>)</span>",
                     "scions_id": "ls_dgtl_cld_ms_m365_000_def",
                     "scions": [
                         {
@@ -29,7 +29,7 @@
                 {
                     "insc_tag": "Services",
                     "insc_type": "stm_olst_exp",
-                    "insc_ttl": "List of Services in (Microsoft 365) ::",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span> of <span class='styl_stm_ttl_spprt'>Services</span> in <span class='span_opn_cls'>(</span>Microsoft 365<span class='span_opn_cls'>)</span> ::",
                     "scion_id": "ls_dgtl_cld_ms_m365_srvc_lst",
                     "scions": [
                         {

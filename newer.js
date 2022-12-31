@@ -246,14 +246,14 @@ function whatsOnTheMenu() {
                                 //accrd_list.appendChild(mnu_fldr);
 
                                 for (mnu_i in mnu.scions) {
-                                    console.log(mnu_i.ls_id);
-                                    console.log(mnu_i.ls_ttl);
-                                    console.log(mnu_i.ls_type);
-                                    console.log(mnu.scions[mnu_i].ls_id);
-                                    console.log(mnu.scions[mnu_i].ls_ttl);
-                                    console.log(mnu.scions[mnu_i].ls_type);
+                                    // console.log(mnu_i.ls_id);
+                                    // console.log(mnu_i.ls_ttl);
+                                    // console.log(mnu_i.ls_type);
+                                    // console.log(mnu.scions[mnu_i].ls_id);
+                                    // console.log(mnu.scions[mnu_i].ls_ttl);
+                                    // console.log(mnu.scions[mnu_i].ls_type);
                                     console.log(gen_men(mnu.scions[mnu_i]));
-                                    //mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
+                                    mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                                 }
                                 return mnu_fldr;
 
@@ -262,7 +262,7 @@ function whatsOnTheMenu() {
                                 menu_entry.setAttribute('id', `mnu_accrd_entry_${mnu.scion_id}`);
                                 menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);
                                 menu_entry.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
-                                accrd_list.appendChild(menu_entry);
+                                //ccrd_list.appendChild(menu_entry);
                                 return menu_entry;
                         }
                     }

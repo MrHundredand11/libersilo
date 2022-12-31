@@ -74,7 +74,7 @@ function homeFetch() {
             function populatePage(data) {
                 var headBoard = createElementWithClass('div', 'branch_container');
                 var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
-                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
+                ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "<span class='styl_pointers'>-> </span>" + data.ls_ttl + "<span class='styl_pointers'> <-</span>";
                 headBoard.appendChild(ls_ttl);
                 mainContainer.appendChild(headBoard);
             }

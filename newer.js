@@ -212,7 +212,7 @@ function whatsOnTheMenu() {
                     
                     for (mnu in drct_tree[mn].scions) {
                         //console.log(gen_men(data.scions[mn].scions[mnu]));
-                        accrd_cntnr.appendChild(gen_men(drct_tree[mn].scions[mnu]));
+                        accrd_cntn.appendChild(gen_men(drct_tree[mn].scions[mnu]));
                     }
 
                     function gen_men(mnu) {

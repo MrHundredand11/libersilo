@@ -28,6 +28,23 @@
             "drct_id": "LTTR",
             "drct_ttl": "The Letter of 'Gimel'",
             "scion_id": "ls_qbl_aa_l03_lttr"
+        },
+        {
+            "drct_id": "ASTR",
+            "drct_ttl": "Celestial Correspondences of 'Gimel'",
+            "scion_id": "ls_qbl_aa_l03_astr",
+            "scions": [
+                {
+                    "insc_type": "stm_list",
+                    "insc_ttl": "{variant}::&nbsp;(Gimel) as (The Planet Luna)",
+                    "scion_id": "ls_qbl_aa_l03_astr_v_p01" 
+                },
+                {
+                    "insc_type": "stm_list",
+                    "insc_ttl": "{variant}::&nbsp;(Gimel) as (The Planet Mercury)",
+                    "scion_id": "ls_qbl_aa_l03_astr_v_p02"
+                }
+            ]
         }
     ]
 }

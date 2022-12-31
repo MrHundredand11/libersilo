@@ -1,0 +1,143 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K11",
+    "ls_ttl": "The Justice Card",
+    "scion_id": "ls_qbl_taro_key_k11",
+    "scions": [
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Scenery + Symbols of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_symb",
+            "type": "branch",
+            "scions": [
+                {
+                    "insc_ttl": "Common Symbols of (The Justice Card)",
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Common Symbols",
+                    "scion_id": "ls_qbl_taro_key_k11_symb_cmmn",
+                    "scions": [
+                        {
+                            "insc_term": "a figure of Justice"
+                        }
+                    ]
+                },
+                {
+                    "insc_ttl": "Versions of (The Justice Card)",
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Versions",
+                    "scion_id": "ls_qbl_taro_key_k11_symb_vrsn",
+                    "scions": [
+                        {
+                            "insc_term": "Rider-Waite-Smith Tarot"
+                        },
+                        {
+                            "insc_term": "Thoth Tarot",
+                            "scions": [
+                                {
+                                    "insc_ttl": "Symbols of (The Adjustment Card)",
+                                    "insc_type": "stm_olst_exp",
+                                    "insc_tag": "Symbols",
+                                    "scion_id": "ls_qbl_taro_key_k11_symb_vrsn_thoth_symb",
+                                    "scions": [
+                                        {
+                                            "insc_term": "YHVH"
+                                        },
+                                        {
+                                            "insc_term": "Perfect Balance"
+                                        },
+                                        {
+                                            "insc_term": "The Woman Satisfied"
+                                        },
+                                        {
+                                            "insc_term": "The Mask"
+                                        },
+                                        {
+                                            "insc_term": "The Magic Sword"
+                                        },
+                                        {
+                                            "insc_term": "The Scales"
+                                        },
+                                        {
+                                            "insc_term": "The Vesica Piscis"
+                                        },
+                                        {
+                                            "insc_term": "The Spheres"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Pre-Raphaelite Tarot"
+                        },
+                        {
+                            "insc_term": "Ancient Italian Tarot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indications of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_divn",
+            "scions": [
+                {
+                    "insc_ttl": "Indications in (Love Readings)",
+                    "insc_type": "stm_list",
+                    "insc_tag": "Love Reading Indications",
+                    "scion_id": "ls_qbl_taro_key_k11_divn_love",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "Do not hide your feelings behind rational grounds! Represent your convictions courteously and consistently! Those who are satisfied can bring peace."
+                        }
+                    ]
+                },
+                {
+                    "insc_ttl": "Indications in (Happiness Readings)",
+                    "insc_type": "stm_list",
+                    "insc_tag": "Happiness Reading Indications",
+                    "scion_id": "ls_qbl_taro_key_k11_divn_hppy"
+                },
+                {
+                    "insc_ttl": "Indications in (Success Readings)",
+                    "insc_type": "stm_list",
+                    "insc_tag": "Success Reading Indications",
+                    "scion_id": "ls_qbl_taro_key_k11_divn_sccs"
+                }
+            ]
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_deit",
+            "scions": [
+                {
+                    "insc_ttl": "List of Corresponding Deities to (The Justice Card)",
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Deities",
+                    "scion_id": "ls_qbl_taro_key_k11_deit_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ma'at"
+                        },
+                        {
+                            "insc_term": "Themis"
+                        },
+                        {
+                            "insc_term": "Nemesis"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_rltn",
+            "scions": [
+
+            ]
+        }
+    ]
+}

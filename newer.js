@@ -265,13 +265,12 @@ function whatsOnTheMenu() {
                             console.log(mnu.ls_id);
                             console.log(mnu.ls_ttl);
                             console.log(mnu.ls_type);    
-                            // var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
-                            //     menu_entry.setAttribute('id', `mnu_accrd_entry_${mnu.scion_id}`);
-                            //     menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);
-                            //     menu_entry.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
-                            //     accrd_list.appendChild(menu_entry);
-                            //     return menu_entry;
-                                break;
+                                var menu_entry = createElementWithClass('div', 'styl_mnu_accrd_entry');
+                                menu_entry.setAttribute('id', `mnu_accrd_entry_${mnu.scion_id}`);
+                                menu_entry.setAttribute('onclick', `fillErUp('${mnu.ls_url}'); mnu_active_entry('${mnu.scion_id}');`);
+                                menu_entry.innerHTML = `${mnu.ls_type}&nbsp${mnu.ls_ttl}`;
+                                accrd_list.appendChild(menu_entry);
+                                return menu_entry;
                         }
                     }
 

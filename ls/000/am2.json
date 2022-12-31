@@ -864,7 +864,16 @@
                     "ls_ttl": "The Elements + Elemental Forces",
                     "ls_type": "=>",
                     "ls_url": "",
-                    "scion_id": "ls_qbl_lmnt"
+                    "scion_id": "ls_qbl_lmnt",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-LMNT-W-E01",
+                            "ls_ttl": "The Element of Fire",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/e01.json",
+                            "scion_id": "ls_qbl_lmnt_w_e01"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-QBL-OTz",

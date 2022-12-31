@@ -664,6 +664,15 @@ function gen_lf(lf_i, lf) {
 
                         return lf_cntnr;
 
+        case 'stm_olst_exp_i':
+            var in_id = generateLeafIdNum(lf.scion_id, lf_i);
+            var in_cntnr = gen_ECI('div', 'styl_in_cntnr', `id_in_${in_id}`);
+            var in_pnter = generatePointer(lf.scion_id, lf_i);
+            var in_ttl = createElementWithClass('div', 'styl_lf_lst_entr');
+            in_ttl.innerHTML = lf.insc_ttl;
+            in_cntnr.append(in_pnter, in_ttl);
+            return in_cntnr;
+        
         case 'stm_list':
             var stm_id = `id_stm_${lf.scion_id}`;    
             var stm_name = lf.insc_ttl;    

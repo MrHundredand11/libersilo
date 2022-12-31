@@ -9,7 +9,7 @@
             "scion_id": "ls_dgtl_cld_ms_m365_000",
             "scions": [
                 {
-                    "insc_type": "stm_lst",
+                    "insc_type": "stm_list",
                     "insc_ttl": "Definitions of (Microsoft 365)",
                     "scions_id": "ls_dgtl_cld_ms_m365_000_def",
                     "scions": [

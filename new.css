@@ -4,7 +4,7 @@ a {
 }
 
 strong {
-    display: inline;
+    display: flex;
 }
 
 #overall {

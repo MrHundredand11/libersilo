@@ -38,6 +38,17 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "MNTR",
+            "drct_ttl": "Mantras of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_mntr",
+            "scions": [
+                {
+                    "insc_type": "in_txt",
+                    "insc_cntn": "[&emsp;My home reflects the beauty, love, and grace of Mother.&emsp;]"
+                }
+            ]
         }
     ]
 }

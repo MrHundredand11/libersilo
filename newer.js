@@ -195,11 +195,13 @@ function whatsOnTheMenu() {
                 m_top.appendChild(side_seal);
                 m_btm.appendChild(menu_tablet);
 
+                let drct_tree = data.scions;
+
                 // for (x1 in data.scions) {
                 //     console.log(gen_menu(data.scions[x1]));
                 // }
 
-                for (mn in data.scions) {
+                for (mn in drct_tree) {
                     var accrd_cntnr = createElementWithClass('div', 'styl_mnu_accrd_cntnr');
                     var accrd_ttl = createElementWithClass('div', 'styl_mnu_accrd_ttl');
                     
@@ -216,7 +218,7 @@ function whatsOnTheMenu() {
                     menu_tablet.appendChild(accrd_cntnr);
                     
                     for (mnu in data.scions[mn].scions) {
-                        console.log(gen_men(data.scions[mn].scions[mnu]));
+                        //console.log(gen_men(data.scions[mn].scions[mnu]));
                         accrd_cntnr.appendChild(gen_men(data.scions[mn].scions[mnu]));
                     }
 

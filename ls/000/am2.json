@@ -1,0 +1,911 @@
+{
+    "ls_ttl": "Accordian Menu to Liber Silo",
+    "ls_id": "ls_000_drct",
+    "scions": [
+        {
+            "ls_id": "LS-000",
+            "ls_ttl": "Overview",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_000",
+            "scions": [
+                {
+                    "ls_id": "LS-000-ABOUT",
+                    "ls_ttl": "About the Author + Compiler",
+                    "ls_type": "+>",
+                    "ls_url": "",
+                    "scion_id": "ls_000_about"
+                },
+                {
+                    "ls_id": "LS-000-CITE",
+                    "ls_ttl": "Citation Lists",
+                    "ls_type": "+>",
+                    "ls_url": "https://api.jsonbin.io/v3/b/63ab10afdfc68e59d5721014",
+                    "scion_id": "ls_000_cite"
+                },
+                {
+                    "ls_id": "LS-000-DRCT",
+                    "ls_ttl": "Directory to 'Liber Silo'",
+                    "ls_type": "+>",
+                    "ls_url": "",
+                    "scion_id": "ls_000_drct"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-DGTL",
+            "ls_ttl": "Digital Realms",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_dgtl",
+            "scions": [
+                {
+                    "ls_id": "LS-DGTL-AI",
+                    "ls_ttl": "Automation Intelligence",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_ai",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-AI-000",
+                            "ls_ttl": "Overview of 'Automation Intelligence'",
+                            "scion_id": "ls_dgtl_ai_000",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-CLD",
+                            "ls_ttl": "AI Cloud Offerings",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-ML",
+                            "ls_ttl": "Machine Learning",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-AI-NLP",
+                            "ls_ttl": "Natural Language Processing",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-CLD",
+                    "ls_ttl": "Cloud Systems",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_cld",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-CLD-000",
+                            "ls_ttl": "Overview of 'Cloud Systems'",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_dgtl_cld_000"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CLD-MS-M365",
+                            "ls_ttl": "Microsoft 365",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/cld/ms/m365.json",
+                            "scion_id": "ls_dgtl_cld_ms_m365"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-CODE",
+                    "ls_ttl": "Coding + Scripting + Programming",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_code",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-CODE-000",
+                            "ls_ttl": "Overview of 'Coding + Scripting + Programming'",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-ISEC",
+                    "ls_ttl": "Information Security",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_isec",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-ISEC-000",
+                            "ls_ttl": "Overview of Information Security",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/000.json",
+                            "scion_id": "ls_dgtl_isec_000"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
+                            "ls_ttl": "Access Control",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
+                            "scion_id": "ls_dgtl_isec_dfn_acsctrl"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-DFN-CADR",
+                            "ls_ttl": "Continuity Assurance + Disaster Recovery",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
+                            "scion_id": "ls_dgtl_isec_dfn_cadr"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
+                            "ls_ttl": "E-mail Defense",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/isec/dfn/email.json",
+                            "scion_id": "ls_dgtl_isec_dfn_email"
+                            
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-GUA",
+            "ls_ttl": "Trigrams + Hexagrams",
+            "ls_type": "->",
+            "scion_id": "ls_gua",
+            "scions": [
+                {
+                    "ls_id": "LS-GUA-000",
+                    "ls_ttl": "Overview of Trigrams + Hexagrams",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-01",
+                    "ls_ttl": "The Qian Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-02",
+                    "ls_ttl": "The Kun Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-03",
+                    "ls_ttl": "The Zhun Hexagram",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-GUA-HXG-04",
+                    "ls_ttl": "The Meng Hexagram",
+                    "ls_type": "+>"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-HI",
+            "ls_ttl": "Handbook of Inhabitants",
+            "ls_type": "->",
+            "scions": [
+                {
+                    "ls_id": "LS-HI-000",
+                    "ls_ttl": "Overview of 'The Handbook of Inhabitants'",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-101-EGRGRE",
+                    "ls_ttl": "Egregores",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-101-PHNMNA",
+                    "ls_ttl": "The Phenomena",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-HI-AA",
+                    "ls_ttl": "Angels + ArchAngels",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-AA-7A",
+                            "ls_ttl": "The 7 Archangels",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-ANGL",
+                            "ls_ttl": "Angels + Angelic Entities",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-HANIAL",
+                            "ls_ttl": "The ArchAngel Haniel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-MTTRN",
+                            "ls_ttl": "The ArchAngel Metatron",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-RZYAL",
+                            "ls_ttl": "The ArchAngel Raziel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-TzPKYAL",
+                            "ls_ttl": "The ArchAngel Tzaphkiel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-AA-URYAL",
+                            "ls_ttl": "The ArchAngel Uriel",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-ALIEN",
+                    "ls_ttl": "Alien Life",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-ALIEN-ASHTAR",
+                            "ls_ttl": "Ashtar",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-EBE",
+                            "ls_ttl": "Extraterrestrial Biological Entity",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-GENTRY",
+                            "ls_ttl": "The Gentry",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-LYRA",
+                            "ls_ttl": "The Lyrans",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-OBSHAZR",
+                            "ls_ttl": "Obsidian Humans with Azure Eyes",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-UFO",
+                            "ls_ttl": "UFOs + Saucers + Aeros",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-ANML",
+                    "ls_ttl": "Animal Inhabitants",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-HI-CNTCT",
+                    "ls_ttl": "Contact Methods",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-CNTCT-TBLETP",
+                            "ls_ttl": "Table Tipping",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-DIV",
+                    "ls_ttl": "Manifestations of God",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-DIV-AO",
+                            "ls_ttl": "The Alpha-Omega Word",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-GM",
+                            "ls_ttl": "The Green Man",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-HGA",
+                            "ls_ttl": "The Holy Guardian Angel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-MITRAS",
+                            "ls_ttl": "Mithras",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-OT",
+                            "ls_ttl": "The One Thing",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-PAN",
+                            "ls_ttl": "The Great Green God Pan",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-QDShR",
+                            "ls_ttl": "The Holy Spirit",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-FAE",
+                    "ls_ttl": "The Gentle Faerie Folk",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-FAE-000",
+                            "ls_ttl": "Overview of 'The Gentle Faerie Folk'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT",
+                            "ls_ttl": "Directory + Dictionary of The Faerie Folk",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT-GRPS",
+                            "ls_ttl": "Directory to Fae Groups",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT-INDV",
+                            "ls_ttl": "Directory to Fae Individuals",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-FOODS",
+                            "ls_ttl": "Faerie Foods",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-WARD",
+                            "ls_ttl": "Defensive Measures for Faerie Emergencies",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-LMNT",
+                    "ls_ttl": "Elemental Entities",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-LMNT-UNDINES",
+                            "ls_ttl": "The Undines of Water",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-NTRU",
+                    "ls_ttl": "The Neteru",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-NTRU-ISIS",
+                            "ls_ttl": "The Goddess Isis",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-NTRU-MAAT",
+                            "ls_ttl": "The Goddess Ma'at",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-PPL",
+                    "ls_ttl": "Peoples + Persons",
+                    "ls_type": "=>",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-PPL-ANCSTR",
+                            "ls_ttl": "Ancestors + Ancestral Spirits",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-DEAD",
+                            "ls_ttl": "The Dead",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-HRYHMND",
+                            "ls_ttl": "Hairy Hominids",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-HUMAN",
+                            "ls_ttl": "Human People",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-PYTHGRS",
+                            "ls_ttl": "Pythagoras",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-SANTA",
+                            "ls_ttl": "Santa Claus",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-WLDONES",
+                            "ls_ttl": "The Wild Ones",
+                            "ls_type": "+>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-LCT",
+            "ls_ttl": "Lands + Locations",
+            "ls_type": "->"
+        },
+        {
+            "ls_id": "LS-LULS",
+            "ls_ttl": "Line Upon Line Scriptures + Spirituality",
+            "ls_type": "->",
+            "scion_id": "ls_luls",
+            "scions": [
+                {
+                    "ls_id": "LS-LULS-000",
+                    "ls_ttl": "Overview of 'Line Upon Line Scriptures + Spirituality",
+                    "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-LULS-APOC",
+                    "ls_ttl": "The Apocryphal Scriptures",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_apoc"
+                },
+                {
+                    "ls_id": "LS-LULS-BBL",
+                    "ls_ttl": "Books of The Bible",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_bbl",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-BBL-000",
+                            "ls_ttl": "Overview of 'The Holy Bible'",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-BPRB",
+                            "ls_ttl": "Biblical Parables",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-EVD",
+                            "ls_ttl": "Evidences for The Bible",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-NT",
+                            "ls_ttl": "The New Testament",
+                            "ls_type": "=>"
+                        },
+                        {
+                            "ls_id": "LS-LULS-BBL-OT",
+                            "ls_ttl": "The Old Testament",
+                            "ls_type": "=>"
+                        }  
+                    ]
+                },
+                {
+                    "ls_id": "LS-LULS-CHURCH",
+                    "ls_ttl": "Inspired Writings of The Church",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-CLTC",
+                    "ls_ttl": "Celtic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-CREED",
+                    "ls_ttl": "Creeds + Oaths",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-EGYPT",
+                    "ls_ttl": "Egyptian Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GN",
+                    "ls_ttl": "Golden Nuggets",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GQAM",
+                    "ls_ttl": "Grail Quest + Arthurian Mythos",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GRK",
+                    "ls_ttl": "Greek Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-GRMR",
+                    "ls_ttl": "The Grimoires",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-HINDU",
+                    "ls_ttl": "Hindu Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-HRMTC",
+                    "ls_ttl": "Hermetic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-INIT",
+                    "ls_ttl": "The Initatic Journey",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-MRMN",
+                    "ls_ttl": "Mormon Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-NRDC",
+                    "ls_ttl": "Nordic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-PRYR",
+                    "ls_ttl": "Prayers",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-QBL",
+                    "ls_ttl": "Qabalistic Scriptures + Spirituality",
+                    "ls_type": "=>",
+                    "scion_id": "ls_luls_qbl",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-QBL-YTzYRH",
+                            "ls_ttl": "The Sepher Yetzirah",
+                            "ls_type": "=>",
+                            "scion_id": "ls_luls_qbl_ytzyrh"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-LULS-RC",
+                    "ls_ttl": "Rosicrucian Scriptures",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SHKSPR",
+                    "ls_ttl": "Shakespearean Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SIGN",
+                    "ls_ttl": "The Sacraments of The Church",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-SUMER",
+                    "ls_ttl": "Sumerian Scriptures",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-TAO",
+                    "ls_ttl": "Taoist Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-THLMA",
+                    "ls_ttl": "Thelemic Scriptures + Spirituality",
+                    "ls_type": "=>"
+                },
+                {
+                    "ls_id": "LS-LULS-WRSHP",
+                    "ls_ttl": "Worship Songs",
+                    "ls_type": "=>"
+                }
+
+            ]
+        },
+        {
+            "ls_id": "LS-MD",
+            "ls_ttl": "Medical Directory",
+            "ls_type": "->"
+        },
+        {
+            "ls_id": "LS-MMM",
+            "ls_ttl": "MeshMath Model",
+            "ls_url": "",
+            "ls_type": "=>",
+            "scion_id": "ls_mmm",
+            "scions": [
+                {
+                    "ls_id": "LS-MMM-PTTRN",
+                    "ls_ttl": "MatheMagickal Patterns",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_pttrn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-PTTRN-3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_3712"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-NMBR",
+                    "ls_ttl": "Number Theory",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_mmm_nmbr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-NMBR-PRIME",
+                            "ls_ttl": "Prime Numbers",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_nmbr_prime",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-NN",
+            "ls_ttl": "Nurturing Nature",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_nn",
+            "scions": [
+                {
+                    "ls_id": "LS-NN-BF",
+                    "ls_ttl": "Blessed Food Recipes",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_bf"
+                },
+                {
+                    "ls_id": "LS-NN-GEO",
+                    "ls_ttl": "Geology + Gemology",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_geo"
+                },
+                {
+                    "ls_id": "LS-NN-ST",
+                    "ls_ttl": "Sacred Taxonomy",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_nn_st"
+                }
+            ]
+        },
+        {
+            "ls_id": "LS-PCS",
+            "ls_ttl": "Principles + Concepts + Symbols",
+            "ls_type": "->",
+            "ls_url": "",
+            "scion_id": "ls_pcs"
+        },
+        {
+            "ls_id": "LS-QBL",
+            "ls_ttl": "The Qabalah",
+            "ls_type": "=>",
+            "ls_url": "",
+            "scion_id": "ls_qbl",
+            "scions": [
+                {
+                    "ls_id": "LS-QBL-32P",
+                    "ls_ttl": "The 32 Paths of The Qabalah",
+                    "ls_type": "=>",
+                    "scion_id": "ls_qbl_32p",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-32P-000",
+                            "ls_ttl": "Overview of 'The 32 Paths of The Qabalah'",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P02",
+                            "ls_ttl": "The 2nd Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P03",
+                            "ls_ttl": "The 3rd Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P03"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P04",
+                            "ls_ttl": "The 4th Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P04"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P07",
+                            "ls_ttl": "The 7th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p07.json",
+                            "scion_id": "ls_qbl_32p_P07"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P08",
+                            "ls_ttl": "The 8th Path",
+                            "ls_type": "+>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_32p_P08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P12",
+                            "ls_ttl": "The 12th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P13",
+                            "ls_ttl": "The 13th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P14",
+                            "ls_ttl": "The 14th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P15",
+                            "ls_ttl": "The 15th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P16",
+                            "ls_ttl": "The 16th Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P23",
+                            "ls_ttl": "The 23rd Path",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-PW",
+                            "ls_ttl": "PathWorking The 32 Paths",
+                            "ls_type": "=>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-AA",
+                    "ls_ttl": "The Arcana Alphabet",
+                    "ls_type": "=>",
+                    "scion_id": "ls_qbl_aa",
+                    "ls_url": "",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-AA-L04",
+                            "ls_ttl": "The Letter Daleth",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_aa_l04",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a876ebdfc68e59d570bd37"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-ALChY",
+                    "ls_ttl": "Alchemy + Alchemical Operations",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_alchy"
+                },
+                {
+                    "ls_id": "LS-QBL-ALG",
+                    "ls_ttl": "AstroLogos",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_alg",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-ALG-SGNS-S01",
+                            "ls_ttl": "The Sign Aries",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_alg_sgns_s01",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a6f3db01a72b59f238488b"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-SGNS-S12",
+                            "ls_ttl": "The Sign Pisces",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_alg_sgns_s12",
+                            "ls_url": "https://api.jsonbin.io/v3/b/6393a262c5b3a64f1bc7ab32"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-CoS",
+                    "ls_ttl": "The Cube of Space",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_cos"
+                },
+                {
+                    "ls_id": "LS-QBL-GVPH",
+                    "ls_ttl": "Parts of The Body",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_gvph"
+                },
+                {
+                    "ls_id": "LS-QBL-LMNT",
+                    "ls_ttl": "The Elements + Elemental Forces",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_lmnt"
+                },
+                {
+                    "ls_id": "LS-QBL-OTz",
+                    "ls_ttl": "The Sephiroth of The Tree of Life",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_otz",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR01",
+                            "ls_ttl": "The Sephirah Kether",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_otz_spr01",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a70f1d01a72b59f2385756"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-ShM",
+                    "ls_ttl": "The Divine Names",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_shm"
+                },
+                {
+                    "ls_id": "LS-QBL-TARO",
+                    "ls_ttl": "The 78 Arcana of The Tarot",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_qbl_taro",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-TARO-KEY-K11",
+                            "ls_ttl": "The Justice Card",
+                            "ls_type": "+>",
+                            "scion_id": "ls_qbl_taro_key_k11",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63ac665301a72b59f23b0bbb"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

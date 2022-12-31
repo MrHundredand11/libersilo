@@ -15,7 +15,10 @@
                     "scion_id": "ls_qbl_aa_l03_assc_lst",
                     "scions": [
                         {
-                            "insc_term": "Transportation"
+                            "insc_term": "Transportation",
+                            "insc_type": "stm_olst_exp_i",
+                            "insc_tag": "Association",
+                            "scion_id": "ls_qbl_aa_l03_assc_transportation"
                         }
                     ]
                 }

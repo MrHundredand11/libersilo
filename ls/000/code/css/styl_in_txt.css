@@ -1,3 +1,8 @@
+.styl_in_txt {
+    flex-wrap: wrap;
+    display: flex;
+}
+
 .in_txt_cntrd {
     text-align: center;
 }
@@ -5,4 +10,9 @@
 .in_txt_headr_01 {
     font-size: 31px;
     font-weight: bold;
+}
+
+.styl_in_txt_bld {
+    font-weight: bold;
+    display: inline-block;
 }

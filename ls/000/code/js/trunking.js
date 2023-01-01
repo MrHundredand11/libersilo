@@ -15,8 +15,8 @@ let bmp_def = "&nbsp=&nbsp";
 let bmp_stm_02 = "-- --<br>-- -- --<br>";
 
 function shovelDigging(scion_id) {
-    var shvl = document.getElementById("id_b_p_" + scion_id).className;    
-    switch(shvl) {
+    var shvl = document.getElementById("id_b_p_" + scion_id);    
+    switch(shvl.className) {
         case 'styl_shvl_s0':
             document.getElementById('id_b_bmp_top_' + scion_id).style.display = "block";
             document.getElementById('id_b_bmp_btm_' + scion_id).style.display = "block";
@@ -29,6 +29,7 @@ function shovelDigging(scion_id) {
 
         case 'styl_shvl_s1':
             document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s2');
+
             break;
 
         case 'styl_shvl_s2':

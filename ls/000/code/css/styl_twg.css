@@ -1,0 +1,42 @@
+.styl_twg_cntnr {
+    margin-bottom: 17px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.styl_twg_cntnr:hover {
+    border: 1.11px solid black;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 47px;
+}
+
+.styl_twg_bmp_top {
+    font-size: 13px;
+    display: none;
+}
+
+.styl_twg_ttl {
+    font-style: italic;
+    font-size: 37px;
+}
+
+.styl_twg_cntn {
+    display: none;
+    margin-left: 43px;
+}
+
+.styl_twg_bmp_btm {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 23px;
+    display: none;
+    padding-bottom: 17px;
+}
+
+.styl_twg_li_ttl {
+    position: relative;
+    left: 53px;
+    list-style: none;
+    padding-inline-start: 0px;
+}

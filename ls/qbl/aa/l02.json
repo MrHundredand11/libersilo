@@ -89,7 +89,16 @@
                     "scion_id": "ls_qbl_aa_l02_pryr_lst",
                     "scions": [
                         {
-                            "insc_term": "A Prayer of Beth by Dolores Ashcroft-Nowicki"
+                            "insc_type": "li_top",
+                            "insc_tag": "Prayer",
+                            "insc_term": "A Prayer of Beth by Dolores Ashcroft-Nowicki",
+                            "scion_id": "ls_qbl_aa_l02_pryr_doloresashcroftnowicki",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "<span class='in_txt_cntrd'>BETH<br><br>Thou art my house, my covering, my place of rest.<br>Thou art above me and below me and around me.<br><br>Behold, I am enclosed by thee<br>in the dark of the night<br>and before the coming of the dawn.<br><br>I am surrounded by thy strengh at the ending of the day.<br>I come unto thee to take my ease for thou art my foundation and my encompassment of safety.<br><br>The Lord God hath provided many rooms within thee,<br>and all are for my delight.<br>I shall lay down at the coming of night<br>and take my rest without fear.<br>For thou art the house of my Soul and<br>I abideth in thee with joy.</span>"
+                                }
+                            ]
                         }
                     ]
                 }

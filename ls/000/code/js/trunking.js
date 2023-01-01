@@ -31,7 +31,7 @@ function shovelDigging(scion_id) {
             document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s2');
             var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
             console.log(testyy);
-            console.log(testyy.querySelectorAll(`.id_b_trstlbrd_${scion_id} > *`));
+            console.log(testyy.querySelectorAll(`id_b_trstlbrd_${scion_id} > *`));
             break;
 
         case 'styl_shvl_s2':

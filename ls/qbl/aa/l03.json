@@ -76,22 +76,22 @@
                     "scion_id": "ls_qbl_aa_l03_wrds_strt_lst",
                     "scions": [
                         {
-                            "insc_term": "GLGLVL"
+                            "insc_term": "גלגלול = GLGLVL"
                         },
                         {
-                            "insc_term": "GMRA"
+                            "insc_term": "גמרא = GMRA"
                         },
                         {
-                            "insc_term": "GDVL"
+                            "insc_term": "גדול = GDVL"
                         },
                         {
-                            "insc_term": "GBVR"
+                            "insc_term": "גבור = GBVR"
                         },
                         {
-                            "insc_term": "GAVLH"
+                            "insc_term": "גאולה = GAVLH"
                         },
                         {
-                            "insc_term": "GMYLVTh ChSDYM"
+                            "insc_term": "גמילות חסדים = GMYLVTh ChSDYM"
                         }
                     ]
                 }

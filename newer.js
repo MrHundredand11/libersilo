@@ -84,13 +84,13 @@ function showHideTwig(scion_id) {
     if (twg_clss.includes('stt_show')) {
         document.getElementById('id_twg_bmp_top_' + scion_id).style.display = "none";
         document.getElementById('id_twg_bmp_btm_' + scion_id).style.display = "none";
-        document.getElementById('id_twg_trstlbrd_' + scion_id).style.display = "none";
+        document.getElementById('id_twg_cntn_' + scion_id).style.display = "none";
         document.getElementById('id_twg_cntnr_' + scion_id).classList.add('stt_hide');
         document.getElementById('id_twg_cntnr_' + scion_id).classList.remove('stt_show');
     } else if (twg_clss.includes('stt_hide')) {
         document.getElementById('id_twg_bmp_top_' + scion_id).style.display = "block";
         document.getElementById('id_twg_bmp_btm_' + scion_id).style.display = "block";
-        document.getElementById('id_twg_trstlbrd_' + scion_id).style.display = "block";
+        document.getElementById('id_twg_cntn_' + scion_id).style.display = "block";
         document.getElementById('id_twg_cntnr_' + scion_id).classList.add('stt_show');
         document.getElementById('id_twg_cntnr_' + scion_id).classList.remove('stt_hide');
     }
@@ -444,13 +444,11 @@ function gen_lf(lf_i, lf) {
                 
                 lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
                 lf_ls_shrt.appendChild(lfl_shrt);
-                var twg_cntnr = createElementWithClass('div', 'styl_twg_cntnr stt_hide');
-                var twg_bmp_top = createElementWithClass('div', 'styl_twg_bmp_top');
-                var twg_ttl = createElementWithClass('div', 'styl_twg_ttl');
-                var twg_cntn = createElementWithClass('div', 'styl_twg_cntn');
-                var twg_bmp_btm = createElementWithClass('div', 'styl_twg_bmp_btm');
-
-                twg_ttl.setAttribute('id', `id_twg_cntn_${lf.scion_id}_${lfl}`);
+                var twg_cntnr = gen_ECI('div', 'styl_twg_cntnr stt_hide', `id_twg_cntnr_${lf.scion_id}_${lfl}`);
+                var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${lf.scion_id}_${lfl}`);
+                var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${lf.scion_id}_${lfl}`);
+                var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${lf.scion_id}_${lfl}`);
+                var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${lf.scion_id}_${lfl}`);
                 twg_ttl.setAttribute('onclick', `showHideTwig('${lf.scion_id}_${lfl}');`);
                 twg_bmp_top.innerHTML = "---<br>--- ---";
                 twg_bmp_btm.innerHTML = "---- ----<br>----";

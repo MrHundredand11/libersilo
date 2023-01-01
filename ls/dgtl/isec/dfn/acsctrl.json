@@ -1,16 +1,17 @@
 {
-    "ls_id": "LS-DGTL-ISEC-ACSCTRL",
+    "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
     "ls_ttl": "Access Control",
+    "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
+    "scion_id": "ls_dgtl_isec_dfn_acsctrl",
     "scions": [
         {
             "drct_id": "MDLS",
             "drct_ttl": "Models of 'Access Control'",
-            "scion_id": "ls_dgtl_isec_acsctrl_mdls",
-            "type": "branch",
+            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls",
             "scions": [
                 {
                     "insc_ttl": "<span class='span_list_title'>What is</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
-                    "insc_type": "stm_list",
+                    "insc_type": "stm",
                     "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_defn",
                     "scions": [
                         {

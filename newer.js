@@ -511,6 +511,31 @@ function gen_lf(lf_i, lf) {
             }        
             return stm_cntnr;
 
+        case 'stm':
+            var stm_id = `id_stm_${lf.scion_id}`;    
+            var stm_name = lf.insc_ttl;    
+            var stm_cntnr = gen_ECI('div', 'styl_stm_cntnr stt_show', `id_stm_cntnr_${lf.scion_id}`);
+            var stm_bmp_top = gen_ECI('div', 'styl_stm_bmp_top', `id_stm_bmp_top_${lf.scion_id}`);
+            var stm_nametag = gen_ECI('div', 'styl_stm_nametag', `id_stm_nametag_${lf.scion_id}`);
+            var stm_trstlbrd = gen_ECI('div', 'styl_stm_trstlbrd', `id_stm_trstlbrd_${lf.scion_id}`);
+            var stm_bmp_btm = gen_ECI('div', 'styl_stm_bmp_btm', `id_stm_bmp_btm_${lf.scion_id}`);
+
+            stm_nametag.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
+            stm_bmp_top.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
+            stm_bmp_btm.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
+            
+            stm_bmp_top.innerHTML = bmp_stem_top;
+            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
+            stm_bmp_btm.innerHTML = bmp_stem_bttm;
+            
+            stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
+            
+            for (i2 in lf.scions) {
+                var entr_full = gen_lf(i2, lf.scions[i2]);
+                stm_trstlbrd.appendChild(entr_full);
+            }        
+            return stm_cntnr;
+
                     // case 'term_def':
                     //     var leaf_id = generateLeafIdNum(leaf_i);
                     //     var pnter = generatePointer(leaf_id);

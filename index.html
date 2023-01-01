@@ -14,14 +14,18 @@
                 const element = document.createElement(type);
                 element.className = className;
                 return element;
-            }
+            };
             
             function gen_ECI(type, className, id) {
                 const element = document.createElement(type);
                 element.className = className;
                 element.setAttribute('id', id);
                 return element;
-            }
+            };
+
+            function fillErUp(x) {
+                fetchy(x);
+            };
         </script>
         <script src="/ls/000/code/js/whatsOnTheMenu.js"></script>
         <script src="/ls/000/code/js/homepage.js"></script>

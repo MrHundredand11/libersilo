@@ -579,10 +579,11 @@
                     "scion_id": "ls_luls_qbl",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-QBL-YTzYRH",
-                            "ls_ttl": "The Sepher Yetzirah",
-                            "ls_type": "=>",
-                            "scion_id": "ls_luls_qbl_ytzyrh"
+                            "ls_id": "LS-LULS-QBL-BHYR-C01",
+                            "ls_ttl": "Ch 01 of The Sepher Bahir",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/luls/qbl/bhyr/c01.json",
+                            "scion_id": "ls_luls_qbl_bhyr_c01"
                         }
                     ]
                 },

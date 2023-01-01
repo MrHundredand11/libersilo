@@ -5,13 +5,13 @@ function whatsOnTheMenu() {
         })
         .then(data => {
             function genMen(data) {
-                var m_top = document.getElementById('id_mnu_top');
+                //var m_top = document.getElementById('id_mnu_top');
                 var m_btm = document.getElementById('id_mnu_btm');
                 var menu_tablet = createElementWithClass('div', 'styl_menu_tablet');
-                var side_seal = createElementWithClass('div', 'styl_side_seal');
-                side_seal.setAttribute('onclick', 'homeFetch()');
-                side_seal.innerHTML = "<img src='Seal.jpg' width='111' height='111'></img><br>-> Menu <-<br>";
-                m_top.appendChild(side_seal);
+                //var side_seal = createElementWithClass('div', 'styl_side_seal');
+                //side_seal.setAttribute('onclick', 'homeFetch()');
+                //side_seal.innerHTML = "<img src='Seal.jpg' width='111' height='111'></img><br>-> Menu <-<br>";
+                //m_top.appendChild(side_seal);
                 m_btm.appendChild(menu_tablet);
 
                 let drct_tree = data.scions;

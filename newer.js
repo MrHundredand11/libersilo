@@ -444,7 +444,7 @@ function gen_lf(lf_i, lf) {
                 
                 lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
                 lf_ls_shrt.appendChild(lfl_shrt);
-                var twg_cntnr = createElementWithClass('div', 'styl_twg_cntnr');
+                var twg_cntnr = createElementWithClass('div', 'styl_twg_cntnr stt_hide');
                 var twg_bmp_top = createElementWithClass('div', 'styl_twg_bmp_top');
                 var twg_ttl = createElementWithClass('div', 'styl_twg_ttl');
                 var twg_cntn = createElementWithClass('div', 'styl_twg_cntn');

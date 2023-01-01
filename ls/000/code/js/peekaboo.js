@@ -31,7 +31,10 @@ function shovelDigging(scion_id) {
             var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
             //console.log(testyy);
             //testyy.querySelectorAll(`:scope > *`).setAttribute('class', 'stt_show');
-            testyy.childNodes.classList.add('stt_show');
+            for (n in testyy.childNodes) {
+                testyy.childNodes[n].classList.add('stt_show');
+            }
+            //testyy.childNodes.classList.add('stt_show');
             break;
 
         case 'styl_shvl_s2':

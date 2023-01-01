@@ -1,0 +1,33 @@
+.styl_lfl_bmp_top {
+    padding-bottom: 1.11px;
+}
+
+.styl_lfl_bmp_btm {
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 37px;
+}
+
+.styl_lfl_cntn {
+    margin-left: 47px;
+}
+
+.styl_lfl_ttl {
+    font-size: 31px;
+}
+
+.styl_lfl_ttl_term {
+    font-family: cambria;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.styl_lfl_shrt {
+    font-size: 23px;
+}
+
+.styl_lfl_shrt_term {
+    display: inline-block;
+    font-family: cambria;
+    font-weight: bold;
+}

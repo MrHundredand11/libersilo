@@ -1,3 +1,8 @@
 .in_txt_cntrd {
     text-align: center;
 }
+
+.in_txt_headr_01 {
+    font-size: 37px;
+    font-weight: bold;
+}

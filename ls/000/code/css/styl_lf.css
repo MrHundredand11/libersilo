@@ -29,6 +29,7 @@
     display: flex;
     align-items: flex-start;
     white-space: pre;
+    margin-top: 7px;
 }
 
 .styl_lf_stm_olst_exp {

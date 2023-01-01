@@ -216,7 +216,6 @@ function generateLeafIdNum(scion_id, lf_i) {
         var rando = randy * randy * randy;
         const lf_idx = "lf_" + rando + "_" + lf_i;
         var lf_id = `id_lf_${lf_idx}_${lf_i}`;
-        console.log(lf_id);
     } else {
         var lf_id = `id_lf_${scion_id}_${lf_i}`;
     }
@@ -470,9 +469,9 @@ function gen_lf(lf_i, lf) {
                 lf_expnd.appendChild(twg_cntnr);
                 
                 for (i2 in lf.scions[lfl].scions) {
-                    console.log(lf.scions[lfl].scions[i2]);
+                    //console.log(lf.scions[lfl].scions[i2]);
                     var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
-                    console.log(entr_full);
+                    //console.log(entr_full);
                     twg_cntn.appendChild(entr_full);
                 }
             }

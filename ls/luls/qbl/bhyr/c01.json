@@ -1,0 +1,20 @@
+{
+    "ls_id": "LS-LULS-QBL-BHYR-C01",
+    "ls_ttl": "Ch 01 of The Sepher Bahir",
+    "ls_url": "/ls/luls/qbl/bhyr/c01.json",
+    "scion_id": "ls_luls_qbl_bhyr_c01",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Ch 01 of The Sepher Bahir'",
+            "scion_id": "ls_luls_qbl_bhyr_c01_000",
+            "scions": [
+                {
+                    "insc_type": "blade",
+                    "insc_tag": "Subtitle",
+                    "insc_term": "The First Verses of Creation"
+                }
+            ]
+        }
+    ]
+}

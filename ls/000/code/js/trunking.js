@@ -373,7 +373,7 @@ function gen_lf(lf_i, lf) {
             var pnter = generatePointer(lf.scion_id, lf_i);
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
 
-            var lf_cntnr = gen_ECI('div', 'styl_lf_stm_olst_exp stt_show', `${lf_id}_lf_stm_olst_exp`);
+            var lf_cntnr = gen_ECI('div', 'styl_lf_stm_olst_exp stt_hide', `${lf_id}_lf_stm_olst_exp`);
             var lf_bmp_top = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_top', `${lf_id}_lf_stm_olst_exp_bmp_top`);
             var lf_ttl = gen_ECI('div', 'styl_lf_stm_olst_exp_ttl', `${lf_id}_lf_stm_olst_exp_ttl`);
             var lf_cntn = gen_ECI('div', 'styl_lf_stm_olst_exp_cntn', `${lf_id}_lf_stm_olst_exp_cntn`);

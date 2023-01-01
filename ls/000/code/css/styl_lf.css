@@ -33,8 +33,9 @@
 }
 
 .styl_lf_stm_olst_exp {
+    position: relative;
+    left: 23px;
     margin-top: 23px;
-    
     padding-left: 7px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -44,7 +45,6 @@
     border-radius: 7px;
     width: -moz-fit-content;
     width: fit-content;
-    
 }
 
 .styl_lf_stm_olst_exp_ttl {

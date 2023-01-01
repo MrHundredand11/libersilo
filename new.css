@@ -36,6 +36,7 @@ strong {
     scroll-behavior: smooth;
 
 }
+
 .styl_pointers {
         display: inline-block;
         font-family: calibri;
@@ -534,12 +535,7 @@ strong {
     display: inline-block;
 }
 
-.styl_twg_bmp_top {
-    font-size: 13px;
-}
-
 .styl_twg_cntnr {
-    padding-bottom: 17px;
     margin-bottom: 17px;
     width: -moz-fit-content;
     width: fit-content;
@@ -552,10 +548,28 @@ strong {
     padding-right: 47px;
 }
 
+.styl_twg_bmp_top {
+    font-size: 13px;
+    display: none;
+}
+
+.styl_twg_ttl {
+    font-style: italic;
+    font-size: 37px;
+    display: none;
+}
+
+.styl_twg_cntn {
+    display: none;
+    margin-left: 43px;
+}
+
 .styl_twg_bmp_btm {
     font-size: 13px;
     text-align: center;
     margin-top: 23px;
+    display: none;
+    padding-bottom: 17px;
 }
 
 .styl_twg_li_ttl {
@@ -565,10 +579,7 @@ strong {
     padding-inline-start: 0px;
 }
 
-.styl_twg_ttl {
-    font-style: italic;
-    font-size: 37px;
-}
+
 
 .styl_lf_bld {
     display: inline-block;

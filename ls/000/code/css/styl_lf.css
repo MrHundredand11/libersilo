@@ -47,6 +47,14 @@
     width: fit-content;
 }
 
+.styl_lf_stm_olst_exp_bmp_top {
+    display: none;
+}
+
+.styl_lf_stm_olst_exp_bmp_btm {
+    display: none;
+}
+
 .styl_lf_stm_olst_exp_ttl {
     font-size: 37px;
     display: flex;
@@ -58,6 +66,7 @@
 .styl_lf_stm_olst_exp_cntn {
     padding-top: 7px;
     padding-left: 43px;
+    display: none;
 }
 
 .styl_lf_stm_olst_exp_ls_shrt {

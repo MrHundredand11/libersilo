@@ -14,13 +14,13 @@ function showHide(idx) {
 }
 
 function shovelDigging(scion_id) {
-    var shvl = document.getElementById("id_b_p_" + scion_id);    
+    var shvl = document.getElementById(`id_b_p_${scion_id}`);    
     switch(shvl.className) {
         case 'styl_shvl_s0':
-            document.getElementById('id_b_bmp_top_' + scion_id).style.display = "block";
-            document.getElementById('id_b_bmp_btm_' + scion_id).style.display = "block";
-            document.getElementById('id_b_trstlbrd_' + scion_id).style.display = "block";
-            document.getElementById('id_b_p_' + scion_id).classList.remove('styl_shvl_s0');
+            document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "block";
+            document.getElementById(`id_b_bmp_btm_${scion_id}`).style.display = "block";
+            document.getElementById(`id_b_trstlbrd_${scion_id}`).style.display = "block";
+            document.getElementById(`id_b_p_${scion_id}`).classList.remove('styl_shvl_s0');
             document.getElementById('id_b_p_' + scion_id).classList.add('styl_shvl_s1');
             document.getElementById('id_b_cntnr_' + scion_id).classList.add('styl_brnch_hide');
             document.getElementById('id_b_cntnr_' + scion_id).classList.remove('styl_stm_show');
@@ -29,9 +29,9 @@ function shovelDigging(scion_id) {
         case 'styl_shvl_s1':
             document.getElementById(`id_b_p_${scion_id}`).setAttribute('class', 'styl_shvl_s2');
             var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
-            console.log(testyy);
-            console.log(testyy.querySelectorAll(`:scope > *`));
-            console.log(testyy.childNodes);
+            //console.log(testyy);
+            //testyy.querySelectorAll(`:scope > *`).setAttribute('class', 'stt_show');
+            testyy.childNodes.setAttribute('class', 'stt_show');
             break;
 
         case 'styl_shvl_s2':

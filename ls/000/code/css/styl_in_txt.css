@@ -16,3 +16,9 @@
     font-weight: bold;
     display: inline-block;
 }
+
+.styl_in_txt_spprt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+

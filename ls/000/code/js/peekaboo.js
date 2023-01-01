@@ -28,20 +28,20 @@ function shovelDigging(scion_id) {
 
         case 'styl_shvl_s1':
             document.getElementById(`id_b_p_${scion_id}`).setAttribute('class', 'styl_shvl_s2');
-            var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
-            //console.log(testyy);
-            //testyy.querySelectorAll(`:scope > *`).setAttribute('class', 'stt_show');
-            for (n in testyy.childNodes) {
-                testyy.childNodes[n].classList.add('stt_show');
-            }
-            //testyy.childNodes.classList.add('stt_show');
+            // var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
+            // //console.log(testyy);
+            // //testyy.querySelectorAll(`:scope > *`).setAttribute('class', 'stt_show');
+            // for (n in testyy.childNodes) {
+            //     testyy.childNodes[n].classList.add('stt_show');
+            // }
+            // //testyy.childNodes.classList.add('stt_show');
             break;
 
         case 'styl_shvl_s2':
-            document.getElementById('id_b_bmp_top_' + scion_id).style.display = "none";
-            document.getElementById('id_b_bmp_btm_' + scion_id).style.display = "none";
-            document.getElementById('id_b_trstlbrd_' + scion_id).style.display = "none";
-            document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s0');
+            document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "none";
+            document.getElementById(`id_b_bmp_btm_${scion_id}`).style.display = "none";
+            document.getElementById(`id_b_trstlbrd_${scion_id}`).style.display = "none";
+            document.getElementById(`id_b_p_${scion_id}`).setAttribute('class', 'styl_shvl_s0');
             break;
     }
     

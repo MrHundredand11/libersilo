@@ -645,11 +645,6 @@ strong {
     font-style: italic;
 }
 
-.styl_in_txt {
-    flex-wrap: wrap;
-    display: flex;
-}
-
 .styl_lfl_shrt {
     font-size: 23px;
 }
@@ -668,9 +663,4 @@ strong {
 .styl_stm_ttl_spprt {
     text-decoration: underline;
     font-weight: bold;
-}
-
-.styl_in_txt_bld {
-    font-weight: bold;
-    display: inline-block;
 }

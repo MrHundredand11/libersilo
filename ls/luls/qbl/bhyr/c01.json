@@ -15,6 +15,33 @@
                     "insc_term": "The First Verses of Creation"
                 }
             ]
+        },
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 of The Sepher Bahir'",
+            "scion_id": "ls_luls_qbl_bhyr_c01_txts",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Texts",
+                    "insc_ttl": "List of Texts + Translations of (Ch 01) of (The Sepher Bahir) ::",
+                    "scion_id": "ls_luls_qbl_bhyr_c01_txts_lst",
+                    "scions": [
+                        {
+                            "insc_type": "li_top",
+                            "insc_tag": "Translation",
+                            "insc_term": "Rabbi Aryeh Kaplan Translation",
+                            "scion_id": "ls_luls_qbl_bhyr_c01_txts_v_rabbiaryehkaplan",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "Rabbi Nehuniah ben HaKana said:<br><br>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

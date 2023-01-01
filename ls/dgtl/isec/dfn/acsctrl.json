@@ -5,9 +5,9 @@
     "scion_id": "ls_dgtl_isec_dfn_acsctrl",
     "scions": [
         {
-            "drct_id": "MDLS",
-            "drct_ttl": "Models of 'Access Control'",
-            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls",
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Access Control'",
+            "scion_id": "ls_dgtl_isec_dfn_acsctrl_000",
             "scions": [
                 {
                     "insc_ttl": "<span class='span_list_title'>What is</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
@@ -21,7 +21,14 @@
                             "insc_cntn": "methods used to secure data and information by verifying a user has permissions to read, write, delete, or otherwise modify it."
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "drct_id": "MDLS",
+            "drct_ttl": "Models of 'Access Control'",
+            "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls",
+            "scions": [
                 {
                     "insc_ttl": "<span class='span_list_title'>List</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>Models</span>&nbsp::",
                     "insc_type": "stm_olst_exp",

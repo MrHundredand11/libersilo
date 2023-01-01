@@ -142,173 +142,65 @@ strong {
         
     }
 
-    
-
-    .styl_twig_li_title_total {
-        font-size: 29px;
-    }
-
-    .styl_li_top {
-        font-weight: bold;
-        font-family: cambria;
-        font-size: 19px;
-    }
-
-   
-
-    .styl_list_entry_ext {
-        position: relative;
-        list-style: none;
-        padding-inline-start: 0px;
-        padding-left: 41px;
-        
-    }
-
-    .styl_brnch_list {
-        position: relative;
-        list-style: none;
-        padding-inline-start: 0px;
-        padding-left: 41px;
-    }
-
-    .styl_head_seal {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        position: relative;
-    }
-
-    .styl_head_ttle {
-        text-align: center;
-        font-family: VPCS;
-        font-size: 53px;
-    }
-
-    .styl_head_lsid {
-        font-size: 43px;
-    }
-
-
-
-    .styl_liex_cntn {
-        padding-left: 41px;
-    }
-
-    .styl_liex_init {
-        position: relative;
-        list-style: none;
-        padding-inline-start: 0px;
-    }
-
-    
-
-    .style5 {
-        padding-left: 41px;
-    }
-
-    .styl_brnch_tail {
-        text-align: center;
-        padding-bottom: 17px;
-    }
-
-    .styl_side_seal {
-        text-align: center;
-        font-family: calibri;
-        font-weight: bold;
-        font-size: 29px;
-        margin-top: 17px;
-        margin-bottom: 17px;
-        margin-left: 17px;
-        margin-right: 17px;
-    }
-
-
-
-/* Branches */
-.styl_brnch_cntnr {
-    display: block;
-    position: relative;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 17px;
-    padding-right: 17px;
-    top: 3px;
-    left: 3px;
-    right: 3px;
-    margin-bottom: 17px;
-    width: -moz-fit-content;
-    width: fit-content;
+.styl_twig_li_title_total {
+    font-size: 29px;
 }
 
-.styl_brnch_bmp_top {
-    font-family: calibri;
-    display: none;
-}
-
-.styl_brnch_nametag {
-    font-size: 47px;
-}
-
-.styl_brnch_nametag_name {
+.styl_li_top {
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    font-family: cambria;
+    font-size: 19px;
 }
 
-.styl_brnch_trstlbrd {
+.styl_list_entry_ext {
     position: relative;
-    display: none;
-    left: 23px;
-    margin-top: 7px;
-    padding-right: 17px;
+    list-style: none;
     padding-inline-start: 0px;
-    width: 97%;
+    padding-left: 41px;    
 }
 
-.styl_brnch_trstlbrd_close {
-    display: none;
+.styl_head_seal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
 }
 
-.styl_brnch_trstlbrd_open {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.styl_brnch_bmp_btm {
-    display: none;
-    font-family: calibri;
+.styl_head_ttle {
     text-align: center;
+    font-family: VPCS;
+    font-size: 53px;
+}
+
+.styl_head_lsid {
+    font-size: 43px;
+}
+
+.styl_liex_cntn {
+    padding-left: 41px;
+}
+
+.styl_liex_init {
+    position: relative;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.style5 {
+    padding-left: 41px;
+}
+
+.styl_side_seal {
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 29px;
+    margin-top: 17px;
     margin-bottom: 17px;
-    margin-top: 43px;
+    margin-left: 17px;
+    margin-right: 17px;
 }
-
-.styl_brnch_pntr {
-    display: inline-block;
-    font-family: calibri;
-}
-
-.styl_brnch_pntr:--shvl_s00 {
-    rotate: 0deg;
-    display: inline-block;
-    font-family: calibri;
-}
-
-.styl_brnch_pntr:--shvl_s01 {
-    rotate: 45deg;
-    display: inline-block;
-    font-family: calibri;
-}
-
-.styl_brnch_pntr:--shvl_s02 {
-    rotate: 0deg;
-    display: inline-block;
-    font-family: calibri;
-}
-
-
 
 .styl_shvl_s0 {
     rotate: 0deg;

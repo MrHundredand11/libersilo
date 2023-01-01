@@ -535,11 +535,7 @@ strong {
 }
 
 .styl_twg_bmp_top {
-    font-size: 37px;
-}
-
-.styl_twg_nametag {
-    font-size: 37px;
+    font-size: 13px;
 }
 
 .styl_twg_cntnr {
@@ -559,7 +555,7 @@ strong {
 }
 
 .styl_twg_bmp_btm {
-    font-size: 37px;
+    font-size: 13px;
 }
 
 .styl_twg_li_ttl {
@@ -570,8 +566,8 @@ strong {
 }
 
 .styl_twg_ttl {
-    font-weight: bold;
     font-style: italic;
+    font-size: 37px;
 }
 
 .styl_lf_bld {

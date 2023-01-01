@@ -72,3 +72,12 @@
     width: -moz-fit-content;
     width: fit-content;
 }
+
+.styl_stm_ttl_spprt {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.styl_stm_trstlbrd {
+    padding-left: 47px;
+}

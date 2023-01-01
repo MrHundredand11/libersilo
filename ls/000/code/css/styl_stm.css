@@ -21,20 +21,19 @@
     border-radius: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
-        padding-left: 7px;
-        padding-right: 7px;
-        width: 100%;
-        left: 3px;
-        top: 3px;
-        position: relative;
-        display: block;
-        width: -moz-fit-content;
-        width: fit-content;
+    padding-left: 7px;
+    padding-right: 47px;
+    width: 100%;
+    left: 23px;
+    top: 3px;
+    position: relative;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 .styl_stm_cntnr:hover {
     border: 2.22px solid black;
-    
 }
 
 .styl_stm_nametag {

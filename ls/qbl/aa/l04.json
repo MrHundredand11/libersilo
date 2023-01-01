@@ -27,7 +27,7 @@
                 {
                     "insc_type": "stm_olst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "List of Prayers of (The Letter Daleth) ::",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>List</span>&nbsp;<span class='styl_in_txt_tny'>of</span>&nbsp;<span class='styl_in_txt_spprt'>Prayers</span>&nbsp;<span class='styl_in_txt_tny'>of</span>&nbsp;(The Letter Daleth) ::",
                     "scion_id": "ls_qbl_aa_l04_pryr_lst",
                     "scions": [
                         {

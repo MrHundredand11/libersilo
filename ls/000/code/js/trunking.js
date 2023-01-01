@@ -29,7 +29,7 @@ function shovelDigging(scion_id) {
 
         case 'styl_shvl_s1':
             document.getElementById('id_b_p_' + scion_id).setAttribute('class', 'styl_shvl_s2');
-
+            document.querySelectorAll(`:scope > .id_b_trstlbrd_${scion_id}`);
             break;
 
         case 'styl_shvl_s2':

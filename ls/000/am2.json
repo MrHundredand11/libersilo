@@ -847,6 +847,118 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/qbl/aa/l06.json",
                             "scion_id": "ls_qbl_aa_l06"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L07",
+                            "ls_ttl": "The Letter Zayin",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l07.json",
+                            "scion_id": "ls_qbl_aa_l07"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L08",
+                            "ls_ttl": "The Letter Cheth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l08.json",
+                            "scion_id": "ls_qbl_aa_l08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L09",
+                            "ls_ttl": "The Letter Teth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l09.json",
+                            "scion_id": "ls_qbl_aa_l09"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L10",
+                            "ls_ttl": "The Letter Yod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l10.json",
+                            "scion_id": "ls_qbl_aa_l10"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L11",
+                            "ls_ttl": "The Letter Kaph",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l11.json",
+                            "scion_id": "ls_qbl_aa_l11"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L12",
+                            "ls_ttl": "The Letter Lamed",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l12.json",
+                            "scion_id": "ls_qbl_aa_l12"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L13",
+                            "ls_ttl": "The Letter Mem",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l13.json",
+                            "scion_id": "ls_qbl_aa_l13"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L14",
+                            "ls_ttl": "The Letter Nun",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l14.json",
+                            "scion_id": "ls_qbl_aa_l14"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L15",
+                            "ls_ttl": "The Letter Samekh",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l15.json",
+                            "scion_id": "ls_qbl_aa_l15"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L16",
+                            "ls_ttl": "The Letter Oyin",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l16.json",
+                            "scion_id": "ls_qbl_aa_l16"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L17",
+                            "ls_ttl": "The Letter Peh",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l17.json",
+                            "scion_id": "ls_qbl_aa_l17"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L18",
+                            "ls_ttl": "The Letter Tzaddi",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l18.json",
+                            "scion_id": "ls_qbl_aa_l18"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L19",
+                            "ls_ttl": "The Letter Qoph",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l19.json",
+                            "scion_id": "ls_qbl_aa_l19"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L20",
+                            "ls_ttl": "The Letter Resh",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l20.json",
+                            "scion_id": "ls_qbl_aa_l20"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L21",
+                            "ls_ttl": "The Letter Shin",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l21.json",
+                            "scion_id": "ls_qbl_aa_l21"
+                        },
+                        {
+                            "ls_id": "LS-QBL-AA-L22",
+                            "ls_ttl": "The Letter Tau",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/aa/l22.json",
+                            "scion_id": "ls_qbl_aa_l22"
                         }
                     ]
                 },

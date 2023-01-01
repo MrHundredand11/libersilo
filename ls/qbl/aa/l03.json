@@ -58,7 +58,7 @@
                     "scion_id": "ls_qbl_aa_l03_pryr_lst",
                     "scions": [
                         {
-                            "insc_type": "li_top",
+                            "insc_type": "twg_i",
                             "insc_tag": "Prayer",
                             "insc_term": "A Prayer of Gimel by Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki",
@@ -72,6 +72,18 @@
                                         {
                                             "insc_type": "in_txt",
                                             "insc_cntn": "<span class='in_txt_cntrd'><span class='in_txt_headr_01'>GIMEL<br>ג</span><br><br>Through thee my life is like a journey filled with wonder,<br>with change, and with challenge.<br>But when I am weary and the road seems long and endless,<br>oft times thine image appears before me in the distance.<br>Then I am lifted up and my limbs are eased of their pain.<br>Like a tired child I am borne onward and comforted by the motion of thy love.<br>I dream, and in my dream I see the road ahead, and I am made strong.<br>Thy strength prepares me for what is to come,<br>be it strewn with stones or paved with lustrous marble.<br>I awake from my dream to find myself beside the road.<br>I see thee departing in the distance and weep.<br>For now, I know I cannot be carried forever.<br>Chastened, I arise and begin to walk toward the Light.</span>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_type": "stm",
+                                    "insc_tag": "Commentary",
+                                    "insc_ttl": "Commentary on 'A Prayer of Gimel'",
+                                    "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki_cmmntry",
+                                    "scions": [
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "Random Commentary"
                                         }
                                     ]
                                 }

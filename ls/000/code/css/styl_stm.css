@@ -41,8 +41,12 @@
     font-size: 37px;
 }
 
+.styl_stm_bmp_top {
+    display: none;
+}
+
 .styl_stm_bmp_btm {
-    display: block;
+    display: none;
     text-align: center;
     padding-top: 17px;
     padding-bottom: 7px;
@@ -80,4 +84,5 @@
 
 .styl_stm_trstlbrd {
     padding-left: 47px;
+    display: none;
 }

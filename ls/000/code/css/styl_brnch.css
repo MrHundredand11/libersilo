@@ -91,3 +91,59 @@
     display: inline-block;
     font-family: calibri;
 }
+
+.branch_title {
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.styl_b_explst_lst_shm {
+    font-size: 37px;
+}
+
+.styl_b_explst_cntnr {
+    padding-left: 29px;
+}
+
+.styl_b_explst_bmp_top {
+    font-size: 37px;
+    padding-bottom: 7px;
+}
+
+.styl_b_explst_bmp_cycl {
+    font-size: 37px;
+    padding-top: 71px;
+}
+
+.styl_b_explst_lst_items {
+    position: relative;
+    padding-left: 67px;
+    font-size: 23px;
+}
+
+.styl_b_explst_entr_term {
+    font-family: cambria;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.branch_container {
+    margin-bottom: 17px;
+    display: table;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 100%;
+    left: 3px;
+    top: 3px;
+    position: relative;
+}
+
+.branch_head {
+    display: block;
+    font-size: 43px;
+}

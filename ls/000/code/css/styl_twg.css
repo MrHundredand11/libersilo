@@ -19,6 +19,9 @@
 .styl_twg_ttl {
     font-style: italic;
     font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
 }
 
 .styl_twg_cntn {

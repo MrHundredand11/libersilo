@@ -191,8 +191,8 @@ function rotatePointer(pnt_id) {
     
 };
             
-function generatePointer(idx, lf_i) {
-    const idx2 = `id_pnt_${idx}_${lf_i}`;
+function generatePointer(scion_id, lf_i) {
+    const idx2 = `id_pnt_${scion_id}_${lf_i}`;
     var pnter = createElementWithClass('div', 'styl_pointers');
     pnter.classList.add('styl_pnt_0deg');
     pnter.setAttribute('id', idx2);
@@ -200,6 +200,13 @@ function generatePointer(idx, lf_i) {
     pnter.innerHTML = "+>&nbsp";
     //let pnt_plus_p = "<div class='styl_pointers' style='display: inline-block' onclick='rotatePointer(" + idx2 + ")' id='" + idx2 + "'>+> </div>";
     return pnter;
+};
+
+function gen_Pntr(lf_i, scion_id, pnt_type) {
+    var pntr = gen_ECI('div', 'styl_pointers, styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);
+    pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}')`);
+    pntr.innerHTML = "+>&nbsp";
+    return pntr;
 };
 
 function generateLeafIdNum(scion_id, lf_i) {
@@ -344,7 +351,7 @@ function gen_lf(lf_i, lf) {
         case 'blade':
             var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            var pnter = generatePointer(lf.scion_id, lf_i);
+            var pnter = gen_Pntr(lf_i, lf.scion_id);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_cntnr = createElementWithClass('div', 'styl_lf_cntnr');
@@ -450,6 +457,8 @@ function gen_lf(lf_i, lf) {
                 var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${lf.scion_id}_${lfl}`);
                 var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${lf.scion_id}_${lfl}`);
                 twg_ttl.setAttribute('onclick', `showHideTwig('${lf.scion_id}_${lfl}');`);
+                twg_bmp_top.setAttribute('onclick', `showHideTwig('${lf.scion_id}_${lfl}');`);
+                twg_bmp_btm.setAttribute('onclick', `showHideTwig('${lf.scion_id}_${lfl}');`);
                 twg_bmp_top.innerHTML = "---<br>--- ---";
                 twg_bmp_btm.innerHTML = "---- ----<br>----";
                 twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>${lf.scions[lfl].insc_term}</span>&nbsp<span class='styl_pointers'>::</span>`;
@@ -465,12 +474,9 @@ function gen_lf(lf_i, lf) {
                     var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
                     console.log(entr_full);
                     twg_cntn.appendChild(entr_full);
-                        }
+                }
             }
-
-                        
-
-                        return lf_cntnr;
+            return lf_cntnr;
 
         case 'stm_olst_exp_i':
             var in_id = generateLeafIdNum(lf.scion_id, lf_i);
@@ -610,30 +616,6 @@ async function fetchy(zz) {
                 var trst_cntnr = document.getElementById("trestleboard");
                 var trst_brnchs = data.record.scions;
                 for (i in trst_brnchs) {
-                    var brnch_id = trst_brnchs[i].scion_id;
-                    var brnch_name = trst_brnchs[i].drct_id + " = " + trst_brnchs[i].drct_ttl;
-                    var brnch_cntnr = createElementWithClass('div', 'styl_brnch_cntnr');
-                    var brnch_bmp_top = createElementWithClass('div', 'styl_brnch_bmp_top');
-                    var brnch_nametag = createElementWithClass('div', 'styl_brnch_nametag');
-                    var brnch_trstlbrd = createElementWithClass('div', 'styl_brnch_trstlbrd');
-                    var brnch_bmp_btm = createElementWithClass('div', 'styl_brnch_bmp_btm');
-                
-                    brnch_cntnr.setAttribute('id', ('id_b_cntnr_' + brnch_id));
-                    brnch_bmp_top.setAttribute('id', ('id_b_bmp_top_' + brnch_id));
-                    brnch_nametag.setAttribute('id', ('id_b_nametag_' + brnch_id));
-                    brnch_trstlbrd.setAttribute('id', ('id_b_trstlbrd_' + brnch_id));
-                    brnch_bmp_btm.setAttribute('id', ('id_b_bmp_btm_' + brnch_id));
-
-                    
-                    brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
-                    brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-                    brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
-                
-                    brnch_cntnr.appendChild(brnch_bmp_top);
-                    brnch_cntnr.appendChild(brnch_nametag);
-                    brnch_cntnr.appendChild(brnch_trstlbrd);
-                    brnch_cntnr.appendChild(brnch_bmp_btm);
-                    trst_cntnr.appendChild(brnch_cntnr);
 
                    
                     var stems = trst_brnchs[i].scions;

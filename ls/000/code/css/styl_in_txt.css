@@ -1,6 +1,7 @@
 .styl_in_txt {
     flex-wrap: wrap;
     display: flex;
+    margin-top: 11px;
 }
 
 .in_txt_cntrd {

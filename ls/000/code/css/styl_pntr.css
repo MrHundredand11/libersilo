@@ -1,0 +1,31 @@
+.styl_pnt_0deg {
+    rotate: 0deg;
+}
+
+.styl_pnt_30deg {
+    rotate: 30deg;
+}
+
+.styl_shvl_s0 {
+    rotate: 0deg;
+    display: inline-block;
+    font-family: calibri;
+}
+
+.styl_shvl_s1 {
+    rotate: 45deg;
+    display: inline-block;
+    font-family: calibri;
+}
+
+.styl_shvl_s2 {
+    rotate: 90deg;
+    display: inline-block;
+    font-family: calibri;
+    border-right: 1px solid black;
+}
+
+.styl_pointers {
+    display: inline-block;
+    font-family: carlito;
+}

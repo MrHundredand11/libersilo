@@ -31,7 +31,7 @@ function shovelDigging(scion_id) {
             var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
             console.log(testyy);
             console.log(testyy.querySelectorAll(`:scope > *`));
-            console.log(document.querySelectorAll(`id_b_trstlbrd_${scion_id} > *`));
+            console.log(testyy.childNodes);
             break;
 
         case 'styl_shvl_s2':

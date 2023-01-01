@@ -16,10 +16,6 @@ function whatsOnTheMenu() {
 
                 let drct_tree = data.scions;
 
-                // for (x1 in data.scions) {
-                //     console.log(gen_menu(data.scions[x1]));
-                // }
-
                 for (mn in drct_tree) {
                     var accrd_cntnr = gen_ECI('div', 'styl_mnu_accrd_cntnr', `mnu_accrd_cntnr_${drct_tree[mn].scion_id}`);
                     var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${drct_tree[mn].scion_id}`);                    
@@ -35,8 +31,8 @@ function whatsOnTheMenu() {
                     }
 
                     function gen_men(mnu) {
-                        console.log(mnu);
-                        console.log(mnu.ls_type);
+                        // console.log(mnu);
+                        // console.log(mnu.ls_type);
                         switch (mnu.ls_type) {
                             case '=>':
                                 var mnu_fldr = gen_ECI('div', 'styl_mnu_accrd_fldr', `mnu_accrd_fldr_${mnu.scion_id}`);
@@ -50,7 +46,7 @@ function whatsOnTheMenu() {
                                     // console.log(mnu.scions[mnu_i].ls_id);
                                     // console.log(mnu.scions[mnu_i].ls_ttl);
                                     // console.log(mnu.scions[mnu_i].ls_type);
-                                    console.log(gen_men(mnu.scions[mnu_i]));
+                                    // console.log(gen_men(mnu.scions[mnu_i]));
                                     mnu_fldr_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                                 }
                                 return mnu_fldr;

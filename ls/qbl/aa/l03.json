@@ -45,6 +45,24 @@
                     "scion_id": "ls_qbl_aa_l03_astr_v_p02"
                 }
             ]
+        },
+        {
+            "drct_id": "PRYR",
+            "drct_ttl": "Prayers of 'The Letter Gimel'",
+            "scion_id": "ls_qbl_aa_l03_pryr",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Prayers",
+                    "insc_ttl": "List of Prayers of (The Letter Gimel) ::",
+                    "scion_id": "ls_qbl_aa_l03_pryr_lst",
+                    "scions": [
+                        {
+                            "insc_term": "A Prayer of Gimel by Dolores Ashcroft-Nowicki"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

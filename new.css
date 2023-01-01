@@ -189,19 +189,7 @@ strong {
         font-size: 43px;
     }
 
-    .styl_drct_cntn {
-        position: relative;
-        margin-left: 53px;
-    }
 
-    .styl_drct_name {
-        font-size: 37px;   
-    }
-
-    .styl_drct_item {
-        font-family: cambria;
-        font-size: 23px;
-    }
 
     .styl_liex_cntn {
         padding-left: 41px;
@@ -213,67 +201,7 @@ strong {
         padding-inline-start: 0px;
     }
 
-    .styl_drct_rcrd_brnch {
-        padding-left: 7px;
-        font-size: 23px;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 5px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        margin-bottom: 17px;
-        padding-right: 23px;
-        width: -moz-fit-content;
-        width: fit-content;
-    }
-
-    .styl_drct_rcrd_if2 {
-        padding-left: 41px;
-        font-size: 17px;
-        position: relative;
-    }
-
-    .styl_drct_rcrd_fldr {
-        padding-left: 41px;
-        font-size: 17px;
-        position: relative;
-        margin-bottom: 17px;
-        margin-top: 17px;
-        margin-left: 23px;
-        padding-right: 23px;
-        outline: 1px solid grey;
-        width: -moz-fit-content;
-        width: fit-content;
-        border-radius: 5px;
-        padding-top: 11px;
-        padding-bottom: 11px;
-    }
-
-    .styl_drct_rcrd_item {
-        padding-left: 41px;
-        font-size: 17px;
-        position: relative;
-        margin-bottom: 3px;
-        margin-top: 3px;
-       
-    }
-
-    .styl_drct_rcrd_i {
-        font-family: cambria;
-        font-weight: bold;
-        font-size: 23px;
-    }
-
-    .styl_drct_rcrd_head {
-        font-family: cambria;
-        font-weight: bold;
-        font-size: 23px;
-    }
-
-    .styl_drct_head {
-        font-size: 37px;
-        padding-bottom: 5px;
-    }
+    
 
     .style5 {
         padding-left: 41px;
@@ -457,14 +385,7 @@ strong {
     rotate: 30deg;
 }
 
-.styl_drct_item_ttl {
-    font-family: cambria;
-    font-weight: bold;
-}
 
-.styl_stm_trstlbrd {
-    padding-left: 47px;
-}
 
 .styl_lf_li_ext_bld {
     font-family: cambria;
@@ -490,10 +411,6 @@ strong {
 }
 
 #id_mnu_btm::-webkit-scrollbar { width: 0 !important }
-
-.styl_drct_rcrd_brnch_name {
-    display: inline-block;
-}
 
 .styl_mnu_accrd_cntnr {
     display: block;
@@ -660,7 +577,3 @@ strong {
     margin-bottom: 29px;
 }
 
-.styl_stm_ttl_spprt {
-    text-decoration: underline;
-    font-weight: bold;
-}

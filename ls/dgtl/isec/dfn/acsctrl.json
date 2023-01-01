@@ -12,7 +12,7 @@
                 {
                     "insc_ttl": "<span class='span_list_title'>What is</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Access Control</span><span class='span_opn_cls'>)</span> <span class='span_list_title'>?</span>",
                     "insc_type": "stm",
-                    "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_defn",
+                    "scion_id": "ls_dgtl_isec_dfn_acsctrl_000_whatis",
                     "scions": [
                         {
                             "insc_type": "blade",

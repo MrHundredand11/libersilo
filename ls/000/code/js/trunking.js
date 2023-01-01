@@ -32,6 +32,7 @@ function shovelDigging(scion_id) {
             var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
             console.log(testyy);
             console.log(testyy.querySelectorAll(`id_b_trstlbrd_${scion_id} > *`));
+            console.log(document.querySelectorAll(`id_b_trstlbrd_${scion_id} > *`));
             break;
 
         case 'styl_shvl_s2':
@@ -54,9 +55,9 @@ function showHideStem(scion_id) {
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_hide');
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_show');
     } else if (stm_clss.includes('stt_hide')) {
-        document.getElementById('id_stm_bmp_top_' + scion_id).style.display = "block";
-        document.getElementById('id_stm_bmp_btm_' + scion_id).style.display = "block";
-        document.getElementById('id_stm_trstlbrd_' + scion_id).style.display = "block";
+        document.getElementById(`id_stm_bmp_top_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_bmp_btm_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_trstlbrd_${scion_id}`).style.display = "block";
         document.getElementById('id_stm_cntnr_' + scion_id).classList.add('stt_show');
         document.getElementById('id_stm_cntnr_' + scion_id).classList.remove('stt_hide');
     }

@@ -1,0 +1,26 @@
+/*@font-face {
+    font-family: bahnSchrift;
+    src: url(fonts/BAHNSCHRIFT.TTF);
+}*/
+
+/*@font-face {
+    font-family: calibri;
+    src: url(fonts/calibri.ttf);
+}*/
+
+/*@font-face {
+    font-family: shadows_into_light;
+    src: url(fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'VPCS';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/VPCSB.woff) format('woff');
+}*/
+
+@font-face {
+    font-family: carlito;
+    src: url(/ls/000/code/fonts/carlito_regular.ttf)
+}

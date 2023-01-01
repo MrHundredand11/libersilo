@@ -9,19 +9,16 @@
 .styl_shvl_s0 {
     rotate: 0deg;
     display: inline-block;
-    font-family: calibri;
 }
 
 .styl_shvl_s1 {
     rotate: 45deg;
     display: inline-block;
-    font-family: calibri;
 }
 
 .styl_shvl_s2 {
     rotate: 90deg;
     display: inline-block;
-    font-family: calibri;
     border-right: 1px solid black;
 }
 

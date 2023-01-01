@@ -184,12 +184,9 @@ function rotatePointer(pnt_id) {
     if (pnt_stt.className.includes('styl_pnt_0deg')) {
         pnt_stt.classList.add('styl_pnt_30deg');
         pnt_stt.classList.remove('styl_pnt_0deg');
-        //style.rotate = "30deg";
-        console.log(pnt_stt.classList);
     } else if (pnt_stt.className.includes('styl_pnt_30deg')) {
         pnt_stt.classList.add('styl_pnt_0deg');
         pnt_stt.classList.remove('styl_pnt_30deg');
-        console.log(pnt_stt.classList);
     }
     
 };

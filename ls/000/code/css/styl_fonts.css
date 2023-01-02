@@ -24,3 +24,8 @@
     font-family: carlito;
     src: url(/ls/000/code/fonts/carlito_regular.ttf)
 }
+
+@font-face {
+    font-family: Inconsolata_SEB;
+    src: url(/ls/000/code/fonts/Inconsolata_SEB.ttf)
+}

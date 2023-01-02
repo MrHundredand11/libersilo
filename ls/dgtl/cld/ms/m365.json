@@ -36,7 +36,24 @@
                     "scions": [
                         {
                             "insc_tag": "Service",
-                            "insc_term": "Office 365"
+                            "insc_term": "Office 365 ProPlus",
+                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp",
+                            "scions": [
+                                {
+                                    "insc_type": "stm",
+                                    "insc_tag": "Installation",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Installation</span>&nbsp;of&nbsp;(Office 365 ProPlus)",
+                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_instll",
+                                    "scions": [
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Installation",
+                                            "insc_term": "Office 365 ProPlus",
+                                            "insc_cntn": "is installed locally on the user's device. It is <span class='styl_in_txt_bld'>not</span> a web-based version of Office."
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_tag": "Service",

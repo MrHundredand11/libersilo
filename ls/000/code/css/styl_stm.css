@@ -23,6 +23,7 @@
     padding-bottom: 7px;
     padding-left: 7px;
     padding-right: 47px;
+    margin-right: 47px;
     width: 100%;
     left: 23px;
     top: 3px;
@@ -38,6 +39,8 @@
 
 .styl_stm_nametag {
     font-size: 37px;
+    display: flex;
+    white-space: pre;
 }
 
 .styl_stm_bmp_top {

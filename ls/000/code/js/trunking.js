@@ -123,7 +123,7 @@ function gen_term(lf_id, lf_term) {
 
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-    var lf_cntnr = createElementWithClass('div', `styl_lf_cntnr`);
+    var lf_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type}`, `${lf_id}_lf_${lf.insc_type}`);
     var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
@@ -236,7 +236,7 @@ function gen_lf(lf_i, lf) {
 
         case 'stm_olst_exp':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            var lf_cntnr = gen_ECI('div', 'styl_lf_stm_olst_exp stt_hide', `${lf_id}_lf_stm_olst_exp`);
+            
             var lf_bmp_top = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_top', `${lf_id}_lf_stm_olst_exp_bmp_top`);
             var lf_ttl = gen_ECI('div', 'styl_lf_stm_olst_exp_ttl', `${lf_id}_lf_stm_olst_exp_ttl`);
             var lf_cntn = gen_ECI('div', 'styl_lf_stm_olst_exp_cntn', `${lf_id}_lf_stm_olst_exp_cntn`);

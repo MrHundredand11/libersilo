@@ -123,15 +123,15 @@ function gen_term(lf_id, lf_term) {
 
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
+    var lf_cntnr = createElementWithClass('div', `styl_lf_cntnr`);
+    var lf_sld = createElementWithClass('span', 'styl_pointers');
+    var lf_pnt = generatePointer(lf.scion_id, lf_i);
+    var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
+
     switch (lf.insc_type) {
-        case 'li_entr':
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            var lf_pnt = generatePointer(lf.scion_id, lf_i);
+        case 'li_entr':        
             var lf_trm = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-            var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
             var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-            
             lf_sld.innerHTML = bmp_sld_01;
             lf_protrusion.appendChild(lf_sld);
             lf_protrusion.appendChild(lf_pnt);
@@ -142,22 +142,13 @@ function gen_lf(lf_i, lf) {
             return lf_cntnr;
 
         case 'in_txt':
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            var lf_pnt = generatePointer(lf.scion_id, lf_i);
-            //var lf_trm = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-            var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-            //var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
             var lf_cntn = createElementWithClass('div', 'styl_in_txt');
             lf_cntn.innerHTML = lf.insc_cntn;
-
             lf_sld.innerHTML = bmp_sld_01;
             lf_protrusion.appendChild(lf_sld);
             lf_protrusion.appendChild(lf_pnt);
             lf_protrusion.appendChild(lf_cntn);
-
             lf_cntnr.appendChild(lf_protrusion);
-            //lf_cntnr.appendChild(lf_leaflets);
             return lf_cntnr;
 
         // case 'li_cite':
@@ -183,7 +174,6 @@ function gen_lf(lf_i, lf) {
             var pnter = gen_Pntr(lf_i, lf.scion_id);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
             var bld_term = gen_term(lf_id, lf.insc_term);
-            var lf_cntnr = createElementWithClass('div', 'styl_lf_cntnr');
                         
             lf_cntnr.setAttribute('id', lf_id);
             var lf_bld = createElementWithClass('div', 'styl_lf_bld');
@@ -245,9 +235,7 @@ function gen_lf(lf_i, lf) {
             break;
 
         case 'stm_olst_exp':
-            var pnter = generatePointer(lf.scion_id, lf_i);
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-
             var lf_cntnr = gen_ECI('div', 'styl_lf_stm_olst_exp stt_hide', `${lf_id}_lf_stm_olst_exp`);
             var lf_bmp_top = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_top', `${lf_id}_lf_stm_olst_exp_bmp_top`);
             var lf_ttl = gen_ECI('div', 'styl_lf_stm_olst_exp_ttl', `${lf_id}_lf_stm_olst_exp_ttl`);
@@ -267,7 +255,6 @@ function gen_lf(lf_i, lf) {
             lf_ttl.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
 
             lf_cntn.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
-
             lf_cntnr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
 
             for (lfl in lf.scions) {

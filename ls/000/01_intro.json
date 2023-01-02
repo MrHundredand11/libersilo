@@ -16,7 +16,29 @@
                     "scion_id": "ls_000_01_intro_what_mtphrs",
                     "scions": [
                         {
-                            "insc_term": "Information Vault"
+                            "insc_term": "Information Vault",
+                            "insc_tag": "Metaphor",
+                            "scion_id": "ls_000_01_intro_what_mtphrs_informationvault",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "Liber Silo = is an Information Vault"
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "LS = is a repository of Wisdom, a reservoir of Understanding, and a retainer of Beauty."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "LS is a Noah's Ark of the information that I find useful and that I would want to hang onto throughout any potential scenario:",
+                                    "scions": [
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "If we live at the brink of a golden age, then this is the information that I want to bring forward with me into that New World."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

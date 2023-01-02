@@ -107,6 +107,34 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-DB",
+                    "ls_ttl": "Databases",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_db"
+                },
+                {
+                    "ls_id": "LS-DGTL-DT",
+                    "ls_ttl": "Data Science",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_dt"
+                },
+                {
+                    "ls_id": "LS-DGTL-HW",
+                    "ls_ttl": "Systems Hardware",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_hw"
+                },
+                {
+                    "ls_id": "LS-DGTL-IAM",
+                    "ls_ttl": "Identity + Access Management",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_iam"
+                },
+                {
                     "ls_id": "LS-DGTL-ISEC",
                     "ls_ttl": "Information Security",
                     "ls_type": "=>",
@@ -145,6 +173,27 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-NW",
+                    "ls_ttl": "Networking + Communications",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_nw"
+                },
+                {
+                    "ls_id": "LS-DGTL-OS",
+                    "ls_ttl": "Operating Systems + OS Architecture",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_os"
+                },
+                {
+                    "ls_id": "LS-DGTL-PRNT",
+                    "ls_ttl": "Printers + Printing",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_prnt"
+                },
+                {
                     "ls_id": "LS-DGTL-SHLL",
                     "ls_ttl": "Command Line Shells",
                     "ls_type": "=>",
@@ -159,6 +208,20 @@
                             "scion_id": "ls_dgtl_shll_cmd"
                         }
                     ]
+                },
+                {
+                    "ls_id": "LS-DGTL-TRBL",
+                    "ls_ttl": "Technical Troubles + Troubleshooting",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_trbl"
+                },
+                {
+                    "ls_id": "LS-DGTL-V",
+                    "ls_ttl": "Digital Vendors",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_v"
                 }
             ]
         },

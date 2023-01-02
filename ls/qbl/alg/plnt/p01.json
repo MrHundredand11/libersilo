@@ -27,7 +27,101 @@
         {
             "drct_id": "MNSN",
             "drct_ttl": "The 28 Mansions of The Moon",
-            "scion_id": "ls_qbl_alg_plnt_p01_mnsn"
+            "scion_id": "ls_qbl_alg_plnt_p01_mnsn",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Mansions",
+                    "insc_ttl": "List of the 28 Mansions of The Moon",
+                    "scion_id": "ls_qbl_alg_plnt_p01_mnsn_lst",
+                    "scions": [
+                        {
+                            "insc_term": "The 1st Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 2nd Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 3rd Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 4th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 5th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 6th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 7th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 8th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 9th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 10th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 11th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 12th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 13th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 14th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 15th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 16th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 17th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 18th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 19th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 20th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 21st Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 22nd Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 23rd Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 24th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 25th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 26th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 27th Mansion of The Moon"
+                        },
+                        {
+                            "insc_term": "The 28th Mansion of The Moon"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "PLCE",

@@ -1235,32 +1235,41 @@
                     "scion_id": "ls_qbl_alg",
                     "scions": [
                         {
-                            "ls_id": "LS-QBL-ALG-SGNS-S01",
-                            "ls_ttl": "The Sign Aries",
-                            "ls_type": "+>",
-                            "scion_id": "ls_qbl_alg_sgns_s01",
-                            "ls_url": "/ls/qbl/alg/sgns/s01.json"
-                        },
-                        {
-                            "ls_id": "LS-QBL-ALG-SGNS-S02",
-                            "ls_ttl": "The Sign Taurus",
-                            "ls_type": "+>",
-                            "ls_url": "ls/qbl/alg/sgns/s02.json",
-                            "scion_id": "ls_qbl_alg_sgns_s02"
-                        },
-                        {
-                            "ls_id": "LS-QBL-ALG-SGNS-S03",
-                            "ls_ttl": "The Sign Gemini",
-                            "ls_type": "+>",
-                            "ls_url": "ls/qbl/alg/sgns/s03.json",
-                            "scion_id": "ls_qbl_alg_sgns_s03"
-                        },
-                        {
-                            "ls_id": "LS-QBL-ALG-SGNS-S12",
-                            "ls_ttl": "The Sign Pisces",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/alg/sgns/s12.json",
-                            "scion_id": "ls_qbl_alg_sgns_s12"
+                            "ls_id": "LS-QBL-ALG-SGNS",
+                            "ls_ttl": "The Zodiacal Influences",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_alg_sgns",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-ALG-SGNS-S01",
+                                    "ls_ttl": "The Sign Aries",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_qbl_alg_sgns_s01",
+                                    "ls_url": "/ls/qbl/alg/sgns/s01.json"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-SGNS-S02",
+                                    "ls_ttl": "The Sign Taurus",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/qbl/alg/sgns/s02.json",
+                                    "scion_id": "ls_qbl_alg_sgns_s02"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-SGNS-S03",
+                                    "ls_ttl": "The Sign Gemini",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/qbl/alg/sgns/s03.json",
+                                    "scion_id": "ls_qbl_alg_sgns_s03"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-SGNS-S12",
+                                    "ls_ttl": "The Sign Pisces",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/sgns/s12.json",
+                                    "scion_id": "ls_qbl_alg_sgns_s12"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-QBL-ALG-PLNT",
@@ -1302,11 +1311,39 @@
                     "scion_id": "ls_qbl_lmnt",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-LMNT-W-E00",
+                            "ls_ttl": "The Element of Spirit",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/e00.json",
+                            "scion_id": "ls_qbl_lmnt_w_e00"
+                        },
+                        {
                             "ls_id": "LS-QBL-LMNT-W-E01",
                             "ls_ttl": "The Element of Fire",
                             "ls_type": "+>",
                             "ls_url": "/ls/qbl/lmnt/w/e01.json",
                             "scion_id": "ls_qbl_lmnt_w_e01"
+                        },
+                        {
+                            "ls_id": "LS-QBL-LMNT-W-E02",
+                            "ls_ttl": "The Element of Water",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/e02.json",
+                            "scion_id": "ls_qbl_lmnt_w_e02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-LMNT-W-E03",
+                            "ls_ttl": "The Element of Air",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/e03.json",
+                            "scion_id": "ls_qbl_lmnt_w_e03"
+                        },
+                        {
+                            "ls_id": "LS-QBL-LMNT-W-E04",
+                            "ls_ttl": "The Element of Earth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/e04.json",
+                            "scion_id": "ls_qbl_lmnt_w_e04"
                         }
                     ]
                 },
@@ -1321,8 +1358,71 @@
                             "ls_id": "LS-QBL-OTz-SPR01",
                             "ls_ttl": "The Sephirah Kether",
                             "ls_type": "+>",
-                            "scion_id": "ls_qbl_otz_spr01",
-                            "ls_url": "https://api.jsonbin.io/v3/b/63a70f1d01a72b59f2385756"
+                            "ls_url": "/ls/qbl/otz/spr01.json",
+                            "scion_id": "ls_qbl_otz_spr01"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR02",
+                            "ls_ttl": "The Sephirah Chokmah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr02.json",
+                            "scion_id": "ls_qbl_otz_spr02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR03",
+                            "ls_ttl": "The Sephirah Binah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr03.json",
+                            "scion_id": "ls_qbl_otz_spr03"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR04",
+                            "ls_ttl": "The Sephirah Chesed",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr04.json",
+                            "scion_id": "ls_qbl_otz_spr04"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR05",
+                            "ls_ttl": "The Sephirah Geburah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr05.json",
+                            "scion_id": "ls_qbl_otz_spr05"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR06",
+                            "ls_ttl": "The Sephirah Tiphareth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr06.json",
+                            "scion_id": "ls_qbl_otz_spr06"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR07",
+                            "ls_ttl": "The Sephirah Netzach",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr07.json",
+                            "scion_id": "ls_qbl_otz_spr07"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR08",
+                            "ls_ttl": "The Sephirah Hod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr08.json",
+                            "scion_id": "ls_qbl_otz_spr08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR09",
+                            "ls_ttl": "The Sephirah Yesod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr09.json",
+                            "scion_id": "ls_qbl_otz_spr09"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR10",
+                            "ls_ttl": "The Sephirah Malkuth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr10.json",
+                            "scion_id": "ls_qbl_otz_spr10"
                         }
                     ]
                 },

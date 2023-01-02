@@ -917,7 +917,30 @@
                     "ls_ttl": "Blessed Food Recipes",
                     "ls_type": "=>",
                     "ls_url": "",
-                    "scion_id": "ls_nn_bf"
+                    "scion_id": "ls_nn_bf",
+                    "scions": [
+                        {
+                            "ls_id": "LS-NN-BF-BREAD",
+                            "ls_ttl": "Bread Recipes",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/nn/bf/bread.json",
+                            "scion_id": "ls_nn_bf_bread"
+                        },
+                        {
+                            "ls_id": "LS-NN-BF-BRKFST",
+                            "ls_ttl": "Breakfast Recipes",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/nn/bf/brkfst.json",
+                            "scion_id": "ls_nn_bf_brkfst"
+                        },
+                        {
+                            "ls_id": "LS-NN-BF-CHCKN",
+                            "ls_ttl": "Chicken Recipes",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/nn/bf/chckn.json",
+                            "scion_id": "ls_nn_bf_chckn"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-NN-GEO",

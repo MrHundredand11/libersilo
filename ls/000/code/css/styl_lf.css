@@ -48,6 +48,10 @@
     width: fit-content;
 }
 
+.styl_lf_stm_olst_exp:hover {
+    border: 2.22px solid black;
+}
+
 .styl_lf_stm_olst_exp_bmp_top {
     display: none;
 }

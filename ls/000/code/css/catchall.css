@@ -103,8 +103,7 @@ strong {
     font-family: cambria;
     font-size: 19px;
     display: inline-block;
-    white-space: normal;
-    overflow-wrap: anywhere;    
+    white-space: pre;  
 }
 
 .styl_li_top {

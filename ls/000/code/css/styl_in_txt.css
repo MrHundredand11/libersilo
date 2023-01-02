@@ -25,3 +25,7 @@
 .styl_in_txt_code {
     font-family: Inconsolata_SEB;
 }
+
+.styl_in_txt_emph {
+    font-style: italic;
+}

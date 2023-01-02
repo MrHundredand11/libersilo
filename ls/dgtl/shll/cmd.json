@@ -12,13 +12,46 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Commands",
-                    "insc_ttl": "List of Power Cycle Commands",
+                    "insc_ttl": "List of (Power Cycle Commands)",
                     "scion_id": "ls_dgtl_shll_cmd_cmnd_pwrcycl",
                     "scions": [
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
                             "insc_cntn": "{to shutdown the device}===[&emsp;<span class='in_txt_code'>shutdown /s</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to restart the device}===[&emsp;<span class='in_txt_code'>shutdown /r</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to log off the device}===[&emsp;<span class='in_txt_code'>shutdown /l</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to see shutdown options}===[&emsp;<span class='in_txt_code'>shutdown /?</span>&emsp;]"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Commands",
+                    "insc_ttl": "List of (Networking Commands)",
+                    "scion_id": "ls_dgtl_shll_cmd_cmnd_ntwrkng",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to view many open ports}===[&emsp;<span class='in_txt_code'>netstat</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='in_txt_code'>netstat | more</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to view all open ports}===[&emsp;<span class='in_txt_code'>netstat -a</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='in_txt_code'>netstat -a | more</span>&emsp;]"
                         }
                     ]
                 }

@@ -85,6 +85,8 @@ function showHideTwig(scion_id) {
 }
 
 function showHideStmExp(lf_id) {
+    console.log(lf_id);
+    console.log(document.getElementById(`${lf_id}_lf_cntnr`));
     var twg_clss = document.getElementById(`${lf_id}_lf_cntnr`).className;
     if (twg_clss.includes('stt_show')) {
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "none";

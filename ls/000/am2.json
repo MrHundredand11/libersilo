@@ -10,6 +10,13 @@
             "scion_id": "ls_000",
             "scions": [
                 {
+                    "ls_id": "LS-000-01-INTRO",
+                    "ls_ttl": "Introduction to 'Liber Silo'",
+                    "ls_type": "+>",
+                    "ls_url": "/ls/000/01_intro.json",
+                    "scion_id": "ls_000_01_intro"
+                },
+                {
                     "ls_id": "LS-000-ABOUT",
                     "ls_ttl": "About the Author + Compiler",
                     "ls_type": "+>",

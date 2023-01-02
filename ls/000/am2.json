@@ -143,6 +143,22 @@
                             
                         }
                     ]
+                },
+                {
+                    "ls_id": "LS-DGTL-SHLL",
+                    "ls_ttl": "Command Line Shells",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_dgtl_shll",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-SHLL-CMD",
+                            "ls_ttl": "Windows Command Shell",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/shll/cmd.json",
+                            "scion_id": "ls_dgtl_shll_cmd"
+                        }
+                    ]
                 }
             ]
         },

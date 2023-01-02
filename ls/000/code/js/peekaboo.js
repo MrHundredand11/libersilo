@@ -85,19 +85,19 @@ function showHideTwig(scion_id) {
 }
 
 function showHideStmExp(lf_id) {
-    var twg_clss = document.getElementById(`${lf_id}_lf_stm_olst_exp`).className;
+    var twg_clss = document.getElementById(`${lf_id}_lf_cntnr`).className;
     if (twg_clss.includes('stt_show')) {
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "none";
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "none";
         document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "none";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.add('stt_hide');
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.remove('stt_show');
+        document.getElementById(`${lf_id}_lf_cntnr`).classList.add('stt_hide');
+        document.getElementById(`${lf_id}_lf_cntnr`).classList.remove('stt_show');
     } else if (twg_clss.includes('stt_hide')) {
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "block";
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "block";
         document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.add('stt_show');
-        document.getElementById(`${lf_id}_lf_stm_olst_exp`).classList.remove('stt_hide');
+        document.getElementById(`${lf_id}_lf_cntnr`).classList.add('stt_show');
+        document.getElementById(`${lf_id}_lf_cntnr`).classList.remove('stt_hide');
     }
 }
 

@@ -36,7 +36,23 @@
                     "scion_id": "ls_qbl_alg_plnt_p01_mnsn_lst",
                     "scions": [
                         {
-                            "insc_term": "The 1st Mansion of The Moon"
+                            "insc_term": "The 1st Mansion of The Moon",
+                            "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01",
+                            "scions": [
+                                {
+                                    "insc_type": "stm",
+                                    "insc_ttl": "Position of (The 1st Mansion)",
+                                    "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01_pstn",
+                                    "scions": [
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Position",
+                                            "insc_cntn": "0*00\" Aries to 12*51\" Aries",
+                                            "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01_pstn_pstn"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_term": "The 2nd Mansion of The Moon"

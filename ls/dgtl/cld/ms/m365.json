@@ -36,6 +36,10 @@
                     "scions": [
                         {
                             "insc_tag": "Service",
+                            "insc_term": "Office 365"
+                        },
+                        {
+                            "insc_tag": "Service",
                             "insc_term": "Windows 10 Enterprise",
                             "insc_type": "stm_olst_exp",
                             "insc_ttl": "<span class='styl_stm_ttl_spprt'>Features</span> of <span class='span_opn_cls'>(</span>Windows 10 Enterprise<span class='span_opn_cls'>)</span> ::",
@@ -76,10 +80,40 @@
                             "insc_term": "Microsoft InTune"
                         },
                         {
-                            "insc_term": "Office 365"
+                            "insc_term": "Yammer"
                         },
                         {
-                            "insc_term": "Outlook"
+                            "insc_term": "Microsoft Project Online"
+                        },
+                        {
+                            "insc_term": "Project Pro for 365"
+                        },
+                        {
+                            "insc_term": "Microsoft Office Visio Pro for 365"
+                        },
+                        {
+                            "insc_term": "Microsoft Dynamics 365"
+                        },
+                        {
+                            "insc_term": "OneDrive for Business"
+                        },
+                        {
+                            "insc_term": "Planner"
+                        },
+                        {
+                            "insc_term": "Power BI"
+                        },
+                        {
+                            "insc_term": "Microsoft Staff Hub"
+                        },
+                        {
+                            "insc_term": "Stream"
+                        },
+                        {
+                            "insc_term": "Microsoft Delve"
+                        },
+                        {
+                            "insc_term": "Sway"
                         }
                     ]
                 }

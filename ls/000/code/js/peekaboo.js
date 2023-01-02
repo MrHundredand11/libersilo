@@ -107,10 +107,10 @@ function mnu_showHide_top(scion_id) {
     var panel = document.getElementById(`mnu_accrd_cntn_${scion_id}`);
     if (panel.style.display === "block") {
         panel.style.display = "none";
-        cnt.style.margin = "0px";
+        //cnt.style.margin = "0px";
     } else {
         panel.style.display = "block";
-        cnt.style.margin = "7px";
+        //cnt.style.margin = "7px";
     }
 }
 function mnu_showHide_fldr(scion_id) {

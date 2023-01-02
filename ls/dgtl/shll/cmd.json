@@ -1,0 +1,28 @@
+{
+    "ls_id": "LS-DGTL-SHLL-CMD",
+    "ls_ttl": "Windows Command Shell",
+    "ls_url": "/ls/dgtl/shll/cmd.json",
+    "scion_id": "ls_dgtl_shll_cmd",
+    "scions": [
+        {
+            "drct_id": "CMND",
+            "drct_ttl": "Common Command Prompt Commands",
+            "scion_id": "ls_dgtl_shll_cmd_cmnd",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Commands",
+                    "insc_ttl": "List of Power Cycle Commands",
+                    "scion_id": "ls_dgtl_shll_cmd_cmnd_pwrcycl",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_tag": "Command",
+                            "insc_cntn": "{to shutdown the device}===[&emsp;<span class='in_txt_code'>shutdown /s</span>&emsp;]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

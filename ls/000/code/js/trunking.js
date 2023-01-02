@@ -122,9 +122,9 @@ function gen_term(lf_id, lf_term) {
 
 
 function gen_lf(lf_i, lf) {
+    var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
     switch (lf.insc_type) {
         case 'li_entr':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
             var lf_sld = createElementWithClass('span', 'styl_pointers');
             var lf_pnt = generatePointer(lf.scion_id, lf_i);
             var lf_trm = gen_term(lf_id, lf.insc_term);
@@ -142,7 +142,6 @@ function gen_lf(lf_i, lf) {
             return lf_cntnr;
 
         case 'in_txt':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
             var lf_sld = createElementWithClass('span', 'styl_pointers');
             var lf_pnt = generatePointer(lf.scion_id, lf_i);
             //var lf_trm = gen_term(lf_id, lf.insc_term);
@@ -180,7 +179,6 @@ function gen_lf(lf_i, lf) {
         //     return lf_cntnr;
                     
         case 'blade':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
             var pnter = gen_Pntr(lf_i, lf.scion_id);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
@@ -247,7 +245,6 @@ function gen_lf(lf_i, lf) {
             break;
 
         case 'stm_olst_exp':
-            var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
             var pnter = generatePointer(lf.scion_id, lf_i);
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
 

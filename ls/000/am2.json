@@ -968,7 +968,7 @@
         {
             "ls_id": "LS-QBL",
             "ls_ttl": "The Qabalah",
-            "ls_type": "=>",
+            "ls_type": "->",
             "ls_url": "",
             "scion_id": "ls_qbl",
             "scions": [

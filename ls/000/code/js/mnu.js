@@ -8,23 +8,27 @@ function whatsOnTheMenu() {
             var menu_tablet = createElementWithClass('div', 'styl_menu_tablet');
             m_btm.appendChild(menu_tablet);
             let drct_tree = data.scions;
+
+            for (mn in drct_tree) {
+                gen_men(drct_tree[mn]);
+            }
             
             function gen_men(mnu) {
                 console.log(mnu);
                 console.log(mnu.ls_type);
                 switch (mnu.ls_type) {
                     case '->':
-                        var accrd_cntnr = gen_ECI('div', 'styl_mnu_accrd_cntnr', `mnu_accrd_cntnr_${drct_tree[mn].scion_id}`);
-                        var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${drct_tree[mn].scion_id}`);                    
-                        var accrd_cntn = gen_ECI('div', 'styl_mnu_accrd_cntn', `mnu_accrd_cntn_${drct_tree[mn].scion_id}`);
-                        accrd_ttl.innerHTML = `${drct_tree[mn].ls_ttl}`;
-                        accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${drct_tree[mn].scion_id}')`);
+                        var accrd_cntnr = gen_ECI('div', 'styl_mnu_accrd_cntnr', `mnu_accrd_cntnr_${mnu.scion_id}`);
+                        var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${mnu.scion_id}`);                    
+                        var accrd_cntn = gen_ECI('div', 'styl_mnu_accrd_cntn', `mnu_accrd_cntn_${mnu.scion_id}`);
+                        accrd_ttl.innerHTML = `${mnu.ls_ttl}`;
+                        accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${mnu.scion_id}')`);
                         accrd_cntnr.append(accrd_ttl, accrd_cntn);          
                         menu_tablet.appendChild(accrd_cntnr);
             
-                        for (mnu in drct_tree[mn].scions) {
+                        for (mnut in mnu.scions) {
                             //console.log(gen_men(data.scions[mn].scions[mnu]));
-                            accrd_cntn.appendChild(gen_men(drct_tree[mn].scions[mnu]));
+                            accrd_cntn.appendChild(gen_men(mnu.scions[mnut]));
                         }
                     
                     case '=>':
@@ -185,7 +189,7 @@ function whatsOnTheMenu() {
                         
                     
             // }
-            gen_men(data);
+            //gen_men(drct_tree);
         })
         .catch(err => {
             console.log(err);

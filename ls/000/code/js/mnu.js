@@ -14,8 +14,6 @@ function whatsOnTheMenu() {
             }
             
             function gen_men(mnu) {
-                console.log(mnu);
-                console.log(mnu.ls_type);
                 switch (mnu.ls_type) {
                     case '->':
                         var accrd_cntnr = gen_ECI('div', 'styl_mnu_accrd_cntnr', `mnu_accrd_cntnr_${mnu.scion_id}`);
@@ -26,10 +24,10 @@ function whatsOnTheMenu() {
                         accrd_cntnr.append(accrd_ttl, accrd_cntn);          
                         menu_tablet.appendChild(accrd_cntnr);
             
-                        for (mnut in mnu.scions) {
-                            //console.log(gen_men(data.scions[mn].scions[mnu]));
-                            accrd_cntn.appendChild(gen_men(mnu.scions[mnut]));
+                        for (mnu_i in mnu.scions) {
+                            accrd_cntn.appendChild(gen_men(mnu.scions[mnu_i]));
                         }
+                        return accrd_cntnr;
                     
                     case '=>':
                         var mnu_fldr = gen_ECI('div', 'styl_mnu_accrd_fldr', `mnu_accrd_fldr_${mnu.scion_id}`);

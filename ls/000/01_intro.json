@@ -1,0 +1,26 @@
+{
+    "ls_id": "LS-000-01-INTRO",
+    "ls_ttl": "Introduction to 'Liber Silo'",
+    "ls_url": "/ls/000/01_intro.json",
+    "scion_id": "ls_000_01_intro",
+    "scions": [
+        {
+            "drct_id": "WHAT",
+            "drct_ttl": "What is 'Liber Silo'?",
+            "scion_id": "ls_000_01_intro_what",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Metaphors",
+                    "insc_ttl": "List of Metaphors for (Liber Silo) ::",
+                    "scion_id": "ls_000_01_intro_what_mtphrs",
+                    "scions": [
+                        {
+                            "insc_term": "Information Vault"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

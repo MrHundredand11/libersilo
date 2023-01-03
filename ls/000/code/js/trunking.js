@@ -328,23 +328,9 @@ function gen_lf(lf_i, lf) {
             }
             in_cntnr.appendChild(stm_cntnr);
             break;
-
-                    // case 'li_entr':
-                    //     var lf_id = generateLeafIdNum(lf_i);
-                    //     var pnter = generatePointer(lf_id);
-                    //     var lf_term = gen_term(lf_id, lf_term);
-                    //     var blade_full = createElementWithClass('li', 'styl_blade');
-                    //     var blade_text = "<span class='styl_entr_intro'>\\_" + pnter + "</span> " + lf_term + "<br>";
-                    //     blade_full.innerHTML = blade_text;
-                    //     return blade_text;
-
-
-                }
-
-    return lf_cntnr;
+    }
+    return in_cntnr;
 }
-
-
 
 async function fetchy(zz) {
     var mainContainer = document.getElementById("trestleboard");

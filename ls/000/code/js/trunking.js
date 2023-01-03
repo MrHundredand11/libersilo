@@ -86,8 +86,7 @@ function generateLeafletIdNum(xx) {
 
 function generateTag(lf_id, twig_tag) {
     var lf_tag_id = `${lf_id}_tag`;
-    var lf_tag_full = createElementWithClass('div', 'styl_tag');
-    lf_tag_full.setAttribute('id', lf_tag_id);
+    var lf_tag_full = genECI('div', 'styl_tag', lf_tag_id);
     lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
     lf_tag_full.innerHTML = `[${twig_tag}] ::&nbsp`;
     return lf_tag_full;
@@ -119,9 +118,16 @@ function gen_lf(lf_i, lf) {
     lf_sld.innerHTML = bmp_sld_01;
 
     switch (lf.insc_type) {
-        case 'in_trm':        
+        case 'in_trm':
             var lf_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
+            lf_cntnr.append(lf_protrusion);
+            return lf_cntnr;
+
+        case 'in_trm_stpl':
+            var in_tag = generateTag(lf_id, lf.insc_tag);    
+            var in_trm = gen_term(lf_id, lf.insc_term);
+            lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_trm);
             lf_cntnr.append(lf_protrusion);
             return lf_cntnr;
 

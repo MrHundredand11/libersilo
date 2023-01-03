@@ -41,6 +41,20 @@
                             "scions": [
                                 {
                                     "insc_type": "stm",
+                                    "insc_tag": "Definitions",
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Definitions</span>&nbsp;of&nbsp;(Office 365 ProPlus)",
+                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dfntns",
+                                    "scions": [
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Definition",
+                                            "insc_term": "Office 365 ProPlus",
+                                            "insc_cntn": "is Microsoft's suite of productivity applications that includes Microsoft Word, Excel, PowerPoint, and Outlook for both Windows and Mac machines."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_type": "stm",
                                     "insc_tag": "Installation",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Installation</span>&nbsp;of&nbsp;(Office 365 ProPlus)",
                                     "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_instll",
@@ -124,30 +138,36 @@
                         {
                             "insc_tag": "Service",
                             "insc_term": "Windows 10 Enterprise",
-                            "insc_type": "stm_olst_exp",
-                            "insc_ttl": "<span class='styl_stm_ttl_spprt'>Features</span> of <span class='span_opn_cls'>(</span>Windows 10 Enterprise<span class='span_opn_cls'>)</span> ::",
                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e",
                             "scions": [
                                 {
-                                    "insc_term": "Intelligent Security",
-                                    "insc_type": "stm_olst_exp_i",
-                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_intsec"
-                                },
-                                {
-                                    "insc_term": "Flexible Management",
-                                    "insc_type": "stm_olst_exp_i",
-                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_flxmgmt"
-                                },
-                                {
-                                    "insc_term": "Streamlined Updates",
-                                    "insc_type": "stm_olst_exp_i",
-                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_strmlnupd"
-                                },
-                                {
-                                    "insc_term": "Robust Productivity Tools",
-                                    "insc_type": "stm_olst_exp_i",
-                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_rbprdtl"
-                                }
+                                    "insc_type": "stm_olst_exp",
+                                    "insc_tag": "Features",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Features</span> of <span class='span_opn_cls'>(</span>Windows 10 Enterprise<span class='span_opn_cls'>)</span> ::",
+                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Intelligent Security",
+                                            "insc_type": "stm_olst_exp_i",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_intsec"
+                                        },
+                                        {
+                                            "insc_term": "Flexible Management",
+                                            "insc_type": "stm_olst_exp_i",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_flxmgmt"
+                                        },
+                                        {
+                                            "insc_term": "Streamlined Updates",
+                                            "insc_type": "stm_olst_exp_i",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_strmlnupd"
+                                        },
+                                        {
+                                            "insc_term": "Robust Productivity Tools",
+                                            "insc_type": "stm_olst_exp_i",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_rbprdtl"
+                                        }
+                                    ]
+                                } 
                             ]
                         },
                         {

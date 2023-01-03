@@ -145,24 +145,6 @@ function gen_lf(lf_i, lf) {
             lf_protrusion.append(lf_pnt, in_cntn);
             in_cntnr.appendChild(lf_protrusion);
             break;
-
-        // case 'li_cite':
-        //     var lf_id = generateLeafIdNum(scion_id, lf_i);
-        //     var lf_sld = createElementWithClass('span', 'styl_pointers');
-        //     var lf_pnt = generatePointer(scion_id, lf_i);
-        //     var lf_trm = gen_term(lf_id, lf_term);
-        //     var lf_cntnr = createElementWithClass('div', 'styl_lf_lst_entr');
-        //     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-        //     var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-                
-        //     lf_sld.innerHTML = bmp_sld_01;
-        //     lf_protrusion.appendChild(lf_sld);
-        //     lf_protrusion.appendChild(lf_pnt);
-        //     lf_protrusion.appendChild(lf_trm);
-    
-        //     lf_cntnr.appendChild(lf_protrusion);
-        //     lf_cntnr.appendChild(lf_leaflets);
-        //     return lf_cntnr;
                     
         case 'blade':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);

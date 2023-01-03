@@ -130,6 +130,13 @@ function gen_lf(lf_i, lf) {
             var in_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(lf_pnt, in_tag, in_trm);
             in_cntnr.append(lf_protrusion);
+            if (lf.scions !== undefined) {
+                var exp_cntnr = createElementWithClass('div', 'in_exp_cntnr');
+                lf_cntnr.append(exp_cntnr);
+                for (x in lf.scions) {
+                    exp_cntnr.appendChild(gen_leaf(x, lf.scions[x]));
+                }
+            }
             break;
 
         case 'in_lnk_stpl':

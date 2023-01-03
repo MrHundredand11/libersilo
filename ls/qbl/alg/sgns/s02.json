@@ -31,7 +31,13 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Metal",
-                            "insc_term": "Copper"
+                            "insc_term": "Copper",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "Copper = is a Venusian Metal"
+                                }
+                            ]
                         },
                         {
                             "insc_type": "in_trm_stpl",

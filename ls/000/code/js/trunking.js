@@ -86,7 +86,7 @@ function generateLeafletIdNum(xx) {
 
 function generateTag(lf_id, twig_tag) {
     var lf_tag_id = `${lf_id}_tag`;
-    var lf_tag_full = genECI('div', 'styl_tag', lf_tag_id);
+    var lf_tag_full = gen_ECI('div', 'styl_tag', lf_tag_id);
     lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
     lf_tag_full.innerHTML = `[${twig_tag}] ::&nbsp`;
     return lf_tag_full;
@@ -100,12 +100,9 @@ function gen_term(lf_id, lf_term) {
     if (lf_term == undefined) {
         return undefined;
     } else {
-        const term_id = "term_" + lf_id;
-        var term = createElementWithClass('div', 'styl_main_term');
-        term.setAttribute('id', term_id);
-        term.innerHTML = lf_term;
-        var term_pkg = `<span class='styl_main_term' id='${term_id}'>${lf_term}</span>`;
-        return term;
+        var trm = gen_ECI('div', 'styl_main_term', `term_${lf_id}`);
+        trm.innerHTML = lf_term;
+        return trm;
     }
 }           
 

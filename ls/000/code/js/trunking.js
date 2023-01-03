@@ -108,7 +108,7 @@ function gen_term(lf_id, lf_term) {
 
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-    var lf_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_show`, `${lf_id}_lf_cntnr`);
+    var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_show`, `${lf_id}_lf_cntnr`);
     var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
@@ -118,29 +118,29 @@ function gen_lf(lf_i, lf) {
         case 'in_trm':
             var lf_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
-            lf_cntnr.append(lf_protrusion);
-            return lf_cntnr;
+            in_cntnr.append(lf_protrusion);
+            break;
 
         case 'in_trm_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_trm);
-            lf_cntnr.append(lf_protrusion);
-            return lf_cntnr;
+            in_cntnr.append(lf_protrusion);
+            break;
 
         case 'in_lnk_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_lnk = gen_term(lf_id, lf.insc_cntn);
             lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_lnk);
-            lf_cntnr.append(lf_protrusion);
-            return lf_cntnr;
+            in_cntnr.append(lf_protrusion);
+            break;
 
         case 'in_txt':
-            var lf_cntn = createElementWithClass('div', 'styl_in_txt');
-            lf_cntn.innerHTML = lf.insc_cntn;
-            lf_protrusion.append(lf_sld, lf_pnt, lf_cntn);
-            lf_cntnr.appendChild(lf_protrusion);
-            return lf_cntnr;
+            var in_cntn = createElementWithClass('div', 'styl_in_txt');
+            in_cntn.innerHTML = lf.insc_cntn;
+            lf_protrusion.append(lf_sld, lf_pnt, in_cntn);
+            in_cntnr.appendChild(lf_protrusion);
+            break;
 
         // case 'li_cite':
         //     var lf_id = generateLeafIdNum(scion_id, lf_i);
@@ -166,16 +166,16 @@ function gen_lf(lf_i, lf) {
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
-            lf_cntnr.append(lf_sld, lf_pnt, bld_tag);
+            in_cntnr.append(lf_sld, lf_pnt, bld_tag);
 
             if (bld_term !== undefined) {
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');
                 lf_eqls.innerHTML = bmp_def;
-                lf_cntnr.append(bld_term, lf_eqls, lf_bld);      
+                in_cntnr.append(bld_term, lf_eqls, lf_bld);      
             } else {
-                lf_cntnr.appendChild(lf_bld);
+                in_cntnr.appendChild(lf_bld);
             }
-            return lf_cntnr;
+            break;
 
         //             case 'bld_smp_itr':
         //                 var lf_id = generateLeafIdNum(scion_id, lf_i);
@@ -231,7 +231,7 @@ function gen_lf(lf_i, lf) {
             lf_ttl.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
 
             lf_cntn.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
-            lf_cntnr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
+            in_cntnr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
 
             for (lfl in lf.scions) {
                 var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
@@ -267,7 +267,7 @@ function gen_lf(lf_i, lf) {
                     twg_cntn.appendChild(entr_full);
                 }
             }
-            return lf_cntnr;
+            break;
 
         case 'stm_olst_exp_i':
             var in_id = generateLeafIdNum(lf.scion_id, lf_i);
@@ -276,7 +276,7 @@ function gen_lf(lf_i, lf) {
             var in_ttl = createElementWithClass('div', 'styl_lf_lst_entr');
             in_ttl.innerHTML = lf.insc_ttl;
             in_cntnr.append(in_pnter, in_ttl);
-            return in_cntnr;
+            break;
         
         case 'stm_list':
             var stm_id = `id_stm_${lf.scion_id}`;    
@@ -296,12 +296,12 @@ function gen_lf(lf_i, lf) {
             stm_bmp_btm.innerHTML = bmp_stem_bttm;
             
             stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
-            
             for (i2 in lf.scions) {
                 var entr_full = gen_lf(i2, lf.scions[i2]);
                 stm_trstlbrd.appendChild(entr_full);
-            }        
-            return stm_cntnr;
+            }
+            in_cntnr.appendChild(stm_cntnr);
+            break;
 
         case 'stm':
             var stm_id = `id_stm_${lf.scion_id}`;    
@@ -325,8 +325,9 @@ function gen_lf(lf_i, lf) {
             for (i2 in lf.scions) {
                 var entr_full = gen_lf(i2, lf.scions[i2]);
                 stm_trstlbrd.appendChild(entr_full);
-            }        
-            return stm_cntnr;
+            }
+            in_cntnr.appendChild(stm_cntnr);
+            break;
 
                     // case 'li_entr':
                     //     var lf_id = generateLeafIdNum(lf_i);
@@ -339,7 +340,9 @@ function gen_lf(lf_i, lf) {
 
 
                 }
-            }
+
+    return lf_cntnr;
+}
 
 
 

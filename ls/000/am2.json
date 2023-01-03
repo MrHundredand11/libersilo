@@ -1490,12 +1490,116 @@
                                     "scion_id": "ls_qbl_taro_key_k05"
                                 },
                                 {
+                                    "ls_id": "LS-QBL-TARO-KEY-K06",
+                                    "ls_ttl": "The Lovers Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k06.json",
+                                    "scion_id": "ls_qbl_taro_key_k06"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K07",
+                                    "ls_ttl": "The Chariot Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k07.json",
+                                    "scion_id": "ls_qbl_taro_key_k07"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K08",
+                                    "ls_ttl": "The Strength Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k08.json",
+                                    "scion_id": "ls_qbl_taro_key_k08"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K09",
+                                    "ls_ttl": "The Hermit Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k09.json",
+                                    "scion_id": "ls_qbl_taro_key_k09"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K10",
+                                    "ls_ttl": "The Wheel of Fortune Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k10.json",
+                                    "scion_id": "ls_qbl_taro_key_k10"
+                                },
+                                {
                                     "ls_id": "LS-QBL-TARO-KEY-K11",
                                     "ls_ttl": "The Justice Card",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/taro/key/k11.json",
                                     "scion_id": "ls_qbl_taro_key_k11"
-                                    
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K12",
+                                    "ls_ttl": "The Hanged Man Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k12.json",
+                                    "scion_id": "ls_qbl_taro_key_k12"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K13",
+                                    "ls_ttl": "The Death Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k13.json",
+                                    "scion_id": "ls_qbl_taro_key_k13"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K14",
+                                    "ls_ttl": "The Temperance Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k14.json",
+                                    "scion_id": "ls_qbl_taro_key_k14"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K15",
+                                    "ls_ttl": "The Devil Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k15.json",
+                                    "scion_id": "ls_qbl_taro_key_k15"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K16",
+                                    "ls_ttl": "The Tower Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k16.json",
+                                    "scion_id": "ls_qbl_taro_key_k16"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K17",
+                                    "ls_ttl": "The Star Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k17.json",
+                                    "scion_id": "ls_qbl_taro_key_k17"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K18",
+                                    "ls_ttl": "The Moon Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k18.json",
+                                    "scion_id": "ls_qbl_taro_key_k18"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K19",
+                                    "ls_ttl": "The Sun Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k19.json",
+                                    "scion_id": "ls_qbl_taro_key_k19"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K20",
+                                    "ls_ttl": "The Judgment Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k20.json",
+                                    "scion_id": "ls_qbl_taro_key_k20"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K21",
+                                    "ls_ttl": "The Universe Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k21.json",
+                                    "scion_id": "ls_qbl_taro_key_k21"
                                 }
                             ] 
                         }

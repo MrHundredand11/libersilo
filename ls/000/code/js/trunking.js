@@ -134,7 +134,7 @@ function gen_lf(lf_i, lf) {
                 var exp_cntnr = createElementWithClass('div', 'in_exp_cntnr');
                 in_cntnr.append(exp_cntnr);
                 for (x in lf.scions) {
-                    exp_cntnr.appendChild(gen_leaf(x, lf.scions[x]));
+                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
                 }
             }
             break;

@@ -150,7 +150,7 @@
                                         {
                                             "insc_type": "blade",
                                             "insc_tag": "Compatibility",
-                                            "insc_cntn": "The applications that come as part of&nbsp;<span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;can be used with&nbsp;<span class='styl_in_txt_undr'>on-prem Exchange<span>,&nbsp;<span class='styl_in_txt_undr'>Exchange Online</span>,&nbsp;<span class='styl_in_txt_undr'>SharePoint Online</span>, and&nbsp;<span class='styl_in_txt_undr'>SharePoint Server</span>.",
+                                            "insc_cntn": "The applications that come as part of&nbsp;<span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;can be used with&nbsp;<span class='styl_in_txt_undr'>on-prem Exchange</span>,&nbsp;<span class='styl_in_txt_undr'>Exchange Online</span>,&nbsp;<span class='styl_in_txt_undr'>SharePoint Online</span>, and&nbsp;<span class='styl_in_txt_undr'>SharePoint Server</span>.",
                                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_apps_compatibility"
                                         }
                                     ]

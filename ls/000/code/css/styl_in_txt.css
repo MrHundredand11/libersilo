@@ -54,3 +54,7 @@
 .styl_in_arm {
     display: inline-block;
 }
+
+.styl_in_exp_cntnr {
+    left: 17px;
+}

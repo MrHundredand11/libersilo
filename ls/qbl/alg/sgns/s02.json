@@ -1,0 +1,154 @@
+{
+    "ls_id": "LS-QBL-ALG-SGNS-S02",
+    "ls_ttl": "The Sign Taurus",
+    "ls_url": "/ls/qbl/alg/sgns/s02.json",
+    "scion_id": "ls_qbl_alg_sgns_s02",
+    "scions": [
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Sign Taurus'",
+            "scion_id": "ls_qbl_alg_sgns_s02_cntr",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Gemstones",
+                    "insc_ttl": "Gemstones corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_gmstns",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Gemstone",
+                            "insc_cntn": "Emerald"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Metals",
+                    "insc_ttl": "Metals corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_metals",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_cntn": "Copper"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_cntn": "Bronze"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_cntn": "Brass"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Animals",
+                    "insc_ttl": "Animals corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_animals",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_cntn": "Cattle"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_cntn": "Bull // Ox"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_cntn": "Cow"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_cntn": "Elephants"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LCTN",
+            "drct_ttl": "Lands + Locations of 'The Sign Taurus'",
+            "scion_id": "ls_qbl_alg_sgns_s02_lctn",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Countries",
+                    "insc_ttl": "Countries corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_countries",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Ireland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Switzerland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Cyprus"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Greece"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Austria"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Ecuador"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Israel"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Japan"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Paraguay"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Sierra Leone"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Tanzania"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_cntn": "Togo"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

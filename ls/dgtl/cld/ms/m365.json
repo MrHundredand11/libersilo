@@ -94,25 +94,25 @@
                                     "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns",
                                     "scions": [
                                         {
-                                            "insc_type": "blade",
+                                            "insc_type": "in_trm_stpl",
                                             "insc_tag": "Deployment Option",
                                             "insc_term": "Configuration Manager",
                                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_cnfgmngr"
                                         },
                                         {
-                                            "insc_type": "blade",
+                                            "insc_type": "in_trm_stpl",
                                             "insc_tag": "Deployment Option",
                                             "insc_term": "Office Deployment Tool",
                                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_offcdplytl"
                                         },
                                         {
-                                            "insc_type": "blade",
+                                            "insc_type": "in_trm_stpl",
                                             "insc_tag": "Deployment Option",
                                             "insc_term": "Microsoft InTune",
                                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_msintune"
                                         },
                                         {
-                                            "insc_type": "blade",
+                                            "insc_type": "in_trm_stpl",
                                             "insc_tag": "Deployment Option",
                                             "insc_term": "Direct Download from O365 Portal",
                                             "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_drctdwnld"

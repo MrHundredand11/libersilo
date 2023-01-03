@@ -16,43 +16,168 @@
                     "scions": [
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Afzal, Imran"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Anderson, Kurt"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Anderson, Neil"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Azam, Mohammad"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Bechberger, David"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Biocchi, Michael"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Brown, Kevin"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Bryan, Wes"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Buchalka, Tim"
                         },
                         {
                             "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
                             "insc_term": "Burton, Philip"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Burton, Philip"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cannon, Jason"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chiarelli, Charlie"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Christopher, John"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Culp, Brian"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Diaz, Edwin"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Dion, Jason"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Duffy, Scott"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Eremenko, Krill"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Fattah, Miran"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hamedani, Mosh"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hasan, Aboul"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hill, Paul"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hill, Robert"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hilton, Bruse"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Houchin, Matt"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Jerga, Filip"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Joy, Kshitij"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kimbrell, Evan"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lachance, Dan"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lawrence, Aaron"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lowrie, Daniel"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Khurkhuriya, Jitesh"
                         }
                     ]
                 }

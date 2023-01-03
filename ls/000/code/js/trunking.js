@@ -127,15 +127,13 @@ function gen_lf(lf_i, lf) {
     var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
+    lf_sld.innerHTML = bmp_sld_01;
 
     switch (lf.insc_type) {
         case 'li_entr':        
             var lf_trm = gen_term(lf_id, lf.insc_term);
             var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_protrusion.appendChild(lf_sld);
-            lf_protrusion.appendChild(lf_pnt);
-            lf_protrusion.appendChild(lf_trm);
+            lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
 
             lf_cntnr.appendChild(lf_protrusion);
             lf_cntnr.appendChild(lf_leaflets);
@@ -144,10 +142,7 @@ function gen_lf(lf_i, lf) {
         case 'in_txt':
             var lf_cntn = createElementWithClass('div', 'styl_in_txt');
             lf_cntn.innerHTML = lf.insc_cntn;
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_protrusion.appendChild(lf_sld);
-            lf_protrusion.appendChild(lf_pnt);
-            lf_protrusion.appendChild(lf_cntn);
+            lf_protrusion.append(lf_sld, lf_pnt, lf_cntn);
             lf_cntnr.appendChild(lf_protrusion);
             return lf_cntnr;
 
@@ -171,7 +166,6 @@ function gen_lf(lf_i, lf) {
                     
         case 'blade':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            var pnter = gen_Pntr(lf_i, lf.scion_id);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
             var bld_term = gen_term(lf_id, lf.insc_term);
                         
@@ -182,17 +176,14 @@ function gen_lf(lf_i, lf) {
             lf_bld.innerHTML = lf.insc_cntn;
 
             var lf_sld = createElementWithClass('span', 'styl_pointers');
-            lf_sld.innerHTML = bmp_sld_01;
-            lf_cntnr.appendChild(lf_sld);
-            lf_cntnr.appendChild(pnter);
-            lf_cntnr.appendChild(bld_tag);
+            
+            lf_cntnr.append(lf_sld, lf_pnt, bld_tag);
 
             if (bld_term !== undefined) {
                 lf_cntnr.appendChild(bld_term);
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');
                 lf_eqls.innerHTML = bmp_def;
-                lf_cntnr.appendChild(lf_eqls);
-                lf_cntnr.appendChild(lf_bld);
+                lf_cntnr.append(lf_eqls, lf_bld);
                             
             } else {
                 lf_cntnr.appendChild(lf_bld);

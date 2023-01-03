@@ -9,7 +9,7 @@
     padding-top: 11px;
     overflow: auto;
     scroll-behavior: smooth;
-    background-color: #A0A0A0;
+    background-color: rgb(233, 233, 233);
 }
 
 #id_mnu_btm::-webkit-scrollbar { width: 0 !important }
@@ -29,7 +29,7 @@
 }
 
 .active, .styl_mnu_accrd_cntnr:hover {
-    background-color: #B0B0B0;
+    background-color: rgb(193, 193, 193);
 }
 
 

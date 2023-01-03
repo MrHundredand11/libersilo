@@ -2,7 +2,8 @@ let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
 let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";
 let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
-let bmp_brnch_top = "<div class='bumpers'>---<br>--- ---<br>--- --- ---</div>"
+let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
+let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
 let bmp_stem_top = "<div class='bumpers'>--- ---<br>--- --- ---</div>";
 let bmp_stem_bttm = "<div class='bump_butt'>---- ---- ----<br>---- ----</div>";
 let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
@@ -389,8 +390,8 @@ async function fetchy(zz) {
                     var brnch_trstlbrd = gen_ECI('div', 'styl_brnch_trstlbrd', `id_b_trstlbrd_${brnch_id}`);
                     var brnch_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${brnch_id}`);
                     
-                    brnch_bmp_top.innerHTML = "---<br>--- ---<br>--- --- ---";
-                    brnch_bmp_btm.innerHTML = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
+                    brnch_bmp_top.innerHTML = bmp_brnch_top;
+                    brnch_bmp_btm.innerHTML = bmp_brnch_btm;
                     brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
                 
                     brnch_cntnr.append(brnch_bmp_top, brnch_nametag, brnch_trstlbrd, brnch_bmp_btm);

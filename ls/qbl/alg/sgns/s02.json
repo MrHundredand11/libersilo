@@ -147,6 +147,157 @@
                             "insc_term": "Togo"
                         }
                     ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "US States",
+                    "insc_ttl": "US States corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_usstates",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Louisiana"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Maryland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Minnesota"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Cities",
+                    "insc_ttl": "Cities corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_cities",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Dublin, Ireland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Lucerne, Switzerland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Leipzig, Germany"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Mantua, Italy"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Palermo, Italy"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Parma, Italy"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "St. Louis"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Oakland, CA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Wallingford, CT"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Honolulu, HI"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pocatello, ID"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Champaign, IL"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Lexington, KY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pittsfield, ME"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Duluth, MN"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Hastings, NJ"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Buffalo, NY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Long Island City, NY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "New Rochelle, NY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Rochester, NY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Greensboro, NC"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Winston-Salem, NC"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pittsburgh, PA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "El Paso, TX"
+                        }
+                    ]
                 }
             ]
         }

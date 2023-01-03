@@ -129,7 +129,15 @@
                                             "insc_type": "in_trm_stpl",
                                             "insc_tag": "Deployment Option",
                                             "insc_term": "Direct Download from O365 Portal",
-                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_drctdwnld"
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_drctdwnld",
+                                            "scions":[
+                                                {
+                                                    "insc_type": "in_lnk_stpl",
+                                                    "insc_tag": "Ext Url",
+                                                    "insc_cntn": "<a src='https://portal.office.com'>https://portal.office.com<a>",
+                                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_drctdwnld"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

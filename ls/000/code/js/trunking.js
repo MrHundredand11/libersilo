@@ -128,6 +128,13 @@ function gen_lf(lf_i, lf) {
             lf_cntnr.append(lf_protrusion);
             return lf_cntnr;
 
+        case 'in_lnk_stpl':
+            var in_tag = generateTag(lf_id, lf.insc_tag);    
+            var in_lnk = gen_term(lf_id, lf.insc_cntn);
+            lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_lnk);
+            lf_cntnr.append(lf_protrusion);
+            return lf_cntnr;
+
         case 'in_txt':
             var lf_cntn = createElementWithClass('div', 'styl_in_txt');
             lf_cntn.innerHTML = lf.insc_cntn;

@@ -109,36 +109,40 @@ function gen_term(lf_id, lf_term) {
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
     var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_hide`, `${lf_id}_lf_cntnr`);
-    var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-    lf_sld.innerHTML = bmp_sld_01;
+    
+    if (lf.insc_sld !== undefined) {
+        var in_sld = createElementWithClass('span', 'styl_pointers');
+        in_sld.innerHTML = bmp_sld_01;
+        lf_protrusion.append(in_sld);
+    }
 
     switch (lf.insc_type) {
         case 'in_trm':
             var lf_trm = gen_term(lf_id, lf.insc_term);
-            lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
+            lf_protrusion.append(lf_pnt, lf_trm);
             in_cntnr.append(lf_protrusion);
             break;
 
         case 'in_trm_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_trm = gen_term(lf_id, lf.insc_term);
-            lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_trm);
+            lf_protrusion.append(lf_pnt, in_tag, in_trm);
             in_cntnr.append(lf_protrusion);
             break;
 
         case 'in_lnk_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_lnk = gen_term(lf_id, lf.insc_cntn);
-            lf_protrusion.append(lf_sld, lf_pnt, in_tag, in_lnk);
+            lf_protrusion.append(lf_pnt, in_tag, in_lnk);
             in_cntnr.append(lf_protrusion);
             break;
 
         case 'in_txt':
             var in_cntn = createElementWithClass('div', 'styl_in_txt');
             in_cntn.innerHTML = lf.insc_cntn;
-            lf_protrusion.append(lf_sld, lf_pnt, in_cntn);
+            lf_protrusion.append(lf_pnt, in_cntn);
             in_cntnr.appendChild(lf_protrusion);
             break;
 
@@ -166,7 +170,7 @@ function gen_lf(lf_i, lf) {
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
-            in_cntnr.append(lf_sld, lf_pnt, bld_tag);
+            in_cntnr.append(lf_pnt, bld_tag);
 
             if (bld_term !== undefined) {
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');

@@ -1,0 +1,83 @@
+{
+    "ls_id": "LS-000-CITE",
+    "ls_ttl": "Citation Lists",
+    "scion_id": "ls_000_cite",
+    "scions": [
+        {
+            "drct_id": "TCHR",
+            "drct_ttl": "List of Teachers of Helpful Lessons + Lectures",
+            "scion_id": "ls_000_cite_tchr",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "List of Teachers of (Digital) Information",
+                    "scion_id": "ls_000_cite_tchr_dgtl",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Afzal, Imran"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Anderson, Kurt"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Anderson, Neil"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Azam, Mohammad"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Bechberger, David"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Biocchi, Michael"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Brown, Kevin"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Bryan, Wes"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Buchalka, Tim"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_term": "Burton, Philip"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "WBPG",
+            "drct_ttl": "List of Helpful Web Pages",
+            "scion_id": "ls_000_cite_wbpg",
+            "scions": [
+                {
+                    "insc_type": "stm_list",
+                    "insc_name": "Web Pages relating to (Digital Realms)",
+                    "scion_id": "ls_000_cite_wbpg_ls_dgtl",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_type": "li_cite",
+                            "insc_term": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail",
+                            "insc_auth": "Ivan Kovachev",
+                            "insc_ttl": "SPF Hard Fail vs SPF Soft Fail"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

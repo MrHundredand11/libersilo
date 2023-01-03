@@ -108,7 +108,7 @@ function gen_term(lf_id, lf_term) {
 
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-    var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_show`, `${lf_id}_lf_cntnr`);
+    var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type}`, `${lf_id}_lf_cntnr`);
     var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
@@ -190,22 +190,6 @@ function gen_lf(lf_i, lf) {
         //                 //bld_cntn.innerHTML = `${bld_itr}<span class='styl_entr_intro'>${pnter}</span>&nbsp${bld_term}<br>`;
         //                 return bld_cntn;
 
-        //             case 'li_ext':
-        //                 var lf_id = generateLeafIdNum(scion_id, lf_i);
-        //                 var pnter = generatePointer(scion_id, lf_i);
-        //                 var bld_id = generateBladeIdNum(scion_id, lf_i);
-        //                 var lf_bld = createElementWithClass('div', 'styl_lf_li_ext_bld');
-        //                 lf_bld.setAttribute('id', `${bld_id}_cntn`);
-        //                 lf_bld.classList.add('stt_show');
-                        
-
-        //                 //var lf_cntn_full = generateCntn(lf_id, lf_cntn);
-        //                 var lf_full = createElementWithClass('div', 'styl_lf_li_ext');
-        //                 lf_full.appendChild(pnter);
-        //                 lf_full.appendChild(lf_bld);
-        //                 //var blade_full = pnter + " " + cntn_full;
-        //                 return lf_full;
-        //                 break;
 
         case 'entry':
             console.log(lf.insc_type);

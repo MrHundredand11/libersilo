@@ -1,0 +1,114 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K05",
+    "ls_ttl": "The Hierophant Card",
+    "ls_url": "/ls/qbl/taro/key/k05.json",
+    "scion_id": "ls_qbl_taro_key_k05",
+    "scions": [
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_qbl_taro_key_k05_qccl",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Tarot",
+                    "insc_ttl": "Tarot Correspondences of (The Hierophant Card)",
+                    "scion_id": "ls_qbl_taro_key_k05_qccl_taro",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Card Number",
+                            "insc_term": "5"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Tarot Key",
+                            "insc_term": "05"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Tarot Trump",
+                            "insc_term": "V"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Thoth Tarot Atu",
+                            "insc_term": "V"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Tarot Card",
+                            "insc_term": "The Hierophant"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Esoteric Title",
+                            "insc_term": "The Magus of The Eternal"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Qabalah",
+                    "insc_ttl": "Qabalistic Correspondences of (The Hierophant Card)",
+                    "scion_id": "ls_qbl_taro_key_k05_qccl_qblh",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Arcana Alphabet",
+                            "insc_term": "The Letter Vav"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Qabalistic Path",
+                            "insc_term": "Path 16"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Astrological Sign",
+                            "insc_term": "Taurus"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Path Color",
+                            "insc_term": "Red-Orange"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Related Sound",
+                            "insc_term": "C Sharp"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Letter Meaning",
+                            "insc_term": "Nail // Pin // Hook"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Simple Letter",
+                            "insc_term": "Hearing"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Magick",
+                    "insc_ttl": "Magickal Correspondences of (The Hierophant Card)",
+                    "scion_id": "ls_qbl_taro_key_k05_qccl_mgck",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Magical Weapon",
+                            "insc_term": "The Labor of Preparation"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Magical Power",
+                            "insc_term": "The Secret of Physical Strength"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

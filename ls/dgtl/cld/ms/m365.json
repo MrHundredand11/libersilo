@@ -50,6 +50,17 @@
                                             "insc_tag": "Installation",
                                             "insc_term": "Office 365 ProPlus",
                                             "insc_cntn": "is installed locally on the user's device. It is <span class='styl_in_txt_bld'>not</span> a web-based version of Office."
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Installation",
+                                            "insc_cntn": "You can install <span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;right&nbsp;<span class='styl_in_txt_undr'>from the internet<span>&nbsp;or&nbsp;<span class='styl_in_txt_undr'>from a shared location</span>&nbsp;on the local network."
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Updates",
+                                            "insc_term": "Office 365 ProPlus",
+                                            "insc_cntn": "is updated on a&nbsp;<span class='styl_in_txt_undr'>semi-annual basis</span>&nbsp;or on a&nbsp;<span class='styl_in_txt_undr'>monthly basis</span>"
                                         }
                                     ]
                                 }

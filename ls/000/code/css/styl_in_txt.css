@@ -29,3 +29,19 @@
 .styl_in_txt_emph {
     font-style: italic;
 }
+
+.styl_main_term {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 19px;
+    display: inline-block;
+    white-space: pre;  
+}
+
+.styl_in_txt_inlineterm_01 {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 17px;
+    display: inline-block;
+    white-space: pre;
+}

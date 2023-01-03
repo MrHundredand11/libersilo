@@ -109,18 +109,6 @@ function gen_term(lf_id, lf_term) {
     }
 }           
 
-
-            // function gen_leaflet(lf, leaf_cntn) {
-            //     var entries = createElementWithClass('li', 'styl_list_entry_ext');
-            //     var leaflet_id = generateLeafletIdNum(lf);
-            //     var pnter = generatePointer(leaflet_id);
-            //     var cntn_full = generateCntn(leaflet_id, leaf_cntn);  
-            //     var leaflet_full = pnter + " " + cntn_full;                  
-            //     entries.innerHTML = leaflet_full;
-            //     return entries;
-            // }
-
-
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
     var lf_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_show`, `${lf_id}_lf_cntnr`);
@@ -134,9 +122,7 @@ function gen_lf(lf_i, lf) {
             var lf_trm = gen_term(lf_id, lf.insc_term);
             var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
             lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
-
-            lf_cntnr.appendChild(lf_protrusion);
-            lf_cntnr.appendChild(lf_leaflets);
+            lf_cntnr.append(lf_protrusion, lf_leaflets);
             return lf_cntnr;
 
         case 'in_txt':
@@ -168,11 +154,7 @@ function gen_lf(lf_i, lf) {
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
             var bld_term = gen_term(lf_id, lf.insc_term);
-                        
-            lf_cntnr.setAttribute('id', lf_id);
-            var lf_bld = createElementWithClass('div', 'styl_lf_bld');
-            lf_bld.setAttribute('id', `${bld_id}_cntn`);
-            lf_bld.classList.add('stt_show');
+            var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
             lf_cntnr.append(lf_sld, lf_pnt, bld_tag);
 

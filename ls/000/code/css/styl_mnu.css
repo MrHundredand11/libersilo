@@ -36,7 +36,6 @@
 .styl_mnu_accrd_entry {
     display: block;
     border: 1.11px solid black;
-    border-radius: 5px;
     margin-right: 1.11px;
     margin-left: 1.11px;
     margin-bottom: 1.11px;
@@ -86,6 +85,8 @@
 
 .styl_mnu_accrd_fldr_cntn {
     display: none;
+    margin-left: 1.11px;
+    margin-right: 1.11px;
 }
 
 .styl_mnu_tablet {

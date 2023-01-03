@@ -119,11 +119,10 @@ function gen_lf(lf_i, lf) {
     lf_sld.innerHTML = bmp_sld_01;
 
     switch (lf.insc_type) {
-        case 'li_entr':        
+        case 'in_trm':        
             var lf_trm = gen_term(lf_id, lf.insc_term);
-            var lf_leaflets = createElementWithClass('div', 'styl_lf_leaflets');
             lf_protrusion.append(lf_sld, lf_pnt, lf_trm);
-            lf_cntnr.append(lf_protrusion, lf_leaflets);
+            lf_cntnr.append(lf_protrusion);
             return lf_cntnr;
 
         case 'in_txt':

@@ -149,7 +149,25 @@
                                         {
                                             "insc_term": "Intelligent Security",
                                             "insc_type": "stm_olst_exp_i",
-                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_intsec"
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_w10e_featr_intsec",
+                                            "scions": [
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_cntn": "Windows 10 Enterprise comes with built-in tools that help organizations detect and automatically respond to malware and hacking threats."
+                                                },
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_cntn": "Protects user identities, devices, and data."
+                                                },
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_cntn": "Intelligent security graph allows Windows 10 to investigate and automatically remediate threats."
+                                                },
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_cntn": "The intelligence, machine learning, and behavioral analytics that the intelligent security graph leverages results in faster response times, when threats are detected."
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "Flexible Management",

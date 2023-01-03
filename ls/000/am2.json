@@ -10,17 +10,17 @@
             "scion_id": "ls_000",
             "scions": [
                 {
-                    "ls_id": "LS-000-01-INTRO",
-                    "ls_ttl": "Introduction to 'Liber Silo'",
+                    "ls_id": "LS-000-ABOUT",
+                    "ls_ttl": "About the Author + Compiler",
                     "ls_type": "+>",
-                    "ls_url": "/ls/000/01_intro.json",
-                    "scion_id": "ls_000_01_intro"
+                    "ls_url": "",
+                    "scion_id": "ls_000_about"
                 },
                 {
                     "ls_id": "LS-000-CITE",
                     "ls_ttl": "Citation Lists",
                     "ls_type": "+>",
-                    "ls_url": "/ls/000/cite.json",
+                    "ls_url": "https://api.jsonbin.io/v3/b/63ab10afdfc68e59d5721014",
                     "scion_id": "ls_000_cite"
                 },
                 {
@@ -1263,62 +1263,6 @@
                                     "scion_id": "ls_qbl_alg_sgns_s03"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S04",
-                                    "ls_ttl": "The Sign Cancer",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s04.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s04"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S05",
-                                    "ls_ttl": "The Sign Leo",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s05.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s05"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S06",
-                                    "ls_ttl": "The Sign Virgo",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s06.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s06"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S07",
-                                    "ls_ttl": "The Sign Libra",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s07.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s07"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S08",
-                                    "ls_ttl": "The Sign Scorpio",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s08.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s08"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S09",
-                                    "ls_ttl": "The Sign Sagittarius",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s09.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s09"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S10",
-                                    "ls_ttl": "The Sign Capricorn",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s10.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s10"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S11",
-                                    "ls_ttl": "The Sign Aquarius",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s11.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s11"
-                                },
-                                {
                                     "ls_id": "LS-QBL-ALG-SGNS-S12",
                                     "ls_ttl": "The Sign Pisces",
                                     "ls_type": "+>",
@@ -1497,12 +1441,66 @@
                     "scion_id": "ls_qbl_taro",
                     "scions": [
                         {
-                            "ls_id": "LS-QBL-TARO-KEY-K11",
-                            "ls_ttl": "The Justice Card",
-                            "ls_type": "+>",
-                            "scion_id": "ls_qbl_taro_key_k11",
-                            "ls_url": "https://api.jsonbin.io/v3/b/63ac665301a72b59f23b0bbb"
+                            "ls_id": "LS-QBL-TARO-KEY",
+                            "ls_ttl": "The 22 Keys of The Major Arcana",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_taro_key",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K00",
+                                    "ls_ttl": "The Fool Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k00.json",
+                                    "scion_id": "ls_qbl_taro_key_k00"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K01",
+                                    "ls_ttl": "The Magician Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k01.json",
+                                    "scion_id": "ls_qbl_taro_key_k01"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K02",
+                                    "ls_ttl": "The High Priestess Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k02.json",
+                                    "scion_id": "ls_qbl_taro_key_k02"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K03",
+                                    "ls_ttl": "The Emperess Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k03.json",
+                                    "scion_id": "ls_qbl_taro_key_k03"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K04",
+                                    "ls_ttl": "The Emperor Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k04.json",
+                                    "scion_id": "ls_qbl_taro_key_k04"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K05",
+                                    "ls_ttl": "The Hierophant Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k05.json",
+                                    "scion_id": "ls_qbl_taro_key_k05"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K11",
+                                    "ls_ttl": "The Justice Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k11.json",
+                                    "scion_id": "ls_qbl_taro_key_k11"
+                                    
+                                }
+                            ] 
                         }
+                        
+                        
                     ]
                 }
             ]

@@ -18,7 +18,7 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Gemstone",
-                            "insc_cntn": "Emerald"
+                            "insc_term": "Emerald"
                         }
                     ]
                 },
@@ -31,17 +31,17 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Metal",
-                            "insc_cntn": "Copper"
+                            "insc_term": "Copper"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Metal",
-                            "insc_cntn": "Bronze"
+                            "insc_term": "Bronze"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Metal",
-                            "insc_cntn": "Brass"
+                            "insc_term": "Brass"
                         }
                     ]
                 },
@@ -54,22 +54,22 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Animal",
-                            "insc_cntn": "Cattle"
+                            "insc_term": "Cattle"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Animal",
-                            "insc_cntn": "Bull // Ox"
+                            "insc_term": "Bull // Ox"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Animal",
-                            "insc_cntn": "Cow"
+                            "insc_term": "Cow"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Animal",
-                            "insc_cntn": "Elephants"
+                            "insc_term": "Elephants"
                         }
                     ]
                 }
@@ -89,62 +89,62 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Ireland"
+                            "insc_term": "Ireland"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Switzerland"
+                            "insc_term": "Switzerland"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Cyprus"
+                            "insc_term": "Cyprus"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Greece"
+                            "insc_term": "Greece"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Austria"
+                            "insc_term": "Austria"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Ecuador"
+                            "insc_term": "Ecuador"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Israel"
+                            "insc_term": "Israel"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Japan"
+                            "insc_term": "Japan"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Paraguay"
+                            "insc_term": "Paraguay"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Sierra Leone"
+                            "insc_term": "Sierra Leone"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Tanzania"
+                            "insc_term": "Tanzania"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Country",
-                            "insc_cntn": "Togo"
+                            "insc_term": "Togo"
                         }
                     ]
                 }

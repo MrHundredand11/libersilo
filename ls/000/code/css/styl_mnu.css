@@ -17,15 +17,10 @@
 .styl_mnu_accrd_cntnr {
     display: block;
     border: 1.11px solid black;
-    border-radius: 5px;
-    margin-right: 3.33px;
-    margin-left: 3.33px;
     margin-top: 3.33px;
     margin-bottom: 3.33px;
     text-align: center;
-    background-color: #eee;
-    
-    
+    background-color: rgb(241, 241, 241);
 }
 
 .active, .styl_mnu_accrd_cntnr:hover {

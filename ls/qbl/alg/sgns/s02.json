@@ -35,6 +35,7 @@
                             "scions": [
                                 {
                                     "insc_type": "in_txt",
+                                    "insc_pntr": "=>",
                                     "insc_cntn": "Copper = is a Venusian Metal"
                                 }
                             ]

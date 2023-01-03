@@ -1,0 +1,314 @@
+{
+    "ls_id": "LS-QBL-ALG-SGNS-S09",
+    "ls_ttl": "The Sign Sagittarius",
+    "ls_url": "/ls/qbl/alg/sgns/s09.json",
+    "scion_id": "ls_qbl_alg_sgns_s09",
+    "scions": [
+        {
+            "drct_id": "LCTN",
+            "drct_ttl": "Lands + Locations of 'The Sign Sagittarius'",
+            "scion_id": "ls_qbl_alg_sgns_s09_lctn",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Countries",
+                    "insc_ttl": "Countries corresponding to (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_lctn_countries",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Bangladesh"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Barbados"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Bophuthatswana"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Ciskei"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Finland"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Kenya"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Laos"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Mauritania"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Mongolia"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Suriname"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "United Arab Emirates"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Venezuela"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Yemen"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "US States",
+                    "insc_ttl": "US States corresponding to (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_lctn_usstates",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Alabama"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Delaware"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Illinois"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Mississippi"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "New Jersey"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Pennsylvania"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Cities",
+                    "insc_ttl": "Cities corresponding to (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_lctn_cities",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Birmingham, AL"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Tuscaloosca, AL"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Montgomery, AL"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Anchorage, AK"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Long Beach, CA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "San Diego, CA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "San Jose, CA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Wilmington, DE"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Tampa, FL"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Columbus, GA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Macon, GA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Valdosta, GA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Annapolis, MD"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Grand Island, NE"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Youngstown, OH"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Lancaster, PA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Columbus, SC"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Greenville, SC"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Spartansburg, SC"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Chattanooga, TN"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Jackson, TN"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Memphis, TN"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Beaumont, TX"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Spokane, WA"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Cheyanne, WY"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Acapulco, Mexico"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Avignon (city of the Palace of the Popes), France"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Budapest, Hungary"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Cologne, Germany"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Rotterdam, The Netherlands"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Sheffield, U.K."
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Stuttgart, Germany"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Sydney, Australia"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Toledo, Spain"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Toronto, Canada"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "York, U.K."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

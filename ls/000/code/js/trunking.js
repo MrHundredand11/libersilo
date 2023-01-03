@@ -108,7 +108,7 @@ function gen_term(lf_id, lf_term) {
 
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
-    var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type}`, `${lf_id}_lf_cntnr`);
+    var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_hide`, `${lf_id}_lf_cntnr`);
     var lf_sld = createElementWithClass('span', 'styl_pointers');
     var lf_pnt = generatePointer(lf.scion_id, lf_i);
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');

@@ -109,6 +109,51 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_name",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Names + Titles",
+                    "insc_ttl": "List of Names + Titles of (The Hierophant Card)",
+                    "scion_id": "ls_qbl_taro_key_k05_name_lst",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "The Hierophant"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "The Pope"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "The Pontiff"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "Jupiter"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "The High Priest"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Name",
+                            "insc_term": "El Sacerdote"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

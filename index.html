@@ -25,11 +25,19 @@
                 return element;
             };
 
+            function gen_ECIC(type, className, id, clckfnct) {
+                const element = document.createElement(type);
+                element.className = className;
+                element.setAttribute('id', id);
+                element.setAttribute('onlick', clckfnct);
+                return element;
+            };
+
             function fillErUp(x) {
                 fetchy(x);
             };
         </script>
-        <script src="/ls/000/code/js/mnu.js"></script>
+        <script src="/ls/000/code/js/whatsOnTheMenu.js"></script>
         <script src="/ls/000/code/js/homepage.js"></script>
         <script src="/ls/000/code/js/trunking.js"></script>
         <script src="/ls/000/code/js/peekaboo.js"></script>      

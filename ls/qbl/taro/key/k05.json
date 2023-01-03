@@ -154,6 +154,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Scenery of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_symb",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Symbols",
+                    "insc_ttl": "List of Symbols + Scenery of (The Hierophant Card) ::",
+                    "scion_id": "ls_qbl_taro_key_k05_symb_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hierophant // Pope"
+                        },
+                        {
+                            "insc_term": "Throne"
+                        },
+                        {
+                            "insc_term": "Twin Pillars"
+                        },
+                        {
+                            "insc_term": "The Crossed Keys"
+                        },
+                        {
+                            "insc_term": "Four Cherubim"
+                        },
+                        {
+                            "insc_term": "Monks"
+                        },
+                        {
+                            "insc_term": "Nails"
+                        },
+                        {
+                            "insc_term": "The Sceptre"
+                        },
+                        {
+                            "insc_term": "The Papal Cross"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

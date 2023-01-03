@@ -17,17 +17,10 @@
                     "scion_id": "ls_000_01_intro"
                 },
                 {
-                    "ls_id": "LS-000-ABOUT",
-                    "ls_ttl": "About the Author + Compiler",
-                    "ls_type": "+>",
-                    "ls_url": "",
-                    "scion_id": "ls_000_about"
-                },
-                {
                     "ls_id": "LS-000-CITE",
                     "ls_ttl": "Citation Lists",
                     "ls_type": "+>",
-                    "ls_url": "https://api.jsonbin.io/v3/b/63ab10afdfc68e59d5721014",
+                    "ls_url": "/ls/000/cite.json",
                     "scion_id": "ls_000_cite"
                 },
                 {

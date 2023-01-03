@@ -63,6 +63,61 @@
                                             "insc_cntn": "is updated on a&nbsp;<span class='styl_in_txt_undr'>semi-annual basis</span>&nbsp;or on a&nbsp;<span class='styl_in_txt_undr'>monthly basis</span>"
                                         }
                                     ]
+                                },
+                                {
+                                    "insc_type": "stm",
+                                    "insc_tag": "Comparisons",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Comparisons</span>&nbsp;of&nbsp;(Office Versions)",
+                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_cmprsns",
+                                    "scions": [
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Comparison",
+                                            "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;is updated with new features on a regular basis, while&nbsp;<span class='styl_in_txt_inlineterm_01'>Office Professional Plus 2019</span>&nbsp;features remain the same."
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Comparison",
+                                            "insc_cntn": "Users can install&nbsp;<span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;on multiple devices with just a single license, while&nbsp;<span class='styl_in_txt_inlineterm_01'>Office Professional Plus 2019</span>&nbsp;is limited to one device per license."
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Comparison",
+                                            "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Office 365 ProPlus</span>&nbsp;is activated by connecting to the internet.&nbsp;<span class='styl_in_txt_inlineterm_01'>Office Professional Plus 2019</span>&nbsp;is activated through volume activation methods."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_type": "stm",
+                                    "insc_tag": "Deployment Options",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Deployment Options</span>&nbsp;of&nbsp;(Office 365 ProPlus)",
+                                    "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns",
+                                    "scions": [
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Deployment Option",
+                                            "insc_term": "Configuration Manager",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_cnfgmngr"
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Deployment Option",
+                                            "insc_term": "Office Deployment Tool",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_offcdplytl"
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Deployment Option",
+                                            "insc_term": "Microsoft InTune",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_msintune"
+                                        },
+                                        {
+                                            "insc_type": "blade",
+                                            "insc_tag": "Deployment Option",
+                                            "insc_term": "Direct Download from O365 Portal",
+                                            "scion_id": "ls_dgtl_cld_ms_m365_srvc_o365pp_dplymntoptns_drctdwnld"
+                                        }
+                                    ]
                                 }
                             ]
                         },

@@ -196,6 +196,52 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "ASTR",
+            "drct_ttl": "Celestial Correspondences of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_astr",
+            "scions": [
+
+            ]
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indications of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_divn",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Indications",
+                    "insc_ttl": "(The Hierophant Card) Upright",
+                    "scion_id": "ls_qbl_taro_key_k05_divn_uprght",
+                    "scions": [
+                        {
+                            "insc_type": "stm",
+                            "insc_tag": "Meanings",
+                            "insc_ttl": "Meanings of (The Hierophant) Upright",
+                            "scion_id": "ls_qbl_taro_key_k05_divn_uprght_meanings",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Meaning",
+                                    "insc_term": "Tradition"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Meaning",
+                                    "insc_term": "Convention"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Meaning",
+                                    "insc_term": "Orthodoxy"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

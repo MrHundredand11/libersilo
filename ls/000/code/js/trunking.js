@@ -173,22 +173,16 @@ function gen_lf(lf_i, lf) {
             var lf_bld = createElementWithClass('div', 'styl_lf_bld');
             lf_bld.setAttribute('id', `${bld_id}_cntn`);
             lf_bld.classList.add('stt_show');
-            lf_bld.innerHTML = lf.insc_cntn;
-
-            var lf_sld = createElementWithClass('span', 'styl_pointers');
-            
+            lf_bld.innerHTML = lf.insc_cntn; 
             lf_cntnr.append(lf_sld, lf_pnt, bld_tag);
 
             if (bld_term !== undefined) {
-                lf_cntnr.appendChild(bld_term);
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');
                 lf_eqls.innerHTML = bmp_def;
-                lf_cntnr.append(lf_eqls, lf_bld);
-                            
+                lf_cntnr.append(bld_term, lf_eqls, lf_bld);      
             } else {
                 lf_cntnr.appendChild(lf_bld);
             }
-
             return lf_cntnr;
 
         //             case 'bld_smp_itr':
@@ -227,7 +221,6 @@ function gen_lf(lf_i, lf) {
 
         case 'stm_olst_exp':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            
             var lf_bmp_top = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_top', `${lf_id}_lf_stm_olst_exp_bmp_top`);
             var lf_ttl = gen_ECI('div', 'styl_lf_stm_olst_exp_ttl', `${lf_id}_lf_stm_olst_exp_ttl`);
             var lf_cntn = gen_ECI('div', 'styl_lf_stm_olst_exp_cntn', `${lf_id}_lf_stm_olst_exp_cntn`);

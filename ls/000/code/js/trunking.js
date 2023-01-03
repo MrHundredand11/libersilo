@@ -167,17 +167,18 @@ function gen_lf(lf_i, lf) {
         case 'blade':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
             var bld_tag = generateTag(bld_id, lf.insc_tag);
+            var in_arm = gen_ECI('div', 'styl_in_arm', `id_in_arm_${bld_id}`);
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
-            in_cntnr.append(lf_pnt, bld_tag);
+            in_cntnr.append(lf_pnt, bld_tag, in_arm);
 
             if (bld_term !== undefined) {
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');
                 lf_eqls.innerHTML = bmp_def;
-                in_cntnr.append(bld_term, lf_eqls, lf_bld);      
+                in_arm.append(bld_term, lf_eqls, lf_bld);      
             } else {
-                in_cntnr.appendChild(lf_bld);
+                in_arm.appendChild(lf_bld);
             }
             break;
 

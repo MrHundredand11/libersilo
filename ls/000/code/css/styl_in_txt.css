@@ -32,6 +32,7 @@
 
 .styl_in_txt_undr {
     text-decoration: underline;
+    display: inline-block;
 }
 
 .styl_main_term {

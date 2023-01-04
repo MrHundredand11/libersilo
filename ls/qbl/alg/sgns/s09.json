@@ -67,7 +67,7 @@
                         {
                             "insc_type": "in_trm",
                             "insc_tag": "Profession",
-                            "insc_cntn": "Financial Careers",
+                            "insc_term": "Financial Careers",
                             "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_fnnclcrrs",
                             "scions": [
                                 {
@@ -95,7 +95,7 @@
                         {
                             "insc_type": "in_trm",
                             "insc_tag": "Profession",
-                            "insc_cntn": "Law Careers",
+                            "insc_term": "Law Careers",
                             "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_lawcrrs",
                             "scions": [
                                 {
@@ -113,7 +113,7 @@
                         {
                             "insc_type": "in_trm",
                             "insc_tag": "Profession",
-                            "insc_cntn": "Organized Religion Careers",
+                            "insc_term": "Organized Religion Careers",
                             "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_orgrlgcrrs",
                             "scions": [
                                 {

@@ -179,6 +179,14 @@ function gen_lf(lf_i, lf) {
             } else {
                 in_arm.appendChild(lf_bld);
             }
+
+            if (lf.scions !== undefined) {
+                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
+                in_cntnr.append(exp_cntnr);
+                for (x in lf.scions) {
+                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
+                }
+            }
             break;
 
         //             case 'bld_smp_itr':

@@ -17,20 +17,6 @@
     display: inline-block;
 }
 
-.styl_in_txt_spprt {
-    font-weight: bold;
-    font-stretch: condensed;
-    text-decoration: underline;
-    font-family: bahnSchrift;
-}
-
-.styl_in_txt_tny {
-    font-family: Montserrat_ThinItalic;
-    font-weight: bold;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-
 .styl_in_txt_code {
     font-family: Inconsolata_SEB;
     font-weight: bold;

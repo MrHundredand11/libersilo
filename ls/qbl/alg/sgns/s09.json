@@ -36,7 +36,7 @@
                                     "insc_type": "blade",
                                     "insc_tag": "Reason",
                                     "insc_term": "Sagittarius",
-                                    "insc_cntn": "is a&nbsp;<span class='styl_in_txt_emph'>fiery</span>,&nbsp;<span class='styl_in_txt_emph'>hot</span>, and&nbsp;<span class='styl_in_txt_emph'>choleric<span>&nbsp;sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
+                                    "insc_cntn": "is a&nbsp;<span class='styl_in_txt_emph'>fiery</span>,&nbsp;<span class='styl_in_txt_emph'>hot</span>, and&nbsp;<span class='styl_in_txt_emph'>choleric</span>&nbsp;sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
                                 }
                             ]
                         },
@@ -147,6 +147,17 @@
             "drct_ttl": "Lands + Locations of 'Sagittarius'",
             "scion_id": "ls_qbl_alg_sgns_s09_lctn",
             "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Locational Places",
+                    "insc_ttl": "Locational Places corresponding to (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_lctn_lctnplcs",
+                    "scions": [
+                        {
+
+                        }
+                    ]
+                },
                 {
                     "insc_type": "stm",
                     "insc_tag": "Countries",

@@ -54,6 +54,95 @@
             ]
         },
         {
+            "drct_id": "WORK",
+            "drct_ttl": "'Sagittarius' in Career and Labor",
+            "scion_id": "ls_qbl_alg_sgns_s09_work",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Professions",
+                    "insc_ttl": "List of Recommended Professions for (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_cntn": "Financial Careers",
+                            "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_fnnclcrrs",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "bankers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "cashiers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "investors"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "speculators"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_cntn": "Law Careers",
+                            "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_lawcrrs",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "lawyers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "judges"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_cntn": "Organized Religion Careers",
+                            "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns_orgrlgcrrs",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "clergy"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "priests"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "ministers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "bishops"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LCTN",
             "drct_ttl": "Lands + Locations of 'Sagittarius'",
             "scion_id": "ls_qbl_alg_sgns_s09_lctn",

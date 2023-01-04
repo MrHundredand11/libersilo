@@ -12,7 +12,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Fragrances",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>Fragrances</span>&nbsp;<span class='styl_in_txt_tny'>of</span>&nbsp;(Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Fragrances</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span>Sagittarius<span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_cntr_frgrncs",
                     "scions": [
                         {
@@ -36,7 +36,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Gemstones",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>Gemstones</span>&nbsp<span class='styl_in_txt_tny'>of</span>&nbsp;(Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Gemstones</span>&nbsp<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span>Sagittarius<span styl='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_cntr_gemstns",
                     "scions": [
                         {
@@ -128,7 +128,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Health Advice",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>Health Advice</span>&nbspfor (Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Health Advice</span>&nbsp;<span class='styl_stm_ttl_spprt'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span>Sagittarius<span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce",
                     "scions": [
                         {

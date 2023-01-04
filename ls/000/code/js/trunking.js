@@ -53,7 +53,7 @@ function generatePointer(scion_id, lf_i) {
 function gen_Pntr(lf_i, scion_id, pnt_type) {
     var pntr = gen_ECI('div', 'styl_pointers, styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);
     pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}')`);
-    pntr.innerHTML = "+>&nbsp";
+    pntr.innerHTML = `${pnt_type}&nbsp`;
     return pntr;
 };
 

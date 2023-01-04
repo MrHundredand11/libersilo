@@ -5,8 +5,57 @@
     "scion_id": "ls_qbl_alg_sgns_s09",
     "scions": [
         {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Sagittarius",
+            "scion_id": "ls_qbl_alg_sgns_s09_mdcl",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Body Systems",
+                    "insc_ttl": "Body Systems of (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_mdcl_bdysystms",
+                    "scions": [
+                        
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Health Advice",
+                    "insc_ttl": "Health Advice for (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce",
+                    "scions": [
+                        {
+                            "insc_type": "blade",
+                            "insc_tag": "Recommendation",
+                            "insc_term": "Sagittarians",
+                            "insc_cntn": "should avoid stimulants and intoxicants, especially in excess amounts",
+                            "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce_avoidstimintx",
+                            "scions": [
+                                {
+                                    "insc_pntr": "\\_\\-=>",
+                                    "insc_type": "blade",
+                                    "insc_tag": "Reason",
+                                    "insc_term": "Sagittarius",
+                                    "insc_cntn": "is a&nbsp;<span class='styl_in_txt_emph'>fiery</span>,&nbsp;<span class='styl_in_txt_emph'>hot</span>, and&nbsp;<span class='styl_in_txt_emph'>choleric<span>&nbsp;sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "blade",
+                            "insc_tag": "Recommendation",
+                            "insc_term": "Sagittarians",
+                            "insc_cntn": "are better-suited to a vegetarian (or&nbsp;<span class='styl_in_txt_emph'>primarily</span>-vegetarian) diet",
+                            "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce_vgtrndiet",
+                            "scions": []
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LCTN",
-            "drct_ttl": "Lands + Locations of 'The Sign Sagittarius'",
+            "drct_ttl": "Lands + Locations of 'Sagittarius'",
             "scion_id": "ls_qbl_alg_sgns_s09_lctn",
             "scions": [
                 {

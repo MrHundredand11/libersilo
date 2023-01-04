@@ -28,7 +28,22 @@ function shovelDigging(scion_id) {
 
         case 'styl_shvl_s1':
             document.getElementById(`id_b_p_${scion_id}`).setAttribute('class', 'styl_shvl_s2');
-            // var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
+            const getAllChildren = (htmlElement) => {
+                if (htmlElement.children.length === 0) return [htmlElement];
+              
+                let allChildElements = [];
+              
+                for (let i = 0; i < htmlElement.children.length; i++) {
+                  let children = getAllChildren(htmlElement.children[i]);
+                  if (children) allChildElements.push(...children);
+                }
+                allChildElements.push(htmlElement);
+                console.log(allChildElements);
+              };
+
+
+            var testyy = document.getElementById(`id_b_trstlbrd_${scion_id}`);
+            getAllChildren(testyy);
             // //console.log(testyy);
             // //testyy.querySelectorAll(`:scope > *`).setAttribute('class', 'stt_show');
             // for (n in testyy.childNodes) {

@@ -15,8 +15,8 @@ function showHide(idx) {
 
 function shovelDigging(scion_id) {
     var shvl = document.getElementById(`id_b_p_${scion_id}`);    
-    switch(shvl.className) {
-        case 'styl_shvl_s0':
+    switch(true) {
+        case shvl.className.contains(styl_shvl_s0):
             document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "block";
             document.getElementById(`id_b_bmp_btm_${scion_id}`).style.display = "block";
             document.getElementById(`id_b_trstlbrd_${scion_id}`).style.display = "block";
@@ -26,7 +26,7 @@ function shovelDigging(scion_id) {
             document.getElementById(`id_b_cntnr_${scion_id}`).classList.remove('styl_stm_show');
             break;
 
-        case 'styl_shvl_s1':
+        case shvl.className.contains(styl_shvl_s1):
             document.getElementById(`id_b_p_${scion_id}`).setAttribute('class', 'styl_shvl_s2');
             const getAllChildren = (htmlElement) => {
                 if (htmlElement.children.length === 0) return [htmlElement];
@@ -52,7 +52,7 @@ function shovelDigging(scion_id) {
             // //testyy.childNodes.classList.add('stt_show');
             break;
 
-        case 'styl_shvl_s2':
+        case shvl.className.contains(styl_shvl_s2):
             document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "none";
             document.getElementById(`id_b_bmp_btm_${scion_id}`).style.display = "none";
             document.getElementById(`id_b_trstlbrd_${scion_id}`).style.display = "none";

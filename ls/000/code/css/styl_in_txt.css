@@ -19,6 +19,7 @@
 
 .styl_in_txt_spprt {
     font-weight: bold;
+    font-stretch: condensed;
     text-decoration: underline;
 }
 

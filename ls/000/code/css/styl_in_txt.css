@@ -21,6 +21,11 @@
     font-weight: bold;
     font-stretch: condensed;
     text-decoration: underline;
+    font-family: bahnSchrift;
+}
+
+.styl_in_txt_tny {
+    font-family: montserrat;
 }
 
 .styl_in_txt_code {

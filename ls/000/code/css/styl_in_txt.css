@@ -1,72 +1,145 @@
-.styl_in_txt {
-    flex-wrap: wrap;
-    display: flex;
+.styl_div_stem {
+    position: relative;
+    left: 43px;
+    display: block;
 }
-
-.in_txt_cntrd {
-    text-align: center;
-}
-
-.in_txt_headr_01 {
-    font-size: 31px;
-    font-weight: bold;
-}
-
-.styl_in_txt_bld {
-    font-weight: bold;
-    display: inline-block;
-}
-
-.styl_in_txt_spprt {
-    font-weight: bold;
-    font-stretch: condensed;
-    text-decoration: underline;
+.styl_stem_head {
     font-family: bahnSchrift;
+    font-size: 23px;
+}
+.styl_stem_body {
+    position: relative;
+    left: 17px;
+    list-style: none;
+    margin-top: 7px;
+    padding-inline-start: 0px;
 }
 
-.styl_in_txt_tny {
-    font-family: Montserrat_ThinItalic;
-    font-weight: bold;
-    margin-left: 7px;
-    margin-right: 7px;
+.styl_stm_cntnr {
+    margin-bottom: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 47px;
+    margin-right: 47px;
+    width: 100%;
+    left: 23px;
+    top: 3px;
+    position: relative;
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
-.styl_in_txt_code {
-    font-family: Inconsolata_SEB;
-    font-weight: bold;
+.styl_stm_cntnr:hover {
+    border: 2.22px solid black;
 }
 
-.styl_in_txt_emph {
-    font-style: italic;
-}
-
-.styl_in_txt_undr {
-    text-decoration: underline;
-    display: inline-block;
-}
-
-.styl_main_term {
-    font-weight: bold;
-    font-family: cambria;
-    font-size: 19px;
-    display: inline-block;
-    white-space: pre;  
-}
-
-.styl_in_txt_inlineterm_01 {
-    font-weight: bold;
-    font-family: cambria;
-    font-size: 17px;
-    display: inline-block;
+.styl_stm_nametag {
+    font-size: 37px;
+    display: flex;
     white-space: pre;
 }
 
-.styl_in_arm {
-    display: inline-block;
+.styl_stm_bmp_top {
+    display: none;
 }
 
-.styl_in_exp_cntnr {
-    left: 7px;
+.styl_stm_bmp_btm {
+    display: none;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 7px;
+}
+
+.styl_stm_hide {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    margin-bottom: 7px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.styl_stm_show {
+    display: block;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    margin-bottom: 7px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.styl_stm_ttl_spprt {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.styl_stm_trstlbrd {
+    padding-left: 47px;
+    display: none;
+}
+
+.styl_stem_tail {
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.styl_lf_stm_olst_exp {
     position: relative;
-    margin-bottom: 37px;
+    left: 23px;
+    margin-top: 23px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 37px;
+    margin-right: 11px;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.styl_lf_stm_olst_exp:hover {
+    border: 2.22px solid black;
+}
+
+.styl_lf_stm_olst_exp_bmp_top {
+    display: none;
+}
+
+.styl_lf_stm_olst_exp_bmp_btm {
+    display: none;
+}
+
+.styl_lf_stm_olst_exp_ttl {
+    font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.styl_lf_stm_olst_exp_cntn {
+    padding-top: 7px;
+    padding-left: 43px;
+    display: none;
+}
+
+.styl_lf_stm_olst_exp_ls_shrt {
+    margin-left: 29px;
+    margin-bottom: 29px;
+}
+
+.styl_stm_opncls {
+    font-family: Montserrat_Light;
 }

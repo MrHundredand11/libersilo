@@ -133,6 +133,13 @@ function gen_lf(lf_i, lf) {
             var lf_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(in_pnt, lf_trm);
             in_cntnr.append(lf_protrusion);
+            if (lf.scions !== undefined) {
+                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
+                in_cntnr.append(exp_cntnr);
+                for (x in lf.scions) {
+                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
+                }
+            }
             break;
 
         case 'in_trm_stpl':

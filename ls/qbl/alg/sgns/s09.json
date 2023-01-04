@@ -346,32 +346,32 @@
                     "scions": [
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "Alabama"
                         },
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "Delaware"
                         },
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "Illinois"
                         },
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "Mississippi"
                         },
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "New Jersey"
                         },
                         {
                             "insc_type": "in_trm_stpl",
-                            "insc_tag": "State",
+                            "insc_tag": "US State",
                             "insc_term": "Pennsylvania"
                         }
                     ]

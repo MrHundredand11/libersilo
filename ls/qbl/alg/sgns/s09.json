@@ -17,19 +17,19 @@
                     "scions": [
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Clove"
+                            "insc_term": "Clove"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Juniper"
+                            "insc_term": "Juniper"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Nutmeg"
+                            "insc_term": "Nutmeg"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Sage"
+                            "insc_term": "Sage"
                         }
                     ]
                 },
@@ -41,71 +41,71 @@
                     "scions": [
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Amber"
+                            "insc_term": "Amber"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Apatite"
+                            "insc_term": "Apatite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Azurite"
+                            "insc_term": "Azurite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Blue Howlite"
+                            "insc_term": "Blue Howlite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Blue Quartz"
+                            "insc_term": "Blue Quartz"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Blue Topaz"
+                            "insc_term": "Blue Topaz"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Blue Turquoise"
+                            "insc_term": "Blue Turquoise"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Celestite"
+                            "insc_term": "Celestite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Falcon's Eye"
+                            "insc_term": "Falcon's Eye"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Iolite"
+                            "insc_term": "Iolite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Jacinth"
+                            "insc_term": "Jacinth"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Kyanite"
+                            "insc_term": "Kyanite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Labradorite"
+                            "insc_term": "Labradorite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Pietersite"
+                            "insc_term": "Pietersite"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Red Jasper"
+                            "insc_term": "Red Jasper"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Topaz"
+                            "insc_term": "Topaz"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_cntn": "Watermelon Tourmaline"
+                            "insc_term": "Watermelon Tourmaline"
                         }
                     ]
                 }

@@ -26,6 +26,9 @@
 
 .styl_in_txt_tny {
     font-family: Montserrat_ThinItalic;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .styl_in_txt_code {

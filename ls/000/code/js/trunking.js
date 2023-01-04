@@ -378,7 +378,7 @@ async function fetchy(zz) {
                     
                     brnch_bmp_top.innerHTML = bmp_brnch_top;
                     brnch_bmp_btm.innerHTML = bmp_brnch_btm;
-                    brnch_nametag.innerHTML = `<span class='styl_shvl_s0, styl_pointers' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
+                    brnch_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${brnch_id}' onclick='shovelDigging(\"${brnch_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${brnch_name}</span>:`;
                 
                     brnch_cntnr.append(brnch_bmp_top, brnch_nametag, brnch_trstlbrd, brnch_bmp_btm);
                     trst_cntnr.appendChild(brnch_cntnr);

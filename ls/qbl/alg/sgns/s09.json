@@ -168,7 +168,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Professions",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>List</span>&nbsp;of&nbsp;<span class='styl_in_txt_spprt'>Recommended Professions</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Recommended Professions</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns",
                     "scions": [
                         {
@@ -257,7 +257,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Locational Places",
-                    "insc_ttl": "Locational Places corresponding to (Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Locational Places</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_lctn_lctnplcs",
                     "scions": [
                         {
@@ -341,7 +341,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "US States",
-                    "insc_ttl": "US States corresponding to (Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>US States</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_lctn_usstates",
                     "scions": [
                         {
@@ -379,133 +379,133 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Cities",
-                    "insc_ttl": "Cities corresponding to (Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Cities</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_lctn_cities",
                     "scions": [
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Birmingham, AL"
+                            "insc_term": "Birmingham, AL, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Tuscaloosca, AL"
+                            "insc_term": "Tuscaloosca, AL, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Montgomery, AL"
+                            "insc_term": "Montgomery, AL, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Anchorage, AK"
+                            "insc_term": "Anchorage, AK, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Long Beach, CA"
+                            "insc_term": "Long Beach, CA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "San Diego, CA"
+                            "insc_term": "San Diego, CA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "San Jose, CA"
+                            "insc_term": "San Jose, CA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Wilmington, DE"
+                            "insc_term": "Wilmington, DE, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Tampa, FL"
+                            "insc_term": "Tampa, FL, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Columbus, GA"
+                            "insc_term": "Columbus, GA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Macon, GA"
+                            "insc_term": "Macon, GA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Valdosta, GA"
+                            "insc_term": "Valdosta, GA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Annapolis, MD"
+                            "insc_term": "Annapolis, MD, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Grand Island, NE"
+                            "insc_term": "Grand Island, NE, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Youngstown, OH"
+                            "insc_term": "Youngstown, OH, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Lancaster, PA"
+                            "insc_term": "Lancaster, PA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Columbus, SC"
+                            "insc_term": "Columbus, SC, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Greenville, SC"
+                            "insc_term": "Greenville, SC, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Spartansburg, SC"
+                            "insc_term": "Spartansburg, SC, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Chattanooga, TN"
+                            "insc_term": "Chattanooga, TN, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Jackson, TN"
+                            "insc_term": "Jackson, TN, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Memphis, TN"
+                            "insc_term": "Memphis, TN, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Beaumont, TX"
+                            "insc_term": "Beaumont, TX, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Spokane, WA"
+                            "insc_term": "Spokane, WA, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "City",
-                            "insc_term": "Cheyanne, WY"
+                            "insc_term": "Cheyanne, WY, USA"
                         },
                         {
                             "insc_type": "in_trm_stpl",

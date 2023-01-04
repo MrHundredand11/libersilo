@@ -140,6 +140,20 @@
     margin-bottom: 29px;
 }
 
-.styl_stm_opncls {
+.styl_stm_ttl_opncls {
     font-family: Montserrat_Light;
+}
+
+.styl_stm_ttl_spprt {
+    font-weight: bold;
+    font-stretch: condensed;
+    text-decoration: underline;
+    font-family: bahnSchrift;
+}
+
+.styl_stm_ttl_tny {
+    font-family: Montserrat_ThinItalic;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-right: 7px;
 }

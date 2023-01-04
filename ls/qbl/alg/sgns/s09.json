@@ -119,7 +119,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Body Systems",
-                    "insc_ttl": "Body Systems of (Sagittarius)",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Body Systems</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_mdcl_bdysystms",
                     "scions": [
                         
@@ -128,7 +128,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Health Advice",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Health Advice</span>&nbsp;<span class='styl_stm_ttl_spprt'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Health Advice</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce",
                     "scions": [
                         {

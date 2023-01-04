@@ -14,7 +14,9 @@ function showHide(idx) {
 }
 
 function shovelDigging(scion_id) {
+    console.log(scion_id);
     var shvl = document.getElementById(`id_b_p_${scion_id}`).classList;    
+    console.log(shvl);
     switch(true) {
         case shvl.contains('styl_shvl_s0'):
             document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "block";

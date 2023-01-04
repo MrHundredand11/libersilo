@@ -34,3 +34,8 @@
     font-family: Montserrat_ThinItalic;
     src: url(/ls/000/code/fonts/Montserrat_ThinItalic.ttf)
 }
+
+@font-face {
+    font-family: Montserrat_Light;
+    src: url(/ls/000/code/fonts/Montserrat_Light.ttf)
+}

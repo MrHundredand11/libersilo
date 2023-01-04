@@ -12,7 +12,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Fragrances",
-                    "insc_ttl": "Fragrances of (Sagittarius)",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>Fragrances</span>nbsp;of (Sagittarius)",
                     "scion_id": "ls_qbl_alg_sgns_s09_cntr_frgrncs",
                     "scions": [
                         {
@@ -36,7 +36,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Gemstones",
-                    "insc_ttl": "Gemstones of (Sagittarius)",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>Gemstones</span>&nbspof (Sagittarius)",
                     "scion_id": "ls_qbl_alg_sgns_s09_cntr_gemstns",
                     "scions": [
                         {
@@ -128,7 +128,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Health Advice",
-                    "insc_ttl": "Health Advice for (Sagittarius)",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>Health Advice</span>&nbspfor (Sagittarius)",
                     "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce",
                     "scions": [
                         {
@@ -168,7 +168,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Professions",
-                    "insc_ttl": "List of Recommended Professions for (Sagittarius)",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>List</span>&nbsp;of&nbsp;<span class='styl_in_txt_spprt'>Recommended Professions</span>&nbsp;for (Sagittarius)",
                     "scion_id": "ls_qbl_alg_sgns_s09_work_rcmndprfsns",
                     "scions": [
                         {

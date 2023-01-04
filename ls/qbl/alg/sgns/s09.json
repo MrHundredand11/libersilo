@@ -12,7 +12,7 @@
                 {
                     "insc_type": "stm",
                     "insc_tag": "Fragrances",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>Fragrances</span>nbsp;of (Sagittarius)",
+                    "insc_ttl": "<span class='styl_in_txt_spprt'>Fragrances</span>&nbsp;of (Sagittarius)",
                     "scion_id": "ls_qbl_alg_sgns_s09_cntr_frgrncs",
                     "scions": [
                         {

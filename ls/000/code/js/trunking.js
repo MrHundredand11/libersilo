@@ -39,21 +39,25 @@ function rotatePointer(pnt_id) {
     
 };
             
-function generatePointer(scion_id, lf_i) {
-    const idx2 = `id_pnt_${scion_id}_${lf_i}`;
-    var pnter = createElementWithClass('div', 'styl_pointers');
-    pnter.classList.add('styl_pnt_0deg');
-    pnter.setAttribute('id', idx2);
-    pnter.setAttribute('onclick', `rotatePointer('${idx2}')`);
-    pnter.innerHTML = "+>&nbsp";
-    //let pnt_plus_p = "<div class='styl_pointers' style='display: inline-block' onclick='rotatePointer(" + idx2 + ")' id='" + idx2 + "'>+> </div>";
-    return pnter;
-};
+// function generatePointer(scion_id, lf_i) {
+//     const idx2 = `id_pnt_${scion_id}_${lf_i}`;
+//     var pnter = createElementWithClass('div', 'styl_pointers');
+//     pnter.classList.add('styl_pnt_0deg');
+//     pnter.setAttribute('id', idx2);
+//     pnter.setAttribute('onclick', `rotatePointer('${idx2}')`);
+//     pnter.innerHTML = "+>&nbsp";
+//     //let pnt_plus_p = "<div class='styl_pointers' style='display: inline-block' onclick='rotatePointer(" + idx2 + ")' id='" + idx2 + "'>+> </div>";
+//     return pnter;
+// };
 
 function gen_Pntr(lf_i, scion_id, pnt_type) {
     var pntr = gen_ECI('div', 'styl_pointers styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);
     pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}')`);
-    pntr.innerHTML = `${pnt_type}&nbsp`;
+    if (pnt_type !== undefined) {
+        pntr.innerHTML = `${pnt_type}&nbsp`;
+    } else {
+        pntr.innerHTML = "+>&nbsp;";
+    }
     return pntr;
 };
 
@@ -113,7 +117,7 @@ function gen_lf(lf_i, lf) {
     if (lf.insc_pntr !== undefined) {
         var in_pnt = gen_Pntr(lf_i, lf.scion_id, lf.insc_pntr);
     } else {
-        var in_pnt = generatePointer(lf.scion_id, lf_i);
+        var in_pnt = gen_Pntr(lf.scion_id, lf_i);
     }
     
     var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
@@ -219,7 +223,7 @@ function gen_lf(lf_i, lf) {
 
             for (lfl in lf.scions) {
                 var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
-                var lfl_shrt_pnter = generatePointer(lf.scion_id[lfl].scion_id, lf_i);
+                var lfl_shrt_pnter = gen_Pntr(lf.scion_id[lfl].scion_id, lf_i);
                 var lfl_shrt_term = createElementWithClass('a', 'styl_lfl_shrt_term');
                 lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${lf.scion_id}_${lfl}`);
                 lfl_shrt_term.innerHTML = lf.scions[lfl].insc_term;
@@ -256,7 +260,7 @@ function gen_lf(lf_i, lf) {
         case 'stm_olst_exp_i':
             var in_id = generateLeafIdNum(lf.scion_id, lf_i);
             var in_cntnr = gen_ECI('div', 'styl_in_cntnr', `id_in_${in_id}`);
-            var in_pnter = generatePointer(lf.scion_id, lf_i);
+            var in_pnter = gen_Pntr(lf.scion_id, lf_i);
             var in_ttl = createElementWithClass('div', 'styl_lf_lst_entr');
             in_ttl.innerHTML = lf.insc_ttl;
             in_cntnr.append(in_pnter, in_ttl);
@@ -349,7 +353,7 @@ async function fetchy(zz) {
                 headBoard.appendChild(headboard_tail);
                 for (i in data.scions) {
                     var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = generatePointer(data.scions[i].scion_id, i);
+                    var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
                     var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
                     drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
                     drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;

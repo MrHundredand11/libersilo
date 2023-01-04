@@ -15,6 +15,7 @@
 .styl_lf_cntnr {
     flex-wrap: nowrap;
     margin-bottom: 7px;
+    margin-left: 37px;
     align-items: flex-end;
     white-space: pre;
 }

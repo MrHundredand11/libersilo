@@ -5,6 +5,113 @@
     "scion_id": "ls_qbl_alg_sgns_s09",
     "scions": [
         {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Sagittarius'",
+            "scion_id": "ls_qbl_alg_sgns_s09_cntr",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Fragrances",
+                    "insc_ttl": "Fragrances of (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_cntr_frgrncs",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Clove"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Juniper"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Nutmeg"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Sage"
+                        }
+                    ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Gemstones",
+                    "insc_ttl": "Gemstones of (Sagittarius)",
+                    "scion_id": "ls_qbl_alg_sgns_s09_cntr_gemstns",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Amber"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Apatite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Azurite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Blue Howlite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Blue Quartz"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Blue Topaz"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Blue Turquoise"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Celestite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Falcon's Eye"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Iolite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Jacinth"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Kyanite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Labradorite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Pietersite"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Red Jasper"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Topaz"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_cntn": "Watermelon Tourmaline"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'Sagittarius",
             "scion_id": "ls_qbl_alg_sgns_s09_mdcl",

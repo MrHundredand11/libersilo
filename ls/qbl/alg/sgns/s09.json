@@ -355,6 +355,163 @@
                                     "insc_term": "bishops"
                                 }
                             ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Careers connected with Woolen Clothing",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "clothiers"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Careers connected with Horses",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "hunters"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "horse jockeys"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "ranchers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "horse trainers"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Careers connected with Foreign Countries",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "travel agents"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "foreign language instructors"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "flight attendants"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "ambassadors"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "interpreters"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "tour guides"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Higher Education Careers",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "university teachers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "professors"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "publishers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "philosophers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "lecturers"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "orators"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "politicians"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Sports Players",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "athletes"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "archers"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "Entertainers",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "actors"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "clowns"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_tag": "Profession",
+                            "insc_term": "grocers"
                         }
                     ]
                 }

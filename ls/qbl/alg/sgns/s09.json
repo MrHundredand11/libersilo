@@ -128,6 +128,22 @@
                             "insc_term": "Watermelon Tourmaline"
                         }
                     ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Colors",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Colors</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_sgns_s09_cntr_colors",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "deep royal blue"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "purple"
+                        }
+                    ]
                 }
             ]
         },

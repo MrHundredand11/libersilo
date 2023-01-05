@@ -144,6 +144,81 @@
                             "insc_term": "purple"
                         }
                     ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Animals",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Animals</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_sgns_s09_cntr_animals",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "Large and kind, great helpers of humanity",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "horse"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "elephant"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "deer"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "Beautiful birds bringing happy messages",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "stork"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "snipe"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "golden pheasant"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "skylark"
+                                },
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "turkey"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "centaur"
+                        },
+                        {
+                            "insc_type": "in_trm",
+                            "insc_term": "Animals actually born in December under Sagittarius",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "Example",
+                                    "insc_term": "eastern gray squirrel"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },

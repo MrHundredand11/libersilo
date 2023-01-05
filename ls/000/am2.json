@@ -10,11 +10,11 @@
             "scion_id": "ls_000",
             "scions": [
                 {
-                    "ls_id": "LS-000-ABOUT",
-                    "ls_ttl": "About the Author + Compiler",
+                    "ls_id": "LS-000-000",
+                    "ls_ttl": "Overview of 'Liber Silo'",
                     "ls_type": "+>",
                     "ls_url": "",
-                    "scion_id": "ls_000_about"
+                    "scion_id": "ls_000_000"
                 },
                 {
                     "ls_id": "LS-000-CITE",

@@ -291,22 +291,26 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "bankers"
+                                    "insc_term": "bankers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "cashiers"
+                                    "insc_term": "cashiers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "investors"
+                                    "insc_term": "investors",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "speculators"
+                                    "insc_term": "speculators",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -319,12 +323,14 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "lawyers"
+                                    "insc_term": "lawyers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "judges"
+                                    "insc_term": "judges",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -337,22 +343,26 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "clergy"
+                                    "insc_term": "clergy",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "priests"
+                                    "insc_term": "priests",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "ministers"
+                                    "insc_term": "ministers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "bishops"
+                                    "insc_term": "bishops",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -364,7 +374,8 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "clothiers"
+                                    "insc_term": "clothiers",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -376,22 +387,26 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "hunters"
+                                    "insc_term": "hunters",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "horse jockeys"
+                                    "insc_term": "horse jockeys",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "ranchers"
+                                    "insc_term": "ranchers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "horse trainers"
+                                    "insc_term": "horse trainers",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -403,32 +418,38 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "travel agents"
+                                    "insc_term": "travel agents",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "foreign language instructors"
+                                    "insc_term": "foreign language instructors",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "flight attendants"
+                                    "insc_term": "flight attendants",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "ambassadors"
+                                    "insc_term": "ambassadors",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "interpreters"
+                                    "insc_term": "interpreters",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "tour guides"
+                                    "insc_term": "tour guides",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -440,37 +461,44 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "university teachers"
+                                    "insc_term": "university teachers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "professors"
+                                    "insc_term": "professors",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "publishers"
+                                    "insc_term": "publishers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "philosophers"
+                                    "insc_term": "philosophers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "lecturers"
+                                    "insc_term": "lecturers",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "orators"
+                                    "insc_term": "orators",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "politicians"
+                                    "insc_term": "politicians",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -482,12 +510,14 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "athletes"
+                                    "insc_term": "athletes",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "archers"
+                                    "insc_term": "archers",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },
@@ -499,12 +529,14 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "actors"
+                                    "insc_term": "actors",
+                                    "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "Example",
-                                    "insc_term": "clowns"
+                                    "insc_term": "clowns",
+                                    "insc_sld": "\\_"
                                 }
                             ]
                         },

@@ -1,0 +1,51 @@
+{
+    "ls_id": "LS-NN-ST-O-APILS-GNSNG",
+    "ls_ttl": "Ginseng",
+    "ls_url": "/ls/nn/st/o/apils/gnsng.json",
+    "scion_id": "ls_nn_st_o_apils_gnsng",
+    "scions": [
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'Ginseng'",
+            "scion_id": "ls_nn_st_o_apils_gnsng_hist",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "History Notes",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>History Notes</span>&nbsp;<span class='styl_stm_ttl_tny'>on</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Ginseng</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_nn_st_o_apils_gnsng_hist_hstnts",
+                    "scions": [
+                        {
+                            "insc_sld": "\\_",
+                            "insc_pntr": "+>",
+                            "insc_type": "blade",
+                            "insc_tag": "Locational Position",
+                            "insc_cntn": "Ginseng is native to northeastern China, eastern Russia, and Korea. A related species, Panax Quinquefolioum, occurs in the Easter United States and Canada. Siberian Ginseng (Eleuthercoccus Senticosus) is grown in Russia."
+                        },
+                        {
+                            "insc_sld": "\\_",
+                            "insc_pntr": "+>",
+                            "insc_type": "blade",
+                            "insc_tag": "History",
+                            "insc_cntn": "Ginseng has ancient and rich history as a medicinal plant and has been praised for its remarkable therapeutic benefits for about 7,000 years."
+                        },
+                        {
+                            "insc_sld": "\\_",
+                            "insc_pntr": "+>",
+                            "insc_type": "blade",
+                            "insc_tag": "Significance",
+                            "insc_cntn": "The value of Ginseng was so great that wars were fought for control of the forests in which it thrived."
+                        },
+                        {
+                            "insc_sld": "\\_",
+                            "insc_pntr": "+>",
+                            "insc_type": "blade",
+                            "insc_tag": "Western History",
+                            "insc_cntn": "An Arabian physician brought Ginseng back to Europe in the ninth century, yet its ability to improve stamina became common knowledge in the West only prom the eighteenth century."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -5,6 +5,41 @@
     "scion_id": "ls_nn_st_o_apils_gnsng",
     "scions": [
         {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_nn_st_o_apils_gnsng_qccl",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Qabalah",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Qabalistic Correspondences</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Ginseng</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_nn_st_o_apils_gnsng_qccl_qblh",
+                    "scions": [
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Planetary Ruler",
+                            "insc_term": "The Sun"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Chakra",
+                            "insc_term": "Base Chakra"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Gender",
+                            "insc_term": "Masculine"
+                        },
+                        {
+                            "insc_type": "in_trm_stpl",
+                            "insc_tag": "Element",
+                            "insc_term": "Fire"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "HIST",
             "drct_ttl": "History of 'Ginseng'",
             "scion_id": "ls_nn_st_o_apils_gnsng_hist",
@@ -20,7 +55,7 @@
                             "insc_pntr": "+>",
                             "insc_type": "blade",
                             "insc_tag": "Locational Position",
-                            "insc_cntn": "Ginseng is native to northeastern China, eastern Russia, and Korea. A related species, Panax Quinquefolioum, occurs in the Easter United States and Canada. Siberian Ginseng (Eleuthercoccus Senticosus) is grown in Russia."
+                            "insc_cntn": "Ginseng is native to northeastern China, eastern Russia, and Korea. A related species, Panax Quinquefolioum, occurs in the Eastern United States and Canada. Siberian Ginseng (Eleuthercoccus Senticosus) is grown in Russia."
                         },
                         {
                             "insc_sld": "\\_",

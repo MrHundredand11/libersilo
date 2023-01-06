@@ -954,7 +954,34 @@
                     "ls_ttl": "Sacred Taxonomy",
                     "ls_type": "=>",
                     "ls_url": "",
-                    "scion_id": "ls_nn_st"
+                    "scion_id": "ls_nn_st",
+                    "scions": [
+                        {
+                            "ls_id": "LS-NN-ST-O",
+                            "ls_ttl": "Plant Orders",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_nn_st_o",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-NN-ST-O-APILS",
+                                    "ls_ttl": "Apiales",
+                                    "ls_type": "=>",
+                                    "ls_url": "",
+                                    "scion_id": "ls_nn_st_o_apils",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-NN-ST-O-APILS-GNSNG",
+                                            "ls_ttl": "Ginseng",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/apils/gnsng.json",
+                                            "scion_id": "ls_nn_st_o_apils_gnsng"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },

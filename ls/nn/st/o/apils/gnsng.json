@@ -33,7 +33,15 @@
                         {
                             "insc_type": "in_trm_stpl",
                             "insc_tag": "Element",
-                            "insc_term": "Fire"
+                            "insc_term": "Fire",
+                            "scion_id": "ls_nn_st_o_apils_gnsng_qccl_qblh_lmnt",
+                            "scions": [
+                                {
+                                    "insc_type": "in_trm_stpl",
+                                    "insc_tag": "LSYNC",
+                                    "insc_term": "<span onclick='fetchy('/ls/qbl/lmnt/w/e01.json')'>LS-QBL-LMNT-W-E01</span>"
+                                }
+                            ]
                         }
                     ]
                 }

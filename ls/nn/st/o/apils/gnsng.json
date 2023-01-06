@@ -39,7 +39,7 @@
                                 {
                                     "insc_type": "in_trm_stpl",
                                     "insc_tag": "LSYNC",
-                                    "insc_term": "<div onclick='fillErUp('/ls/qbl/lmnt/w/e01.json')'>LS-QBL-LMNT-W-E01</div>"
+                                    "insc_term": "<span onclick='fillErUp('\/ls\/qbl\/lmnt\/w\/e01.json')'>LS-QBL-LMNT-W-E01</span>"
                                 }
                             ]
                         }

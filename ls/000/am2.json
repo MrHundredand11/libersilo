@@ -149,25 +149,41 @@
                             "scion_id": "ls_dgtl_isec_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
-                            "ls_ttl": "Access Control",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
-                            "scion_id": "ls_dgtl_isec_dfn_acsctrl"
-                        },
-                        {
-                            "ls_id": "LS-DGTL-ISEC-DFN-CADR",
-                            "ls_ttl": "Continuity Assurance + Disaster Recovery",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
-                            "scion_id": "ls_dgtl_isec_dfn_cadr"
-                        },
-                        {
-                            "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
-                            "ls_ttl": "E-mail Defense",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/email.json",
-                            "scion_id": "ls_dgtl_isec_dfn_email"
+                            "ls_id": "LS-DGTL-ISEC-DFN",
+                            "ls_ttl": "InfoSec Defensive Measures",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_dgtl_isec_dfn",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
+                                    "ls_ttl": "Access Control",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_acsctrl"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-CADR",
+                                    "ls_ttl": "Continuity Assurance + Disaster Recovery",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_cadr"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-CRYPT",
+                                    "ls_ttl": "Cryptology + Cryptography",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/crypt.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
+                                    "ls_ttl": "E-mail Defense",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/email.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_email"
+                                }
+                            ]
                         }
                     ]
                 },

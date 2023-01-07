@@ -14,9 +14,9 @@ function showHide(idx) {
 }
 
 function shovelDigging(scion_id) {
-    console.log(scion_id);
+    //console.log(scion_id);
     var shvl = document.getElementById(`id_b_p_${scion_id}`);    
-    console.log(shvl);
+    //console.log(shvl);
     switch(shvl.className) {
         case 'styl_shvl_s0':
             document.getElementById(`id_b_bmp_top_${scion_id}`).style.display = "block";
@@ -40,7 +40,7 @@ function shovelDigging(scion_id) {
                   if (children) allChildElements.push(...children);
                 }
                 allChildElements.push(htmlElement);
-                console.log(allChildElements);
+               //console.log(allChildElements);
               };
 
 

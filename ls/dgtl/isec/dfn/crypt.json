@@ -62,6 +62,29 @@
                                             "insc_term": "Block-based \"Block Cipher\""
                                         }
                                     ]
+                                },
+                                {
+                                    "insc_type": "stm",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Use Cases</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Key Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases",
+                                    "scions": [
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "File encryption for transmission"
+                                        },
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "Encryption of files in storage"
+                                        },
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "Financial transactions"
+                                        },
+                                        {
+                                            "insc_type": "in_txt",
+                                            "insc_cntn": "VPN Encryption"
+                                        }
+                                    ]
                                 }
                             ]
                         },

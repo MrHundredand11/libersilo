@@ -69,19 +69,19 @@
                                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases",
                                     "scions": [
                                         {
-                                            "insc_type": "in_txt",
+                                            "insc_type": "in_trm",
                                             "insc_cntn": "File encryption for transmission"
                                         },
                                         {
-                                            "insc_type": "in_txt",
+                                            "insc_type": "in_trm",
                                             "insc_cntn": "Encryption of files in storage"
                                         },
                                         {
-                                            "insc_type": "in_txt",
+                                            "insc_type": "in_trm",
                                             "insc_cntn": "Financial transactions"
                                         },
                                         {
-                                            "insc_type": "in_txt",
+                                            "insc_type": "in_trm",
                                             "insc_cntn": "VPN Encryption"
                                         }
                                     ]

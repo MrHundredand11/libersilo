@@ -170,6 +170,7 @@ function gen_lf(lf_i, lf) {
             in_cntn.innerHTML = lf.insc_cntn;
             lf_protrusion.append(in_pnt, in_cntn);
             in_cntnr.appendChild(lf_protrusion);
+            console.log(in_cntn);
             break;
                     
         case 'blade':
@@ -332,6 +333,7 @@ function gen_lf(lf_i, lf) {
                 stm_trstlbrd.appendChild(entr_full);
             }
             in_cntnr.appendChild(stm_cntnr);
+            console.log(stm_cntnr)
             break;
     }
     return in_cntnr;

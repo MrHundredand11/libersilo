@@ -275,7 +275,7 @@ function gen_lf(lf_i, lf) {
                 lf_expnd.appendChild(twg_cntnr);
                 
                 for (i2 in lf.scions[lfl].scions) {
-                    console.log(lf.scions[lfl].scions[i2]);
+                    //console.log(lf.scions[lfl].scions[i2]);
                     var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
                     console.log(entr_full);
                     twg_cntn.appendChild(entr_full);

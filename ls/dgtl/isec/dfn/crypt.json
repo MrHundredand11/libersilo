@@ -83,10 +83,26 @@
                                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types",
                                     "scions": [
                                         {
-                                            "insc_term": "Stream-based \"Stream Cipher\""
+                                            "insc_term": "Stream-based \"Stream Cipher\"",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types_strmcphr",
+                                            "scions": [
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "Stream-based = encryption operations is on a constant stream of 0s and 1s"
+                                                }
+                                            ]
                                         },
                                         {
-                                            "insc_term": "Block-based \"Block Cipher\""
+                                            "insc_term": "Block-based \"Block Cipher\"",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types_blckcphr",
+                                            "scions": [
+                                                {
+                                                    "insc_type": "in_txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "Block-based = encryption operation is on fixed blocks of plaintext."
+                                                }
+                                            ]
                                         }
                                     ]
                                 },

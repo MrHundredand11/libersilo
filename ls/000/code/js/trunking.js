@@ -126,6 +126,8 @@ function gen_lf(lf_i, lf) {
         var in_sld = createElementWithClass('span', 'styl_pointers');
         in_sld.innerHTML = lf.insc_sld;
         lf_protrusion.append(in_sld);
+        console.log(in_sld);
+        console.log(lf_protrusion);
     }
 
     switch (lf.insc_type) {

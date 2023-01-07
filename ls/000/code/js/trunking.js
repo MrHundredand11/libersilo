@@ -124,7 +124,7 @@ function gen_lf(lf_i, lf) {
     
     if (lf.insc_sld !== undefined) {
         var in_sld = createElementWithClass('span', 'styl_pointers');
-        in_sld.innerHTML = bmp_sld_01;
+        in_sld.innerHTML = lf.insc_sld;
         lf_protrusion.append(in_sld);
     }
 

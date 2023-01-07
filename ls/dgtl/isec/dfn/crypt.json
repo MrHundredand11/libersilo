@@ -70,19 +70,23 @@
                                     "scions": [
                                         {
                                             "insc_type": "in_trm",
-                                            "insc_term": "File encryption for transmission"
+                                            "insc_term": "File encryption for transmission",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencryptrnsmt"
                                         },
                                         {
                                             "insc_type": "in_trm",
-                                            "insc_term": "Encryption of files in storage"
+                                            "insc_term": "Encryption of files in storage",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencrypstrg"
                                         },
                                         {
                                             "insc_type": "in_trm",
-                                            "insc_term": "Financial transactions"
+                                            "insc_term": "Financial transactions",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_fncltrnsctions"
                                         },
                                         {
                                             "insc_type": "in_trm",
-                                            "insc_term": "VPN Encryption"
+                                            "insc_term": "VPN Encryption",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_vpnencryption"
                                         }
                                     ]
                                 }

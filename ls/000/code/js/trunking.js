@@ -351,7 +351,7 @@ function gen_lf(lf_i, lf) {
             
     }
     if (lf.scions !== undefined) {
-        if (lf.insc_type !== 'stm') {
+        if (lf.insc_type != 'stm' || lf.insc_type != 'stm_shrt' || lf.insc_type != 'stm_olst-exp') {
             var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
             in_cntnr.append(leaflets);
             for (x in lf.scions) {

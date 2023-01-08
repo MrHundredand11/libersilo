@@ -245,7 +245,7 @@ function gen_lf(lf_i, lf) {
             lf_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
             lf_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
             lf_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
-            lf_ttl.innerHTML = `${pnt_branch}&nbsp${lf.insc_ttl}&nbsp`;
+            lf_ttl.innerHTML = `${pnt_branch}&nbsp;${lf.insc_ttl}&nbsp;::`;
 
             lf_bmp_btm.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
             lf_bmp_top.setAttribute('onclick', `showHideStmExp('${lf_id}');`);

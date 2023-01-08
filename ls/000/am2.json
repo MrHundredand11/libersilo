@@ -221,6 +221,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/shll/cmd.json",
                             "scion_id": "ls_dgtl_shll_cmd"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-SHLL-PWRSHLL",
+                            "ls_ttl": "PowerShell Scripting",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/shll/pwrshll.json",
+                            "scion_id": "ls_dgtl_shll_pwrshll"
                         }
                     ]
                 },

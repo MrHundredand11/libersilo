@@ -348,7 +348,32 @@ function gen_lf(lf_i, lf) {
                 stm_trstlbrd.appendChild(entr_full);
             }
             in_cntnr.appendChild(stm_cntnr);
-            console.log(stm_cntnr);
+            break;
+
+        case 'stm_shrt':
+            var stm_id = `id_stm_shrt_${lf.scion_id}`;    
+            var stm_name = lf.insc_ttl;    
+            var stm_cntnr = gen_ECI('div', 'styl_stm_shrt_cntnr stt_hide', `id_stm_shrt_cntnr_${lf.scion_id}`);
+            var stm_bmp_top = gen_ECI('div', 'styl_stm_shrt_bmp_top', `id_stm_shrt_bmp_top_${lf.scion_id}`);
+            var stm_nametag = gen_ECI('div', 'styl_stm_shrt_nametag', `id_stm_shrt_nametag_${lf.scion_id}`);
+            var stm_trstlbrd = gen_ECI('div', 'styl_stm_shrt_trstlbrd', `id_stm_shrt_trstlbrd_${lf.scion_id}`);
+            var stm_bmp_btm = gen_ECI('div', 'styl_stm_shrt_bmp_btm', `id_stm_shrt_bmp_btm_${lf.scion_id}`);
+
+            stm_nametag.setAttribute('onclick', `showHideStemShrt('${lf.scion_id}');`);
+            stm_bmp_top.setAttribute('onclick', `showHideStemShrt('${lf.scion_id}');`);
+            stm_bmp_btm.setAttribute('onclick', `showHideStemShrt('${lf.scion_id}');`);
+            
+            stm_bmp_top.innerHTML = bmp_stem_top;
+            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
+            stm_bmp_btm.innerHTML = bmp_stem_bttm;
+            
+            stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
+            
+            for (i2 in lf.scions) {
+                var entr_full = gen_lf(i2, lf.scions[i2]);
+                stm_trstlbrd.appendChild(entr_full);
+            }
+            in_cntnr.appendChild(stm_cntnr);
             break;
     }
     return in_cntnr;

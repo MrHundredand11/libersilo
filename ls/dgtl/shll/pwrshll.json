@@ -44,8 +44,10 @@
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Connect-ExchangeOnline</span>&emsp;]",
                             "scions": [
                                 {
-                                    "insc_type": "in_txt",
-                                    "insc_pntr": "=>",
+                                    "insc_type": "blade",
+                                    "insc_tag": "Usage",
+                                    "insc_term": "Connect-ExchangeOnline",
+                                    "insc_sld": "\\_",
                                     "insc_cntn": "Starts a session with Exchange Online and will pop up a dialogue box asking for your credentials."
                                 }
                             ]

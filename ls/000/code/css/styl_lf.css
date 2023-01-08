@@ -28,7 +28,7 @@
 .styl_lf_protrusion {
     flex-wrap: nowrap;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     white-space: pre;
     margin-top: 7px;
 }

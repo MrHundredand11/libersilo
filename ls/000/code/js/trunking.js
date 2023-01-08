@@ -125,9 +125,7 @@ function gen_lf(lf_i, lf) {
     if (lf.insc_sld !== undefined) {
         var in_sld = createElementWithClass('span', 'styl_pointers');
         in_sld.innerHTML = lf.insc_sld;
-        lf_protrusion.append(in_sld);
-        console.log(in_sld);
-        console.log(lf_protrusion);
+        in_cntnr.append(in_sld);
     }
 
     switch (lf.insc_type) {
@@ -190,12 +188,12 @@ function gen_lf(lf_i, lf) {
                     
         case 'blade':
             var bld_id = generateBladeIdNum(lf.scion_id, lf_i);
-            var bld_tag = generateTag(bld_id, lf.insc_tag);
+            var in_tag = generateTag(bld_id, lf.insc_tag);
             var in_arm = gen_ECI('div', 'styl_in_arm', `id_in_arm_${bld_id}`);
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
-            in_cntnr.append(in_pnt, bld_tag, in_arm);
+            in_cntnr.append(in_pnt, in_tag, in_arm);
 
             if (bld_term !== undefined) {
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');

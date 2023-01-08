@@ -130,30 +130,26 @@ function gen_lf(lf_i, lf) {
 
     switch (lf.insc_type) {
         case 'in_trm':
-            var lf_trm = gen_term(lf_id, lf.insc_term);
-            lf_protrusion.append(in_pnt, lf_trm);
-            in_cntnr.append(lf_protrusion);
+            var in_trm = gen_term(lf_id, lf.insc_term);
+            in_cntnr.append(in_pnt, in_trm);
             break;
 
         case 'in_trm_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_trm = gen_term(lf_id, lf.insc_term);
-            lf_protrusion.append(in_pnt, in_tag, in_trm);
-            in_cntnr.append(lf_protrusion);
+            in_cntnr.append(in_pnt, in_tag, in_trm);            
             break;
 
         case 'in_lnk_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_lnk = gen_term(lf_id, lf.insc_cntn);
-            lf_protrusion.append(in_pnt, in_tag, in_lnk);
-            in_cntnr.append(lf_protrusion);
+            in_cntnr.append(in_pnt, in_tag, in_lnk);            
             break;
 
         case 'in_txt':
             var in_cntn = createElementWithClass('div', 'styl_in_txt');
             in_cntn.innerHTML = lf.insc_cntn;
-            lf_protrusion.append(in_pnt, in_cntn);
-            in_cntnr.appendChild(lf_protrusion);
+            in_cntnr.append(in_pnt, in_cntn);
             break;
 
         case 'in_itr_txt':
@@ -161,8 +157,7 @@ function gen_lf(lf_i, lf) {
             in_cntn.innerHTML = lf.insc_cntn;
             var in_itr = createElementWithClass('span', 'styl_lf_itr_num');
             in_itr.innerHTML = `${lf.insc_itr}&nbsp`;
-            lf_protrusion.append(in_itr, in_pnt, in_cntn);
-            in_cntnr.appendChild(lf_protrusion);
+            in_cntnr.append(in_itr, in_pnt, in_cntn);
             break;
                     
         case 'blade':

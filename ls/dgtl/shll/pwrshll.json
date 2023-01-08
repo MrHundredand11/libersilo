@@ -84,6 +84,18 @@
                                 {
                                     "insc_type": "in_txt",
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Owner</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;for all items and folders. Also allows the management of permissions of items."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>PublishingEditor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;items/subfolders."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Editor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;items."
+                                },
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>PublishingAuthor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;for all items/subfolders; but can only modify and delete the items they create."
                                 }
                             ]
                         }

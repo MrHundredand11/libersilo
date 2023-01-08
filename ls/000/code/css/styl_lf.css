@@ -13,10 +13,11 @@
 }
 
 .styl_lf_cntnr {
+    display: flex;
     flex-wrap: nowrap;
     margin-bottom: 7px;
     margin-left: 37px;
-    align-items: flex-end;
+    align-items: flex-start;
     white-space: pre;
 }
 

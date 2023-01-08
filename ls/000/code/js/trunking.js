@@ -133,13 +133,6 @@ function gen_lf(lf_i, lf) {
             var lf_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(in_pnt, lf_trm);
             in_cntnr.append(lf_protrusion);
-            if (lf.scions !== undefined) {
-                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
-                in_cntnr.append(exp_cntnr);
-                for (x in lf.scions) {
-                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
-                }
-            }
             break;
 
         case 'in_trm_stpl':
@@ -147,13 +140,6 @@ function gen_lf(lf_i, lf) {
             var in_trm = gen_term(lf_id, lf.insc_term);
             lf_protrusion.append(in_pnt, in_tag, in_trm);
             in_cntnr.append(lf_protrusion);
-            if (lf.scions !== undefined) {
-                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
-                in_cntnr.append(exp_cntnr);
-                for (x in lf.scions) {
-                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
-                }
-            }
             break;
 
         case 'in_lnk_stpl':
@@ -168,13 +154,6 @@ function gen_lf(lf_i, lf) {
             in_cntn.innerHTML = lf.insc_cntn;
             lf_protrusion.append(in_pnt, in_cntn);
             in_cntnr.appendChild(lf_protrusion);
-            if (lf.scions !== undefined) {
-                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
-                in_cntnr.append(exp_cntnr);
-                for (x in lf.scions) {
-                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
-                }
-            }
             break;
 
         case 'in_itr_txt':
@@ -373,6 +352,15 @@ function gen_lf(lf_i, lf) {
             }
             in_cntnr.appendChild(stm_cntnr);
             break;
+
+            
+    }
+    if (lf.scions !== undefined) {
+        var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
+        in_cntnr.append(leaflets);
+        for (x in lf.scions) {
+            leaflets.appendChild(gen_lf(x, lf.scions[x]));
+        }
     }
     return in_cntnr;
 }

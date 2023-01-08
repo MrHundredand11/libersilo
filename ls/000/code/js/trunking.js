@@ -343,12 +343,16 @@ function gen_lf(lf_i, lf) {
             
     }
     if (lf.scions !== undefined) {
-        if (lf.insc_type != 'stm') {
-            var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
-            in_cntnr.append(leaflets);
-            for (x in lf.scions) {
-                leaflets.appendChild(gen_lf(x, lf.scions[x]));
-            }
+        switch (lf.insc_type) {
+            case 'in_trm': case 'in_trm_stpl': case 'in_lnk_stpl': case 'in_txt': case 'blade':
+                var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
+                in_cntnr.append(leaflets);
+                for (x in lf.scions) {
+                    leaflets.appendChild(gen_lf(x, lf.scions[x]));
+                }
+                break;
+            default:
+                break;
         }
     }
     return in_cntnr;

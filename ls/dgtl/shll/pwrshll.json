@@ -32,6 +32,25 @@
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Import-PSSession $Session</span>&emsp;]"
                         }
                     ]
+                },
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Connecting",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Connecting</span>&nbsp;<span class='styl_stm_ttl_tny'>to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Exchange Online</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_cnnct",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Connect-ExchangeOnline</span>&emsp;]",
+                            "scions": [
+                                {
+                                    "insc_type": "in_txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Starts a session with Exchange Online and will pop up a dialogue box asking for your credentials."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

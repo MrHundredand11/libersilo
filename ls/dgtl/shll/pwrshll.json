@@ -48,7 +48,7 @@
                                     "insc_tag": "Usage",
                                     "insc_term": "Connect-ExchangeOnline",
                                     "insc_sld": "\\_",
-                                    "insc_cntn": "Starts a session with Exchange Online and will pop up a dialogue box asking for your credentials."
+                                    "insc_cntn": "starts a session with Exchange Online and will pop up a dialogue box asking for your credentials."
                                 }
                             ]
                         }

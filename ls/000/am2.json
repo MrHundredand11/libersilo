@@ -1468,6 +1468,13 @@
                     "scion_id": "ls_qbl_otz",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-OTz-000",
+                            "ls_ttl": "Overview of 'The Tree of Life'",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/000.json",
+                            "scion_id": "ls_qbl_otz_000"
+                        },
+                        {
                             "ls_id": "LS-QBL-OTz-SPR01",
                             "ls_ttl": "The Sephirah Kether",
                             "ls_type": "+>",

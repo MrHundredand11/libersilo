@@ -1,0 +1,39 @@
+{
+    "ls_id": "LS-DGTL-SHLL-PWRSHLL",
+    "ls_ttl": "PowerShell Scripting",
+    "ls_url": "/ls/dgtl/shll/pwrshll.json",
+    "scion_id": "ls_dgtl_shll_pwrshll",
+    "scions": [
+        {
+            "drct_id": "CMND",
+            "drct_ttl": "PowerShell Commands for 'Exchange Online'",
+            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl",
+            "scions": [
+                {
+                    "insc_type": "stm",
+                    "insc_tag": "Preliminaries",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Preliminaries</span>&nbsp;<span class='styl_stm_ttl_tny'>for working with</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Exchange Online</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prelim",
+                    "scions": [
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Set-Execution Policy RemoteSigned -Force</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>$UserCredential = Get-Credential</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection</span>&emsp;]"
+                        },
+                        {
+                            "insc_type": "in_txt",
+                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Import-PSSession $Session</span>&emsp;]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

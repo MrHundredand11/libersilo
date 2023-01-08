@@ -204,3 +204,9 @@
     display: flex;
     white-space: pre;
 }
+
+.styl_stm_shrt_trstlbrd {
+    padding-left: 47px;
+    margin-top: 17px;
+    display: none;
+}

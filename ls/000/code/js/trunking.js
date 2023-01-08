@@ -113,51 +113,51 @@ function gen_term(lf_id, lf_term) {
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
     var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_hide`, `${lf_id}_lf_cntnr`);
+    var in_prtr = createElementWithClass('div', 'styl_lf_protrusion');
+    in_cntnr.appendChild(in_prtr);
     
+    if (lf.insc_sld !== undefined) {
+        var in_sld = createElementWithClass('span', 'styl_pointers');
+        in_sld.innerHTML = lf.insc_sld;
+        in_prtr.append(in_sld);
+    }
+
     if (lf.insc_pntr !== undefined) {
         var in_pnt = gen_Pntr(lf_i, lf.scion_id, lf.insc_pntr);
     } else {
         var in_pnt = gen_Pntr(lf.scion_id, lf_i);
     }
-    
-    var lf_protrusion = createElementWithClass('div', 'styl_lf_protrusion');
-    
-    if (lf.insc_sld !== undefined) {
-        var in_sld = createElementWithClass('span', 'styl_pointers');
-        in_sld.innerHTML = lf.insc_sld;
-        in_cntnr.append(in_sld);
-    }
 
     switch (lf.insc_type) {
         case 'in_trm':
             var in_trm = gen_term(lf_id, lf.insc_term);
-            in_cntnr.append(in_pnt, in_trm);
+            in_prtr.append(in_pnt, in_trm);
             break;
 
         case 'in_trm_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_trm = gen_term(lf_id, lf.insc_term);
-            in_cntnr.append(in_pnt, in_tag, in_trm);            
+            in_prtr.append(in_pnt, in_tag, in_trm);            
             break;
 
         case 'in_lnk_stpl':
             var in_tag = generateTag(lf_id, lf.insc_tag);    
             var in_lnk = gen_term(lf_id, lf.insc_cntn);
-            in_cntnr.append(in_pnt, in_tag, in_lnk);            
+            in_prtr.append(in_pnt, in_tag, in_lnk);            
             break;
 
         case 'in_txt':
             var in_cntn = createElementWithClass('div', 'styl_in_txt');
             in_cntn.innerHTML = lf.insc_cntn;
-            in_cntnr.append(in_pnt, in_cntn);
+            in_prtr.append(in_pnt, in_cntn);
             break;
 
         case 'in_itr_txt':
             var in_cntn = createElementWithClass('div', 'styl_in_txt');
             in_cntn.innerHTML = lf.insc_cntn;
             var in_itr = createElementWithClass('span', 'styl_lf_itr_num');
-            in_itr.innerHTML = `${lf.insc_itr}&nbsp`;
-            in_cntnr.append(in_itr, in_pnt, in_cntn);
+            in_itr.innerHTML = `${lf.insc_itr}&nbsp;`;
+            in_prtr.append(in_itr, in_pnt, in_cntn);
             break;
                     
         case 'blade':
@@ -167,7 +167,7 @@ function gen_lf(lf_i, lf) {
             var bld_term = gen_term(lf_id, lf.insc_term);
             var lf_bld = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
             lf_bld.innerHTML = lf.insc_cntn; 
-            in_cntnr.append(in_pnt, in_tag, in_arm);
+            in_prtr.append(in_pnt, in_tag, in_arm);
 
             if (bld_term !== undefined) {
                 var lf_eqls = createElementWithClass('div', 'styl_pointers');
@@ -175,14 +175,6 @@ function gen_lf(lf_i, lf) {
                 in_arm.append(bld_term, lf_eqls, lf_bld);      
             } else {
                 in_arm.appendChild(lf_bld);
-            }
-
-            if (lf.scions !== undefined) {
-                var exp_cntnr = createElementWithClass('div', 'styl_in_exp_cntnr');
-                in_cntnr.append(exp_cntnr);
-                for (x in lf.scions) {
-                    exp_cntnr.appendChild(gen_lf(x, lf.scions[x]));
-                }
             }
             break;
 
@@ -224,7 +216,7 @@ function gen_lf(lf_i, lf) {
             lf_ttl.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
 
             lf_cntn.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
-            in_cntnr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
+            in_prtr.append(lf_bmp_top, lf_ttl, lf_cntn, lf_bmp_btm);
 
             for (lfl in lf.scions) {
                 var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
@@ -268,7 +260,7 @@ function gen_lf(lf_i, lf) {
             var in_pnter = gen_Pntr(lf.scion_id, lf_i);
             var in_ttl = createElementWithClass('div', 'styl_lf_lst_entr');
             in_ttl.innerHTML = lf.insc_ttl;
-            in_cntnr.append(in_pnter, in_ttl);
+            in_prtr.append(in_pnter, in_ttl);
             break;
         
         case 'stm_list':
@@ -293,7 +285,7 @@ function gen_lf(lf_i, lf) {
                 var entr_full = gen_lf(i2, lf.scions[i2]);
                 stm_trstlbrd.appendChild(entr_full);
             }
-            in_cntnr.appendChild(stm_cntnr);
+            in_prtr.appendChild(stm_cntnr);
             break;
 
         case 'stm':
@@ -319,7 +311,7 @@ function gen_lf(lf_i, lf) {
                 var entr_full = gen_lf(i2, lf.scions[i2]);
                 stm_trstlbrd.appendChild(entr_full);
             }
-            in_cntnr.appendChild(stm_cntnr);
+            in_prtr.appendChild(stm_cntnr);
             break;
 
         case 'stm_shrt':
@@ -345,7 +337,7 @@ function gen_lf(lf_i, lf) {
                 var entr_full = gen_lf(i2, lf.scions[i2]);
                 stm_trstlbrd.appendChild(entr_full);
             }
-            in_cntnr.appendChild(stm_cntnr);
+            in_prtr.appendChild(stm_cntnr);
             break;
 
             

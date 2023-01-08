@@ -80,8 +80,23 @@ function showHideStem(scion_id) {
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_show');
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_hide');
     }
-    
+}
 
+function showHideStemShrt(scion_id) {
+    var stm_clss = document.getElementById(`id_stm_shrt_cntnr_${scion_id}`).className;
+    if (stm_clss.includes('stt_show')) {
+        document.getElementById(`id_stm_shrt_bmp_top_${scion_id}`).style.display = "none";
+        document.getElementById(`id_stm_shrt_bmp_btm_${scion_id}`).style.display = "none";
+        document.getElementById(`id_stm_shrt_trstlbrd_${scion_id}`).style.display = "none";
+        document.getElementById(`id_stm_shrt_cntnr_${scion_id}`).classList.add('stt_hide');
+        document.getElementById(`id_stm_shrt_cntnr_${scion_id}`).classList.remove('stt_show');
+    } else if (stm_clss.includes('stt_hide')) {
+        document.getElementById(`id_stm_shrt_bmp_top_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_shrt_bmp_btm_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_shrt_trstlbrd_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_shrt_cntnr_${scion_id}`).classList.add('stt_show');
+        document.getElementById(`id_stm_shrt_cntnr_${scion_id}`).classList.remove('stt_hide');
+    }
 }
 
 function showHideTwig(scion_id) {
@@ -102,8 +117,6 @@ function showHideTwig(scion_id) {
 }
 
 function showHideStmExp(lf_id) {
-    console.log(lf_id);
-    console.log(document.getElementById(`${lf_id}_lf_cntnr`));
     var twg_clss = document.getElementById(`${lf_id}_lf_cntnr`).className;
     if (twg_clss.includes('stt_show')) {
         document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "none";

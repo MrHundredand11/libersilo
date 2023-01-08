@@ -1,5 +1,5 @@
 .styl_in_txt {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     display: flex;
 }
 

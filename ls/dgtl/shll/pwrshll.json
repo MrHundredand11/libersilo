@@ -83,7 +83,7 @@
                             "scions": [
                                 {
                                     "insc_type": "in_txt",
-                                    "insc_cntn": "Owner = allows read + create + modify + delete for all items and folders. Also allows the management of permissions of items."
+                                    "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Owner</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;for all items and folders. Also allows the management of permissions of items."
                                 }
                             ]
                         }

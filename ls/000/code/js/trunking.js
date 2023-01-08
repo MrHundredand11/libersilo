@@ -351,10 +351,12 @@ function gen_lf(lf_i, lf) {
             
     }
     if (lf.scions !== undefined) {
-        var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
-        in_cntnr.append(leaflets);
-        for (x in lf.scions) {
-            leaflets.appendChild(gen_lf(x, lf.scions[x]));
+        if (lf.insc_type !== 'stm') {
+            var leaflets = createElementWithClass('div', 'styl_in_exp_cntnr');
+            in_cntnr.append(leaflets);
+            for (x in lf.scions) {
+                leaflets.appendChild(gen_lf(x, lf.scions[x]));
+            }
         }
     }
     return in_cntnr;

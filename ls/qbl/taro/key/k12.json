@@ -87,7 +87,8 @@
                             "insc_term": "Lucid Dreaming"
                         },
                         {
-                            "insc_type": "in_trm",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
                             "insc_term": "Stillness"
                         },
                         {

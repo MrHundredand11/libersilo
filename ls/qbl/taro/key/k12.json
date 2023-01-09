@@ -18,87 +18,87 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Dissolution"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Sacrifice"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Renunciation"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Redemption"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Immersion"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Baptism"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Crucifixion"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Listening"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Change of Perspective"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Suspension"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Time Out"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Cleansing"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Earned or Bought Wisdom"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Lucid Dreaming"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Stillness"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Meditation"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "The Power of Water",
                             "insc_info": [
                                 {
@@ -110,32 +110,32 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Roads Less Traveled"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Waiting"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Self-Abnegation"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Service to Others"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Annihilation of the self in the Beloved"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm",
+                            "insc_typ2": "trm",
                             "insc_term": "Enlightenment Process"
                         }
                     ]

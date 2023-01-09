@@ -65,6 +65,71 @@
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_astringent"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Plants",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Plants</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Ivy",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_ivy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Yew",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_yew"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Hemlock",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemlock"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Nightshade",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_nightshade"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Amaranth",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_amaranth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Hemp",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemp"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Plant",
+                            "insc_term": "Aconite",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_aconite"
+                        }
+                    ]
                 }
             ]
         }

@@ -18,14 +18,14 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Complete Orbit",
                             "insc_term": "29.5 yrs"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Transit Time",
                             "insc_term": "2 1/2 yrs in each Sign"
@@ -41,14 +41,14 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Transit Time",
                             "insc_term": "2 1/2 yrs in each Sign"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt_stpl",
+                            "insc_typ2": "txt_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Transit Influence",
                             "insc_cntn": "The Sign that Saturn falls in shows the&nbsp;<span class='styl_in_txt_undr'>lessons of responsibility</span>&nbsp;that must be learned by our peer age group,\nhow our age group seeks&nbsp;<span class='styl_in_txt_undr'>status</span>,\nand&nbsp;what are their&nbsp;<span class='styl_in_txt_undr'>fears</span>&nbsp;or&nbsp;<span class='styl_in_txt_undr'>inadequacies</span>."
@@ -71,7 +71,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "bitter",
@@ -79,7 +79,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acid",
@@ -87,7 +87,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "sour",
@@ -95,7 +95,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acrid",
@@ -103,7 +103,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "pungent",
@@ -111,7 +111,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "astringent",
@@ -128,7 +128,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Ivy",
@@ -136,7 +136,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Yew",
@@ -144,7 +144,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Hemlock",
@@ -152,7 +152,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Nightshade",
@@ -160,7 +160,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Amaranth",
@@ -168,7 +168,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Hemp",
@@ -176,7 +176,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Aconite",
@@ -193,7 +193,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Sapphire",
@@ -201,7 +201,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Spinel",
@@ -209,7 +209,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Tanzanite",
@@ -217,7 +217,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Indicolite",
@@ -225,7 +225,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Iolote",
@@ -233,7 +233,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Amethyst",
@@ -250,7 +250,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Shape",
                             "insc_term": "Short, straight, hard lines, ornament-free but well drawn",
@@ -258,7 +258,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_sld": "\\_",
                             "insc_tag": "Texture",
                             "insc_term": "Cold, hard, and heavy",

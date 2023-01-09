@@ -10,102 +10,125 @@
             "scion_id": "ls_qbl_taro_key_k12_keyw",
             "scions": [
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Key Words + Phrases",
                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Words + Phrases</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Hanged Man</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_taro_key_k12_keyw_lst",
                     "scions": [
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Dissolution"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Dissolution"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Sacrifice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Renunciation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Redemption"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Immersion"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Baptism"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Crucifixion"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Listening"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Change of Perspective"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Suspension"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Time Out"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Cleansing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Earned or Bought Wisdom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Lucid Dreaming"
                         },
                         {
                             "insc_type": "in_trm",
-                            "insc_trm": "Sacrifice"
+                            "insc_term": "Stillness"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Renunciation"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Meditation"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Redemption"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "The Power of Water"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Immersion"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Roads Less Traveled"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Baptism"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Waiting"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Crucifixion"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Self-Abnegation"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Listening"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Service to Others"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Change of Perspective"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Annihilation of the self in the Beloved"
                         },
                         {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Suspension"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Time Out"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Cleansing"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Earned or Bought Wisdom"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Lucid Dreaming"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Stillness"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Meditation"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "The Power of Water"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Roads Less Traveled"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Waiting"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Self-Abnegation"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Service to Others"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Annihilation of the self in the Beloved"
-                        },
-                        {
-                            "insc_type": "in_trm",
-                            "insc_trm": "Enlightenment Process"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm",
+                            "insc_term": "Enlightenment Process"
                         }
                     ]
                 }

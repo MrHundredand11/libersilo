@@ -267,6 +267,148 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Saturn'",
+            "scion_id": "ls_qbl_alg_plnt_p07_mdcl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Medicaments",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Medicaments</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_mdcl_mdcmnts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Plumbum"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Antimonium"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Aconitum"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Hemp"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Cannabis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Agnus Eastus"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Opium"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Sabina"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Wolfbane"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Hellebore"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Henbane"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Mandrake"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Poppy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Hemlock"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Aconite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Pansy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Belladonna"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Menbrillo"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Cress"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Bag of Shepherd"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Medicament",
+                            "insc_term": "Capsella Bursa"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

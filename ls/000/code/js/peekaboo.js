@@ -133,6 +133,17 @@ function showHideStmExp(lf_id) {
     }
 }
 
+function pb_scns(insc_id) {
+    console.log(insc_id);
+    var insc_scns = document.getElementById(insc_id);
+    console.log(insc_scns);
+    if (insc_scns.style.display = "block") {
+        insc_scns.style.display = "none"
+    } else if (insc_scns.style.display = "none") {
+        insc_scns.style.display = "block"
+    }
+}
+
 function mnu_showHide_top(scion_id) {
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");

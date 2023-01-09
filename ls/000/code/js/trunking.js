@@ -201,10 +201,10 @@ function gen_Insc(insc_i, scion) {
                 insc_sld.innerHTML = lf.insc_sld;
                 insc_prtr.append(insc_sld);
             }
-            if (lf.insc_pntr !== undefined) {
-                var insc_pnt = gen_Pntr(lf_i, lf.scion_id, lf.insc_pntr);
+            if (scion.insc_pntr !== undefined) {
+                var insc_pnt = gen_Pntr(insc_i, scion.scion_id, scion.insc_pntr);
             } else {
-                var insc_pnt = gen_Pntr(lf.scion_id, lf_i);
+                var insc_pnt = gen_Pntr(scion.scion_id, insc_i);
             }
             insc_prtr.append(insc_pnt);
 

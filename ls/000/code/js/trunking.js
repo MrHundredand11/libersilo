@@ -194,7 +194,7 @@ function gen_Insc(insc_i, scion) {
             
             if (scion.insc_sld !== undefined) {
                 var insc_sld = createElementWithClass('span', 'styl_pointers');
-                insc_sld.innerHTML = lf.insc_sld;
+                insc_sld.innerHTML = scion.insc_sld;
                 insc_prtr.append(insc_sld);
             }
             if (scion.insc_pntr !== undefined) {

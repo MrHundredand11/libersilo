@@ -52,7 +52,11 @@ function rotatePointer(pnt_id) {
 
 function pb_scns(insc_id) {
     console.log(insc_id);
-    document.getElementById(insc_id).style.display = "block";
+    if (document.getElementById(insc_id).style.display = "block") {
+        document.getElementById(insc_id).style.display = "none"
+    } else if (document.getElementById(insc_id).style.display = "none") {
+        document.getElementById(insc_id).style.display = "block"
+    }
 }
 
 function gen_Pntr(lf_i, scion_id, pnt_type) {

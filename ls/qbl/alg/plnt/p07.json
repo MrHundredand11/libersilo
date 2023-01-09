@@ -1,0 +1,66 @@
+{
+    "ls_id": "LS-QBL-ALG-PLNT-P07",
+    "ls_ttl": "The Planet Saturn",
+    "ls_url": "/ls/qbl/alg/plnt/p07.json",
+    "scion_id": "ls_qbl_alg_plnt_p07",
+    "scions": [
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Saturn'",
+            "scion_id": "ls_qbl_alg_plnt_p07_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Flavors",
+                    "insc_ttl": "Flavors of (Saturn)",
+                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "bitter",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_bitter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "acid",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acid"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "sour",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_sour"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "acrid",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acrid"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "pungent",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_pungent"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Flavor",
+                            "insc_term": "astringent",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_astringent"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

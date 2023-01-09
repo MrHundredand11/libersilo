@@ -16,7 +16,18 @@
                     "scion_id": "ls_nn_st_o_apils_hmlck_luls_lst_scrpt",
                     "scions": [
                         {
-                            "insc_term": "Hosea 10:4"
+                            "insc_term": "Hosea 10:4",
+                            "scion_id": "ls_nn_st_o_apils_hmlck_luls_scrpt_hosea104",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "blade",
+                                    "insc_sld": "\\_",
+                                    "insc_tag": "Translation",
+                                    "insc_term": "{KVJ = King James Version}::",
+                                    "insc_cntn": "[&emsp;They have spoken words, swearing falsely in making a covenant:\nthus judgment springeth up as&nbsp;<span class='styl_in_txt_inlineterm_01'>hemlock</span>&nbsp;in the furrows of the field.&emsp;]"
+                                }
+                            ]
                         }
                     ]
                 }

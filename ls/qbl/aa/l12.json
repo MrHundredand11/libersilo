@@ -1,0 +1,42 @@
+{
+    "ls_id": "LS-QBL-AA-L12",
+    "ls_ttl": "The Letter Lamed",
+    "ls_url": "/ls/qbl/aa/l12.json",
+    "scion_id": "ls_qbl_qq_l12",
+    "scions": [
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_qbl_qq_l12_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Attributes",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Attribute</span>&nbsp;<span class='styl_stm_ttl_tny'>correspondences of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_qq_l12_qccl_atrb",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Attribute",
+                            "insc_term": "Truth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Attribute",
+                            "insc_term": "Balance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Attribute",
+                            "insc_term": "Justice"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

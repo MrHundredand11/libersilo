@@ -1070,6 +1070,13 @@
                                             "ls_type": "+>",
                                             "ls_url": "/ls/nn/st/o/apils/gnsng.json",
                                             "scion_id": "ls_nn_st_o_apils_gnsng"
+                                        },
+                                        {
+                                            "ls_id": "LS-NN-ST-O-APILS-HMLCK",
+                                            "ls_ttl": "Hemlock (Conium Maculatum)",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/apils/hmlck.json",
+                                            "scion_id": "ls_nn_st_o_apils_hmlck"
                                         }
                                     ]
                                 }

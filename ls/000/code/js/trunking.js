@@ -200,7 +200,7 @@ function gen_Insc(insc_i, scion) {
         case 'insc':
             var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
-            var insc_scns = gen_ECI('div', 'styl_in_scns', `id_insc_scns_${insc_id}`);
+            var insc_scns = gen_ECI('div', 'styl_insc_scns', `id_insc_scns_${insc_id}`);
             insc_cntnr.append(insc_prtr, insc_scns);
             
             if (scion.insc_sld !== undefined) {
@@ -280,7 +280,7 @@ function gen_Insc(insc_i, scion) {
             }
             
             if (scion.scions == undefined && scion.insc_info == undefined) {
-                var nomo = gen_ECI('div', 'styl_bmp_nomo', `id_insc_scns_nomo_${insc_id}`);
+                var nomo = gen_ECI('div', 'styl_insc_scns_nomo', `id_insc_scns_nomo_${insc_id}`);
                 nomo.innerHTML = "\\_+> No more content";
                 insc_scns.append(nomo);
             }

@@ -172,7 +172,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_type": "trm_stpl",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "El Sacerdote"
                         }

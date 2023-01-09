@@ -133,8 +133,8 @@ function gen_Insc(insc_i, scion) {
                     stm_nametag.innerHTML = `${pnt_branch} <span id='${insc_id}'>${stm_name}</span> ::`;
                     stm_bmp_btm.innerHTML = bmp_stem_bttm;
                     
-                    for (i2 in lf.scions) {
-                        var entr_full = gen_Insc(i2, lf.scions[i2]);
+                    for (i2 in scion.scions) {
+                        var entr_full = gen_Insc(i2, scion.scions[i2]);
                         stm_trstlbrd.appendChild(entr_full);
                     }
                     break;  

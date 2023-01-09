@@ -18,22 +18,22 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Set-Execution Policy RemoteSigned -Force</span>&emsp;]"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>$UserCredential = Get-Credential</span>&emsp;]"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>$Session = New-PSSession -ConfigurationName Microsoft.Exchange\n-ConnectionUri https://outlook.office365.com/powershell-liveid/\n-Credential $UserCredential -Authentication Basic -AllowRedirection</span>&emsp;]"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Import-PSSession $Session</span>&emsp;]"
                         }
                     ]
@@ -47,7 +47,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Connect-ExchangeOnline</span>&emsp;]",
                             "scions": [
                                 {
@@ -71,12 +71,12 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Set-Mailbox -Identity username@domain.com -HiddenFromAddressListsEnabled $true</span>&emsp;]"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "insc_txt",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Set-Mailbox -Identity username@domain.com -HiddenFromAddressListsEnabled $false</span>&emsp;]"
                         }
                     ]
@@ -96,22 +96,22 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "insc_txt",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Owner</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;for all items and folders. Also allows the management of permissions of items."
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "insc_txt",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>PublishingEditor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;items/subfolders."
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "insc_txt",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>Editor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>modify</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>delete</span>&nbsp;items."
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "insc_txt",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>PublishingAuthor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;for all items/subfolders; but can only modify and delete the items they create."
                                 }
                             ]

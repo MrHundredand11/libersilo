@@ -211,7 +211,7 @@ function gen_Insc(insc_i, scion) {
             if (scion.insc_pntr !== undefined) {
                 var insc_pnt = gen_Pntr(insc_i, scion.scion_id, scion.insc_pntr);
             } else {
-                var insc_pnt = gen_Pntr(scion.scion_id, insc_i);
+                var insc_pnt = gen_Pntr(insc_i, scion.scion_id);
             }
             insc_prtr.append(insc_pnt);
 

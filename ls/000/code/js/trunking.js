@@ -205,12 +205,12 @@ function gen_Insc(insc_i, scion) {
             insc_prtr.append(insc_pnt);
 
             switch (scion.insc_typ2) {
-                case 'insc_trm':
+                case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     insc_prtr.append(insc_trm);
                     break;
                 
-                case 'insc_trm_stpl':
+                case 'trm_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
@@ -218,26 +218,26 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.append(insc_tag, insc_extn);            
                     break;
 
-                case 'insc_lnk_stpl':
+                case 'lnk_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_lnk = gen_term(insc_id, scion.insc_cntn);
                     insc_prtr.append(insc_tag, insc_lnk);            
                     break;
 
-                case 'insc_txt':
+                case 'txt':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     insc_prtr.append(insc_cntn);
                     break;
                 
-                case 'insc_txt_stpl':
+                case 'txt_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     insc_prtr.append(insc_tag, insc_cntn);
                     break;
 
-                case 'insc_txt_itr':
+                case 'txt_itr':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     var insc_itr = createElementWithClass('span', 'styl_lf_itr_num');

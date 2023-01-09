@@ -50,9 +50,13 @@ function rotatePointer(pnt_id) {
 //     return pnter;
 // };
 
+function pb_scns(insc_id) {
+    console.log(insc_id);
+}
+
 function gen_Pntr(lf_i, scion_id, pnt_type) {
     var pntr = gen_ECI('div', 'styl_pointers styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);
-    pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}')`);
+    pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}'); pb_scns('id_insc_scns_${scion_id}');`);
     if (pnt_type !== undefined) {
         pntr.innerHTML = `${pnt_type}&nbsp`;
     } else {
@@ -209,9 +213,9 @@ function gen_Insc(insc_i, scion) {
                 insc_prtr.append(insc_sld);
             }
             if (scion.insc_pntr !== undefined) {
-                var insc_pnt = gen_Pntr(insc_i, scion.scion_id, scion.insc_pntr);
+                var insc_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
             } else {
-                var insc_pnt = gen_Pntr(insc_i, scion.scion_id);
+                var insc_pnt = gen_Pntr(insc_i, insc_id);
             }
             insc_prtr.append(insc_pnt);
 

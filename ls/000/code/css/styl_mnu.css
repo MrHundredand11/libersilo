@@ -17,8 +17,7 @@
 .styl_mnu_accrd_cntnr {
     display: block;
     border: 1.11px solid black;
-    margin-top: 3.33px;
-    margin-bottom: 3.33px;
+    margin: 4.44px;
     text-align: center;
     background-color: rgb(241, 241, 241);
 }
@@ -57,11 +56,10 @@
 .styl_mnu_accrd_fldr {
     border: 1.11px solid black;
     border-radius: 5px;
-    margin-right: 1.11px;
-    margin-left: 1.11px;
+    margin-right: 3.33px;
+    margin-left: 3.33px;
     margin-top: 3.33px;
     margin-bottom: 1.11px;
-    width: 97%;
     text-align: center;
     background-color: #E8E8E8;
 }
@@ -71,6 +69,7 @@
     font-size: 17px;
     text-align: start;
     padding: 5px;
+    margin-left: 11px;
 }
 
 .styl_mnu_accrd_fldr_ttl:hover {

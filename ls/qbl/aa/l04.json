@@ -25,31 +25,34 @@
             "scion_id": "ls_qbl_aa_l04_pryr",
             "scions": [
                 {
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "<span class='styl_in_txt_spprt'>List</span>&nbsp;<span class='styl_in_txt_tny'>of</span>&nbsp;<span class='styl_in_txt_spprt'>Prayers</span>&nbsp;<span class='styl_in_txt_tny'>of</span>&nbsp;(The Letter Daleth) ::",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Prayers</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Daleth</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;::",
                     "scion_id": "ls_qbl_aa_l04_pryr_lst",
                     "scions": [
                         {
-                            "insc_type": "twg_i",
                             "insc_tag": "Prayer",
                             "insc_term": "A Prayer of Daleth by Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki",
                             "scions": [
                                 {
-                                    "insc_type": "stm",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
                                     "insc_tag": "Text",
-                                    "insc_ttl": "Text of (A Prayer of Daleth)",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Text</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>A Prayer of Daleth</span><span class='styl_stm_ttl_opncls'>)</span>",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_txt",
                                     "scions": [
                                         {
-                                            "insc_type": "in_txt",
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
                                             "insc_cntn": "<span class='in_txt_cntrd'><span class='in_txt_headr_01'>DALETH<br>ד</span><br><br>Thou art the door to joy and tears.<br>All that lifts my heart and wounds my soul enters my world through thee.<br>Thou art the gateway to life and death,<br>knowledgeand power,<br>deceit and love.<br><br>Thy heart is a lock, but where shall I find the key?<br>Open to me, Beloved, let me enter into thee and know thy embrace.<br>Shall I knock upon thy lintel?<br>If I beg thee, wilt thou open to me?<br><br>Thou art the door to the Light,<br>and the key to the lock is love.<br><br>I wait before thee until,<br>weary with sleep denied, I close my eyes.<br>When I awake the way is open before me and,<br>singing praises to God, I enter thy world.</span>"
                                         }
                                     ]
                                 },
                                 {
-                                    "insc_type": "stm",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
                                     "insc_tag": "Commentary",
                                     "insc_ttl": "Commentary on (A Prayer of Daleth)",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_cmmntry"

@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-QBL-AA-L13",
+    "ls_ttl": "The Letter Mem",
+    "ls_url": "/ls/qbl/aa/l13.json",
+    "scion_id": "ls_qbl_aa_l13",
+    "scions": [
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Letter Mem'",
+            "scion_id": "ls_qbl_aa_l13_rltn",
+            "scions": [
+                {
+                    "insc_type": "stm_olst_exp",
+                    "insc_tag": "Relationships",
+                    "insc_ttl": "List of Relationships of (Mem)",
+                    "scion_id": "ls_qbl_aa_l13_rltn_lst",
+                    "scions": [
+                        {
+                            "insc_term": "(Mem) and (The Letter Samekh)"
+                        },
+                        {
+                            "insc_term": "(Mem) and (The Letter Tau)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

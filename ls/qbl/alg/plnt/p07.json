@@ -240,6 +240,31 @@
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_amethyst"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Shapes + Textures",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Shapes + Textures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Shape",
+                            "insc_term": "Short, straight, hard lines, ornament-free but well drawn",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_shp_shrtstrghthrdlnes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Texture",
+                            "insc_term": "Cold, hard, and heavy",
+                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_txtr_cldhrdhvy"
+                        }
+                    ]
                 }
             ]
         }

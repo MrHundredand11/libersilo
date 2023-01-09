@@ -52,6 +52,7 @@ function rotatePointer(pnt_id) {
 
 function pb_scns(insc_id) {
     console.log(insc_id);
+    console.log(document.getElementById(insc_id).style.display);
     if (document.getElementById(insc_id).style.display = "block") {
         document.getElementById(insc_id).style.display = "none"
     } else if (document.getElementById(insc_id).style.display = "none") {

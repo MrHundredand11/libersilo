@@ -1,99 +1,105 @@
 {
-    "ls_id": "LS-QBL-AA-L03",
-    "ls_ttl": "The Letter Gimel",
-    "scion_id": "ls_qbl_aa_l03",
+    "ls_id": "LS-QBL-AA-L02",
+    "ls_ttl": "The Letter Bayt",
+    "scion_id": "ls_qbl_aa_l02",
     "scions": [
         {
             "drct_id": "ASSC",
-            "drct_ttl": "Associations of 'The Letter Gimel'",
-            "scion_id": "ls_qbl_aa_l03_assc",
+            "drct_ttl": "Associations of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_assc",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of Associations of (The Letter Gimel) ::",
+                    "insc_ttl": "List of Assocations of (The Letter Bayt) ::",
                     "insc_tag": "Associations",
-                    "scion_id": "ls_qbl_aa_l03_assc_lst",
+                    "scion_id": "ls_qbl_aa_l02_assc_lst",
                     "scions": [
                         {
-                            "insc_term": "Transportation",
-                            "insc_type": "stm_olst_exp_i",
-                            "insc_tag": "Association",
-                            "scion_id": "ls_qbl_aa_l03_assc_transportation"
+                            "insc_term": "House"
+                        },
+                        {
+                            "insc_term": "Box // Container"
+                        },
+                        {
+                            "insc_term": "Body"
+                        },
+                        {
+                            "insc_term": "Blessing"
+                        },
+                        {
+                            "insc_term": "Book"
+                        },
+                        {
+                            "insc_term": "Duality"
+                        },
+                        {
+                            "insc_term": "Path of the Hearth Fire"
                         }
                     ]
                 }
             ]
         },
         {
-            "drct_id": "LTTR",
-            "drct_ttl": "The Letter of 'Gimel'",
-            "scion_id": "ls_qbl_aa_l03_lttr"
-        },
-        {
-            "drct_id": "ASTR",
-            "drct_ttl": "Celestial Correspondences of 'Gimel'",
-            "scion_id": "ls_qbl_aa_l03_astr",
+            "drct_id": "WORD",
+            "drct_ttl": "Important Words of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_word",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "{variant}::&nbsp;(Gimel) as (The Planet Luna)",
-                    "scion_id": "ls_qbl_aa_l03_astr_v_p01" 
-                },
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Important Words",
+                    "insc_ttl": "List of Important Words of (The Letter Bayt) ::",
+                    "scion_id": "ls_qbl_aa_l02_word_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Berakhoth",
+                            "scion_id": "ls_qbl_aa_l02_word_i_berakhoth"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_rltn",
+            "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "{variant}::&nbsp;(Gimel) as (The Planet Mercury)",
-                    "scion_id": "ls_qbl_aa_l03_astr_v_p02"
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Relationships",
+                    "insc_ttl": "List of Relationships of (The Letter Bayt) ::",
+                    "scion_id": "ls_qbl_aa_l02_rltn_lst",
+                    "scions": [
+                        {
+                            "insc_term": "(The Letter Bayt) + (The Letter Tau)",
+                            "scion_id": "ls_qbl_aa_l02_rltn_aa22"
+                        }
+                    ]
                 }
             ]
         },
         {
             "drct_id": "PRYR",
-            "drct_ttl": "Prayers of 'The Letter Gimel'",
-            "scion_id": "ls_qbl_aa_l03_pryr",
+            "drct_ttl": "Prayers of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_pryr",
             "scions": [
                 {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "lst_exp",
+                    "insc_type": "stm_olst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "List of Prayers of (The Letter Gimel) ::",
-                    "scion_id": "ls_qbl_aa_l03_pryr_lst",
+                    "insc_ttl": "List of Prayers of (The Letter Bayt) ::",
+                    "scion_id": "ls_qbl_aa_l02_pryr_lst",
                     "scions": [
                         {
-                            "insc_type": "twg_i",
                             "insc_tag": "Prayer",
-                            "insc_term": "A Prayer of Gimel by Dolores Ashcroft-Nowicki",
-                            "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki",
+                            "insc_term": "A Prayer of Beth by Dolores Ashcroft-Nowicki",
+                            "scion_id": "ls_qbl_aa_l02_pryr_doloresashcroftnowicki",
                             "scions": [
                                 {
-                                    "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
-                                    "insc_tag": "Text",
-                                    "insc_ttl": "Text of 'A Prayer of Gimel'",
-                                    "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki_txt",
-                                    "scions": [
-                                        {
-                                            "insc_typ1": "insc",
-                                            "insc_typ2": "insc_txt",
-                                            "insc_cntn": "<span class='in_txt_cntrd'><span class='in_txt_headr_01'>GIMEL<br>ג</span><br><br>Through thee my life is like a journey filled with wonder,<br>with change, and with challenge.<br>But when I am weary and the road seems long and endless,<br>oft times thine image appears before me in the distance.<br>Then I am lifted up and my limbs are eased of their pain.<br>Like a tired child I am borne onward and comforted by the motion of thy love.<br>I dream, and in my dream I see the road ahead, and I am made strong.<br>Thy strength prepares me for what is to come,<br>be it strewn with stones or paved with lustrous marble.<br>I awake from my dream to find myself beside the road.<br>I see thee departing in the distance and weep.<br>For now, I know I cannot be carried forever.<br>Chastened, I arise and begin to walk toward the Light.</span>"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
-                                    "insc_tag": "Commentary",
-                                    "insc_ttl": "Commentary on 'A Prayer of Gimel'",
-                                    "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki_cmmntry",
-                                    "scions": [
-                                        {
-                                            "insc_typ1": "insc",
-                                            "insc_typ2": "insc_txt",
-                                            "insc_cntn": "Random Commentary"
-                                        }
-                                    ]
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "<span class='in_txt_cntrd'>BETH<br><br>Thou art my house, my covering, my place of rest.<br>Thou art above me and below me and around me.<br><br>Behold, I am enclosed by thee<br>in the dark of the night<br>and before the coming of the dawn.<br><br>I am surrounded by thy strengh at the ending of the day.<br>I come unto thee to take my ease for thou art my foundation and my encompassment of safety.<br><br>The Lord God hath provided many rooms within thee,<br>and all are for my delight.<br>I shall lay down at the coming of night<br>and take my rest without fear.<br>For thou art the house of my Soul and<br>I abideth in thee with joy.</span>"
                                 }
                             ]
                         }
@@ -102,36 +108,14 @@
             ]
         },
         {
-            "drct_id": "WRDS",
-            "drct_ttl": "Important Words of 'The Letter Gimel'",
-            "scion_id": "ls_qbl_aa_l03_wrds",
+            "drct_id": "MNTR",
+            "drct_ttl": "Mantras of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_mntr",
             "scions": [
                 {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "lst_exp",
-                    "insc_tag": "Words Starting With",
-                    "insc_ttl": "List of Words Starting with (The Letter Gimel) ::",
-                    "scion_id": "ls_qbl_aa_l03_wrds_strt_lst",
-                    "scions": [
-                        {
-                            "insc_term": "גלגלול = GLGLVL"
-                        },
-                        {
-                            "insc_term": "גמרא = GMRA"
-                        },
-                        {
-                            "insc_term": "גדול = GDVL"
-                        },
-                        {
-                            "insc_term": "גבור = GBVR"
-                        },
-                        {
-                            "insc_term": "גאולה = GAVLH"
-                        },
-                        {
-                            "insc_term": "גמילות חסדים = GMYLVTh ChSDYM"
-                        }
-                    ]
+                    "insc_typ1": "insc",
+                    "insc_typ2": "txt",
+                    "insc_cntn": "[&emsp;My home reflects the beauty, love, and grace of Mother.&emsp;]"
                 }
             ]
         }

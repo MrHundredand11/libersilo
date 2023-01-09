@@ -181,7 +181,7 @@ function gen_Insc(insc_i, scion) {
                             
                         for (i2 in lf.scions[lfl].scions) {
                             //console.log(lf.scions[lfl].scions[i2]);
-                            var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
+                            var entr_full = gen_Insc(i2, lf.scions[lfl].scions[i2]);
                             //console.log(entr_full);
                             twg_cntn.appendChild(entr_full);
                         }
@@ -585,7 +585,7 @@ async function fetchy(zz) {
 
                     var stems = trst_brnchs[i].scions;
                     for (i2 in stems) {
-                        brnch_trstlbrd.appendChild(gen_lf(i2, stems[i2]));
+                        brnch_trstlbrd.appendChild(gen_Insc(i2, stems[i2]));
                     }
                 }
             }

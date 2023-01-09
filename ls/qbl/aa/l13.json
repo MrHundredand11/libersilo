@@ -10,7 +10,8 @@
             "scion_id": "ls_qbl_aa_l13_rltn",
             "scions": [
                 {
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Relationships",
                     "insc_ttl": "List of Relationships of (Mem)",
                     "scion_id": "ls_qbl_aa_l13_rltn_lst",

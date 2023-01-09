@@ -302,7 +302,8 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Hemp"
+                            "insc_term": "Hemp",
+                            "insc_dfin": "Cannabis Sativa I."
                         },
                         {
                             "insc_typ1": "insc",
@@ -338,7 +339,8 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Hellebore"
+                            "insc_term": "Hellebore",
+                            "insc_dfin": "the white and black"
                         },
                         {
                             "insc_typ1": "insc",
@@ -362,49 +364,57 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Hemlock"
+                            "insc_term": "Hemlock",
+                            "insc_dfin": "Conium Maculatum"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Aconite"
+                            "insc_term": "Aconite",
+                            "insc_dfin": "Aconitum Napellus I."
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Pansy"
+                            "insc_term": "Pansy",
+                            "insc_dfin": "Viola Tricolor"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Belladonna"
+                            "insc_term": "Belladonna",
+                            "insc_dfin": "Atropa Belladonna I."
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Menbrillo"
+                            "insc_term": "Menbrillo",
+                            "insc_dfin": "Cydonia Vulgaris I."
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Cress"
+                            "insc_term": "Cress",
+                            "insc_dfin": "in Chile"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Bag of Shepherd"
+                            "insc_term": "Bag of Shepherd",
+                            "insc_dfin": "in Spain"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
-                            "insc_term": "Capsella Bursa"
+                            "insc_term": "Capsella Bursa",
+                            "insc_dfin": "Pastoris Moench"
                         }
                     ]
                 }

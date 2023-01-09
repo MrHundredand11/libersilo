@@ -80,7 +80,7 @@ function generateLeafletIdNum(xx) {
 function generateTag(lf_id, twig_tag) {
     var lf_tag_id = `${lf_id}_tag`;
     var lf_tag_full = gen_ECI('div', 'styl_tag', lf_tag_id);
-    lf_tag_full.setAttribute('onclick', `showHide('id_insc_trm_stpl_expn_${lf_id}')`);
+    lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
     lf_tag_full.innerHTML = `[${twig_tag}]::&nbsp`;
     return lf_tag_full;
 }
@@ -228,6 +228,13 @@ function gen_Insc(insc_i, scion) {
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     insc_prtr.append(insc_cntn);
+                    break;
+                
+                case 'insc_txt_stpl':
+                    var insc_tag = generateTag(insc_id, scion.insc_tag);    
+                    var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
+                    insc_cntn.innerHTML = scion.insc_cntn;
+                    insc_prtr.append(insc_tag, insc_cntn);
                     break;
 
                 case 'insc_txt_itr':

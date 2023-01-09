@@ -3,3 +3,7 @@
     left: 31px;
     position: relative;
 }
+
+.styl_insc_txt {
+    display: flex;
+}

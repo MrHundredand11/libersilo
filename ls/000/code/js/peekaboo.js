@@ -135,12 +135,16 @@ function showHideStmExp(lf_id) {
 
 function pb_scns(insc_id) {
     console.log(insc_id);
-    var insc_scns = document.getElementById(insc_id);
-    console.log(insc_scns);
-    if (insc_scns.style.display = "block") {
-        insc_scns.style.display = "none"
-    } else if (insc_scns.style.display = "none") {
-        insc_scns.style.display = "block"
+    var scns_clss = document.getElementById(insc_id).className;
+    console.log(scns_clss);
+    if (scns_clss.includes('stt_show')) {
+        document.getElementById(insc_id).style.display = "none";
+        document.getElementById(insc_id).classList.add('stt_hide');
+        document.getElementById(insc_id).classList.remove('stt_show');
+    } else if (scns_clss.includes('stt_hide')) {
+        document.getElementById(insc_id).style.display = "block";
+        document.getElementById(insc_id).classList.add('stt_show');
+        document.getElementById(insc_id).classList.remove('stt_hide');
     }
 }
 

@@ -213,7 +213,9 @@ function gen_Insc(insc_i, scion) {
                 case 'insc_trm_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_trm = gen_term(insc_id, scion.insc_term);
-                    insc_prtr.append(insc_tag, insc_trm);            
+                    var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
+                    insc_extn.append(insc_trm);
+                    insc_prtr.append(insc_tag, insc_extn);            
                     break;
 
                 case 'insc_lnk_stpl':

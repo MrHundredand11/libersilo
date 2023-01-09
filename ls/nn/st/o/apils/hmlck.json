@@ -5,6 +5,27 @@
     "scion_id": "ls_nn_st_o_apils_hmlck",
     "scions": [
         {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_nn_st_o_apils_hmlck_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "Qabalistic Correspondences of (Hemlock)",
+                    "scion_id": "ls_nn_st_o_apils_hmlck_qccl_qbl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_tag": "Planetary Ruler",
+                            "insc_term": "Saturn"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "MGCK",
             "drct_ttl": "Magickal Uses of 'Hemlock'",
             "scion_id": "ls_nn_st_o_apils_hmlck_mgck",

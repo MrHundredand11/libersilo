@@ -262,8 +262,12 @@ function gen_Insc(insc_i, scion) {
             
             if (scion.insc_info !== undefined) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
+                var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);
+                var info_cntn = gen_ECI('div', 'styl_info_cntn', `id_info_cntn_${insc_id}`);
+                info_head.innerHTML = "\\_\\}>%%>>&nbsp;{[Extended Info + Correspondences}]&nbsp;::";
+                insc_info.append(info_head, info_cntn);
                 for (x in scion.insc_info) {
-                    insc_info.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));
+                    info_cntn.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));
                 }
                 insc_scns.appendChild(insc_info);
             }

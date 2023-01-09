@@ -110,6 +110,168 @@ function gen_term(lf_id, lf_term) {
     }
 }           
 
+function gen_Insc(insc_i, scion) {
+    var insc_id = generateLeafIdNum(scion.scion_id, insc_i);
+    switch (scion.insc_typ1) {
+        case 'stm':
+            var stm_id = `id_stm_${insc_id}`;    
+            var stm_name = scion.insc_ttl;    
+            var stm_cntnr = gen_ECI('div', 'styl_stm_cntnr stt_hide', `id_stm_cntnr_${insc_id}`);
+            var stm_bmp_top = gen_ECI('div', 'styl_stm_bmp_top', `id_stm_bmp_top_${insc_id}`);
+            var stm_nametag = gen_ECI('div', 'styl_stm_nametag', `id_stm_nametag_${insc_id}`);
+            var stm_trstlbrd = gen_ECI('div', 'styl_stm_trstlbrd', `id_stm_trstlbrd_${insc_id}`);
+            var stm_bmp_btm = gen_ECI('div', 'styl_stm_bmp_btm', `id_stm_bmp_btm_${insc_id}`);
+
+            stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
+            stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+            stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`);   
+            stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm); 
+        
+            switch (scion.insc_typ2) {
+                case 'brnch':
+                    stm_bmp_top.innerHTML = bmp_stem_top;
+                    stm_nametag.innerHTML = `${pnt_branch} <span id='${insc_id}'>${stm_name}</span> ::`;
+                    stm_bmp_btm.innerHTML = bmp_stem_bttm;
+                    
+                    for (i2 in lf.scions) {
+                        var entr_full = gen_Insc(i2, lf.scions[i2]);
+                        stm_trstlbrd.appendChild(entr_full);
+                    }
+                    break;  
+
+                case 'lst_exp':
+                    var lf_ls_shrt = gen_ECI('div', 'styl_lf_stm_olst_exp_ls_shrt', `${insc_id}_lf_stm_olst_exp_ls_short`);
+                    var lf_bmp_cycl = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_cycl', `${insc_id}_lf_stm_olst_exp_bmp_cycl`);
+                    var lf_expnd = gen_ECI('div', 'styl_lf_stm_olst_exp_expnd', `${insc_id}_lf_stm_olst_exp_expnd`);
+
+                    stm_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
+                    stm_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
+                    stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
+                    stm_nametag.innerHTML = `${pnt_branch}&nbsp;${stm_name}&nbsp;::`;
+
+                    // stm_bmp_btm.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
+                    // stm_bmp_top.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
+                    // lf_ttl.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
+
+                    stm_trstlbrd.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
+                    
+                    for (lfl in scion.scions) {
+                        var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
+                        var lfl_shrt_pnter = gen_Pntr(scion.scions[lfl].scion_id, insc_i);
+                        var lfl_shrt_term = createElementWithClass('a', 'styl_lfl_shrt_term');
+                        lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${scion.scion_id}_${lfl}`);
+                        lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
+                        lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
+                        lf_ls_shrt.appendChild(lfl_shrt);
+
+                        var twg_cntnr = gen_ECI('div', 'styl_twg_cntnr stt_hide', `id_twg_cntnr_${scion.scion_id}_${lfl}`);
+                        var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${scion.scion_id}_${lfl}`);
+                        var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
+                        var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${scion.scion_id}_${lfl}`);
+                        var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${scion.scion_id}_${lfl}`);
+                        twg_ttl.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_top.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_btm.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_top.innerHTML = "---<br>--- ---";
+                        twg_bmp_btm.innerHTML = "---- ----<br>----";
+                        twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>${scion.scions[lfl].insc_term}</span>&nbsp<span class='styl_pointers'>::</span>`;
+
+                        twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
+                        lf_expnd.appendChild(twg_cntnr);
+                            
+                        for (i2 in lf.scions[lfl].scions) {
+                            //console.log(lf.scions[lfl].scions[i2]);
+                            var entr_full = gen_lf(i2, lf.scions[lfl].scions[i2]);
+                            //console.log(entr_full);
+                            twg_cntn.appendChild(entr_full);
+                        }
+                    }
+                    break;
+            }  
+            return stm_cntnr;
+        
+        case 'insc':
+            var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
+            var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
+            var insc_scns = gen_ECI('div', 'styl_in_scns', `id_insc_scns_${insc_id}`);
+            insc_cntnr.append(insc_prtr, insc_scns);
+            
+            if (scion.insc_sld !== undefined) {
+                var insc_sld = createElementWithClass('span', 'styl_pointers');
+                insc_sld.innerHTML = lf.insc_sld;
+                insc_prtr.append(insc_sld);
+            }
+            if (lf.insc_pntr !== undefined) {
+                var insc_pnt = gen_Pntr(lf_i, lf.scion_id, lf.insc_pntr);
+            } else {
+                var insc_pnt = gen_Pntr(lf.scion_id, lf_i);
+            }
+            insc_prtr.append(insc_pnt);
+
+            switch (scion.insc_typ2) {
+                case 'insc_trm':
+                    var insc_trm = gen_term(insc_id, scion.insc_term);
+                    insc_prtr.append(insc_trm);
+                    break;
+                
+                case 'insc_trm_stpl':
+                    var insc_tag = generateTag(insc_id, scion.insc_tag);    
+                    var insc_trm = gen_term(insc_id, scion.insc_term);
+                    insc_prtr.append(insc_tag, insc_trm);            
+                    break;
+
+                case 'insc_lnk_stpl':
+                    var insc_tag = generateTag(insc_id, scion.insc_tag);    
+                    var insc_lnk = gen_term(insc_id, scion.insc_cntn);
+                    insc_prtr.append(insc_tag, insc_lnk);            
+                    break;
+
+                case 'insc_txt':
+                    var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
+                    insc_cntn.innerHTML = scion.insc_cntn;
+                    insc_prtr.append(insc_cntn);
+                    break;
+
+                case 'insc_txt_itr':
+                    var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
+                    insc_cntn.innerHTML = scion.insc_cntn;
+                    var insc_itr = createElementWithClass('span', 'styl_lf_itr_num');
+                    insc_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
+                    insc_prtr.append(insc_itr, insc_cntn);
+                    break;
+
+                case 'blade':
+                    var bld_id = generateBladeIdNum(scion.scion_id, insc_i);
+                    var insc_tag = generateTag(bld_id, scion.insc_tag);
+                    var insc_arm = gen_ECI('div', 'styl_in_arm', `id_in_arm_${bld_id}`);
+                    var insc_term = gen_term(insc_id, scion.insc_term);
+                    var insc_cntn = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
+                    insc_cntn.innerHTML = scion.insc_cntn; 
+                    insc_prtr.append(insc_tag, insc_arm);
+
+                    if (insc_term !== undefined) {
+                        var lf_eqls = createElementWithClass('div', 'styl_pointers');
+                        lf_eqls.innerHTML = bmp_def;
+                        insc_arm.append(insc_term, lf_eqls, insc_cntn);      
+                    } else {
+                        insc_arm.appendChild(insc_cntn);
+                    }
+                    break;
+            }
+            if (scion.scions !== undefined) {
+                for (x in scion.scions) {
+                    insc_scns.appendChild(gen_Insc(x, scion.scions[x]));
+                }
+            } else {
+                var nomo = gen_ECI('div', 'styl_bmp_nomo', `id_insc_scns_nomo_${insc_id}`);
+                nomo.innerHTML = "\\_+> No more content";
+                insc_scns.append(nomo);
+            }
+            return insc_cntnr;
+    }
+
+}
+
 function gen_lf(lf_i, lf) {
     var lf_id = generateLeafIdNum(lf.scion_id, lf_i);
     var in_cntnr = gen_ECI('div', `styl_lf_cntnr styl_lf_${lf.insc_type} stt_hide`, `${lf_id}_lf_cntnr`);

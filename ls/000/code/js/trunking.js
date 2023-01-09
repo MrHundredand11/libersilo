@@ -108,7 +108,13 @@ function gen_term(lf_id, lf_term) {
         trm.innerHTML = lf_term;
         return trm;
     }
-}           
+}         
+
+function gen_Info(insc_i, insc_id, info) {
+    var info_bit = gen_ECI('div', 'styl_insc_info_bit', `id_insc_info_bit_${insc_id}`);
+    info_bit.innerHTML = info.info_ttl;
+    return info_bit;
+}
 
 function gen_Insc(insc_i, scion) {
     var insc_id = generateLeafIdNum(scion.scion_id, insc_i);
@@ -263,7 +269,15 @@ function gen_Insc(insc_i, scion) {
                 for (x in scion.scions) {
                     insc_scns.appendChild(gen_Insc(x, scion.scions[x]));
                 }
-            } 
+            }
+            
+            if (scion.insc_info !== undefined) {
+                var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
+                for (x in scion.insc_info) {
+                    insc_info.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));
+                }
+                insc_scns.appendChild(insc_info);
+            }
             
             if (scion.scions == undefined) {
                 var nomo = gen_ECI('div', 'styl_bmp_nomo', `id_insc_scns_nomo_${insc_id}`);

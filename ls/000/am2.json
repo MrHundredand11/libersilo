@@ -121,11 +121,20 @@
                             "scion_id": "ls_dgtl_db_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-DB-GRAPH",
-                            "ls_ttl": "Graph Databases",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/db/graph.json",
-                            "scion_id": "ls_dgtl_db_graph"
+                            "ls_id": "LS-DGTL-DB-DBTYPE",
+                            "ls_ttl": "Database Types",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/db/dbtype/",
+                            "scion_id": "ls_dgtl_db_dbtype",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-DB-DBTYPE-GRAPH",
+                                    "ls_ttl": "Graph Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/dbtype/graph.json",
+                                    "scion_id": "ls_dgtl_db_dbtype_graph"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-DGTL-DB-QL",

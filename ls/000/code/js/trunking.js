@@ -142,7 +142,7 @@ function gen_Insc(insc_i, scion) {
 
                 case 'lst_exp':
                     var lf_ls_shrt = gen_ECI('div', 'styl_lf_stm_olst_exp_ls_shrt', `${insc_id}_lf_stm_olst_exp_ls_short`);
-                    var lf_bmp_cycl = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_cycl', `${insc_id}_lf_stm_olst_exp_bmp_cycl`);
+                    var stm_bmp_cycl = gen_ECI('div', 'styl_lf_stm_olst_exp_bmp_cycl', `${insc_id}_lf_stm_olst_exp_bmp_cycl`);
                     var lf_expnd = gen_ECI('div', 'styl_lf_stm_olst_exp_expnd', `${insc_id}_lf_stm_olst_exp_expnd`);
 
                     stm_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
@@ -154,7 +154,7 @@ function gen_Insc(insc_i, scion) {
                     // stm_bmp_top.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
                     // lf_ttl.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
 
-                    stm_trstlbrd.append(lf_ls_shrt, lf_bmp_cycl, lf_expnd);
+                    stm_trstlbrd.append(lf_ls_shrt, stm_bmp_cycl, lf_expnd);
                     
                     for (lfl in scion.scions) {
                         var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');

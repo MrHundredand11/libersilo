@@ -19,6 +19,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "bitter",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_bitter"
@@ -26,6 +27,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acid",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acid"
@@ -33,6 +35,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "sour",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_sour"
@@ -40,6 +43,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acrid",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acrid"
@@ -47,6 +51,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "pungent",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_pungent"
@@ -54,6 +59,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "astringent",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_astringent"

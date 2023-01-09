@@ -24,8 +24,8 @@
                                     "insc_typ2": "blade",
                                     "insc_sld": "\\_",
                                     "insc_tag": "Translation",
-                                    "insc_term": "{KVJ = King James Version}::",
-                                    "insc_cntn": "[&emsp;They have spoken words, swearing falsely in making a covenant:\nthus judgment springeth up as&nbsp;<span class='styl_in_txt_inlineterm_01'>hemlock</span>&nbsp;in the furrows of the field.&emsp;]"
+                                    "insc_term": "{KJV = King James Version}::",
+                                    "insc_cntn": "[&emsp;They have spoken words, swearing falsely in making a covenant:\n&emsp;thus judgment springeth up as&nbsp;<span class='styl_in_txt_inlineterm_01'>hemlock</span>&nbsp;in the furrows of the field.&emsp;]"
                                 }
                             ]
                         }

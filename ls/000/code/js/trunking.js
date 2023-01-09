@@ -38,27 +38,6 @@ function rotatePointer(pnt_id) {
     }
     
 };
-            
-// function generatePointer(scion_id, lf_i) {
-//     const idx2 = `id_pnt_${scion_id}_${lf_i}`;
-//     var pnter = createElementWithClass('div', 'styl_pointers');
-//     pnter.classList.add('styl_pnt_0deg');
-//     pnter.setAttribute('id', idx2);
-//     pnter.setAttribute('onclick', `rotatePointer('${idx2}')`);
-//     pnter.innerHTML = "+>&nbsp";
-//     //let pnt_plus_p = "<div class='styl_pointers' style='display: inline-block' onclick='rotatePointer(" + idx2 + ")' id='" + idx2 + "'>+> </div>";
-//     return pnter;
-// };
-
-function pb_scns(insc_id) {
-    console.log(insc_id);
-    console.log(document.getElementById(insc_id).style.display);
-    if (document.getElementById(insc_id).style.display = "block") {
-        document.getElementById(insc_id).style.display = "none"
-    } else if (document.getElementById(insc_id).style.display = "none") {
-        document.getElementById(insc_id).style.display = "block"
-    }
-}
 
 function gen_Pntr(lf_i, scion_id, pnt_type) {
     var pntr = gen_ECI('div', 'styl_pointers styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);

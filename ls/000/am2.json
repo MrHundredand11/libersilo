@@ -103,6 +103,22 @@
                             "ls_id": "LS-DGTL-CODE-000",
                             "ls_ttl": "Overview of 'Coding + Scripting + Programming'",
                             "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-WEB",
+                            "ls_ttl": "Web Development + Design",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/code/web/",
+                            "scion_id": "ls_dgtl_code_web",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-CSS",
+                                    "ls_ttl": "CSS Styling",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/css.json",
+                                    "scion_id": "ls_dgtl_code_web_css"
+                                }
+                            ]
                         }
                     ]
                 },

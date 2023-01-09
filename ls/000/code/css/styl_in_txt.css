@@ -48,7 +48,8 @@
 }
 
 .styl_in_arm {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .styl_in_exp_cntnr {

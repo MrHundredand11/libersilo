@@ -5,6 +5,42 @@
     "scion_id": "ls_nn_st_o_apils_hmlck",
     "scions": [
         {
+            "drct_id": "MGCK",
+            "drct_ttl": "Magickal Uses of 'Hemlock'",
+            "scion_id": "ls_nn_st_o_apils_hmlck_mgck",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "List of Magickal Uses of (Hemlock)",
+                    "scion_id": "ls_nn_st_o_apils_hmlck_mgck_lst_uses",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_txt",
+                            "insc_tag": "Magickal Use",
+                            "insc_cntn": "used in magick to induce astral projection",
+                            "scion_id": "ls_nn_st_o_apils_hmlck_mgck_lst_uses_astrprj"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_txt",
+                            "insc_tag": "Magickal Use",
+                            "insc_cntn": "used in spells to destroy sexual drives",
+                            "scion_id": "ls_nn_st_o_apils_hmlck_mgck_lst_uses_dstrsx"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_txt",
+                            "insc_tag": "Magickal Use",
+                            "insc_cntn": "used to purify, empower, and consecrate magical tools",
+                            "scion_id": "ls_nn_st_o_apils_hmlck_mgck_lst_uses_cnscrt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Hemlock'",
             "scion_id": "ls_nn_st_o_apils_hmlck_luls",

@@ -279,7 +279,7 @@ function gen_Insc(insc_i, scion) {
                 insc_scns.appendChild(insc_info);
             }
             
-            if (scion.scions == undefined || scion.insc_info == undefined) {
+            if (scion.scions == undefined && scion.insc_info == undefined) {
                 var nomo = gen_ECI('div', 'styl_bmp_nomo', `id_insc_scns_nomo_${insc_id}`);
                 nomo.innerHTML = "\\_+> No more content";
                 insc_scns.append(nomo);

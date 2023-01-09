@@ -1,0 +1,26 @@
+{
+    "ls_id": "LS-NN-ST-O-APILS-HMLCK",
+    "ls_ttl": "Hemlock (Conium Maculatum)",
+    "ls_url": "/ls/nn/st/o/apils/hmlck.json",
+    "scion_id": "ls_nn_st_o_apils_hmlck",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Hemlock'",
+            "scion_id": "ls_nn_st_o_apils_hmlck_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "List of Scriptures about (Hemlock)",
+                    "scion_id": "ls_nn_st_o_apils_hmlck_luls_lst_scrpt",
+                    "scions": [
+                        {
+                            "insc_term": "Hosea 10:4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1475,6 +1475,13 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/alg/plnt/p01.json",
                                     "scion_id": "ls_qbl_alg_plnt_p01"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P07",
+                                    "ls_ttl": "The Planet Saturn",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p07.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p07"
                                 }
                             ]
                         }

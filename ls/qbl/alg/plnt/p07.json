@@ -19,14 +19,39 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Complete Orbit",
                             "insc_term": "29.5 yrs"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
                             "insc_tag": "Transit Time",
                             "insc_term": "2 1/2 yrs in each Sign"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Transits",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Transits</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_astr_trnst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_trm_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Transit Time",
+                            "insc_term": "2 1/2 yrs in each Sign"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "insc_txt_stpl",
+                            "insc_sld": "\\_",
+                            "insc_tag": "Transit Influence",
+                            "insc_term": "The Sign that Saturn falls in shows the&nbsp;<span class='styl_in_txt_undr'>lessons of responsibility</span>&nbsp;that must be learned by our peer age group,&nbsp;how our age group seeks&nbsp;<span class='styl_in_txt_undr'>status</span>, and&nbsp;what are their&nbsp;<span class='styl_in_txt_undr'>fears</span>&nbsp;or&nbsp;<span class='styl_in_txt_undr'>inadequacies</span>."
                         }
                     ]
                 }

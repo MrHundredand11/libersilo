@@ -80,8 +80,8 @@ function generateLeafletIdNum(xx) {
 function generateTag(lf_id, twig_tag) {
     var lf_tag_id = `${lf_id}_tag`;
     var lf_tag_full = gen_ECI('div', 'styl_tag', lf_tag_id);
-    lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
-    lf_tag_full.innerHTML = `[${twig_tag}] ::&nbsp`;
+    lf_tag_full.setAttribute('onclick', `showHide('id_insc_trm_stpl_expn_${lf_id}')`);
+    lf_tag_full.innerHTML = `[${twig_tag}]::&nbsp`;
     return lf_tag_full;
 }
 

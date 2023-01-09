@@ -134,7 +134,7 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_btm.innerHTML = bmp_stem_bttm;
                     
                     for (i2 in scion.scions) {
-                        console.log(scion.scion[i2]);
+                        console.log(scion.scions[i2]);
                         var entr_full = gen_Insc(i2, scion.scions[i2]);
                         stm_trstlbrd.appendChild(entr_full);
                     }

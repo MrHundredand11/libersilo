@@ -10,99 +10,117 @@
             "scion_id": "ls_qbl_taro_key_k05_qccl",
             "scions": [
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Tarot",
                     "insc_ttl": "Tarot Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_taro",
                     "scions": [
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Card Number",
                             "insc_term": "5"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Tarot Key",
                             "insc_term": "05"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Tarot Trump",
                             "insc_term": "V"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Thoth Tarot Atu",
                             "insc_term": "V"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Tarot Card",
                             "insc_term": "The Hierophant"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Esoteric Title",
                             "insc_term": "The Magus of The Eternal"
                         }
                     ]
                 },
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Qabalah",
                     "insc_ttl": "Qabalistic Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_qblh",
                     "scions": [
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Arcana Alphabet",
                             "insc_term": "The Letter Vav"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Qabalistic Path",
                             "insc_term": "Path 16"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Astrological Sign",
                             "insc_term": "Taurus"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Path Color",
                             "insc_term": "Red-Orange"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Related Sound",
                             "insc_term": "C Sharp"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Letter Meaning",
                             "insc_term": "Nail // Pin // Hook"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Simple Letter",
                             "insc_term": "Hearing"
                         }
                     ]
                 },
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Magick",
                     "insc_ttl": "Magickal Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_mgck",
                     "scions": [
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Magical Weapon",
                             "insc_term": "The Labor of Preparation"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Magical Power",
                             "insc_term": "The Secret of Physical Strength"
                         }
@@ -116,38 +134,45 @@
             "scion_id": "ls_qbl_taro_key_k05_name",
             "scions": [
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Names + Titles",
                     "insc_ttl": "List of Names + Titles of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_name_lst",
                     "scions": [
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "The Hierophant"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "The Pope"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "The Pontiff"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "Jupiter"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "The High Priest"
                         },
                         {
-                            "insc_type": "in_trm_stpl",
+                            "insc_typ1": "insc",
+                            "insc_type": "trm_stpl",
                             "insc_tag": "Name",
                             "insc_term": "El Sacerdote"
                         }
@@ -161,7 +186,8 @@
             "scion_id": "ls_qbl_taro_key_k05_symb",
             "scions": [
                 {
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Symbols",
                     "insc_ttl": "List of Symbols + Scenery of (The Hierophant Card) ::",
                     "scion_id": "ls_qbl_taro_key_k05_symb_lst",
@@ -211,29 +237,34 @@
             "scion_id": "ls_qbl_taro_key_k05_divn",
             "scions": [
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Indications",
                     "insc_ttl": "(The Hierophant Card) Upright",
                     "scion_id": "ls_qbl_taro_key_k05_divn_uprght",
                     "scions": [
                         {
-                            "insc_type": "stm",
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
                             "insc_tag": "Meanings",
                             "insc_ttl": "Meanings of (The Hierophant) Upright",
                             "scion_id": "ls_qbl_taro_key_k05_divn_uprght_meanings",
                             "scions": [
                                 {
-                                    "insc_type": "in_trm_stpl",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Meaning",
                                     "insc_term": "Tradition"
                                 },
                                 {
-                                    "insc_type": "in_trm_stpl",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Meaning",
                                     "insc_term": "Convention"
                                 },
                                 {
-                                    "insc_type": "in_trm_stpl",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Meaning",
                                     "insc_term": "Orthodoxy"
                                 }

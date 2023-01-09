@@ -4,6 +4,7 @@
     position: relative;
 }
 
-.styl_insc_txt {
-
+.styl_insc_dfin_cntn {
+    font-style: italic;
+    font-family: sitka;
 }

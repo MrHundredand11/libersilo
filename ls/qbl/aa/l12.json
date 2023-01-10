@@ -39,6 +39,44 @@
             ]
         },
         {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Lamed'",
+            "scion_id": "ls_qbl_qq_l12_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Animals",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Animals</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_qq_l12_cntr_anmls",
+                    "scions": [
+                        {
+                            "insc_term": "Birds // Avians"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'Lamed'",
+            "scion_id": "ls_qbl_qq_l12_deit",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Deity Archetypes",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deity Archetypes</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_qq_l12_deit_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ma'at"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Lamed'",
             "scion_id": "ls_qbl_qq_l12_luls",

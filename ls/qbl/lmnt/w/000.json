@@ -148,6 +148,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_pntr": "}+>",
+                            "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_bld'>Polarities</span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scions": [
                                 {
@@ -168,6 +169,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_pntr": "}+>",
+                            "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_bld'>Polarities</span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scions": [
                                 {

@@ -1,0 +1,53 @@
+{
+    "ls_id": "LS-QBL-LMNT-W-000",
+    "ls_ttl": "The 4 + 5th Elements of The West",
+    "ls_url": "/ls/qbl/lmnt/w/000.json",
+    "scion_id": "ls_qbl_lmnt_w_000",
+    "scions": [
+        {
+            "drct_id": "ALCM",
+            "drct_ttl": "Alchemy of 'The 4 + 5th Elements'",
+            "scion_id": "ls_qbl_lmnt_w_000_alcm",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Alchemical Qualities",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Alchemical Qualities</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Qualities",
+                            "insc_cntn": "The Four Elements of the ancients are assigned the dual combination of two of the four qualities of heat, cold, dryness, and moisture.",
+                            "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts_qualitiesall",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "Fire = Heat + Dryness"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "Water = Cold + Moisture"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "Air = Heat + Moisture"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "Earth = Cold + Dryness"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -5,6 +5,28 @@
     "scion_id": "ls_qbl_aa_l13",
     "scions": [
         {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Mem'",
+            "scion_id": "ls_qbl_aa_l13_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Element",
+                    "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Mem</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>as</span>&nbsp;<span class='styl_stm_ttl_spprt'>The Element of Water</span>",
+                    "scion_id": "ls_qbl_aa_l13_qblh_lmnt_e02",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Point",
+                            "insc_cntn": "The spelling of the Letter-Name of the Letter M (מ) is מים (MYM),\nwhich translates to the word \"water\" or \"waters\". The word \"Mem\" literally means \"seas\" but it designates the general idea of \"water\"."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "RLTN",
             "drct_ttl": "Relationships of 'The Letter Mem'",
             "scion_id": "ls_qbl_aa_l13_rltn",

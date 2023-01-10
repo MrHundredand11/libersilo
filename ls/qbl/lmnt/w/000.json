@@ -372,6 +372,46 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'The 4+5th Elements'",
+            "scion_id": "ls_qbl_lmnt_w_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Quotes",
+                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Quotes</span>&nbsp;<span class='styl_stm_ttl_tny'>about</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_lmnt_w_000_quot_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Clement of Alexandria",
+                            "scion_id": "ls_qbl_lmnt_w_000_quot_lst_i_clementalexandria",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Quote",
+                                    "insc_sld": "\\_",
+                                    "insc_cntn": "[&emsp;'O divine works! O divine commands! Let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>water</span>&nbsp;undulate within itself;\nlet this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>fire</span>&nbsp;restrain its wrath; let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>air</span>&nbsp;wander into ether;\nand this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>earth</span>&nbsp;be consolidated, and acquire motion!\nWhen I want to form man, I want matter, and have matter in the elements.\n&nbsp;<span class='styl_insc_txt_stkitc styl_insc_txt_stkbld'>I dwell with what I have formed.</span>&nbsp;If you know me, the fire will be your slave.'\nSuch is the Word, such is the Instructor, the Creator of the world and of man;\nand of Himself, now the world's Instructor, by whose command we and the universe subsist, and await judgment.",
+                                    "scion_id": "ls_qbl_lmnt_w_000_quot_lst_i_clementalexandria_divnwrksdivncmmnds",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_tag": "Reference",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "<span class='styl_insc_txt_stkitc'>The Writings of Clement of Alexandria</span>&nbsp;(1931, p.341)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

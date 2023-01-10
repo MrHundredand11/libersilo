@@ -32,3 +32,8 @@
 .styl_insc_scns_extr {
     display: none;
 }
+
+.styl_insc_txt_stkitc {
+    font-style: italic;
+    font-family: sitka;
+}

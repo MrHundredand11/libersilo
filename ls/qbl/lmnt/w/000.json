@@ -21,7 +21,7 @@
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Qualities",
                             "insc_sld": "\\_",
-                            "insc_cntn": "The Four Elements of the ancients are assigned the dual combination of two of the four qualities of heat, cold, dryness, and moisture.",
+                            "insc_cntn": "The Four Elements of the ancients are assigned the\n<span class='styl_insc_txt_undr'>dual combination of two of the four qualities</span>\nof&nbsp;<span class='styl_insc_txt_stkblditc_17'>heat</span>,&nbsp;<span class='styl_insc_txt_stkblditc_17'>cold</span>,&nbsp;<span class='styl_insc_txt_stkblditc_17'>dryness</span>, and&nbsp;<span class='styl_insc_txt_stkblditc_17'>moisture</span>.",
                             "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts_qualitiesall",
                             "scions": [
                                 {

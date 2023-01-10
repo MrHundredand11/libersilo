@@ -48,6 +48,13 @@
                                     "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Earth</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Cold</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Dryness</span>"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Reinforcement",
+                            "insc_cntn": "The constant recalling and remembrance and reflection on the characteristics + qualities of The Elements will quickly unveil new levels of insights into the mechanisms of their inner mechanics.",
+                            "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts_reinfrce_renemberance"
                         }
                     ]
                 }

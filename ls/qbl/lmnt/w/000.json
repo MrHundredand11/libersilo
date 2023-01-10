@@ -134,6 +134,61 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_tag": "Polarities",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Polarities</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_lmnt_w_000_qblh_polarities",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "Every Element has&nbsp;<span class='styl_insc_txt_undr'>two polarities</span>:&nbsp;<span class='styl_insc_txt_stkblditc_17'>active</span>&nbsp;and&nbsp;<span class='styl_insc_txt_stkblditc_17'>passive</span>"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "}+>",
+                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_bld'>Polarities</span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "+=>",
+                                    "insc_cntn": "<span class='styl_insc_txt_bld'>Plus</span>&nbsp;(<span class='styl_insc_txt_itc'>active</span>)&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_txt_stkitc'>constructive</span>,&nbsp;<span class='styl_insc_txt_stkitc'>creative</span>, and&nbsp;<span class='styl_insc_txt_stkitc'>procreative</span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "+=>",
+                                    "insc_cntn": "<span class='styl_insc_txt_bld'>Minus</span>&nbsp;(<span class='styl_insc_txt_itc'>passive</span>)&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_txt_stkitc'>decomposing</span>&nbsp;and&nbsp;<span class='styl_insc_txt_stkitc'>deconstructing</span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "}+>",
+                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_bld'>Polarities</span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "+=>",
+                                    "insc_cntn": "<span class='styl_insc_txt_bld'>Plus</span>&nbsp;(<span class='styl_insc_txt_itc'>active</span>)&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_txt_stkitc'>constructive</span>,&nbsp;<span class='styl_insc_txt_stkitc'>life-giving</span>,&nbsp;<span class='styl_insc_txt_stkitc'>preserving</span>, and&nbsp;<span class='styl_insc_txt_stkitc'>preserving</span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "+=>",
+                                    "insc_cntn": "<span class='styl_insc_txt_bld'>Minus</span>&nbsp;(<span class='styl_insc_txt_itc'>passive</span>)&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_txt_stkitc'>decomposing</span>,&nbsp;<span class='styl_insc_txt_stkitc'>fermenting</span>,&nbsp;<span class='styl_insc_txt_stkitc'>divisive</span>, and&nbsp;<span class='styl_insc_txt_stkitc'>dispersing</span>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Paths",
                     "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)&nbsp;<span class='styl_stm_ttl_tny'>of the</span>&nbsp;</span><span class='styl_stm_ttl_spprt'>Qabalistic Paths</span>",
                     "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths",
@@ -394,7 +449,7 @@
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Quote",
                                     "insc_sld": "\\_",
-                                    "insc_cntn": "[&emsp;'O divine works! O divine commands! Let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>water</span>&nbsp;undulate within itself;\nlet this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>fire</span>&nbsp;restrain its wrath; let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>air</span>&nbsp;wander into ether;\nand this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>earth</span>&nbsp;be consolidated, and acquire motion!\nWhen I want to form man, I want matter, and have matter in the elements.\n&nbsp;<span class='styl_insc_txt_stkitc styl_insc_txt_trm_stkbld'>I dwell with what I have formed.</span>&nbsp;If you know me, the fire will be your slave.'\nSuch is the Word, such is the Instructor, the Creator of the world and of man;\nand of Himself, now the world's Instructor, by whose command we and the universe subsist, and await judgment.",
+                                    "insc_cntn": "[&emsp;'O divine works! O divine commands! Let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_stkbld'>water</span>&nbsp;undulate within itself;\nlet this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>fire</span>&nbsp;restrain its wrath; let this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>air</span>&nbsp;wander into ether;\nand this&nbsp;<span class='styl_insc_txt_undr styl_insc_txt_trm_stkbld'>earth</span>&nbsp;be consolidated, and acquire motion!\nWhen I want to form man, I want matter, and have matter in the elements.\n&nbsp;<span class='styl_insc_txt_stkitc styl_insc_txt_trm_stkbld'>I dwell with what I have formed.</span>&nbsp;If you know me, the fire will be your slave.'\nSuch is the Word, such is the Instructor, the Creator of the world and of man;\nand of Himself, now the world's Instructor, by whose command we and the universe subsist, and await judgment.&emsp;]",
                                     "scion_id": "ls_qbl_lmnt_w_000_quot_lst_i_clementalexandria_divnwrksdivncmmnds",
                                     "scions": [
                                         {

@@ -142,84 +142,84 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 0 = Spirit // Ether // Quintessence",
+                            "insc_cntn": "Path 0 =&nbsp;<span class='styl_insc_txt_trm_grg'>Spirit // Ether // Quintessence</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p00"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 1 = Root of Air",
+                            "insc_cntn": "Path 1 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p01"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 2 = Root of Fire",
+                            "insc_cntn": "Path 2 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p02"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 3 = Root of Water",
+                            "insc_cntn": "Path 3 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p03"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 4 = Water",
+                            "insc_cntn": "Path 4 =&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p04"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 5 = Fire",
+                            "insc_cntn": "Path 5 =&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p05"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 6 = Air",
+                            "insc_cntn": "Path 6 =&nbsp;<span class='styl_insc_txt_trm_grg'>Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p06"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 7 = Fire",
+                            "insc_cntn": "Path 7 =&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p07"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 8 = Water",
+                            "insc_cntn": "Path 8 =&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p08"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 9 = Air",
+                            "insc_cntn": "Path 9 =&nbsp;<span class='styl_insc_txt_trm_grg'>Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p09"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 10 = Earth",
+                            "insc_cntn": "Path 10 =&nbsp;<span class='styl_insc_txt_trm_grg'>Earth</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p10"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 11 = Hot and Moist Air",
+                            "insc_cntn": "Path 11 =&nbsp;<span class='styl_insc_txt_trm_grg'>Hot and Moist Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p11"
                         },
                         {
@@ -247,42 +247,42 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 15 = Fire",
+                            "insc_cntn": "Path 15 =&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p15"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 16 = Earth",
+                            "insc_cntn": "Path 16 =&nbsp;<span class='styl_insc_txt_trm_grg'>Earth</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p16"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 17 = Air",
+                            "insc_cntn": "Path 17 =&nbsp;<span class='styl_insc_txt_trm_grg'>Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p17"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 18 = Water",
+                            "insc_cntn": "Path 18 =&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p18"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 19 = Fire",
+                            "insc_cntn": "Path 19 =&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p19"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 20 = Earth",
+                            "insc_cntn": "Path 20 =&nbsp;<span class='styl_insc_txt_trm_grg'>Earth</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p20"
                         },
                         {
@@ -296,35 +296,35 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 22 = Air",
+                            "insc_cntn": "Path 22 =&nbsp;<span class='styl_insc_txt_trm_grg'>Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p22"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 23 = Cold and Moist Water",
+                            "insc_cntn": "Path 23 =&nbsp;<span class='styl_insc_txt_trm_grg'>Cold and Moist Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p23"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 24 = Water",
+                            "insc_cntn": "Path 24 =&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p24"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 25 = Fire",
+                            "insc_cntn": "Path 25 =&nbsp;<span class='styl_insc_txt_trm_grg'>Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p25"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 26 = Earth",
+                            "insc_cntn": "Path 26 =&nbsp;<span class='styl_insc_txt_trm_grg'>Earth</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p26"
                         },
                         {
@@ -338,14 +338,14 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 28 = Air",
+                            "insc_cntn": "Path 28 =&nbsp;<span class='styl_insc_txt_trm_grg'>Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p28"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 29 = Water",
+                            "insc_cntn": "Path 29 =&nbsp;<span class='styl_insc_txt_trm_grg'>Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p29"
                         },
                         {
@@ -359,14 +359,14 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 31 = Hot and Dry Fire",
+                            "insc_cntn": "Path 31 =&nbsp;<span class='styl_insc_txt_trm_grg'>Hot and Dry Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p31"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 32b = Cold and Dry Earth",
+                            "insc_cntn": "Path 32b =&nbsp;<span class='styl_insc_txt_trm_grg'>Cold and Dry Earth</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p32b"
                         }
                     ]

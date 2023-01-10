@@ -293,6 +293,9 @@ function gen_Insc(insc_i, scion) {
                 insc_scns_nomo.appendChild(nomo);
                 insc_scns.append(insc_scns_nomo);
             }
+            if (scion.insc_offs !== undefined) {
+                insc_cntnr.classList.add(`${scion.insc_offs}`);
+            }
             return insc_cntnr;
     }
 

@@ -1,3 +1,8 @@
 .styl_info_cntn {
     left: 31px;
 }
+
+.styl_info_bit {
+    position: relative;
+    margin-left: 23px;
+}

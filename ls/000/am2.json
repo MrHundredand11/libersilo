@@ -1525,6 +1525,13 @@
                     "scion_id": "ls_qbl_lmnt",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-LMNT-W-000",
+                            "ls_ttl": "The 4 + 5th Elements of The West",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/000.json",
+                            "scion_id": "ls_qbl_lmnt_w_000"
+                        },
+                        {
                             "ls_id": "LS-QBL-LMNT-W-E00",
                             "ls_ttl": "The Element of Spirit",
                             "ls_type": "+>",

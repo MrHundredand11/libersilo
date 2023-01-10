@@ -8,6 +8,11 @@
     font-family: sitka;
 }
 
+.styl_insc_txt_undr {
+    text-decoration: underline;
+    display: inline-block;
+}
+
 .styl_insc_txt_trm_grg {
     font-weight: bold;
     font-family: georgia;

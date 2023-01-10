@@ -26,22 +26,22 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "Fire = Heat + Dryness"
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Fire</span>&nbsp;= Heat + Dryness"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "Water = Cold + Moisture"
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Water</span>&nbsp;= Cold + Moisture"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "Air = Heat + Moisture"
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Air</span>&nbsp;= Heat + Moisture"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "Earth = Cold + Dryness"
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Earth</span>&nbsp;= Cold + Dryness"
                                 }
                             ]
                         }

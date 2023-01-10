@@ -26,22 +26,26 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "<span class='styl_insc_txt_xtroff_131'><span class='styl_insc_txt_trm_grg'>Fire</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Heat</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Dryness</span></span>"
+                                    "insc_offs": "styl_insc_offs_131",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Fire</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Heat</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Dryness</span>"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "<span class='styl_insc_txt_xtroff_131'><span class='styl_insc_txt_trm_grg'>Water</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Cold</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Moisture</span></span>"
+                                    "insc_offs": "styl_insc_offs_131",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Water</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Cold</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Moisture</span>"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "<span class='styl_insc_txt_xtroff_131'><span class='styl_insc_txt_trm_grg'>Air</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Heat</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Moisture</span></span>"
+                                    "insc_offs": "styl_insc_offs_131",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Air</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Heat</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Moisture</span>"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "<span class='styl_insc_txt_xtroff_131'><span class='styl_insc_txt_trm_grg'>Earth</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Cold</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Dryness</span></span>"
+                                    "insc_offs": "styl_insc_offs_131",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Earth</span>&nbsp;=&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Cold</span>&nbsp;+&nbsp;<span class='styl_insc_txt_trm_stkitc_19'>Dryness</span>"
                                 }
                             ]
                         }

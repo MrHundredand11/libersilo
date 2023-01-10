@@ -84,12 +84,6 @@
     font-weight: bold;
 }
 
-.styl_stm_trstlbrd {
-    padding-left: 47px;
-    margin-top: 17px;
-    display: none;
-}
-
 .styl_stem_tail {
     text-align: center;
     padding-bottom: 23px;
@@ -206,6 +200,12 @@
 }
 
 .styl_stm_shrt_trstlbrd {
+    padding-left: 73px;
+    margin-top: 17px;
+    display: none;
+}
+
+.styl_stm_trstlbrd {
     padding-left: 73px;
     margin-top: 17px;
     display: none;

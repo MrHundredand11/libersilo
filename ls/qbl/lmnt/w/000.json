@@ -5,6 +5,36 @@
     "scion_id": "ls_qbl_lmnt_w_000",
     "scions": [
         {
+            "drct_id": "NAME",
+            "drct_ttl": "Names of 'The 4 + 5th Elements'",
+            "scion_id": "ls_qbl_lmnt_w_000_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Names + Titles",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Names + Titles</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_lmnt_w_000_name_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Principles",
+                            "scion_id": "ls_qbl_lmnt_w_000_name_lst_principles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Tattvas",
+                            "scion_id": "ls_qbl_lmnt_w_000_name_lst_tattvas"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "ALCM",
             "drct_ttl": "Alchemy of 'The 4 + 5th Elements'",
             "scion_id": "ls_qbl_lmnt_w_000_alcm",

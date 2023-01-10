@@ -274,6 +274,7 @@ function gen_Insc(insc_i, scion) {
                 }
             }
             
+            var scns_extr = gen_ECI('div', 'styl_insc_scns_extr', `id_insc_scns_extr_${insc_id}`);
             if (scion.insc_info !== undefined) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
                 var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);
@@ -283,16 +284,14 @@ function gen_Insc(insc_i, scion) {
                 for (x in scion.insc_info) {
                     info_cntn.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));
                 }
-                insc_scns.appendChild(insc_info);
+                scns_extr.appendChild(insc_info);
+            } else if (scion.insc_info == undefined) {
+                var scns_nomo = gen_ECI('div', 'styl_insc_scns_nomo', `id_insc_scns_nomo_${insc_id}`);
+                scns_nomo.innerHTML = "\\_+> No more content";
+                scns_extr.append(scns_nomo);
             }
-            
-            if (scion.scions == undefined && scion.insc_info == undefined) {
-                var insc_scns_nomo = gen_ECI('div', 'styl_insc_scns_nomo_c stt_hide', `id_insc_scns_${insc_id}`);
-                var nomo = gen_ECI('div', 'styl_insc_scns_nomo', `id_insc_scns_nomo_${insc_id}`);
-                nomo.innerHTML = "\\_+> No more content";
-                insc_scns_nomo.appendChild(nomo);
-                insc_scns.append(insc_scns_nomo);
-            }
+            insc_scns.append(scns_extr);
+
             if (scion.insc_offs !== undefined) {
                 insc_cntnr.classList.add(`${scion.insc_offs}`);
             }

@@ -20,7 +20,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
-                            "insc_cntn": "The spelling of the Letter-Name of the Letter M (מ) is מים (MYM),\nwhich translates to the word \"water\" or \"waters\". The word \"Mem\" literally means \"seas\" but it designates the general idea of \"water\"."
+                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr'>spelling of the Letter-Name</span>&nbsp;of the Letter M (מ) is מים (MYM),\nwhich translates to the word \"<span class='styl_insc_txt_stkitc'>water</span>\" or \"<span class='styl_insc_txt_stkitc'>waters</span>\". The word \"Mem\"\nliterally means \"<span class='styl_insc_txt_stkitc'>seas</span>\" but it designates the general idea of \"<span class='styl_insc_txt_stkitc'>water</span>\"."
                         }
                     ]
                 }

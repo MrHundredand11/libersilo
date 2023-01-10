@@ -21,7 +21,39 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "The Principles",
-                            "scion_id": "ls_qbl_lmnt_w_000_name_lst_principles"
+                            "scion_id": "ls_qbl_lmnt_w_000_name_lst_principles",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_pntr": "++>",
+                                    "insc_term": "The Principle of Spirit/Ether"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_pntr": "++>",
+                                    "insc_term": "The Principle of Fire"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_pntr": "++>",
+                                    "insc_term": "The Principle of Water"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_pntr": "++>",
+                                    "insc_term": "The Principle of Air"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_pntr": "++>",
+                                    "insc_term": "The Principle of Earth"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",

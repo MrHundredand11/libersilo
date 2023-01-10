@@ -100,7 +100,7 @@ function gen_term(lf_id, lf_term) {
 }         
 
 function gen_Info(insc_i, insc_id, info) {
-    var info_bit = gen_ECI('div', 'styl_insc_info_bit', `id_insc_info_bit_${insc_id}`);
+    var info_bit = gen_ECI('div', 'styl_info_bit', `id_info_bit_${insc_id}_${insc_i}`);
     info_bit.innerHTML = info.info_ttl;
     return info_bit;
 }
@@ -279,7 +279,7 @@ function gen_Insc(insc_i, scion) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
                 var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);
                 var info_cntn = gen_ECI('div', 'styl_info_cntn', `id_info_cntn_${insc_id}`);
-                info_head.innerHTML = "\\_>>>&nbsp;[Extended Info + Correspondences]&nbsp;::";
+                info_head.innerHTML = "\\_>>&nbsp;[Extended Info + Correspondences]&nbsp;>>";
                 insc_info.append(info_head, info_cntn);
                 for (x in scion.insc_info) {
                     info_cntn.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));

@@ -1,5 +1,4 @@
 .styl_insc_scns {
-    display: none;
     left: 31px;
     position: relative;
 }
@@ -14,8 +13,13 @@
     font-family: georgia;
 }
 
-.styl_insc_txt_trm_stkitc19 {
+.styl_insc_txt_trm_stkitc_19 {
     font-style: italic;
     font-family: sitka;
     font-size: 19px;
+}
+
+.styl_insc_txt_xtroff_131 {
+    position: relative;
+    margin-left: 131px;
 }

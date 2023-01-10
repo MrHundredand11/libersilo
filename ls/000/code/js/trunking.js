@@ -41,7 +41,7 @@ function rotatePointer(pnt_id) {
 
 function gen_Pntr(lf_i, scion_id, pnt_type) {
     var pntr = gen_ECI('div', 'styl_pointers styl_pnt_0deg', `id_pnt_${scion_id}_${lf_i}`);
-    pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}'); pb_scns('id_insc_scns_${scion_id}');`);
+    pntr.setAttribute('onclick', `rotatePointer('id_pnt_${scion_id}_${lf_i}'); pb_scns('id_insc_scns_extr_${scion_id}');`);
     if (pnt_type !== undefined) {
         pntr.innerHTML = `${pnt_type}&nbsp`;
     } else {
@@ -274,7 +274,7 @@ function gen_Insc(insc_i, scion) {
                 }
             }
             
-            var scns_extr = gen_ECI('div', 'styl_insc_scns_extr', `id_insc_scns_extr_${insc_id}`);
+            var scns_extr = gen_ECI('div', 'styl_insc_scns_extr stt_hide', `id_insc_scns_extr_${insc_id}`);
             if (scion.insc_info !== undefined) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
                 var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);

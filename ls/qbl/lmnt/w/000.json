@@ -20,6 +20,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Qualities",
+                            "insc_sld": "\\_",
                             "insc_cntn": "The Four Elements of the ancients are assigned the dual combination of two of the four qualities of heat, cold, dryness, and moisture.",
                             "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts_qualitiesall",
                             "scions": [
@@ -52,6 +53,8 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_sld": "\\_",
                             "insc_tag": "Reinforcement",
                             "insc_cntn": "The constant recalling and remembrance and reflection on the characteristics + qualities of The Elements will quickly unveil new levels of insights into the mechanisms of their inner mechanics.",
                             "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts_reinfrce_renemberance"

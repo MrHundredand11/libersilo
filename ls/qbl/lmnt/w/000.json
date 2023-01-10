@@ -142,28 +142,28 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 0 =&nbsp;<span class='styl_insc_txt_trm_grg'>Spirit // Ether // Quintessence</span>",
+                            "insc_cntn": "Path 0 =&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Spirit // Ether // Quintessence</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p00"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 1 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Air</span>",
+                            "insc_cntn": "Path 1 =&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Root of Air</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p01"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 2 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Fire</span>",
+                            "insc_cntn": "Path 2 =&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Root of Fire</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p02"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_tag": "Qabalistic Path",
-                            "insc_cntn": "Path 3 =&nbsp;<span class='styl_insc_txt_trm_grg'>Root of Water</span>",
+                            "insc_cntn": "Path 3 =&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Root of Water</span>",
                             "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths_p03"
                         },
                         {

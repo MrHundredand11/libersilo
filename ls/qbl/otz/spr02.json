@@ -41,14 +41,6 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Symbol",
-                            "insc_term": "Phallus // Lingam",
-                            "insc_dfin": "the Virile Member at its most Potent",
-                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_phallus"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Symbol",
                             "insc_term": "The Standing Stone",
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_standingstone"
                         },
@@ -65,6 +57,15 @@
                             "insc_tag": "Symbol",
                             "insc_term": "The Tower",
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_tower"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_term": "Phallus // Lingam",
+                            "insc_dfin": "the Virile Member at its most Potent",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_phallus"
                         },
                         {
                             "insc_typ1": "insc",

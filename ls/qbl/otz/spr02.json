@@ -117,7 +117,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch_lmb",
-                                    "insc_ttl": "<span class='styl_stm_ttl_tny'>From</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Point</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>to the</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Line</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<span class='styl_stm_ttl_tny'>From</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Point</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Line</span><span class='styl_stm_ttl_opncls'>)</span>",
                                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr_line_frompnttolne",
                                     "scions": [
                                         {

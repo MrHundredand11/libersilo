@@ -1,0 +1,97 @@
+{
+    "ls_id": "LS-QBL-OTz-SPR02",
+    "ls_ttl": "The Sephiroth of Chokmah",
+    "ls_url": "/ls/qbl/otz/spr02.json",
+    "scion_id": "ls_qbl_otz_spr02",
+    "scions": [
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Scenery of 'Chokmah'",
+            "scion_id": "ls_qbl_otz_spr02_symb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Symbols",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Line",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_line"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Straight Line",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_straightline"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Uplifted Rod of Power",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_uprodpwr"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "Phallus // Lingam",
+                            "insc_dfin": "the Virile Member at its most Potent",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_phallus"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Standing Stone",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_standingstone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Obelisk",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_obelisk"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Tower",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_tower"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_term": "The Yod",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_yod"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_term": "Yod of Tetragrammaton",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_yodttrgrmmtn"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Symbol",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_term": "The Inner Robe of Glory",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_innrrobeglry"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

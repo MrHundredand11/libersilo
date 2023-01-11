@@ -605,9 +605,12 @@ async function fetchy(zz) {
                     var bough_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${bough_id}`);
                     
                     bough_bmp_top.innerHTML = bmp_brnch_top;
+                    bough_bmp_top.setAttribute('onclick', `shovelDigging('${bough_id}')`);
                     bough_bmp_btm.innerHTML = bmp_brnch_btm;
-                    bough_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}' onclick='shovelDigging(\"${bough_id}\")'>-></span> <span class='styl_brnch_nametag_name'>${bough_name}</span>:`;
-                
+                    bough_bmp_btm.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+                    bough_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}'>-></span> <span class='styl_brnch_nametag_name'>${bough_name}</span>:`;
+                    bough_nametag.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+
                     bough_cntnr.append(bough_bmp_top, bough_nametag, bough_trstlbrd, bough_bmp_btm);
                     trst_cntnr.appendChild(bough_cntnr);
 

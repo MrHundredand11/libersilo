@@ -1,0 +1,134 @@
+{
+    "ls_id": "LS-QBL-OTz-SPR03",
+    "ls_ttl": "The Sephirah of Binah",
+    "ls_url": "/ls/qbl/otz/spr03.json",
+    "scion_id": "ls_qbl_otz_spr03",
+    "scions": [
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Divine Names",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Divine Names</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr03_name_dvnnames_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "ALHYM",
+                            "insc_dfin": "Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "YHVH ALHYM",
+                            "insc_dfin": "Yahweh Elohim // Jehovah Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "NV",
+                            "insc_dfin": "Nu // Nut // Nuit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "HKA",
+                            "insc_dfin": "Heka // Hekate // Heket"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Titles",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Titles</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "AMA",
+                            "insc_dfin": "the dark sterile Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "AYMA",
+                            "insc_dfin": "the bright fertile Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Kursiya",
+                            "insc_dfin": "the Throne"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Marah",
+                            "insc_dfin": "the Great Sea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Great Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Mother of All Living"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Supernal Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Dark Sterile Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Giver and Taker of Life"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Other Names",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Other Names</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Other Name",
+                            "insc_term": "HmG GeN"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

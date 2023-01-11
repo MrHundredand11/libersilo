@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Symbols",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls",
                     "scions": [
                         {
@@ -88,6 +88,36 @@
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_term": "The Inner Robe of Glory",
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_innrrobeglry"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Magickal Images",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Magical Images</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Magickal Image",
+                            "insc_term": "A Bearded Male Figure",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs_brddmlfgre"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Magickal Image",
+                            "insc_term": "The One-Who-Sits on The Throne",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs_onewhositsthrone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Magickal Image",
+                            "insc_term": "Event Horizon",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs_eventhorizon"
                         }
                     ]
                 }

@@ -1,11 +1,14 @@
 let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
-let pnt_branch = "<div class='styl_pointers'>]}=> </div>" + " ";
+let flow_brnch = "<div class='styl_pointers'>]}=></div>&nbsp;";
+let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
 let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
 let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
 let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
 let bmp_stem_top = "<div class='bumpers'>--- ---<br>--- --- ---</div>";
-let bmp_stem_bttm = "<div class='bump_butt'>---- ---- ----<br>---- ----</div>";
+let bmp_stem_btm = "<div class='bump_butt'>---- ---- ----<br>---- ----</div>";
+let bmp_lmb_top = "<div class='bumpers'>-- --<br>-- -- --</div>";
+let bmp_lmb_btm = "<div class='bump_butt'>--- --- ---<br>--- ---</div>";
 let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
 let bmp_stem_cycl = "<div class='styl_stem_cycl bumpers'><br>------- ------- -------<br>------- -------<br>-------</div>";
 let bmp_stem_exli = "<div class='bumper'>---<br>--- ---<br></div>";
@@ -125,15 +128,25 @@ function gen_Insc(insc_i, scion) {
             switch (scion.insc_typ2) {
                 case 'brnch':
                     stm_bmp_top.innerHTML = bmp_stem_top;
-                    stm_nametag.innerHTML = `${pnt_branch} <span id='${insc_id}'>${stm_name}</span> ::`;
-                    stm_bmp_btm.innerHTML = bmp_stem_bttm;
+                    stm_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${stm_name}</span> ::`;
+                    stm_bmp_btm.innerHTML = bmp_stem_btm;
                     
                     for (i2 in scion.scions) {
-                        console.log(scion.scions[i2]);
                         var entr_full = gen_Insc(i2, scion.scions[i2]);
                         stm_trstlbrd.appendChild(entr_full);
                     }
-                    break;  
+                    break;
+                    
+                case 'brnch_lmb':
+                    stm_bmp_top.innerHTML = bmp_lmb_top;
+                    stm_nametag.innerHTML = `${flow_lmb}<span id='${insc_id}'>${stm_name}</span> ::`;
+                    stm_bmp_btm.innerHTML = bmp_lmb_btm;
+                        
+                    for (i2 in scion.scions) {
+                        var entr_full = gen_Insc(i2, scion.scions[i2]);
+                        stm_trstlbrd.appendChild(entr_full);
+                    }
+                    break;
 
                 case 'lst_exp':
                     var lf_ls_shrt = gen_ECI('div', 'styl_lf_stm_olst_exp_ls_shrt', `${insc_id}_lf_stm_olst_exp_ls_short`);
@@ -143,7 +156,7 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
                     stm_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
                     stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
-                    stm_nametag.innerHTML = `${pnt_branch}&nbsp;${stm_name}&nbsp;::`;
+                    stm_nametag.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
 
                     // stm_bmp_btm.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
                     // stm_bmp_top.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
@@ -399,7 +412,7 @@ function gen_lf(lf_i, lf) {
             lf_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
             lf_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
             lf_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
-            lf_ttl.innerHTML = `${pnt_branch}&nbsp;${lf.insc_ttl}&nbsp;::`;
+            lf_ttl.innerHTML = `${flow_brnch}&nbsp;${lf.insc_ttl}&nbsp;::`;
 
             lf_bmp_btm.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
             lf_bmp_top.setAttribute('onclick', `showHideStmExp('${lf_id}');`);
@@ -467,7 +480,7 @@ function gen_lf(lf_i, lf) {
             stm_bmp_btm.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
             
             stm_bmp_top.innerHTML = bmp_stem_top;
-            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
+            stm_nametag.innerHTML = `${flow_brnch} <span id='${stm_id}'>${stm_name}</span> ::`;
             stm_bmp_btm.innerHTML = bmp_stem_bttm;
             
             stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
@@ -492,7 +505,7 @@ function gen_lf(lf_i, lf) {
             stm_bmp_btm.setAttribute('onclick', `showHideStem('${lf.scion_id}');`);
             
             stm_bmp_top.innerHTML = bmp_stem_top;
-            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
+            stm_nametag.innerHTML = `${flow_brnch} <span id='${stm_id}'>${stm_name}</span> ::`;
             stm_bmp_btm.innerHTML = bmp_stem_bttm;
             
             stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);
@@ -518,7 +531,7 @@ function gen_lf(lf_i, lf) {
             stm_bmp_btm.setAttribute('onclick', `showHideStemShrt('${lf.scion_id}');`);
             
             stm_bmp_top.innerHTML = bmp_stem_top;
-            stm_nametag.innerHTML = `${pnt_branch} <span id='${stm_id}'>${stm_name}</span> ::`;
+            stm_nametag.innerHTML = `${flow_brnch} <span id='${stm_id}'>${stm_name}</span> ::`;
             stm_bmp_btm.innerHTML = bmp_stem_bttm;
             
             stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm);

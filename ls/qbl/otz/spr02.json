@@ -95,6 +95,32 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_tag": "Symbol Explorations",
+                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Exploration</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_tag": "Symbol",
+                            "insc_term": "The Line",
+                            "insc_cntn": "The Line = a [Symbol] of (Chokmah)",
+                            "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr_line",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Association",
+                                    "insc_sld": "\\_",
+                                    "insc_cntn": "Chokmah = is assocated with The Line"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Magickal Images",
                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Magical Images</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs",

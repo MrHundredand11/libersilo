@@ -111,11 +111,11 @@ function gen_Insc(insc_i, scion) {
         case 'stm':
             var stm_id = `id_stm_${insc_id}`;    
             var stm_name = scion.insc_ttl;    
-            var stm_cntnr = gen_ECI('div', 'styl_stm_cntnr stt_hide', `id_stm_cntnr_${insc_id}`);
-            var stm_bmp_top = gen_ECI('div', 'styl_stm_bmp_top', `id_stm_bmp_top_${insc_id}`);
-            var stm_nametag = gen_ECI('div', 'styl_stm_nametag', `id_stm_nametag_${insc_id}`);
-            var stm_trstlbrd = gen_ECI('div', 'styl_stm_trstlbrd', `id_stm_trstlbrd_${insc_id}`);
-            var stm_bmp_btm = gen_ECI('div', 'styl_stm_bmp_btm', `id_stm_bmp_btm_${insc_id}`);
+            var stm_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_stm_cntnr_${insc_id}`);
+            var stm_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_stm_bmp_top_${insc_id}`);
+            var stm_nametag = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nametag`, `id_stm_nametag_${insc_id}`);
+            var stm_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_stm_trstlbrd_${insc_id}`);
+            var stm_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_stm_bmp_btm_${insc_id}`);
 
             stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
             stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);

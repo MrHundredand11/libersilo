@@ -37,16 +37,21 @@
     border: 2.22px solid black;
 }
 
+.styl_stm_bmp_top {
+    display: none;
+}
+
 .styl_stm_nametag {
     font-size: 37px;
     display: flex;
     white-space: pre;
 }
 
-.styl_stm_bmp_top {
+.styl_stm_trstlbrd {
+    padding-left: 73px;
+    margin-top: 17px;
     display: none;
 }
-
 .styl_stm_bmp_btm {
     display: none;
     text-align: center;
@@ -76,16 +81,21 @@
     border: 2.22px solid black;
 }
 
+.styl_stm_brnch_bmp_top {
+    display: none;
+}
+
 .styl_stm_brnch_nametag {
     font-size: 37px;
     display: flex;
     white-space: pre;
 }
 
-.styl_stm_brnch_bmp_top {
+.styl_stm_brnch_trstlbrd {
+    padding-left: 73px;
+    margin-top: 17px;
     display: none;
 }
-
 .styl_stm_brnch_bmp_btm {
     display: none;
     text-align: center;
@@ -244,8 +254,3 @@
     display: none;
 }
 
-.styl_stm_trstlbrd {
-    padding-left: 73px;
-    margin-top: 17px;
-    display: none;
-}

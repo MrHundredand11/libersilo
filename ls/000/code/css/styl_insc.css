@@ -58,6 +58,10 @@
     font-size: 19px;
 }
 
+.styl_insc_txt_size_23 {
+    font-size: 23px;
+}
+
 .styl_insc_txt_bld {
     font-weight: bold;
 }
@@ -73,3 +77,4 @@
 .styl_insc_txt_fnt_cmbria {
     font-family: cambria;
 }
+

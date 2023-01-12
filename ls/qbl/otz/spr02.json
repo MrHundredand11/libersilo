@@ -143,7 +143,15 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
+                                                    "insc_offs": "styl_offs_dwn_17",
                                                     "insc_cntn": "<span class='styl_insc_txt_bld'>Kether</span>&nbsp;is the&nbsp;<span class='styl_insc_txt_bld'>Point</span>&nbsp;formulated in the Void. A Point has position but no dimensions.\nHowever, if a Point may be conceived of as extending through space,&nbsp;<span class='styl_insc_txt_trm_stkbld'>it becomes a line</span>."
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_offs": "styl_offs_dwn_17",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>The Straight Line // Uplifted Rod of Power</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;is&nbsp;<span class='styl_insc_txt_stkitc'>the dynamic forth-flowing Energy of <span class='styl_insc_txt_bld'>Kether</span></span>"
                                                 }
                                             ]
                                         }

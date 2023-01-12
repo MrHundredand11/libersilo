@@ -20,7 +20,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
-                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr'>spelling of the Letter-Name</span>&nbsp;of the Letter M (מ) is מים (MYM),\nwhich translates to the word \"<span class='styl_insc_txt_stkitc'>water</span>\" or \"<span class='styl_insc_txt_stkitc'>waters</span>\". The word \"Mem\"\nliterally means \"<span class='styl_insc_txt_stkitc'>seas</span>\" but it designates the general idea of \"<span class='styl_insc_txt_stkitc'>water</span>\"."
+                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr'>spelling of the Letter-Name</span>&nbsp;of the Letter M (מ) is מים (<span class='styl_insc_txt_itc'>MYM</span>),\nwhich translates to the word \"<span class='styl_insc_txt_stkitc'>water</span>\" or \"<span class='styl_insc_txt_stkitc'>waters</span>\". The word \"Mem\"\nliterally means \"<span class='styl_insc_txt_stkitc'>seas</span>\" but it designates the general idea of \"<span class='styl_insc_txt_stkitc'>water</span>\"."
                         },
                         {
                             "insc_typ1": "insc",
@@ -35,6 +35,7 @@
                                     "insc_typ2": "txt",
                                     "insc_sld": "\\_",
                                     "insc_pntr": "}>",
+                                    "insc_offs": "styl_offs_lft_131",
                                     "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>מ</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Initial Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>wave</span>"
                                 },
                                 {
@@ -42,6 +43,7 @@
                                     "insc_typ2": "txt",
                                     "insc_sld": "\\_",
                                     "insc_pntr": "}>",
+                                    "insc_offs": "styl_offs_lft_131",
                                     "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>ם</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Final Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>long flat lines suggest the sea at peace</span>"
                                 }
                             ]

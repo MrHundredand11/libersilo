@@ -20,8 +20,6 @@
 .styl_in_txt_code {
     font-family: Inconsolata_SEB;
     font-weight: bold;
-    display: flex;
-    align-items: center;
 }
 
 .styl_in_txt_emph {

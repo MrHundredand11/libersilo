@@ -9,7 +9,7 @@
 }
 
 .styl_insc_txt {
-    display: flex;
+    display: inline-block;
 }
 
 .styl_insc_txt_undr {

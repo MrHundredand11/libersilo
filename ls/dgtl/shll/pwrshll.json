@@ -19,7 +19,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[&emsp;<span class='styl_in_txt_code'>Set-Execution Policy RemoteSigned -Force</span>&emsp;]"
+                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Set-Execution Policy RemoteSigned -Force</span>\t]"
                         },
                         {
                             "insc_typ1": "insc",

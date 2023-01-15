@@ -76,6 +76,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_sld": "\\_",
+                            "insc_cntn": "The sound of \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" has often been associates with terms of&nbsp;<span class='styl_insc_txt_stkblditc_17'>water</span>:",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_19'>Mem</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>water</span>\""
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Point",
                             "insc_sld": "\\_",
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) holds the Gematria value of&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>,\nwhich is a Number that has connection to the concept of&nbsp;<span class='styl_insc_txt_stkblditc_17'>Water</span>,\nsuch as the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and nights of the&nbsp;<span class='styl_insc_txt_stkblditc_17'>Biblical Flood</span>,\nor the&nbsp;<span class='styl_insc_txt_bld'>40 Weeks</span>&nbsp;(<span class='styl_insc_txt_stkitc'>9 Months</span>) in which the child develops within the&nbsp;<span class='styl_insc_txt_stkblditc_17'>waters of the womb</span>.",

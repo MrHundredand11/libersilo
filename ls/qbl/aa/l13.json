@@ -83,19 +83,19 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_offs": "styl_offs_lft_131",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mem</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>water</span>\""
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_offs": "styl_offs_lft_131",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mara</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>the bitter salt sea</span>\""
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_offs": "styl_offs_lft_131",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mare</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Latin</span>) = \"<span class='styl_insc_txt_stkitc'>ocean</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>sea</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>water</span>\""
                                 }
                             ]
@@ -115,6 +115,24 @@
                                     "insc_sld": "|\\_",
                                     "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) is spelled&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מם</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MM</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מים</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MYM</span>) which is&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מ + מ</span>&nbsp;(<span class='styl_insc_txt_stkitc'>M + M</span>) or 40 + 40,\nwhich finds itself reflected in the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights of the Flood,\nor in Moses being on Mt. Sinai for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Point",
+                            "insc_sld": "\\_",
+                            "insc_offs": "styl_offs_dwn_43",
+                            "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>Water</span>&nbsp;is the symbol of the female womb of creation from which all matter is derived or born from.&nbsp;<span class='styl_insc_txt_trm_grg'>M</span>atter&nbsp;<span class='styl_insc_txt_trm_grg'>M</span>&nbsp;is born from&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>W</span>ater&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>W</span>.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Connection",
+                                    "insc_sld": "|\\_",
+                                    "insc_offs": "styl_offs_dwn_17",
+                                    "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Final Mem&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) is spelled&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מם</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MM</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מים</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MYM</span>) which is&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מ + מ</span>&nbsp;(<span class='styl_insc_txt_stkitc'>M + M</span>) or 40 + 40,\nwhich finds itself reflected in the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights of the Flood,\nor in Moses being on Mt. Sinai for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights."
                                 }
                             ]
                         }

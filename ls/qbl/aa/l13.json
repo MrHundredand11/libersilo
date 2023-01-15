@@ -83,7 +83,20 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_19'>Mem</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>water</span>\""
+                                    "insc_offs": "styl_offs_lft_23",
+                                    "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mem</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>water</span>\""
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_offs": "styl_offs_lft_23",
+                                    "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mara</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>the bitter salt sea</span>\""
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_offs": "styl_offs_lft_23",
+                                    "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mare</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Latin</span>) = \"<span class='styl_insc_txt_stkitc'>ocean</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>sea</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>water</span>\""
                                 }
                             ]
                         },

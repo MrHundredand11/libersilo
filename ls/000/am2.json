@@ -1095,6 +1095,22 @@
                                             "scion_id": "ls_nn_st_o_apils_hmlck"
                                         }
                                     ]
+                                },
+                                {
+                                    "ls_id": "LS-NN-ST-O-LRLS",
+                                    "ls_ttl": "Laurels",
+                                    "ls_type": "=>",
+                                    "ls_url": "",
+                                    "scion_id": "ls_nn_st_o_lrls",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-NN-ST-O-LRLS-LRL",
+                                            "ls_ttl": "Laurel",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/lrls/lrl.json",
+                                            "scion_id": "ls_nn_st_o_lrls_lrl"
+                                        }
+                                    ]
                                 }
                             ]
                         }

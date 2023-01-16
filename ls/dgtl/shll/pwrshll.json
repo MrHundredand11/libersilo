@@ -6,6 +6,55 @@
     "scions": [
         {
             "drct_id": "CMND",
+            "drct_ttl": "PowerShell Commands for 'Azure AD'",
+            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_azuread",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Group Commands",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Group Commands</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Azure AD</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_azuread_groupcmnds",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_tag": "View Group Memberships",
+                            "insc_pntr": "+}>",
+                            "insc_cntn": "<span class='styl_insc_txt_stkblditc_17'>{to view all group memberships of a user}</span>&nbsp;::",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_tag": "Method One",
+                                    "insc_pntr": "{}=>",
+                                    "insc_cntn": "<span class='styl_stm_ttl_spprt'>Method One</span>&nbsp;::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>$User = Get-AzureADUser -ObjectId \"email@domain.com\"</span>\t]"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>$Memberships = Get-AzureADMembership -ObjectId $User.ObjectId | Where-Object { $_.ObjectType -eq \"Group\" }</span>\t]"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>$Memberships | Select DisplayName, Mail, ObjectId | Sort-Object -Property DisplayName</span>\t]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CMND",
             "drct_ttl": "PowerShell Commands for 'Exchange Online'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl",
             "scions": [

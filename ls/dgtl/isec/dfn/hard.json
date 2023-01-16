@@ -16,7 +16,22 @@
                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Techniques</span>&nbsp;to&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Hardening System Security</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scions": [
                         {
-                            "insc_term": "Baselining"
+                            "insc_term": "Baselining",
+                            "scion_id": "ls_dgtl_isec_dfn_hard_tech_i_baselining",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Definition",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>baselining</span>&nbsp;= is the process of measuring changes in the network, hardware, and software environment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Usage",
+                                    "insc_cntn": "Utilize a&nbsp;<span class='styl_insc_txt_trm_grg'>secure baseline image</span>&nbsp;when adding new computers."
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Updating + Patching"

@@ -269,6 +269,13 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/isec/dfn/email.json",
                                     "scion_id": "ls_dgtl_isec_dfn_email"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-HARD",
+                                    "ls_ttl": "Security Hardening Techniques",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/hard.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_hard"
                                 }
                             ]
                         }

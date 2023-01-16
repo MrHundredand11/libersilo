@@ -34,7 +34,42 @@
                             ]
                         },
                         {
-                            "insc_term": "Updating + Patching"
+                            "insc_term": "Updating + Patching",
+                            "scion_id": "ls_dgtl_isec_dfn_hard_tech_i_updtptch",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch_lmb",
+                                    "insc_tag": "Types",
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Updates</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_tag": "Type",
+                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Security Update</span>&nbsp;= is software code that is used for a product-specific security-related vulnerability"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_tag": "Type",
+                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Service Pack</span>&nbsp;= is a tested, cumulative grouping of patches, hotfixes, security updates, critical updates, and possibly some feature or design changes"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_tag": "Type",
+                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Windows Update</span>&nbsp;= is a recommended update to fix a noncritical problem that users have found, as well as to provide additional features or capabilities"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_tag": "Type",
+                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>Driver Update</span>&nbsp;= is an updated device driver to fix a security issue or add a feature to a supported piece of hardware"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Address Unnecessary Applications + Software"

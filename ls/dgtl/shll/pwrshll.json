@@ -21,7 +21,7 @@
                             "insc_typ2": "txt",
                             "insc_tag": "View Group Memberships",
                             "insc_pntr": "+}>",
-                            "insc_cntn": "<span class='styl_insc_txt_stkblditc_17'>{to view all group memberships of a user}</span>&nbsp;::",
+                            "insc_cntn": "<span class='styl_insc_txt_stkitc styl_insc_txt_bld styl_insc_txt_size_23'>{to view all group memberships of a user}</span>&nbsp;::",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",

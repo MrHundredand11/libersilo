@@ -52,6 +52,39 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_tag": "Rosicrucian",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Rosicrucian</span>&nbsp;<span class='styl_stm_ttl_tny'>mentions of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Laurel</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_nn_st_o_lrls_lrl_luls_rc",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Usage",
+                            "insc_cntn": "In the highly contested maybe-Rosicrucian-ish work \"<span class='styl_insc_txt_trm_stkbld'>The Chemical Wedding of Christian Rosenkreutz</span>\",\nthe hero CR goes on a journey of initiation and encounters\n<span class='styl_insc_txt_trm_stkbld'>virgins bearing Laurel Wreaths</span>&nbsp;as well as&nbsp;<span class='styl_insc_txt_trm_stkbld'>two people wearing Laurel Wreaths</span>."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Usage",
+                            "insc_cntn": "In some Rosicrucian ceremonies, each initiate is given a&nbsp;<span class='styl_insc_txt_trm_grg'>Laurel Wreath</span>&nbsp;by the Virgin of Lights."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Usage",
+                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_grg'>Laurel Wreath</span>&nbsp;shows up in many Rosicrucian-inspired Tarot decks."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Quote",
+                            "insc_cntn": "<span class='styl_insc_txt_itc styl_insc_txt_bld'>(Rudolf Steiner)</span>:: \"For those who bring something of the spiritual science to the\nstudy of the plant kingdom, the Laurel has a strong connection with meteorological conditions.\""
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Tarot",
                     "insc_ttl":"<span class='styl_stm_ttl_spprt'>Tarot</span>&nbsp;<span class='styl_stm_ttl_tny'>mentions of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Laurel</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_nn_st_o_lrls_lrl_luls_taro",

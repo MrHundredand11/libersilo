@@ -1,0 +1,52 @@
+{
+    "ls_id": "LS-HI-ALIEN-UFO",
+    "ls_ttl": "UFOs + Saucers + Aeros",
+    "ls_url": "/ls/hi/alien/ufo.json",
+    "scion_id": "ls_hi_alien_ufo",
+    "scions": [
+        {
+            "drct_id": "OBSR",
+            "drct_ttl": "Observing 'UFOs + Saucers + Aeros'",
+            "scion_id": "ls_hi_alien_ufo_obsr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Quotes",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Quotes</span>&nbsp;<span class='styl_stm_ttl_tny'>about</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>UFO Observation</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_hi_alien_ufo_obsr_quot",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "\"The best time to see a UFO is 10pm on a Wednesday.\"",
+                            "scion_id": "ls_hi_alien_ufo_obsr_quot_i_jhnkeel",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>John Keel</span>, <span class='styl_insc_txt_itc'>The Mothman Prophecies</span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "\"I don't believe in a UFO observation makes anyone 'psychic'... but the phenomenon comes\nin an environment of manifestations that include heightened awareness of synchronicities,\nparanormal sounds and lights, and occasionally absurd coincidences similar to those described in poltergeist literature.\"",
+                            "scion_id": "ls_hi_alien_ufo_obsr_quot_i_jcqsvallee",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn":"<span class='styl_insc_txt_trm_stkbld'>Jacques Vallee</span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

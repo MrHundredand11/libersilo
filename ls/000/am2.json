@@ -553,16 +553,22 @@
                     "ls_id": "LS-HI-FAE",
                     "ls_ttl": "The Gentle Faerie Folk",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/fae/",
+                    "scion_id": "ls_hi_fae",
                     "scions": [
                         {
                             "ls_id": "LS-HI-FAE-000",
                             "ls_ttl": "Overview of 'The Gentle Faerie Folk'",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/000.json",
+                            "scion_id": "ls_hi_fae_000"
                         },
                         {
                             "ls_id": "LS-HI-FAE-DRCT",
                             "ls_ttl": "Directory + Dictionary of The Faerie Folk",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/drct.json",
+                            "scion_id": "ls_hi_fae_drct"
                         },
                         {
                             "ls_id": "LS-HI-FAE-DRCT-GRPS",

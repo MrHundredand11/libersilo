@@ -119,10 +119,7 @@ function gen_Insc(insc_i, scion) {
             var stm_nametag = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nametag`, `id_stm_nametag_${insc_id}`);
             var stm_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_stm_trstlbrd_${insc_id}`);
             var stm_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_stm_bmp_btm_${insc_id}`);
-
-            stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
-            stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
-            stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`);   
+  
             stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm); 
         
             switch (scion.insc_typ2) {
@@ -130,6 +127,10 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_top.innerHTML = bmp_stem_top;
                     stm_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${stm_name}</span> ::`;
                     stm_bmp_btm.innerHTML = bmp_stem_btm;
+
+                    stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
                     
                     for (i2 in scion.scions) {
                         var entr_full = gen_Insc(i2, scion.scions[i2]);
@@ -157,6 +158,10 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
                     stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
                     stm_nametag.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
+
+                    stm_nametag.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`); 
 
                     // stm_bmp_btm.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
                     // stm_bmp_top.setAttribute('onclick', `showHideStmExp('${insc_id}');`);

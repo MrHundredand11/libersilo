@@ -511,26 +511,36 @@
                     "ls_id": "LS-HI-DIV",
                     "ls_ttl": "Manifestations of God",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/div",
+                    "scion_id": "ls_hi_div",
                     "scions": [
                         {
                             "ls_id": "LS-HI-DIV-AO",
                             "ls_ttl": "The Alpha-Omega Word",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/ao.json",
+                            "scion_id": "ls_hi_div_ao"
                         },
                         {
                             "ls_id": "LS-HI-DIV-GM",
                             "ls_ttl": "The Green Man",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/gm.json",
+                            "scion_id": "ls_hi_div_gm"
                         },
                         {
                             "ls_id": "LS-HI-DIV-HGA",
                             "ls_ttl": "The Holy Guardian Angel",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/hga.json",
+                            "scion_id": "ls_hi_div_hga"
                         },
                         {
                             "ls_id": "LS-HI-DIV-MITRAS",
                             "ls_ttl": "Mithras",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/mitras.json",
+                            "scion_id": "ls_hi_div_mitras"
                         },
                         {
                             "ls_id": "LS-HI-DIV-OT",

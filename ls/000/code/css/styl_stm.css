@@ -226,6 +226,7 @@
 .styl_stm_lst_exp_ls_shrt {
     margin-left: 29px;
     margin-bottom: 29px;
+    display: none;
 }
 
 .styl_stm_ttl_opncls {

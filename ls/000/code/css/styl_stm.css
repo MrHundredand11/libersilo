@@ -213,6 +213,12 @@
     display: block;
 }
 
+.styl_stm_lst_exp_trstlbrd {
+    padding-left: 73px;
+    margin-top: 17px;
+    display: none;
+}
+
 .styl_stm_lst_exp_ttl {
     font-size: 37px;
     display: flex;

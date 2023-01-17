@@ -378,6 +378,8 @@
             "ls_id": "LS-HI",
             "ls_ttl": "Handbook of Inhabitants",
             "ls_type": "->",
+            "ls_url": "/ls/hi/",
+            "scion_id": "ls_hi",
             "scions": [
                 {
                     "ls_id": "LS-HI-000",
@@ -398,6 +400,7 @@
                     "ls_id": "LS-HI-AA",
                     "ls_ttl": "Angels + ArchAngels",
                     "ls_type": "=>",
+                    "scion_id": "ls_hi_aa",
                     "scions": [
                         {
                             "ls_id": "LS-HI-AA-7A",
@@ -440,36 +443,50 @@
                     "ls_id": "LS-HI-ALIEN",
                     "ls_ttl": "Alien Life",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/alien/",
+                    "scion_id": "ls_hi_alien",
                     "scions": [
                         {
                             "ls_id": "LS-HI-ALIEN-ASHTAR",
                             "ls_ttl": "Ashtar",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ashtar.json",
+                            "scion_id": "ls_hi_alien_ashtar"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-EBE",
                             "ls_ttl": "Extraterrestrial Biological Entity",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ebe.json",
+                            "scion_id": "ls_hi_alien_ebe"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-GENTRY",
                             "ls_ttl": "The Gentry",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/gentry.json",
+                            "scion_id": "ls_hi_alien_gentry"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-LYRA",
                             "ls_ttl": "The Lyrans",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/lyra.json",
+                            "scion_id": "ls_hi_alien_lyra"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-OBSHAZR",
                             "ls_ttl": "Obsidian Humans with Azure Eyes",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/obshazr.json",
+                            "scion_id": "ls_hi_alien_obshazr"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-UFO",
                             "ls_ttl": "UFOs + Saucers + Aeros",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ufo.json",
+                            "scion_id": "ls_hi_alien_ufo"
                         }
                     ]
                 },

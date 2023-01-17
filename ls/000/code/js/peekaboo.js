@@ -119,17 +119,17 @@ function showHideTwig(scion_id) {
 function showHideStmLstExp(scion_id) {
     var twg_clss = document.getElementById(`id_stm_cntnr_${scion_id}`).className;
     if (twg_clss.includes('stt_show')) {
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_top`).style.display = "none";
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_btm`).style.display = "none";
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_cycl`).style.display = "none";
-        document.getElementById(`${scion_id}_stm_lst_exp_expnd`).style.display = "none";
+        document.getElementById(`id_stm_bmp_top_${scion_id}`).style.display = "none";
+        document.getElementById(`id_stm_bmp_btm_${scion_id}`).style.display = "none";
+        //document.getElementById(`${scion_id}_stm_lst_exp_bmp_cycl`).style.display = "none";
+        document.getElementById(`id_stm_trstlbrd_${scion_id}`).style.display = "none";
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_hide');
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_show');
     } else if (twg_clss.includes('stt_hide')) {
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_top`).style.display = "block";
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_btm`).style.display = "block";
-        document.getElementById(`${scion_id}_stm_lst_exp_bmp_cycl`).style.display = "block";
-        document.getElementById(`${scion_id}_stm_lst_exp_expnd`).style.display = "block";
+        document.getElementById(`id_stm_bmp_top_${scion_id}`).style.display = "block";
+        document.getElementById(`id_stm_bmp_btm_${scion_id}`).style.display = "block";
+        //document.getElementById(`${scion_id}_stm_lst_exp_bmp_cycl`).style.display = "block";
+        document.getElementById(`id_stm_trstlbrd_${scion_id}`).style.display = "none";
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_show');
         document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_hide');
     }

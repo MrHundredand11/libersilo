@@ -142,6 +142,10 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_top.innerHTML = bmp_lmb_top;
                     stm_nametag.innerHTML = `${flow_lmb}<span id='${insc_id}'>${stm_name}</span> ::`;
                     stm_bmp_btm.innerHTML = bmp_lmb_btm;
+
+                    stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
                         
                     for (i2 in scion.scions) {
                         var entr_full = gen_Insc(i2, scion.scions[i2]);

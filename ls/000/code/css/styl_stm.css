@@ -182,7 +182,7 @@
     padding-bottom: 23px;
 }
 
-.styl_lf_stm_olst_exp {
+.styl_lf_stm_lst_exp {
     position: relative;
     left: 23px;
     margin-top: 23px;
@@ -197,19 +197,19 @@
     width: fit-content;
 }
 
-.styl_lf_stm_olst_exp:hover {
+.styl_lf_stm_lst_exp:hover {
     border: 2.22px solid black;
 }
 
-.styl_lf_stm_olst_exp_bmp_top {
+.styl_lf_stm_lst_exp_bmp_top {
     display: none;
 }
 
-.styl_lf_stm_olst_exp_bmp_btm {
+.styl_lf_stm_lst_exp_bmp_btm {
     display: none;
 }
 
-.styl_lf_stm_olst_exp_ttl {
+.styl_lf_stm_lst_exp_ttl {
     font-size: 37px;
     display: flex;
     white-space: pre;
@@ -217,13 +217,13 @@
     align-items: center;
 }
 
-.styl_lf_stm_olst_exp_cntn {
+.styl_lf_stm_lst_exp_cntn {
     padding-top: 7px;
     padding-left: 43px;
     display: none;
 }
 
-.styl_lf_stm_olst_exp_ls_shrt {
+.styl_lf_stm_lst_exp_ls_shrt {
     margin-left: 29px;
     margin-bottom: 29px;
 }
@@ -298,3 +298,10 @@
     display: none;
 }
 
+.styl_stm_lst_exp_nametag {
+    font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
+    align-items: center;
+}

@@ -5,6 +5,42 @@
     "scion_id": "ls_hi_fae_drct",
     "scions": [
         {
+            "drct_id": "CTGR",
+            "drct_ttl": "Categories of 'The Faerie Folk'",
+            "scion_id": "ls_hi_fae_drct_ctgr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Broad Categories</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Faerie Folk</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_hi_fae_drct_ctgr_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Flying Faeries"
+                        },
+                        {
+                            "insc_term": "Gnomes"
+                        },
+                        {
+                            "insc_term": "Water Spirits"
+                        },
+                        {
+                            "insc_term": "Seasonal Faeries" 
+                        },
+                        {
+                            "insc_term": "Treasure Hoarders"
+                        },
+                        {
+                            "insc_term": "Guardian Spirits"
+                        },
+                        {
+                            "insc_term": "Goblins"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "DRCT",
             "drct_ttl": "Directory to The Faeries of The World",
             "scion_id": "ls_hi_fae_drct_drct_worldfae",
@@ -12,7 +48,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Alphabetical Listing</span>&nbsp;<span class='styl_stm_ttl_tny'>of the</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Faerie Folk</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Alphabetical Listing</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Faerie Folk</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_hi_fae_drct_drct_worldfae_alphbtcl",
                     "scions": [
                         {

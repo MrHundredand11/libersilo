@@ -182,7 +182,7 @@
     padding-bottom: 23px;
 }
 
-.styl_lf_stm_lst_exp_cntnr {
+.styl_stm_lst_exp_cntnr {
     position: relative;
     left: 23px;
     margin-top: 23px;
@@ -197,19 +197,19 @@
     width: fit-content;
 }
 
-.styl_lf_stm_lst_exp_cntnr:hover {
+.styl_stm_lst_exp_cntnr:hover {
     border: 2.22px solid black;
 }
 
-.styl_lf_stm_lst_exp_bmp_top {
+.styl_stm_lst_exp_bmp_top {
     display: none;
 }
 
-.styl_lf_stm_lst_exp_bmp_btm {
+.styl_stm_lst_exp_bmp_btm {
     display: none;
 }
 
-.styl_lf_stm_lst_exp_ttl {
+.styl_stm_lst_exp_ttl {
     font-size: 37px;
     display: flex;
     white-space: pre;
@@ -217,13 +217,13 @@
     align-items: center;
 }
 
-.styl_lf_stm_lst_exp_cntn {
+.styl_stm_lst_exp_cntn {
     padding-top: 7px;
     padding-left: 43px;
     display: none;
 }
 
-.styl_lf_stm_lst_exp_ls_shrt {
+.styl_stm_lst_exp_ls_shrt {
     margin-left: 29px;
     margin-bottom: 29px;
 }

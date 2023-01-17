@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-HI-FAE-000",
+    "ls_ttl": "Overview of The Gentle Faerie Folk",
+    "ls_url": "/ls/hi/fae/000.json",
+    "scion_id": "ls_hi_fae_000",
+    "scions": [
+        {
+            "drct_id": "CHAR",
+            "drct_ttl": "Characteristics of 'The Gentle Faerie Folk'",
+            "scion_id": "ls_hi_fae_000_char",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Tend to Love",
+                    "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Faeries</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>tend to</span>&nbsp;<span class='styl_stm_ttl_spprt'>Love</span>",
+                    "scion_id": "ls_hi_fae_000_char_tndlove",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Almost universally,&nbsp;<span class='styl_insc_txt_trm_grg'>Faeries</span>&nbsp;love&nbsp;<span class='styl_insc_txt_trm_stkbld'>nature</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>music</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>hunting</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>dancing</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>horses</span>, and&nbsp;<span class='styl_insc_txt_trm_stkbld'>teasing</span>\nand&nbsp;<span class='styl_insc_txt_trm_stkbld'>spying</span>&nbsp;on humans (<span class='styl_insc_txt_itc'>whose follies and foibles never cease to puzzle and intrigue them</span>)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -210,7 +210,7 @@
 }
 
 .styl_stm_lst_exp_bmp_cycl {
-    display: none;
+    display: block;
 }
 
 .styl_stm_lst_exp_ttl {
@@ -224,13 +224,13 @@
 .styl_stm_lst_exp_expnd {
     padding-top: 7px;
     padding-left: 43px;
-    display: none;
+    display: block;
 }
 
 .styl_stm_lst_exp_ls_shrt {
     margin-left: 29px;
     margin-bottom: 29px;
-    display: none;
+    display: block;
 }
 
 .styl_stm_ttl_opncls {

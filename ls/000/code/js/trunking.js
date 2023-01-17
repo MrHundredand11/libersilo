@@ -159,9 +159,9 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
                     stm_nametag.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
 
-                    stm_nametag.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`);
-                    stm_bmp_top.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`);
-                    stm_bmp_btm.setAttribute('onclick', `showHideStemLstExp('${insc_id}');`); 
+                    stm_nametag.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`); 
 
                     // stm_bmp_btm.setAttribute('onclick', `showHideStmExp('${insc_id}');`);
                     // stm_bmp_top.setAttribute('onclick', `showHideStmExp('${insc_id}');`);

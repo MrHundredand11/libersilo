@@ -209,6 +209,10 @@
     display: none;
 }
 
+.styl_stm_lst_exp_bmp_cycl {
+    display: none;
+}
+
 .styl_stm_lst_exp_ttl {
     font-size: 37px;
     display: flex;
@@ -217,7 +221,7 @@
     align-items: center;
 }
 
-.styl_stm_lst_exp_cntn {
+.styl_stm_lst_exp_expnd {
     padding-top: 7px;
     padding-left: 43px;
     display: none;

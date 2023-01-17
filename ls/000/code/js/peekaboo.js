@@ -1,5 +1,5 @@
 function showHide(idx) {
-    var bld_cntn = document.getElementById(`${idx}_cntn`);
+    var bld_cntn = document.getElementById(`${idx}`);
     if (document.getElementById(`${idx}_cntn`).className.includes('stt_show')) {
         document.getElementById(`${idx}_tag`).style.fontStyle = "normal";
         bld_cntn.style.display = "none";
@@ -116,20 +116,20 @@ function showHideTwig(scion_id) {
     }
 }
 
-function showHideStmExp(lf_id) {
-    var twg_clss = document.getElementById(`${lf_id}_lf_cntnr`).className;
+function showHideStmLstExp(lf_id) {
+    var twg_clss = document.getElementById(`id_stm_cntnr_${scion_id}`).className;
     if (twg_clss.includes('stt_show')) {
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "none";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "none";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "none";
-        document.getElementById(`${lf_id}_lf_cntnr`).classList.add('stt_hide');
-        document.getElementById(`${lf_id}_lf_cntnr`).classList.remove('stt_show');
+        document.getElementById(`${lf_id}_stm_lst_exp_bmp_top`).style.display = "none";
+        document.getElementById(`${lf_id}_stm_lst_exp_bmp_btm`).style.display = "none";
+        document.getElementById(`${lf_id}_stm_lst_exp_cntn`).style.display = "none";
+        document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_hide');
+        document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_show');
     } else if (twg_clss.includes('stt_hide')) {
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_top`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_bmp_btm`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_stm_olst_exp_cntn`).style.display = "block";
-        document.getElementById(`${lf_id}_lf_cntnr`).classList.add('stt_show');
-        document.getElementById(`${lf_id}_lf_cntnr`).classList.remove('stt_hide');
+        document.getElementById(`${lf_id}_stm_lst_exp_bmp_top`).style.display = "block";
+        document.getElementById(`${lf_id}_stm_lst_exp_bmp_btm`).style.display = "block";
+        document.getElementById(`${lf_id}_stm_lst_exp_cntn`).style.display = "block";
+        document.getElementById(`id_stm_cntnr_${scion_id}`).classList.add('stt_show');
+        document.getElementById(`id_stm_cntnr_${scion_id}`).classList.remove('stt_hide');
     }
 }
 

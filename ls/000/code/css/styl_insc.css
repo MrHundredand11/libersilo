@@ -10,6 +10,8 @@
 
 .styl_insc_txt {
     display: block;
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 .styl_insc_txt_undr {

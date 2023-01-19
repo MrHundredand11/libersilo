@@ -1,0 +1,38 @@
+{
+    "ls_id": "LS-MMM-ND-314",
+    "ls_ttl": "The Number 314",
+    "ls_url": "/ls/mmm/nd/314.json",
+    "scion_id": "ls_mmm_nd_314",
+    "scions": [
+        {
+            "drct_id": "MATH",
+            "drct_ttl": "Mathematics of '314'",
+            "scion_id": "ls_mmm_nd_314_math",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Mathematics</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>314</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_mmm_nd_314_math_math",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Theosophic Reduction",
+                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>314</span>&nbsp;<span class='styl_insc_txt_flow'>>></span>&nbsp;<span class='styl_insc_txt_trm_grg'>8</span>",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>314</span>&nbsp;<span class='styl_insc_txt_flow'>>> [</span>&nbsp;<span class='styl_insc_txt_trm_grg'>3+1+4</span><span class='styl_insc_txt_flow'>]=</span>&nbsp;<span class='styl_insc_txt_trm_grg'>8</span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

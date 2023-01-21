@@ -19,7 +19,30 @@
                             "insc_typ1": "gem",
                             "insc_typ2": "hbrw_00",
                             "insc_nmbr": "40",
-                            "insc_term": "אכזיב"
+                            "insc_term": "אכזיב",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "AKZYB"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "'Akziyb"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "Achzib"
+                                }
+                            ]
                         }
                     ]
                 }

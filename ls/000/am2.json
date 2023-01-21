@@ -904,9 +904,18 @@
                         {
                             "ls_id": "LS-MMM-ND-0040s",
                             "ls_ttl": "The Numbers 40 through 49",
-                            "ls_type": "+>",
-                            "ls_url": "ls/mmm/nd/0040s.json",
-                            "scion_id": "ls_mmm_nd_0040s"
+                            "ls_type": "=>",
+                            "ls_url": "ls/mmm/nd/",
+                            "scion_id": "ls_mmm_nd_0040s",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-ND-0040",
+                                    "ls_ttl": "The Number 40",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/nd/0040.json",
+                                    "scion_id": "ls_mmm_nd_0040"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-MMM-ND-0050s",

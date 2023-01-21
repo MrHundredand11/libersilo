@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-MMM-ND-0040",
+    "ls_ttl": "The Number 40",
+    "ls_url": "/ls/mmm/nd/0040.json",
+    "scion_id": "ls_mmm_nd_0040",
+    "scions": [
+        {
+            "drct_id": "GMTR",
+            "drct_ttl": "Gematria of '40'",
+            "scion_id": "ls_mmm_nd_0040_gmtr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Hebrew Gematria</span>&nbsp;<span class='styl_stm_ttl_tny'>correspondences of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>40</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_mmm_nd_0040_gmtr_hbrw",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "gem_hbrw",
+                            "insc_nmbr": "40",
+                            "insc_term": "אכזיב"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

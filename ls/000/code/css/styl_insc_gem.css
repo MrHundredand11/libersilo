@@ -1,12 +1,13 @@
 .styl_insc_gem_eqc {
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .styl_insc_gem_num {
     display: inline-block;
     font-family: georgia;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 23px;
 }
 
 .styl_insc_gem_eqq {
@@ -18,5 +19,5 @@
     display: inline-block;
     font-family: cambria;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 37px;
 }

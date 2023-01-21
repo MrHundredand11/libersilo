@@ -1,3 +1,16 @@
+.styl_gem_cntnr {
+
+}
+
+.styl_gem_prtr {
+    display: flex;
+    align-items: center;
+}
+
+.styl_gem_scns {
+    display: none;
+}
+
 .styl_gem_eqc {
     display: flex;
     align-items: center;

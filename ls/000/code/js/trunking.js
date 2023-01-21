@@ -276,10 +276,12 @@ function gen_Insc(insc_i, scion) {
                 case 'gem_hbrw':
                     var eqc = gen_ECI('div', 'styl_insc_gem_eqc', `id_gem_eqc${insc_id}`);    
                     var num = gen_ECI('div', 'styl_insc_gem_num', `id_gem_num_${insc_id}`);
+                    var eqq = gen_ECI('div', 'styl_insc_gem_eqq', `id_gem_eqq_${insc_id}`);
                     var trm = gen_ECI('div', 'styl_insc_gem_trm', `id_gem_trm_${insc_id}`);
                     num.innerHTML = scion.insc_nmbr;
+                    eqq.innerHTML = bmp_def_flow;
                     trm.innerHTML = scion.insc_term;
-                    eqc.innerHTML = num + bmp_def_flow + trm;
+                    eqc.append(num, eqq, trm);
                     insc_prtr.append(eqc);
                     break;
 

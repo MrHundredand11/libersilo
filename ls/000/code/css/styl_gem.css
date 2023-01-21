@@ -1,0 +1,23 @@
+.styl_gem_eqc {
+    display: flex;
+    align-items: center;
+}
+
+.styl_gem_num {
+    display: inline-block;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.styl_gem_eqq {
+    display: inline-block;
+    font-family: calibri;
+}
+
+.styl_gem_trm {
+    display: inline-block;
+    font-family: cambria;
+    font-weight: bold;
+    font-size: 37px;
+}

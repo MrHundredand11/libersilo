@@ -360,7 +360,7 @@ function gen_Insc(insc_i, scion) {
                     eqq.innerHTML = bmp_def_flow;
                     trm.innerHTML = scion.insc_term;
                     eqc.append(num, eqq, trm);
-                    insc_prtr.append(eqc);
+                    gem_prtr.append(eqc);
                     break;
             }
             return gem_cntnr;

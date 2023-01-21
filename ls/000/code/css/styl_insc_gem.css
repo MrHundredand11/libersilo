@@ -4,12 +4,19 @@
 
 .styl_insc_gem_num {
     display: inline-block;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .styl_insc_gem_eqq {
     display: inline-block;
+    font-family: calibri;
 }
 
 .styl_insc_gem_trm {
     display: inline-block;
+    font-family: cambria;
+    font-weight: bold;
+    font-size: 19px;
 }

@@ -17,6 +17,7 @@ let bmp_brnch_tail = "<div class='styl_stem_tail'>---- ---- ---- ----<br>---- --
 let bmp_sld_01 = "\\_";
 let bmp_def = "&nbsp=&nbsp";
 let bmp_stm_02 = "-- --<br>-- -- --<br>";
+let bmp_def_flow = "&nbsp<span class='styl_insc_txt_flow'>=</span>&nbsp";
 
 function mnu_active_entry(scion_id) {
     var cnt = document.getElementById(`mnu_accrd_entry_${scion_id}`);
@@ -270,6 +271,16 @@ function gen_Insc(insc_i, scion) {
                     var insc_itr = createElementWithClass('span', 'styl_lf_itr_num');
                     insc_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
                     insc_prtr.append(insc_itr, insc_cntn);
+                    break;
+
+                case 'gem_hbrw':
+                    var eqc = gen_ECI('div', 'styl_insc_gem_eqc', `id_gem_eqc${insc_id}`);    
+                    var num = gen_ECI('div', 'styl_insc_gem_num', `id_gem_num_${insc_id}`);
+                    var trm = gen_ECI('div', 'styl_insc_gem_trm', `id_gem_trm_${insc_id}`);
+                    num.innerHTML = scion.insc_nmbr;
+                    trm.innerHTML = scion.insc_term;
+                    eqc.innerHTML = num + bmp_def_flow + trm;
+                    insc_prtr.append(eqc);
                     break;
 
                 case 'blade':

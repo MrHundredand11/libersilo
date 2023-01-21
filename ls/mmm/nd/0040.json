@@ -16,8 +16,8 @@
                     "scion_id": "ls_mmm_nd_0040_gmtr_hbrw",
                     "scions": [
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "gem_hbrw",
+                            "insc_typ1": "gem",
+                            "insc_typ2": "hbrw_00",
                             "insc_nmbr": "40",
                             "insc_term": "אכזיב"
                         }

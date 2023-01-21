@@ -331,6 +331,39 @@ function gen_Insc(insc_i, scion) {
                 insc_cntnr.classList.add(`${scion.insc_offs}`);
             }
             return insc_cntnr;
+
+        case 'gem':
+            var gem_cntnr = gen_ECI('div', `styl_gem_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_gem_cntnr_${insc_id}`);
+            var gem_prtr = createElementWithClass('div', 'styl_gem_prtr');
+            var gem_scns = gen_ECI('div', 'styl_gem_scns stt_hide', `id_gem_scns_${insc_id}`);
+            gem_cntnr.append(gem_prtr, gem_scns);
+            
+            if (scion.insc_sld !== undefined) {
+                var gem_sld = createElementWithClass('span', 'styl_pointers');
+                gem_sld.innerHTML = scion.insc_sld;
+                gem_prtr.append(gem_sld);
+            }
+            if (scion.insc_pntr !== undefined) {
+                var gem_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
+            } else {
+                var gem_pnt = gen_Pntr(insc_i, insc_id);
+            }
+            gem_prtr.append(gem_pnt);
+
+            switch (scion.insc_typ2) {
+                case 'hbrw_00':
+                    var eqc = gen_ECI('div', 'styl_gem_eqc', `id_gem_eqc${insc_id}`);    
+                    var num = gen_ECI('div', 'styl_gem_num', `id_gem_num_${insc_id}`);
+                    var eqq = gen_ECI('div', 'styl_gem_eqq', `id_gem_eqq_${insc_id}`);
+                    var trm = gen_ECI('div', 'styl_gem_trm', `id_gem_trm_${insc_id}`);
+                    num.innerHTML = scion.insc_nmbr;
+                    eqq.innerHTML = bmp_def_flow;
+                    trm.innerHTML = scion.insc_term;
+                    eqc.append(num, eqq, trm);
+                    insc_prtr.append(eqc);
+                    break;
+            }
+            return gem_cntnr;
     }
 
 }

@@ -194,6 +194,20 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "XTRA",
+            "drct_ttl": "Extra Resources + References",
+            "scion_id": "ls_dgtl_isec_dfn_crypt_xtra",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Extra Resources + References",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Extra Resources + References</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_dgtl_isec_dfn_crypt_xtra_lst"
+                }
+            ]
         }
     ]
 }

@@ -10,17 +10,17 @@
             "scion_id": "ls_000",
             "scions": [
                 {
-                    "ls_id": "LS-000-01-INTRO",
-                    "ls_ttl": "Introduction to 'Liber Silo'",
+                    "ls_id": "LS-000-000",
+                    "ls_ttl": "Overview of Liber Silo",
                     "ls_type": "+>",
-                    "ls_url": "/ls/000/01_intro.json",
-                    "scion_id": "ls_000_01_intro"
+                    "ls_url": "/ls/000/000.json",
+                    "scion_id": "ls_000_000"
                 },
                 {
                     "ls_id": "LS-000-CITE",
                     "ls_ttl": "Citation Lists",
                     "ls_type": "+>",
-                    "ls_url": "/ls/000/cite.json",
+                    "ls_url": "https://api.jsonbin.io/v3/b/63ab10afdfc68e59d5721014",
                     "scion_id": "ls_000_cite"
                 },
                 {
@@ -103,6 +103,22 @@
                             "ls_id": "LS-DGTL-CODE-000",
                             "ls_ttl": "Overview of 'Coding + Scripting + Programming'",
                             "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-WEB",
+                            "ls_ttl": "Web Development + Design",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/code/web/",
+                            "scion_id": "ls_dgtl_code_web",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-CSS",
+                                    "ls_ttl": "CSS Styling",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/css.json",
+                                    "scion_id": "ls_dgtl_code_web_css"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -111,7 +127,78 @@
                     "ls_ttl": "Databases",
                     "ls_type": "=>",
                     "ls_url": "",
-                    "scion_id": "ls_dgtl_db"
+                    "scion_id": "ls_dgtl_db",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-DB-000",
+                            "ls_ttl": "Overview of 'Databases'",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/db/000.json",
+                            "scion_id": "ls_dgtl_db_000"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-DB-DBTYPE",
+                            "ls_ttl": "Database Types",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/db/dbtype/",
+                            "scion_id": "ls_dgtl_db_dbtype",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-DB-DBTYPE-GRAPH",
+                                    "ls_ttl": "Graph Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/dbtype/graph.json",
+                                    "scion_id": "ls_dgtl_db_dbtype_graph"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-DB-QL",
+                            "ls_ttl": "Query Languages",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/db/ql/",
+                            "scion_id": "ls_dgtl_db_ql",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-DB-QL-GREMLIN",
+                                    "ls_ttl": "Apache Gremlin",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/ql/gremlin.json",
+                                    "scion_id": "ls_dgtl_db_ql_gremlin"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-QL-NEO4J",
+                                    "ls_ttl": "neo4j",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/ql/neo4j.json",
+                                    "scion_id": "ls_dgtl_db_ql_neo4j"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-QL-SQL",
+                                    "ls_ttl": "Structured Query Language",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/ql/sql.json",
+                                    "scion_id": "ls_dgtl_db_ql_sql"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-DB-RDBMS",
+                            "ls_ttl": "Relational Database Management Systems",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/db/rdbms/",
+                            "scion_id": "ls_dgtl_db_rdbms",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-DB-RDBMS-MSSQL19",
+                                    "ls_ttl": "MS SQL Server 2019",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/rdbms/mssql19.json",
+                                    "scion_id": "ls_dgtl_db_rdbms_mssql19"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-DGTL-DT",
@@ -149,25 +236,48 @@
                             "scion_id": "ls_dgtl_isec_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
-                            "ls_ttl": "Access Control",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
-                            "scion_id": "ls_dgtl_isec_dfn_acsctrl"
-                        },
-                        {
-                            "ls_id": "LS-DGTL-ISEC-DFN-CADR",
-                            "ls_ttl": "Continuity Assurance + Disaster Recovery",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
-                            "scion_id": "ls_dgtl_isec_dfn_cadr"
-                        },
-                        {
-                            "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
-                            "ls_ttl": "E-mail Defense",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/isec/dfn/email.json",
-                            "scion_id": "ls_dgtl_isec_dfn_email"
+                            "ls_id": "LS-DGTL-ISEC-DFN",
+                            "ls_ttl": "InfoSec Defensive Measures",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_dgtl_isec_dfn",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
+                                    "ls_ttl": "Access Control",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/acsctrl.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_acsctrl"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-CADR",
+                                    "ls_ttl": "Continuity Assurance + Disaster Recovery",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_cadr"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-CRYPT",
+                                    "ls_ttl": "Cryptology + Cryptography",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/crypt.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
+                                    "ls_ttl": "E-mail Defense",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/email.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_email"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-DFN-HARD",
+                                    "ls_ttl": "Security Hardening Techniques",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/dfn/hard.json",
+                                    "scion_id": "ls_dgtl_isec_dfn_hard"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -205,6 +315,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/shll/cmd.json",
                             "scion_id": "ls_dgtl_shll_cmd"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-SHLL-PWRSHLL",
+                            "ls_ttl": "PowerShell Scripting",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/shll/pwrshll.json",
+                            "scion_id": "ls_dgtl_shll_pwrshll"
                         }
                     ]
                 },
@@ -261,6 +378,8 @@
             "ls_id": "LS-HI",
             "ls_ttl": "Handbook of Inhabitants",
             "ls_type": "->",
+            "ls_url": "/ls/hi/",
+            "scion_id": "ls_hi",
             "scions": [
                 {
                     "ls_id": "LS-HI-000",
@@ -281,6 +400,7 @@
                     "ls_id": "LS-HI-AA",
                     "ls_ttl": "Angels + ArchAngels",
                     "ls_type": "=>",
+                    "scion_id": "ls_hi_aa",
                     "scions": [
                         {
                             "ls_id": "LS-HI-AA-7A",
@@ -323,36 +443,50 @@
                     "ls_id": "LS-HI-ALIEN",
                     "ls_ttl": "Alien Life",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/alien/",
+                    "scion_id": "ls_hi_alien",
                     "scions": [
                         {
                             "ls_id": "LS-HI-ALIEN-ASHTAR",
                             "ls_ttl": "Ashtar",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ashtar.json",
+                            "scion_id": "ls_hi_alien_ashtar"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-EBE",
                             "ls_ttl": "Extraterrestrial Biological Entity",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ebe.json",
+                            "scion_id": "ls_hi_alien_ebe"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-GENTRY",
                             "ls_ttl": "The Gentry",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/gentry.json",
+                            "scion_id": "ls_hi_alien_gentry"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-LYRA",
                             "ls_ttl": "The Lyrans",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/lyra.json",
+                            "scion_id": "ls_hi_alien_lyra"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-OBSHAZR",
                             "ls_ttl": "Obsidian Humans with Azure Eyes",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/obshazr.json",
+                            "scion_id": "ls_hi_alien_obshazr"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-UFO",
                             "ls_ttl": "UFOs + Saucers + Aeros",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/ufo.json",
+                            "scion_id": "ls_hi_alien_ufo"
                         }
                     ]
                 },
@@ -377,26 +511,36 @@
                     "ls_id": "LS-HI-DIV",
                     "ls_ttl": "Manifestations of God",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/div",
+                    "scion_id": "ls_hi_div",
                     "scions": [
                         {
                             "ls_id": "LS-HI-DIV-AO",
                             "ls_ttl": "The Alpha-Omega Word",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/ao.json",
+                            "scion_id": "ls_hi_div_ao"
                         },
                         {
                             "ls_id": "LS-HI-DIV-GM",
                             "ls_ttl": "The Green Man",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/gm.json",
+                            "scion_id": "ls_hi_div_gm"
                         },
                         {
                             "ls_id": "LS-HI-DIV-HGA",
                             "ls_ttl": "The Holy Guardian Angel",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/hga.json",
+                            "scion_id": "ls_hi_div_hga"
                         },
                         {
                             "ls_id": "LS-HI-DIV-MITRAS",
                             "ls_ttl": "Mithras",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/mitras.json",
+                            "scion_id": "ls_hi_div_mitras"
                         },
                         {
                             "ls_id": "LS-HI-DIV-OT",
@@ -419,36 +563,36 @@
                     "ls_id": "LS-HI-FAE",
                     "ls_ttl": "The Gentle Faerie Folk",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/fae/",
+                    "scion_id": "ls_hi_fae",
                     "scions": [
                         {
                             "ls_id": "LS-HI-FAE-000",
                             "ls_ttl": "Overview of 'The Gentle Faerie Folk'",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/000.json",
+                            "scion_id": "ls_hi_fae_000"
                         },
                         {
                             "ls_id": "LS-HI-FAE-DRCT",
                             "ls_ttl": "Directory + Dictionary of The Faerie Folk",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/drct.json",
+                            "scion_id": "ls_hi_fae_drct"
                         },
                         {
-                            "ls_id": "LS-HI-FAE-DRCT-GRPS",
-                            "ls_ttl": "Directory to Fae Groups",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-FAE-DRCT-INDV",
-                            "ls_ttl": "Directory to Fae Individuals",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-FAE-FOODS",
-                            "ls_ttl": "Faerie Foods",
-                            "ls_type": "+>"
+                            "ls_id": "LS-HI-FAE-FOOD",
+                            "ls_ttl": "Foods of The Faerie Folk",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/food.json",
+                            "scion_id": "ls_hi_fae_food"
                         },
                         {
                             "ls_id": "LS-HI-FAE-WARD",
                             "ls_ttl": "Defensive Measures for Faerie Emergencies",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/ward.json",
+                            "scion_id": "ls_hi_fae_ward"
                         }
                     ]
                 },
@@ -760,9 +904,18 @@
                         {
                             "ls_id": "LS-MMM-ND-0040s",
                             "ls_ttl": "The Numbers 40 through 49",
-                            "ls_type": "+>",
-                            "ls_url": "ls/mmm/nd/0040s.json",
-                            "scion_id": "ls_mmm_nd_0040s"
+                            "ls_type": "=>",
+                            "ls_url": "ls/mmm/nd/",
+                            "scion_id": "ls_mmm_nd_0040s",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-ND-0040",
+                                    "ls_ttl": "The Number 40",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/nd/0040.json",
+                                    "scion_id": "ls_mmm_nd_0040"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-MMM-ND-0050s",
@@ -954,7 +1107,57 @@
                     "ls_ttl": "Sacred Taxonomy",
                     "ls_type": "=>",
                     "ls_url": "",
-                    "scion_id": "ls_nn_st"
+                    "scion_id": "ls_nn_st",
+                    "scions": [
+                        {
+                            "ls_id": "LS-NN-ST-O",
+                            "ls_ttl": "Plant Orders",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_nn_st_o",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-NN-ST-O-APILS",
+                                    "ls_ttl": "Apiales",
+                                    "ls_type": "=>",
+                                    "ls_url": "",
+                                    "scion_id": "ls_nn_st_o_apils",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-NN-ST-O-APILS-GNSNG",
+                                            "ls_ttl": "Ginseng",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/apils/gnsng.json",
+                                            "scion_id": "ls_nn_st_o_apils_gnsng"
+                                        },
+                                        {
+                                            "ls_id": "LS-NN-ST-O-APILS-HMLCK",
+                                            "ls_ttl": "Hemlock (Conium Maculatum)",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/apils/hmlck.json",
+                                            "scion_id": "ls_nn_st_o_apils_hmlck"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-NN-ST-O-LRLS",
+                                    "ls_ttl": "Laurels",
+                                    "ls_type": "=>",
+                                    "ls_url": "",
+                                    "scion_id": "ls_nn_st_o_lrls",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-NN-ST-O-LRLS-LRL",
+                                            "ls_ttl": "Laurel",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/nn/st/o/lrls/lrl.json",
+                                            "scion_id": "ls_nn_st_o_lrls_lrl"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1064,6 +1267,13 @@
                     "ls_url": "",
                     "scion_id": "ls_qbl_aa",
                     "scions": [
+                        {
+                            "ls_id": "LS-QBL-AA-101-231G",
+                            "ls_ttl": "The 231 Gates",
+                            "ls_type": "+>",
+                            "ls_url": "ls/qbl/aa/101_231g.json",
+                            "scion_id": "ls_qbl_aa_101_231g"
+                        },
                         {
                             "ls_id": "LS-QBL-AA-L01",
                             "ls_ttl": "The Letter Aleph",
@@ -1342,125 +1552,11 @@
                                     "scion_id": "ls_qbl_alg_plnt_p01"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P02",
-                                    "ls_ttl": "The Planet Mercury",
-                                    "ls_type": "+>"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P03",
-                                    "ls_ttl": "The Planet Venus",
-                                    "ls_type": "+>"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P04",
-                                    "ls_ttl": "The Planet Sol",
-                                    "ls_type": "+>"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P05",
-                                    "ls_ttl": "The Planet Mars",
-                                    "ls_type": "+>"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-QBL-ALG-360D",
-                            "ls_ttl": "360 Degrees of The Celestial Wheel",
-                            "ls_type": "=>",
-                            "scion_id": "ls_qbl_alg_360d",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-QBL-ALG-360D-VI-D001030",
-                                    "ls_ttl": "0-30 Aries Degrees",
-                                    "ls_type": "=>",
-                                    "scion_id": "ls_qbl_alg_360d_vi_d001030",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D001",
-                                            "ls_ttl": "01 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D002",
-                                            "ls_ttl": "02 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D003",
-                                            "ls_ttl": "03 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D004",
-                                            "ls_ttl": "04 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D005",
-                                            "ls_ttl": "05 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D006",
-                                            "ls_ttl": "06 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D007",
-                                            "ls_ttl": "07 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D008",
-                                            "ls_ttl": "08 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D009",
-                                            "ls_ttl": "09 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D010",
-                                            "ls_ttl": "10 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D011",
-                                            "ls_ttl": "11 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D012",
-                                            "ls_ttl": "12 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D013",
-                                            "ls_ttl": "13 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D014",
-                                            "ls_ttl": "14 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D015",
-                                            "ls_ttl": "15 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D016",
-                                            "ls_ttl": "16 Aries",
-                                            "ls_type": "+>"
-                                        },
-                                        {
-                                            "ls_id": "LS-QBL-ALG-360D-D017",
-                                            "ls_ttl": "17 Aries",
-                                            "ls_type": "+>"
-                                        }
-                                    ]
+                                    "ls_id": "LS-QBL-ALG-PLNT-P07",
+                                    "ls_ttl": "The Planet Saturn",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p07.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p07"
                                 }
                             ]
                         }
@@ -1487,6 +1583,13 @@
                     "ls_url": "",
                     "scion_id": "ls_qbl_lmnt",
                     "scions": [
+                        {
+                            "ls_id": "LS-QBL-LMNT-W-000",
+                            "ls_ttl": "The 4 + 5th Elements of The West",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/lmnt/w/000.json",
+                            "scion_id": "ls_qbl_lmnt_w_000"
+                        },
                         {
                             "ls_id": "LS-QBL-LMNT-W-E00",
                             "ls_ttl": "The Element of Spirit",
@@ -1531,6 +1634,13 @@
                     "ls_url": "",
                     "scion_id": "ls_qbl_otz",
                     "scions": [
+                        {
+                            "ls_id": "LS-QBL-OTz-000",
+                            "ls_ttl": "Overview of 'The Tree of Life'",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/000.json",
+                            "scion_id": "ls_qbl_otz_000"
+                        },
                         {
                             "ls_id": "LS-QBL-OTz-SPR01",
                             "ls_ttl": "The Sephirah Kether",
@@ -1618,12 +1728,170 @@
                     "scion_id": "ls_qbl_taro",
                     "scions": [
                         {
-                            "ls_id": "LS-QBL-TARO-KEY-K11",
-                            "ls_ttl": "The Justice Card",
-                            "ls_type": "+>",
-                            "scion_id": "ls_qbl_taro_key_k11",
-                            "ls_url": "https://api.jsonbin.io/v3/b/63ac665301a72b59f23b0bbb"
+                            "ls_id": "LS-QBL-TARO-KEY",
+                            "ls_ttl": "The 22 Keys of The Major Arcana",
+                            "ls_type": "=>",
+                            "ls_url": "",
+                            "scion_id": "ls_qbl_taro_key",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K00",
+                                    "ls_ttl": "The Fool Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k00.json",
+                                    "scion_id": "ls_qbl_taro_key_k00"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K01",
+                                    "ls_ttl": "The Magician Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k01.json",
+                                    "scion_id": "ls_qbl_taro_key_k01"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K02",
+                                    "ls_ttl": "The High Priestess Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k02.json",
+                                    "scion_id": "ls_qbl_taro_key_k02"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K03",
+                                    "ls_ttl": "The Emperess Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k03.json",
+                                    "scion_id": "ls_qbl_taro_key_k03"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K04",
+                                    "ls_ttl": "The Emperor Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k04.json",
+                                    "scion_id": "ls_qbl_taro_key_k04"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K05",
+                                    "ls_ttl": "The Hierophant Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k05.json",
+                                    "scion_id": "ls_qbl_taro_key_k05"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K06",
+                                    "ls_ttl": "The Lovers Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k06.json",
+                                    "scion_id": "ls_qbl_taro_key_k06"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K07",
+                                    "ls_ttl": "The Chariot Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k07.json",
+                                    "scion_id": "ls_qbl_taro_key_k07"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K08",
+                                    "ls_ttl": "The Strength Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k08.json",
+                                    "scion_id": "ls_qbl_taro_key_k08"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K09",
+                                    "ls_ttl": "The Hermit Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k09.json",
+                                    "scion_id": "ls_qbl_taro_key_k09"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K10",
+                                    "ls_ttl": "The Wheel of Fortune Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k10.json",
+                                    "scion_id": "ls_qbl_taro_key_k10"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K11",
+                                    "ls_ttl": "The Justice Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k11.json",
+                                    "scion_id": "ls_qbl_taro_key_k11"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K12",
+                                    "ls_ttl": "The Hanged Man Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k12.json",
+                                    "scion_id": "ls_qbl_taro_key_k12"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K13",
+                                    "ls_ttl": "The Death Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k13.json",
+                                    "scion_id": "ls_qbl_taro_key_k13"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K14",
+                                    "ls_ttl": "The Temperance Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k14.json",
+                                    "scion_id": "ls_qbl_taro_key_k14"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K15",
+                                    "ls_ttl": "The Devil Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k15.json",
+                                    "scion_id": "ls_qbl_taro_key_k15"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K16",
+                                    "ls_ttl": "The Tower Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k16.json",
+                                    "scion_id": "ls_qbl_taro_key_k16"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K17",
+                                    "ls_ttl": "The Star Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k17.json",
+                                    "scion_id": "ls_qbl_taro_key_k17"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K18",
+                                    "ls_ttl": "The Moon Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k18.json",
+                                    "scion_id": "ls_qbl_taro_key_k18"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K19",
+                                    "ls_ttl": "The Sun Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k19.json",
+                                    "scion_id": "ls_qbl_taro_key_k19"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K20",
+                                    "ls_ttl": "The Judgment Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k20.json",
+                                    "scion_id": "ls_qbl_taro_key_k20"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-TARO-KEY-K21",
+                                    "ls_ttl": "The Universe Card",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/taro/key/k21.json",
+                                    "scion_id": "ls_qbl_taro_key_k21"
+                                }
+                            ] 
                         }
+                        
+                        
                     ]
                 }
             ]

@@ -1,12 +1,12 @@
 {
     "ls_id": "LS-DGTL-ISEC-DFN-CRYPT",
-    "ls_ttl": "Cryptology + Cryptography",
+    "ls_ttl": "Cryptography",
     "ls_url": "/ls/dgtl/isec/dfn/crypt.json",
     "scion_id": "ls_dgtl_isec_dfn_crypt",
     "scions": [
         {
             "drct_id": "000",
-            "drct_ttl": "Overview of 'Cryptology + Cryptography'",
+            "drct_ttl": "Overview of 'Cryptography'",
             "scion_id": "ls_dgtl_isec_dfn_crypt_000",
             "scions": [
                 {
@@ -19,12 +19,12 @@
         },
         {
             "drct_id": "CNCP",
-            "drct_ttl": "Concepts of 'Cryptology + Cryptography'",
+            "drct_ttl": "Concepts of 'Cryptography'",
             "scion_id": "ls_dgtl_isec_dfn_crypt_cncp"
         },
         {
             "drct_id": "HIST",
-            "drct_ttl": "History of 'Cryptology + Cryptography'",
+            "drct_ttl": "History of 'Cryptography'",
             "scion_id": "ls_dgtl_isec_dfn_crypt_hist",
             "scions": [
                 {

@@ -5,6 +5,26 @@
     "scion_id": "ls_qbl_alg_s03",
     "scions": [
         {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_qbl_alg_s03_qccl"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_cntr"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Gemini",
+            "scion_id": "ls_qbl_alg_s03_qblh"
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Personality Influences of 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_prsn"
+        },
+        {
             "drct_id": "GIFT",
             "drct_ttl": "Gifts for 'Gemini'",
             "scion_id": "ls_qbl_alg_s03_gift",
@@ -16,6 +36,16 @@
                     "scion_id": "ls_qbl_alg_s03_gift_lst_ideas"
                 }
             ]
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "'Gemini' in Career",
+            "scion_id": "ls_qbl_alg_s03_work"
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_mdcl"
         }
     ]
 }

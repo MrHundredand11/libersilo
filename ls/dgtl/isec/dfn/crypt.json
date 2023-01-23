@@ -51,32 +51,32 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Single Key"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Shared Key"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Secret Key"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Shared Secret Key"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Session Key"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_txt",
+                                            "insc_typ2": "txt",
                                             "insc_cntn": "NOT the \"private key\""
                                         }
                                     ]
@@ -89,25 +89,25 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "File encryption for transmission",
                                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencryptrnsmt"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Encryption of files in storage",
                                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencrypstrg"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Financial transactions",
                                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_fncltrnsctions"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "VPN Encryption",
                                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_vpnencryption"
                                         }
@@ -121,17 +121,17 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "House Keys"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Building Keys"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "in_trm",
+                                            "insc_typ2": "trm",
                                             "insc_term": "Commonly Shared Lock Keys"
                                         }
                                     ]
@@ -144,7 +144,7 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_itr_txt",
+                                            "insc_typ2": "itr_txt",
                                             "insc_itr": "1",
                                             "insc_cntn": "The recipient's public key is retrieved."
                                         }
@@ -162,7 +162,7 @@
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
-                                                    "insc_typ2": "insc_txt",
+                                                    "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
                                                     "insc_cntn": "Stream-based = encryption operations is on a constant stream of 0s and 1s"
                                                 }
@@ -174,7 +174,7 @@
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
-                                                    "insc_typ2": "insc_txt",
+                                                    "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
                                                     "insc_cntn": "Block-based = encryption operation is on fixed blocks of plaintext."
                                                 }

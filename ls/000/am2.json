@@ -258,7 +258,7 @@
                                 },
                                 {
                                     "ls_id": "LS-DGTL-ISEC-DFN-CRYPT",
-                                    "ls_ttl": "Cryptology + Cryptography",
+                                    "ls_ttl": "Cryptography",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/isec/dfn/crypt.json",
                                     "scion_id": "ls_dgtl_isec_dfn_crypt"

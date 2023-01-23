@@ -25,7 +25,30 @@
         {
             "drct_id": "HIST",
             "drct_ttl": "History of 'Cryptology + Cryptography'",
-            "scion_id": "ls_dgtl_isec_dfn_crypt_hist"
+            "scion_id": "ls_dgtl_isec_dfn_crypt_hist",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Historical Examples",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Historical Examples</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Ciphers</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_dgtl_isec_dfn_crypt_hist_lst_exmp",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Historical Example",
+                            "insc_term": "Caesar Cipher"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Historical Example",
+                            "insc_term": "The Enigma Machine"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "KEYS",

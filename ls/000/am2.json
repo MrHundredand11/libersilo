@@ -1552,11 +1552,132 @@
                                     "scion_id": "ls_qbl_alg_plnt_p01"
                                 },
                                 {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P02",
+                                    "ls_ttl": "The Planet Mercury",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P03",
+                                    "ls_ttl": "The Planet Venus",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P04",
+                                    "ls_ttl": "The Planet Sol",
+                                    "ls_type": "+>"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P05",
+                                    "ls_ttl": "The Planet Mars",
+                                    "ls_type": "+>"
+                                },
+                                {
                                     "ls_id": "LS-QBL-ALG-PLNT-P07",
                                     "ls_ttl": "The Planet Saturn",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/alg/plnt/p07.json",
                                     "scion_id": "ls_qbl_alg_plnt_p07"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-360D",
+                            "ls_ttl": "360 Degrees of The Celestial Wheel",
+                            "ls_type": "=>",
+                            "scion_id": "ls_qbl_alg_360d",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-ALG-360D-VI-D001030",
+                                    "ls_ttl": "0-30 Aries Degrees",
+                                    "ls_type": "=>",
+                                    "scion_id": "ls_qbl_alg_360d_vi_d001030",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D001",
+                                            "ls_ttl": "01 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D002",
+                                            "ls_ttl": "02 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D003",
+                                            "ls_ttl": "03 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D004",
+                                            "ls_ttl": "04 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D005",
+                                            "ls_ttl": "05 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D006",
+                                            "ls_ttl": "06 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D007",
+                                            "ls_ttl": "07 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D008",
+                                            "ls_ttl": "08 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D009",
+                                            "ls_ttl": "09 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D010",
+                                            "ls_ttl": "10 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D011",
+                                            "ls_ttl": "11 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D012",
+                                            "ls_ttl": "12 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D013",
+                                            "ls_ttl": "13 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D014",
+                                            "ls_ttl": "14 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D015",
+                                            "ls_ttl": "15 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D016",
+                                            "ls_ttl": "16 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D017",
+                                            "ls_ttl": "17 Aries",
+                                            "ls_type": "+>"
+                                        }
+                                    ]
                                 }
                             ]
                         }

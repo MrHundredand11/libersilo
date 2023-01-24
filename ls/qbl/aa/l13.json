@@ -100,20 +100,56 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_131",
+                                    "insc_offs": "styl_offs_lft_73",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mem</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>water</span>\""
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_131",
+                                    "insc_offs": "styl_offs_lft_73",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mara</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Hebrew</span>) = \"<span class='styl_insc_txt_stkitc'>the bitter salt sea</span>\""
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_offs": "styl_offs_lft_131",
+                                    "insc_offs": "styl_offs_lft_73",
                                     "insc_cntn": "\"<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>Mare</span>\"&nbsp;(<span class='styl_insc_txt_stkitc'>Latin</span>) = \"<span class='styl_insc_txt_stkitc'>ocean</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>sea</span>\"&nbsp;or&nbsp;\"<span class='styl_insc_txt_stkitc'>water</span>\""
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Mist"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Marsh"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Moisture"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Mud"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Magma"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_lft_73",
+                                    "insc_term": "Milk"
                                 }
                             ]
                         },

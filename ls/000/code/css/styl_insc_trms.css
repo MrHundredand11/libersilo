@@ -5,3 +5,9 @@
     display: inline-block;
     align-self: center;
 }
+
+.styl_insc_trms_prth_01 {
+    font-family: sitka;
+    font-style: italic;
+    display: inline-block;
+}

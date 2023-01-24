@@ -4,15 +4,159 @@
     "scion_id": "ls_qbl_taro_key_k11",
     "scions": [
         {
+            "drct_id": "KEYW",
+            "drct_ttl": "Key Words + Phrases of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_keyw",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Words</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_taro_key_k11_keyw_lst_keywords",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Libra"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Justice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Adjustment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Measure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Agreement"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Temporary suspension of activity before action"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Truths"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Balance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Centering"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Equilibriation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Balancing of Opposites"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Order"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "The Dance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Cause and Effect"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Action/Reaction"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Karma"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Impartiality"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Love (Venus) and Law (Saturn)"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Severity + Mercy = Tempered Justice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Nature's Exactitude"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Structured Air = Music"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Weigh and prune (vs continuously adapt)"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_cntn": "Time and Timing"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Phrases</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_taro_key_k11_keyw_lst_keyphrases",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Key Phrase",
+                            "insc_cntn": "Every form of energy must be directed, must be applied with integrity, to the full satisfaction of its destiny."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "SYMB",
             "drct_ttl": "Scenery + Symbols of 'The Justice Card'",
             "scion_id": "ls_qbl_taro_key_k11_symb",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_ttl": "Common Symbols of (The Justice Card)",
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Common Symbols",
+                    "insc_ttl": "Common Symbols of (The Justice Card)",
                     "scion_id": "ls_qbl_taro_key_k11_symb_cmmn",
                     "scions": [
                         {
@@ -21,9 +165,10 @@
                     ]
                 },
                 {
-                    "insc_ttl": "Versions of (The Justice Card)",
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Versions",
+                    "insc_ttl": "Versions of (The Justice Card)",
                     "scion_id": "ls_qbl_taro_key_k11_symb_vrsn",
                     "scions": [
                         {
@@ -33,9 +178,10 @@
                             "insc_term": "Thoth Tarot",
                             "scions": [
                                 {
-                                    "insc_ttl": "Symbols of (The Adjustment Card)",
-                                    "insc_type": "stm_olst_exp",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
                                     "insc_tag": "Symbols",
+                                    "insc_ttl": "Symbols of (The Adjustment Card)",
                                     "scion_id": "ls_qbl_taro_key_k11_symb_vrsn_thoth_symb",
                                     "scions": [
                                         {
@@ -82,9 +228,10 @@
             "scion_id": "ls_qbl_taro_key_k11_divn",
             "scions": [
                 {
-                    "insc_ttl": "Indications in (Love Readings)",
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Love Reading Indications",
+                    "insc_ttl": "Indications in (Love Readings)",
                     "scion_id": "ls_qbl_taro_key_k11_divn_love",
                     "scions": [
                         {
@@ -94,15 +241,17 @@
                     ]
                 },
                 {
-                    "insc_ttl": "Indications in (Happiness Readings)",
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Happiness Reading Indications",
+                    "insc_ttl": "Indications in (Happiness Readings)",
                     "scion_id": "ls_qbl_taro_key_k11_divn_hppy"
                 },
                 {
-                    "insc_ttl": "Indications in (Success Readings)",
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Success Reading Indications",
+                    "insc_ttl": "Indications in (Success Readings)",
                     "scion_id": "ls_qbl_taro_key_k11_divn_sccs"
                 }
             ]
@@ -113,9 +262,10 @@
             "scion_id": "ls_qbl_taro_key_k11_deit",
             "scions": [
                 {
-                    "insc_ttl": "List of Corresponding Deities to (The Justice Card)",
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Deities",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deities</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scion_id": "ls_qbl_taro_key_k11_deit_lst",
                     "scions": [
                         {

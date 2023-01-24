@@ -235,7 +235,8 @@
                     "scion_id": "ls_qbl_taro_key_k11_divn_love",
                     "scions": [
                         {
-                            "insc_type": "in_txt",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
                             "insc_cntn": "Do not hide your feelings behind rational grounds! Represent your convictions courteously and consistently! Those who are satisfied can bring peace."
                         }
                     ]
@@ -255,6 +256,11 @@
                     "scion_id": "ls_qbl_taro_key_k11_divn_sccs"
                 }
             ]
+        },
+        {
+            "drct_id": "ASTR",
+            "drct_ttl": "Astrology of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_astr"
         },
         {
             "drct_id": "DEIT",

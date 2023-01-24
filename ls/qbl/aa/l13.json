@@ -64,18 +64,28 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
                                     "insc_sld": "|\\_",
-                                    "insc_pntr": "}>",
                                     "insc_offs": "styl_offs_lft_131",
-                                    "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>מ</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Initial Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>wave</span>"
-                                },
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": "}>",
-                                    "insc_offs": "styl_offs_lft_131",
-                                    "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>ם</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Final Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>long flat lines suggest the sea at peace</span>"
+                                    "insc_cntn": "Both the <b>open</b> and the <b>closed</b> forms of the&nbsp;<span class='styl_insc_trms_phrs_02'>Hebrew Mem</span>&nbsp;have shapes that look like&nbsp;<span class='styl_insc_trms_phrs_01'>waves</span>:",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": "}>",
+                                            "insc_offs": "styl_offs_lft_131",
+                                            "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>מ</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Initial Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>wave</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": "}>",
+                                            "insc_offs": "styl_offs_lft_131",
+                                            "insc_cntn": "<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_19'>ם</span>&nbsp;<span class='styl_insc_txt_flow'>=<span>&nbsp;<span class='styl_insc_txt_trm_stkbld'>Final Mem</span>&nbsp;<span class='styl_insc_txt_flow'>>=></span>&nbsp;<span class='styl_insc_txt_stkitc'>long flat lines suggest the sea at peace</span>"
+                                        }
+                                    ]
                                 }
                             ]
                         },

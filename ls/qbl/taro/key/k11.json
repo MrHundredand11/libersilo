@@ -17,117 +17,117 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Libra"
+                            "insc_term": "Libra"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Justice"
+                            "insc_term": "Justice"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Adjustment"
+                            "insc_term": "Adjustment"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Measure"
+                            "insc_term": "Measure"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Agreement"
+                            "insc_term": "Agreement"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Temporary suspension of activity before action"
+                            "insc_term": "Temporary suspension of activity before action"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Truths"
+                            "insc_term": "Truths"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Balance"
+                            "insc_term": "Balance"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Centering"
+                            "insc_term": "Centering"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Equilibriation"
+                            "insc_term": "Equilibriation"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Balancing of Opposites"
+                            "insc_term": "Balancing of Opposites"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Order"
+                            "insc_term": "Order"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "The Dance"
+                            "insc_term": "The Dance"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Cause and Effect"
+                            "insc_term": "Cause and Effect"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Action/Reaction"
+                            "insc_term": "Action/Reaction"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Karma"
+                            "insc_term": "Karma"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Impartiality"
+                            "insc_term": "Impartiality"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Love (Venus) and Law (Saturn)"
+                            "insc_term": "Love (Venus) and Law (Saturn)"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Severity + Mercy = Tempered Justice"
+                            "insc_term": "Severity + Mercy = Tempered Justice"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Nature's Exactitude"
+                            "insc_term": "Nature's Exactitude"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Structured Air = Music"
+                            "insc_term": "Structured Air = Music"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Weigh and prune (vs continuously adapt)"
+                            "insc_term": "Weigh and prune (vs continuously adapt)"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Time and Timing"
+                            "insc_term": "Time and Timing"
                         }
                     ]
                 },

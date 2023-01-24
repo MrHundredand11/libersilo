@@ -50,10 +50,17 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
-                            "insc_sld": "\\_",
                             "insc_offs": "styl_offs_dwn_43",
-                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Greek and Latin Letters</span>&nbsp;for the sound \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" take the form of the waves of the sea,\njust look at the&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_19'>M</span>. The Hebrew Letter&nbsp;<span class='styl_insc_txt_fnt_cmbria styl_insc_txt_size_17'>מ</span> also sort of looks like a wave.",
+                            "insc_cntn": "The form of the&nbsp;<span class='styl_insc_txt_trm_stkbld'>Greek and Latin and Hebrew Letters</span>&nbsp;for the sound \"<span class='styl_insc_txt_stkblditc_17'>m</span>\" or \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" look like the waves of the sea.",                            
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_sld": "|\\_",
+                                    "insc_offs": "styl_offs_dwn_17",
+                                    "insc_cntn": "These Letters have the apparance of waves,\n\tsuch as can easily be seen in the <b>up and down</b> within the forms of\n\tthe&nbsp;<span class='styl_insc_trms_lttr_01'>μ</span>&nbsp;(<span class='styl_insc_trms_prth_01'>Greek</span>) and the&nbsp;<span class='styl_insc_trms_lttr_01'>M</span>&nbsp;(<span class='styl_insc_trms_prth_01'>Latin</span>) and the&nbsp;<span class='styl_insc_trms_lttr_01'>מ</span>&nbsp;(<span class='styl_insc_trms_prth_01'>Hebrew</span>)."
+                                },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",

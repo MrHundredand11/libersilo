@@ -6,6 +6,34 @@
     "scions": [
         {
             "drct_id": "CMND",
+            "drct_ttl": "PowerShell Commands for 'Active Directory'",
+            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_actdir",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Active Directory",
+                    "insc_ttl": "List of Sections of Commands for (AD Management)",
+                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_actdir_lst",
+                    "scions": [
+                        {
+                            "insc_term": "General AD Management Commands"
+                        },
+                        {
+                            "insc_term": "Domain + Forest Management Commands"
+                        },
+                        {
+                            "insc_term": "Organizational Unit Management Commands"
+                        },
+                        {
+                            "insc_term": "Group Membership Management Commands"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CMND",
             "drct_ttl": "PowerShell Commands for 'Azure AD'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_azuread",
             "scions": [

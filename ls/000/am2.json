@@ -117,6 +117,13 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/code/web/css.json",
                                     "scion_id": "ls_dgtl_code_web_css"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-JS",
+                                    "ls_ttl": "JavaScript",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/js.json",
+                                    "scion_id": "ls_dgtl_code_web_js"
                                 }
                             ]
                         }

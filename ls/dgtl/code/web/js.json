@@ -18,7 +18,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "In JavaScript, there are only two types of 'values':\n\t\t\t<span class='styl_insc_txt_trm_grg'>an Object</span>&nbsp;or&nbsp;<span class='styl_insc_txt_trm_grg'>a Primitive</span>"
+                            "insc_cntn": "In&nbsp;<span class='styl_insc_txt_trm_grg'>JavaScript</span>, there are only <b>two types</b> of '<span class='styl_insc_txt_stkitc'>values</span>':\n\t\t\t<span class='styl_insc_trms_lttr_01'>an Object</span>&nbsp;or&nbsp;<span class='styl_insc_trms_lttr_01'>a Primitive</span>"
                         }
                     ]
                 }

@@ -49,6 +49,21 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Qoph'",
+            "scion_id": "ls_qbl_aa_l19_qblh"
+        },
+        {
+            "drct_id": "ASTR",
+            "drct_ttl": "Astrology of 'Qoph'",
+            "scion_id": "ls_qbl_aa_l19_astr"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondence of 'Qoph'",
+            "scion_id": "ls_qbl_aa_l19_cntr"
         }
     ]
 }

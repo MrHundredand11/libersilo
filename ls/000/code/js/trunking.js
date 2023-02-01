@@ -244,6 +244,7 @@ function gen_Insc(insc_i, scion) {
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
                     insc_extn.append(insc_trm);
+                    insc_prtr.style['align-items'] = 'center';
                     insc_prtr.append(insc_tag, insc_extn);            
                     break;
 

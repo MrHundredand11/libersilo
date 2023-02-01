@@ -29,6 +29,11 @@
                                     "insc_cntn": "These&nbsp;<span class='styl_insc_trms_phrs_02'>tools</span>&nbsp;have various means by which they may be employed."
                                 },
                                 {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "|"
+                                },
+                                {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_sld": "|\\_",

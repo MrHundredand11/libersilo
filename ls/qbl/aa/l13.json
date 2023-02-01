@@ -157,7 +157,6 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
-                            "insc_sld": "\\_",
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) holds the&nbsp;<span class='styl_insc_trms_phrs_02'>Standard Gematria Value</span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>,\n\tand&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;is a Number that has connection to the concept of&nbsp;<span class='styl_insc_txt_stkblditc_17'>Water</span>,\n\t\tsuch as the&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;days and nights of the&nbsp;<span class='styl_insc_txt_stkblditc_17'>Biblical Flood</span>,\n\t\tor the&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;weeks (<span class='styl_insc_txt_stkitc'>9 Months</span>) in which the child develops within the&nbsp;<span class='styl_insc_txt_stkblditc_17'>waters of the womb</span>.",
                             "scions": [
@@ -167,12 +166,12 @@
                                     "insc_tag": "Additionally",
                                     "insc_sld": "|\\_",
                                     "insc_offs": "styl_offs_dwn_17",
-                                    "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) is spelled&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מם</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MM</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מים</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MYM</span>) which is&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מ + מ</span>&nbsp;(<span class='styl_insc_txt_stkitc'>M + M</span>) or 40 + 40,\nwhich finds itself reflected in the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights of the Flood,\nor in Moses being on Mt. Sinai for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights."
+                                    "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) is spelled&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מם</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MM</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מים</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MYM</span>) which is&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מ + מ</span>&nbsp;(<span class='styl_insc_txt_stkitc'>M + M</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria'>40 + 40</span>,\nwhich finds itself reflected in the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights of the Flood,\nor in Moses being on Mt. Sinai for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights,\nor in Jesus fasting in the Wilderness for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights."
                                 }
                             ]
                         },
                         {
-                            "insc_typ1": "insc",
+                            "insc_typ1": "insc", 
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
                             "insc_sld": "\\_",

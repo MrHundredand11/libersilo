@@ -708,7 +708,9 @@
                         {
                             "ls_id": "LS-LULS-BBL-000",
                             "ls_ttl": "Overview of 'The Holy Bible'",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/luls/bbl/000.json",
+                            "scion_id": "ls_luls_bbl_000"
                         },
                         {
                             "ls_id": "LS-LULS-BBL-BPRB",
@@ -728,7 +730,43 @@
                         {
                             "ls_id": "LS-LULS-BBL-OT",
                             "ls_ttl": "The Old Testament",
-                            "ls_type": "=>"
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/bbl/ot/",
+                            "scion_id": "ls_luls_bbl_ot",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-BBL-OT-01",
+                                    "ls_ttl": "The Book of Genesis",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/bbl/ot/01/",
+                                    "scion_id": "ls_luls_bbl_ot_01",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C01",
+                                            "ls_ttl": "Ch 01 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c01.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c01"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-LULS-BBL-OT-23",
+                                    "ls_ttl": "The Book of Isaiah",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/bbl/ot/23/",
+                                    "scion_id": "ls_luls_bbl_ot_23",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-23-000",
+                                            "ls_ttl": "Overview of The Book of Isaiah",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/23/000.json",
+                                            "scion_id": "ls_luls_bbl_ot_23_000"
+                                        }
+                                    ]
+                                }
+                            ]
                         }  
                     ]
                 },

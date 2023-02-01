@@ -354,7 +354,7 @@ function gen_Insc(insc_i, scion) {
 
             switch (scion.insc_typ2) {
                 case 'hbrw_00':
-                    var eqc = gen_ECI('div', 'styl_gem_eqc', `id_gem_eqc${insc_id}`);    
+                    var eqc = gen_ECI('div', 'styl_gem_eqc', `id_gem_eqc_${insc_id}`);    
                     var num = gen_ECI('div', 'styl_gem_num', `id_gem_num_${insc_id}`);
                     var eqq = gen_ECI('div', 'styl_gem_eqq', `id_gem_eqq_${insc_id}`);
                     var trm = gen_ECI('div', 'styl_gem_trm', `id_gem_trm_${insc_id}`);
@@ -366,6 +366,15 @@ function gen_Insc(insc_i, scion) {
                     break;
             }
             return gem_cntnr;
+
+        case 'flow':
+            let flow_cntnr = gen_ECI('div', 'styl_flow_cntnr', `id_flow_cntnr_${insc_id}`);
+            switch (scion.insc_typ2) {
+                case 'chut':
+                    flow_cntnr.innerHTML = scion.insc_chut;
+                    break;
+            }
+            return flow_cntnr;
     }
 
 }

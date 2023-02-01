@@ -809,11 +809,45 @@
                     "scion_id": "ls_luls_qbl",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-QBL-BHYR-C01",
-                            "ls_ttl": "Ch 01 of The Sepher Bahir",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/luls/qbl/bhyr/c01.json",
-                            "scion_id": "ls_luls_qbl_bhyr_c01"
+                            "ls_id": "LS-LULS-QBL-BHYR",
+                            "ls_ttl": "The Sepher Bahir",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/qbl/bhyr",
+                            "scion_id": "ls_luls_qbl_bhyr",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-QBL-BHYR-C01",
+                                    "ls_ttl": "Ch 01 of The Sepher Bahir",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/qbl/bhyr/c01.json",
+                                    "scion_id": "ls_luls_qbl_bhyr_c01"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-LULS-QBL-YTzYRH",
+                            "ls_ttl": "The Sepher Yetzirah",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/qbl/ytzyrh/",
+                            "scion_id": "ls_luls_qbl_ytzyrh",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-YTzYRH-LUL",
+                                    "ls_ttl": "Line Upon Line for The Sepher Yetzirah",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/",
+                                    "scion_id": "ls_luls_qbl_ytzyrh_lul",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-QBL-YTzYRH-LUL-C01V01",
+                                            "ls_ttl": "Line Upon Line for Ch 01 Vs 01",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v01.json",
+                                            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },

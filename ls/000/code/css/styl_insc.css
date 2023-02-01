@@ -88,3 +88,8 @@
     font-family: cambria;
 }
 
+.styl_insc_txt_topline_cntrd {
+    display: flex;
+    align-items: center;
+    white-space: pre;
+}

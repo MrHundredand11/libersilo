@@ -101,8 +101,9 @@
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CODE-000",
-                            "ls_ttl": "Overview of 'Coding + Scripting + Programming'",
-                            "ls_type": "+>"
+                            "ls_ttl": "Overview of Coding + Scripting + Programming",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/code/000.json"
                         },
                         {
                             "ls_id": "LS-DGTL-CODE-WEB",

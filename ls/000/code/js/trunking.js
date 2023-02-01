@@ -97,7 +97,7 @@ function gen_term(lf_id, lf_term) {
     if (lf_term == undefined) {
         return undefined;
     } else {
-        var trm = gen_ECI('div', 'styl_main_term', `term_${lf_id}`);
+        var trm = gen_ECI('div', 'styl_insc_trms_li_00', `term_${lf_id}`);
         trm.innerHTML = lf_term;
         return trm;
     }

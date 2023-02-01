@@ -31,3 +31,8 @@
     font-family: calibri;
     font-size: 19px;
 }
+
+.styl_flow_cntnr {
+    display: inline-block;
+    font-family: calibri;
+}

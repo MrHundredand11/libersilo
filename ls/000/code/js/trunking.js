@@ -231,6 +231,7 @@ function gen_Insc(insc_i, scion) {
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     insc_prtr.append(insc_trm);
+                    insc_prtr.style['align-items'] = 'center';
                     if (scion.insc_dfin !== undefined) {
                         var insc_dfin = gen_ECI('div', 'styl_insc_dfin', `id_insc_dfin_${insc_id}`);
                         insc_dfin.innerHTML = `&nbsp;(<span class='styl_insc_dfin_cntn'>${scion.insc_dfin}</span>)`

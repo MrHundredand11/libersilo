@@ -141,7 +141,28 @@
                                             "insc_term": "Cups"
                                         },
                                         {
-                                            "insc_term": "River"
+                                            "insc_term": "River",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_river",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_02'>a bit hard to see</span>"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;=&nbsp;<span class='styl_insc_trms_phrs_02'>flows at the bottom of the card</span>"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_02'>demarcated by hills on the distant shore</span>"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "Celestial Globe"

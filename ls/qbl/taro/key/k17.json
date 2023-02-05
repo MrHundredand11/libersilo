@@ -138,7 +138,26 @@
                                     "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs",
                                     "scions": [
                                         {
-                                            "insc_term": "Cups"
+                                            "insc_term": "Cups",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cups",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt_stpl",
+                                                    "insc_tag": "Qabalah",
+                                                    "insc_cntn": "<span class=''>Two Cups</span>&nbsp;= the <u>Mother Above</u> and the <u>Daughter Below</u>",
+                                                    "scion_id":"ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cups_qblh",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt",
+                                                            "insc_sld": "\\_",
+                                                            "insc_pntr": "((",
+                                                            "insc_cntn": "the&nbsp;<span class='styl_insc_trms_phrs_01'>upper H</span>&nbsp;and the&nbsp;<span class='styl_insc_trms_phrs_01'>lower H</span>&nbsp;in the Divine Name&nbsp;<span class='styl_insc_trms_div_grg'>YHVH</span>))"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "River",
@@ -148,19 +167,19 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_02'>a bit hard to see</span>"
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_01'>a bit hard to see</span>"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;=&nbsp;<span class='styl_insc_trms_phrs_02'>flows at the bottom of the card</span>"
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;=&nbsp;<span class='styl_insc_trms_phrs_01'>flows at the bottom of the card</span>"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_02'>demarcated by hills on the distant shore</span>"
+                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_01'>demarcated by hills on the distant shore</span>"
                                                 }
                                             ]
                                         },

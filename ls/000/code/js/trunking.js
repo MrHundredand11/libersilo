@@ -186,26 +186,26 @@ function gen_Insc(insc_i, scion) {
                         if (scion.scions[lfl].scions !== undefined) {
                             console.log(scion.scions[lfl].scions);
                             var twg_cntnr = gen_ECI('div', 'styl_twg_cntnr stt_hide', `id_twg_cntnr_${scion.scion_id}_${lfl}`);
-                        var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${scion.scion_id}_${lfl}`);
-                        var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
-                        var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${scion.scion_id}_${lfl}`);
-                        var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${scion.scion_id}_${lfl}`);
-                        twg_ttl.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
-                        twg_bmp_top.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
-                        twg_bmp_btm.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
-                        twg_bmp_top.innerHTML = "---<br>--- ---";
-                        twg_bmp_btm.innerHTML = "---- ----<br>----";
-                        twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>${scion.scions[lfl].insc_term}</span>&nbsp<span class='styl_pointers'>::</span>`;
+                            var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${scion.scion_id}_${lfl}`);
+                            var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
+                            var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${scion.scion_id}_${lfl}`);
+                            var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${scion.scion_id}_${lfl}`);
+                            twg_ttl.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                            twg_bmp_top.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                            twg_bmp_btm.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                            twg_bmp_top.innerHTML = "---<br>--- ---";
+                            twg_bmp_btm.innerHTML = "---- ----<br>----";
+                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>{${scion.scions[lfl].insc_term}}</span>&nbsp<span class='styl_pointers'>::</span>`;
 
-                        twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
-                        stm_expnd.appendChild(twg_cntnr);
-                            
-                        for (i2 in scion.scions[lfl].scions) {
-                            //console.log(lf.scions[lfl].scions[i2]);
-                            var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
-                            //console.log(entr_full);
-                            twg_cntn.appendChild(entr_full);
-                        }
+                            twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
+                            stm_expnd.appendChild(twg_cntnr);
+
+                            for (i2 in scion.scions[lfl].scions) {
+                                //console.log(lf.scions[lfl].scions[i2]);
+                                var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
+                                //console.log(entr_full);
+                                twg_cntn.appendChild(entr_full);
+                            }
                         }
                     }
                     break;

@@ -106,7 +106,7 @@
                                                             "insc_typ2": "txt",
                                                             "insc_sld": "\\_",
                                                             "insc_pntr": ">>",
-                                                            "insc_cntn": "The long bill of the&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is a natural&nbsp;<span class='styl_insc_trms_phrs_02'>Fish-Hook</span>&nbsp;(<span class='styl_insc_trms_lttr_01'>צ</span>)"
+                                                            "insc_cntn": "The long bill of the&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is a natural&nbsp;<span class='styl_insc_trms_phrs_02'>Fish-Hook</span>&nbsp;(<span class='styl_insc_trms_lttr_01'>צ</span>)."
                                                         }
                                                     ]
                                                 }
@@ -128,7 +128,36 @@
                             "insc_term": "Rider-Waite-Smith Deck"
                         },
                         {
-                            "insc_term": "Crowley's Thoth Deck"
+                            "insc_term": "Crowley's Thoth Deck",
+                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>in the</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Thoth Deck</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Cups"
+                                        },
+                                        {
+                                            "insc_term": "River"
+                                        },
+                                        {
+                                            "insc_term": "Celestial Globe"
+                                        },
+                                        {
+                                            "insc_term": "Junction of Land and Water"
+                                        },
+                                        {
+                                            "insc_term": "Star of Venus / Babalon"
+                                        },
+                                        {
+                                            "insc_term": "Roses and Butterflies"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

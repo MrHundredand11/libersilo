@@ -63,7 +63,7 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>\n\twhich is sent forth from the various suns and fixed stars of the universe."
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>\n\t(which is sent forth from the various suns and fixed stars of the universe)."
                                                 }
                                             ]
                                         },
@@ -85,7 +85,32 @@
                                         },
                                         {
                                             "insc_term": "Bird",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird"
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>bird</span>&nbsp;on the bush is&nbsp;<span class='styl_insc_trms_phrs_02'>a scarlet Ibis</span>.",
+                                                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird_scarletibis",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt",
+                                                            "insc_sld": "\\_",
+                                                            "insc_pntr": ">>",
+                                                            "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is the Egyptian bird sacred to&nbsp;<span class='styl_insc_trms_phrs_02'>Hermès</span>, the Magician."
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt",
+                                                            "insc_sld": "\\_",
+                                                            "insc_pntr": ">>",
+                                                            "insc_cntn": "The long bill of the&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is a natural&nbsp;<span class='styl_insc_trms_phrs_02'>Fish-Hook</span>&nbsp;(<span class='styl_insc_trms_lttr_01'>צ</span>)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "Woman",

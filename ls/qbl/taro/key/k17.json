@@ -62,7 +62,15 @@
                                             "insc_term": "7 Smaller Stars"
                                         },
                                         {
-                                            "insc_term": "Mountain"
+                                            "insc_term": "Mountain",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_mountain",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>mountain in the background</span>&nbsp;means just what it does in&nbsp;<span class='styl_insc_txt_trm_stkbld'>Key 6</span>&nbsp;and&nbsp;<span class='styl_insc_txt_trm_stkbld'>8</span>:\n\t\t\tIt is a symbol of the Great Work."
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "Bird"

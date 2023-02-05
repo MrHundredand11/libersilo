@@ -5,6 +5,16 @@
     "scion_id": "ls_qbl_taro_key_k17",
     "scions": [
         {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_name"
+        },
+        {
+            "drct_id": "THME",
+            "drct_ttl": "Themes of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_thme"
+        },
+        {
             "drct_id": "SYMB",
             "drct_ttl": "Symbols + Symbolism of 'The Star Card'",
             "scion_id": "ls_qbl_taro_key_k17_symb",
@@ -252,6 +262,56 @@
                         },
                         {
                             "insc_term": "Babalon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_rltn"
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indications of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_divn"
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_xrcs",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Meditations</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Star</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_taro_key_k17_xrcs_lst_mdttns",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<i>Pour water on thyself:\n\tthus shalt thou be a Fountain to the Universe.\n\tFind thou thyself in every Star!\n\tAchieve thou every possibility.</i>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<i>Heaven itself is no more than a veil before the face of the immortal Goddess.</i>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<i>Every man and every woman and every person is a Star.</i>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<i>When you have found the beginning of the way, the star of your soul will show its light.</i>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<i>You must discover the particular hours and in what sign the Psyche of the World ours forth from her two goblets the waters of life like two rivers.</i>\t]"
                         }
                     ]
                 }

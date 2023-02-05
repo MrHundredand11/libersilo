@@ -62,7 +62,8 @@
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>&nbsp;which is sent forth from the various suns and fixed stars of the universe."
+                                                    "insc_pntr": "=>",
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>\n\twhich is sent forth from the various suns and fixed stars of the universe."
                                                 }
                                             ]
                                         },
@@ -77,6 +78,7 @@
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
+                                                    "insc_pntr": "=>",
                                                     "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>mountain in the background</span>&nbsp;means just what it does in&nbsp;<span class='styl_insc_trms_phrs_02'>Key 6</span>&nbsp;and&nbsp;<span class='styl_insc_trms_phrs_02'>8</span>:\n\t\t\t\tIt is a symbol of the&nbsp;<span class='styl_insc_trms_phrs_02'>Great Work</span>."
                                                 }
                                             ]

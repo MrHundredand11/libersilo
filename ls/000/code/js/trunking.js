@@ -154,7 +154,7 @@ function gen_Insc(insc_i, scion) {
                     }
                     break;
 
-                case 'lst_exp':
+                case 'lst_exp1':
                     var lf_ls_shrt = gen_ECI('div', 'styl_stm_lst_exp_ls_shrt', `${insc_id}_stm_lst_exp_ls_short`);
                     var stm_bmp_cycl = gen_ECI('div', 'styl_stm_lst_exp_bmp_cycl', `${insc_id}_stm_lst_exp_bmp_cycl`);
                     var stm_expnd = gen_ECI('div', 'styl_stm_lst_exp_expnd', `${insc_id}_stm_lst_exp_expnd`);
@@ -207,7 +207,7 @@ function gen_Insc(insc_i, scion) {
                     }
                     break;
 
-                case 'lst_twgs':
+                case 'lst_exp':
                     var lf_ls_shrt = gen_ECI('div', 'styl_stm_lst_exp_ls_shrt', `${insc_id}_stm_lst_exp_ls_short`);
                     var stm_bmp_cycl = gen_ECI('div', 'styl_stm_lst_exp_bmp_cycl', `${insc_id}_stm_lst_exp_bmp_cycl`);
                     var stm_expnd = gen_ECI('div', 'styl_stm_lst_exp_expnd', `${insc_id}_stm_lst_exp_expnd`);

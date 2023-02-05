@@ -194,6 +194,23 @@
                                         },
                                         {
                                             "insc_term": "Roses and Butterflies"
+                                        },
+                                        {
+                                            "insc_term": "Spirals"
+                                        },
+                                        {
+                                            "insc_term": "City of the Pyramids",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cityofthepyramids",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>Star Card</span>&nbsp;is about <u>distance</u> and <u>hope</u>, <u>ideals</u> and <u>goals</u>.\n\tAt the distant shore lies&nbsp;<span class='styl_insc_trms_phrs_01'>The City of The Pyramids</span>, <u>the penultimate attainment across the Abyss</u>."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_term": "The Abyss"
                                         }
                                     ]
                                 }

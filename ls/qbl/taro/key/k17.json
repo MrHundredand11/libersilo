@@ -56,10 +56,19 @@
                                     "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs",
                                     "scions": [
                                         {
-                                            "insc_term": "Yellow Star"
+                                            "insc_term": "Yellow Star",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_yellowstar",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>&nbsp;which is sent forth from the various suns and fixed stars of the universe."
+                                                }
+                                            ]
                                         },
                                         {
-                                            "insc_term": "7 Smaller Stars"
+                                            "insc_term": "7 Smaller Stars",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_7smallerstars"
                                         },
                                         {
                                             "insc_term": "Mountain",
@@ -68,18 +77,21 @@
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>mountain in the background</span>&nbsp;means just what it does in&nbsp;<span class='styl_insc_txt_trm_stkbld'>Key 6</span>&nbsp;and&nbsp;<span class='styl_insc_txt_trm_stkbld'>8</span>:\n\t\t\t\tIt is a symbol of the&nbsp;<span class='styl_insc_txt_trm_stkbld'>Great Work</span>."
+                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>mountain in the background</span>&nbsp;means just what it does in&nbsp;<span class='styl_insc_trms_phrs_02'>Key 6</span>&nbsp;and&nbsp;<span class='styl_insc_trms_phrs_02'>8</span>:\n\t\t\t\tIt is a symbol of the&nbsp;<span class='styl_insc_trms_phrs_02'>Great Work</span>."
                                                 }
                                             ]
                                         },
                                         {
-                                            "insc_term": "Bird"
+                                            "insc_term": "Bird",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird"
                                         },
                                         {
-                                            "insc_term": "Woman"
+                                            "insc_term": "Woman",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_woman"
                                         },
                                         {
-                                            "insc_term": "Pool"
+                                            "insc_term": "Pool",
+                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_pool"
                                         }
                                     ]
                                 }

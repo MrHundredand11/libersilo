@@ -48,6 +48,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptology</span>&nbsp;= is the study of codes, or the art of writing codes and solving codes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptanalysis</span>&nbsp;= activities to defeat secret writing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
                             "insc_cntn": "<span class='styl_insc_trms_defn'>Cipher</span>&nbsp;= the system used to create an encoded or secret message"
                         }
                     ]

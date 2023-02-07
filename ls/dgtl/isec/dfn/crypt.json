@@ -13,7 +13,44 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Definitions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_dgtl_isec_dfn_crypt_000_dfin"
+                    "scion_id": "ls_dgtl_isec_dfn_crypt_000_dfin",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is the science of keeping information secret"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is the art of protecting secrets using ciphers & codes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is the practice and study of writing and solving codes in order to hide the true meaning of information"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is the science of hiding information in plain sight, in order to conceal it from unauthorized parties"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is used to keep communications secret and private and secure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cryptography</span>&nbsp;= is secret writing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Cipher</span>&nbsp;= the system used to create an encoded or secret message"
+                        }
+                    ]
                 }
             ]
         },

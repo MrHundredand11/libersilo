@@ -23,6 +23,68 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "OPRT",
+            "drct_ttl": "Operators in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_oprt",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "<span class='styl_insc_txt_trm_grg'>operator</span>&nbsp;= is a character that performs a task in our code",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sldr": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_trm": "Add: +"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sldr": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_trm": "Subtract: -"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sldr": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_trm": "Multiply: *"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sldr": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_trm": "Divide: /"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sldr": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_trm": "Remainder: %"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

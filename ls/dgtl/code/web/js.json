@@ -32,7 +32,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_tag": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -43,44 +43,166 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
-                                    "insc_sldr": "|\\_",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Example",
-                                    "insc_trm": "Add: +"
+                                    "insc_term": "Add: +"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
-                                    "insc_sldr": "|\\_",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Example",
-                                    "insc_trm": "Subtract: -"
+                                    "insc_term": "Subtract: -"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
-                                    "insc_sldr": "|\\_",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Example",
-                                    "insc_trm": "Multiply: *"
+                                    "insc_term": "Multiply: *"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
-                                    "insc_sldr": "|\\_",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Example",
-                                    "insc_trm": "Divide: /"
+                                    "insc_term": "Divide: /"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
-                                    "insc_sldr": "|\\_",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Example",
-                                    "insc_trm": "Remainder: %"
+                                    "insc_term": "Remainder: %"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_spprt'>JavaScript</span>",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "=="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "==="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "!=="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "+="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "*="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "+"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "-"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "*"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "/"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "%"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "**"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "++"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "--"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": ">"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": ">="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "<"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "<="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "&&"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "||"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "="
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "|"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "?"
                         }
                     ]
                 }

@@ -86,8 +86,8 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_spprt'>JavaScript</span>",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of all</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_spprt'>JavaScript</span>",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -207,6 +207,10 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers in 'JavaScript'"
         }
     ]
 }

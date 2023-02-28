@@ -98,26 +98,26 @@
             ]
         },
         {
-            "drct_id": "KEYS",
-            "drct_ttl": "Symmetric + Asymmetric Keys",
-            "scion_id": "ls_dgtl_isec_dfn_crypt_keys",
+            "drct_id": "CRYP",
+            "drct_ttl": "Types of Encryption of 'Cryptography'",
+            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Key Types",
                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Key Types</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_list",
+                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_list",
                     "scions": [
                         {
-                            "insc_term": "Symmetric Keys",
-                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey",
+                            "insc_term": "Symmetric Encryption",
+                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Alternative Names</span>&nbsp;<span class='styl_stm_ttl_tny'>for a</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Key</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_altnmes",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_altnmes",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -155,31 +155,31 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Use Cases</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Key Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_usecases",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "insc_term": "File encryption for transmission",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencryptrnsmt"
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_usecases_flencryptrnsmt"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "insc_term": "Encryption of files in storage",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_flencrypstrg"
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_usecases_flencrypstrg"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "insc_term": "Financial transactions",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_fncltrnsctions"
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_usecases_fncltrnsctions"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "insc_term": "VPN Encryption",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_usecases_vpnencryption"
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_usecases_vpnencryption"
                                         }
                                     ]
                                 },
@@ -187,7 +187,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Examples</span>&nbsp;<span class='styl_stm_ttl_tny'>of a</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Key</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_exmpls",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_exmpls",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -210,7 +210,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>Process</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Key Encryption</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_prcssstps",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_prcssstps",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -224,11 +224,11 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Cipher Types</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_types",
                                     "scions": [
                                         {
                                             "insc_term": "Stream-based \"Stream Cipher\"",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types_strmcphr",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_types_strmcphr",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
@@ -240,7 +240,7 @@
                                         },
                                         {
                                             "insc_term": "Block-based \"Block Cipher\"",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_symmtrckey_types_blckcphr",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_li_symmencrypt_types_blckcphr",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
@@ -260,6 +260,82 @@
                         },
                         {
                             "insc_term": "Hybrid Implementation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "KEYS",
+            "drct_ttl": "List of Encryption Keys",
+            "scion_id": "ls_dgtl_isec_dfn_crypt_keys",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Encryption Keys</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_tag": "Encryption Key Types",
+                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types",
+                    "scions": [
+                        {
+                            "insc_term": "Symmetric Encryption Keys",
+                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Keys</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Caesar Cipher",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_li_caesarcipher",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "stm",
+                                                    "insc_typ2": "brnch",
+                                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of the</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Caesar Cipher</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_li_caesarcipher_descr",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt_stpl",
+                                                            "insc_tag": "Definition",
+                                                            "insc_pntr": "=>",
+                                                            "insc_cntn": "Caesar Cipher = is a private key encryption (symmetric encryption) method"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_term": "DES"
+                                        },
+                                        {
+                                            "insc_term": "3DES"
+                                        },
+                                        {
+                                            "insc_term": "IDEA"
+                                        },
+                                        {
+                                            "insc_term": "AES"
+                                        },
+                                        {
+                                            "insc_term": "RC$ // RC5 // RC6"
+                                        },
+                                        {
+                                            "insc_term": "Blowfish"
+                                        },
+                                        {
+                                            "insc_term": "Twofish"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Asymmetric Encryption Keys",
+                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_asymmencrypt"
                         }
                     ]
                 }

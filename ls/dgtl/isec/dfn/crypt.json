@@ -321,7 +321,7 @@
                                             "insc_term": "AES"
                                         },
                                         {
-                                            "insc_term": "RC$ // RC5 // RC6"
+                                            "insc_term": "RC4 // RC5 // RC6"
                                         },
                                         {
                                             "insc_term": "Blowfish"

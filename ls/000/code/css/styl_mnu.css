@@ -120,9 +120,14 @@
 }
 
 #menu.collapse #mnu_seal {
-    width: 31px;
-    height: 31px;
-    aspect-ratio: auto 31 / 31;
+    width: 47px;
+    height: 47px;
+    aspect-ratio: auto 47 / 47;
+    padding-top: 11px;
+}
+
+#menu.collapse .styl_side_seal {
+    margin: auto;
 }
 
 .styl_mnu_accrd_sqr {

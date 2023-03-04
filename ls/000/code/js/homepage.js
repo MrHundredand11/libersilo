@@ -71,7 +71,7 @@ function homeFetch() {
         .then(data => {
             var mainContainer = document.getElementById('trestleboard');
             mainContainer.innerHTML = "";
-            var trstle_etchngs = gen_ECI('div', 'trstle_etchings', `id_trstle_etchings`);
+            var trstle_etchngs = gen_ECI('div', 'trstle_etchngs', `id_trstle_etchngs`);
             mainContainer.appendChild(trstle_etchngs);
             function populatePage(data) {
                 var headBoard = createElementWithClass('div', 'branch_container');

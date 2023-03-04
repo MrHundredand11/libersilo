@@ -105,7 +105,11 @@
 }
 
 .styl_mnu_accrd_sqr {
-    width: 3.33px;
-    height: 3.33px;
+    width: 33.33px;
+    height: 33.33px;
     border: 1.11px solid black;
+}
+
+.styl_mnu_accrd_nmtg {
+
 }

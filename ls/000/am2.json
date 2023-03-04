@@ -780,7 +780,7 @@
                 {
                     "ls_id": "LS-LULS-GUA",
                     "ls_ttl": "Trigrams + Hexagrams",
-                    "ls_type": "->",
+                    "ls_type": "=>",
                     "scion_id": "ls_luls_gua",
                     "scions": [
                         {

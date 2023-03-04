@@ -35,7 +35,7 @@ strong {
     scroll-behavior: smooth;
 }
 
-#trstle_etchngs {
+.trstle_etchngs {
     margin: 1px;
     width: 100%;
     overflow: visible;

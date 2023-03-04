@@ -46,21 +46,36 @@
         <script src="/ls/000/code/js/whatsOnTheMenu.js"></script>
         <script src="/ls/000/code/js/homepage.js"></script>
         <script src="/ls/000/code/js/trunking.js"></script>
-        <script src="/ls/000/code/js/peekaboo.js"></script>      
+        <script src="/ls/000/code/js/peekaboo.js"></script>
     </head>
 
     <body>        
-    <div id="overall">
-        <div id="menu">
-            <div id="id_mnu_top">
-                <div class='styl_side_seal'>
-                    <img src='Seal.jpg' width='111' height='111'></img><br>
-                    -> Menu <-<br>
+        <div id="overall">
+            <div id="menu">
+                <div id="id_mnu_top">
+                    <div class='styl_side_seal'>
+                        <img id='mnu_seal' src='Seal.jpg' width='111' height='111'></img><br>
+                        <span id='mnu_ttl'>-> Menu <-</span><br>
+                    </div>
                 </div>
+                <div id="id_mnu_btm"></div>
             </div>
-            <div id="id_mnu_btm"></div>
+            <div id="trestleboard" class='trestleboard'><script>homeFetch()</script></div>
         </div>
-        <div id="trestleboard" class='styl_trstlbrd'><script>homeFetch()</script></div>
-    </div>    
+        <script type="text/javascript">
+            {
+            let sideBar = document.querySelector('#menu');
+            let arrowCollapse = document.querySelector('.styl_side_seal');
+            arrowCollapse.onclick = () => {
+                sideBar.classList.toggle('collapse');
+                arrowCollapse.classList.toggle('collapse');
+                if (arrowCollapse.classList.contains('collapse')) {
+                arrowCollapse.classList = 'bx bx-arrow-from-left logo-name__icon styl_side_seal collapse';
+                } else {
+                arrowCollapse.classList = 'bx bx-arrow-from-right logo-name__icon styl_side_seal';
+                }
+            };
+            }
+        </script>     
     </body>
 </html>

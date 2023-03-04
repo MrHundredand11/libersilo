@@ -69,14 +69,16 @@ function homeFetch() {
             return response.json();
         })
         .then(data => {
-            var mainContainer = document.getElementById("trestleboard");
+            var mainContainer = document.getElementById('trestleboard');
             mainContainer.innerHTML = "";
+            var trstle_etchngs = gen_ECI('div', 'trstle_etchings', `id_trstle_etchings`);
+            mainContainer.appendChild(trstle_etchngs);
             function populatePage(data) {
                 var headBoard = createElementWithClass('div', 'branch_container');
                 var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
                 ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "<span class='styl_pointers'>->&nbsp</span>" + data.ls_ttl + "<span class='styl_pointers'>&nbsp<-</span>";
                 headBoard.appendChild(ls_ttl);
-                mainContainer.appendChild(headBoard);
+                trstle_etchngs.appendChild(headBoard);
             }
             populatePage(data)
 
@@ -87,7 +89,7 @@ function homeFetch() {
                 var drct_cntn = gen_ECI('div', 'styl_drct_cntn', 'id_drct_cntn');
                 drct_head.innerHTML = "<span class='styl_pointers'>-></span> <strong><u>Full Directory to Liber Silo</u></strong>:";
                 drct_main.append(drct_head, drct_cntn);
-                mainContainer.appendChild(drct_main);
+                trstle_etchngs.appendChild(drct_main);
                 for (x in drct_rcrd) {
                     gen_dir(drct_rcrd[x]);
                 }

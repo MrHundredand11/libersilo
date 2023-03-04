@@ -124,7 +124,7 @@
     height: 47px;
     aspect-ratio: auto 47 / 47;
     padding-top: 11px;
-    transition-duration: 2s;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_side_seal {

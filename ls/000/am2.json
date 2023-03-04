@@ -4,7 +4,7 @@
     "scions": [
         {
             "ls_id": "LS-000",
-            "ls_ttl": "Overview",
+            "ls_ttl": "Overview of Liber Silo",
             "ls_type": "->",
             "ls_url": "",
             "scion_id": "ls_000",

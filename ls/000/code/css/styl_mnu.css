@@ -106,7 +106,7 @@
     transform: translateX(0);
 }
 
-#menu.collapse .styl_mnu_accrd_ttl {
+#menu.collapse .styl_mnu_accrd_ttl, #menu.collapse #mnu_ttl {
     display: none;
 }
 

@@ -119,6 +119,12 @@
     margin: auto;
 }
 
+#menu.collapse #mnu_seal {
+    width: 31px;
+    height: 31px;
+    aspect-ratio: auto 31 / 31;
+}
+
 .styl_mnu_accrd_sqr {
     border: 1.11px solid black;
     display: inline-block;

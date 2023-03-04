@@ -75,6 +75,7 @@
     font-weight: bold;
     font-size: 17px;
     text-align: start;
+    font-family: cambria;
     padding: 5px;
     margin-left: 11px;
 }
@@ -116,4 +117,5 @@
 
 .styl_mnu_accrd_nmtg {
     display: flex;
+    align-items: center;
 }

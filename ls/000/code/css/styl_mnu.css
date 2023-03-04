@@ -101,13 +101,22 @@
 }
 
 #menu.collapse {
-    width: 7.7rem;
+    width: 4.4rem;
     display: block;
     transform: translateX(0);
 }
 
 #menu.collapse .styl_mnu_accrd_ttl {
     display: none;
+}
+
+#menu.collapse .styl_mnu_accrd_cntnr {
+    border: none;
+    background-color: none;
+}
+
+#menu.collapse .styl_mnu_accrd_sqr {
+    margin: auto;
 }
 
 .styl_mnu_accrd_sqr {
@@ -117,6 +126,7 @@
     font-weight: bold;
     padding: 3.33px;
     margin: 2.22px;
+    background-color: white;
 }
 
 .styl_mnu_accrd_nmtg {

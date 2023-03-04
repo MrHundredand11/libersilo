@@ -130,7 +130,7 @@
     margin: auto;
 }
 
-#menu.collapse #trestleboard {
+#menu.collapse .trestleboard {
     left: 5.5rem;
 }
 

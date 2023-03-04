@@ -101,7 +101,11 @@
 #menu.collapse {
     width: 7.7rem;
     display: block;
-    opacity: 0;
-    pointer-events: none;
     transform: translateX(0);
+}
+
+.styl_mnu_accrd_sqr {
+    width: 3.33px;
+    height: 3.33px;
+    border: 1.11px solid black;
 }

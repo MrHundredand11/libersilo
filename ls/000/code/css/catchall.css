@@ -29,8 +29,16 @@ strong {
     margin-left: 7px;
     display: inline-block;
     position: fixed;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+#trstle_etchngs {
+    margin: 1px;
+    width: 100%;
+    overflow: visible;
     box-sizing: border-box;
-    overflow: auto;
     scroll-behavior: smooth;
 }
 

@@ -63,7 +63,7 @@ function gen_PntrDrct(scion_id, p_type) {
 };
 
 function homeFetch() {
-    var drct_full = '/ls/000/drct_abrgd.json';
+    var drct_full = '/ls/000/am2.json';
     fetch(drct_full)
         .then(response => {
             return response.json();

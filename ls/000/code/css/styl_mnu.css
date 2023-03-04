@@ -57,6 +57,7 @@
     font-weight: bold;
     font-size: 19px;
     padding: 3px;
+    display: inline-block;
 }
 
 .styl_mnu_accrd_fldr {
@@ -108,8 +109,9 @@
     width: 33.33px;
     height: 33.33px;
     border: 1.11px solid black;
+    display: inline-block;
 }
 
 .styl_mnu_accrd_nmtg {
-
+    display: inline-block;
 }

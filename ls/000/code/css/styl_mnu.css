@@ -131,7 +131,11 @@
 }
 
 #menu.collapse #trestleboard {
-    left: 4.4rem;
+    left: 5.5rem;
+}
+
+#menu.collapse .styl_mnu_accrd_cntn {
+    display: none;
 }
 
 .styl_mnu_accrd_sqr {

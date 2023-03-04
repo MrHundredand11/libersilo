@@ -106,12 +106,14 @@
 }
 
 .styl_mnu_accrd_sqr {
-    width: 33.33px;
-    height: 33.33px;
     border: 1.11px solid black;
     display: inline-block;
+    font-family: georgia;
+    font-weight: bold;
+    padding: 3.33px;
+    margin: 2.22px;
 }
 
 .styl_mnu_accrd_nmtg {
-    display: inline-block;
+    display: flex;
 }

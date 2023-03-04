@@ -97,3 +97,11 @@
 .styl_mnu_tablet {
     margin: 0 auto;
 }
+
+#menu.collapse {
+    width: 7.7rem;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(0);
+}

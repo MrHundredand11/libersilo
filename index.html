@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/ls/000/code/css/catchall.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_pntr.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_mnu.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_drct.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_fonts.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_brnch.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_stm.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_twg.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_in_txt.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_lf.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_lfl.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_stt.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_insc.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_insc_trms.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_gem.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_info.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_offs.css">
+        <script>
+            function createElementWithClass(type, className) {
+                const element = document.createElement(type);
+                element.className = className;
+                return element;
+            };
+            
+            function gen_ECI(type, className, id) {
+                const element = document.createElement(type);
+                element.className = className;
+                element.setAttribute('id', id);
+                return element;
+            };
+
+            function gen_ECIC(type, className, id, clckfnct) {
+                const element = document.createElement(type);
+                element.className = className;
+                element.setAttribute('id', id);
+                element.setAttribute('onclick', clckfnct);
+                return element;
+            };
+
+            function fillErUp(x) {
+                fetchy(decodeURIComponent(x));
+            };
+        </script>
+        <script src="/ls/000/code/js/whatsOnTheMenu.js"></script>
+        <script src="/ls/000/code/js/homepage.js"></script>
+        <script src="/ls/000/code/js/trunking.js"></script>
+        <script src="/ls/000/code/js/peekaboo.js"></script>
+        <script type="text/javascript">
+            {
+              let sideBar = document.querySelector('#menu');
+              let arrowCollapse = document.querySelector('.styl_side_seal');
+              sideBar.onclick = () => {
+                sideBar.classList.toggle('collapse');
+                arrowCollapse.classList.toggle('collapse');
+                if (arrowCollapse.classList.contains('collapse')) {
+                  arrowCollapse.classList = 'bx bx-arrow-from-left logo-name__icon styl_side_seal collapse';
+                } else {
+                  arrowCollapse.classList = 'bx bx-arrow-from-right logo-name__icon styl_side_seal';
+                }
+              };
+            }
+          </script>     
+    </head>
+
+    <body>        
+    <div id="overall">
+        <div id="menu">
+            <div id="id_mnu_top">
+                <div class='styl_side_seal'>
+                    <img src='Seal.jpg' width='111' height='111'></img><br>
+                    -> Menu <-<br>
+                </div>
+            </div>
+            <div id="id_mnu_btm"></div>
+        </div>
+        <div id="trestleboard"><script>homeFetch()</script></div>
+    </div>    
+    </body>
+</html>

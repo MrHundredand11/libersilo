@@ -130,6 +130,10 @@
     margin: auto;
 }
 
+#menu.collapse #trestleboard {
+    left: 4.4rem;
+}
+
 .styl_mnu_accrd_sqr {
     border: 1.11px solid black;
     display: inline-block;

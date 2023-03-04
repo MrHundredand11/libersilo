@@ -27,6 +27,7 @@ strong {
     left: 23%;
     border-spacing: 2px;
     margin-left: 7px;
+    margin-right: 11px;
     display: inline-block;
     position: fixed;
     overflow-x: auto;
@@ -40,6 +41,7 @@ strong {
     overflow: visible;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    margin-right: 23px;
 }
 
 .cambria {

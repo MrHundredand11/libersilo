@@ -20,11 +20,11 @@ function whatsOnTheMenu() {
                         var accrd_sqr = gen_ECI('div', 'styl_mnu_accrd_sqr', `mnu_accrd_sqr_${mnu.scion_id}`);
                         var accrd_ttl = gen_ECI('div', 'styl_mnu_accrd_ttl', `mnu_accrd_ttl_${mnu.scion_id}`);                    
                         var accrd_cntn = gen_ECI('div', 'styl_mnu_accrd_cntn', `mnu_accrd_cntn_${mnu.scion_id}`);
-                        accrd_nmtg.innerHTML = `${mnu.scion_snip}`;
+                        accrd_sqr.innerHTML = `${mnu.scion_snip}`;
                         accrd_ttl.innerHTML = `${mnu.ls_ttl}`;
-                        accrd_ttl.setAttribute("onclick", `mnu_showHide_top('${mnu.scion_id}')`);
+                        accrd_nmtg.setAttribute('onclick', `mnu_showHide_top('${mnu.scion_id}')`);
                         accrd_nmtg.append(accrd_sqr, accrd_ttl);
-                        accrd_cntnr.append(accrd_nmtg, accrd_cntn);          
+                        accrd_cntnr.append(accrd_nmtg, accrd_cntn);
                         menu_tablet.appendChild(accrd_cntnr);
                         for (mnu_i in mnu.scions) {
                             accrd_cntn.appendChild(gen_men(mnu.scions[mnu_i]));

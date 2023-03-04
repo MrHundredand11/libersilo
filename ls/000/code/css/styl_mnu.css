@@ -1,3 +1,9 @@
+#menu {
+    height: 100%;
+    position: fixed;
+    transition: all 0.5s ease;
+}
+
 #id_mnu_top {
     height: 30%;
 }

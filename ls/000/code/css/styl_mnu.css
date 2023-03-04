@@ -106,6 +106,10 @@
     transform: translateX(0);
 }
 
+#menu.collapse .styl_mnu_accrd_ttl {
+    display: none;
+}
+
 .styl_mnu_accrd_sqr {
     border: 1.11px solid black;
     display: inline-block;

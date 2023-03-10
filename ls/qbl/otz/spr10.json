@@ -1,0 +1,41 @@
+{
+    "ls_id": "LS-QBL-OTz-SPR10",
+    "ls_ttl": "The Sephirah Malkuth",
+    "ls_url": "/ls/qbl/otz/spr10.json",
+    "scion_id": "ls_qbl_otz_spr10",
+    "scions": [
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'Malkuth'",
+            "scion_id": "ls_qbl_otz_spr10_xrcs",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "List of Exercises of Malkuth",
+                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst",
+                    "scions": [
+                        {
+                            "insc_term": "The Opening Exercise"
+                        },
+                        {
+                            "insc_term": "The Exercise of the Senses"
+                        },
+                        {
+                            "insc_term": "The Temple of Malkuth"
+                        },
+                        {
+                            "insc_term": "The Awareness Continuum"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "Meditations on Malkuth",
+                    "scion_id": "ls_qbl_otz_spr10_xrcs_mdtt"
+                }
+            ]
+        }
+    ]
+}

@@ -22,7 +22,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Opening Exercise</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Opening Exercise</span><span class='styl_stm_ttl_opncls'>)</span>",
                                     "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_opnxrc_prcdrs",
                                     "scions": [
                                         {
@@ -84,7 +84,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Exercise of The Senses</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Exercise of The Senses</span><span class='styl_stm_ttl_opncls'>)</span>",
                                     "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_xrcsnss_prcdrs"
                                 }
                             ]
@@ -93,7 +93,20 @@
                             "insc_term": "The Temple of Malkuth"
                         },
                         {
-                            "insc_term": "The Awareness Continuum"
+                            "insc_term": "The Awareness Continuum",
+                            "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_awrnsscntnm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Commentary</span>&nbsp;<span class='styl_stm_ttl_tny'>on</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Awareness Continuum</span><span class='styl_stm_ttl_opncls'>)</span>"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Awareness Continuum</span><span class='styl_stm_ttl_opncls'>)</span>"
+                                }
+                            ]
                         }
                     ]
                 },

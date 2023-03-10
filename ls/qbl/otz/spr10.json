@@ -105,14 +105,23 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
-                                            "insc_cntn": "This&nbsp;<span class='styl_insc_trms_div_grg'>Awareness Continuum</span>&nbsp; is composed of our&nbsp;<span class='styl_insc_trms_phrs_01'>intuitions</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>thoughts</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>feelings</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>emotions</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>sensations</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>imaginings</span>...&nbsp;<em>all the functions of our total being</em>."
+                                            "insc_cntn": "This&nbsp;<span class='styl_insc_trms_div_grg'>Awareness Continuum</span>&nbsp;is composed of our&nbsp;<span class='styl_insc_trms_phrs_01'>intuitions</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>thoughts</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>feelings</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>emotions</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>sensations</span>,&nbsp;<span class='styl_insc_trms_phrs_01'>imaginings</span>...&nbsp;<em>all the functions of our total being</em>."
                                         }
                                     ]
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Awareness Continuum</span><span class='styl_stm_ttl_opncls'>)</span>"
+                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Awareness Continuum</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_awrnsscntnm_prcdrs",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Follow the usual starting procedure."
+                                        }
+                                    ]
                                 }
                             ]
                         }

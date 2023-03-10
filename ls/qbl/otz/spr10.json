@@ -36,13 +36,58 @@
                                             "insc_typ2": "txt",
                                             "insc_pntr": "+>",
                                             "insc_cntn": "With your eyes closed, be as relaxed and empty of thoughts, feelings, and sensations as possible."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "When you feel ready, open your eyes and see the world before you, wherever you are, as a completely new place. Everything and everyone you see before you is not named. You have no mental, emotional, or physical constructs with which to identify your environment. You are not attached to anything."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Imagine yourself as a new-born being."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Now close your eyes, go back into your inner world, still self-identified, and make a conscious decision that when you open your eyes again you will see everything, and everyone else as equally reborn. Everything has its old familiar name, but it is different, new, seen in a new light because of your choice, your will."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Open your eyes."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Be aware of how you needed to use both your will and awareness in this exercise."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Write about your experience in your diary."
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            "insc_term": "The Exercise of the Senses"
+                            "insc_term": "The Exercise of the Senses",
+                            "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_xrcsnss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Procedures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Exercise of The Senses</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_xrcsnss_prcdrs"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "The Temple of Malkuth"

@@ -267,18 +267,18 @@
         },
         {
             "drct_id": "KEYS",
-            "drct_ttl": "List of Encryption Keys",
+            "drct_ttl": "Types of Encryption Key Algorithms",
             "scion_id": "ls_dgtl_isec_dfn_crypt_keys",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Encryption Keys</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Encryption Key Algorithms</span><span class='styl_stm_ttl_opncls'>)</span>",
                     "insc_tag": "Encryption Key Types",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types",
                     "scions": [
                         {
-                            "insc_term": "Symmetric Encryption Keys",
+                            "insc_term": "Symmetric-Key Algorithms",
                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt",
                             "scions": [
                                 {
@@ -287,27 +287,6 @@
                                     "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Keys</span><span class='styl_stm_ttl_opncls'>)</span>",
                                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list",
                                     "scions": [
-                                        {
-                                            "insc_term": "Caesar Cipher",
-                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_li_caesarcipher",
-                                            "scions": [
-                                                {
-                                                    "insc_typ1": "stm",
-                                                    "insc_typ2": "brnch",
-                                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of the</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Caesar Cipher</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_li_caesarcipher_descr",
-                                                    "scions": [
-                                                        {
-                                                            "insc_typ1": "insc",
-                                                            "insc_typ2": "txt_stpl",
-                                                            "insc_tag": "Definition",
-                                                            "insc_pntr": "=>",
-                                                            "insc_cntn": "Caesar Cipher = is a private key encryption (symmetric encryption) method"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
                                         {
                                             "insc_term": "DES"
                                         },
@@ -328,13 +307,37 @@
                                         },
                                         {
                                             "insc_term": "Twofish"
+                                        },
+                                        {
+                                            "insc_term": "Serpent"
+                                        },
+                                        {
+                                            "insc_term": "Camellia"
+                                        },
+                                        {
+                                            "insc_term": "Salsa20"
+                                        },
+                                        {
+                                            "insc_term": "ChaCha20"
+                                        },
+                                        {
+                                            "insc_term": "CASTS"
+                                        },
+                                        {
+                                            "insc_term": "Kuznyechik"
+                                        },
+                                        {
+                                            "insc_term": "Skipjack"
+                                        },
+                                        {
+                                            "insc_term": "Safer"
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            "insc_term": "Asymmetric Encryption Keys",
+                            "insc_term": "Asymmetric-Key Algorithms",
                             "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_asymmencrypt"
                         }
                     ]

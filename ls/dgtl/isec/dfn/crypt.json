@@ -302,6 +302,12 @@
                                                             "insc_typ2": "txt_stpl",
                                                             "insc_tag": "Acronym",
                                                             "insc_cntn": "<span class='styl_insc_trms_li_00'>DES</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_trms_div_grg'>D</span>ata&nbsp;<span class='styl_insc_trms_div_grg'>E</span>ncryption&nbsp;<span class='styl_insc_trms_div_grg'>S</span>tandard"
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt_stpl",
+                                                            "insc_tag": "Old Name",
+                                                            "insc_cntn": "\"<span class='styl_insc_trms_li_00'>Lucifer</span>\""
                                                         }
                                                     ]
                                                 }

@@ -288,7 +288,24 @@
                                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list",
                                     "scions": [
                                         {
-                                            "insc_term": "DES"
+                                            "insc_term": "DES",
+                                            "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_i_des",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "stm",
+                                                    "insc_typ2": "brnch",
+                                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Names</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>DES</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                                    "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list_i_des_name",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "txt_stpl",
+                                                            "insc_tag": "Acronym",
+                                                            "insc_cntn": "<span class='styl_insc_trms_li_00'>DES</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_trms_div_grg'>D</span>ata&nbsp;<span class='styl_insc_trms_div_grg'>E</span>ncryption&nbsp;<span class='styl_insc_trms_div_grg'>S</span>tandard"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_term": "3DES"

@@ -578,7 +578,26 @@
                     "ls_id": "LS-HI-LMNT",
                     "ls_ttl": "Elemental Entities",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/lmnt/",
+                    "scion_id": "ls_hi_lmnt",
                     "scions": [
+                        {
+                            "ls_id": "LS-HI-LMNT-GNOME",
+                            "ls_ttl": "The Gnomes of Earth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/lmnt/gnome.json",
+                            "scion_id": "ls_hi_lmnt_gnome"
+                        },
+                        {
+                            "ls_id": "LS-HI-LMNT-SLMNDR",
+                            "ls_ttl": "The Salamanders of Fire",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-LMNT-SYLPH",
+                            "ls_ttl": "The Sylphs of Air",
+                            "ls_type": "+>"
+                        },
                         {
                             "ls_id": "LS-HI-LMNT-UNDINES",
                             "ls_ttl": "The Undines of Water",

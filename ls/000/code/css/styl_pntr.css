@@ -32,6 +32,12 @@
     font-size: 19px;
 }
 
+.styl_stm_scrll {
+    font-family: calibri;
+    font-size: 23px;
+    text-align: center;
+}
+
 .styl_flow_cntnr {
     display: inline-block;
     font-family: calibri;

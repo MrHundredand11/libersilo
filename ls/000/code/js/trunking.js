@@ -5,8 +5,7 @@ let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
 let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
 let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
 let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-let bmp_stem_top = "<div class='bumpers'>--- ---<br>--- --- ---</div>";
-let bmp_stem_btm = "<div class='bump_butt'>---- ---- ----<br>---- ----</div>";
+let bmp_stm_scrll = "<div class='bumpers'>@ === === === === === === === ||| === === === === === === === @</div>";
 let bmp_lmb_top = "<div class='bumpers'>-- --<br>-- -- --</div>";
 let bmp_lmb_btm = "<div class='bump_butt'>--- --- ---<br>--- ---</div>";
 let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
@@ -125,9 +124,9 @@ function gen_Insc(insc_i, scion) {
         
             switch (scion.insc_typ2) {
                 case 'brnch':
-                    stm_bmp_top.innerHTML = bmp_stem_top;
+                    stm_bmp_top.innerHTML = bmp_stm_scrll;
                     stm_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${stm_name}</span> ::`;
-                    stm_bmp_btm.innerHTML = bmp_stem_btm;
+                    stm_bmp_btm.innerHTML = bmp_stm_scrll;
 
                     stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
@@ -159,8 +158,8 @@ function gen_Insc(insc_i, scion) {
                     var stm_bmp_cycl = gen_ECI('div', 'styl_stm_lst_exp_bmp_cycl', `${insc_id}_stm_lst_exp_bmp_cycl`);
                     var stm_expnd = gen_ECI('div', 'styl_stm_lst_exp_expnd', `${insc_id}_stm_lst_exp_expnd`);
 
-                    stm_bmp_top.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
-                    stm_bmp_btm.innerHTML = "--- --- --- --- --- --- --- ||| --- --- --- --- --- --- ---";
+                    stm_bmp_top.innerHTML = bmp_stm_scrll;
+                    stm_bmp_btm.innerHTML = bmp_stm_scrll;
                     stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
                     stm_nametag.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
 

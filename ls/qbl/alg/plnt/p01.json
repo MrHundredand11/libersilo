@@ -27,117 +27,7 @@
         {
             "drct_id": "MNSN",
             "drct_ttl": "The 28 Mansions of The Moon",
-            "scion_id": "ls_qbl_alg_plnt_p01_mnsn",
-            "scions": [
-                {
-                    "insc_type": "stm_olst_exp",
-                    "insc_tag": "Mansions",
-                    "insc_ttl": "List of the 28 Mansions of The Moon",
-                    "scion_id": "ls_qbl_alg_plnt_p01_mnsn_lst",
-                    "scions": [
-                        {
-                            "insc_term": "The 1st Mansion of The Moon",
-                            "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01",
-                            "scions": [
-                                {
-                                    "insc_type": "stm",
-                                    "insc_ttl": "Position of (The 1st Mansion)",
-                                    "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01_pstn",
-                                    "scions": [
-                                        {
-                                            "insc_type": "blade",
-                                            "insc_tag": "Position",
-                                            "insc_cntn": "0*00\" Aries to 12*51\" Aries",
-                                            "scion_id": "ls_qbl_alg_plnt_p01_mnsn_i_01_pstn_pstn"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "insc_term": "The 2nd Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 3rd Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 4th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 5th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 6th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 7th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 8th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 9th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 10th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 11th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 12th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 13th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 14th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 15th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 16th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 17th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 18th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 19th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 20th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 21st Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 22nd Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 23rd Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 24th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 25th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 26th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 27th Mansion of The Moon"
-                        },
-                        {
-                            "insc_term": "The 28th Mansion of The Moon"
-                        }
-                    ]
-                }
-            ]
+            "scion_id": "ls_qbl_alg_plnt_p01_mnsn"
         },
         {
             "drct_id": "PLCE",
@@ -148,6 +38,212 @@
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'The Planet Luna'",
             "scion_id": "ls_qbl_alg_plnt_p01_mdcl"
+        },
+        {
+            "drct_id": "PLCE",
+            "drct_ttl": "Placements of 'Luna' in the 'Zodiac Signs'",
+            "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aries</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_01",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Taurus</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_02",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_03",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cancer</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_04",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Leo</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_05",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Virgo</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_06",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Libra</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_07",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Scorpio</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_08",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_09",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Capricorn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_10",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aquarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_11",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Pisces</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc_12",
+                    "scions": []
+                }
+            ]
+        },
+        {
+            "drct_id": "PLCE",
+            "drct_ttl": "Placements of 'Luna' in the 'Zodiac Houses'",
+            "scion_id": "ls_qbl_alg_plnt_p01_plce_hse",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>1st House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_01",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>2nd House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_02",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>3rd House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_03",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>4th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_04",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>5th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_05",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>6th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_06",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>7th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_07",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>8th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_08",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>9th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_09",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>10th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_10",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>11th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_11",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Luna</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>12th House</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse_12",
+                    "scions": []
+                }
+            ]
         }
     ]
 }

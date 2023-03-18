@@ -13,7 +13,97 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aries</span><span class='styl_stm_ttl_opncls'>)</span>"
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aries</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_01",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Taurus</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_02",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_03",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cancer</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_04",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Leo</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_05",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Virgo</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_06",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Libra</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_07",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Scorpio</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_08",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_09",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Capricorn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_10",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aquarius</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_11",
+                    "scions": []
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Pisces</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc_12",
+                    "scions": []
                 }
             ]
         }

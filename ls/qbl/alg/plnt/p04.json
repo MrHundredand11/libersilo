@@ -1,0 +1,21 @@
+{
+    "ls_id": "LS-QBL-ALG-PLNT-P04",
+    "ls_ttl": "The Planet Sol",
+    "ls_url": "/ls/qbl/alg/plnt/p04.json",
+    "scion_id": "ls_qbl_alg_plnt_p04",
+    "scions": [
+        {
+            "drct_id": "PLCE",
+            "drct_ttl": "Placements of 'Sol' in the 'Zodiac Signs'",
+            "scion_id": "ls_qbl_alg_plnt_p04_plce",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Placement",
+                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sol</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aries</span><span class='styl_stm_ttl_opncls'>)</span>"
+                }
+            ]
+        }
+    ]
+}

@@ -5,7 +5,7 @@ let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
 let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
 let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
 let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-let bmp_stm_scrll = "<div class='bumpers'>@ === === === === === === === ||| === === === === === === === @</div>";
+let bmp_stm_scrll = "<div class='styl_stm_scrll'>@ === === === === === === === ||| === === === === === === === @</div>";
 let bmp_lmb_top = "<div class='bumpers'>-- --<br>-- -- --</div>";
 let bmp_lmb_btm = "<div class='bump_butt'>--- --- ---<br>--- ---</div>";
 let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";

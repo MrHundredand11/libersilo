@@ -2,10 +2,12 @@
     height: 100%;
     position: fixed;
     transition: all 0.5s ease;
+    transition-duration: .5s;
 }
 
 #id_mnu_top {
     height: 30%;
+    transition-duration: .5s;
 }
 
 #id_mnu_btm {
@@ -16,6 +18,7 @@
     overflow: auto;
     scroll-behavior: smooth;
     background-color: rgb(233, 233, 233);
+    transition-duration: .5s;
 }
 
 #id_mnu_btm::-webkit-scrollbar { width: 0 !important }
@@ -26,6 +29,7 @@
     margin: 4.44px;
     text-align: center;
     background-color: rgb(241, 241, 241);
+    transition-duration: .5s;
 }
 
 .active, .styl_mnu_accrd_cntnr:hover {
@@ -35,6 +39,7 @@
 
 .styl_mnu_accrd_cntn {
     display: none;
+    transition-duration: .5s;
 }
 
 
@@ -46,6 +51,7 @@
     margin-bottom: 1.11px;
     padding: 1.11px;
     background-color: #F0F0F0;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_entry:hover {
@@ -58,6 +64,7 @@
     font-size: 19px;
     padding: 3px;
     display: inline-block;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_fldr {
@@ -69,6 +76,7 @@
     margin-bottom: 1.11px;
     text-align: center;
     background-color: #E8E8E8;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_fldr_ttl {
@@ -78,6 +86,7 @@
     font-family: cambria;
     padding: 5px;
     margin-left: 11px;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_fldr_ttl:hover {
@@ -88,35 +97,42 @@
     background-color: #C0C0C0;
     margin-top: 17px;
     margin-bottom: 17px;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_fldr_cntn {
     display: none;
     margin-left: 1.11px;
     margin-right: 1.11px;
+    transition-duration: .5s;
 }
 
 .styl_mnu_tablet {
     margin: 0 auto;
+    transition-duration: .5s;
 }
 
 #menu.collapse {
     width: 4.4rem;
     display: block;
     transform: translateX(0);
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_ttl, #menu.collapse #mnu_ttl {
     display: none;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_cntnr {
     border: none;
     background-color: none;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_sqr {
     margin: auto;
+    transition-duration: .5s;
 }
 
 #menu.collapse #mnu_seal {
@@ -129,6 +145,7 @@
 
 #menu.collapse .styl_side_seal {
     margin: auto;
+    transition-duration: .5s;
 }
 
 #trestleboard.collapse {
@@ -139,18 +156,22 @@
 
 #menu.collapse .styl_mnu_accrd_cntn {
     display: none;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_fldr {
     display: none;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_fldr_cntn {
     display: none;
+    transition-duration: .5s;
 }
 
 #menu.collapse .styl_mnu_accrd_entry {
     display: none;
+    transition-duration: .5s;
 }
 
 .styl_mnu_accrd_sqr {

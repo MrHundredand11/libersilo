@@ -96,6 +96,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
+                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.1.0</span>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Import-Module ExchangeOnlineManagement</span>\t]"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
                             "insc_cntn": "[\t<span class='styl_in_txt_code'>Set-Execution Policy RemoteSigned -Force</span>\t]"
                         },
                         {

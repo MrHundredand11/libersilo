@@ -65,9 +65,11 @@
         <script type="text/javascript">
             {
             let sideBar = document.querySelector('#menu');
+            let trstboard = document.querySelector('#trestleboard');
             let arrowCollapse = document.querySelector('.styl_side_seal');
             arrowCollapse.onclick = () => {
                 sideBar.classList.toggle('collapse');
+                trstboard.classList.toggle('collapse');
                 arrowCollapse.classList.toggle('collapse');
                 if (arrowCollapse.classList.contains('collapse')) {
                 arrowCollapse.classList = 'bx bx-arrow-from-left logo-name__icon styl_side_seal collapse';

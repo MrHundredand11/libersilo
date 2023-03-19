@@ -32,6 +32,7 @@ strong {
     overflow-x: auto;
     overflow-y: auto;
     scroll-behavior: smooth;
+    transition-duration: .5s;
 }
 
 .trstle_etchngs {

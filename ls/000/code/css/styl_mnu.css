@@ -141,6 +141,18 @@
     display: none;
 }
 
+#menu.collapse .styl_mnu_accrd_fldr {
+    display: none;
+}
+
+#menu.collapse .styl_mnu_accrd_fldr_cntn {
+    display: none;
+}
+
+#menu.collapse .styl_mnu_accrd_entry {
+    display: none;
+}
+
 .styl_mnu_accrd_sqr {
     border: 1.11px solid black;
     display: inline-block;

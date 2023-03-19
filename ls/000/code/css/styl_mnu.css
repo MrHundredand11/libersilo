@@ -131,7 +131,7 @@
     margin: auto;
 }
 
-#menu.collapse .trestleboard {
+#trestleboard.collapse {
     left: 5.5rem;
     position: relative;
 }

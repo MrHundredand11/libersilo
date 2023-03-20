@@ -320,6 +320,13 @@
                     "scion_id": "ls_dgtl_shll",
                     "scions": [
                         {
+                            "ls_id": "LS-DGTL-SHLL-CIOS",
+                            "ls_ttl": "Cisco iOS Shell",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/shll/cios.json",
+                            "scion_id": "ls_dgtl_shll_cios"
+                        },
+                        {
                             "ls_id": "LS-DGTL-SHLL-CMD",
                             "ls_ttl": "Windows Command Shell",
                             "ls_type": "+>",
@@ -332,6 +339,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/shll/pwrshll.json",
                             "scion_id": "ls_dgtl_shll_pwrshll"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-SHLL-RVRS",
+                            "ls_ttl": "Reverse Shells",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/shll/rvrs.json",
+                            "scion_id": "ls_dgtl_shll_rvrs"
                         }
                     ]
                 },
@@ -1099,29 +1113,50 @@
                             "ls_id": "LS-QBL-32P-000",
                             "ls_ttl": "Overview of 'The 32 Paths of The Qabalah'",
                             "ls_type": "+>",
-                            "ls_url": "",
+                            "ls_url": "/ls/qbl/32p/000.json",
                             "scion_id": "ls_qbl_32p_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P01",
+                            "ls_ttl": "The 1st Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p01.json",
+                            "scion_id": "ls_qbl_32p_p01"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P02",
                             "ls_ttl": "The 2nd Path",
                             "ls_type": "+>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_32p_P02"
+                            "ls_url": "/ls/qbl/32p/p02.json",
+                            "scion_id": "ls_qbl_32p_p02"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P03",
                             "ls_ttl": "The 3rd Path",
                             "ls_type": "+>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_32p_P03"
+                            "ls_url": "/ls/qbl/32p/p03.json",
+                            "scion_id": "ls_qbl_32p_p03"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P04",
                             "ls_ttl": "The 4th Path",
                             "ls_type": "+>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_32p_P04"
+                            "ls_url": "/ls/qbl/32p/p04.json",
+                            "scion_id": "ls_qbl_32p_p04"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P05",
+                            "ls_ttl": "The 5th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p05.json",
+                            "scion_id": "ls_qbl_32p_p05"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P06",
+                            "ls_ttl": "The 6th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p06.json",
+                            "scion_id": "ls_qbl_32p_p06"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P07",
@@ -1134,38 +1169,176 @@
                             "ls_id": "LS-QBL-32P-P08",
                             "ls_ttl": "The 8th Path",
                             "ls_type": "+>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_32p_P08"
+                            "ls_url": "/ls/qbl/32p/p08.json",
+                            "scion_id": "ls_qbl_32p_p08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P09",
+                            "ls_ttl": "The 9th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p09.json",
+                            "scion_id": "ls_qbl_32p_p09"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P10",
+                            "ls_ttl": "The 10th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p10.json",
+                            "scion_id": "ls_qbl_32p_p10"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P11",
+                            "ls_ttl": "The 11th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p11.json",
+                            "scion_id": "ls_qbl_32p_p11"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P12",
                             "ls_ttl": "The 12th Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p12.json",
+                            "scion_id": "ls_qbl_32p_p12"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P13",
                             "ls_ttl": "The 13th Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p13.json",
+                            "scion_id": "ls_qbl_32p_p13"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P14",
                             "ls_ttl": "The 14th Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p14.json",
+                            "scion_id": "ls_qbl_32p_p14"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P15",
                             "ls_ttl": "The 15th Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p15.json",
+                            "scion_id": "ls_qbl_32p_p15"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P16",
                             "ls_ttl": "The 16th Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p16.json",
+                            "scion_id": "ls_qbl_32p_p16"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P17",
+                            "ls_ttl": "The 17th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p17.json",
+                            "scion_id": "ls_qbl_32p_p17"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P18",
+                            "ls_ttl": "The 18th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p18.json",
+                            "scion_id": "ls_qbl_32p_p18"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P19",
+                            "ls_ttl": "The 19th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p19.json",
+                            "scion_id": "ls_qbl_32p_p19"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P20",
+                            "ls_ttl": "The 20th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p20.json",
+                            "scion_id": "ls_qbl_32p_p21"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P21",
+                            "ls_ttl": "The 21st Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p21.json",
+                            "scion_id": "ls_qbl_32p_p21"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P22",
+                            "ls_ttl": "The 22nd Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p22.json",
+                            "scion_id": "ls_qbl_32p_p22"
                         },
                         {
                             "ls_id": "LS-QBL-32P-P23",
                             "ls_ttl": "The 23rd Path",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p23.json",
+                            "scion_id": "ls_qbl_32p_p23"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P24",
+                            "ls_ttl": "The 24th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p24.json",
+                            "scion_id": "ls_qbl_32p_p24"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P25",
+                            "ls_ttl": "The 25th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p25.json",
+                            "scion_id": "ls_qbl_32p_p25"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P26",
+                            "ls_ttl": "The 26th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p26.json",
+                            "scion_id": "ls_qbl_32p_p26"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P27",
+                            "ls_ttl": "The 27th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p27.json",
+                            "scion_id": "ls_qbl_32p_p27"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P28",
+                            "ls_ttl": "The 28th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p28.json",
+                            "scion_id": "ls_qbl_32p_p28"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P29",
+                            "ls_ttl": "The 29th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p29.json",
+                            "scion_id": "ls_qbl_32p_p29"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P30",
+                            "ls_ttl": "The 30th Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p30.json",
+                            "scion_id": "ls_qbl_32p_p30"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P31",
+                            "ls_ttl": "The 31st Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p31.json",
+                            "scion_id": "ls_qbl_32p_p31"
+                        },
+                        {
+                            "ls_id": "LS-QBL-32P-P32",
+                            "ls_ttl": "The 32nd Path",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/32p/p32.json",
+                            "scion_id": "ls_qbl_32p_p32"
                         },
                         {
                             "ls_id": "LS-QBL-32P-PW",
@@ -1619,6 +1792,28 @@
                                             "ls_id": "LS-QBL-ALG-360D-D017",
                                             "ls_ttl": "17 Aries",
                                             "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D018",
+                                            "ls_ttl": "18 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D019",
+                                            "ls_ttl": "19 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D020",
+                                            "ls_ttl": "20 Aries",
+                                            "ls_type": "+>"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D021",
+                                            "ls_ttl": "21 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d021.json",
+                                            "scion_id": ""
                                         }
                                     ]
                                 }

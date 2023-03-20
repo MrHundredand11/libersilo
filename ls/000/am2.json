@@ -845,6 +845,209 @@
                                             "ls_type": "+>",
                                             "ls_url": "/ls/luls/bbl/ot/01/c01.json",
                                             "scion_id": "ls_luls_bbl_ot_01_c01"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C02",
+                                            "ls_ttl": "Ch 02 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c02.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c02"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C03",
+                                            "ls_ttl": "Ch 03 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c03.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c03"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C04",
+                                            "ls_ttl": "Ch 04 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c04.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c04"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C05",
+                                            "ls_ttl": "Ch 05 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c05.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c05"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C06",
+                                            "ls_ttl": "Ch 06 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c06.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c06"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C07",
+                                            "ls_ttl": "Ch 07 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c07.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c07"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C08",
+                                            "ls_ttl": "Ch 08 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c08.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c08"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C09",
+                                            "ls_ttl": "Ch 09 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c09.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c09"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C10",
+                                            "ls_ttl": "Ch 10 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c10.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c10"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C11",
+                                            "ls_ttl": "Ch 11 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c11.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c11"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C12",
+                                            "ls_ttl": "Ch 12 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c12.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c12"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C13",
+                                            "ls_ttl": "Ch 13 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c13.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c13"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C14",
+                                            "ls_ttl": "Ch 14 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c14.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c14"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C15",
+                                            "ls_ttl": "Ch 15 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c15.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c15"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C16",
+                                            "ls_ttl": "Ch 16 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c16.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c16"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C17",
+                                            "ls_ttl": "Ch 17 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c17.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c17"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C18",
+                                            "ls_ttl": "Ch 18 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c18.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c18"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C19",
+                                            "ls_ttl": "Ch 19 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c19.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c19"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C20",
+                                            "ls_ttl": "Ch 20 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c20.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c20"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C21",
+                                            "ls_ttl": "Ch 21 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c21.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c21"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C22",
+                                            "ls_ttl": "Ch 22 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c22.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c22"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C23",
+                                            "ls_ttl": "Ch 23 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c23.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c23"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C24",
+                                            "ls_ttl": "Ch 24 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c24.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c24"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C25",
+                                            "ls_ttl": "Ch 25 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c25.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c25"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C26",
+                                            "ls_ttl": "Ch 26 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c26.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c26"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C27",
+                                            "ls_ttl": "Ch 27 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c27.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c27"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C28",
+                                            "ls_ttl": "Ch 28 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c28.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c28"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C29",
+                                            "ls_ttl": "Ch 29 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c29.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c29"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-OT-01-C30",
+                                            "ls_ttl": "Ch 30 of Genesis",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/bbl/ot/01/c30.json",
+                                            "scion_id": "ls_luls_bbl_ot_01_c30"
                                         }
                                     ]
                                 },

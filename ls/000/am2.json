@@ -2240,7 +2240,70 @@
                                             "ls_ttl": "21 Aries",
                                             "ls_type": "+>",
                                             "ls_url": "/ls/qbl/alg/360d/d021.json",
-                                            "scion_id": ""
+                                            "scion_id": "ls_qbl_alg_360d_d021"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D022",
+                                            "ls_ttl": "22 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d022.json",
+                                            "scion_id": "ls_qbl_alg_360d_d022"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D023",
+                                            "ls_ttl": "23 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d023.json",
+                                            "scion_id": "ls_qbl_alg_360d_d023"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D024",
+                                            "ls_ttl": "24 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d024.json",
+                                            "scion_id": "ls_qbl_alg_360d_d024"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D025",
+                                            "ls_ttl": "25 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d025.json",
+                                            "scion_id": "ls_qbl_alg_360d_d025"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D026",
+                                            "ls_ttl": "26 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d026.json",
+                                            "scion_id": "ls_qbl_alg_360d_d026"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D027",
+                                            "ls_ttl": "27 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d027.json",
+                                            "scion_id": "ls_qbl_alg_360d_d027"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D028",
+                                            "ls_ttl": "28 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d028.json",
+                                            "scion_id": "ls_qbl_alg_360d_d028"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D029",
+                                            "ls_ttl": "29 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d029.json",
+                                            "scion_id": "ls_qbl_alg_360d_d029"
+                                        },
+                                        {
+                                            "ls_id": "LS-QBL-ALG-360D-D030",
+                                            "ls_ttl": "30 Aries",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/qbl/alg/360d/d030.json",
+                                            "scion_id": "ls_qbl_alg_360d_d030"
                                         }
                                     ]
                                 }

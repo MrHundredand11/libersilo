@@ -108,6 +108,75 @@
                             "ls_url": "/ls/dgtl/code/000.json"
                         },
                         {
+                            "ls_id": "LS-DGTL-CODE-API",
+                            "ls_ttl": "Application Programming Interfaces",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/code/api/",
+                            "scion_id": "ls_dgtl_code_api",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-API-FETCH",
+                                    "ls_ttl": "The Fetch API",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/api/fetch.json",
+                                    "scion_id": "ls_dgtl_code_api_fetch"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-ARCH",
+                            "ls_ttl": "Architectures of Programming",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/code/arch/",
+                            "scion_id": "ls_dgtl_code_arch",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-ARCH-MVC",
+                                    "ls_ttl": "MVC Architectural Programming",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/arch/mvc.json",
+                                    "scion_id": "ls_dgtl_code_arch_mvc"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-CODE-PRGM",
+                            "ls_ttl": "Processes of Programming",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/code/prgm/",
+                            "scion_id": "ls_dgtl_code_prgm",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-CRUD",
+                                    "ls_ttl": "CRUD Operations",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/crud.json",
+                                    "scion_id": "ls_dgtl_code_prgm_crud"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-CTRLFLW",
+                                    "ls_ttl": "Code Control Flow",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/ctrlflow.json",
+                                    "scion_id": "ls_dgtl_code_prgm_ctrlflow"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-ERRR",
+                                    "ls_ttl": "Errors + Debugging",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/crud.json",
+                                    "scion_id": "ls_dgtl_code_prgm_crud"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-VAR",
+                                    "ls_ttl": "Variables",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/var.json",
+                                    "scion_id": "ls_dgtl_code_prgm_var"
+                                }
+                            ]
+                        },
+                        {
                             "ls_id": "LS-DGTL-CODE-WEB",
                             "ls_ttl": "Web Development + Design",
                             "ls_type": "=>",

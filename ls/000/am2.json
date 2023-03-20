@@ -1632,7 +1632,7 @@
                             "scion_id": "ls_qbl_alg_plnt",
                             "scions": [
                                 {
-                                    "ls_id": "LS-QBL-PLNT-P01",
+                                    "ls_id": "LS-QBL-ALG-PLNT-P01",
                                     "ls_ttl": "The Planet Luna",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/alg/plnt/p01.json",

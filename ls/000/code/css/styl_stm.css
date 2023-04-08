@@ -315,3 +315,7 @@
     flex-wrap: nowrap;
     align-items: center;
 }
+
+.styl_stm_ttl {
+    font-family: 'Times New Roman';
+}

@@ -34,6 +34,42 @@
         },
         {
             "drct_id": "CMND",
+            "drct_ttl": "'PowerShell' Commands for 'Server Administration'",
+            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "VM Commands",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>Virtual Machine Commands</b></u>&nbsp;<i>for</i>&nbsp;(<b><i>PowerShell</b></i>)</span>",
+                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm",
+                    "scions": [
+                        {
+                            "insc_term": "To start a VM with Powershell",
+                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_startvm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Start-VM</span>\t]",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "blade",
+                                            "insc_tag": "Example",
+                                            "insc_sldr": "|\\_>>",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Start-VM \"DC01\"</span>\t]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CMND",
             "drct_ttl": "'PowerShell' Commands for 'Azure AD'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_azuread",
             "scions": [

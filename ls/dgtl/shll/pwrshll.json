@@ -214,7 +214,16 @@
                                     "insc_term": "To see who has Read/Manage Access to a Mailbox"
                                 },
                                 {
-                                    "insc_term": "To see who has SendA Permissions to a Mailbox"
+                                    "insc_term": "To see who has SendAs Permissions to a Mailbox"
+                                },
+                                {
+                                    "insc_term": "To see who has what Permissions to a Calendar"
+                                },
+                                {
+                                    "insc_term": "To get all Permissions in all Users' Calendars"
+                                },
+                                {
+                                    "insc_term": "To change Permissions for a Mailbox or Calendar"
                                 }
                             ]
                         }

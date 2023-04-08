@@ -194,7 +194,7 @@ function gen_Insc(insc_i, scion) {
                             twg_bmp_btm.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
                             twg_bmp_top.innerHTML = "---<br>--- ---";
                             twg_bmp_btm.innerHTML = "---- ----<br>----";
-                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>{${scion.scions[lfl].insc_term}}</span>&nbsp<span class='styl_pointers'>::</span>`;
+                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp<span class='styl_pointers'>::</span>`;
 
                             twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
                             stm_expnd.appendChild(twg_cntnr);

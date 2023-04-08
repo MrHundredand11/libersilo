@@ -51,6 +51,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_cntn": "<span class='styl_insc_txt_23px'>[\t<span class='styl_in_txt_code'>Get-Command | Select-String 'Feature'</span>\t]</span>",
                                     "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsftur_showfeatcmnds_c1",
                                     "scions": [

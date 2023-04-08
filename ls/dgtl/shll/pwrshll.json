@@ -207,7 +207,7 @@
                             "insc_typ1": "stm",
                             "insc_typ2": "lst_exp",
                             "insc_tag": "Permission Commands",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>PowerShell Commands</b></u>&nbsp;<i>related to</i>&nbsp;(<i>Permissions</i>)</span>",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>PowerShell Commands</b></u>&nbsp;<i>related to</i>&nbsp;(<b><i>Permissions</i></b>)</span>",
                             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds",
                             "scions": [
                                 {

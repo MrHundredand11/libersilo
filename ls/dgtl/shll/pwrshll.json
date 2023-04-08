@@ -74,7 +74,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Restart-VM</span>\t]",
+                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Restart-VM</span>\t\t]",
                                     "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_restartvm_c1",
                                     "scions": [
                                         {
@@ -97,7 +97,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
-                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM</span>\t]",
+                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM</span>\t\t]",
                                     "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_stopvm_c1",
                                     "scions": [
                                         {
@@ -106,7 +106,7 @@
                                             "insc_tag": "Example",
                                             "insc_sld": "|\\_",
                                             "insc_pntr": ">>",
-                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM \"DC01\"</span>\t]",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM \"DC01\"</span>\t\t]",
                                             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_stopvm_c1_ex1"
                                         }
                                     ]

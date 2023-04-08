@@ -207,8 +207,16 @@
                             "insc_typ1": "stm",
                             "insc_typ2": "lst_exp",
                             "insc_tag": "Permission Commands",
-                            "insc_ttl": "<b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>PowerShell Commands</b></u>&nbsp;<i>related to</i>&nbsp;(<i>Permissions</i>)",
-                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds"
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>PowerShell Commands</b></u>&nbsp;<i>related to</i>&nbsp;(<i>Permissions</i>)</span>",
+                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds",
+                            "scions": [
+                                {
+                                    "insc_term": "To see who has Read/Manage Access to a Mailbox"
+                                },
+                                {
+                                    "insc_term": "To see who has SendA Permissions to a Mailbox"
+                                }
+                            ]
                         }
                     ]
                 }

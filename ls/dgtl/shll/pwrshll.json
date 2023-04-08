@@ -52,13 +52,62 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_cntn": "[\t<span class='styl_in_txt_code'>Start-VM</span>\t]",
+                                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_startvm_c1",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "blade",
                                             "insc_tag": "Example",
-                                            "insc_sldr": "|\\_>>",
-                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Start-VM \"DC01\"</span>\t]"
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Start-VM \"DC01\"</span>\t]",
+                                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_startvm_c1_ex1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "To restart a VM with Powershell",
+                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_restartvm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Restart-VM</span>\t]",
+                                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_restartvm_c1",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "blade",
+                                            "insc_tag": "Example",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Restart-VM \"DC01\"</span>\t]",
+                                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_restartvm_c1_ex1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "To stop a VM with Powershell",
+                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_stopvm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM</span>\t]",
+                                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_stopvm_c1",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "blade",
+                                            "insc_tag": "Example",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Stop-VM \"DC01\"</span>\t]",
+                                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_srvadmn_cmndsvm_stopvm_c1_ex1"
                                         }
                                     ]
                                 }

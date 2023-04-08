@@ -211,7 +211,16 @@
                             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds",
                             "scions": [
                                 {
-                                    "insc_term": "To see who has Read/Manage Access to a Mailbox"
+                                    "insc_term": "To see who has Read/Manage Access to a Mailbox",
+                                    "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds_viewreadmanagemailbox",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "[\t<span class='styl_in_txt_code'>Get-EXOMailboxPermission %emailaddress% | select user</span>\t]"
+                                        }
+                                    ]
                                 },
                                 {
                                     "insc_term": "To see who has SendAs Permissions to a Mailbox"

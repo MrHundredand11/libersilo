@@ -202,6 +202,13 @@
                                     "insc_cntn": "<span class='styl_in_txt_inlineterm_01'>PublishingAuthor</span>&nbsp;= allows&nbsp;<span class='styl_in_txt_undr'>read</span>&nbsp;+&nbsp;<span class='styl_in_txt_undr'>create</span>&nbsp;for all items/subfolders; but can only modify and delete the items they create."
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_tag": "Permission Commands",
+                            "insc_ttl": "<b><u>List</b></u>&nbsp;<i>of</i>&nbsp;<b><u>PowerShell Commands</b></u>&nbsp;<i>related to</i>&nbsp;(<i>Permissions</i>)",
+                            "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl_prmsmlbclnd_prmscmnds"
                         }
                     ]
                 }

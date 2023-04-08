@@ -6,7 +6,7 @@
     "scions": [
         {
             "drct_id": "CMND",
-            "drct_ttl": "PowerShell Commands for 'Active Directory'",
+            "drct_ttl": "'PowerShell' Commands for 'Active Directory'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_actdir",
             "scions": [
                 {
@@ -34,7 +34,7 @@
         },
         {
             "drct_id": "CMND",
-            "drct_ttl": "PowerShell Commands for 'Azure AD'",
+            "drct_ttl": "'PowerShell' Commands for 'Azure AD'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_azuread",
             "scions": [
                 {
@@ -83,7 +83,7 @@
         },
         {
             "drct_id": "CMND",
-            "drct_ttl": "PowerShell Commands for 'Exchange Online'",
+            "drct_ttl": "'PowerShell' Commands for 'Exchange Online'",
             "scion_id": "ls_dgtl_shll_pwrshll_cmnd_b_exchonl",
             "scions": [
                 {

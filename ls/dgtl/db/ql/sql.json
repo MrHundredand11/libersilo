@@ -13,6 +13,11 @@
             "drct_id": "CLSS",
             "drct_ttl": "Classifications of 'Structured Query Language'",
             "scion_id": "ls_dgtl_db_ql_sql_clss"
+        },
+        {
+            "drct_id": "CMND",
+            "drct_ttl": "Common Commands for 'Structured Query Language'",
+            "scion_id": "ls_dgtl_db_ql_sql_cmnd"
         }
     ]
 }

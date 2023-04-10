@@ -1,0 +1,18 @@
+{
+    "ls_id": "LS-DGTL-DB-QL-SQL",
+    "ls_ttl": "Structured Query Language",
+    "ls_url": "/ls/dgtl/db/ql/sql.json",
+    "scion_id": "ls_dgtl_db_ql_sql",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Structured Query Language'",
+            "scion_id": "ls_dgtl_db_ql_sql_000"
+        },
+        {
+            "drct_id": "CLSS",
+            "drct_ttl": "Classifications of 'Structured Query Language'",
+            "scion_id": "ls_dgtl_db_ql_sql_clss"
+        }
+    ]
+}

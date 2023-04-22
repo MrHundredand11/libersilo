@@ -22,7 +22,6 @@ strong {
     border-spacing: 2px;
     margin-left: 17px;
     margin-right: 11px;
-    position: fixed;
     overflow-x: auto;
     overflow-y: auto;
     scroll-behavior: smooth;

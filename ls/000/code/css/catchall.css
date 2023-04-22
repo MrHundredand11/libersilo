@@ -8,7 +8,7 @@ strong {
 }
 
 #overall {
-    display: grid;
+    display: flex;
     width: 100%;
 }
 

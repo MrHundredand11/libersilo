@@ -1,8 +1,14 @@
 #menu {
-    height: 100%;
     position: fixed;
     transition: all 0.5s ease;
     transition-duration: .5s;
+    outline: 3px solid #000000;
+    flex-basis: 23%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    height: 100vh;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 #id_mnu_top {

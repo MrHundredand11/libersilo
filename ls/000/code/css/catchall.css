@@ -15,7 +15,7 @@ strong {
 #trestleboard {
     outline: 3px solid #000000;
     height: 100vh;
-    left: 23%;
+    flex-basis: 77%;
     border-spacing: 2px;
     margin-left: 17px;
     margin-right: 11px;

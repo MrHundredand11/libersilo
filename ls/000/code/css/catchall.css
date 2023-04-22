@@ -11,6 +11,8 @@ strong {
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #trestleboard {

@@ -749,180 +749,180 @@
             "scion_snip": "HMN",
             "scions": [
                 {
-                    "ls_id": "LS-DLC",
+                    "ls_id": "LS-HMN-DLC",
                     "ls_ttl": "Sexual Delicacy",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dlc/",
-                    "scion_id": "ls_dlc",
+                    "ls_url": "/ls/hmn/dlc/",
+                    "scion_id": "ls_hmn_dlc",
                     "scion_snip": "DLC",
                     "scions": [
                         {
-                            "ls_id": "LS-DLC-000",
+                            "ls_id": "LS-HMN-DLC-000",
                             "ls_ttl": "Overview of Sexual Delicacy",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dlc/000.json",
-                            "scion_id": "ls_dlc_000"
+                            "ls_url": "/ls/hmn/dlc/000.json",
+                            "scion_id": "ls_hmn_dlc_000"
                         },
                         {
-                            "ls_id": "LS-DLC-DIET",
+                            "ls_id": "LS-HMN-DLC-DIET",
                             "ls_ttl": "Diet for Sexual Health",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dlc/diet.json",
-                            "scion_id": "ls_dlc_diet"
+                            "ls_url": "/ls/hmn/dlc/diet.json",
+                            "scion_id": "ls_hmn_dlc_diet"
                         },
                         {
-                            "ls_id": "LS-DLC-TANTRA",
+                            "ls_id": "LS-HMN-DLC-TANTRA",
                             "ls_ttl": "Teachings of Tantric Sexuality",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dlc/tantra.json",
-                            "scion_id": "ls_dlc_tantra"
+                            "ls_url": "/ls/hmn/dlc/tantra.json",
+                            "scion_id": "ls_hmn_dlc_tantra"
                         }
                     ]
                 },
                 {
-                    "ls_id": "LS-MD",
+                    "ls_id": "LS-HMN-MD",
                     "ls_ttl": "Medical Directory",
                     "ls_type": "=>",
-                    "ls_url": "/ls/md/",
-                    "scion_id": "ls_md",
+                    "ls_url": "/ls/hmn/md/",
+                    "scion_id": "ls_hmn_md",
                     "scion_snip": "MD"
                 },
                 {
-                    "ls_id": "LS-PSI",
+                    "ls_id": "LS-HMN-PSI",
                     "ls_ttl": "Psychic + Astral Abilities",
                     "ls_type": "->",
-                    "ls_url": "/ls/psi/",
-                    "scion_id": "ls_psi",
+                    "ls_url": "/ls/hmn/psi/",
+                    "scion_id": "ls_hmn_psi",
                     "scion_snip": "PSI",
                     "scions": [
                         {
-                            "ls_id": "LS-PSI-3RDEYE",
+                            "ls_id": "LS-HMN-PSI-3RDEYE",
                             "ls_ttl": "The Third Eye and Spiritual Vision",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/3rdeye/",
-                            "scion_id": "ls_psi_3rdeye",
+                            "ls_url": "/ls/hmn/psi/3rdeye/",
+                            "scion_id": "ls_hmn_psi_3rdeye",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-3RDEYE-000",
+                                    "ls_id": "LS-HMN-PSI-3RDEYE-000",
                                     "ls_ttl": "Overview of The Third Eye",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/3rdeye/000.json",
-                                    "scion_id": "ls_psi_3rdeye_000"
+                                    "ls_url": "/ls/hmn/psi/3rdeye/000.json",
+                                    "scion_id": "ls_hmn_psi_3rdeye_000"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-PSI-AETHYR",
+                            "ls_id": "LS-HMN-PSI-AETHYR",
                             "ls_ttl": "Out of Body Traveling",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/aethyr/",
-                            "scion_id": "ls_psi_aethyr",
+                            "ls_url": "/ls/hmn/psi/aethyr/",
+                            "scion_id": "ls_hmn_psi_aethyr",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-AETHYR-000",
+                                    "ls_id": "LS-HMN-PSI-AETHYR-000",
                                     "ls_ttl": "Overview of the Aethyric Sciences",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/aethyr/000.json",
-                                    "scion_id": "ls_psi_aethyr_000"
+                                    "ls_url": "/ls/hmn/psi/aethyr/000.json",
+                                    "scion_id": "ls_hmn_psi_aethyr_000"
                                 },
                                 {
-                                    "ls_id": "LS-PSI-AETHYR-AURA",
+                                    "ls_id": "LS-HMN-PSI-AETHYR-AURA",
                                     "ls_ttl": "The Energy Bodies of The Aura",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/aethyr/aura.json",
-                                    "scion_id": "ls_psi_aethyr_aura"
+                                    "ls_url": "/ls/hmn/psi/aethyr/aura.json",
+                                    "scion_id": "ls_hmn_psi_aethyr_aura"
                                 },
                                 {
-                                    "ls_id": "LS-PSI-AETHYR-LOVE",
+                                    "ls_id": "LS-HMN-PSI-AETHYR-LOVE",
                                     "ls_ttl": "Astral Love",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/aethyr/love.json",
-                                    "scion_id": "ls_psi_aethyr_love"
+                                    "ls_url": "/ls/hmn/psi/aethyr/love.json",
+                                    "scion_id": "ls_hmn_psi_aethyr_love"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-PSI-CNTCT",
+                            "ls_id": "LS-HMN-PSI-CNTCT",
                             "ls_ttl": "Spiritual Contact Methods",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/cntct/",
-                            "scion_id": "ls_psi_cntct",
+                            "ls_url": "/ls/hmn/psi/cntct/",
+                            "scion_id": "ls_hmn_psi_cntct",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-CNTCT-PSCHMTR",
+                                    "ls_id": "LS-HMN-PSI-CNTCT-PSCHMTR",
                                     "ls_ttl": "Psychometry",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/cntct/pschmtr.json",
-                                    "scion_id": "ls_psi_cntct_pschmtr"
+                                    "ls_url": "/ls/hmn/psi/cntct/pschmtr.json",
+                                    "scion_id": "ls_hmn_psi_cntct_pschmtr"
                                 },
                                 {
-                                    "ls_id": "LS-PSI-CNTCT-SKRY",
+                                    "ls_id": "LS-HMN-PSI-CNTCT-SKRY",
                                     "ls_ttl": "Skrying",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/cntct/skry.json",
-                                    "scion_id": "ls_psi_cntct_skry"
+                                    "ls_url": "/ls/hmn/psi/cntct/skry.json",
+                                    "scion_id": "ls_hmn_psi_cntct_skry"
                                 },
                                 {
-                                    "ls_id": "LS-PSI-CNTCT-TBLTP",
+                                    "ls_id": "LS-HMN-PSI-CNTCT-TBLTP",
                                     "ls_ttl": "Table Tipping",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/cntct/tbltp.json",
-                                    "scion_id": "ls_psi_cntct_tbltp"
+                                    "ls_url": "/ls/hmn/psi/cntct/tbltp.json",
+                                    "scion_id": "ls_hmn_psi_cntct_tbltp"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-PSI-DREAM",
+                            "ls_id": "LS-HMN-PSI-DREAM",
                             "ls_ttl": "Dreams + Dreaming",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/dream/",
-                            "scion_id": "ls_psi_dream",
+                            "ls_url": "/ls/hmn/psi/dream/",
+                            "scion_id": "ls_hmn_psi_dream",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-DREAM-YOGA",
+                                    "ls_id": "LS-HMN-PSI-DREAM-YOGA",
                                     "ls_ttl": "Dream Yoga",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/dream/yoga.json",
-                                    "scion_id": "ls_psi_dream_yoga"
+                                    "ls_url": "/ls/hmn/psi/dream/yoga.json",
+                                    "scion_id": "ls_hmn_psi_dream_yoga"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-PSI-PSIPWR",
+                            "ls_id": "LS-HMN-PSI-PSIPWR",
                             "ls_ttl": "Psychic Powers",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/psipwr/",
-                            "scion_id": "ls_psi_psipwr",
+                            "ls_url": "/ls/hmn/psi/psipwr/",
+                            "scion_id": "ls_hmn_psi_psipwr",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-PSIPWR-000",
+                                    "ls_id": "LS-HMN-PSI-PSIPWR-000",
                                     "ls_ttl": "Overview of Psychic Powers",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/psipwr/000.json",
-                                    "scion_id": "ls_psi_psipwr_000"
+                                    "ls_url": "/ls/hmn/psi/psipwr/000.json",
+                                    "scion_id": "ls_hmn_psi_psipwr_000"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-PSI-RV",
+                            "ls_id": "LS-HMN-PSI-RV",
                             "ls_ttl": "Remote Viewing",
                             "ls_type": "=>",
-                            "ls_url": "/ls/psi/rv/",
-                            "scion_id": "ls_psi_rv",
+                            "ls_url": "/ls/hmn/psi/rv/",
+                            "scion_id": "ls_hmn_psi_rv",
                             "scions": [
                                 {
-                                    "ls_id": "LS-PSI-RV-000",
+                                    "ls_id": "LS-HMN-PSI-RV-000",
                                     "ls_ttl": "Overview of Remote Viewing",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/rv/000.json",
-                                    "scion_id": "ls_psi_rv_000"
+                                    "ls_url": "/ls/hmn/psi/rv/000.json",
+                                    "scion_id": "ls_hmn_psi_rv_000"
                                 },
                                 {
-                                    "ls_id": "LS-PSI-RV-HIST",
+                                    "ls_id": "LS-HMN-PSI-RV-HIST",
                                     "ls_ttl": "History of Remote Viewing",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/psi/rv/hist.json.json",
-                                    "scion_id": "ls_psi_rv_hist"
+                                    "ls_url": "/ls/hmn/psi/rv/hist.json.json",
+                                    "scion_id": "ls_hmn_psi_rv_hist"
                                 }
                             ]
                         }

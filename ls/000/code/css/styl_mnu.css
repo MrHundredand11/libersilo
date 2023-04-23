@@ -120,6 +120,7 @@
     display: block;
     transform: translateX(0);
     transition-duration: .5s;
+    min-width: none;
 }
 
 #menu.collapse .styl_mnu_accrd_ttl, #menu.collapse #mnu_ttl {

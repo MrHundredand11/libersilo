@@ -1,13 +1,11 @@
 #menu {
-    position: fixed;
     transition: all 0.5s ease;
     transition-duration: .5s;
     outline: 3px solid #000000;
-    flex-basis: 23%;
-    flex-shrink: 1;
-    flex-grow: 0;
     height: 100vh;
     box-sizing: border-box;
+    flex: 0 1 23%;
+    min-width: 23%;
 }
 
 #id_mnu_top {

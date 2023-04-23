@@ -15,7 +15,7 @@ strong {
 
 #trestleboard {
     outline: 3px solid #000000;
-    height: 100vh;
+    height: 97vh;
     border-spacing: 2px;
     margin-left: 17px;
     margin-right: 11px;
@@ -139,7 +139,7 @@ strong {
     font-family: calibri;
     font-weight: bold;
     font-size: 29px;
-    margin-top: 17px;
+    padding-top: 17px;
     margin-bottom: 17px;
     margin-left: 17px;
     margin-right: 17px;

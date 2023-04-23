@@ -9,18 +9,13 @@ strong {
 
 #overall {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    align-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 #trestleboard {
     outline: 3px solid #000000;
     height: 100vh;
-    flex-basis: 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
     border-spacing: 2px;
     margin-left: 17px;
     margin-right: 11px;
@@ -30,6 +25,7 @@ strong {
     transition-duration: .5s;
     align-self: end;
     position: relative;
+    flex: 1 1 77%;
 }
 
 .trstle_etchngs {

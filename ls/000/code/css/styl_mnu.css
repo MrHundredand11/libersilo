@@ -154,9 +154,9 @@
 }
 
 #trestleboard.collapse {
-    left: 4rem;
     position: relative;
     transition-duration: .5s;
+    margin-left: 11px;
 }
 
 #menu.collapse .styl_mnu_accrd_cntn {

@@ -1417,7 +1417,7 @@
                         {
                             "ls_id": "LS-LULS-THLMA-000",
                             "ls_ttl": "Overview of Thelemic Librae",
-                            "ls_type": "=>",
+                            "ls_type": "+>",
                             "ls_url": "/ls/luls/thlma/000.json",
                             "scion_id": "ls_luls_thlma_000"
                         },

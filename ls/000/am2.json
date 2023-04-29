@@ -1477,14 +1477,53 @@
                             "ls_ttl": "Class B Publications",
                             "ls_type": "=>",
                             "ls_url": "/ls/luls/thlma/cb/",
-                            "scion_id": "ls_luls_thlma_cb"
+                            "scion_id": "ls_luls_thlma_cb",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CB-L474",
+                                    "ls_ttl": "Liber OS ABYSMI vel DAATH",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cb/l474.json",
+                                    "scion_id": "ls_luls_thlma_cb_l474"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CB-L913",
+                                    "ls_ttl": "Liber ThYShARB VIAE MEMORIE",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cb/l913.json",
+                                    "scion_id": "ls_luls_thlma_cb_l913"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-THLMA-CD",
                             "ls_ttl": "Class D Publications",
                             "ls_type": "=>",
                             "ls_url": "/ls/luls/thlma/cd/",
-                            "scion_id": "ls_luls_thlma_cd"
+                            "scion_id": "ls_luls_thlma_cd",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CD-L011",
+                                    "ls_ttl": "Liber NV",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cd/l011.json",
+                                    "scion_id": "ls_luls_thlma_cd_l011"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CD-L036",
+                                    "ls_ttl": "The Star Sapphire",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cd/l036.json",
+                                    "scion_id": "ls_luls_thlma_cd_l036"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CD-L200",
+                                    "ls_ttl": "Liber Resh vel Helios",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cd/l200.json",
+                                    "scion_id": "ls_luls_thlma_cd_l200"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-THLMA-CX",

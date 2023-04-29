@@ -1,0 +1,41 @@
+{
+    "ls_id": "LS-LULS-THLMA-CX-PNPRNMB",
+    "ls_ttl": "Liber Pennae Praenumbra",
+    "ls_url": "/ls/luls/thlma/cx/pnprnmb.json",
+    "scion_id": "ls_luls_thlma_cx_pnprnmb",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Liber Pennae Praenumbra'",
+            "scion_id": "ls_luls_thlma_cx_pnprnmb_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "List of Texts + Translations of (Pennae Praenumbra)",
+                    "scion_id": "ls_luls_thlma_cx_pnprnmb_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "1974 Version",
+                            "scion_id": "ls_luls_thlma_cx_pnprnmb_txts_lst_00",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tIn the Akasha-Echo is this inscribed:\t]",
+                                    "scion_id": "ls_luls_thlma_cx_pnprnmb_txts_lst_00_v001"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tBy the same mouth, O Mother of the Sun, is the word breathed forth and the nectar received. By the same breath, O Counterweight of the Heart, is the manifest created and destroyed.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_pnprnmb_txts_lst_00_v002"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

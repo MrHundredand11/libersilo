@@ -227,10 +227,11 @@ function gen_Insc(insc_i, scion) {
             } else {
                 var insc_pnt = gen_Pntr(insc_i, insc_id);
             }
-            insc_prtr.append(insc_pnt);
+            
 
             switch (scion.insc_typ2) {
                 case 'trm':
+                    insc_prtr.append(insc_pnt);
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     insc_prtr.append(insc_trm);
                     insc_prtr.style['align-items'] = 'center';
@@ -242,6 +243,7 @@ function gen_Insc(insc_i, scion) {
                     break;
                 
                 case 'trm_stpl':
+                    insc_prtr.append(insc_pnt);
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
@@ -251,18 +253,21 @@ function gen_Insc(insc_i, scion) {
                     break;
 
                 case 'lnk_stpl':
+                    insc_prtr.append(insc_pnt);
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_lnk = gen_term(insc_id, scion.insc_cntn);
                     insc_prtr.append(insc_tag, insc_lnk);            
                     break;
 
                 case 'txt':
+                    insc_prtr.append(insc_pnt);
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     insc_prtr.append(insc_cntn);
                     break;
                 
                 case 'txt_stpl':
+                    insc_prtr.append(insc_pnt);
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
@@ -274,10 +279,11 @@ function gen_Insc(insc_i, scion) {
                     insc_cntn.innerHTML = scion.insc_cntn;
                     var insc_itr = createElementWithClass('span', 'styl_lf_itr_num');
                     insc_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
-                    insc_prtr.append(insc_itr, insc_cntn);
+                    insc_prtr.append(insc_pnt, insc_itr, insc_cntn);
                     break;
 
                 case 'gem_hbrw':
+                    insc_prtr.append(insc_pnt);
                     var eqc = gen_ECI('div', 'styl_insc_gem_eqc', `id_gem_eqc${insc_id}`);    
                     var num = gen_ECI('div', 'styl_insc_gem_num', `id_gem_num_${insc_id}`);
                     var eqq = gen_ECI('div', 'styl_insc_gem_eqq', `id_gem_eqq_${insc_id}`);
@@ -290,6 +296,7 @@ function gen_Insc(insc_i, scion) {
                     break;
 
                 case 'blade':
+                    insc_prtr.append(insc_pnt);
                     var bld_id = generateBladeIdNum(scion.scion_id, insc_i);
                     var insc_tag = generateTag(bld_id, scion.insc_tag);
                     var insc_arm = gen_ECI('div', 'styl_in_arm', `id_in_arm_${bld_id}`);

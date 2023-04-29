@@ -1426,7 +1426,51 @@
                             "ls_ttl": "Class A Publications",
                             "ls_type": "=>",
                             "ls_url": "/ls/luls/thlma/ca/",
-                            "scion_id": "ls_luls_thlma_ca"
+                            "scion_id": "ls_luls_thlma_ca",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L001",
+                                    "ls_ttl": "Liber B vel Magi",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cx/l001.json",
+                                    "scion_id": "ls_luls_thlma_cx_l001"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L090",
+                                    "ls_ttl": "Liber Tzaddi vel Hamus Hermeticus",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/ca/l090.json",
+                                    "scion_id": "ls_luls_thlma_ca_l090"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L156",
+                                    "ls_ttl": "Cheth vel Vallvm Abiegni",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/cx/l156.json",
+                                    "scion_id": "ls_luls_thlma_cx_l156"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L220-CI",
+                                    "ls_ttl": "Ch I of Liber AL vel Legis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/ca/l220_ci.json",
+                                    "scion_id": "ls_luls_thlma_ca_l220_ci"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L220-CII",
+                                    "ls_ttl": "Ch II of Liber AL vel Legis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/ca/l220_cii.json",
+                                    "scion_id": "ls_luls_thlma_ca_l220_cii"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CA-L220-CIII",
+                                    "ls_ttl": "Ch III of Liber AL vel Legis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/thlma/ca/l220_ciii.json",
+                                    "scion_id": "ls_luls_thlma_ca_l220_ciii"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-THLMA-CB",
@@ -1452,14 +1496,14 @@
                                 {
                                     "ls_id": "LS-LULS-THLMA-CX-L049",
                                     "ls_ttl": "The Book of Babalon",
-                                    "ls_type": "=>",
+                                    "ls_type": "+>",
                                     "ls_url": "/ls/luls/thlma/cx/l049.json",
                                     "scion_id": "ls_luls_thlma_cx_l049"
                                 },
                                 {
                                     "ls_id": "LS-LULS-THLMA-CX-PNPRNMB",
                                     "ls_ttl": "Liber Pennae Praenumbra",
-                                    "ls_type": "=>",
+                                    "ls_type": "+>",
                                     "ls_url": "/ls/luls/thlma/cx/pnprnmb.json",
                                     "scion_id": "ls_luls_thlma_cx_pnprnmb"
                                 }

@@ -279,7 +279,7 @@ function gen_Insc(insc_i, scion) {
                     insc_cntn.innerHTML = scion.insc_cntn;
                     var insc_itr = createElementWithClass('span', 'styl_lf_itr_num');
                     insc_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
-                    insc_prtr.append(insc_pnt, insc_itr, insc_cntn);
+                    insc_prtr.append(insc_itr, insc_pnt, insc_cntn);
                     break;
 
                 case 'gem_hbrw':

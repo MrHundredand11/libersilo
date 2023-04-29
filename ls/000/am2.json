@@ -1409,13 +1409,69 @@
                 },
                 {
                     "ls_id": "LS-LULS-THLMA",
-                    "ls_ttl": "Thelemic Scriptures + Spirituality",
-                    "ls_type": "=>"
+                    "ls_ttl": "Thelemic Librae",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/luls/thlma",
+                    "scion_id": "ls_luls_thlma",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-THLMA-000",
+                            "ls_ttl": "Overview of Thelemic Librae",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/thlma/000.json",
+                            "scion_id": "ls_luls_thlma_000"
+                        },
+                        {
+                            "ls_id": "LS-LULS-THLMA-CA",
+                            "ls_ttl": "Class A Publications",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/thlma/ca/",
+                            "scion_id": "ls_luls_thlma_ca"
+                        },
+                        {
+                            "ls_id": "LS-LULS-THLMA-CB",
+                            "ls_ttl": "Class B Publications",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/thlma/cb/",
+                            "scion_id": "ls_luls_thlma_cb"
+                        },
+                        {
+                            "ls_id": "LS-LULS-THLMA-CD",
+                            "ls_ttl": "Class D Publications",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/thlma/cd/",
+                            "scion_id": "ls_luls_thlma_cd"
+                        },
+                        {
+                            "ls_id": "LS-LULS-THLMA-CX",
+                            "ls_ttl": "Extra-Thelemic Publications",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/thlma/cx/",
+                            "scion_id": "ls_luls_thlma_cx",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CX-L049",
+                                    "ls_ttl": "The Book of Babalon",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/thlma/cx/l049.json",
+                                    "scion_id": "ls_luls_thlma_cx_l049"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-THLMA-CX-PNPRNMB",
+                                    "ls_ttl": "Liber Pennae Praenumbra",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/thlma/cx/pnprnmb.json",
+                                    "scion_id": "ls_luls_thlma_cx_pnprnmb"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-LULS-WRSHP",
                     "ls_ttl": "Worship Songs",
-                    "ls_type": "=>"
+                    "ls_type": "=>",
+                    "ls_url": "/ls/luls/wrshp"
                 }
 
             ]

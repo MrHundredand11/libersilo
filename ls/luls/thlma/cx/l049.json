@@ -55,7 +55,7 @@
                                     "insc_typ2": "txt_itr",
                                     "insc_itr": "5-8",
                                     "insc_offs": "styl_offs_dwn_23",
-                                    "insc_cntn": "(\tmissing and presumed lost\t)",
+                                    "insc_cntn": "(\t<missing and presumed lost\t)",
                                     "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v005to8"
                                 },
                                 {
@@ -71,7 +71,7 @@
                                     "insc_typ2": "txt_itr",
                                     "insc_itr": "10",
                                     "insc_offs": "styl_offs_dwn_23",
-                                    "insc_cntn": "[\tI will come as a penelous flame, as a devious song, a trumpet in judgement halls, a banner before armies\t]",
+                                    "insc_cntn": "[\tI will come as a penelous flame, as a devious song, a trumpet in judgement halls, a banner before armies.\t]",
                                     "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v010"
                                 },
                                 {
@@ -89,6 +89,70 @@
                                     "insc_offs": "styl_offs_dwn_23",
                                     "insc_cntn": "[\tAnd this is the way of my incarnation. Heed!\t]",
                                     "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v012"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "13",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tThou shalt offer all thou art and all thou hast at my altar, witholding nothing. And thou shalt be smitten full sore and thereafter thou shalt be outcast and accursed, a lonely wanderer in abominable places.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v014"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "14",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tYe Dare. I have asked of none other, nor have they asked. Else is vain. But thou hast willed it.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v014"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "15",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tKnow then that thus I came to thee before, thou a great Lord, and I a maid enrapt. Ah blind folly.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v015"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "16",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tAnd thereafter madness, all in vain. Thus it has been, multi-form. How thou hast burned beyond.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v016"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "17",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tI shall come again, in the form thou knowest. Now it shall be thy blood.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v017"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "18",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tThe altar is aright, and the robe.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v018"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "19",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tThe perfume is sandal, and the cloth green and gold. There is my cup, our book, and thy dagger.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v019"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "20",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tThere is a flame.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v020"
                                 }
                             ]
                         }

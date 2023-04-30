@@ -30,6 +30,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_itr",
                                     "insc_itr": "2",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_cntn": "[\tAnd this is my book, that is the fourth chapter of the Book of the Law, He completing the Name, for I am out of NUIT by HORUS, the incestuous sister of RA-HOOR-KHUIT.\t]",
                                     "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v002"
                                 },
@@ -37,8 +38,57 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_itr",
                                     "insc_itr": "3",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_cntn": "[\tIt is BABALON. TIME IS. Ye fools.\t]",
                                     "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v003"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "4",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tThou hast called me, oh accursed and beloved fool.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v004"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "5-8",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "(\tmissing and presumed lost\t)",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v005to8"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "9",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tNow know that I, BABALON, would take flesh and come among men.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v009"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "10",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tI will come as a penelous flame, as a devious song, a trumpet in judgement halls, a banner before armies\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v010"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "11",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tAnd gather my children unto me, for THE TIME is at hand.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v011"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "12",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_cntn": "[\tAnd this is the way of my incarnation. Heed!\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v012"
                                 }
                             ]
                         }

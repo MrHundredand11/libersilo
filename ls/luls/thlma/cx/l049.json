@@ -1,0 +1,50 @@
+{
+    "ls_id": "LS-LULS-THLMA-CX-L049",
+    "ls_ttl": "Liber 49 = The Book of Babalon",
+    "ls_url": "/ls/luls/thlma/cx/l049.json",
+    "scion_id": "ls_luls_thlma_cx_l049",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'The Book of Babalon'",
+            "scion_id": "ls_luls_thlma_cx_l049_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "List of Texts + Translations of (Liber 49)",
+                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Transmission on 28-Feb-1946",
+                            "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "1",
+                                    "insc_cntn": "[\tYea, it is I, BABALON.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v001"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "2",
+                                    "insc_cntn": "[\tAnd this is my book, that is the fourth chapter of the Book of the Law, He completing the Name, for I am out of NUIT by HORUS, the incestuous sister of RA-HOOR-KHUIT.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v002"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_itr",
+                                    "insc_itr": "3",
+                                    "insc_cntn": "[\tIt is BABALON. TIME IS. Ye fools.\t]",
+                                    "scion_id": "ls_luls_thlma_cx_l049_txts_lst_00_v003"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

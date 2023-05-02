@@ -70,7 +70,52 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_4wrl",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Final H in YHVH"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Adonai Melekh"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Adon ha-Arets"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Briyah",
+                            "insc_term": "Sandalphon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Yetzirah",
+                            "insc_term": "Ishim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "The Earth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "Matter in its Entirety"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "The Mundane Physical World"
                         }
                     ]
                 },
@@ -81,7 +126,88 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_taro",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "The World"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "Judgement"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "The Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Minors",
+                            "insc_term": "The 4 Tens",
+                            "scion_id": "ls_qbl_otz_spr10_qblh_taro_mnrs_tens",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Wands"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Cups"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Swords"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Pentacles"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Minors",
+                            "insc_term": "The 4 Princess Cards",
+                            "scion_id": "ls_qbl_otz_spr10_qblh_taro_mnrs_prncss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Wands"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Cups"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Swords"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Pentacles"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -92,7 +218,16 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_lmnt",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Element",
+                            "insc_term": "All Four Elements"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Element",
+                            "insc_term": "The Element Earth"
                         }
                     ]
                 },
@@ -103,7 +238,10 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_32p",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Qabalistic Path",
+                            "insc_term": "The 32nd Path"
                         }
                     ]
                 }

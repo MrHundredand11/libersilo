@@ -336,6 +336,35 @@ function gen_Insc(insc_i, scion) {
             }
             return insc_cntnr;
 
+        case 'twig':
+            var twig_id = `id_twig_${insc_id}`;    
+            var twig_name = scion.insc_ttl;    
+            var twig_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_twig_cntnr_${insc_id}`);
+            var twig_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_twig_bmp_top_${insc_id}`);
+            var twig_nametag = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nametag`, `id_twig_nametag_${insc_id}`);
+            var twig_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_twig_trstlbrd_${insc_id}`);
+            var twig_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_twig_bmp_btm_${insc_id}`);
+      
+                twig_cntnr.append(twig_bmp_top, twig_nametag, twig_trstlbrd, twig_bmp_btm); 
+            
+                switch (scion.insc_typ2) {
+                    case 'brnch':
+                        twig_bmp_top.innerHTML = bmp_twig_scrll;
+                        twig_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${twig_name}</span> ::`;
+                        twig_bmp_btm.innerHTML = bmp_twig_scrll;
+    
+                        twig_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                        twig_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                        twig_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
+                        
+                        for (i2 in scion.scions) {
+                            var entr_full = gen_Insc(i2, scion.scions[i2]);
+                            twig_trstlbrd.appendChild(entr_full);
+                        }
+                    break;
+                }
+            return twig_cntnr;
+
         case 'gem':
             var gem_cntnr = gen_ECI('div', `styl_gem_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_gem_cntnr_${insc_id}`);
             var gem_prtr = createElementWithClass('div', 'styl_gem_prtr');

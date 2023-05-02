@@ -349,9 +349,7 @@ function gen_Insc(insc_i, scion) {
             
                 switch (scion.insc_typ2) {
                     case 'brnch':
-                        twig_bmp_top.innerHTML = bmp_twig_scrll;
                         twig_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${twig_name}</span> ::`;
-                        twig_bmp_btm.innerHTML = bmp_twig_scrll;
     
                         twig_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
                         twig_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);

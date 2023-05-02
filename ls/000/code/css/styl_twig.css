@@ -15,7 +15,8 @@
 }
 
 .styl_twig_brnch_cntnr:hover {
-    border: 2.22px solid black;
+    border: 1.11px solid black;
+    border-radius: 5px;
 }
 
 .styl_twig_brnch_nametag {

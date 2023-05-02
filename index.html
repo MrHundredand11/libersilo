@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/ls/000/code/css/styl_brnch.css">
         <link rel="stylesheet" href="/ls/000/code/css/styl_stm.css">
         <link rel="stylesheet" href="/ls/000/code/css/styl_twg.css">
+        <link rel="stylesheet" href="/ls/000/code/css/styl_twig.css">
         <link rel="stylesheet" href="/ls/000/code/css/styl_in_txt.css">
         <link rel="stylesheet" href="/ls/000/code/css/styl_lf.css">
         <link rel="stylesheet" href="/ls/000/code/css/styl_lfl.css">
@@ -64,20 +65,20 @@
         </div>
         <script type="text/javascript">
             {
-            let sideBar = document.querySelector('#menu');
-            let trstboard = document.querySelector('#trestleboard');
-            let arrowCollapse = document.querySelector('.styl_side_seal');
-            arrowCollapse.onclick = () => {
-                sideBar.classList.toggle('collapse');
-                trstboard.classList.toggle('collapse');
-                arrowCollapse.classList.toggle('collapse');
-                if (arrowCollapse.classList.contains('collapse')) {
-                arrowCollapse.classList = 'styl_side_seal collapse';
-                } else {
-                arrowCollapse.classList = 'styl_side_seal';
-                }
-            };
+                let sideBar = document.querySelector('#menu');
+                let trstboard = document.querySelector('#trestleboard');
+                let arrowCollapse = document.querySelector('.styl_side_seal');
+                arrowCollapse.onclick = () => {
+                    sideBar.classList.toggle('collapse');
+                    trstboard.classList.toggle('collapse');
+                    arrowCollapse.classList.toggle('collapse');
+                    if (arrowCollapse.classList.contains('collapse')) {
+                        arrowCollapse.classList = 'styl_side_seal collapse';
+                    } else {
+                        arrowCollapse.classList = 'styl_side_seal';
+                    }
+                };
             }
-        </script>     
+        </script>    
     </body>
 </html>

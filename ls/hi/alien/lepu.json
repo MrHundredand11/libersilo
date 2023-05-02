@@ -13,13 +13,23 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Definitions</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
-                    "scion_id": "ls_hi_alien_lepu_000",
+                    "scion_id": "ls_hi_alien_lepu_000_defn",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_pntr": "=>",
-                            "insc_cntn": "<span class='styl_insc_trms_defn'>Lepufology</>&nbsp;= the study of rabbit-related UFO encounters"
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Lepufology</span>&nbsp;= the study of rabbit-related UFO encounters",
+                            "scion_id": "ls_hi_alien_lepu_000_defn_d00",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='styl_insc_trms_defn'>Lepufology</span>&nbsp;= is a term used to describe the documentation of evidence that correlates a connection between reports of UFOs and rabbits (of the animal family Leporidae)"
+                                }
+                            ]
                         }
                     ]
                 }

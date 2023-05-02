@@ -16,7 +16,10 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_otz",
                     "scions": [
                         {
-
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Placement",
+                            "insc_term": "At the Base of the Pillar of Equilibrium"
                         }
                     ]
                 },
@@ -27,7 +30,22 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_shm",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Final H in YHVH"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Adonai Melekh"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Adon ha-Aretz"
                         }
                     ]
                 },
@@ -38,7 +56,10 @@
                     "scion_id": "ls_qbl_otz_spr10_qblh_astr",
                     "scions": [
                         {
-                            
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Celestial Correspondence",
+                            "insc_term": "The Planet Earth"
                         }
                     ]
                 },

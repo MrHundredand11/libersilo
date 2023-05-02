@@ -23,6 +23,31 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'LAM'",
+            "scion_id": "ls_hi_alien_lam_hist",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class=''><b><u>Historical Commentary</b></u> <i>on</i> (<b><i>LAM</b></i>)</span>",
+                    "scion_id": "ls_hi_alien_lam_name_xplr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Crowley's 1919 Drawing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kenneth Grant's Work"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

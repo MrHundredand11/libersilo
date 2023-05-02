@@ -1,6 +1,7 @@
 let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
 let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
 let flow_brnch = "<div class='styl_pointers'>]}=></div>&nbsp;";
+let flow_twig = "<div class='styl_pointers'>))=>></div>&nbsp;";
 let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
 let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
 let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
@@ -349,7 +350,7 @@ function gen_Insc(insc_i, scion) {
             
                 switch (scion.insc_typ2) {
                     case 'brnch':
-                        twig_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${twig_name}</span> ::`;
+                        twig_nametag.innerHTML = `${flow_twig}<span id='${insc_id}'>${twig_name}</span> ::`;
     
                         twig_nametag.setAttribute('onclick', `showHideTwig('${insc_id}');`);
                         twig_bmp_top.setAttribute('onclick', `showHideTwig('${insc_id}');`);

@@ -57,6 +57,24 @@
                 {
                     "insc_typ1": "twig",
                     "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Rulers</b></u> <i>who experienced both</i> (<b><i>Rabbit Attacks</b></i>) <i>and</i> (<b><i>UFOs</b></i>)</span>",
+                    "scion_id": "ls_hi_alien_lepu_000_rlrattck",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "King Arthur"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jimmy Carter"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "twig",
+                    "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Media Appearances</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
                     "scion_id": "ls_hi_alien_lepu_000_mdappr",
                     "scions": [
@@ -68,7 +86,45 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "The Spielberg film \"ET\""
+                            "insc_term": "ET"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Close Encounters of the Third Kind"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "It Came From Outer Space"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Monty Python and the Holy Grail"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Harvey"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Illuminatus Trilogy"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "twig",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Theories</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
+                    "scion_id": "ls_hi_alien_lepu_000_thries",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Rabbits, Lepufologists claim, are the advance party for the visiting aliens to Earth."
                         }
                     ]
                 }

@@ -153,24 +153,32 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Ten of Wands"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Ten of Cups"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Ten of Swords"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Ten of Pentacles"
                                 }
@@ -194,18 +202,24 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Princess of Cups"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Princess of Swords"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
                                     "insc_tag": "Tarot Minor",
                                     "insc_term": "Princess of Pentacles"
                                 }

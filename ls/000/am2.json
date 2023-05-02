@@ -519,7 +519,7 @@
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-EBE",
-                            "ls_ttl": "Extraterrestrial Biological Entity",
+                            "ls_ttl": "Extraterrestrial Biological Entities",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/alien/ebe.json",
                             "scion_id": "ls_hi_alien_ebe"
@@ -532,11 +532,32 @@
                             "scion_id": "ls_hi_alien_gentry"
                         },
                         {
+                            "ls_id": "LS-HI-ALIEN-LAM",
+                            "ls_ttl": "LAM",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/lam.json",
+                            "scion_id": "ls_hi_alien_lam"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-LEPU",
+                            "ls_ttl": "Lepufology",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/lepu.json",
+                            "scion_id": "ls_hi_alien_lepu"
+                        },
+                        {
                             "ls_id": "LS-HI-ALIEN-LYRA",
                             "ls_ttl": "The Lyrans",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/alien/lyra.json",
                             "scion_id": "ls_hi_alien_lyra"
+                        },
+                        {
+                            "ls_id": "LS-HI-ALIEN-MIB",
+                            "ls_ttl": "The Men in Black",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/mib.json",
+                            "scion_id": "ls_hi_alien_mib"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-OBSHAZR",

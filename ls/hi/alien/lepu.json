@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-HI-ALIEN-LEPU",
+    "ls_ttl": "Lepufology",
+    "ls_url": "/ls/hi/alien/lepu.json",
+    "scion_id": "ls_hi_alien_lepu",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Lepufology'",
+            "scion_id": "ls_hi_alien_lepu_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Definitions</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
+                    "scion_id": "ls_hi_alien_lepu_000",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "<span class='styl_insc_trms_defn'>Lepufology</>&nbsp;= the study of rabbit-related UFO encounters"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "ls_id": "LS-HI-ALIEN-LAM",
+    "ls_ttl": "LAM",
+    "ls_url": "/ls/hi/alien/lam.json",
+    "scion_id": "ls_hi_alien_lam",
+    "scions": [
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'LAM'",
+            "scion_id": "ls_hi_alien_lam_name",
+            "scions": [
+                {
+                    "insc_typ1": "twig",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class=''><b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>LAM</b></i>)</span>",
+                    "scion_id": "ls_hi_alien_lam_name_xplr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "LAM"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -129,6 +129,90 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_otz",
+                    "scions": [
+                        {
+
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_shm",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The AStrological Cycles</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_astr",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_4wrl",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_taro",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_lmnt",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_32p",
+                    "scions": [
+                        {
+                            
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -1,8 +1,5 @@
 .styl_twig_brnch_cntnr {
     margin-bottom: 17px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
     padding-right: 47px;
@@ -20,10 +17,6 @@
     border: 2.22px solid black;
 }
 
-.styl_twig_brnch_bmp_top {
-    display: none;
-}
-
 .styl_twig_brnch_nametag {
     font-size: 37px;
     display: flex;
@@ -33,20 +26,11 @@
 .styl_twig_brnch_trstlbrd {
     padding-left: 73px;
     margin-top: 17px;
-    display: none;
 }
 
-.styl_twig_brnch_bmp_btm {
-    display: none;
-    text-align: center;
-    padding-top: 17px;
-    padding-bottom: 7px;
-}
 
 .styl_twig_brnch_lmb_cntnr {
     margin-bottom: 17px;
-    border: 1px solid black;
-    border-radius: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
@@ -63,10 +47,6 @@
     border: 2.22px solid black;
 }
 
-.styl_twig_brnch_lmb_bmp_top {
-    display: none;
-}
-
 .styl_twig_brnch_lmb_nametag {
     font-size: 17px;
     display: flex;
@@ -76,12 +56,4 @@
 .styl_twig_brnch_lmb_trstlbrd {
     padding-left: 73px;
     margin-top: 17px;
-    display: none;
-}
-
-.styl_twig_brnch_lmb_bmp_btm {
-    display: none;
-    text-align: center;
-    padding-top: 17px;
-    padding-bottom: 7px;
 }

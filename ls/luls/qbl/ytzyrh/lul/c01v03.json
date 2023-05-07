@@ -1,0 +1,59 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V03",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 03",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v03.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 03'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 03</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 03'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 03</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "The Number of Ten Fingers"
+                        },
+                        {
+                            "insc_term": "Five Opposite Five"
+                        },
+                        {
+                            "insc_term": "A Singular Covenant"
+                        },
+                        {
+                            "insc_term": "Circumcision of the Tongue"
+                        },
+                        {
+                            "insc_term": "Circumcision of the Membrum"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

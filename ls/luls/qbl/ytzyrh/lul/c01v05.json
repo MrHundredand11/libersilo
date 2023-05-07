@@ -1,0 +1,95 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V05",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 05",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v05.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 05'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 05</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 05'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 05</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ten Sephiroth of Nothingness"
+                        },
+                        {
+                            "insc_term": "their measure is ten, which have no end"
+                        },
+                        {
+                            "insc_term": "a depth of beginning"
+                        },
+                        {
+                            "insc_term": "a depth of end"
+                        },
+                        {
+                            "insc_term": "a depth of good"
+                        },
+                        {
+                            "insc_term": "a depth of evil"
+                        },
+                        {
+                            "insc_term": "a depth of above"
+                        },
+                        {
+                            "insc_term": "a depth of below"
+                        },
+                        {
+                            "insc_term": "a depth of east"
+                        },
+                        {
+                            "insc_term": "a depth of west"
+                        },
+                        {
+                            "insc_term": "a depth of north"
+                        },
+                        {
+                            "insc_term": "a depth of south"
+                        },
+                        {
+                            "insc_term": "The singular Master"
+                        },
+                        {
+                            "insc_term": "God faithful King"
+                        },
+                        {
+                            "insc_term": "dominates them all"
+                        },
+                        {
+                            "insc_term": "from His holy habitation"
+                        },
+                        {
+                            "insc_term": "until eternity of eternities"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

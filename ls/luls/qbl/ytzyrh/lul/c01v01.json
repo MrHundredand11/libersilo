@@ -66,6 +66,69 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 01'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "With 32"
+                        },
+                        {
+                            "insc_term": "Paths"
+                        },
+                        {
+                            "insc_term": "Mystical"
+                        },
+                        {
+                            "insc_term": "Wisdom"
+                        },
+                        {
+                            "insc_term": "Engraved"
+                        },
+                        {
+                            "insc_term": "Engraved Yah"
+                        },
+                        {
+                            "insc_term": "Yah"
+                        },
+                        {
+                            "insc_term": "Yah, the Lord..."
+                        },
+                        {
+                            "insc_term": "The Lord of Hosts"
+                        },
+                        {
+                            "insc_term": "God of Israel"
+                        },
+                        {
+                            "insc_term": "The Living God"
+                        },
+                        {
+                            "insc_term": "King of the Universe"
+                        },
+                        {
+                            "insc_term": "El Shaddai"
+                        },
+                        {
+                            "insc_term": "Merciful and Gracious"
+                        },
+                        {
+                            "insc_term": "High and Exalted"
+                        },
+                        {
+                            "insc_term": "With three books"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

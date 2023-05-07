@@ -1,0 +1,59 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V07",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 07",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v07.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v07",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 07'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v07_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 07</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v07_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 07'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v07_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 07</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Their end is imbedded in their beginning"
+                        },
+                        {
+                            "insc_term": "Like a flame in a burning coal"
+                        },
+                        {
+                            "insc_term": "For the Master is singular"
+                        },
+                        {
+                            "insc_term": "He has no second"
+                        },
+                        {
+                            "insc_term": "Before one, what do you count"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

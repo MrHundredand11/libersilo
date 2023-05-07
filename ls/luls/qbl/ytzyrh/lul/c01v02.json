@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)</span>",
                     "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_txts_lst",
                     "scions": [
                         {

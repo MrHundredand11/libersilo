@@ -1,0 +1,56 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V08",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 08",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v08.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 08'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 08</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 08'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 08</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Bridle your mouth"
+                        },
+                        {
+                            "insc_term": "And your heart from thinking"
+                        },
+                        {
+                            "insc_term": "And if your heart runs"
+                        },
+                        {
+                            "insc_term": "A covenant was made"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

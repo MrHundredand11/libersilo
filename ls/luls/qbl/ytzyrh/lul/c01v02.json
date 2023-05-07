@@ -24,6 +24,39 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 02'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ten Sephiroth"
+                        },
+                        {
+                            "insc_term": "Of Nothingness"
+                        },
+                        {
+                            "insc_term": "22 Foundation Letters"
+                        },
+                        {
+                            "insc_term": "3 Mothers"
+                        },
+                        {
+                            "insc_term": "7 Doubles"
+                        },
+                        {
+                            "insc_term": "12 Elementals"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

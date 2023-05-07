@@ -31,7 +31,7 @@
                                 {
                                     "insc_typ1": "flow",
                                     "insc_typ2": "chut",
-                                    "insc_chut": "|"
+                                    "insc_chut": "||"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -41,6 +41,27 @@
                                     "insc_cntn": "Ten of the 32 Paths are <b>the Numbers 1 through 10</b>, symbolized in <b>the Ten Sephiroth</b>."
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 01'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
                         }
                     ]
                 }

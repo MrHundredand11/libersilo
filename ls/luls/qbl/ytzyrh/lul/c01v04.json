@@ -1,0 +1,71 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V04",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 04",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v04.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 04'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 04</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 04'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 04</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ten Sephiroth of Nothingness"
+                        },
+                        {
+                            "insc_term": "Ten and not Nine"
+                        },
+                        {
+                            "insc_term": "Ten and not Eleven"
+                        },
+                        {
+                            "insc_term": "Understand with Wisdom"
+                        },
+                        {
+                            "insc_term": "Be Wise with Understanding"
+                        },
+                        {
+                            "insc_term": "examine with them"
+                        },
+                        {
+                            "insc_term": "probe from them"
+                        },
+                        {
+                            "insc_term": "make [each] thing stand on its essence"
+                        },
+                        {
+                            "insc_term": "make the Creator sit on his base"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

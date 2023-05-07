@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V02",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 02",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v02.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 02'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

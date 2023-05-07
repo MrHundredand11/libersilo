@@ -1,0 +1,62 @@
+{
+    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V06",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 06",
+    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v06.json",
+    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 06'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 06</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 06'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 06</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "their vision"
+                        },
+                        {
+                            "insc_term": "like the appearance of lightning"
+                        },
+                        {
+                            "insc_term": "their limit has no end"
+                        },
+                        {
+                            "insc_term": "his word in them is \"running and returning\""
+                        },
+                        {
+                            "insc_term": "they rush to His saying like a whirlwind"
+                        },
+                        {
+                            "insc_term": "before His Throne they prostrate themselves"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

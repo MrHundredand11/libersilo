@@ -92,7 +92,15 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mormon Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_mrmn"
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_mrmn",
+                    "scions": [
+                        {
+                            "insc_term": "1 Nephi 11:14-23"
+                        },
+                        {
+                            "insc_term": "Alma 7:10"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

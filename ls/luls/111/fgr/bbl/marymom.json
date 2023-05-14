@@ -28,7 +28,16 @@
                             ]
                         },
                         {
-                            "insc_term": "Revelation 12:1-2, 5-6"
+                            "insc_term": "Revelation 12:1-2, 5-6",
+                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b66c12v1_2_5_6",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\tNow a great sign appeared in Heaven: a woman adorned with the sun, standing on the moon, and the twelve stars upon her head for her a crown. She was pregnant, and in labor, crying aloud in the pangs of childbirth...\n\n\tThe woman brought a male child into the world, the son who was to rule all the nations with an iron scepter, and the child was taken straight up to God and to his throne while the woman escaped into the desert, where God had made a place of safety ready, for her to be looked after..."
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Luke 1:26-28"

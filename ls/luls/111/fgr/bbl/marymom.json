@@ -16,7 +16,15 @@
                     "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl",
                     "scions": [
                         {
-                            "insc_term": "Isaiah 7:14"
+                            "insc_term": "Isaiah 7:14",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\tThe Lord himself, therefore,\n\twill give you a sign.\n\tA virgin shall conceive\n\tand bear a son,\n\tand she shall call his name\n\tImmanuel.\n\t\t\t]"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Revelation 12:1-2, 5-6"

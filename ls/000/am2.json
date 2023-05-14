@@ -972,67 +972,67 @@
                     "ls_type": "+>"
                 },
                 {
-                    "ls_id": "LS-LULS-101-FGR",
+                    "ls_id": "LS-LULS-111-FGR",
                     "ls_ttl": "Scriptural + Spiritual Figures + Persons",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/101/fgr/",
-                    "scion_id": "ls_luls_101_fgr",
+                    "ls_url": "/ls/luls/111/fgr/",
+                    "scion_id": "ls_luls_111_fgr",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-101-FGR-BBL",
+                            "ls_id": "LS-LULS-111-FGR-BBL",
                             "ls_ttl": "Bible Characters + Figures",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/101/fgr/bbl/",
-                            "scion_id": "ls_luls_101_fgr_bbl",
+                            "ls_url": "/ls/luls/111/fgr/bbl/",
+                            "scion_id": "ls_luls_111_fgr_bbl",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-ABRM",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-ABRM",
                                     "ls_ttl": "Abram + Abraham",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/abrm.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_abrm"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/abrm.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_abrm"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-AMLK",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-AMLK",
                                     "ls_ttl": "Amalek",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/amlk.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_amlk"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/amlk.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_amlk"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-ESTHR",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-ESTHR",
                                     "ls_ttl": "Esther",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/esthr.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_esthr"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/esthr.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_esthr"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-ISAIAH",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-ISAIAH",
                                     "ls_ttl": "Isaiah",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/isaiah.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_isaiah"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/isaiah.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_isaiah"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-MARYMGD",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-MARYMGD",
                                     "ls_ttl": "Mary Magdalene",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/marymgd.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_marymgd"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/marymgd.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_marymgd"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-MARYMOM",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-MARYMOM",
                                     "ls_ttl": "Mary the Mother of Jesus",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/marymom.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_marymom"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/marymom.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_marymom"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-101-FGR-BBL-MShH",
+                                    "ls_id": "LS-LULS-111-FGR-BBL-MShH",
                                     "ls_ttl": "Moses",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/101/fgr/bbl/mshh.json",
-                                    "scion_id": "ls_luls_101_fgr_bbl_mshh"
+                                    "ls_url": "/ls/luls/111/fgr/bbl/mshh.json",
+                                    "scion_id": "ls_luls_111_fgr_bbl_mshh"
                                 }
                             ]
                         }

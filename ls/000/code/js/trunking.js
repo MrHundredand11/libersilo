@@ -190,9 +190,9 @@ function gen_Insc(insc_i, scion) {
                             var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
                             var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${scion.scion_id}_${lfl}`);
                             var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${scion.scion_id}_${lfl}`);
-                            twg_ttl.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
-                            twg_bmp_top.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
-                            twg_bmp_btm.setAttribute('onclick', `showHideTwig('${scion.scion_id}_${lfl}');`);
+                            twg_ttl.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
+                            twg_bmp_top.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
+                            twg_bmp_btm.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
                             twg_bmp_top.innerHTML = "---<br>--- ---";
                             twg_bmp_btm.innerHTML = "---- ----<br>----";
                             twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;

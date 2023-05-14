@@ -90,7 +90,15 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gnostic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_gnss"
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_gnss",
+                    "scions": [
+                        {
+                            "insc_term": "Gospel of Philip"
+                        },
+                        {
+                            "insc_term": "Pistis Sophia"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
@@ -130,7 +138,12 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Thelemic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_thlma"
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_thlma",
+                    "scions": [
+                        {
+                            "insc_term": "Liber AL III:56"
+                        }
+                    ]
                 }
             ]
         },

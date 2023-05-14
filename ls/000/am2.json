@@ -968,8 +968,33 @@
             "scions": [
                 {
                     "ls_id": "LS-LULS-000",
-                    "ls_ttl": "Overview of 'Line Upon Line Scriptures + Spirituality",
+                    "ls_ttl": "Line Upon Line Scriptures + Spirituality",
                     "ls_type": "+>"
+                },
+                {
+                    "ls_id": "LS-LULS-101-FGR",
+                    "ls_ttl": "Scriptural + Spiritual Figures + Persons",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/luls/101/fgr/",
+                    "scion_id": "ls_luls_101_fgr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-101-FGR-BBL",
+                            "ls_ttl": "Bible Characters + Figures",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/101/fgr/bbl/",
+                            "scion_id": "ls_luls_101_fgr_bbl",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-101-FGR-BBL-MARYMOM",
+                                    "ls_ttl": "Mary the Mother of Jesus",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/101/fgr/bbl/marymom.json",
+                                    "scion_id": "ls_luls_101_fgr_bbl_marymom"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-LULS-APOC",

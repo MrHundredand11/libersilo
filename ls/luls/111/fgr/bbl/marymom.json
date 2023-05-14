@@ -12,25 +12,25 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "Biblical Scriptures about (Mother Mary)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
                     "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "Apocryphal Scriptures about (Mother Mary)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Apocryphal Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
                     "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_apoc"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "Gnostic Scriptures about (Mother Mary)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gnostic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
                     "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_gnss"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "Quaranic Scriptures about (Mother Mary)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qur'anic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
                     "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_qrnc"
                 }
             ]

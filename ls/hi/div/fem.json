@@ -1,0 +1,18 @@
+{
+    "ls_id": "LS-HI-DIV-FEM",
+    "ls_ttl": "The Divine Feminine",
+    "ls_url": "/ls/hi/div/fem.json",
+    "scion_id": "ls_hi_div_fem",
+    "scions": [
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles for 'The Divine Feminine'",
+            "scion_id": "ls_hi_div_fem_name"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Divine Feminine'",
+            "scion_id": "ls_hi_div_fem_luls"
+        }
+    ]
+}

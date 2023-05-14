@@ -1,0 +1,18 @@
+{
+    "ls_id": "LS-LULS-111-FGR-BBL-MARYMOM",
+    "ls_ttl": "Mary, the Mother of Jesus",
+    "ls_url": "/ls/luls/111/fgr/bbl/marymom.json",
+    "scion_id": "ls_luls_111_fgr_bbl_marymom",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Mary, the Mother of Jesus'",
+            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls"
+        },
+        {
+            "drct_id": "LGND",
+            "drct_ttl": "Legends of 'Mary, the Mother of Jesus'",
+            "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd"
+        }
+    ]
+}

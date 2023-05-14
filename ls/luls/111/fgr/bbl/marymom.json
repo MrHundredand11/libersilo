@@ -13,7 +13,24 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl"
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl",
+                    "scions": [
+                        {
+                            "insc_term": "Isaiah 7:14"
+                        },
+                        {
+                            "insc_term": "Revelation 12:1-2, 5-6"
+                        },
+                        {
+                            "insc_term": "Luke 1:26-28"
+                        },
+                        {
+                            "insc_term": "Matthew 1:18-24"
+                        },
+                        {
+                            "insc_term": "Luke 2:15-20"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
@@ -31,14 +48,44 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qur'anic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_qrnc"
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_qrnc",
+                    "scions": [
+                        {
+                            "insc_term": "Qur'an 13:42-43"
+                        },
+                        {
+                            "insc_term": "Qur'an 3:45-46"
+                        },
+                        {
+                            "insc_term": "Qur'an 19:20-21"
+                        }
+                    ]
                 }
             ]
         },
         {
             "drct_id": "LGND",
             "drct_ttl": "Legends of 'Mary, the Mother of Jesus'",
-            "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd"
+            "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Legends</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd_lst",
+                    "scions": [
+                        {
+                            "insc_term": "A Story about Mary's Parents"
+                        },
+                        {
+                            "insc_term": "Mary as a Temple Virgin"
+                        },
+                        {
+                            "insc_term": "Marriage is Arranged between Mary and Joseph"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -988,7 +988,7 @@
                                 {
                                     "ls_id": "LS-LULS-101-FGR-BBL-MARYMOM",
                                     "ls_ttl": "Mary the Mother of Jesus",
-                                    "ls_type": "=>",
+                                    "ls_type": "+>",
                                     "ls_url": "/ls/luls/101/fgr/bbl/marymom.json",
                                     "scion_id": "ls_luls_101_fgr_bbl_marymom"
                                 }

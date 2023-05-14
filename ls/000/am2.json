@@ -595,6 +595,20 @@
                             "scion_id": "ls_hi_div_ao"
                         },
                         {
+                            "ls_id": "LS-HI-DIV-CHRSTS",
+                            "ls_ttl": "The Christos",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/chrsts.json",
+                            "scion_id": "ls_hi_div_chrsts"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-FEM",
+                            "ls_ttl": "The Divine Feminine",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/fem.json",
+                            "scion_id": "ls_hi_div_fem"
+                        },
+                        {
                             "ls_id": "LS-HI-DIV-GM",
                             "ls_ttl": "The Green Man",
                             "ls_type": "+>",
@@ -602,11 +616,25 @@
                             "scion_id": "ls_hi_div_gm"
                         },
                         {
+                            "ls_id": "LS-HI-DIV-GOD",
+                            "ls_ttl": "God",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/god.json",
+                            "scion_id": "ls_hi_div_god"
+                        },
+                        {
                             "ls_id": "LS-HI-DIV-HGA",
                             "ls_ttl": "The Holy Guardian Angel",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/div/hga.json",
                             "scion_id": "ls_hi_div_hga"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-LOGOS",
+                            "ls_ttl": "The Divine Word",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/logos.json",
+                            "scion_id": "ls_hi_div_logos"
                         },
                         {
                             "ls_id": "LS-HI-DIV-MITRAS",
@@ -618,17 +646,23 @@
                         {
                             "ls_id": "LS-HI-DIV-OT",
                             "ls_ttl": "The One Thing",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/ot.json",
+                            "scion_id": "ls_hi_div_ot"
                         },
                         {
                             "ls_id": "LS-HI-DIV-PAN",
                             "ls_ttl": "The Great Green God Pan",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/pan.json",
+                            "scion_id": "ls_hi_div_pan"
                         },
                         {
                             "ls_id": "LS-HI-DIV-QDShR",
                             "ls_ttl": "The Holy Spirit",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/qdshr.json",
+                            "scion_id": "ls_hi_div_qdshr"
                         }
                     ]
                 },

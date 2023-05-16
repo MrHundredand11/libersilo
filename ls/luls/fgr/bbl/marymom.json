@@ -1,0 +1,193 @@
+{
+    "ls_id": "LS-LULS-111-FGR-BBL-MARYMOM",
+    "ls_ttl": "Mary, the Mother of Jesus",
+    "ls_url": "/ls/luls/111/fgr/bbl/marymom.json",
+    "scion_id": "ls_luls_111_fgr_bbl_marymom",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Mary, the Mother of Jesus'",
+            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl",
+                    "scions": [
+                        {
+                            "insc_term": "Isaiah 7:14",
+                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b23c07v14",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\tThe Lord himself, therefore,\n\twill give you a sign.\n\tA virgin shall conceive\n\tand bear a son,\n\tand she shall call his name\n\tImmanuel.\t\t\t\t]"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Revelation 12:1-2, 5-6",
+                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b66c12v1_2_5_6",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\tNow a great sign appeared in Heaven: a woman adorned with the sun,\n\tstanding on the moon, and the twelve stars upon her head for her a crown.\n\tShe was pregnant, and in labor, crying aloud in the pangs of childbirth...\n\n\tThe woman brought a male child into the world, the son who was to rule\n\tall the nations with an iron scepter, and the child was taken straight up\n\tto God and to his throne while the woman escaped into the desert,\n\twhere God had made a place of safety ready, for her to be looked after...\t]"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Luke 1:26-28",
+                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b42c01v26_28",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\tIn the sixth month the angel Gabriel was sent by God to a\n\ttown in Galilee called Nazareth, to a virgin betrothed to a man\n\tnamed Joseph, of the house of David; and the virgin's name\n\twas Mary. He went in and said to her, \"Rejoice, so highly\n\tfavored! The Lord is with you.\" She was deeply disturbed by\n\tthese words, and asked herself what this greeting could mean,\n\tbut the angel said to her, \"Mary, do not be afraid, you have\n\twon God's favor. Listen! You are to conceive and bear a son,\n\tand you must name him Jesus. He will be great and will be\n\tcalled Son of the Most High. The Lord God will give him the\n\tthrone of his ancestor David: he will rule over the house of\n\tJacob forever, and his reign will have no end.\" Mary said to\n\tthe angel, \"But how can this come about, since I am a virgin?\"\n\t\"The Holy Spirit will come upon you,\" the angel answered,\n\t\"and the power of the Most High will cover you with its\n\tshadow. And so the child will be holy and will be called Son of\n\tGod. Know this too: your kinswoman Elizabeth has, in her old\n\tage, herself conceived a son, and she whom people called\n\tbarren is now in her sixth month, for nothing is impossible to\n\tGod.\" \"I am the handmaid of the Lord,\" said Mary, \"let what\n\tyou have said be done to me.\" And the angel left her.\t\t]"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Matthew 1:18-24"
+                        },
+                        {
+                            "insc_term": "Luke 2:15-20"
+                        },
+                        {
+                            "insc_term": "Luke 2:33-35"
+                        },
+                        {
+                            "insc_term": "Luke 1:46-55"
+                        },
+                        {
+                            "insc_term": "Luke 2:41-52"
+                        },
+                        {
+                            "insc_term": "John 2:1-12"
+                        },
+                        {
+                            "insc_term": "Mark 3:32-35"
+                        },
+                        {
+                            "insc_term": "John 19:25-27"
+                        },
+                        {
+                            "insc_term": "Acts 1:12-14"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Apocryphal Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_apoc"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gnostic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_gnss",
+                    "scions": [
+                        {
+                            "insc_term": "Gospel of Philip"
+                        },
+                        {
+                            "insc_term": "Pistis Sophia"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qur'anic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_qrnc",
+                    "scions": [
+                        {
+                            "insc_term": "Qur'an 13:42-43"
+                        },
+                        {
+                            "insc_term": "Qur'an 3:45-46"
+                        },
+                        {
+                            "insc_term": "Qur'an 19:20-21"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mormon Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_mrmn",
+                    "scions": [
+                        {
+                            "insc_term": "1 Nephi 11:13-23"
+                        },
+                        {
+                            "insc_term": "Alma 7:10"
+                        },
+                        {
+                            "insc_term": "Mosiah 3:8"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Thelemic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_thlma",
+                    "scions": [
+                        {
+                            "insc_term": "Liber AL III:56"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LGND",
+            "drct_ttl": "Legends of 'Mary, the Mother of Jesus'",
+            "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Legends</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
+                    "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd_lst",
+                    "scions": [
+                        {
+                            "insc_term": "A Story about Mary's Parents"
+                        },
+                        {
+                            "insc_term": "Mary as a Temple Virgin"
+                        },
+                        {
+                            "insc_term": "Marriage is Arranged between Mary and Joseph"
+                        },
+                        {
+                            "insc_term": "Islamic Commemmoration of Mary"
+                        },
+                        {
+                            "insc_term": "Fasting like Jesus and Mary"
+                        },
+                        {
+                            "insc_term": "What Was Mary Like?"
+                        },
+                        {
+                            "insc_term": "How Did Mary's Life End?"
+                        },
+                        {
+                            "insc_term": "The Greatest are Mary Magdalene, John, and Mary"
+                        },
+                        {
+                            "insc_term": "Jesus Welcomes Mary into Paradise"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

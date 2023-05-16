@@ -1,0 +1,26 @@
+{
+    "ls_id": "LS-LULS-111-LCT-PLLR-TZDK",
+    "ls_ttl": "The Tzadik Pillar",
+    "ls_url": "/ls/luls/111/lct/pllr/tzdk.json",
+    "scion_id": "ls_luls_111_lct_pllr_tzdk",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Tzadik Pillar'",
+            "scion_id": "ls_luls_111_lct_pllr_tzdk_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class=''><b><u>Qabalistic Scriptures</b></u> <i>about</i> (<b><i>The Tzadik Pillar</b></i>)",
+                    "scion_id": "ls_luls_111_lct_pllr_tzdk_luls_qbl",
+                    "scions": [
+                        {
+                            "insc_term": "Bahir 102"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

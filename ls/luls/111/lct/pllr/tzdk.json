@@ -1,29 +1,29 @@
 {
-    "ls_id": "LS-LULS-111-LCT-PLLR-TZDK",
+    "ls_id": "LS-LULS-LCT-PLLR-TZDK",
     "ls_ttl": "The Tzadik Pillar",
-    "ls_url": "/ls/luls/111/lct/pllr/tzdk.json",
-    "scion_id": "ls_luls_111_lct_pllr_tzdk",
+    "ls_url": "/ls/luls/lct/pllr/tzdk.json",
+    "scion_id": "ls_luls_lct_pllr_tzdk",
     "scions": [
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'The Tzadik Pillar'",
-            "scion_id": "ls_luls_111_lct_pllr_tzdk_luls",
+            "scion_id": "ls_luls_lct_pllr_tzdk_luls",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class=''><b><u>Qabalistic Scriptures</b></u> <i>about</i> (<b><i>The Tzadik Pillar</b></i>)",
-                    "scion_id": "ls_luls_111_lct_pllr_tzdk_luls_qbl",
+                    "scion_id": "ls_luls_lct_pllr_tzdk_luls_qbl",
                     "scions": [
                         {
                             "insc_term": "Sepher Bahir 102",
-                            "scion_id": "ls_luls_111_lct_pllr_tzdk_luls_qbl_bhyr_102",
+                            "scion_id": "ls_luls_lct_pllr_tzdk_luls_qbl_bhyr_102",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
-                                    "insc_cntn": "[\t<span class=''>\"We learned: There is a single pollar extending from heaven to\nearth, and its name is Righteous (Tzadik).\n\n\t[This Pillar] is named after the righteous. When there are\nrighteous people in the world, then it becomes strong, and\nwhen there are not, it becomes weak.\n\n\tIt supports the entire world, as it is written, \"And\nRighteousness is the foundation of the world.\"If it becomes\nweak, then the world cannot endure.\n\n\tTherefore, even if there is only one righteous person in the\nworld, it is he who supports the world. It is therefore written,\n\"And a righteous one is the foundation of the world.\"\n\nYou should therefore take My lifted offering from him first.\n\t\t\t\t\t\t]"
+                                    "insc_cntn": "[\t<span class=''>\"We learned: There is a single pollar extending from heaven to\n\tearth, and its name is Righteous (Tzadik).\n\n\t[This Pillar] is named after the righteous. When there are\n\trighteous people in the world, then it becomes strong, and\n\twhen there are not, it becomes weak.\n\n\tIt supports the entire world, as it is written, \"And\n\tRighteousness is the foundation of the world.\"If it becomes\n\tweak, then the world cannot endure.\n\n\tTherefore, even if there is only one righteous person in the\n\tworld, it is he who supports the world. It is therefore written,\n\t\"And a righteous one is the foundation of the world.\"\n\n\tYou should therefore take My lifted offering from him first.</span>\t]"
                                 }
                             ]
                         }

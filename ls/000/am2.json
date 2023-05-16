@@ -3115,10 +3115,68 @@
                 },
                 {
                     "ls_id": "LS-QBL-ALChY",
-                    "ls_ttl": "Alchemy + Alchemical Operations",
+                    "ls_ttl": "Alchemical Operations",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_qbl_alchy"
+                    "ls_url": "/ls/qbl/alchy/",
+                    "scion_id": "ls_qbl_alchy",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-ALChY-000",
+                            "ls_ttl": "Alchemical Operations",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/alchy/000.json",
+                            "scion_id": "ls_qbl_alchy_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-CNCP",
+                            "ls_ttl": "Alchemical Concepts",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/cncp/",
+                            "scion_id": "ls_qbl_alchy_cncp"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-HIST",
+                            "ls_ttl": "Alchemical Histories",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/hist/",
+                            "scion_id": "ls_qbl_alchy_hist"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-INTRNL",
+                            "ls_ttl": "Internal Alchemies",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/intrnl/",
+                            "scion_id": "ls_qbl_alchy_intrnl"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-METAL",
+                            "ls_ttl": "Alchemical Metals",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/metal/",
+                            "scion_id": "ls_qbl_alchy_metal"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-PRCSS",
+                            "ls_ttl": "Alchemical Processes",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/prcss/",
+                            "scion_id": "ls_qbl_alchy_prcss"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-SYMB",
+                            "ls_ttl": "Alchemical Symbols",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/symb/",
+                            "scion_id": "ls_qbl_alchy_symb"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALChY-XRC",
+                            "ls_ttl": "Alchemical Exercises",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alchy/xrc/",
+                            "scion_id": "ls_qbl_alchy_xrc"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-QBL-ALG",

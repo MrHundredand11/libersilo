@@ -3186,6 +3186,34 @@
                     "scion_id": "ls_qbl_alg",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-ALG-AEON",
+                            "ls_ttl": "Astrological Aeons + Ages",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alg/aeon/",
+                            "scion_id": "ls_qbl_alg_aeon"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-ANG",
+                            "ls_ttl": "Astrological Angles",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alg/ang/",
+                            "scion_id": "ls_qbl_alg_ang"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-CHRT",
+                            "ls_ttl": "Astrological Charts",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alg/chrt/",
+                            "scion_id": "ls_qbl_alg_chrt"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-NODE",
+                            "ls_ttl": "Astrological Nodes",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alg/node/",
+                            "scion_id": "ls_qbl_alg_node"
+                        },
+                        {
                             "ls_id": "LS-QBL-ALG-SGNS",
                             "ls_ttl": "The Zodiacal Influences",
                             "ls_type": "=>",

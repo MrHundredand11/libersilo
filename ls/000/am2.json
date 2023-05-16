@@ -2208,6 +2208,213 @@
             ]
         },
         {
+            "ls_id": "LS-QBL-MMM",
+            "ls_ttl": "MeshMath Model",
+            "ls_url": "",
+            "ls_type": "->",
+            "scion_id": "ls_qbl_mmm",
+            "scion_snip": "MMM",
+            "scions": [
+                {
+                    "ls_id": "LS-QBL-MMM-ND",
+                    "ls_ttl": "Number Dictionary",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_qbl_mmm_nd",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-MMM-ND-000",
+                            "ls_ttl": "Overview of 'The Number Dictionary'",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/mmm/nd/000.json",
+                            "scion_id": "ls_qbl_mmm_nd_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-MMM-ND-0000s",
+                            "ls_ttl": "The Numbers 0 through 9",
+                            "ls_type": "+>",
+                            "ls_url": "ls/qbl/mmm/nd/0000s.json",
+                            "scion_id": "ls_qbl_mmm_nd_0000s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0010s",
+                            "ls_ttl": "The Numbers 10 through 19",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0010s.json",
+                            "scion_id": "ls_mmm_nd_0010s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0020s",
+                            "ls_ttl": "The Numbers 20 through 29",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0020s.json",
+                            "scion_id": "ls_mmm_nd_0020s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0030s",
+                            "ls_ttl": "The Numbers 30 through 39",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0030s.json",
+                            "scion_id": "ls_mmm_nd_0030s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0040s",
+                            "ls_ttl": "The Numbers 40 through 49",
+                            "ls_type": "=>",
+                            "ls_url": "ls/mmm/nd/",
+                            "scion_id": "ls_mmm_nd_0040s",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-ND-0040",
+                                    "ls_ttl": "The Number 40",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/nd/0040.json",
+                                    "scion_id": "ls_mmm_nd_0040"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0050s",
+                            "ls_ttl": "The Numbers 50 through 59",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0050s.json",
+                            "scion_id": "ls_mmm_nd_0050s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0060s",
+                            "ls_ttl": "The Numbers 60 through 69",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0060s.json",
+                            "scion_id": "ls_mmm_nd_0060s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0070s",
+                            "ls_ttl": "The Numbers 70 through 79",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0070s.json",
+                            "scion_id": "ls_mmm_nd_0070s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0080s",
+                            "ls_ttl": "The Numbers 80 through 89",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0080s.json",
+                            "scion_id": "ls_mmm_nd_0080s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0090s",
+                            "ls_ttl": "The Numbers 90 through 99",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0090s.json",
+                            "scion_id": "ls_mmm_nd_0090s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0100s",
+                            "ls_ttl": "The Numbers 100 through 199",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0100s.json",
+                            "scion_id": "ls_mmm_nd_0100s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0200s",
+                            "ls_ttl": "The Numbers 200 through 299",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0200s.json",
+                            "scion_id": "ls_mmm_nd_0200s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0300s",
+                            "ls_ttl": "The Numbers 300 through 399",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0300s.json",
+                            "scion_id": "ls_mmm_nd_0300s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0400s",
+                            "ls_ttl": "The Numbers 400 through 499",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0400s.json",
+                            "scion_id": "ls_mmm_nd_0400s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0500s",
+                            "ls_ttl": "The Numbers 500 through 599",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0500s.json",
+                            "scion_id": "ls_mmm_nd_0500s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0600s",
+                            "ls_ttl": "The Numbers 600 through 699",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0600s.json",
+                            "scion_id": "ls_mmm_nd_0600s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0700s",
+                            "ls_ttl": "The Numbers 700 through 799",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0700s.json",
+                            "scion_id": "ls_mmm_nd_0700s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0800s",
+                            "ls_ttl": "The Numbers 800 through 899",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0800s.json",
+                            "scion_id": "ls_mmm_nd_0800s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-0900s",
+                            "ls_ttl": "The Numbers 900 through 999",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/0900s.json",
+                            "scion_id": "ls_mmm_nd_0900s"
+                        },
+                        {
+                            "ls_id": "LS-MMM-ND-1000s",
+                            "ls_ttl": "The Numbers 1000 and Above",
+                            "ls_type": "+>",
+                            "ls_url": "ls/mmm/nd/1000s.json",
+                            "scion_id": "ls_mmm_nd_1000s"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-PTTRN",
+                    "ls_ttl": "MatheMagickal Patterns",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_pttrn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-PTTRN-3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_3712"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-NMBR",
+                    "ls_ttl": "Number Theory",
+                    "ls_type": "=>",
+                    "ls_url": "",
+                    "scion_id": "ls_mmm_nmbr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-NMBR-PRIME",
+                            "ls_ttl": "Prime Numbers",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_nmbr_prime",
+                            "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "ls_id": "LS-NN",
             "ls_ttl": "Nurturing Nature",
             "ls_type": "->",
@@ -3162,212 +3369,6 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/qbl/lmnt/w/e04.json",
                             "scion_id": "ls_qbl_lmnt_w_e04"
-                        }
-                    ]
-                },
-                {
-                    "ls_id": "LS-QBL-MMM",
-                    "ls_ttl": "MeshMath Model",
-                    "ls_url": "",
-                    "ls_type": "=>",
-                    "scion_id": "ls_qbl_mmm",
-                    "scions": [
-                        {
-                            "ls_id": "LS-QBL-MMM-ND",
-                            "ls_ttl": "Number Dictionary",
-                            "ls_url": "",
-                            "ls_type": "=>",
-                            "scion_id": "ls_qbl_mmm_nd",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-QBL-MMM-ND-000",
-                                    "ls_ttl": "Overview of 'The Number Dictionary'",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/mmm/nd/000.json",
-                                    "scion_id": "ls_qbl_mmm_nd_000"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-MMM-ND-0000s",
-                                    "ls_ttl": "The Numbers 0 through 9",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/qbl/mmm/nd/0000s.json",
-                                    "scion_id": "ls_qbl_mmm_nd_0000s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0010s",
-                                    "ls_ttl": "The Numbers 10 through 19",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0010s.json",
-                                    "scion_id": "ls_mmm_nd_0010s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0020s",
-                                    "ls_ttl": "The Numbers 20 through 29",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0020s.json",
-                                    "scion_id": "ls_mmm_nd_0020s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0030s",
-                                    "ls_ttl": "The Numbers 30 through 39",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0030s.json",
-                                    "scion_id": "ls_mmm_nd_0030s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0040s",
-                                    "ls_ttl": "The Numbers 40 through 49",
-                                    "ls_type": "=>",
-                                    "ls_url": "ls/mmm/nd/",
-                                    "scion_id": "ls_mmm_nd_0040s",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-MMM-ND-0040",
-                                            "ls_ttl": "The Number 40",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/mmm/nd/0040.json",
-                                            "scion_id": "ls_mmm_nd_0040"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0050s",
-                                    "ls_ttl": "The Numbers 50 through 59",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0050s.json",
-                                    "scion_id": "ls_mmm_nd_0050s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0060s",
-                                    "ls_ttl": "The Numbers 60 through 69",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0060s.json",
-                                    "scion_id": "ls_mmm_nd_0060s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0070s",
-                                    "ls_ttl": "The Numbers 70 through 79",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0070s.json",
-                                    "scion_id": "ls_mmm_nd_0070s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0080s",
-                                    "ls_ttl": "The Numbers 80 through 89",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0080s.json",
-                                    "scion_id": "ls_mmm_nd_0080s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0090s",
-                                    "ls_ttl": "The Numbers 90 through 99",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0090s.json",
-                                    "scion_id": "ls_mmm_nd_0090s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0100s",
-                                    "ls_ttl": "The Numbers 100 through 199",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0100s.json",
-                                    "scion_id": "ls_mmm_nd_0100s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0200s",
-                                    "ls_ttl": "The Numbers 200 through 299",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0200s.json",
-                                    "scion_id": "ls_mmm_nd_0200s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0300s",
-                                    "ls_ttl": "The Numbers 300 through 399",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0300s.json",
-                                    "scion_id": "ls_mmm_nd_0300s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0400s",
-                                    "ls_ttl": "The Numbers 400 through 499",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0400s.json",
-                                    "scion_id": "ls_mmm_nd_0400s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0500s",
-                                    "ls_ttl": "The Numbers 500 through 599",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0500s.json",
-                                    "scion_id": "ls_mmm_nd_0500s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0600s",
-                                    "ls_ttl": "The Numbers 600 through 699",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0600s.json",
-                                    "scion_id": "ls_mmm_nd_0600s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0700s",
-                                    "ls_ttl": "The Numbers 700 through 799",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0700s.json",
-                                    "scion_id": "ls_mmm_nd_0700s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0800s",
-                                    "ls_ttl": "The Numbers 800 through 899",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0800s.json",
-                                    "scion_id": "ls_mmm_nd_0800s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-0900s",
-                                    "ls_ttl": "The Numbers 900 through 999",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/0900s.json",
-                                    "scion_id": "ls_mmm_nd_0900s"
-                                },
-                                {
-                                    "ls_id": "LS-MMM-ND-1000s",
-                                    "ls_ttl": "The Numbers 1000 and Above",
-                                    "ls_type": "+>",
-                                    "ls_url": "ls/mmm/nd/1000s.json",
-                                    "scion_id": "ls_mmm_nd_1000s"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-MMM-PTTRN",
-                            "ls_ttl": "MatheMagickal Patterns",
-                            "ls_url": "",
-                            "ls_type": "=>",
-                            "scion_id": "ls_mmm_pttrn",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-MMM-PTTRN-3712",
-                                    "ls_ttl": "The 3-7-12 Pattern",
-                                    "ls_url": "",
-                                    "ls_type": "+>",
-                                    "scion_id": "ls_mmm_pttrn_3712"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-MMM-NMBR",
-                            "ls_ttl": "Number Theory",
-                            "ls_type": "=>",
-                            "ls_url": "",
-                            "scion_id": "ls_mmm_nmbr",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-MMM-NMBR-PRIME",
-                                    "ls_ttl": "Prime Numbers",
-                                    "ls_type": "+>",
-                                    "scion_id": "ls_mmm_nmbr_prime",
-                                    "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
-                                }
-                            ]
                         }
                     ]
                 },

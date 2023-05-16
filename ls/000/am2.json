@@ -2216,11 +2216,39 @@
             "scion_snip": "MMM",
             "scions": [
                 {
-                    "ls_id": "LS-QBL-MMM-ND",
-                    "ls_ttl": "Number Dictionary",
-                    "ls_url": "",
+                    "ls_id": "LS-MMM-COLOR",
+                    "ls_ttl": "Color Theory",
+                    "ls_url": "/ls/mmm/color",
                     "ls_type": "=>",
-                    "scion_id": "ls_qbl_mmm_nd",
+                    "scion_id": "ls_mmm_color"
+                },
+                {
+                    "ls_id": "LS-MMM-CPHR",
+                    "ls_ttl": "Ciphers",
+                    "ls_url": "/ls/mmm/cphr",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_cphr"
+                },
+                {
+                    "ls_id": "LS-MMM-GMTRI",
+                    "ls_ttl": "Gematria",
+                    "ls_url": "/ls/mmm/gmtri",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_gmtri"
+                },
+                {
+                    "ls_id": "LS-MMM-GOMTR",
+                    "ls_ttl": "Geometry",
+                    "ls_url": "/ls/mmm/gomtr",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_gomtr"
+                },
+                {
+                    "ls_id": "LS-MMM-ND",
+                    "ls_ttl": "Number Dictionary",
+                    "ls_url": "/ls/mmm/nd/",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_nd",
                     "scions": [
                         {
                             "ls_id": "LS-MMM-ND-000",
@@ -2453,22 +2481,6 @@
                     ]
                 },
                 {
-                    "ls_id": "LS-MMM-PTTRN",
-                    "ls_ttl": "MatheMagickal Patterns",
-                    "ls_url": "",
-                    "ls_type": "=>",
-                    "scion_id": "ls_mmm_pttrn",
-                    "scions": [
-                        {
-                            "ls_id": "LS-MMM-PTTRN-3712",
-                            "ls_ttl": "The 3-7-12 Pattern",
-                            "ls_url": "",
-                            "ls_type": "+>",
-                            "scion_id": "ls_mmm_pttrn_3712"
-                        }
-                    ]
-                },
-                {
                     "ls_id": "LS-MMM-NMBR",
                     "ls_ttl": "Number Theory",
                     "ls_type": "=>",
@@ -2479,8 +2491,25 @@
                             "ls_id": "LS-MMM-NMBR-PRIME",
                             "ls_ttl": "Prime Numbers",
                             "ls_type": "+>",
-                            "scion_id": "ls_mmm_nmbr_prime",
-                            "ls_url": "https://api.jsonbin.io/v3/b/63a97ac115ab31599e253d19"
+                            "ls_url": "/ls/mmm/nmbr/prime.json",
+                            "scion_id": "ls_mmm_nmbr_prime"
+                            
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-MMM-PTTRN",
+                    "ls_ttl": "Patterns",
+                    "ls_url": "",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_pttrn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-PTTRN-3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_3712"
                         }
                     ]
                 }

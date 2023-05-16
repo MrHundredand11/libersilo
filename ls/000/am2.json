@@ -3649,14 +3649,6 @@
             "scion_snip": "TK"
         },
         {
-            "ls_id": "LS-TOOL",
-            "ls_ttl": "Tools",
-            "ls_type": "->",
-            "ls_url": "/ls/tool/",
-            "scion_id": "ls_tool",
-            "scion_snip": "TOOL"
-        },
-        {
             "ls_id": "LS-WUB",
             "ls_ttl": "Sound",
             "ls_type": "->",

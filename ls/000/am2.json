@@ -37,7 +37,7 @@
             "ls_id": "LS-DGTL",
             "ls_ttl": "Digital Realms",
             "ls_type": "->",
-            "ls_url": "",
+            "ls_url": "/ls/dgtl/",
             "scion_id": "ls_dgtl",
             "scion_snip": "DGTL",
             "scions": [
@@ -45,7 +45,7 @@
                     "ls_id": "LS-DGTL-AI",
                     "ls_ttl": "Automation Intelligence",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/ai/",
                     "scion_id": "ls_dgtl_ai",
                     "scions": [
                         {
@@ -96,14 +96,14 @@
                 },
                 {
                     "ls_id": "LS-DGTL-CODE",
-                    "ls_ttl": "Coding + Scripting + Programming",
+                    "ls_ttl": "Coding + Programming",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_code",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CODE-000",
-                            "ls_ttl": "Overview of Coding + Scripting + Programming",
+                            "ls_ttl": "Overview of Coding + Programming",
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/code/000.json"
                         },
@@ -287,6 +287,13 @@
                     "scion_id": "ls_dgtl_dt"
                 },
                 {
+                    "ls_id": "LS-DGTL-GRC",
+                    "ls_ttl": "Governance + Risk + Compliance",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/grc",
+                    "scion_id": "ls_dgtl_grc"
+                },
+                {
                     "ls_id": "LS-DGTL-HW",
                     "ls_ttl": "Systems Hardware",
                     "ls_type": "=>",
@@ -369,21 +376,35 @@
                 },
                 {
                     "ls_id": "LS-DGTL-OS",
-                    "ls_ttl": "Operating Systems + OS Architecture",
+                    "ls_ttl": "Operating Systems",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/os/",
                     "scion_id": "ls_dgtl_os"
                 },
                 {
-                    "ls_id": "LS-DGTL-PRNT",
-                    "ls_ttl": "Printers + Printing",
+                    "ls_id": "LS-DGTL-PCL",
+                    "ls_ttl": "Protocols",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/pcl",
+                    "scion_id": "ls_dgtl_pcl"
+                },
+                {
+                    "ls_id": "LS-DGTL-PRNT",
+                    "ls_ttl": "Printing",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/prnt/",
                     "scion_id": "ls_dgtl_prnt"
                 },
                 {
+                    "ls_id": "LS-DGTL-QNTM",
+                    "ls_ttl": "Quantum Computing",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/qntm/",
+                    "scion_id": "ls_dgtl_qntm"
+                },
+                {
                     "ls_id": "LS-DGTL-SHLL",
-                    "ls_ttl": "Command Line Shells",
+                    "ls_ttl": "Command Line Interfaces",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_shll",

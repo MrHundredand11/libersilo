@@ -1073,6 +1073,31 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-LULS-111-LCT",
+                    "ls_ttl": "Scriptural + Spiritual Locations",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/luls/111/lct/",
+                    "scion_id": "ls_luls_111_lct",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-111-LCT-PLLR",
+                            "ls_ttl": "Pillar Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/111/lct/pllr/",
+                            "scion_id": "ls_luls_111_lct_pllr",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-111-LCT-PLLR-TZDK",
+                                    "ls_ttl": "The Tzadik Pillar",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/111/lct/pllr/tzdk.json",
+                                    "scion_id": "ls_luls_111_lct_pllr_tzdk"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-LULS-APOC",
                     "ls_ttl": "The Apocryphal Scriptures",
                     "ls_type": "=>",

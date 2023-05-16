@@ -1080,6 +1080,34 @@
                     "scion_id": "ls_luls_lct",
                     "scions": [
                         {
+                            "ls_id": "LS-LULS-LCT-BBL",
+                            "ls_ttl": "Biblical Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/lct/bbl",
+                            "scion_id": "ls_luls_lct_bbl"
+                        },
+                        {
+                            "ls_id": "LS-LULS-LCT-KHM",
+                            "ls_ttl": "Egyptian Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/lct/khm",
+                            "scion_id": "ls_luls_lct_khm"
+                        },
+                        {
+                            "ls_id": "LS-LULS-LCT-HLWE",
+                            "ls_ttl": "Hollow Earth Lands + Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/lct/hlwe",
+                            "scion_id": "ls_luls_lct_hlwe"
+                        },
+                        {
+                            "ls_id": "LS-LULS-LCT-MT",
+                            "ls_ttl": "Mountain Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/lct/mt",
+                            "scion_id": "ls_luls_lct_mt"
+                        },
+                        {
                             "ls_id": "LS-LULS-LCT-PLLR",
                             "ls_ttl": "Pillar Locations",
                             "ls_type": "=>",

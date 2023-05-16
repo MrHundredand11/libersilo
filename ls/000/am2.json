@@ -2223,18 +2223,90 @@
                     "scion_id": "ls_qbl_mmm_nd",
                     "scions": [
                         {
-                            "ls_id": "LS-QBL-MMM-ND-000",
+                            "ls_id": "LS-MMM-ND-000",
                             "ls_ttl": "Overview of 'The Number Dictionary'",
                             "ls_type": "+>",
-                            "ls_url": "/ls/qbl/mmm/nd/000.json",
-                            "scion_id": "ls_qbl_mmm_nd_000"
+                            "ls_url": "/ls/mmm/nd/000.json",
+                            "scion_id": "ls__mmm_nd_000"
                         },
                         {
-                            "ls_id": "LS-QBL-MMM-ND-0000s",
+                            "ls_id": "LS-MMM-ND-0000s",
                             "ls_ttl": "The Numbers 0 through 9",
-                            "ls_type": "+>",
-                            "ls_url": "ls/qbl/mmm/nd/0000s.json",
-                            "scion_id": "ls_qbl_mmm_nd_0000s"
+                            "ls_type": "=>",
+                            "ls_url": "ls/mmm/nd/0000s/",
+                            "scion_id": "ls_mmm_nd_0000s",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0000",
+                                    "ls_ttl": "The Number 0",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0000.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0001",
+                                    "ls_ttl": "The Number 1",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0001.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0001"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0002",
+                                    "ls_ttl": "The Number 2",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0002.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0002"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0003",
+                                    "ls_ttl": "The Number 3",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0003.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0003"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0004",
+                                    "ls_ttl": "The Number 4",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0004.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0004"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0005",
+                                    "ls_ttl": "The Number 5",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0005.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0005"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0006",
+                                    "ls_ttl": "The Number 6",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0006.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0006"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0007",
+                                    "ls_ttl": "The Number 7",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0007.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0007"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0008",
+                                    "ls_ttl": "The Number 8",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0008.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0008"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-ND-0000s-0009",
+                                    "ls_ttl": "The Number 9",
+                                    "ls_type": "+>",
+                                    "ls_url": "ls/mmm/nd/0000s/0009.json",
+                                    "scion_id": "ls_mmm_nd_0000s_0009"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-MMM-ND-0010s",

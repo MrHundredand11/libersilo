@@ -986,14 +986,6 @@
             ]
         },
         {
-            "ls_id": "LS-LCT",
-            "ls_ttl": "Lands + Locations",
-            "ls_type": "->",
-            "ls_url": "/ls/lct/",
-            "scion_id": "ls_lct",
-            "scion_snip": "LCT"
-        },
-        {
             "ls_id": "LS-LULS",
             "ls_ttl": "Line Upon Line Scriptures + Spirituality",
             "ls_type": "->",
@@ -2318,14 +2310,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "ls_id": "LS-PCS",
-            "ls_ttl": "Principles + Concepts + Symbols",
-            "ls_type": "->",
-            "ls_url": "",
-            "scion_id": "ls_pcs",
-            "scion_snip": "PCS"
         },
         {
             "ls_id": "LS-QBL",

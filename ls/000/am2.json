@@ -1021,7 +1021,7 @@
                 },
                 {
                     "ls_id": "LS-LULS-FGR",
-                    "ls_ttl": "Scriptural + Spiritual Figures + Characters",
+                    "ls_ttl": "Scriptural + Spiritual Figures",
                     "ls_type": "=>",
                     "ls_url": "/ls/luls/fgr/",
                     "scion_id": "ls_luls_fgr",
@@ -1048,39 +1048,39 @@
                                     "scion_id": "ls_luls_fgr_bbl_amlk"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-111-FGR-BBL-ESTHR",
+                                    "ls_id": "LS-LULS-FGR-BBL-ESTHR",
                                     "ls_ttl": "Esther",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/111/fgr/bbl/esthr.json",
-                                    "scion_id": "ls_luls_111_fgr_bbl_esthr"
+                                    "ls_url": "/ls/luls/fgr/bbl/esthr.json",
+                                    "scion_id": "ls_luls_fgr_bbl_esthr"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-111-FGR-BBL-ISAIAH",
+                                    "ls_id": "LS-LULS-FGR-BBL-ISAIAH",
                                     "ls_ttl": "Isaiah",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/111/fgr/bbl/isaiah.json",
-                                    "scion_id": "ls_luls_111_fgr_bbl_isaiah"
+                                    "ls_url": "/ls/luls/fgr/bbl/isaiah.json",
+                                    "scion_id": "ls_luls_fgr_bbl_isaiah"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-111-FGR-BBL-MARYMGD",
+                                    "ls_id": "LS-LULS-FGR-BBL-MARYMGD",
                                     "ls_ttl": "Mary Magdalene",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/111/fgr/bbl/marymgd.json",
-                                    "scion_id": "ls_luls_111_fgr_bbl_marymgd"
+                                    "ls_url": "/ls/luls/fgr/bbl/marymgd.json",
+                                    "scion_id": "ls_luls_fgr_bbl_marymgd"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-111-FGR-BBL-MARYMOM",
+                                    "ls_id": "LS-LULS-FGR-BBL-MARYMOM",
                                     "ls_ttl": "Mary the Mother of Jesus",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/111/fgr/bbl/marymom.json",
-                                    "scion_id": "ls_luls_111_fgr_bbl_marymom"
+                                    "ls_url": "/ls/luls/fgr/bbl/marymom.json",
+                                    "scion_id": "ls_luls_fgr_bbl_marymom"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-111-FGR-BBL-MShH",
+                                    "ls_id": "LS-LULS-FGR-BBL-MShH",
                                     "ls_ttl": "Moses",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/111/fgr/bbl/mshh.json",
-                                    "scion_id": "ls_luls_111_fgr_bbl_mshh"
+                                    "ls_url": "/ls/luls/fgr/bbl/mshh.json",
+                                    "scion_id": "ls_luls_fgr_bbl_mshh"
                                 }
                             ]
                         }

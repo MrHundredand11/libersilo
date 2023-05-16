@@ -1095,7 +1095,7 @@
                         },
                         {
                             "ls_id": "LS-LULS-LCT-HLWE",
-                            "ls_ttl": "Hollow Earth Lands + Locations",
+                            "ls_ttl": "Hollow Earth Locations",
                             "ls_type": "=>",
                             "ls_url": "/ls/luls/lct/hlwe",
                             "scion_id": "ls_luls_lct_hlwe"

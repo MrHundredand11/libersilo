@@ -16,7 +16,16 @@
                     "scion_id": "ls_luls_111_lct_pllr_tzdk_luls_qbl",
                     "scions": [
                         {
-                            "insc_term": "Sepher Bahir 102"
+                            "insc_term": "Sepher Bahir 102",
+                            "scion_id": "ls_luls_111_lct_pllr_tzdk_luls_qbl_bhyr_102",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\t<span class=''>\"We learned: There is a single pollar extending from heaven to\nearth, and its name is Righteous (Tzadik).\n\n\t[This Pillar] is named after the righteous. When there are\nrighteous people in the world, then it becomes strong, and\nwhen there are not, it becomes weak.\n\n\tIt supports the entire world, as it is written, \"And\nRighteousness is the foundation of the world.\"If it becomes\nweak, then the world cannot endure.\n\n\tTherefore, even if there is only one righteous person in the\nworld, it is he who supports the world. It is therefore written,\n\"And a righteous one is the foundation of the world.\"\n\nYou should therefore take My lifted offering from him first.\n\t\t\t\t\t\t]"
+                                }
+                            ]
                         }
                     ]
                 }

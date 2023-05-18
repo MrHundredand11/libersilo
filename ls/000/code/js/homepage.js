@@ -19,7 +19,7 @@ function gen_dir(rcr) {
                             
         case '=>':
             var d_i = createElementWithClass('div', 'styl_drct_rcrd_fldr');
-            var d_c = createElementWithClass('div', 'drct_12_ttl');
+            var d_c = createElementWithClass('div', 'drct_ttl');
             var d_t = createElementWithClass('div', 'drct_tab');
             var d_n = createElementWithClass('div', 'drct_name');
             d_i.appendChild(d_c);

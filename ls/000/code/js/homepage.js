@@ -1,12 +1,16 @@
 function gen_dir(rcr) {
     switch (rcr.ls_type) {
         case '->':
-            var d_i = gen_ECI('div', 'styl_drct_rcrd_brnch', `${rcr.scion_id}`);
-            d_i.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
-            var d_ic = createElementWithClass('div', 'styl_drct_rcrd_brnch_name');
-            d_ic.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
-            d_ic.innerHTML = `<em>[${rcr.ls_id}]</em> = <span class='styl_drct_rcrd_head'>${rcr.ls_ttl}</span>`;
-            d_i.appendChild(d_ic);
+            var d_i = gen_ECI('div', 'd_000_trnk', `d_000_t_${rcr.scion_id}`);
+            var d_c = createElementWithClass('div', 'styl_drct_rcrd_brnch_name');
+            var d_t = createElementWithClass('div', 'd_000_trnk_tab');
+            var d_n = createElementWithClass('div', 'd_000_trnk_name');
+            d_i.appendChild(d_c);
+            d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
+            //d_c.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
+            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp'`;
+            d_n.innerHTML = `<span class='styl_drct_rcrd_head'>${rcr.ls_ttl}</span>`;
+            
             //var drct_cntnr = document.getElementById('id_drct_cntn');
             document.getElementById('id_drct_cntn').appendChild(d_i);
             var fl_cntnr = createElementWithClass('div', 'styl_drct_fl_cntnr');
@@ -18,7 +22,7 @@ function gen_dir(rcr) {
             return d_i;
                             
         case '=>':
-            var d_i = gen_ECI('div', 'styl_drct_rcrd_fldr', `d_000_f_${rcr.scion_id}`);
+            var d_i = gen_ECI('div', 'd_000_fldr', `d_000_f_${rcr.scion_id}`);
             var d_c = createElementWithClass('div', 'd_000_ttl');
             var d_t = createElementWithClass('div', 'd_000_tab');
             var d_n = createElementWithClass('div', 'd_000_name');
@@ -41,7 +45,7 @@ function gen_dir(rcr) {
             d_c.setAttribute('onclick', `fillErUp('${rcr.ls_url}')`);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
-            d_n.innerHTML = `${rcr.ls_ttl}`;
+            d_n.innerHTML = rcr.ls_ttl;
             return d_c;
     }
                 // d_i2.setAttribute('id', drct_rcrd[d].scions[d2].scion_id);

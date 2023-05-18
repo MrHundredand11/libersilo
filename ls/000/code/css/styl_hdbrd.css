@@ -28,12 +28,16 @@
     position: relative;
 }
 
+.hd_neck {
+    display: flex;
+}
+
 .hd_nk_lf {
     float: left;
 }
 
 .hd_nk_rg {
-    float: left;
+    flex-grow: 100;
 }
 
 .hd_view {

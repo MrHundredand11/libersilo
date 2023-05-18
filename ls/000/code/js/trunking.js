@@ -667,7 +667,7 @@ async function fetchy(zz) {
         .then(data => {
             function gen_head(data) {                      
                 var mainContainer = document.getElementById('trestleboard');
-                var headBoard = createElementWithClass('div', 'branch_container');
+                var headBoard = createElementWithClass('div', 'headboard');
                 
                 var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
                 var lsid = createElementWithClass('div', 'styl_head_lsid');

@@ -718,7 +718,67 @@
                 {
                     "ls_id": "LS-HI-ANML",
                     "ls_ttl": "Animal Inhabitants",
-                    "ls_type": "=>"
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hi/anml/",
+                    "scion_id": "ls_hi_anml",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-ANML-000",
+                            "ls_ttl": "Overview of Animal Inhabitants",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/000.json",
+                            "scion_id": "ls_hi_anml_000"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-AVIAN",
+                            "ls_ttl": "The Bird",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/avian.json",
+                            "scion_id": "ls_hi_anml_avian"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-DEER",
+                            "ls_ttl": "The Deer",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/deer.json",
+                            "scion_id": "ls_hi_anml_deer"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-EQUEST",
+                            "ls_ttl": "The Horse",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/equest.json",
+                            "scion_id": "ls_hi_anml_equest"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-FELINE",
+                            "ls_ttl": "The Feline",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/feline.json",
+                            "scion_id": "ls_hi_anml_feline"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-NChSh",
+                            "ls_ttl": "The Serpent",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/nchsh.json",
+                            "scion_id": "ls_hi_anml_nchsh"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-OX",
+                            "ls_ttl": "The Ox",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/ox.json",
+                            "scion_id": "ls_hi_anml_ox"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANML-PSCA",
+                            "ls_ttl": "The Fish",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/anml/psca.json",
+                            "scion_id": "ls_hi_anml_psca"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-HI-DIV",
@@ -768,6 +828,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/div/hga.json",
                             "scion_id": "ls_hi_div_hga"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-JESUS",
+                            "ls_ttl": "Jesus",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/jesus.json",
+                            "scion_id": "ls_hi_div_jesus"
                         },
                         {
                             "ls_id": "LS-HI-DIV-LOGOS",

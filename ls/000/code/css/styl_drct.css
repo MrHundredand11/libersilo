@@ -57,11 +57,6 @@
    
 }
 
-.styl_drct_rcrd_i {
-    font-family: cambria;
-    font-weight: bold;
-    font-size: 23px;
-}
 
 .styl_drct_rcrd_head {
     font-family: cambria;
@@ -83,4 +78,10 @@
     display: flex;
     flex-wrap: no-wrap;
     align-items: center;
+}
+
+.drct_name {
+    font-family: cambria;
+    font-weight: bold;
+    font-size: 23px;
 }

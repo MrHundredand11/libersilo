@@ -23,8 +23,7 @@ function gen_dir(rcr) {
             var d_t = createElementWithClass('div', 'drct_tab');
             var d_n = createElementWithClass('div', 'drct_name');
             d_i.appendChild(d_c);
-            d_c.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
-            d_c.append(d_t, d_n);
+            d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `${rcr.ls_ttl}`;
             
@@ -43,7 +42,7 @@ function gen_dir(rcr) {
             var d_n = createElementWithClass('div', 'drct_name');
             d_i.appendChild(d_c);
             d_c.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
-            d_c.appendChild(d_t, d_n);
+            d_c.append(d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `${rcr.ls_ttl}`;
             

@@ -86,6 +86,13 @@
     align-items: center;
 }
 
+.d_000_t_ttl {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    font-size: 43px;
+}
+
 .d_000_f_ttl {
     display: flex;
     flex-wrap: no-wrap;

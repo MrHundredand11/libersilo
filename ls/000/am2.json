@@ -1439,7 +1439,7 @@
         },
         {
             "ls_id": "LS-LULS",
-            "ls_ttl": "Line Upon Line Scriptures + Spirituality",
+            "ls_ttl": "Line Upon Line",
             "ls_type": "->",
             "scion_id": "ls_luls",
             "scion_snip": "LULS",

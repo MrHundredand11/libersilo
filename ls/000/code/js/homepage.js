@@ -36,16 +36,14 @@ function gen_dir(rcr) {
             return d_i;
 
         case '+>':    
-            var d_i = createElementWithClass('div', 'drct_item');
-            var d_c = createElementWithClass('div', 'drct_ttl');
+            var d_c = createElementWithClass('div', 'drct_item');
             var d_t = createElementWithClass('div', 'drct_tab');
             var d_n = createElementWithClass('div', 'drct_name');
-            d_i.appendChild(d_c);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `${rcr.ls_ttl}`;
             
-            return d_i;
+            return d_c;
     }
                 // d_i2.setAttribute('id', drct_rcrd[d].scions[d2].scion_id);
                 // d_i2c.setAttribute('onclick', `fillErUp(${drct_rcrd[d].scions[d2].ls_url})`);

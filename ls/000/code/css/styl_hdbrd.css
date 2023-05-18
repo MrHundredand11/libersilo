@@ -49,6 +49,8 @@
     width: 311px;
     position: relative;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 .styl_head_seal {

@@ -1024,12 +1024,25 @@
             "scion_snip": "HMN",
             "scions": [
                 {
+                    "ls_id": "LS-HMN-ACT",
+                    "ls_ttl": "Human Actions",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/act/",
+                    "scion_id": "ls_hmn_act"
+                },
+                {
+                    "ls_id": "LS-HMN-BD",
+                    "ls_ttl": "Human Bodies",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/bd/",
+                    "scion_id": "ls_hmn_bd"
+                },
+                {
                     "ls_id": "LS-HMN-DLC",
                     "ls_ttl": "Sexual Delicacy",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/dlc/",
                     "scion_id": "ls_hmn_dlc",
-                    "scion_snip": "DLC",
                     "scions": [
                         {
                             "ls_id": "LS-HMN-DLC-000",
@@ -1188,12 +1201,92 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HMN-LIFE",
+                    "ls_ttl": "Life + Life Force",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/life/",
+                    "scion_id": "ls_hmn_life"
+                },
+                {
                     "ls_id": "LS-HMN-MD",
                     "ls_ttl": "Medical Directory",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/md/",
                     "scion_id": "ls_hmn_md",
-                    "scion_snip": "MD"
+                    "scions": [
+                        {
+                            "ls_id": "LS-HMN-MD-000",
+                            "ls_ttl": "Overview of Medical Directory",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/md/000.json",
+                            "scion_id": "ls_hmn_md_000"
+                        },
+                        {
+                            "ls_id": "LS-HMN-MD-AIL",
+                            "ls_ttl": "Ailments",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/hmn/md/ail",
+                            "scion_id": "ls_hmn_md_ail",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-ANXTY",
+                                    "ls_ttl": "Anxiety",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/anxty.json",
+                                    "scion_id": "ls_hmn_md_ail_anxty"
+                                },
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-CNGSTN",
+                                    "ls_ttl": "Congestion",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/cngstn.json",
+                                    "scion_id": "ls_hmn_md_ail_cngstn"
+                                },
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-CRRHSS",
+                                    "ls_ttl": "Cirrhosis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/crrhss.json",
+                                    "scion_id": "ls_hmn_md_ail_crrhss"
+                                },
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-DPRSS",
+                                    "ls_ttl": "Depression",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/dprss.json",
+                                    "scion_id": "ls_hmn_md_ail_dprss"
+                                },
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-HEPTTS",
+                                    "ls_ttl": "Hepatitis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/heptts.json",
+                                    "scion_id": "ls_hmn_md_ail_heptts"
+                                },
+                                {
+                                    "ls_id": "LS-HMN-MD-AIL-MNTLILL",
+                                    "ls_ttl": "Mental Illness",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hmn/md/ail/mntlill.json",
+                                    "scion_id": "ls_hmn_md_ail_mntlill"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-HMN-MD-RMDY",
+                            "ls_ttl": "Remedies",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/hmn/md/rmdy",
+                            "scion_id": "ls_hmn_md_rmdy"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HMN-MDTT",
+                    "ls_ttl": "Meditation",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/mdtt/",
+                    "scion_id": "ls_hmn_mdtt"
                 },
                 {
                     "ls_id": "LS-HMN-PSI",
@@ -1201,7 +1294,6 @@
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/psi/",
                     "scion_id": "ls_hmn_psi",
-                    "scion_snip": "PSI",
                     "scions": [
                         {
                             "ls_id": "LS-HMN-PSI-3RDEYE",
@@ -1335,6 +1427,13 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "ls_id": "LS-HMN-TYPE",
+                    "ls_ttl": "Types of People",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/type/",
+                    "scion_id": "ls_hmn_type"
                 }
             ]
         },

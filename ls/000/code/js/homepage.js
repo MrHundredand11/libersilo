@@ -9,15 +9,14 @@ function gen_dir(rcr) {
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             //d_c.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp'`;
-            d_n.innerHTML = `<span class='styl_drct_rcrd_head'>${rcr.ls_ttl}</span>`;
-            
+            d_n.innerHTML = rcr.ls_ttl;
             //var drct_cntnr = document.getElementById('id_drct_cntn');
             document.getElementById('id_drct_cntn').appendChild(d_i);
-            var fl_cntnr = createElementWithClass('div', 'styl_drct_fl_cntnr');
-            d_i.appendChild(fl_cntnr);
+            var d_f = createElementWithClass('div', 'd_000_fold');
+            d_i.appendChild(d_f);
             for (x in rcr.scions) {
                 var fff = gen_dir(rcr.scions[x]);
-                fl_cntnr.appendChild(fff);
+                d_f.appendChild(fff);
             }
             return d_i;
                             
@@ -30,11 +29,11 @@ function gen_dir(rcr) {
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = rcr.ls_ttl;
-            var fl_cntnr2 = createElementWithClass('div', 'styl_drct_fl_cntnr');
-            d_i.appendChild(fl_cntnr2);
+            var d_f = createElementWithClass('div', 'd_000_fold');
+            d_i.appendChild(d_f);
             for (x in rcr.scions) {
                 var fff = gen_dir(rcr.scions[x]);
-                fl_cntnr2.appendChild(fff);
+                d_f.appendChild(fff);
             }
             return d_i;
 

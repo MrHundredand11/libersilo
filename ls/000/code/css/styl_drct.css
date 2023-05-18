@@ -74,6 +74,10 @@
     font-weight: bold;
 }
 
+.drct_tab {
+    white-space: nowrap;
+}
+
 .drct_ttl {
     display: flex;
     flex-wrap: no-wrap;

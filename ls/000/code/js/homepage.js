@@ -2,7 +2,7 @@ function gen_dir(rcr) {
     switch (rcr.ls_type) {
         case '->':
             var d_i = gen_ECI('div', 'd_000_trnk', `d_000_t_${rcr.scion_id}`);
-            var d_c = createElementWithClass('div', 'd_000_trnk_ttl');
+            var d_c = createElementWithClass('div', 'd_000_ttl');
             var d_t = createElementWithClass('div', 'd_000_trnk_tab');
             var d_n = createElementWithClass('div', 'd_000_trnk_name');
             d_i.appendChild(d_c);

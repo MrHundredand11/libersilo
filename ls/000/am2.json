@@ -1039,11 +1039,144 @@
                             "scion_id": "ls_hmn_dlc_000"
                         },
                         {
+                            "ls_id": "LS-HMN-DLC-ANAL",
+                            "ls_ttl": "Anal Eroticism",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/anal.json",
+                            "scion_id": "ls_hmn_dlc_anal"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-APHRO",
+                            "ls_ttl": "Aphrodisiacs",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/aphro.json",
+                            "scion_id": "ls_hmn_dlc_aphro"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-CLTVT",
+                            "ls_ttl": "Cultivation of Sexual Energy",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/cltvt.json",
+                            "scion_id": "ls_hmn_dlc_cltvt"
+                        },
+                        {
                             "ls_id": "LS-HMN-DLC-DIET",
                             "ls_ttl": "Diet for Sexual Health",
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/dlc/diet.json",
                             "scion_id": "ls_hmn_dlc_diet"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-ERECT",
+                            "ls_ttl": "Erection Strength",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/erect.json",
+                            "scion_id": "ls_hmn_dlc_erect"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-EROTLK",
+                            "ls_ttl": "Erotic Talk",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/erotlk.json",
+                            "scion_id": "ls_hmn_dlc_erotlk"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-HRSGSMS",
+                            "ls_ttl": "Hieros Gamos",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/hrsgsms.json",
+                            "scion_id": "ls_hmn_dlc_hrsgsms"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-KISS",
+                            "ls_ttl": "Kissing",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/kiss.json",
+                            "scion_id": "ls_hmn_dlc_kiss"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-KINK",
+                            "ls_ttl": "Kink",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/kink.json",
+                            "scion_id": "ls_hmn_dlc_kink"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-MRRGE",
+                            "ls_ttl": "Marriage",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/mrrge.json",
+                            "scion_id": "ls_hmn_dlc_mrrge"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-MSTRBTE",
+                            "ls_ttl": "Masturbation",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/mstrbte.json",
+                            "scion_id": "ls_hmn_dlc_mstrbte"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-ORAL",
+                            "ls_ttl": "Oral Sex",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/oral.json",
+                            "scion_id": "ls_hmn_dlc_oral"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-ORGSM",
+                            "ls_ttl": "The Orgasm",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/orgsm.json",
+                            "scion_id": "ls_hmn_dlc_orgsm"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-PLYAMOR",
+                            "ls_ttl": "Polyamory",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/plyamor.json",
+                            "scion_id": "ls_hmn_dlc_plyamor"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-RLTNSHP",
+                            "ls_ttl": "Relationship Advice",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/rltnshp.json",
+                            "scion_id": "ls_hmn_dlc_rltnshp"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-RMNTC",
+                            "ls_ttl": "Romantic Ideas",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/rmntc.json",
+                            "scion_id": "ls_hmn_dlc_rmntc"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-SEMEN",
+                            "ls_ttl": "Semen",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/semen.json",
+                            "scion_id": "ls_hmn_dlc_semen"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-SXALCHM",
+                            "ls_ttl": "Sexual Alchemy",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/sxalchm.json",
+                            "scion_id": "ls_hmn_dlc_sxalchm"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-SXMGCK",
+                            "ls_ttl": "Sexual Magick",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/sxmgck.json",
+                            "scion_id": "ls_hmn_dlc_sxmgck"
+                        },
+                        {
+                            "ls_id": "LS-HMN-DLC-SXMYST",
+                            "ls_ttl": "Sexual Mysticism",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/dlc/sxmyst.json",
+                            "scion_id": "ls_hmn_dlc_sxmyst"
                         },
                         {
                             "ls_id": "LS-HMN-DLC-TANTRA",
@@ -1065,7 +1198,7 @@
                 {
                     "ls_id": "LS-HMN-PSI",
                     "ls_ttl": "Psychic + Astral Abilities",
-                    "ls_type": "->",
+                    "ls_type": "=>",
                     "ls_url": "/ls/hmn/psi/",
                     "scion_id": "ls_hmn_psi",
                     "scion_snip": "PSI",

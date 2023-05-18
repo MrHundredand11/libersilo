@@ -36,14 +36,13 @@ function gen_dir(rcr) {
             return d_i;
 
         case '+>':    
-            var d_c = createElementWithClass('div', 'drct_item');
+            var d_c = gen_ECI('div', 'drct_item', rcr.scion_id);
             var d_t = createElementWithClass('div', 'drct_tab');
             var d_n = createElementWithClass('div', 'drct_name');
-            d_c.setAttribute('id', rcr.ls_id);
+            d_c.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `${rcr.ls_ttl}`;
-            
             return d_c;
     }
                 // d_i2.setAttribute('id', drct_rcrd[d].scions[d2].scion_id);

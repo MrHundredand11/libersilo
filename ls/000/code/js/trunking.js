@@ -677,7 +677,7 @@ async function fetchy(zz) {
                 var directory_div = createElementWithClass('div', 'styl_head_drct');
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
-                var headboard_tail = createElementWithClass('div', 'styl_head_tail');
+                var headboard_tail = createElementWithClass('div', 'hd_tail');
                 hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                
                 ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";

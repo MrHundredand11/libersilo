@@ -545,7 +545,7 @@
                 },
                 {
                     "ls_id": "LS-DGTL-TRBL",
-                    "ls_ttl": "Technical Troubles + Troubleshooting",
+                    "ls_ttl": "Troubleshooting",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_trbl"
@@ -860,19 +860,32 @@
                     ]
                 },
                 {
-                    "ls_id": "LS-HI-NTRU",
+                    "ls_id": "LS-HI-NTR",
                     "ls_ttl": "The Neteru",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/ntr/",
+                    "scion_id": "ls_hi_ntr",
                     "scions": [
                         {
-                            "ls_id": "LS-HI-NTRU-ISIS",
+                            "ls_id": "LS-HI-NTR-ISIS",
                             "ls_ttl": "The Goddess Isis",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ntr/isis.json",
+                            "scion_id": "ls_hi_ntr_isis"
                         },
                         {
-                            "ls_id": "LS-HI-NTRU-MAAT",
+                            "ls_id": "LS-HI-NTR-MAAT",
                             "ls_ttl": "The Goddess Ma'at",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ntr/maat.json",
+                            "scion_id": "ls_hi_ntr_maat"
+                        },
+                        {
+                            "ls_id": "LS-HI-NTR-SET",
+                            "ls_ttl": "The God Set",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ntr/set.json",
+                            "scion_id": "ls_hi_ntr_set"
                         }
                     ]
                 },

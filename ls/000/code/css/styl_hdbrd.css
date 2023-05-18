@@ -42,9 +42,11 @@
 
 .hd_view {
     margin: auto;
-    border: 1px solid black;
+    border: 3px solid black;
     height: 37px;
     width: 37px;
+    position: relative;
+    top: 50%;
 }
 
 .styl_head_seal {

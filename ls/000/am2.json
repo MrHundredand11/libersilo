@@ -392,21 +392,21 @@
                 },
                 {
                     "ls_id": "LS-DGTL-GRC",
-                    "ls_ttl": "Governance + Risk + Compliance",
+                    "ls_ttl": "Governance",
                     "ls_type": "=>",
                     "ls_url": "/ls/dgtl/grc",
                     "scion_id": "ls_dgtl_grc"
                 },
                 {
                     "ls_id": "LS-DGTL-HW",
-                    "ls_ttl": "Systems Hardware",
+                    "ls_ttl": "Hardware",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_hw"
                 },
                 {
                     "ls_id": "LS-DGTL-IAM",
-                    "ls_ttl": "Identity + Access Management",
+                    "ls_ttl": "Identity + Access",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_iam"
@@ -473,7 +473,7 @@
                 },
                 {
                     "ls_id": "LS-DGTL-NW",
-                    "ls_ttl": "Networking + Communications",
+                    "ls_ttl": "Networking",
                     "ls_type": "=>",
                     "ls_url": "",
                     "scion_id": "ls_dgtl_nw"

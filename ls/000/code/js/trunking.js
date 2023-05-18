@@ -670,21 +670,23 @@ async function fetchy(zz) {
                 var headBoard = createElementWithClass('div', 'headboard');
                 
                 var ls_ttl = createElementWithClass('div', 'styl_head_ttle');
-                var lsid = createElementWithClass('div', 'styl_head_lsid');
+                var hd_neck = createElementWithClass('div', 'hd_neck');
+                var hd_lsid = createElementWithClass('div', 'styl_head_lsid');
                 var directory_div = createElementWithClass('div', 'styl_head_drct');
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'styl_head_tail');
-                lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
+                hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                
                 ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 
                 headBoard.appendChild(ls_ttl);
-                headBoard.appendChild(lsid);
+                headBoard.appendChild(hd_neck);
+                hd_neck.appendChild(hd_lsid);
+                hd_neck.appendChild(directory_div);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
                 directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
                 mainContainer.appendChild(headBoard);
-                headBoard.appendChild(directory_div);
                 directory_div.appendChild(directory_name);
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);

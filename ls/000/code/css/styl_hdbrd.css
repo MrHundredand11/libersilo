@@ -31,6 +31,7 @@
 
 .hd_neck {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .hd_nk_lf {

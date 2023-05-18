@@ -35,3 +35,27 @@
 .hd_nk_rg {
     float: left;
 }
+
+.styl_head_seal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+.styl_head_ttle {
+    text-align: center;
+    font-family: VPCS;
+    font-size: 53px;
+}
+
+.styl_head_lsid {
+    font-size: 43px;
+}
+
+.hd_tail {
+    text-align: center;
+    padding-bottom: 23px;
+    clear: left;
+}

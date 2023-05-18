@@ -37,8 +37,10 @@
 }
 
 .hd_view {
-    margin: 11px;
-    border: 1x solid black;
+    margin: auto;
+    border: 1px solid black;
+    height: 37px;
+    width: 37px;
 }
 
 .styl_head_seal {

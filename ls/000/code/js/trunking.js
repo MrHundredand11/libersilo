@@ -673,6 +673,7 @@ async function fetchy(zz) {
                 var hd_neck = createElementWithClass('div', 'hd_neck');
                 var hd_nk_lf = createElementWithClass('div', 'hd_nk_lf');
                 var hd_nk_rg = createElementWithClass('div', 'hd_nk_rg');
+                var hd_view = createElementWithClass('div', 'hd_view');
                 var hd_lsid = createElementWithClass('div', 'styl_head_lsid');
                 var directory_div = createElementWithClass('div', 'styl_head_drct');
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
@@ -685,8 +686,8 @@ async function fetchy(zz) {
                 headBoard.appendChild(ls_ttl);
                 headBoard.appendChild(hd_neck);
                 hd_neck.append(hd_nk_lf, hd_nk_rg);
-                hd_nk_lf.appendChild(hd_lsid);
-                hd_nk_lf.appendChild(directory_div);
+                hd_nk_lf.append(hd_lsid, directory_div);
+                hd_nk_rg.appendChild(hd_view);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
                 directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
                 mainContainer.appendChild(headBoard);

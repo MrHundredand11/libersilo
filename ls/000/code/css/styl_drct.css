@@ -84,6 +84,17 @@
     align-items: center;
 }
 
+.d_000_f_ttl {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 7px;
+    border-style: double;
+    border-radius: 7px;
+}
+
 .d_000_name {
     font-family: cambria;
     font-weight: bold;

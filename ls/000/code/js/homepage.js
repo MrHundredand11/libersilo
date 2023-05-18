@@ -22,7 +22,7 @@ function gen_dir(rcr) {
                             
         case '=>':
             var d_i = gen_ECI('div', 'd_000_fldr', `d_000_f_${rcr.scion_id}`);
-            var d_c = createElementWithClass('div', 'd_000_ttl');
+            var d_c = createElementWithClass('div', 'd_000_f_ttl');
             var d_t = createElementWithClass('div', 'd_000_tab');
             var d_n = createElementWithClass('div', 'd_000_name');
             d_i.appendChild(d_c);

@@ -36,6 +36,11 @@
     float: left;
 }
 
+.hd_view {
+    margin: 11px;
+    border: 1x solid black;
+}
+
 .styl_head_seal {
     display: block;
     margin-left: auto;

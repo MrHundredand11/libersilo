@@ -102,24 +102,6 @@ strong {
     padding-left: 41px;    
 }
 
-.styl_head_seal {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    position: relative;
-}
-
-.styl_head_ttle {
-    text-align: center;
-    font-family: VPCS;
-    font-size: 53px;
-}
-
-.styl_head_lsid {
-    font-size: 43px;
-}
-
 .styl_liex_cntn {
     padding-left: 41px;
 }

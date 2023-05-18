@@ -674,13 +674,17 @@ async function fetchy(zz) {
                 var hd_nk_lf = createElementWithClass('div', 'hd_nk_lf');
                 var hd_nk_rg = createElementWithClass('div', 'hd_nk_rg');
                 var hd_view = createElementWithClass('div', 'hd_view');
+                var hd_vw_a = createElementWithClass('div', 'hd_vw_a');
+                var hd_vw_b = createElementWithClass('div', 'hd_vw_b');
+                var hd_vw_c = createElementWithClass('div', 'hd_vw_c');
                 var hd_lsid = createElementWithClass('div', 'styl_head_lsid');
                 var directory_div = createElementWithClass('div', 'styl_head_drct');
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'hd_tail');
                 hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
-                hd_view.innerHTML = 'hello';
+                hd_vw_a.innerHTML = 'Views';
+                hd_view.append(hd_vw_a, hd_vw_b, hd_vw_c);
                 ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 
                 headBoard.appendChild(ls_ttl);

@@ -79,6 +79,8 @@
     font-weight: bold;
 }
 
-.styl_drct_rcrd_brnch_name {
-    display: inline-block;
+.drct_l2_name {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
 }

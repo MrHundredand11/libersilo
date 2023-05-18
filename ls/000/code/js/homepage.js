@@ -25,7 +25,7 @@ function gen_dir(rcr) {
             d_i.appendChild(d_c);
             d_c.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
             d_c.append(d_t, d_n);
-            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> = `;
+            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `<span class='styl_drct_rcrd_i'>${rcr.ls_ttl}</span>`;
             
             var fl_cntnr2 = createElementWithClass('div', 'styl_drct_fl_cntnr');
@@ -38,10 +38,15 @@ function gen_dir(rcr) {
 
         case '+>':    
             var d_i = createElementWithClass('div', 'styl_drct_rcrd_item');
-            d_i.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
-            var d_ic = createElementWithClass('div', 'styl_drct_rcrd_brnch_name');
-            d_ic.innerHTML = "<em>[" +  rcr.ls_id + "]</em> = <span class='styl_drct_rcrd_i'>" + rcr.ls_ttl + "</span>";
-            d_i.appendChild(d_ic);
+            var d_c = createElementWithClass('div', 'drct_ttl');
+            var d_t = createElementWithClass('div', 'drct_tab');
+            var d_n = createElementWithClass('div', 'drct_name');
+            d_i.appendChild(d_c);
+            d_c.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
+            d_c.appendChild(d_t, d_n);
+            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
+            d_n.innerHTML = `<span class='styl_drct_rcrd_i'>${rcr.ls_ttl}</span>`;
+            
             return d_i;
     }
                 // d_i2.setAttribute('id', drct_rcrd[d].scions[d2].scion_id);

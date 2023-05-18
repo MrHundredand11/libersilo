@@ -64,7 +64,7 @@
     font-weight: bold;
 }
 
-.drct_item {
+.d_000_item {
     padding-left: 41px;
     font-size: 17px;
     position: relative;
@@ -75,17 +75,17 @@
     align-items: center;
 }
 
-.drct_tab {
+.d_000_tab {
     white-space: nowrap;
 }
 
-.drct_ttl {
+.d_000_ttl {
     display: flex;
     flex-wrap: no-wrap;
     align-items: center;
 }
 
-.drct_name {
+.d_000_name {
     font-family: cambria;
     font-weight: bold;
     font-size: 23px;

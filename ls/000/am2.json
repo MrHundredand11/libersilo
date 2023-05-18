@@ -89,14 +89,14 @@
                     "ls_id": "LS-DGTL-CLD",
                     "ls_ttl": "Cloud Systems",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/cld/",
                     "scion_id": "ls_dgtl_cld",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CLD-000",
                             "ls_ttl": "Overview of 'Cloud Systems'",
                             "ls_type": "+>",
-                            "ls_url": "",
+                            "ls_url": "/ls/dgtl/cld/000.json",
                             "scion_id": "ls_dgtl_cld_000"
                         },
                         {
@@ -112,14 +112,15 @@
                     "ls_id": "LS-DGTL-CODE",
                     "ls_ttl": "Coding + Programming",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/code/",
                     "scion_id": "ls_dgtl_code",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CODE-000",
                             "ls_ttl": "Overview of Coding + Programming",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/code/000.json"
+                            "ls_url": "/ls/dgtl/code/000.json",
+                            "scion_id": "ls_dgtl_code_000"
                         },
                         {
                             "ls_id": "LS-DGTL-CODE-API",

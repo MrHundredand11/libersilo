@@ -684,6 +684,8 @@ async function fetchy(zz) {
                 var headboard_tail = createElementWithClass('div', 'hd_tail');
                 hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                 hd_vw_a.innerHTML = 'Views';
+                hd_vw_b.innerHTML = 'JSON or PDF';
+                hd_vw_c.innerHTML = 'Version: 0.0.0';
                 hd_view.append(hd_vw_a, hd_vw_b, hd_vw_c);
                 ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "-> " + data.ls_ttl + " <-";
                 

@@ -18,15 +18,14 @@ function gen_dir(rcr) {
             return d_i;
                             
         case '=>':
-            var d_i = createElementWithClass('div', 'styl_drct_rcrd_fldr');
-            var d_c = createElementWithClass('div', 'drct_ttl');
-            var d_t = createElementWithClass('div', 'drct_tab');
-            var d_n = createElementWithClass('div', 'drct_name');
+            var d_i = gen_ECI('div', 'styl_drct_rcrd_fldr', `d_000_f_${rcr.scion_id}`);
+            var d_c = createElementWithClass('div', 'd_000_ttl');
+            var d_t = createElementWithClass('div', 'd_000_tab');
+            var d_n = createElementWithClass('div', 'd_000_name');
             d_i.appendChild(d_c);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = rcr.ls_ttl;
-            
             var fl_cntnr2 = createElementWithClass('div', 'styl_drct_fl_cntnr');
             d_i.appendChild(fl_cntnr2);
             for (x in rcr.scions) {
@@ -36,10 +35,10 @@ function gen_dir(rcr) {
             return d_i;
 
         case '+>':    
-            var d_c = gen_ECI('div', 'drct_item', rcr.scion_id);
-            var d_t = createElementWithClass('div', 'drct_tab');
-            var d_n = createElementWithClass('div', 'drct_name');
-            d_c.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
+            var d_c = gen_ECI('div', 'd_000_item', `d_000_i_${rcr.scion_id}`);
+            var d_t = createElementWithClass('div', 'd_000_tab');
+            var d_n = createElementWithClass('div', 'd_000_name');
+            d_c.setAttribute('onclick', `fillErUp('${rcr.ls_url}')`);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = `${rcr.ls_ttl}`;

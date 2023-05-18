@@ -8,7 +8,7 @@ function gen_dir(rcr) {
             d_i.appendChild(d_c);
             d_c.append(gen_PntrDrct(rcr.scion_id, rcr.ls_type), d_t, d_n);
             //d_c.setAttribute('onclick', `fillErUp(${rcr.ls_url})`);
-            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp'`;
+            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = rcr.ls_ttl;
             //var drct_cntnr = document.getElementById('id_drct_cntn');
             document.getElementById('id_drct_cntn').appendChild(d_i);

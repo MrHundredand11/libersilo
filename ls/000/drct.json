@@ -5,9 +5,9 @@
     "scion_id": "ls_000_drct",
     "scions": [
         {
-            "drct_id": "FULL",
-            "drct_ttl": "Full Directories to 'Liber Silo'",
-            "scion_id": "ls_000_drct_full",
+            "drct_id": "VIEW",
+            "drct_ttl": "Directory Views",
+            "scion_id": "ls_000_drct_view",
             "scions": [
             ]
         }

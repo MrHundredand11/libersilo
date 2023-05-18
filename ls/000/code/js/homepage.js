@@ -20,9 +20,14 @@ function gen_dir(rcr) {
         case '=>':
             var d_i = createElementWithClass('div', 'styl_drct_rcrd_fldr');
             d_i.appendChild(gen_PntrDrct(rcr.scion_id, rcr.ls_type));
-            var d_ic = createElementWithClass('div', 'styl_drct_rcrd_brnch_name');
-            d_ic.innerHTML = `<em>[${rcr.ls_id}]</em> = <span class='styl_drct_rcrd_i'>${rcr.ls_ttl}</span>`;
-            d_i.appendChild(d_ic);
+            var d_c = createElementWithClass('div', 'styl_drct_rcrd_brnch_name');
+            var d_t = createElementWithClass('div', 'drct_tab');
+            var d_n = createElementWithClass('div', 'drct_name');
+            d_i.appendChild(d_c);
+            d_c.append(d_t, d_n);
+            d_t.innerHTML = `<em>[${rcr.ls_id}]</em> = `;
+            d_n.innerHTML = `<span class='styl_drct_rcrd_i'>${rcr.ls_ttl}</span>`;
+            
             var fl_cntnr2 = createElementWithClass('div', 'styl_drct_fl_cntnr');
             d_i.appendChild(fl_cntnr2);
             for (x in rcr.scions) {

@@ -129,7 +129,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "<span class=''>דלת</span>",
+                            "insc_cntn": "<span class='ins_trm_node_00'>דלת</span>",
                             "scion_id": "ls_qbl_aa_l04_lttr_lttrname_dlth",
                             "scions": [
                                 {
@@ -167,7 +167,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Gematria",
-                                    "insc_cntn": "[<b>MR</b>]:[\t<span class=''>4+30+400</span>\t]=&nbsp;<span class=''>434</span>"
+                                    "insc_cntn": "[<b>MR</b>]:[\t<span class='ins_gmtr_calc'>4+30+400</span>\t]=&nbsp;<span class='ins_gmtr_rslt'>434</span>"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -175,7 +175,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Gematria",
-                                    "insc_cntn": "[<b>MR</b>]:[\t<span class=''>4+30+4</span>\t]=&nbsp;<span class=''>38</span>"
+                                    "insc_cntn": "[<b>MR</b>]:[\t<span class='ins_gmtr_calc'>4+30+4</span>\t]=&nbsp;<span class='ins_gmtr_rslt'>38</span>"
                                 }
                             ]
                         }

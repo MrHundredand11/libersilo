@@ -1,3 +1,7 @@
 .algn_cntr {
     align-items: center;
 }
+
+.align_rght {
+    align-items: flex-end;
+}

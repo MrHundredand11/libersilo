@@ -102,3 +102,14 @@
     font-family: georgia;
     font-weight: bold;
 }
+
+.i_nmbr_01_itr {
+    font-family: georgia;
+    font-weight: bold;
+}
+
+.i_nmbr_01_nmb {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 37px;
+}

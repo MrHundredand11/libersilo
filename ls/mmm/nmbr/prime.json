@@ -12,8 +12,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_term": "The First 100 Prime Numbers",
-                    "scion_id": "ls_mmm_nmbr_prime_list_top100",
+                    "insc_ttl": "<i>The</i> <b><u>First 100</b></u> (<b><i>Prime Numbers</b></i>)",
+                    "scion_id": "ls_mmm_nmbr_prime_list_first100",
                     "scions": [
                         {
                             "insc_tag": "P001",

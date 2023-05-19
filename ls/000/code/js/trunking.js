@@ -344,6 +344,11 @@ function gen_Insc(insc_i, scion) {
             if (scion.insc_offs !== undefined) {
                 insc_cntnr.classList.add(`${scion.insc_offs}`);
             }
+
+            if (scion.insc_algn !== undefined) {
+                insc_prtr.classList.add(`${scion.insc_algn}`);
+            }
+
             return insc_cntnr;
 
         case 'twig':

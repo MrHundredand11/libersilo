@@ -178,6 +178,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_tag": "Cube of Space",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_cube"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Directions",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Directions</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_drct"
@@ -354,6 +361,33 @@
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_cmmntry"
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Letter Daleth'",
+            "scion_id": "ls_qbl_aa_l04_rltn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Exploration</b></u> <i>of the</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "scion_id": "ls_qbl_aa_l04_rltn_xplr",
+                    "scions": [
+                        {
+                            "insc_term": "(Daleth) and (The Principle of Antithesis)"
+                        },
+                        {
+                            "insc_term": "(Daleth) and (The Elements)"
+                        },
+                        {
+                            "insc_term": "(Daleth) and (The Letter Gimel)"
+                        },
+                        {
+                            "insc_term": "(Daleth) and (The Letter Vav)"
                         }
                     ]
                 }

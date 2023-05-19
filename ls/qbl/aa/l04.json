@@ -251,9 +251,15 @@
                     "scions": [
                         {
                             "insc_tag": "Prayer",
-                            "insc_term": "A Prayer of Daleth by Dolores Ashcroft-Nowicki",
+                            "insc_term": "A Prayer of Daleth",
                             "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki",
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Author",
+                                    "insc_cntn": "Dolores Ashcroft-Nowicki"
+                                },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
@@ -263,8 +269,9 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
-                                            "insc_cntn": "<span class='in_txt_cntrd'><span class='in_txt_headr_01'>DALETH<br>ד</span><br><br>Thou art the door to joy and tears.<br>All that lifts my heart and wounds my soul enters my world through thee.<br>Thou art the gateway to life and death,<br>knowledgeand power,<br>deceit and love.<br><br>Thy heart is a lock, but where shall I find the key?<br>Open to me, Beloved, let me enter into thee and know thy embrace.<br>Shall I knock upon thy lintel?<br>If I beg thee, wilt thou open to me?<br><br>Thou art the door to the Light,<br>and the key to the lock is love.<br><br>I wait before thee until,<br>weary with sleep denied, I close my eyes.<br>When I awake the way is open before me and,<br>singing praises to God, I enter thy world.</span>"
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_tag": "Text",
+                                            "insc_cntn": "[\t<span class='in_txt_cntrd'><span class='in_txt_headr_01'>DALETH<br>ד</span><br><br>Thou art the door to joy and tears.<br>All that lifts my heart and wounds my soul enters my world through thee.<br>Thou art the gateway to life and death,<br>knowledgeand power,<br>deceit and love.<br><br>Thy heart is a lock, but where shall I find the key?<br>Open to me, Beloved, let me enter into thee and know thy embrace.<br>Shall I knock upon thy lintel?<br>If I beg thee, wilt thou open to me?<br><br>Thou art the door to the Light,<br>and the key to the lock is love.<br><br>I wait before thee until,<br>weary with sleep denied, I close my eyes.<br>When I awake the way is open before me and,<br>singing praises to God, I enter thy world.</span>\n]"
                                         }
                                     ]
                                 },

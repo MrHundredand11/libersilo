@@ -150,6 +150,76 @@
             ]
         },
         {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Letter Daleth'",
+            "scion_id": "ls_qbl_aa_l04_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Qabalistic Correspondences",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Daleth</b></i>)",
+                    "scion_id": "ls_qbl_aa_l04_qblh_000_crrsp"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Arcana Alphabet",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_aa"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Astrological Cycles",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_alg"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Directions",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Directions</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_drct"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Double Letters",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_dblltr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Modes of Consciousness",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_cnscs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Qabalistic Intelligences",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_intl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "The Tarot Arcana",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "The Tree of Life",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "scion_id": "ls_qbl_aa_l04_qblh_otz"
+                }
+            ]
+        },
+        {
             "drct_id": "NUMB",
             "drct_ttl": "Numbers of 'The Letter Daleth'",
             "scion_id": "ls_qbl_aa_l04_numb",

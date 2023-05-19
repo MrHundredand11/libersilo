@@ -256,7 +256,55 @@
                     "insc_typ2": "brnch",
                     "insc_tag": "Directions",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Directions</b></u>",
-                    "scion_id": "ls_qbl_aa_l04_qblh_drct"
+                    "scion_id": "ls_qbl_aa_l04_qblh_drct",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='ins_trm_node_00'>אור</span>",
+                            "insc_algn": "algn_itm_cntr",
+                            "scion_id": "ls_qbl_aa_l04_qblh_drct_avr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "AVR"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "Aur"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Pronunciation",
+                                    "insc_term": "our"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Gematria",
+                                    "insc_cntn": "[<b>MR</b>]:[\t<span class='ins_gmtr_calc'>1+6+200</span>\t]=&nbsp;<span class='ins_gmtr_rslt'>207</span>"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

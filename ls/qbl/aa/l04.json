@@ -129,7 +129,45 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "<span class=''>דלת</span>"
+                            "insc_cntn": "<span class=''>דלת</span>",
+                            "scion_id": "ls_qbl_aa_l04_lttr_lttrname_dlth",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "DLTh"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "Daleth"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Transliteration",
+                                    "insc_term": "Dalet"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Gematria",
+                                    "insc_cntn": "[<b>MR</b>]:[\t<span class=''>4+30+400</span>\t]=&nbsp;<span class=''>434</span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Gematria",
+                                    "insc_cntn": "[<b>MR</b>]:[\t<span class=''>4+30+4</span>\t]=&nbsp;<span class=''>38</span>"
+                                }
+                            ]
                         }
                     ]
                 }

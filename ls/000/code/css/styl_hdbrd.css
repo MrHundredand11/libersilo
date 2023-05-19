@@ -51,6 +51,7 @@
     margin-top: 47px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .styl_head_seal {
@@ -69,6 +70,18 @@
 
 .styl_head_lsid {
     font-size: 43px;
+}
+
+.hd_vw_b_1 {
+    font-family: sitka;
+    font-size: 23px;
+    font-style: italic;
+}
+
+.hd_vw_c_1 {
+    font-family: sitka;
+    font-size: 23px;
+    font-style: italic;
 }
 
 .hd_tail {

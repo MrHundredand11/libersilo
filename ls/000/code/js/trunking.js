@@ -227,8 +227,7 @@ function gen_Insc(insc_i, scion) {
                 var insc_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
             } else {
                 var insc_pnt = gen_Pntr(insc_i, insc_id);
-            }
-            
+            }            
 
             switch (scion.insc_typ2) {
                 case 'trm':
@@ -316,7 +315,14 @@ function gen_Insc(insc_i, scion) {
                         insc_arm.appendChild(insc_cntn);
                     }
                     break;
+
+                case 'adjst':
+                    if (scion.insc_adjst !== undefined) {
+                        insc_scns.classList.add(`${scion.insc_adjst}`);
+                    }
+                    return;
             }
+
             if (scion.scions !== undefined) {
                 for (x in scion.scions) {
                     insc_scns.appendChild(gen_Insc(x, scion.scions[x]));
@@ -419,6 +425,8 @@ function gen_Insc(insc_i, scion) {
                     break;
             }
             return flow_cntnr;
+
+        
     }
 
 }

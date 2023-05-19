@@ -1,3 +1,7 @@
+.ins_line {
+    border-left: 1px solid black;
+}
+
 .ins_trm_node_00 {
     font-weight: bold;
     font-family: cambria;
@@ -14,4 +18,6 @@
     display: inline-block;
     font-family: georgia;
     font-weight: bold;
+    font-size: 21px;
 }
+

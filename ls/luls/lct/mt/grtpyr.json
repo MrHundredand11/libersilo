@@ -5,6 +5,11 @@
     "scion_id": "ls_luls_lct_mt_grtpyr",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_000"
+        },
+        {
             "drct_id": "MATH",
             "drct_ttl": "Mathematics of 'The Great Pyramid'",
             "scion_id": "ls_luls_lct_mt_grtpyr_math"
@@ -13,6 +18,16 @@
             "drct_id": "HIST",
             "drct_ttl": "History of 'The Great Pyramid'",
             "scion_id": "ls_luls_lct_mt_grtpyr_hist"
+        },
+        {
+            "drct_id": "THRY",
+            "drct_ttl": "Theories about 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_thry"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_luls"
         }
     ]
 }

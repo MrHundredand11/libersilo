@@ -290,6 +290,14 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.append(insc_pnt, eqc);
                     break;
 
+                case 'nmbr_01':
+                    var i_nmb = gen_ECI('div', 'i_nmbr_01_nmb', `id_nmbr_01_nmb_${insc_id}`);
+                    var i_itr = gen_ECI('div', 'i_nmbr_01_itr', `id_nmbr_01_itr_${insc_id}`);
+                    i_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
+                    i_nmb.innerHTML = scion.insc_nmbr;
+                    insc_prtr.append(i_itr, insc_pnt, i_nmb);
+                    break;
+
                 case 'blade':
                     var bld_id = generateBladeIdNum(scion.scion_id, insc_i);
                     var insc_tag = generateTag(bld_id, scion.insc_tag);

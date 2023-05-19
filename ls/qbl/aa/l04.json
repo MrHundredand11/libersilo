@@ -7,7 +7,101 @@
         {
             "drct_id": "QCCL",
             "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_qbl_aa_l04_qccl"
+            "scion_id": "ls_qbl_aa_l04_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "twig",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qabalistic</b></u> <i>correspondences of</i> (<b><i>Daleth</b></i>)</span>",
+                    "scion_id": "ls_qbl_aa_l04_qccl_qblh",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Letter Position",
+                            "insc_term": "4"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Letter Value",
+                            "insc_term": "4"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Letter-Name Spelling",
+                            "insc_term": "דלת"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Letter-Name Transliteration",
+                            "insc_term": "DLTh"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Letter-Name Value",
+                            "insc_term": "434"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Double Letter",
+                            "insc_term": "Wisdom and Folly"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Path Number",
+                            "insc_term": "Path 14"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Qabalistic Intelligence",
+                            "insc_term": "Luminous Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Qabalistic Intelligence",
+                            "insc_term": "Illuminating Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "BOTA Color",
+                            "insc_term": "Green"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "BOTA Tone",
+                            "insc_term": "F-Sharp"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "BOTA Tone",
+                            "insc_term": "G-Flat"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Alchemical Metal",
+                            "insc_term": "Copper"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Alchemical Metal",
+                            "insc_term": "Brass"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "FORM",
@@ -17,7 +111,34 @@
         {
             "drct_id": "NUMB",
             "drct_ttl": "Numbers of 'The Letter Daleth'",
-            "scion_id": "ls_qbl_aa_l04_numb"
+            "scion_id": "ls_qbl_aa_l04_numb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Number Exploration",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Exploration</b></u> <i>of the</i> <b><u>Numbers</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "scion_id": "ls_qbl_aa_l04_numb_explr",
+                    "scions": [
+                        {
+                            "insc_term": "4",
+                            "scion_id": "ls_qbl_aa_l04_numb_explr_004"
+                        },
+                        {
+                            "insc_term": "12",
+                            "scion_id": "ls_qbl_aa_l04_numb_explr_012"
+                        },
+                        {
+                            "insc_term": "14",
+                            "scion_id": "ls_qbl_aa_l04_numb_explr_014"
+                        },
+                        {
+                            "insc_term": "434",
+                            "scion_id": "ls_qbl_aa_l04_numb_explr_434"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "PRYR",

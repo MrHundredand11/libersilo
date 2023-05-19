@@ -267,11 +267,6 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "adjst",
-                                    "insc_adjst": "ins_line"
-                                },
-                                {
-                                    "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",

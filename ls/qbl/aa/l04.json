@@ -116,6 +116,26 @@
             ]
         },
         {
+            "drct_id": "LTTR",
+            "drct_ttl": "The Letter of 'Daleth'",
+            "scion_id": "ls_qbl_aa_l04_lttr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Letter-Name</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "scion_id": "ls_qbl_aa_l04_lttr_lttrname",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class=''>דלת</span>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "FORM",
             "drct_ttl": "Form of 'The Letter Daleth'",
             "scion_id": "ls_qbl_aa_l04_form",

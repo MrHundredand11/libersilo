@@ -3,3 +3,15 @@
     font-family: cambria;
     font-size: 47px;
 }
+
+.ins_gmtr_calc {
+    display: inline-block;
+    font-family: cambria;
+    font-weight: bold;
+}
+
+.ins_gmtr_rslt {
+    display: inline-block;
+    font-family: georgia;
+    font-weight: bold;
+}

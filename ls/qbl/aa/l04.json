@@ -130,7 +130,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_cntn": "<span class='ins_trm_node_00'>דלת</span>",
-                            "insc_offs": "algn_itm_cntr",
+                            "insc_algn": "algn_itm_cntr",
                             "scion_id": "ls_qbl_aa_l04_lttr_lttrname_dlth",
                             "scions": [
                                 {

@@ -98,6 +98,12 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Alchemical Metal",
                             "insc_term": "Brass"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Celestial Correspondence",
+                            "insc_term": "The Planet Venus"
                         }
                     ]
                 }

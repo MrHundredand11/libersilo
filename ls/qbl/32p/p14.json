@@ -80,6 +80,28 @@
                     "scion_id": "ls_qbl_32p_p14_qblh_otz"
                 }
             ]
+        },
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts of 'The 14th Path'",
+            "scion_id": "ls_qbl_32p_p14_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 14</b></i>) ::",
+                    "insc_tag": "Texts",
+                    "scion_id": "ls_qbl_32p_p14_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Wade Coleman Translation"
+                        },
+                        {
+                            "insc_term": "Latin Commentary"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

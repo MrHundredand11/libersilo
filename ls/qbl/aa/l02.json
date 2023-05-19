@@ -4,6 +4,84 @@
     "scion_id": "ls_qbl_aa_l02",
     "scions": [
         {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Letter Bayt'",
+            "scion_id": "ls_qbl_aa_l02_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Qabalistic Correspondences",
+                    "insc_offs": "algn_y_up_23",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Bayt</b></i>)",
+                    "scion_id": "ls_qbl_aa_l02_qblh_000_crrsp"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Arcana Alphabet",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_aa"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Astrological Cycles",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_alg"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Cube of Space",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_cube"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Directions",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Directions</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_drct"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Double Letters",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_dblltr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Modes of Consciousness",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_cnscs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Qabalistic Intelligences",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_intl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "The Tarot Arcana",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "The Tree of Life",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Bayt</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "scion_id": "ls_qbl_aa_l02_qblh_otz"
+                }
+            ]
+        },
+        {
             "drct_id": "ASSC",
             "drct_ttl": "Associations of 'The Letter Bayt'",
             "scion_id": "ls_qbl_aa_l02_assc",
@@ -69,7 +147,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Relationships",
-                    "insc_ttl": "List of Relationships of (The Letter Bayt) ::",
+                    "insc_ttl": "List of <b><u>Relationships</b></u> <i>of</i> (<b><i>Bayt</b></i>)",
                     "scion_id": "ls_qbl_aa_l02_rltn_lst",
                     "scions": [
                         {
@@ -93,9 +171,16 @@
                     "scions": [
                         {
                             "insc_tag": "Prayer",
-                            "insc_term": "A Prayer of Beth by Dolores Ashcroft-Nowicki",
+                            "insc_term": "A Prayer of Beth",
                             "scion_id": "ls_qbl_aa_l02_pryr_doloresashcroftnowicki",
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Author",
+                                    "insc_term": "Dolores Ashcroft-Nowicki",
+                                    "insc_offs": "algn_y_up_23"
+                                },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",

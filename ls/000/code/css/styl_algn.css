@@ -2,6 +2,10 @@
     align-items: center;
 }
 
-.algn_rght {
+.algn_itm_rg {
     align-items: flex-end;
+}
+
+.algn_txt_cn {
+    text-align: center;
 }

@@ -1545,13 +1545,6 @@
                             "scion_id": "ls_luls_lct_bbl"
                         },
                         {
-                            "ls_id": "LS-LULS-LCT-KHM",
-                            "ls_ttl": "Egyptian Locations",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/khm",
-                            "scion_id": "ls_luls_lct_khm"
-                        },
-                        {
                             "ls_id": "LS-LULS-LCT-HLWE",
                             "ls_ttl": "Hollow Earth Locations",
                             "ls_type": "=>",
@@ -1563,7 +1556,30 @@
                             "ls_ttl": "Mountain Locations",
                             "ls_type": "=>",
                             "ls_url": "/ls/luls/lct/mt",
-                            "scion_id": "ls_luls_lct_mt"
+                            "scion_id": "ls_luls_lct_mt",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-LCT-MT-GRTPYR",
+                                    "ls_ttl": "The Great Pyramid",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/lct/mt/grtpyr.json",
+                                    "scion_id": "ls_luls_lct_mt_grtpyr"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-LCT-MT-SHSTA",
+                                    "ls_ttl": "Mount Shasta",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/lct/mt/shsta.json",
+                                    "scion_id": "ls_luls_lct_mt_shsta"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-LCT-MT-VLCN",
+                                    "ls_ttl": "Volcanoes",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/lct/mt/vlcn.json",
+                                    "scion_id": "ls_luls_lct_mt_vlcn"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-LCT-PLLR",

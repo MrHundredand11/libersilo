@@ -246,7 +246,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Prayers</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Daleth</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;::",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Prayers</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
                     "scion_id": "ls_qbl_aa_l04_pryr_lst",
                     "scions": [
                         {
@@ -264,14 +264,14 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Text",
-                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Text</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>A Prayer of Daleth</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Text</b></u> <i>of</i> (<b><i>A Prayer of Daleth</b></i>)</span>",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_txt",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt_stpl",
                                             "insc_tag": "Text",
-                                            "insc_cntn": "[\n\t<span class='algn_cntr'><span class='in_txt_headr_01'>DALETH<br>ד</span><br><br><span style='font-family:sitka;'>Thou art the door to joy and tears.<br>All that lifts my heart and wounds my soul enters my world through thee.<br>Thou art the gateway to life and death,<br>knowledgeand power,<br>deceit and love.<br><br>Thy heart is a lock, but where shall I find the key?<br>Open to me, Beloved, let me enter into thee and know thy embrace.<br>Shall I knock upon thy lintel?<br>If I beg thee, wilt thou open to me?<br><br>Thou art the door to the Light,<br>and the key to the lock is love.<br><br>I wait before thee until,<br>weary with sleep denied, I close my eyes.<br>When I awake the way is open before me and,<br>singing praises to God, I enter thy world.</span>\t\t\t\t\t]</span>"
+                                            "insc_cntn": "[\n\t<span class='algn_txt_cn'><span class='in_txt_headr_01'>DALETH<br>ד</span><br><br><span style='font-family:sitka;'>Thou art the door to joy and tears.<br>All that lifts my heart and wounds my soul enters my world through thee.<br>Thou art the gateway to life and death,<br>knowledgeand power,<br>deceit and love.<br><br>Thy heart is a lock, but where shall I find the key?<br>Open to me, Beloved, let me enter into thee and know thy embrace.<br>Shall I knock upon thy lintel?<br>If I beg thee, wilt thou open to me?<br><br>Thou art the door to the Light,<br>and the key to the lock is love.<br><br>I wait before thee until,<br>weary with sleep denied, I close my eyes.<br>When I awake the way is open before me and,<br>singing praises to God, I enter thy world.</span>\t\t\t\t\t]</span>"
                                         }
                                     ]
                                 },
@@ -279,7 +279,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Commentary",
-                                    "insc_ttl": "Commentary on (A Prayer of Daleth)",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Commentary</b></u> <i>on</i> (<b><i>A Prayer of Daleth</b></i>)</span>",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_cmmntry"
                                 }
                             ]

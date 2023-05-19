@@ -3040,16 +3040,37 @@
                 {
                     "ls_id": "LS-MMM-PTTRN",
                     "ls_ttl": "Patterns",
-                    "ls_url": "",
+                    "ls_url": "/ls/mmm/pttrn/",
                     "ls_type": "=>",
                     "scion_id": "ls_mmm_pttrn",
                     "scions": [
                         {
-                            "ls_id": "LS-MMM-PTTRN-3712",
-                            "ls_ttl": "The 3-7-12 Pattern",
-                            "ls_url": "",
+                            "ls_id": "LS-MMM-PTTRN-P357",
+                            "ls_ttl": "The 3-5-7 Pattern",
+                            "ls_url": "/ls/mmm/pttrn/p357.json",
                             "ls_type": "+>",
-                            "scion_id": "ls_mmm_pttrn_3712"
+                            "scion_id": "ls_mmm_pttrn_p357"
+                        },
+                        {
+                            "ls_id": "LS-MMM-PTTRN-P3712",
+                            "ls_ttl": "The 3-7-12 Pattern",
+                            "ls_url": "/ls/mmm/pttrn/p3712.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_p3712"
+                        },
+                        {
+                            "ls_id": "LS-MMM-PTTRN-P47P",
+                            "ls_ttl": "The 47th Problem of Euclid",
+                            "ls_url": "/ls/mmm/pttrn/p47p.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_p47p"
+                        },
+                        {
+                            "ls_id": "LS-MMM-PTTRN-P67",
+                            "ls_ttl": "The 6+7th Pattern",
+                            "ls_url": "/ls/mmm/pttrn/p67.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_pttrn_p67"
                         }
                     ]
                 }

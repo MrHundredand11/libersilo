@@ -1,0 +1,18 @@
+{
+    "ls_id": "LS-DGTL-CODE-WEB-CSS-000",
+    "ls_ttl": "Overview of CSS Styling",
+    "ls_url": "/ls/dgtl/code/web/css/000.json",
+    "scion_id": "ls_dgtl_code_web_css_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'CSS Styling'",
+            "scion_id": "ls_dgtl_code_web_css_000_000"
+        },
+        {
+            "drct_id": "INST",
+            "drct_ttl": "Inserting 'CSS Styling'",
+            "scion_id": "ls_dgtl_code_web_css_000_INST"
+        }
+    ]
+}

@@ -94,10 +94,28 @@
                     "scion_id": "ls_qbl_32p_p14_txts_lst",
                     "scions": [
                         {
-                            "insc_term": "Wade Coleman Translation"
+                            "insc_term": "Wade Coleman Translation",
+                            "scion_id": "ls_qbl_32p_p14_txts_lst_wdclmn",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\n\tThe 14th Path is the Illuminating Intelligence (Sekhel Meir). It is the essence of electricity (Chasmal). It teaches the fundamentals of the secret mysteries of the Holy Sanctuary and its plan.\t\t]"
+                                }
+                            ]
                         },
                         {
-                            "insc_term": "Latin Commentary"
+                            "insc_term": "Athanasius Kircher Commentary",
+                            "scion_id": "ls_qbl_32p_p14_txts_lst_athkrch",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\n\t<span class=''>The 14th Path is called the Illuminating Intelligence because it is \"Chasmal\", the founder of mysteries and fundament of sanctity and the organization of such matter. It is said to be the path of secrets, existing in created beings.</span>\t\t]"
+                                }
+                            ]
                         }
                     ]
                 }

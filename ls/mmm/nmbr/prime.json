@@ -1,138 +1,82 @@
 {
     "ls_id": "LS-MMM-NMBR-PRIME",
     "ls_ttl": "Prime Numbers",
+    "ls_url": "/ls/mmm/nmbr/prime.json",
+    "scion_id": "ls_mmm_nmbr_prime",
     "scions": [
         {
             "drct_id": "LIST",
-            "drct_ttl": "List of 'Prime Numbers'",
-            "type": "branch",
+            "drct_ttl": "Lists of 'Prime Numbers'",
             "scion_id": "ls_mmm_nmbr_prime_list",
             "scions": [
                 {
-                    "insc_name": "<span class='span_list_title'>List</span> of <span class='span_list_title'>Lists</span> of <span class='span_opn_cls'>(</span>Prime Numbers<span class='span_opn_cls'>)</span>",
-                    "insc_type": "brnch_explst",
-                    "scion_id": "ls_mmm_nmbr_prime_list_menu",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twig",
+                    "insc_term": "The First 100 Prime Numbers",
+                    "scion_id": "ls_mmm_nmbr_prime_list_top100",
                     "scions": [
                         {
-                            "insc_type": "li_top",
-                            "insc_term": "The First 100 Prime Numbers",
-                            "scion_id": "ls_mmm_nmbr_prime_list_top100",
-                            "scions": [
-                                {
-                                    "insc_tag": "P001",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "1",
-                                    "insc_term": "2"
-                                },
-                                {
-                                    "insc_tag": "P002",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "2",
-                                    "insc_term": "3"
-                                },
-                                {
-                                    "insc_tag": "P003",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "3",
-                                    "insc_term": "5"
-                                },
-                                {
-                                    "insc_tag": "P004",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "4",
-                                    "insc_term": "7"
-                                },
-                                {
-                                    "insc_tag": "P005",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "5",
-                                    "insc_term": "11"
-                                },
-                                {
-                                    "insc_tag": "P006",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "6",
-                                    "insc_term": "13"
-                                },
-                                {
-                                    "insc_tag": "P007",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "7",
-                                    "insc_term": "13"
-                                },
-                                {
-                                    "insc_tag": "P008",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "8",
-                                    "insc_term": "17"
-                                },
-                                {
-                                    "insc_tag": "P009",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "9",
-                                    "insc_term": "19"
-                                },
-                                {
-                                    "insc_tag": "P010",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "10",
-                                    "insc_term": "23"
-                                },
-                                {
-                                    "insc_tag": "P011",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "11",
-                                    "insc_term": "29"
-                                },
-                                {
-                                    "insc_tag": "P012",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "12",
-                                    "insc_term": "31"
-                                },
-                                {
-                                    "insc_tag": "P013",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "13",
-                                    "insc_term": "41"
-                                },
-                                {
-                                    "insc_tag": "P014",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "14",
-                                    "insc_term": "43"
-                                },
-                                {
-                                    "insc_tag": "P015",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "15",
-                                    "insc_term": "47"
-                                },
-                                {
-                                    "insc_tag": "P016",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "16",
-                                    "insc_term": "53"
-                                },
-                                {
-                                    "insc_tag": "P017",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "17",
-                                    "insc_term": "59"
-                                },
-                                {
-                                    "insc_tag": "P018",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "18",
-                                    "insc_term": "61"
-                                },
-                                {
-                                    "insc_tag": "P019",
-                                    "insc_type": "bld_smp_itr",
-                                    "insc_itr": "19",
-                                    "insc_term": "67"
-                                }
-                            ]
+                            "insc_tag": "P001",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "1",
+                            "insc_nmbr": "2"
+                        },
+                        {
+                            "insc_tag": "P002",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "2",
+                            "insc_nmbr": "3"
+                        },
+                        {
+                            "insc_tag": "P003",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "3",
+                            "insc_nmbr": "5"
+                        },
+                        {
+                            "insc_tag": "P004",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "4",
+                            "insc_nmbr": "7"
+                        },
+                        {
+                            "insc_tag": "P005",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "5",
+                            "insc_nmbr": "11"
+                        },
+                        {
+                            "insc_tag": "P006",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "6",
+                            "insc_nmbr": "13"
+                        },
+                        {
+                            "insc_tag": "P007",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "7",
+                            "insc_nmbr": "17"
+                        },
+                        {
+                            "insc_tag": "P008",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "8",
+                            "insc_nmbr": "19"
+                        },
+                        {
+                            "insc_tag": "P009",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "9",
+                            "insc_nmbr": "23"
                         }
                     ]
                 }

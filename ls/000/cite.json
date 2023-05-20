@@ -274,7 +274,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_name": "Web Pages relating to (Digital Realms)",
+                    "insc_ttl": "Web Pages relating to (Digital Realms)",
                     "scion_id": "ls_000_cite_wbpg_ls_dgtl",
                     "scions": [
                         {

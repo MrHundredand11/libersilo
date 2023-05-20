@@ -425,10 +425,41 @@ function gen_Insc(insc_i, scion) {
                     break;
             }
             return flow_cntnr;
+            
+        case 'cite':
+                var cite_cntnr = gen_ECI('div', `cite_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
+                var cite_prtr = createElementWithClass('div', 'styl_lf_protrusion');
+                var cite_scns = gen_ECI('div', 'cite_scns stt_hide', `id_cite_scns_${insc_id}`);
+                cite_cntnr.append(cite_prtr, cite_scns);
 
-        
+                //title
+                //author
+                //publisher
+                //publication date
+                
+                switch (scion.insc_typ2) {
+                    case 'md_00':
+                        var cite_ttl = gen_term(insc_id, scion.insc_cite.cite_ttl);
+                        cite_prtr.append(insc_pnt, cite_ttl);
+                        cite_prtr.style['align-items'] = 'center';
+                        if (scion.insc_cite.cite_auth !== undefined) {
+                            var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.insc_cite.cite_auth}`);
+                            cite_scns.append(cite_auth);
+                        }
+                        
+                        if (scion.insc_cite.cite_pbls !== undefined) {
+                            var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.insc_cite.cite_pbls}`);
+                            cite_scns.append(cite_pbls);
+                        }
+
+                        if (scion.insc_cite.cite_date !== undefined) {
+                            var cite_date = gen_ECI('div', 'cite_date', `id_cite_date_${scion.insc_cite.cite_date}`);
+                            cite_scns.append(cite_date);
+                        }
+                        break;    
+                    }           
+            return cite_cntnr;
     }
-
 }
 
 function gen_lf(lf_i, lf) {

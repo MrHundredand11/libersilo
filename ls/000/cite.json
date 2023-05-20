@@ -277,9 +277,9 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
-                            "insc_term": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail",
-                            "insc_auth": "Ivan Kovachev",
-                            "insc_ttl": "SPF Hard Fail vs SPF Soft Fail"
+                            "cite_link": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail",
+                            "cite_auth": "Ivan Kovachev",
+                            "cite_ttl": "SPF Hard Fail vs SPF Soft Fail"
                         }
                     ]
                 }

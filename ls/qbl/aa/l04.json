@@ -534,13 +534,15 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
-                                            "insc_cntn": "Establish relaxation and breathing rhythms.",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
+                                            "insc_cntn": "Establish relaxation and breathing rhythms.",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_001"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "insc_cntn": "Read the parable of the prodigal son, taking each of the three sections separately.",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_002",
@@ -571,6 +573,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "insc_cntn": "Look for symbols, realizations, and an understanding of the text on the physical, the mental, and the spiritual levels. When you have done this, meditate on each section, taking on the character of the son and then of the father.",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_003"
@@ -578,6 +581,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "insc_cntn": "Record anything of significance.",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_004"
@@ -599,6 +603,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_001",
                                             "insc_cntn": "Build an image of a wall with a door in the center."
@@ -606,6 +611,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_002",
                                             "insc_cntn": "Imagine yourself seated before this door."
@@ -613,6 +619,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_003",
                                             "insc_cntn": "Do nothing else, just wait."
@@ -620,6 +627,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_004",
                                             "insc_cntn": "If thoughts come, look at them, examine them for relevance to your situation, then dismiss them."
@@ -627,6 +635,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_005",
                                             "insc_cntn": "Do this for three days. On the fourth day the door will open and you can pass through."
@@ -634,6 +643,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_006",
                                             "insc_cntn": "Record what you see."
@@ -655,6 +665,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_styl": "size_23px",
                                             "insc_cntn": "Meditate on the symbolism of the Light of the World"
                                         }
                                     ]

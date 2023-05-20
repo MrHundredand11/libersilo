@@ -259,6 +259,9 @@ function gen_Insc(insc_i, scion) {
                 case 'txt':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
+                    if (scion.insc_styl !== undefined) {
+                        insc_prtr.classList.add(`${scion.insc_styl}`);
+                    }
                     insc_prtr.append(insc_pnt, insc_cntn);
                     break;
                 
@@ -436,8 +439,7 @@ function gen_Insc(insc_i, scion) {
                 var insc_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
             } else {
                 var insc_pnt = gen_Pntr(insc_i, insc_id);
-            } 
-            console.log(insc_pnt);
+            }
            
             switch (scion.insc_typ2) {
                 case 'md_00':

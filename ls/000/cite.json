@@ -5,11 +5,12 @@
     "scions": [
         {
             "drct_id": "TCHR",
-            "drct_ttl": "List of Teachers of Helpful Lessons + Lectures",
+            "drct_ttl": "Lists of Teachers",
             "scion_id": "ls_000_cite_tchr",
             "scions": [
                 {
-                    "insc_type": "stm",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
                     "insc_ttl": "List of Teachers of (Digital) Information",
                     "scion_id": "ls_000_cite_tchr_dgtl",
@@ -180,11 +181,12 @@
         },
         {
             "drct_id": "WBPG",
-            "drct_ttl": "List of Helpful Web Pages",
+            "drct_ttl": "Lists of Web Pages",
             "scion_id": "ls_000_cite_wbpg",
             "scions": [
                 {
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_name": "Web Pages relating to (Digital Realms)",
                     "scion_id": "ls_000_cite_wbpg_ls_dgtl",
                     "scions": [

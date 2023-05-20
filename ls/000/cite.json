@@ -5,7 +5,7 @@
     "scions": [
         {
             "drct_id": "TCHR",
-            "drct_ttl": "Lists of Teachers",
+            "drct_ttl": "Lists of 'Teachers'",
             "scion_id": "ls_000_cite_tchr",
             "scions": [
                 {
@@ -227,8 +227,13 @@
             ]
         },
         {
+            "drct_id": "BOOK",
+            "drct_ttl": "Lists of 'Books'",
+            "scion_id": "ls_000_cite_book"
+        },
+        {
             "drct_id": "WBPG",
-            "drct_ttl": "Lists of Web Pages",
+            "drct_ttl": "Lists of 'Web Pages'",
             "scion_id": "ls_000_cite_wbpg",
             "scions": [
                 {

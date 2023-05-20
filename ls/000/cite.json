@@ -20,6 +20,7 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Teacher",
                             "insc_term": "Ashcroft-Nowicki, Dolores",
+                            "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -34,6 +35,7 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Teacher",
                             "insc_term": "Case, Paul Foster",
+                            "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -48,6 +50,7 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Teacher",
                             "insc_term": "Tabrizi, Shams",
+                            "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",

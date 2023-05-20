@@ -1,0 +1,43 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K03",
+    "ls_ttl": "The Empress Card",
+    "ls_url": "/ls/qbl/taro/key/k03.json",
+    "scion_id": "ls_qbl_taro_key_k03",
+    "scions": [
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_qbl_taro_key_k03_qccl"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_name"
+        },
+        {
+            "drct_id": "KEYW",
+            "drct_ttl": "Key Words + Themes of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_keyw"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_qblh"
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Symbolism of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_symb"
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_rltn"
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Personal Applications of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_prsn"
+        }
+    ]
+}

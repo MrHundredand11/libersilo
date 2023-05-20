@@ -551,21 +551,24 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "",
-                                                    "insc_cntn": "<b>1</b> ) The demand for his inheritance and his departure.",
+                                                    "insc_styl": "size_17px",
+                                                    "insc_cntn": "\t\t<b>1</b> ) The demand for his inheritance and his departure.",
                                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_002_a1"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "",
-                                                    "insc_cntn": "<b>2</b> ) His experiences in the outer world and his downfall.",
+                                                    "insc_styl": "size_17px",
+                                                    "insc_cntn": "\t\t<b>2</b> ) His experiences in the outer world and his downfall.",
                                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_002_a2"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "",
-                                                    "insc_cntn": "<b>3</b> ) The return.",
+                                                    "insc_styl": "size_17px",
+                                                    "insc_cntn": "\t\t<b>3</b> ) The return.",
                                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_002_a3"
                                                 }
                                             ]

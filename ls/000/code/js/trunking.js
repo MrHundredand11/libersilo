@@ -444,22 +444,27 @@ function gen_Insc(insc_i, scion) {
                     var cite_ttl = gen_term(insc_id, scion.cite_ttl);
                     cite_prtr.append(insc_pnt, cite_ttl);
                     cite_prtr.style['align-items'] = 'center';
+                    
                     if (scion.cite_auth !== undefined) {
                         var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.cite_auth}`);
+                        cite_auth.innerHTML = scion.cite_auth;
                         cite_scns.append(cite_auth);
                     }
                         
-                        if (scion.cite_pbls !== undefined) {
-                            var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.cite_pbls}`);
-                            cite_scns.append(cite_pbls);
-                        }
+                    if (scion.cite_pbls !== undefined) {
+                        var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.cite_pbls}`);
+                        cite_pbls.innerHTML = scion.cite_pbls;
+                        cite_scns.append(cite_pbls);
+                    }
 
-                        if (scion.cite_date !== undefined) {
-                            var cite_date = gen_ECI('div', 'cite_date', `id_cite_date_${scion.cite_date}`);
-                            cite_scns.append(cite_date);
-                        }
-                        break;    
-                    }           
+                    if (scion.cite_date !== undefined) {
+                        var cite_date = gen_ECI('div', 'cite_date', `id_cite_date_${scion.cite_date}`);
+                        cite_date.innerHTML = scion.cite_date;
+                        cite_scns.append(cite_date);
+                    }
+                    break;    
+                }   
+
             return cite_cntnr;
     }
 }

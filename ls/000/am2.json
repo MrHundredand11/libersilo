@@ -4215,7 +4215,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-QBL-ShM-000",
-                            "ls_ttl": "The Divine Names",
+                            "ls_ttl": "Overview of The Divine Names",
                             "ls_type": "+>",
                             "ls_url": "/ls/qbl/shm/000.json",
                             "scion_id": "ls_qbl_shm_000"

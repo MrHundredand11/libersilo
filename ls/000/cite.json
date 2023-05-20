@@ -229,7 +229,15 @@
         {
             "drct_id": "BOOK",
             "drct_ttl": "Lists of 'Books'",
-            "scion_id": "ls_000_cite_book"
+            "scion_id": "ls_000_cite_book",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class=''><b><u>List</b></u> <i>of</i> <b><u>Books</b></i> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
+                    "scion_id": "ls_000_cite_book_lst"
+                }
+            ]
         },
         {
             "drct_id": "WBPG",

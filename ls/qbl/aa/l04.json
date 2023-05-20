@@ -599,36 +599,42 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_001",
                                             "insc_cntn": "Build an image of a wall with a door in the center."
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_002",
                                             "insc_cntn": "Imagine yourself seated before this door."
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_003",
                                             "insc_cntn": "Do nothing else, just wait."
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_004",
                                             "insc_cntn": "If thoughts come, look at them, examine them for relevance to your situation, then dismiss them."
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_005",
                                             "insc_cntn": "Do this for three days. On the fourth day the door will open and you can pass through."
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_offs": "styl_offs_dwn_17",
                                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd_006",
                                             "insc_cntn": "Record what you see."
                                         }

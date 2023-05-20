@@ -12,6 +12,21 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
+                    "insc_ttl": "List of Teachers of (Qabalah) Information",
+                    "scion_id": "ls_000_cite_tchr_qblh",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Ashcroft-Nowicki, Dolores"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Teachers",
                     "insc_ttl": "List of Teachers of (Digital) Information",
                     "scion_id": "ls_000_cite_tchr_dgtl",
                     "scions": [

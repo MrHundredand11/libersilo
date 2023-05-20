@@ -4210,8 +4210,129 @@
                     "ls_id": "LS-QBL-ShM",
                     "ls_ttl": "The Divine Names",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_qbl_shm"
+                    "ls_url": "/ls/qbl/shm/",
+                    "scion_id": "ls_qbl_shm",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-ShM-000",
+                            "ls_ttl": "The Divine Names",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/000.json",
+                            "scion_id": "ls_qbl_shm_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-ADNY",
+                            "ls_ttl": "Adonai",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/adny.json",
+                            "scion_id": "ls_qbl_shm_adny"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-AL",
+                            "ls_ttl": "AL",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/al.json",
+                            "scion_id": "ls_qbl_shm_al"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-ALHYM",
+                            "ls_ttl": "Elohim",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/alhym.json",
+                            "scion_id": "ls_qbl_shm_alhym"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-AMEN",
+                            "ls_ttl": "The Amen",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/amen.json",
+                            "scion_id": "ls_qbl_shm_amen"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-ANABKC",
+                            "ls_ttl": "The Ana Bekoach",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/000.json",
+                            "scion_id": "ls_qbl_shm_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-HD",
+                            "ls_ttl": "Had + Hadit",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/hd.json",
+                            "scion_id": "ls_qbl_shm_hd"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-IAM",
+                            "ls_ttl": "I AM",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/iam.json",
+                            "scion_id": "ls_qbl_shm_iam"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-IAO",
+                            "ls_ttl": "I A O",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/iao.json",
+                            "scion_id": "ls_qbl_shm_iao"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-INRI",
+                            "ls_ttl": "I N R I",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/inri.json",
+                            "scion_id": "ls_qbl_shm_inri"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-JBLN",
+                            "ls_ttl": "Jah-Bal-On",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/jbln.json",
+                            "scion_id": "ls_qbl_shm_jbln"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-MH",
+                            "ls_ttl": "MaH",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/mh.json",
+                            "scion_id": "ls_qbl_shm_mh"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-MHBN",
+                            "ls_ttl": "Ma-Ha-Bone",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/mhbn.json",
+                            "scion_id": "ls_qbl_shm_mhbn"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-NV",
+                            "ls_ttl": "Nu + Nut + Nuit",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/nv.json",
+                            "scion_id": "ls_qbl_shm_nv"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-SHDALC",
+                            "ls_ttl": "Shaddai El Chai",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/shdalc.json",
+                            "scion_id": "ls_qbl_shm_shdalc"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-YHVH",
+                            "ls_ttl": "YHVH (Tetragrammaton)",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/yhvh.json",
+                            "scion_id": "ls_qbl_shm_yhvh"
+                        },
+                        {
+                            "ls_id": "LS-QBL-ShM-YOD",
+                            "ls_ttl": "The Yod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/shm/yod.json",
+                            "scion_id": "ls_qbl_shm_yod"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-QBL-TARO",
@@ -4250,7 +4371,7 @@
                                 },
                                 {
                                     "ls_id": "LS-QBL-TARO-KEY-K03",
-                                    "ls_ttl": "The Emperess Card",
+                                    "ls_ttl": "The Empress Card",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/taro/key/k03.json",
                                     "scion_id": "ls_qbl_taro_key_k03"

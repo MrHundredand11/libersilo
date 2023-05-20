@@ -19,7 +19,29 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Teacher",
-                            "insc_term": "Ashcroft-Nowicki, Dolores"
+                            "insc_term": "Ashcroft-Nowicki, Dolores",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "DAN"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Case, Paul Foster",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "PFC"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -31,19 +53,19 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Also Known As",
-                                    "insc_term": "Shams Tabrizi"
+                                    "insc_cntn": "Shams Tabrizi"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Also Known As",
-                                    "insc_term": "Shams-i Tabrīzī"
+                                    "insc_cntn": "Shams-i Tabrīzī"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Also Known As",
-                                    "insc_term": "Shams al-Din Mohammad"
+                                    "insc_cntn": "Shams al-Din Mohammad"
                                 }
                             ]
                         }

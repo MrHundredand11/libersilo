@@ -240,14 +240,10 @@
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
-                            "insc_cite": [
-                                {
-                                    "cite_ttl": "Illuminations: The Healing of the Soul",
-                                    "cite_auth": "Ashcroft-Nowicki, Dolores",
-                                    "cite_pbls": "Llewellyn Publications",
-                                    "cite_date": "2003"
-                                }
-                            ]
+                            "cite_ttl": "Illuminations: The Healing of the Soul",
+                            "cite_auth": "Ashcroft-Nowicki, Dolores",
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_date": "2003"
                         }
                     ]
                 }

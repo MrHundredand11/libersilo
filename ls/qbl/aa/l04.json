@@ -581,11 +581,34 @@
                         },
                         {
                             "insc_term": "Meditation 2",
-                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002"
+                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002",
+                            "scions": [
+                                {
+                                    "insc_typ1": "twig",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 2</b></i>)</span>",
+                                    "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Meditation 3",
-                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003"
+                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003",
+                            "scions": [
+                                {
+                                    "insc_typ1": "twig",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 3</b></i>)</span>",
+                                    "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003_prcd",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "Meditate on the symbolism of the Light of the World"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

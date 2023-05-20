@@ -38,6 +38,11 @@
             "drct_id": "PRSN",
             "drct_ttl": "Personal Applications of 'The Empress Card'",
             "scion_id": "ls_qbl_taro_key_k03_prsn"
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_deit"
         }
     ]
 }

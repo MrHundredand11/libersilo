@@ -240,6 +240,19 @@
             ]
         },
         {
+            "drct_id": "MNGR",
+            "drct_ttl": "Lists of 'Monographs'",
+            "scion_id": "ls_000_cite_mngr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class=''><b><u>List</b></u> <i>of</i> <b><u>Monographs</b></i> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
+                    "scion_id": "ls_000_cite_mngr_lst"
+                }
+            ]
+        },
+        {
             "drct_id": "WBPG",
             "drct_ttl": "Lists of 'Web Pages'",
             "scion_id": "ls_000_cite_wbpg",

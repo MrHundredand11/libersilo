@@ -133,6 +133,48 @@
                             "insc_typ2": "nmbr_01",
                             "insc_itr": "17",
                             "insc_nmbr": "59"
+                        },
+                        {
+                            "insc_tag": "P018",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "18",
+                            "insc_nmbr": "61"
+                        },
+                        {
+                            "insc_tag": "P019",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "19",
+                            "insc_nmbr": "67"
+                        },
+                        {
+                            "insc_tag": "P020",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "20",
+                            "insc_nmbr": "71"
+                        },
+                        {
+                            "insc_tag": "P021",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "21",
+                            "insc_nmbr": "73"
+                        },
+                        {
+                            "insc_tag": "P022",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "22",
+                            "insc_nmbr": "79"
+                        },
+                        {
+                            "insc_tag": "P023",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr_01",
+                            "insc_itr": "23",
+                            "insc_nmbr": "83"
                         }
                     ]
                 }

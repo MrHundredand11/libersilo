@@ -12,7 +12,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Teachers</b></u> <i>of</i> (<b><i>Spiritual</b></i>) <b>Information</b>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Teachers</b></u> <i>of</i> (<b><i>Spiritual</b></i>) <b>Information</b></span>",
                     "scion_id": "ls_000_cite_tchr_qblh",
                     "scions": [
                         {
@@ -41,7 +41,6 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Also Known As",
-                                    "insc_offs": "cite_sbdt",
                                     "insc_cntn": "PFC"
                                 }
                             ]
@@ -79,7 +78,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "List of Teachers of (Digital) Information",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Teachers</b></u> <i>of</i> (<b><i>Digital</b></i>) <b>Information</b></span>",
                     "scion_id": "ls_000_cite_tchr_dgtl",
                     "scions": [
                         {
@@ -286,7 +285,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class=''><b><u>List</b></u> <i>of</i> <b><u>Books</b></u> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Books</b></u> <i>of</i> (<b><i>Qabalah</b></i>) <b>Information</b></span>",
                     "scion_id": "ls_000_cite_book_lst",
                     "scions": [
                         {
@@ -309,7 +308,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class=''><b><u>List</b></u> <i>of</i> <b><u>Monographs</b></i> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Monographs</b></i> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
                     "scion_id": "ls_000_cite_mngr_lst"
                 }
             ]

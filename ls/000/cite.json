@@ -238,33 +238,14 @@
                     "scion_id": "ls_000_cite_book_lst",
                     "scions": [
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "txt",
-                            "insc_cntn": "Illuminations: The Healing of the Soul",
-                            "scions": [
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite": [
                                 {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_tag": "Author",
-                                    "insc_term": "Ashcroft-Nowicki, Dolores"
-                                },
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_tag": "Publisher",
-                                    "insc_term": "Llewellyn Publications"
-                                },
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_tag": "Publication Date",
-                                    "insc_term": "2003"
+                                    "cite_ttl": "Illuminations: The Healing of the Soul",
+                                    "cite_auth": "Ashcroft-Nowicki, Dolores",
+                                    "cite_pbls": "Llewellyn Publications",
+                                    "cite_date": "2003"
                                 }
                             ]
                         }

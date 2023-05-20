@@ -509,6 +509,67 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises for 'The Letter Daleth'",
+            "scion_id": "ls_qbl_aa_l04_xrcs",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Meditations</b></u> <i>for</i> (<b><i>Daleth</b></i>)</span>",
+                    "scion_id": "ls_qbl_aa_l04_xrcs_mdtt",
+                    "scions": [
+                        {
+                            "insc_term": "Meditation 1",
+                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "twig",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 1</b></i>)</span>",
+                                    "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "Establish relaxation and breathing rhythms.",
+                                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_001"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "Read the parable of the prodigal son, taking each of the three sections separately.",
+                                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_002"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "Look for symbols, realizations, and an understanding of the text on the physical, the mental, and the spiritual levels. When you have done this, meditate on each section, taking on the character of the son and then of the father.",
+                                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_003"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "Record anything of significance.",
+                                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd_004"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Meditation 2",
+                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002"
+                        },
+                        {
+                            "insc_term": "Meditation 3",
+                            "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

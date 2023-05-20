@@ -432,6 +432,11 @@ function gen_Insc(insc_i, scion) {
                 var cite_scns = gen_ECI('div', 'cite_scns stt_hide', `id_cite_scns_${insc_id}`);
                 cite_cntnr.append(cite_prtr, cite_scns);
 
+                console.log(scion.insc_cite.cite_ttl);
+                console.log(scion.insc_cite.cite_auth);
+                console.log(scion.insc_cite.cite_pbls);
+                console.log(scion.insc_cite.cite_date);
+
                 //title
                 //author
                 //publisher

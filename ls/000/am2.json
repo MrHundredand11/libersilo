@@ -3727,8 +3727,8 @@
                                     "ls_id": "LS-QBL-ALG-SGNS-S03",
                                     "ls_ttl": "The Sign Gemini",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s03.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s03"
+                                    "ls_url": "ls/qbl/alg/zdc/s03.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s03"
                                 },
                                 {
                                     "ls_id": "LS-QBL-ALG-SGNS-S04",

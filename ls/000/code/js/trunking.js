@@ -464,6 +464,12 @@ function gen_Insc(insc_i, scion) {
                         cite_date.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Publication Date]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_date}</span>`;
                         cite_scns.append(cite_date);
                     }
+
+                    if (scion.cite_edtn !== undefined) {
+                        var cite_edtn = gen_ECI('div', 'cite_edtn', `id_cite_edtn_${scion.cite_edtn}`);
+                        cite_edtn.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Edition]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_edtn}</span>`;
+                        cite_scns.append(cite_edtn);
+                    }
                     break;    
                 }   
 

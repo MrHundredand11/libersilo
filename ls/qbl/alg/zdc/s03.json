@@ -183,13 +183,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Gift Idea",
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
                             "insc_cntn": "Books, music, videos, or anything that will quench the Gemini desire for knowledge will be appreciated, as will theater or an excursion to somewhere fun."
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Gift Idea",
-                            "insc_offs": "algn_y_up_23",
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
                             "insc_cntn": "Creativity and a sense of fun will impress more than expense and quality brand names, so think about something with a bit of novelty value; if it has a little story to go to it, all the better."
                         }
                     ]

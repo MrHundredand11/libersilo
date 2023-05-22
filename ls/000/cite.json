@@ -305,6 +305,21 @@
                             "cite_auth": "Ashcroft-Nowicki, Dolores",
                             "cite_pbls": "Llewellyn Publications",
                             "cite_date": "2003"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_ttl": "Secrets of the Great Pyramid",
+                            "cite_auth": "Tompkins, Peter",
+                            "cite_pbls": "Harper & Row, Publishers",
+                            "cite_date": "1971",
+                            "cite_edtn": "First Edition"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_ttl": "The Wisdom in the Hebrew Alphabet",
+                            "cite_auth": "Rabbi Munk"
                         }
                     ]
                 }

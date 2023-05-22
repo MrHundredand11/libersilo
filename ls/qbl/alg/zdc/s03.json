@@ -176,8 +176,23 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Gift Ideas</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s03_gift_lst_ideas"
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_gift_lst_ideas",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Gift Idea",
+                            "insc_cntn": "Books, music, videos, or anything that will quench the Gemini desire for knowledge will be appreciated, as will theater or an excursion to somewhere fun."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Gift Idea",
+                            "insc_offs": "algn_y_up_23",
+                            "insc_cntn": "Creativity and a sense of fun will impress more than expense and quality brand names, so think about something with a bit of novelty value; if it has a little story to go to it, all the better."
+                        }
+                    ]
                 }
             ]
         },

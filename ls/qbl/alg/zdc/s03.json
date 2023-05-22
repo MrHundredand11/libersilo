@@ -1,0 +1,195 @@
+{
+    "ls_id": "LS-QBL-ALG-S03",
+    "ls_ttl": "The Sign Gemini",
+    "ls_url": "/ls/qbl/alg/zdc/s03.json",
+    "scion_id": "ls_qbl_alg_zdc_s03",
+    "scions": [
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_qbl_alg_zdc_s03_qccl"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Gemstones</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_gmstn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Gemstone",
+                            "insc_cntn": "Agate"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Flowers</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_flwrs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Azalea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Lavender"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Lilac"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Lily of the Valley"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Myrtle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Flower",
+                            "insc_cntn": "Sweet Pea"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Trees</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_tree",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tree Type",
+                            "insc_cntn": "Nut-producing Trees"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Gemini",
+            "scion_id": "ls_qbl_alg_s03_qblh"
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Personality Influences of 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_prsn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Personality Descriptors",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Personality Descriptors</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini Placements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Quick-Witted"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Intelligent"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Versatile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Air-Headed"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Communicative"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Sociable"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Dual Natured"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Persuasive"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Freedom-Loving"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Personality Descriptor",
+                            "insc_term": "Adaptable"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "GIFT",
+            "drct_ttl": "Gifts for 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_gift",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Gift Ideas</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_s03_gift_lst_ideas"
+                }
+            ]
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "'Gemini' in Career",
+            "scion_id": "ls_qbl_alg_s03_work"
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Gemini'",
+            "scion_id": "ls_qbl_alg_s03_mdcl"
+        }
+    ]
+}

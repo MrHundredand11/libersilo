@@ -316,7 +316,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Books</b></u> <i>of</i> (<b><i>Qabalah</b></i>) <b>Information</b></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
                     "scion_id": "ls_000_cite_book_lst",
                     "scions": [
                         {
@@ -335,6 +335,15 @@
                             "cite_pbls": "Harper & Row, Publishers",
                             "cite_date": "1971",
                             "cite_edtn": "First Edition"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_ttl": "Why Jesus Taught Reincarnation",
+                            "cite_auth": "Puryear, Herbert Bruce",
+                            "cite_pbls": "New Paradigm Press",
+                            "cite_date": "November 1992",
+                            "cite_isbn": "0-9634964-9-2"
                         },
                         {
                             "insc_typ1": "cite",

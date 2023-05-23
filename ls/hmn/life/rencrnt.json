@@ -42,6 +42,64 @@
                             "scion_id": "ls_hmn_life_rencrnt_luls_bbl_43_1_11_14"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Spiritual Teachers",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Spiritual Teachers</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)",
+                    "scion_id": "ls_hmn_life_rencrnt_luls_tchr",
+                    "scions": [
+                        {
+                            "insc_term": "Jesus Christ of Nazareth",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "When Jesus asked, \"Who am I?\" of the disciples in the form of \"Whom do men say that I the son of man am?\" Notice that this question <i>invites</i> <u>a reincarnation type of answer</u>.",
+                                    "scion_id": "ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "||\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "\"And they said, Some say that thou art John the Baptist: some say Elijah; and others, Jeremiah, or one of the prophets.\" (<b>Matthew 16:13-14</b>)",
+                                            "scion_id":"ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam_matt161314",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_sld": "\\_",
+                                                    "insc_pntr": ">",
+                                                    "insc_cntn": "These answers confirm that <b><i>reincarnation was, for the disciples of Jesus, a known and viable concept.</b></i>",
+                                                    "scion_id": "ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam_matt161314_knownandviableconcept"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_sld": "\\_",
+                                                    "insc_pntr": ">",
+                                                    "insc_cntn": "In the Old Testament, <u>there are prophecies of the return of several of the prophets</u>.",
+                                                    "scion_id": "ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam_matt161314_propheciesofprophetsreturning"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_sld": "\\_",
+                                                    "insc_pntr": ">",
+                                                    "insc_cntn": "It is not surprising that His followers gave reincarnation-type answers to the Master's question, for <b>Jesus taught reincarnation</b>.",
+                                                    "scion_id": "ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam_matt161314_jesustaughtreincarnation"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

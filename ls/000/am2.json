@@ -1205,7 +1205,16 @@
                     "ls_ttl": "Life + Life Force",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/life/",
-                    "scion_id": "ls_hmn_life"
+                    "scion_id": "ls_hmn_life",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HMN-LIFE-RENCRNT",
+                            "ls_ttl": "Reincarnation",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/rencrnt.json",
+                            "scion_id": "ls_hmn_life_rencrnt"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-HMN-MD",

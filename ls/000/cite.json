@@ -116,198 +116,198 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Teachers</b></u> <i>of</i> (<b><i>Digital</b></i>) <b>Information</b></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Digital Information</b></u></span>",
                     "scion_id": "ls_000_cite_tchr_dgtl",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Afzal, Imran"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Anderson, Kurt"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Anderson, Neil"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Azam, Mohammad"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Bechberger, David"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Biocchi, Michael"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Brown, Kevin"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Bryan, Wes"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Buchalka, Tim"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Burton, Philip"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Cannon, Jason"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Chiarelli, Charlie"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Christopher, John"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Culp, Brian"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Diaz, Edwin"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Dion, Jason"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Duffy, Scott"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Eremenko, Krill"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Fattah, Miran"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Hamedani, Mosh"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Hasan, Aboul"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Hill, Paul"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Hill, Robert"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Hilton, Bruse"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Houchin, Matt"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Jerga, Filip"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Joy, Kshitij"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Kimbrell, Evan"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Lachance, Dan"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Lawrence, Aaron"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Lowrie, Daniel"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Khurkhuriya, Jitesh"
                         }
@@ -329,6 +329,7 @@
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Illuminations: The Healing of the Soul",
                             "cite_auth": "Ashcroft-Nowicki, Dolores",
                             "cite_pbls": "Llewellyn Publications",
@@ -337,6 +338,7 @@
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Secrets of the Great Pyramid",
                             "cite_auth": "Tompkins, Peter",
                             "cite_pbls": "Harper & Row, Publishers",
@@ -346,6 +348,7 @@
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Why Jesus Taught Reincarnation",
                             "cite_auth": "Puryear, Herbert Bruce",
                             "cite_pbls": "New Paradigm Press",
@@ -355,6 +358,7 @@
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Wisdom in the Hebrew Alphabet",
                             "cite_auth": "Rabbi Munk"
                         }

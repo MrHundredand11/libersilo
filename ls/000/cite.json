@@ -17,7 +17,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Ashcroft-Nowicki, Dolores",
                             "insc_offs": "algn_y_up_23",
@@ -34,7 +34,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Case, Paul Foster",
                             "insc_offs": "algn_y_up_23",
@@ -51,7 +51,14 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Page, Judith",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Tabrizi, Shams",
                             "insc_offs": "algn_y_up_23",
@@ -81,6 +88,20 @@
                                     "insc_cntn": "Shams al-Din Mohammad"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Webb, Don",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Weor, Samael Aun",
+                            "insc_offs": "algn_y_up_23"
                         }
                     ]
                 },

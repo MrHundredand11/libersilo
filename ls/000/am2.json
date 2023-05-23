@@ -789,7 +789,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HI-DIV-AO",
-                            "ls_ttl": "The Alpha-Omega Word",
+                            "ls_ttl": "The Alpha-Omega",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/div/ao.json",
                             "scion_id": "ls_hi_div_ao"

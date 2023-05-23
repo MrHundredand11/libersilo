@@ -837,13 +837,6 @@
                             "scion_id": "ls_hi_div_jesus"
                         },
                         {
-                            "ls_id": "LS-HI-DIV-LOGOS",
-                            "ls_ttl": "The Divine Word",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/hi/div/logos.json",
-                            "scion_id": "ls_hi_div_logos"
-                        },
-                        {
                             "ls_id": "LS-HI-DIV-MITRAS",
                             "ls_ttl": "Mithras",
                             "ls_type": "+>",
@@ -870,6 +863,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/div/qdshr.json",
                             "scion_id": "ls_hi_div_qdshr"
+                        },
+                        {
+                            "ls_id": "LS-HI-DIV-LOGOS",
+                            "ls_ttl": "The Word",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/div/logos.json",
+                            "scion_id": "ls_hi_div_logos"
                         }
                     ]
                 },

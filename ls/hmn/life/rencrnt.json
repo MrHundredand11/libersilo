@@ -12,7 +12,38 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Reincarnation'",
-            "scion_id": "ls_hmn_life_rencrnt_luls"
+            "scion_id": "ls_hmn_life_rencrnt_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Biblical Scriptures",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)",
+                    "scion_id": "ls_hmn_life_rencrnt_luls_bbl",
+                    "scions": [
+                        {
+                            "insc_term": "Malachi 4:5",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_39_04_05"
+                        },
+                        {
+                            "insc_term": "Matthew 11:14",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_40_11_14"
+                        },
+                        {
+                            "insc_term": "Hebrews 9:27",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_58_09_27"
+                        },
+                        {
+                            "insc_term": "Daniel 11:35",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_27_11_35"
+                        },
+                        {
+                            "insc_term": "John 1:11, 14",
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_43_1_11_14"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

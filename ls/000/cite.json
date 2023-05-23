@@ -12,7 +12,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Teachers</b></u> <i>of</i> (<b><i>Spiritual</b></i>) <b>Information</b></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
                     "scion_id": "ls_000_cite_tchr_qblh",
                     "scions": [
                         {
@@ -54,6 +54,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Page, Judith",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Puryear, Herbert Bruce",
                             "insc_offs": "algn_y_up_23"
                         },
                         {

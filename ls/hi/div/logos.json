@@ -12,18 +12,22 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_tag": "Assorted Quotes",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Assorted Quotes</b></u> <i>about</i> (<b><i>The Word</b></i>)",
                     "scion_id": "ls_hi_div_logos_quot_assrt",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "\"<span class='ins_quot_01'>Whosoever knows, the Word gives power to. No one has uttered it, no one will utter it, except the one who has the Word incarnated.</span>\"",
+                            "insc_tag": "Quote",
+                            "insc_cntn": "<span class='ins_quot_01'>\"Whosoever knows, the Word gives power to. No one has uttered it, no one will utter it, except the one who has the Word incarnated.\"</span>",
                             "scion_id": "ls_hi_div_logos_quot_assrt_samaunweor_01",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_tag": "Reference",
                                     "insc_cntn": "<b>Samael Aun Weor</b>, <i>The Perfect Matrimony</i>",
                                     "scion_id": "ls_hi_div_logos_quot_assrt_samaunweor_01_rfrn"

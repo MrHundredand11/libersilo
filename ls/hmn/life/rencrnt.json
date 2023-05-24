@@ -27,7 +27,15 @@
                         },
                         {
                             "insc_term": "Matthew 11:14",
-                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_40_11_14"
+                            "scion_id": "ls_hmn_life_rencrnt_luls_bbl_40_11_14",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "{<b>KJV</b>}==[\tAnd if ye will receive it, this is Elijah, which was for to come. He that hath ears to hear, let him hear.\t]"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Hebrews 9:27",
@@ -64,7 +72,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
-                                            "insc_sld": "||\\_",
+                                            "insc_sld": "|\\_",
                                             "insc_pntr": ">>",
                                             "insc_cntn": "\"And they said, Some say that thou art John the Baptist: some say Elijah; and others, Jeremiah, or one of the prophets.\" (<b>Matthew 16:13-14</b>)",
                                             "scion_id":"ls_hmn_life_rencrnt_luls_tchr_i_jesuschristofnazareth_whomdomensaythatithesonofmanam_matt161314",

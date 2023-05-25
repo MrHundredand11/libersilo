@@ -1,0 +1,51 @@
+{
+    "ls_id": "LS-NN-ST-000",
+    "ls_ttl": "Sacred Taxonomy",
+    "ls_url": "/ls/nn/st/000.json",
+    "scion_id": "ls_nn_st_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Sacred Taxonomy'",
+            "scion_id": "ls_nn_st_000_000"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Sacred Taxonomy'",
+            "scion_id": "ls_nn_st_000_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sacred Taxonomy</b></i>) <i>and</i> <b><u>Astrology</b></u></span>",
+                    "scion_id": "ls_nn_st_000_qblh_astr",
+                    "scions": [
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Astrologically-Intentioned Interactions</b></u> <i>with</i> (<b><i>Plants</b></i>)</span>",
+                            "scion_id": "ls_nn_st_000_qblh_astr_plntintnt",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "When planting, choose the hour ruled by the planet associated with that plant."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "When intentionally acquiring a plant, choose the planetary hour ruled by the associated plant to do the acquisition in."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "To increase the healing property of an Herb, ingest it on an hour or day ruled by the Herb's presiding Planet."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

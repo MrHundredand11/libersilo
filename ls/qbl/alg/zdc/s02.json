@@ -1,0 +1,366 @@
+{
+    "ls_id": "LS-QBL-ALG-SGNS-S02",
+    "ls_ttl": "The Sign Taurus",
+    "ls_url": "/ls/qbl/alg/sgns/s02.json",
+    "scion_id": "ls_qbl_alg_sgns_s02",
+    "scions": [
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Sign Taurus'",
+            "scion_id": "ls_qbl_alg_sgns_s02_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Gemstones",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Gemstones</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Taurus</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_gmstns",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Gemstone",
+                            "insc_term": "Emerald"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Metals",
+                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Metals</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Taurus</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_metals",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_term": "Copper",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Copper = is a Venusian Metal"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_term": "Bronze"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Metal",
+                            "insc_term": "Brass"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Animals",
+                    "insc_ttl": "Animals corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_cntr_animals",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_term": "Cattle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_term": "Bull // Ox"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_term": "Cow"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Animal",
+                            "insc_term": "Elephants"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LCTN",
+            "drct_ttl": "Lands + Locations of 'The Sign Taurus'",
+            "scion_id": "ls_qbl_alg_sgns_s02_lctn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Countries",
+                    "insc_ttl": "Countries corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_countries",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Ireland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Switzerland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Cyprus"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Greece"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Austria"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Ecuador"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Israel"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Japan"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Paraguay"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Sierra Leone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Tanzania"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Country",
+                            "insc_term": "Togo"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "US States",
+                    "insc_ttl": "US States corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_usstates",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Louisiana"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Maryland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "State",
+                            "insc_term": "Minnesota"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Cities",
+                    "insc_ttl": "Cities corresponding to (Taurus)",
+                    "scion_id": "ls_qbl_alg_sgns_s02_lctn_cities",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Dublin, Ireland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Lucerne, Switzerland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Leipzig, Germany"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Mantua, Italy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Palermo, Italy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Parma, Italy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "St. Louis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Oakland, CA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Wallingford, CT"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Honolulu, HI"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pocatello, ID"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Champaign, IL"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Lexington, KY"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pittsfield, ME"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Duluth, MN"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Hastings, NJ"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Buffalo, NY"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Long Island City, NY"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "New Rochelle, NY"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_type": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Rochester, NY"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Greensboro, NC"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Winston-Salem, NC"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "Pittsburgh, PA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "City",
+                            "insc_term": "El Paso, TX"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

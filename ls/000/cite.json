@@ -53,6 +53,20 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Karén, Michelle",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "MacGregor, Trish",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Page, Judith",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -326,6 +340,27 @@
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
                     "scion_id": "ls_000_cite_book_lst",
                     "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Astrology for Enlightenment",
+                            "cite_auth": "Karen, Michelle",
+                            "cite_pbls": "Atria Books",
+                            "cite_date": "November 2008",
+                            "cite_edtn": "First Atria Books Trade Paperback Edition",
+                            "cite_isbn": "978-1-4165-8085-0"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Everything Astrology Book",
+                            "cite_auth": "MacGregor, Trish",
+                            "cite_pbls": "Adams Media Corporation",
+                            "cite_date": "1999",
+                            "cite_isbn": "1-58062-062-0"
+                        },
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",

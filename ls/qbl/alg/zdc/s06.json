@@ -1,0 +1,43 @@
+{
+    "ls_id": "LS-QBL-ZDC-S06",
+    "ls_ttl": "The Sign Virgo",
+    "ls_url": "/ls/qbl/zdc/s06.json",
+    "scion_id": "ls_qbl_zdc_s06",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_000"
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Personality Influences of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_prsn"
+        },
+        {
+            "drct_id": "LOVE",
+            "drct_ttl": "'Virgo' in Love",
+            "scion_id": "ls_qbl_zdc_s06_love"
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_mdcl"
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "'Virgo' in Work + Career",
+            "scion_id": "ls_qbl_zdc_s06_work"
+        },
+        {
+            "drct_id": "PLAC",
+            "drct_ttl": "Placements in 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_plac"
+        },
+        {
+            "drct_id": "LCTN",
+            "drct_ttl": "Locations of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_lctn"
+        }
+    ]
+}

@@ -3134,21 +3134,28 @@
                     "ls_id": "LS-NN-ST",
                     "ls_ttl": "Sacred Taxonomy",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/nn/st/",
                     "scion_id": "ls_nn_st",
                     "scions": [
+                        {
+                            "ls_id": "LS-NN-ST-000",
+                            "ls_ttl": "Sacred Taxonomy",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/nn/st/000.json",
+                            "scion_id": "ls_nn_st_000"
+                        },
                         {
                             "ls_id": "LS-NN-ST-O",
                             "ls_ttl": "Plant Orders",
                             "ls_type": "=>",
-                            "ls_url": "",
+                            "ls_url": "/ls/nn/st/o/",
                             "scion_id": "ls_nn_st_o",
                             "scions": [
                                 {
                                     "ls_id": "LS-NN-ST-O-APILS",
                                     "ls_ttl": "Apiales",
                                     "ls_type": "=>",
-                                    "ls_url": "",
+                                    "ls_url": "ls/nn/st/o/apils/",
                                     "scion_id": "ls_nn_st_o_apils",
                                     "scions": [
                                         {
@@ -3171,7 +3178,7 @@
                                     "ls_id": "LS-NN-ST-O-LRLS",
                                     "ls_ttl": "Laurels",
                                     "ls_type": "=>",
-                                    "ls_url": "",
+                                    "ls_url": "/ls/nn/st/o/lrls/",
                                     "scion_id": "ls_nn_st_o_lrls",
                                     "scions": [
                                         {

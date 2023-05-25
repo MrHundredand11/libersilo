@@ -10,6 +10,11 @@
             "scion_id": "ls_qbl_zdc_s06_000"
         },
         {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_cntr"
+        },
+        {
             "drct_id": "PRSN",
             "drct_ttl": "Personality Influences of 'Virgo'",
             "scion_id": "ls_qbl_zdc_s06_prsn"
@@ -28,6 +33,11 @@
             "drct_id": "WORK",
             "drct_ttl": "'Virgo' in Work + Career",
             "scion_id": "ls_qbl_zdc_s06_work"
+        },
+        {
+            "drct_id": "GIFT",
+            "drct_ttl": "Gifts for 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_gift"
         },
         {
             "drct_id": "PLAC",

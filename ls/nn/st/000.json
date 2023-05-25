@@ -29,16 +29,22 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "size_23px",
+                                    "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "When planting, choose the hour ruled by the planet associated with that plant."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "size_23px",
+                                    "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "When intentionally acquiring a plant, choose the planetary hour ruled by the associated plant to do the acquisition in."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "size_23px",
+                                    "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "To increase the healing property of an Herb, ingest it on an hour or day ruled by the Herb's presiding Planet."
                                 }
                             ]

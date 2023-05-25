@@ -3200,7 +3200,7 @@
             "ls_id": "LS-QBL",
             "ls_ttl": "The Qabalah",
             "ls_type": "->",
-            "ls_url": "",
+            "ls_url": "/ls/qbl/",
             "scion_id": "ls_qbl",
             "scion_snip": "QBL",
             "scions": [
@@ -3208,6 +3208,7 @@
                     "ls_id": "LS-QBL-32P",
                     "ls_ttl": "The 32 Paths of The Qabalah",
                     "ls_type": "=>",
+                    "ls_url": "/ls/qbl/32p/",
                     "scion_id": "ls_qbl_32p",
                     "scions": [
                         {
@@ -3726,88 +3727,88 @@
                             "scion_id": "ls_qbl_alg_sgns",
                             "scions": [
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S01",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S01",
                                     "ls_ttl": "The Sign Aries",
                                     "ls_type": "+>",
-                                    "scion_id": "ls_qbl_alg_sgns_s01",
-                                    "ls_url": "/ls/qbl/alg/sgns/s01.json"
+                                    "scion_id": "ls_qbl_alg_zdc_s01",
+                                    "ls_url": "/ls/qbl/alg/zdc/s01.json"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S02",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S02",
                                     "ls_ttl": "The Sign Taurus",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s02.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s02"
+                                    "ls_url": "ls/qbl/alg/zdc/s02.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s02"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S03",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S03",
                                     "ls_ttl": "The Sign Gemini",
                                     "ls_type": "+>",
                                     "ls_url": "ls/qbl/alg/zdc/s03.json",
                                     "scion_id": "ls_qbl_alg_zdc_s03"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S04",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S04",
                                     "ls_ttl": "The Sign Cancer",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s04.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s04"
+                                    "ls_url": "ls/qbl/alg/zdc/s04.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s04"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S05",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S05",
                                     "ls_ttl": "The Sign Leo",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s05.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s05"
+                                    "ls_url": "ls/qbl/alg/zdc/s05.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s05"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S06",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S06",
                                     "ls_ttl": "The Sign Virgo",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s06.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s06"
+                                    "ls_url": "ls/qbl/alg/zdc/s06.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s06"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S07",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S07",
                                     "ls_ttl": "The Sign Libra",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s07.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s07"
+                                    "ls_url": "ls/qbl/alg/zdc/s07.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s07"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S08",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S08",
                                     "ls_ttl": "The Sign Scorpio",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s08.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s08"
+                                    "ls_url": "ls/qbl/alg/zdc/s08.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s08"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S09",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S09",
                                     "ls_ttl": "The Sign Sagittarius",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s09.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s09"
+                                    "ls_url": "ls/qbl/alg/zdc/s09.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s09"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S10",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S10",
                                     "ls_ttl": "The Sign Capricorn",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s10.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s10"
+                                    "ls_url": "ls/qbl/alg/zdc/s10.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s10"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S11",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S11",
                                     "ls_ttl": "The Sign Aquarius",
                                     "ls_type": "+>",
-                                    "ls_url": "ls/qbl/alg/sgns/s11.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s11"
+                                    "ls_url": "ls/qbl/alg/zdc/s11.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s11"
                                 },
                                 {
-                                    "ls_id": "LS-QBL-ALG-SGNS-S12",
+                                    "ls_id": "LS-QBL-ALG-ZDC-S12",
                                     "ls_ttl": "The Sign Pisces",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/sgns/s12.json",
-                                    "scion_id": "ls_qbl_alg_sgns_s12"
+                                    "ls_url": "/ls/qbl/alg/zdc/s12.json",
+                                    "scion_id": "ls_qbl_alg_zdc_s12"
                                 }
                             ]
                         },

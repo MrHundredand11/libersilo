@@ -20,14 +20,71 @@
             "scion_id": "ls_qbl_zdc_s06_prsn"
         },
         {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Symbolism of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_symb"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_qblh"
+        },
+        {
+            "drct_id": "SPRT",
+            "drct_ttl": "Spirituality of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_sprt"
+        },
+        {
             "drct_id": "LOVE",
             "drct_ttl": "'Virgo' in Love",
-            "scion_id": "ls_qbl_zdc_s06_love"
+            "scion_id": "ls_qbl_zdc_s06_love",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Amorous Nature</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_love_amor",
+                    "scions": [
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Virgo Woman</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_love_amor_wmn"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Virgo Man</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_love_amor_man"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_love_erog"
+                }
+            ]
         },
         {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_mdcl"
+            "scion_id": "ls_qbl_zdc_s06_mdcl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_mdcl_bd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Diet + Health Tips</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_mdcl_tips"
+                }
+            ]
         },
         {
             "drct_id": "WORK",

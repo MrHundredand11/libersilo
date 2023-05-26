@@ -17,6 +17,42 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Trees</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_tree"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Familiar Herbs</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_famherb"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Remedy Herbs</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_remherb"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flowers</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_flwr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flower Essences</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_flwressn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Stones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_ston"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gemstones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_cntr_gmstn"
                 },
@@ -31,18 +67,82 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Animals</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_cntr_anml"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Colors</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_colr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_shptxtr"
                 }
             ]
         },
         {
             "drct_id": "PRSN",
             "drct_ttl": "Personality Influences of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_prsn"
+            "scion_id": "ls_qbl_zdc_s06_prsn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>General Character</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_gnchr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Positive Traits</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_trtps"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Negative Traits</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_trtng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Loves</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_lvs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Can't Stand</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_cntstnd"
+                }
+            ]
         },
         {
             "drct_id": "SYMB",
             "drct_ttl": "Symbols + Symbolism of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_symb"
+            "scion_id": "ls_qbl_zdc_s06_symb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Glyph</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_symb_glyp"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbols</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_symb_symb"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbolism</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_symb_symblsm"
+                }
+            ]
         },
         {
             "drct_id": "QBLH",
@@ -131,20 +231,38 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>How to Attract</b></u> <i>a</i> (<b><i>Virgo</b></i>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Partner</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_love_prtnr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>How to Attract</b></u> <i>a</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_love_attrct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_love_amorcmb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_love_erog"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>First Moves</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_love_mvsfrst"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Last Moves</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_love_mvslast"
                 }
             ]
         },
@@ -164,6 +282,18 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Diet + Health Tips</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_mdcl_tips"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Life Age</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_mdcl_lfag"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_mdcl_hlth"
                 }
             ]
         },
@@ -223,7 +353,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u>",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Virgo Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u>",
                                     "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04_sunmoon",
                                     "scions": [
                                         {

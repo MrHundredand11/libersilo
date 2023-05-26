@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Christian Concept</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Christian Concept</b></u> <i>of the</i> (<b><i>Incarnation</b></i>)</span>",
                     "scion_id": "ls_hmn_life_rencrnt_000_chrstnincrntn",
                     "scions": [
                         {
@@ -27,6 +27,16 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_cntn": "If God became incarnate in His Son, Jesus Christ,\n\tand if we also are God's children,\n\t\tand if He is our Brother (as Jesus so often said),\n\n\t\t\t<b><i>then what does that say about us?</b></i>"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
                                 },
                                 {
                                     "insc_typ1": "insc",

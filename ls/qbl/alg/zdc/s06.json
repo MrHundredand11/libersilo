@@ -134,6 +134,30 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Can't Stand</b></u>",
                     "scion_id": "ls_qbl_zdc_s06_prsn_cntstnd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Finances</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_fnce"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Man</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_man"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Woman</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_wmn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Kids</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_kds"
                 }
             ]
         },
@@ -243,6 +267,18 @@
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Virgo Man</b></i>)",
                             "scion_id": "ls_qbl_zdc_s06_love_amor_man"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Compatibilty</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_love_amor_cmptblty"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Romance</b></u> <i>and</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_love_amor_rmnce"
                         }
                     ]
                 },
@@ -312,6 +348,12 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_mdcl_hlth"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Physical Build</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_mdcl_build"
                 }
             ]
         },
@@ -323,19 +365,19 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>at</i> <b><u>Work</b><u>",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>at</i> <b><u>Work</b></u>",
                     "scion_id": "ls_qbl_zdc_s06_work_work"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Boss</b><u>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Boss</b></u>",
                     "scion_id": "ls_qbl_zdc_s06_work_boss"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Employee</b><u>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Employee</b></u>",
                     "scion_id": "ls_qbl_zdc_s06_work_emply"
                 }
             ]

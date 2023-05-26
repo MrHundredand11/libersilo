@@ -12,7 +12,27 @@
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_cntr"
+            "scion_id": "ls_qbl_zdc_s06_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gemstones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_gmstn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Metals</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_mtls"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Animals</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_anml"
+                }
+            ]
         },
         {
             "drct_id": "PRSN",
@@ -27,7 +47,51 @@
         {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_qblh"
+            "scion_id": "ls_qbl_zdc_s06_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_aa"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_32p"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The Elements</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_lmnt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>Alchemy Operations</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_alch"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_shm"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "scion_id": "ls_qbl_zdc_s06_qblh_cos"
+                }
+            ]
         },
         {
             "drct_id": "SPRT",
@@ -104,7 +168,27 @@
         {
             "drct_id": "LCTN",
             "drct_ttl": "Locations of 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_lctn"
+            "scion_id": "ls_qbl_zdc_s06_lctn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_lctn_cntrs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>US States</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_lctn_ustts"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Cities</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_lctn_city"
+                }
+            ]
         }
     ]
 }

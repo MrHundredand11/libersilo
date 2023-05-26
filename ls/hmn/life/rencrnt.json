@@ -7,7 +7,48 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Reincarnation'",
-            "scion_id": "ls_hmn_life_rencrnt_000"
+            "scion_id": "ls_hmn_life_rencrnt_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Christian Concept</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)</span>",
+                    "scion_id": "ls_hmn_life_rencrnt_000_chrstnincrntn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "As we reflect upon the <b>incarnation</b>, we may begin to understand the simple mechanics and the magnificent grandeur of <b>reincarnation</b>.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "If God became incarnate in His Son, Jesus Christ,\n\tand if we also are God's children,\n\t\tand if He is our Brother (as Jesus so often said),\n\n\t\t\t<b><i>then what does that say about us?</b></i>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "This infinite, preexistent spiritual being who became incarnate in the flesh said to us, \"Inasmuch as ye have done it unto one of the least of these brethren, ye have done it unto me.\" (<i>Matthew 25:40</i>)",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_cntn": "Then what kind of beings are we? What does this say about our true nature? Does it not clearly follow that we also are preexistent god-beings now incarnate? Is it not therefore true, as Jesus gave, \"YE ARE GODS\"? (<i>John 10:34</i>)."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "LULS",
@@ -18,7 +59,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Biblical Scriptures",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)</span>",
                     "scion_id": "ls_hmn_life_rencrnt_luls_bbl",
                     "scions": [
                         {
@@ -55,7 +96,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Spiritual Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Spiritual Teachers</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Spiritual Teachers</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)</span>",
                     "scion_id": "ls_hmn_life_rencrnt_luls_tchr",
                     "scions": [
                         {

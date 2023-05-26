@@ -47,6 +47,12 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Fragrances</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_frgrnc"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Stones</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_cntr_ston"
                 },
@@ -79,6 +85,12 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_cntr_shptxtr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Weather</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_cntr_wthr"
                 }
             ]
         },
@@ -92,6 +104,12 @@
                     "insc_typ2": "brnch",
                     "insc_ttl":"<span class='styl_stm_ttl'><b><u>General Character</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_zdc_s06_prsn_gnchr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Characteristics</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_chrctr"
                 },
                 {
                     "insc_typ1": "stm",
@@ -300,7 +318,27 @@
         {
             "drct_id": "WORK",
             "drct_ttl": "'Virgo' in Work + Career",
-            "scion_id": "ls_qbl_zdc_s06_work"
+            "scion_id": "ls_qbl_zdc_s06_work",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <i>at</i> <b><u>Work</b><u>",
+                    "scion_id": "ls_qbl_zdc_s06_work_work"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Boss</b><u>",
+                    "scion_id": "ls_qbl_zdc_s06_work_boss"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Virgo</b></i>) <b><u>Employee</b><u>",
+                    "scion_id": "ls_qbl_zdc_s06_work_emply"
+                }
+            ]
         },
         {
             "drct_id": "GIFT",

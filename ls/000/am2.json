@@ -1649,7 +1649,16 @@
                     "ls_ttl": "Scriptural + Spiritual Tools",
                     "ls_type": "=>",
                     "ls_url": "/ls/luls/tool/",
-                    "scion_id": "ls_luls_tool"
+                    "scion_id": "ls_luls_tool",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-TOOL-DICTNRY",
+                            "ls_ttl": "The Dictionary",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/luls/tool/dictnry.json",
+                            "scion_id": "ls_luls_tool_dictnry"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-LULS-TRDN",

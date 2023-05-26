@@ -194,13 +194,101 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
-                    "scion_id": "ls_qbl_zdc_s06_plac_plnt"
+                    "scion_id": "ls_qbl_zdc_s06_plac_plnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p01"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p02"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p03"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p05"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p06"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p07"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p08"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p09"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p10"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p11"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
-                    "scion_id": "ls_qbl_zdc_s06_plac_clctpnt"
+                    "scion_id": "ls_qbl_zdc_s06_plac_clctpnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_nthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_sthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_pof"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
@@ -234,6 +322,11 @@
                     "scion_id": "ls_qbl_zdc_s06_lctn_city"
                 }
             ]
+        },
+        {
+            "drct_id": "TABL",
+            "drct_ttl": "Tables of 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_tabl"
         }
     ]
 }

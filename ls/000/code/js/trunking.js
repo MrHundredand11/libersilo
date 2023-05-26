@@ -473,7 +473,7 @@ function gen_Insc(insc_i, scion) {
 
                     if (scion.cite_isbn !== undefined) {
                         var cite_isbn = gen_ECI('div', 'cite_isbn', `id_cite_isbn_${scion.cite_isbn}`);
-                        cite_isbn.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Edition]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_isbn}</span>`;
+                        cite_isbn.innerHTML = `<span class='cite_flow'>|\\_>> <em>[ISBN]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_isbn}</span>`;
                         cite_scns.append(cite_isbn);
                     }
                     break;    

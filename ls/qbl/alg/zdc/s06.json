@@ -175,12 +175,40 @@
         {
             "drct_id": "GIFT",
             "drct_ttl": "Gifts for 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_gift"
+            "scion_id": "ls_qbl_zdc_s06_gift",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_gift_gftids"
+                }
+            ]
         },
         {
             "drct_id": "PLAC",
             "drct_ttl": "Placements in 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_plac"
+            "scion_id": "ls_qbl_zdc_s06_plac",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_plac_plnt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_plac_clctpnt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_zdc_s06_plac_astrd"
+                }
+            ]
         },
         {
             "drct_id": "LCTN",

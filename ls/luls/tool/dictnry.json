@@ -1,0 +1,46 @@
+{
+    "ls_id": "LS-LULS-TOOL-DICTNRY",
+    "ls_ttl": "The Dictionary",
+    "ls_url": "/ls/luls/tool/dictnry.json",
+    "scion_id": "ls_luls_tool_dictnry",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Dictionary'",
+            "scion_id": "ls_luls_tool_dictnry_000"
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'The Dictionary'",
+            "scion_id": "ls_luls_tool_dictnry_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Assorted Quotes</b></u> <i>about the</i> (<b><i>Dictionary</b></i>)",
+                    "scion_id": "ls_luls_tool_dictnry_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "\"Always, when you study, have a good dictionary at hand, for you will need it often in the course of this instruction. You will find that the practice of making sure of the precise meaning and use of words will be of inestimable benefit to you in the orderly organization of your mental processes.\"",
+                            "scion_id": "ls_luls_tool_dictnry_quot_assrt_i_pfc01",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Reference",
+                                    "insc_pntr": ">>",
+                                    "insc_sld": "|\\_",
+                                    "insc_cntn": "Paul Foster Case, <i>Tarot Fundamentals: Lesson 7</i>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

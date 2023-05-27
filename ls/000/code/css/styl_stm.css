@@ -323,3 +323,8 @@
 .stm_ttl {
     font-family: 'Times New Roman';
 }
+
+.stm_code {
+    font-family: Inconsolata_SEB;
+    font-weight: bold;
+}

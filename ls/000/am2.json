@@ -266,55 +266,16 @@
                                 {
                                     "ls_id": "LS-DGTL-CODE-WEB-HTML",
                                     "ls_ttl": "HTML Structuring",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/code/web/html/",
-                                    "scion_id": "ls_dgtl_code_web_html",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-HTML-000",
-                                            "ls_ttl": "HTML Structuring",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/html/000.json",
-                                            "scion_id": "ls_dgtl_code_web_html_000"
-                                        }
-                                    ]
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/html.json",
+                                    "scion_id": "ls_dgtl_code_web_html"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-WEB-JS",
                                     "ls_ttl": "JavaScript Scripting",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/code/web/js/",
-                                    "scion_id": "ls_dgtl_code_web_js",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-JS-000",
-                                            "ls_ttl": "JavaScript",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/js/000.json",
-                                            "scion_id": "ls_dgtl_code_web_js_000"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-JS-JSE",
-                                            "ls_ttl": "JavaScript Environments",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/js/jse.json",
-                                            "scion_id": "ls_dgtl_code_web_js_jse"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-JS-NMBR",
-                                            "ls_ttl": "Numbers in JavaScript",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/js/nmbr/",
-                                            "scion_id": "ls_dgtl_code_web_js_nmbr"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-JS-PRDM",
-                                            "ls_ttl": "Programming Paradigms in JavaScript",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/js/prdm.json",
-                                            "scion_id": "ls_dgtl_code_web_js_prdm"
-                                        }
-                                    ]
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/js.json",
+                                    "scion_id": "ls_dgtl_code_web_js"
                                 }
                             ]
                         }

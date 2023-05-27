@@ -257,7 +257,21 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
                                     "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iteration Loops</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
-                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loopstrct"
+                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loopstrct",
+                                    "scions": [
+                                        {
+                                            "insc_term": "for loop"
+                                        },
+                                        {
+                                            "insc_term": "while loop"
+                                        },
+                                        {
+                                            "insc_term": "foreach loop"
+                                        },
+                                        {
+                                            "insc_term": "for-of loop"
+                                        }
+                                    ]
                                 },
                                 {
                                     "insc_typ1": "stm",
@@ -275,7 +289,14 @@
         {
             "drct_id": "SCOP",
             "drct_ttl": "Scope in 'JavaScript'",
-            "scion_id": "ls_dgtl_code_web_js_scop"
+            "scion_id": "ls_dgtl_code_web_js_scop",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><i>The</i> <b><u>3 Types</b></u> <i>of</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>"
+                }
+            ]
         },
         {
             "drct_id": "FUNC",

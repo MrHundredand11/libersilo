@@ -42,18 +42,21 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Context",
+                                    "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "<b>Set</b> (<i>the <b>first born of Nut</b></i>) is mentioned in <b>the very first utterance in the Pyramid Texts</b> (one of the oldest written collections of ancient Egyptian beliefs)."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Context",
+                                    "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "This utterance is spoken by <b>Nut</b>, the mother of Set; she is speaking of the king of Egypt, identifying him as her son."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Tradition",
+                                    "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "According to the <b>Draconian tradition</b> (as revealed in Kenneth Grant's series of Typhonian Trilogies), <b><i>Set was the eldest son of Nut</b></i>."
                                 }
                             ]

@@ -13,11 +13,11 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='stm_ttl'><b><u>Egyptian Scriptures</b></u> <i>about</i> (<b><i>Set</b></i>)</span>",
-                    "scion_id": "ls_hi_ntr_set_luls_egypt",
+                    "scion_id": "ls_hi_ntr_set_luls_egyptscrpt",
                     "scions": [
                         {
                             "insc_term": "The Pyramid Texts",
-                            "scion_id": "ls_hi_ntr_set_luls_egypt_pyrtxt",
+                            "scion_id": "ls_hi_ntr_set_luls_egyptscrpt_pyrtxt",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -44,6 +44,20 @@
                                     "insc_cntn": "According to the <b>Draconian tradition</b> (as revealed in Kenneth Grant's series of Typhonian Trilogies), <b><i>Set was the eldest son of Nut</b></i>."
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Egyptian Traditions</b></u> <i>about</i> (<b><i>Set</b></i>)</span>",
+                    "scion_id": "ls_hi_ntr_set_luls_egypttrad",
+                    "scions": [
+                        {
+                            "insc_term": "Setian Star-Cult Tradition"
+                        },
+                        {
+                            "insc_term": "Set and Horus as Twins"
                         }
                     ]
                 }

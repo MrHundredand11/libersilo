@@ -341,7 +341,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Debugging</b></i>) <i>with</i></span><span class='stm_code'><b><u>console.log()</b></u></span>"
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Debugging</b></i>) <i>with</i></span>&nbsp;<span class='stm_code'><b><u>console.log()</b></u></span>",
+                    "scion_id": "ls_dgtl_code_web_js_errr_dbug_clog"
                 }
             ]
         }

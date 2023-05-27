@@ -272,35 +272,6 @@
                                             "insc_term": "for-of loop"
                                         }
                                     ]
-                                },
-                                {
-                                    "insc_typ1": "stm",
-                                    "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iterative Methods</b></i>)</span>",
-                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_mthd",
-                                    "scions": [
-                                        {
-                                            "insc_term": ".forEach()"
-                                        },
-                                        {
-                                            "insc_term": ".map()"
-                                        },
-                                        {
-                                            "insc_term": ".filter()"
-                                        },
-                                        {
-                                            "insc_term": ".findIndex()"
-                                        },
-                                        {
-                                            "insc_term": ".reduce()"
-                                        },
-                                        {
-                                            "insc_term": ".some()"
-                                        },
-                                        {
-                                            "insc_term": ".every()"
-                                        }
-                                    ]
                                 }
                             ]
                         }

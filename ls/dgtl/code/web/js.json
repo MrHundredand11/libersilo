@@ -248,6 +248,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "SCOP",
+            "drct_ttl": "Scope in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_scop"
+        },
+        {
+            "drct_id": "FUNC",
+            "drct_ttl": "Functions in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_func"
+        },
+        {
+            "drct_id": "OUTP",
+            "drct_ttl": "Output in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_outp"
+        },
+        {
+            "drct_id": "ERRR",
+            "drct_ttl": "Errors + Debugging in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_errr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Types</b></u> <i>of</i> (<b><i>Errors</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "scion_id": "ls_dgtl_code_web_js_errr_typ_lst",
+                    "scions": [
+                        {
+                            "insc_term": "SyntaxError",
+                            "scion_id": "ls_dgtl_code_web_js_errr_typ_lst_i_sntx"
+                        },
+                        {
+                            "insc_term": "ReferenceError",
+                            "scion_id": "ls_dgtl_code_web_js_errr_typ_lst_i_rfrn"
+                        },
+                        {
+                            "insc_term": "TypeError",
+                            "scion_id": "ls_dgtl_code_web_js_errr_typ_lst_i_type"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

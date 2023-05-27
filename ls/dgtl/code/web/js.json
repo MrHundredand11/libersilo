@@ -256,20 +256,20 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Control Decision Structures</b></i>)</span>",
-                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_dcsn_ctrldcsn",
+                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iterative Loops</b></i>)</span>",
+                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loop",
                                     "scions": [
                                         {
-                                            "insc_term": "if"
+                                            "insc_term": "for loop"
                                         },
                                         {
-                                            "insc_term": "if else"
+                                            "insc_term": "while loop"
                                         },
                                         {
-                                            "insc_term": "else if"
+                                            "insc_term": "foreach loop"
                                         },
                                         {
-                                            "insc_term": "switch"
+                                            "insc_term": "for-of loop"
                                         }
                                     ]
                                 }

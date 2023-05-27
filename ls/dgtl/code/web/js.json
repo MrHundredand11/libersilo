@@ -211,6 +211,43 @@
         {
             "drct_id": "NMBR",
             "drct_ttl": "Numbers in 'JavaScript'"
+        },
+        {
+            "drct_id": "CTRL",
+            "drct_ttl": "Control Flow in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_ctrl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Control Structures</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr",
+                    "scions": [
+                        {
+                            "insc_term": "Conditional Flow // Decision Structures",
+                            "scion_id": "ls_dgtl_code_web_js_ctrl_explr_dcsn",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Control Decision Structures</b></i>)</span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Iterative Flow // Loop Structures",
+                            "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iterative Loop Structures</b></i>)</span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

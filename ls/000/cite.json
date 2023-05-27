@@ -60,6 +60,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Levine, Joyce",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "MacGregor, Trish",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -357,6 +364,16 @@
                             "cite_date": "November 2008",
                             "cite_edtn": "First Atria Books Trade Paperback Edition",
                             "cite_isbn": "978-1-4165-8085-0"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Breakthrough Astrology",
+                            "cite_auth": "Levine, Joyce",
+                            "cite_pbls": "Red Wheel/Weiser, LLC",
+                            "cite_date": "2006",
+                            "cite_isbn": "1-57863-357-5"
                         },
                         {
                             "insc_typ1": "cite",

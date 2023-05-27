@@ -23,7 +23,15 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
-                                    "insc_cntn": "[\t<span class='size_23px'>'Resitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
+                                    "insc_offs": "algn_y_up_23",
+                                    "insc_cntn": "[\t<span class='size_23px'>'Recitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_offs": "algn_y_up_23",
+                                    "insc_cntn": "[\t<span class='size_23px'><b>1a.</b> To say by Nut, the brilliant, the great: This is (my) son, (my) first born, N., opener of (my) womb;\n\t<b>1b.</b> this is (my) beloved, with whom I have been satisfied.</span>\t\t]"
                                 },
                                 {
                                     "insc_typ1": "insc",

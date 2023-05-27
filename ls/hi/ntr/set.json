@@ -5,6 +5,11 @@
     "scion_id": "ls_hi_ntr_set",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The God Set'",
+            "scion_id": "ls_hi_ntr_set_000"
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'The God Set'",
             "scion_id": "ls_hi_ntr_set_luls",
@@ -24,7 +29,7 @@
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
                                     "insc_offs": "algn_y_up_23",
-                                    "insc_cntn": "[\t<span class='size_23px'>'Recitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
+                                    "insc_cntn": "[\t\t<span class='size_23px'>'Recitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
                                 },
                                 {
                                     "insc_typ1": "insc",

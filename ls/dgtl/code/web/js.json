@@ -245,16 +245,16 @@
                                     "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loopstrct",
                                     "scions": [
                                         {
-                                            "insc_term": "for loop"
+                                            "insc_term": "<span class='stm_code'>for</span>&nbsp;loop"
                                         },
                                         {
-                                            "insc_term": "while loop"
+                                            "insc_term": "<span class='stm_code'>while</span>&nbsp;loop"
                                         },
                                         {
-                                            "insc_term": "foreach loop"
+                                            "insc_term": "<span class='stm_code'>foreach</span>&nbsp;loop"
                                         },
                                         {
-                                            "insc_term": "for-of loop"
+                                            "insc_term": "<span class='stm_code'>for-of</span>&nbsp;loop"
                                         }
                                     ]
                                 },
@@ -339,6 +339,11 @@
                             "scion_id": "ls_dgtl_code_web_js_errr_typ_lst_i_type"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Debugging</b></i>) <i>with</i></span><span class='stm_code'><b><u>console.log()</b></u></span>"
                 }
             ]
         }

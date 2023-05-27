@@ -199,76 +199,18 @@
                             "scion_id": "ls_dgtl_code_web",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-CODE-WEB-CMS",
-                                    "ls_ttl": "Content Management Systems",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/code/web/cms/",
-                                    "scion_id": "ls_dgtl_code_web_cms"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-CODE-WEB-CSS",
-                                    "ls_ttl": "CSS Styling",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/code/web/css/",
-                                    "scion_id": "ls_dgtl_code_web_css",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-000",
-                                            "ls_ttl": "CSS Styling",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/000.json",
-                                            "scion_id": "ls_dgtl_code_web_css_000"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-COLOR",
-                                            "ls_ttl": "CSS Colors",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/color.json",
-                                            "scion_id": "ls_dgtl_code_web_css_color"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-FLXBX",
-                                            "ls_ttl": "CSS Flexbox",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/flxbx.json",
-                                            "scion_id": "ls_dgtl_code_web_css_flxbx"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-GRID",
-                                            "ls_ttl": "CSS Grids",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/grid.json",
-                                            "scion_id": "ls_dgtl_code_web_css_grid"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-LINK",
-                                            "ls_ttl": "CSS Links",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/link.json",
-                                            "scion_id": "ls_dgtl_code_web_css_link"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-000",
-                                            "ls_ttl": "CSS Selectors",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/slct.json",
-                                            "scion_id": "ls_dgtl_code_web_css_slct"
-                                        },
-                                        {
-                                            "ls_id": "LS-DGTL-CODE-WEB-CSS-TYPGRPH",
-                                            "ls_ttl": "CSS Typography",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/code/web/css/typgrph.json",
-                                            "scion_id": "ls_dgtl_code_web_css_typgrph"
-                                        }
-                                    ]
-                                },
-                                {
                                     "ls_id": "LS-DGTL-CODE-WEB-HTML",
                                     "ls_ttl": "HTML Structuring",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/code/web/html.json",
                                     "scion_id": "ls_dgtl_code_web_html"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-WEB-CSS",
+                                    "ls_ttl": "CSS Styling",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/web/css.json",
+                                    "scion_id": "ls_dgtl_code_web_css"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-WEB-JS",

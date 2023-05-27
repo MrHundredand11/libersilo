@@ -310,17 +310,57 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "<b>Global Scope</b> = outside of any function or block"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Variables declared in global scope are <b><i>accessible everywhere</b></i>."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
                                     "insc_cntn": "In <b>global scope</b>, variables are declared outside of blocks. These variables are called <b>global variables</b>. Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks."
                                 }
                             ]
                         },
                         {
-                            "insc_term": "Function Scope"
+                            "insc_term": "Function Scope",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Variables are accessible only inside function, NOT outside"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "<b>Function Scope</b> = also called \"<b><i>local scope</b></i>\""
+                                }
+                            ]
                         },
                         {
-                            "insc_term": "Block Scope"
+                            "insc_term": "Block Scope",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Introduced In",
+                                    "insc_term": "ES6"
+                                }
+                            ]
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Hoisting</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>"
                 }
             ]
         },

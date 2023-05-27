@@ -36,7 +36,7 @@
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
                                     "insc_offs": "algn_y_up_23",
-                                    "insc_cntn": "[\t<span class='size_23px'><b>1a.</b> To say by Nut, the brilliant, the great: This is (my) son, (my) first born, N., opener of (my) womb;\n\t<b>1b.</b> this is (my) beloved, with whom I have been satisfied.</span>\t\t]"
+                                    "insc_cntn": "[\t<span class='size_23px'><b>1a.</b> To say by Nut, the brilliant, the great:\n\tThis is (my) son, (my) first born, N., opener of (my) womb;\n\t<b>1b.</b> this is (my) beloved, with whom I have been satisfied.</span>\t\t]"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -70,7 +70,15 @@
                             "insc_term": "Setian Star-Cult Tradition"
                         },
                         {
-                            "insc_term": "Set and Horus as Twins"
+                            "insc_term": "Set and Horus as Twins",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "<b>Hrwyfy</b> = \"<i>he of two faces</i>\""
+                                }
+                            ]
                         }
                     ]
                 }

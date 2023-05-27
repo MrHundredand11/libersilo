@@ -284,7 +284,14 @@
                     "scion_id": "ls_dgtl_code_web_js_scop_type",
                     "scions": [
                         {
-                            "insc_term": "Global Scope"
+                            "insc_term": "Global Scope",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "In <b>global scope</b>, variables are declared outside of blocks. These variables are called <b>global variables</b>. Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks."
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Function Scope"

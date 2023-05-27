@@ -257,21 +257,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
                                     "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iteration Loops</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
-                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loopstrct",
-                                    "scions": [
-                                        {
-                                            "insc_term": "<span class='stm_code'>for</span>&nbsp;loop"
-                                        },
-                                        {
-                                            "insc_term": "<span class='stm_code'>while</span>&nbsp;loop"
-                                        },
-                                        {
-                                            "insc_term": "<span class='stm_code'>foreach</span>&nbsp;loop"
-                                        },
-                                        {
-                                            "insc_term": "<span class='stm_code'>for-of</span>&nbsp;loop"
-                                        }
-                                    ]
+                                    "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loopstrct"
                                 },
                                 {
                                     "insc_typ1": "stm",

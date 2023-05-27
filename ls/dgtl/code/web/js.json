@@ -214,7 +214,7 @@
         },
         {
             "drct_id": "CTRL",
-            "drct_ttl": "Control Flow in 'JavaScript'",
+            "drct_ttl": "Control Structures in 'JavaScript'",
             "scion_id": "ls_dgtl_code_web_js_ctrl",
             "scions": [
                 {

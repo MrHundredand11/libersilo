@@ -1,0 +1,53 @@
+{
+    "ls_id": "LS-HI-NTR-SET",
+    "ls_ttl": "The God Set",
+    "ls_url": "/ls/hi/ntr/set.json",
+    "scion_id": "ls_hi_ntr_set",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The God Set'",
+            "scion_id": "ls_hi_ntr_set_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Egyptian Scriptures</b></u> <i>about</i> (<b><i>Set</b></i>)</span>",
+                    "scion_id": "ls_hi_ntr_set_luls_egypt",
+                    "scions": [
+                        {
+                            "insc_term": "The Pyramid Texts",
+                            "scion_id": "ls_hi_ntr_set_luls_egypt_pyrtxt",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\t<span class='size_23px'>'Resitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Context",
+                                    "insc_cntn": "<b>Set</b> (<i>the <b>first born of Nut</b></i>) is mentioned in <b>the very first utterance in the Pyramid Texts</b> (one of the oldest written collections of ancient Egyptian beliefs)."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Context",
+                                    "insc_cntn": "This utterance is spoken by <b>Nut</b>, the mother of Set; she is speaking of the king of Egypt, identifying him as her son."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "Tradition",
+                                    "insc_cntn": "According to the <b>Draconian tradition</b> (as revealed in Kenneth Grant's series of Typhonian Trilogies), <b><i>Set was the eldest son of Nut</b></i>."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

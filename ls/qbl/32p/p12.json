@@ -5,6 +5,64 @@
     "scion_id": "ls_qbl_32p_p12",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The 12th Path'",
+            "scion_id": "ls_qbl_32p_p12_000"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The 12th Path'",
+            "scion_id": "ls_qbl_32p_p12_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 12</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p12_name_lst"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 12</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p12_name_expl"
+                }
+            ]
+        },
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts of 'The 12th Path'",
+            "scion_id": "ls_qbl_32p_p12_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 12</b></i>)</span>",
+                    "insc_tag": "Texts",
+                    "scion_id": "ls_qbl_32p_p12_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Wade Coleman Translation"
+                        },
+                        {
+                            "insc_term": "Athanasius Kircher Commentary"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The 12th Path'",
+            "scion_id": "ls_qbl_32p_p12_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 12</b></i>)</span>"
+                }
+            ]
+        },
+        {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'The 12th Path'",
             "scion_id": "ls_qbl_32p_p12_qblh",
@@ -82,24 +140,15 @@
             ]
         },
         {
-            "drct_id": "TXTS",
-            "drct_ttl": "Texts of 'The 12th Path'",
-            "scion_id": "ls_qbl_32p_p12_txts",
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The 10th Path'",
+            "scion_id": "ls_qbl_32p_p10_rltn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 12</b></i>) ::",
-                    "insc_tag": "Texts",
-                    "scion_id": "ls_qbl_32p_p12_txts_lst",
-                    "scions": [
-                        {
-                            "insc_term": "Wade Coleman Translation"
-                        },
-                        {
-                            "insc_term": "Athanasius Kircher Commentary"
-                        }
-                    ]
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 10</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p10_rltn_lst"
                 }
             ]
         }

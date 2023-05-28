@@ -1,23 +1,4 @@
-let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
-let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
-let flow_brnch = "<div class='styl_pointers'>]}=></div>&nbsp;";
-let flow_twig = "<div class='styl_pointers'>))=>></div>&nbsp;";
-let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
-let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
-let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
-let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-let bmp_stm_scrll = "<div class='styl_stm_scrll'>@ === === === === === === === ||| === === === === === === === @</div>";
-let bmp_lmb_top = "<div class='bumpers'>-- --<br>-- -- --</div>";
-let bmp_lmb_btm = "<div class='bump_butt'>--- --- ---<br>--- ---</div>";
-let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
-let bmp_stem_cycl = "<div class='styl_stem_cycl bumpers'><br>------- ------- -------<br>------- -------<br>-------</div>";
-let bmp_stem_exli = "<div class='bumper'>---<br>--- ---<br></div>";
-let bmp_stem_exli_bttm = "<div class='styl_stem_tail'><br>---- ----<br>----<br></div>";
-let bmp_brnch_tail = "<div class='styl_stem_tail'>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----</div>";
-let bmp_sld_01 = "\\_";
-let bmp_def = "&nbsp=&nbsp";
-let bmp_stm_02 = "-- --<br>-- -- --<br>";
-let bmp_def_flow = "&nbsp<span class='styl_insc_txt_flow'>=</span>&nbsp";
+
 
 function gen_Insc(insc_i, scion) {
     var insc_id = generateLeafIdNum(scion.scion_id, insc_i);

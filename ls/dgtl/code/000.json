@@ -1,12 +1,12 @@
 {
     "ls_id": "LS-DGTL-CODE-000",
-    "ls_ttl": "Overview of Coding + Scripting + Programming",
+    "ls_ttl": "Overview of Coding + Programming",
     "ls_url": "/ls/dgtl/code/000.json",
     "scion_id": "ls_dgtl_code_000",
     "scions": [
         {
             "drct_id": "000",
-            "drct_ttl": "Overview of 'Coding' + 'Scripting' + 'Programming'",
+            "drct_ttl": "Overview of 'Coding' + 'Programming'",
             "scion_id": "ls_dgtl_code_000_000",
             "scions": [
                 {

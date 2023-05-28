@@ -5,6 +5,18 @@
     "scion_id": "ls_000_drct",
     "scions": [
         {
+            "drct_id": "FULL",
+            "drct_ttl": "Directory in Full",
+            "scion_id": "ls_000_drct_full",
+            "scions": [
+                {
+                    "insc_typ1": "spcl",
+                    "insc_typ2": "drct_00",
+                    "insc_drct": "/ls/000/am2.json"
+                }
+            ]
+        },
+        {
             "drct_id": "VIEW",
             "drct_ttl": "Directory Views",
             "scion_id": "ls_000_drct_view",

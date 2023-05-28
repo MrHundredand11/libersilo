@@ -64,12 +64,18 @@ function gen_Info(insc_i, insc_id, info) {
     return info_bit;
 }
 
-function getVers(hello) {
-    console.log(hello);
-    const option = hello.value;
+function getVers(obj, sc_id) {
+    console.log(obj);
+    const option = obj.value;
     console.log(option);
+    console.log(sc_id);
     switch (option) {
         case 'vw_vrs_live':
+
+            break;
+        
+        case 'vw_vrs_live':
+
             break;
 
     }

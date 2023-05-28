@@ -13,3 +13,8 @@
 .algn_y_up_23 {
     margin-bottom: 23px;
 }
+
+.flx_cntr {
+    display: flex;
+    align-items: center;
+}

@@ -71,27 +71,11 @@ function gen_PntrDrct(scion_id, p_type) {
 };
 
 function homeFetch() {
-    var drct_full = '/ls/000/am2.json';
-    fetch(drct_full)
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
-            var mainContainer = document.getElementById('trestleboard');
-            mainContainer.innerHTML = "";
-            var trstle_etchngs = gen_ECI('div', 'trstle_etchngs', `id_trstle_etchngs`);
-            mainContainer.appendChild(trstle_etchngs);
-            function populatePage(data) {
-                var headBoard = createElementWithClass('div', 'branch_container');
-                var ls_ttl = createElementWithClass('div', 'hd_name');
-                ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>Welcome to Liber Silo</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
-                headBoard.appendChild(ls_ttl);
-                trstle_etchngs.appendChild(headBoard);
-            }
-            populatePage(data);
-        })
-
-        .catch(err => {
-            console.log(err);
-        })
+    var mainContainer = document.getElementById('trestleboard');
+    mainContainer.innerHTML = "";
+    var headBoard = createElementWithClass('div', 'branch_container');
+    var ls_ttl = createElementWithClass('div', 'hd_name');
+    ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>Welcome to Liber Silo</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
+    headBoard.appendChild(ls_ttl);
+    mainContainer.appendChild(headBoard);
 }

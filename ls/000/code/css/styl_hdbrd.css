@@ -62,10 +62,15 @@
     position: relative;
 }
 
+.hd_name {
+    text-align: center;
+}
+
 .hd_ttl {
     text-align: center;
     font-family: VPCS;
     font-size: 53px;
+    font-weight: bold;
 }
 
 .hd_ttl_arrw {

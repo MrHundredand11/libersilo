@@ -111,6 +111,7 @@
     margin-left: 11px;
     padding: 3px;
     border-radius: 7px;
+    background-color: lightgray;
 }
 
 .hd_vw_b_2_a {
@@ -120,6 +121,7 @@
     padding: 3px;
     margin-right: 11px;
     margin-left: 3px;
+    background-color: white;
 }
 
 .hd_vw_b_2_b {
@@ -128,6 +130,7 @@
     border: 1px solid black;
     padding: 3px;
     margin-right: 3px;
+    background-color: white;
 }
 
 .hd_vw_c {

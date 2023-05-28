@@ -84,8 +84,7 @@ function homeFetch() {
             function populatePage(data) {
                 var headBoard = createElementWithClass('div', 'branch_container');
                 var ls_ttl = createElementWithClass('div', 'hd_name');
-                //ls_ttl.innerHTML = "<img src='Seal.jpg' width='333' height='333'></img><br>" + "<span class='styl_pointers'>->&nbsp</span>" + data.ls_ttl + "<span class='styl_pointers'>&nbsp<-</span>";
-                ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>${data.ls_ttl}</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
+                ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>Welcome to Liber Silo</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
                 headBoard.appendChild(ls_ttl);
                 trstle_etchngs.appendChild(headBoard);
             }

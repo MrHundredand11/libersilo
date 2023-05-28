@@ -71,84 +71,84 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Correspondences",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Path 12</b></i>)",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Path 12</b></i>)",
                     "scion_id": "ls_qbl_32p_p12_qblh_000_crrsp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Arcana Alphabet",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Astrological Cycles",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_alg"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Cube of Space",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Directions",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Directions</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Directions</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_drct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Double Letters",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_dblltr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Modes of Consciousness",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_cnscs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Intelligences",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_intl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tarot Arcana",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tree of Life",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 12</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_32p_p12_qblh_otz"
                 }
             ]
         },
         {
             "drct_id": "RLTN",
-            "drct_ttl": "Relationships of 'The 10th Path'",
-            "scion_id": "ls_qbl_32p_p10_rltn",
+            "drct_ttl": "Relationships of 'The 12th Path'",
+            "scion_id": "ls_qbl_32p_p12_rltn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 10</b></i>)</span>",
-                    "scion_id": "ls_qbl_32p_p10_rltn_lst"
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 12</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p12_rltn_lst"
                 }
             ]
         }

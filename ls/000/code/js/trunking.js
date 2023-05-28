@@ -510,7 +510,10 @@ function gen_Insc(insc_i, scion) {
                             })
                     }
                     dirFetch();
+                    break;
+                
             }
+            break;
     }
 }
 

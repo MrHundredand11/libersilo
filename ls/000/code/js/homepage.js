@@ -70,6 +70,19 @@ function gen_PntrDrct(scion_id, p_type) {
     return pntr;
 };
 
+function rotatePointer(pnt_id) {
+    var pnt_stt = document.getElementById(pnt_id);
+    
+    if (pnt_stt.className.includes('styl_pnt_0deg')) {
+        pnt_stt.classList.add('styl_pnt_30deg');
+        pnt_stt.classList.remove('styl_pnt_0deg');
+    } else if (pnt_stt.className.includes('styl_pnt_30deg')) {
+        pnt_stt.classList.add('styl_pnt_0deg');
+        pnt_stt.classList.remove('styl_pnt_30deg');
+    }
+    
+};
+
 function homeFetch() {
     var mainContainer = document.getElementById('trestleboard');
     mainContainer.innerHTML = "";

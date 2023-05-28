@@ -48,7 +48,8 @@
                             "scion_id": "ls_qbl_32p_p07_txts_lst_wcoleman",
                             "scions": [
                                 {
-                                    "insc_type": "in_txt",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "[&emsp;The 7th Path is the Hidden Intelligence (Sekhel Nistar). It is the splendor that illuminates all intellectual powers that is visible to the mind's eye and contemplation of faith.&emsp;]"
                                 }
                             ]
@@ -58,7 +59,8 @@
                             "scion_id": "ls_qbl_32p_p07_txts_lst_akircher",
                             "scions": [
                                 {
-                                    "insc_type": "in_txt",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "[&emsp;The 7th Path is called the Hidden Intelligence because it is the splendor, shining on all intellectual virtues, which are perceived by the eyes of our reason and by the contemplation of our faith. It is called \"hidden\" because it is not understood but through the intelligences of the Measures [Sephiroth], and it is distinguished from the first path in this way because that one is incomprehensible, while this one is comprehensible. It is called the \"Path of Intellectual Entities\".&emsp;]"
                                 }
                             ]

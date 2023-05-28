@@ -490,8 +490,6 @@ function gen_Insc(insc_i, scion) {
                             })
                             .then(data => {
                                     let drct_rcrd = data.scions
-                                    var drct_cntn = gen_ECI('div', 'styl_drct_cntn', 'id_drct_cntn');
-                                    drct_main.append(drct_cntn);
                                     for (x in drct_rcrd) {
                                         gen_dir(drct_rcrd[x]);
                                     }

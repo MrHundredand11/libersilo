@@ -83,10 +83,18 @@
     font-size: 43px;
 }
 
+.hd_vw_b {
+    margin-left: 11px;
+}
+
 .hd_vw_b_1 {
     font-family: sitka;
     font-size: 23px;
     font-style: italic;
+}
+
+.hd_vw_c {
+    margin-left: 11px;
 }
 
 .hd_vw_c_1 {

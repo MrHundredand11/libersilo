@@ -168,6 +168,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Gematria",
+                                    "insc_styl": "flx_cntr",
                                     "insc_cntn": "[<b>MR</b>]:[\t<span class='ins_gmtr_calc'>4+30+400</span>\t]=&nbsp;<span class='ins_gmtr_rslt'>434</span>"
                                 },
                                 {
@@ -176,6 +177,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Gematria",
+                                    "insc_styl": "flx_cntr",
                                     "insc_cntn": "[<b>MR</b>]:[\t<span class='ins_gmtr_calc'>4+30+4</span>\t]=&nbsp;<span class='ins_gmtr_rslt'>38</span>"
                                 }
                             ]

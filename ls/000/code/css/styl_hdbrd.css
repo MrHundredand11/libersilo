@@ -139,6 +139,7 @@
     margin-left: 11px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .hd_vw_c_1 {

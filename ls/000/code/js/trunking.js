@@ -480,6 +480,7 @@ function gen_Insc(insc_i, scion) {
         case 'spcl':
             switch (scion.insc_typ2) {
                 case 'drct_00':
+                    var dir_full = document.getElementById('id_b_trstlbrd_ls_000_drct_full');    
                     function dirFetch() {
                         var drct_full = '/ls/000/am2.json';
                         fetch(drct_full)

@@ -490,11 +490,8 @@ function gen_Insc(insc_i, scion) {
                             })
                             .then(data => {
                                     let drct_rcrd = data.scions
-                                    
-                                    var drct_head = createElementWithClass('div', 'styl_drct_head');
                                     var drct_cntn = gen_ECI('div', 'styl_drct_cntn', 'id_drct_cntn');
-                                    drct_head.innerHTML = "<span class='styl_pointers'>-></span> <strong><u>Full Directory to Liber Silo</u></strong>:";
-                                    drct_main.append(drct_head, drct_cntn);
+                                    drct_main.append(drct_cntn);
                                     for (x in drct_rcrd) {
                                         gen_dir(drct_rcrd[x]);
                                     }

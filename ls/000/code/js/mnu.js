@@ -1,3 +1,14 @@
+function mnu_active_entry(scion_id) {
+    var cnt = document.getElementById(`mnu_accrd_entry_${scion_id}`);
+    cnt.classList.toggle("active");
+
+    if (cnt.style['background-color'] === '#F0F0F0') {
+        cnt.style['background-color'] = '#B0B0B0';
+    } else {
+        cnt.style['background-color'] = '#F0F0F0';
+    }
+}
+
 function whatsOnTheMenu() {
     fetch('/ls/000/am2.json')
         .then(response => {

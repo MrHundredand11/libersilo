@@ -64,6 +64,7 @@ function gen_Info(insc_i, insc_id, info) {
     return info_bit;
 }
 
-function getVers() {
+function getVers(hello) {
+    console.log(hello);
     return;
 }

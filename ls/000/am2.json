@@ -1,6 +1,7 @@
 {
-    "ls_ttl": "Directory to Liber Silo",
-    "ls_id": "ls_000_drct",
+    "ls_id": "ls_000_drtr",
+    "ls_ttl": "Director-Tree",
+    "ls_url": "/ls/000/drtr.json",
     "scions": [
         {
             "ls_id": "LS-000",

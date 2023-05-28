@@ -91,6 +91,12 @@
     font-family: sitka;
     font-size: 23px;
     font-style: italic;
+    display: inline;
+}
+
+.hd_vw_b_2 {
+    border: 1px solid black;
+    display: inline-flex;
 }
 
 .hd_vw_c {

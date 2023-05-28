@@ -414,7 +414,7 @@ function gen_Insc(insc_i, scion) {
         case 'spcl':
             switch (scion.insc_typ2) {
                 case 'drct_00':
-                    var brnc_main = gen_ECI('div', 'branch_container', 'id_drct_brnc');
+                    var brnc_main = gen_ECI('div', 'branch_container', 'id_drct_00_brnc');
                     fetch(scion.insc_drct)
                         .then(response => {
                             return response.json();

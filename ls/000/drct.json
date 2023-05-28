@@ -6,14 +6,14 @@
     "scions": [
         {
             "drct_id": "FULL",
-            "drct_ttl": "Full Unfolded Directory",
-            "scion_id": "ls_000_drct_fllunfld",
+            "drct_ttl": "Full Unfolded Director-Tree",
+            "scion_id": "ls_000_drct_drtr_fllunfld",
             "scions": [
                 {
                     "insc_typ1": "spcl",
                     "insc_typ2": "drct_00",
-                    "insc_drct": "/ls/000/am2.json",
-                    "scion_id": "ls_000_drct_fllunfld_000"
+                    "insc_drct": "/ls/000/drtr.json",
+                    "scion_id": "ls_000_drct_drtr_fllunfld_000"
                 }
             ]
         },

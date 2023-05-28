@@ -480,7 +480,8 @@ function gen_Insc(insc_i, scion) {
         case 'spcl':
             switch (scion.insc_typ2) {
                 case 'drct_00':
-                    var dir_full = document.getElementById('id_b_trstlbrd_ls_000_drct_full');    
+                       
+                    var drct_main = createElementWithClass('div', 'branch_container');
                     function dirFetch() {
                         var drct_full = '/ls/000/am2.json';
                         fetch(drct_full)
@@ -488,24 +489,16 @@ function gen_Insc(insc_i, scion) {
                                 return response.json();
                             })
                             .then(data => {
-                                var dir_full = document.getElementById('id_b_trstlbrd_ls_000_drct_full');
-                                dir_full.innerHTML = "";
-                    
-                                function popDir(data) {
                                     let drct_rcrd = data.scions
-                                    var drct_main = createElementWithClass('div', 'branch_container');
+                                    
                                     var drct_head = createElementWithClass('div', 'styl_drct_head');
                                     var drct_cntn = gen_ECI('div', 'styl_drct_cntn', 'id_drct_cntn');
                                     drct_head.innerHTML = "<span class='styl_pointers'>-></span> <strong><u>Full Directory to Liber Silo</u></strong>:";
                                     drct_main.append(drct_head, drct_cntn);
-                                    dir_full.appendChild(drct_main);
                                     for (x in drct_rcrd) {
                                         gen_dir(drct_rcrd[x]);
                                     }
-                                }
-                                popDir(data);
                             })
-                    
                             .catch(err => {
                                 console.log(err);
                             })
@@ -514,7 +507,7 @@ function gen_Insc(insc_i, scion) {
                     break;
                 
             }
-            return dir_full;
+            return drct_main;
     }
 }
 

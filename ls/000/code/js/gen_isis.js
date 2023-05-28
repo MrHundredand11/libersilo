@@ -66,5 +66,12 @@ function gen_Info(insc_i, insc_id, info) {
 
 function getVers(hello) {
     console.log(hello);
+    const option = hello.value;
+    console.log(option);
+    switch (option) {
+        case 'vw_vrs_live':
+            break;
+
+    }
     return;
 }

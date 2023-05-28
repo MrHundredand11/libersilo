@@ -19,30 +19,6 @@ let bmp_def = "&nbsp=&nbsp";
 let bmp_stm_02 = "-- --<br>-- -- --<br>";
 let bmp_def_flow = "&nbsp<span class='styl_insc_txt_flow'>=</span>&nbsp";
 
-function mnu_active_entry(scion_id) {
-    var cnt = document.getElementById(`mnu_accrd_entry_${scion_id}`);
-    cnt.classList.toggle("active");
-
-    if (cnt.style['background-color'] === '#F0F0F0') {
-        cnt.style['background-color'] = '#B0B0B0';
-    } else {
-        cnt.style['background-color'] = '#F0F0F0';
-    }
-}
-
-function rotatePointer(pnt_id) {
-    var pnt_stt = document.getElementById(pnt_id);
-    
-    if (pnt_stt.className.includes('styl_pnt_0deg')) {
-        pnt_stt.classList.add('styl_pnt_30deg');
-        pnt_stt.classList.remove('styl_pnt_0deg');
-    } else if (pnt_stt.className.includes('styl_pnt_30deg')) {
-        pnt_stt.classList.add('styl_pnt_0deg');
-        pnt_stt.classList.remove('styl_pnt_30deg');
-    }
-    
-};
-
 function gen_Insc(insc_i, scion) {
     var insc_id = generateLeafIdNum(scion.scion_id, insc_i);
     switch (scion.insc_typ1) {
@@ -421,8 +397,6 @@ function gen_Insc(insc_i, scion) {
                         })
                         .then(data => {
                             let drct_rcrd = data.scions
-                           // var drct_cntn = gen_ECI('div', 'drct_full_cntn', 'id_drct_full_cntn');
-                           // brnc_main.append(drct_cntn);
                             for (x in drct_rcrd) {
                                 gen_dir(drct_rcrd[x]);
                             }

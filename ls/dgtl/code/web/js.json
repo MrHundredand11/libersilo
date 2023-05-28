@@ -381,6 +381,11 @@
             "scion_id": "ls_dgtl_code_web_js_outp"
         },
         {
+            "drct_id": "EVNT",
+            "drct_ttl": "Events in 'JavaScript'",
+            "scion_id": "ls_dgtl_code_web_js_evnt"
+        },
+        {
             "drct_id": "ERRR",
             "drct_ttl": "Errors + Debugging in 'JavaScript'",
             "scion_id": "ls_dgtl_code_web_js_errr",

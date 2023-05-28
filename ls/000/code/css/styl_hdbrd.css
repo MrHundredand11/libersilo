@@ -83,6 +83,13 @@
     font-size: 43px;
 }
 
+.hd_vw_a {
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .hd_vw_b {
     margin-left: 11px;
 }

@@ -414,15 +414,15 @@ function gen_Insc(insc_i, scion) {
         case 'spcl':
             switch (scion.insc_typ2) {
                 case 'drct_00':
-                    var brnc_main = createElementWithClass('div', 'branch_container');
+                    var brnc_main = gen_ECI('div', 'branch_container', 'id_drct_brnc');
                     fetch(scion.insc_drct)
                         .then(response => {
                             return response.json();
                         })
                         .then(data => {
                             let drct_rcrd = data.scions
-                            var drct_cntn = gen_ECI('div', 'drct_full_cntn', 'id_drct_full_cntn');
-                            brnc_main.append(drct_cntn);
+                           // var drct_cntn = gen_ECI('div', 'drct_full_cntn', 'id_drct_full_cntn');
+                           // brnc_main.append(drct_cntn);
                             for (x in drct_rcrd) {
                                 gen_dir(drct_rcrd[x]);
                             }

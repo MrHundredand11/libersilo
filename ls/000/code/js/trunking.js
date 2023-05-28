@@ -423,6 +423,8 @@ async function fetchy(zz) {
                 hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
                 hd_vw_a_0.innerHTML = 'Views';
                 hd_vw_b_1.innerHTML = 'Source:';
+                hd_vw_b_2_a.innerHTML = 'JSON';
+                hd_vw_b_2_b.innerHTML = 'DOCX';
                 hd_vw_c_1.innerHTML = 'Version:';
                 hd_vw_c_2.innerHTML = "<select id='vw_vrs'><option value='vw_vrs_000'>0.0.0</option></select>";
                 hd_vw_a.append(hd_vw_a_0);

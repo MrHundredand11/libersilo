@@ -63,3 +63,7 @@ function gen_Info(insc_i, insc_id, info) {
     info_bit.innerHTML = info.info_ttl;
     return info_bit;
 }
+
+function getVers() {
+    return;
+}

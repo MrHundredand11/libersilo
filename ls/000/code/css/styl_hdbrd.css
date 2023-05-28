@@ -94,6 +94,7 @@
     margin-left: 11px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .hd_vw_b_1 {
@@ -107,6 +108,8 @@
     border: 1px solid black;
     display: inline-flex;
     flex-direction: row;
+    margin-left: 11px;
+    padding: 3px;
 }
 
 .hd_vw_b_2_a {
@@ -129,6 +132,10 @@
     font-family: sitka;
     font-size: 23px;
     font-style: italic;
+}
+
+.hd_vw_c_2 {
+    margin-left: 11px;
 }
 
 .hd_tail {

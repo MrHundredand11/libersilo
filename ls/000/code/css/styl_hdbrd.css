@@ -106,6 +106,17 @@
 .hd_vw_b_2 {
     border: 1px solid black;
     display: inline-flex;
+    flex-direction: row;
+}
+
+.hd_vw_b_2_a {
+    width: 50%;
+    text-align: center;
+}
+
+.hd_vw_b_2_b {
+    width: 50%;
+    text-align: center;
 }
 
 .hd_vw_c {

@@ -513,7 +513,7 @@ function gen_Insc(insc_i, scion) {
                     break;
                 
             }
-            break;
+            return dir_full;
     }
 }
 

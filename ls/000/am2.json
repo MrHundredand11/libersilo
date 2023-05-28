@@ -3632,11 +3632,83 @@
                             "scion_id": "ls_qbl_alg_node"
                         },
                         {
-                            "ls_id": "LS-QBL-ALG-SGNS",
-                            "ls_ttl": "The Zodiacal Influences",
+                            "ls_id": "LS-QBL-ALG-PLNT",
+                            "ls_ttl": "Astrological Planets",
                             "ls_type": "=>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_alg_sgns",
+                            "ls_url": "/ls/qbl/alg/plnt/",
+                            "scion_id": "ls_qbl_alg_plnt",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P01",
+                                    "ls_ttl": "The Planet Luna",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p01.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p01"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P02",
+                                    "ls_ttl": "The Planet Mercury",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p02.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p02"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P03",
+                                    "ls_ttl": "The Planet Venus",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p03.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p03"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P04",
+                                    "ls_ttl": "The Planet Sol",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p04.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p04"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P05",
+                                    "ls_ttl": "The Planet Mars",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p05.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p05"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P06",
+                                    "ls_ttl": "The Planet Jupiter",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p06.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p06"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P07",
+                                    "ls_ttl": "The Planet Saturn",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p07.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p07"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P08",
+                                    "ls_ttl": "The Planet Uranus",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p08.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p08"
+                                },
+                                {
+                                    "ls_id": "LS-QBL-ALG-PLNT-P09",
+                                    "ls_ttl": "The Planet Neptune",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/qbl/alg/plnt/p09.json",
+                                    "scion_id": "ls_qbl_alg_plnt_p09"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-QBL-ALG-ZDC",
+                            "ls_ttl": "Astrological Zodiac",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/qbl/alg/zdc/",
+                            "scion_id": "ls_qbl_alg_zdc",
                             "scions": [
                                 {
                                     "ls_id": "LS-QBL-ALG-ZDC-S01",
@@ -3721,78 +3793,6 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/qbl/alg/zdc/s12.json",
                                     "scion_id": "ls_qbl_alg_zdc_s12"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-QBL-ALG-PLNT",
-                            "ls_ttl": "The Planetary Influences",
-                            "ls_type": "=>",
-                            "ls_url": "",
-                            "scion_id": "ls_qbl_alg_plnt",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P01",
-                                    "ls_ttl": "The Planet Luna",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p01.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p01"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P02",
-                                    "ls_ttl": "The Planet Mercury",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p02.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p02"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P03",
-                                    "ls_ttl": "The Planet Venus",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p03.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p03"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P04",
-                                    "ls_ttl": "The Planet Sol",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p04.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p04"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P05",
-                                    "ls_ttl": "The Planet Mars",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p05.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p05"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P06",
-                                    "ls_ttl": "The Planet Jupiter",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p06.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p06"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P07",
-                                    "ls_ttl": "The Planet Saturn",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p07.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p07"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P08",
-                                    "ls_ttl": "The Planet Uranus",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p08.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p08"
-                                },
-                                {
-                                    "ls_id": "LS-QBL-ALG-PLNT-P09",
-                                    "ls_ttl": "The Planet Neptune",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/qbl/alg/plnt/p09.json",
-                                    "scion_id": "ls_qbl_alg_plnt_p09"
                                 }
                             ]
                         },

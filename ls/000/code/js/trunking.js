@@ -1,5 +1,3 @@
-
-
 function gen_Insc(insc_i, scion) {
     var insc_id = generateLeafIdNum(scion.scion_id, insc_i);
     switch (scion.insc_typ1) {
@@ -424,7 +422,7 @@ async function fetchy(zz) {
                 hd_vw_a_0.innerHTML = 'Views';
                 hd_vw_b_1.innerHTML = 'Source:';
                 hd_vw_c_1.innerHTML = 'Version:';
-                hd_vw_c_2.innerHTML = '0.0.0';
+                hd_vw_c_2.innerHTML = "<select id='vw_vrs'><option value='vw_vrs_000'>0.0.0</option></select>";
                 hd_vw_a.append(hd_vw_a_0);
                 hd_vw_b.append(hd_vw_b_1, hd_vw_b_2);
                 hd_vw_c.append(hd_vw_c_1, hd_vw_c_2);

@@ -11,7 +11,7 @@ function gen_dir(rcr) {
             d_t.innerHTML = `<em>[${rcr.ls_id}]</em> =&nbsp;`;
             d_n.innerHTML = rcr.ls_ttl;
             //var drct_cntnr = document.getElementById('id_drct_cntn');
-            document.getElementById('id_drct_cntn').appendChild(d_i);
+            document.getElementById('id_drct_00_brnc').appendChild(d_i);
             var d_f = createElementWithClass('div', 'd_000_fold');
             d_i.appendChild(d_f);
             for (x in rcr.scions) {

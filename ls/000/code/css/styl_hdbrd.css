@@ -110,16 +110,24 @@
     flex-direction: row;
     margin-left: 11px;
     padding: 3px;
+    border-radius: 7px;
 }
 
 .hd_vw_b_2_a {
     width: 50%;
     text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 11px;
+    margin-left: 3px;
 }
 
 .hd_vw_b_2_b {
     width: 50%;
     text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 3px;
 }
 
 .hd_vw_c {

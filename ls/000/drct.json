@@ -6,13 +6,14 @@
     "scions": [
         {
             "drct_id": "FULL",
-            "drct_ttl": "Directory in Full",
-            "scion_id": "ls_000_drct_full",
+            "drct_ttl": "Full Unfolded Directory",
+            "scion_id": "ls_000_drct_fllunfld",
             "scions": [
                 {
                     "insc_typ1": "spcl",
                     "insc_typ2": "drct_00",
-                    "insc_drct": "/ls/000/am2.json"
+                    "insc_drct": "/ls/000/am2.json",
+                    "scion_id": "ls_000_drct_fllunfld_000"
                 }
             ]
         },

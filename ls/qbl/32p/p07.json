@@ -1,38 +1,112 @@
 {
     "ls_id": "LS-QBL-32P-P07",
     "ls_ttl": "The 7th Path",
+    "ls_url": "/ls/qbl/32p/p07.json",
     "scion_id": "ls_qbl_32p_p07",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_000"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p07_name_lst"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p07_name_expl"
+                }
+            ]
+        },
+        {
             "drct_id": "TXTS",
-            "drct_ttl": "Texts of 'The 7th Path'",
+            "drct_ttl": "Texts + Translations of 'The 7th Path'",
             "scion_id": "ls_qbl_32p_p07_txts",
             "scions": [
                 {
-                    "insc_ttl": "List of Translations + Texts of (The 7th Path) ::",
-                    "insc_type": "stm_olst_exp",
-                    "insc_tag": "Texts",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
                     "scion_id": "ls_qbl_32p_p07_txts_lst",
                     "scions": [
                         {
-                            "insc_term": "Wade Coleman Translation",
-                            "scions": [
-                                {
-                                    "insc_type": "in_txt",
-                                    "insc_cntn": "[&emsp;The 7th Path is the Hidden Intelligence (Sekhel Nistar). It is the splendor that illuminates all intellectual powers that is visible to the mind's eye and contemplation of faith.&emsp;]"
-                                }
-                            ]
+                            "insc_term": "William Wynn Westcott Translation",
+                            "scion_id": "ls_qbl_32p_p07_txts_lst_wwwestcott"
                         },
                         {
-                            "insc_term": "Latin Commentary",
-                            "scions": [
-                                {
-                                    "insc_type": "in_txt",
-                                    "insc_cntn": "[&emsp;The 7th Path is called the Hidden Intelligence because it is the splendor, shining on all intellectual virtues, which are perceived by the eyes of our reason and by the contemplation of our faith. It is called \"hidden\" because it is not understood but through the intelligences of the Measures [Sephiroth], and it is distinguished from the first path in this way because that one is incomprehensible, while this one is comprehensible. It is called the \"Path of Intellectual Entities\".&emsp;]"
-                                }
-                            ]
+                            "insc_term": "Wade Coleman Translation",
+                            "scion_id": "ls_qbl_32p_p07_txts_lst_wcoleman"
+                        },
+                        {
+                            "insc_term": "Athanasius Kircher Commentary",
+                            "scion_id": "ls_qbl_32p_p07_txts_lst_akircher"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>"
+                }
+            ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "scion_id": "ls_qbl_32p_p07_qblh_otz"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
+                    "scion_id": "ls_qbl_32p_p07_qblh_cube"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "scion_id": "ls_qbl_32p_p07_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Celestial Science</b></u></span>",
+                    "scion_id": "ls_qbl_32p_p07_qblh_astr"
+                }
+            ]
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The 7th Path'",
+            "scion_id": "ls_qbl_32p_p07_rltn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>"
                 }
             ]
         }

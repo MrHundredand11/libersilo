@@ -109,7 +109,7 @@
     display: inline-flex;
     flex-direction: row;
     margin-left: 11px;
-    padding: 3px;
+    padding: 5px;
     border-radius: 7px;
     background-color: lightgray;
 }
@@ -121,6 +121,7 @@
     padding: 3px;
     margin-right: 11px;
     margin-left: 3px;
+    border-radius: 7px;
     background-color: white;
 }
 
@@ -130,6 +131,7 @@
     border: 1px solid black;
     padding: 3px;
     margin-right: 3px;
+    border-radius: 7px;
     background-color: white;
 }
 

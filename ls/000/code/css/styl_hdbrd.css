@@ -62,9 +62,15 @@
     position: relative;
 }
 
-.styl_head_ttle {
+.hd_ttl {
     text-align: center;
     font-family: VPCS;
+    font-size: 53px;
+}
+
+.hd_ttl_arrw {
+    text-align: center;
+    font-family: Calibri;
     font-size: 53px;
 }
 

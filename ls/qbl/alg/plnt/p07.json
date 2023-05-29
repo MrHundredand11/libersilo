@@ -422,207 +422,96 @@
         },
         {
             "drct_id": "PLCE",
-            "drct_ttl": "Placements of 'Saturn' in the 'Zodiac Signs'",
-            "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc",
+            "drct_ttl": "Placements of 'Saturn'",
+            "scion_id": "ls_qbl_alg_plnt_p07_plce",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aries</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_01",
-                    "scions": []
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc",
+                    "scions": [
+                        {
+                            "insc_term": "Saturn in Aries"
+                        },
+                        {
+                            "insc_term": "Saturn in Taurus"
+                        },
+                        {
+                            "insc_term": "Saturn in Gemini"
+                        },
+                        {
+                            "insc_term": "Saturn in Cancer"
+                        },
+                        {
+                            "insc_term": "Saturn in Leo"
+                        },
+                        {
+                            "insc_term": "Saturn in Virgo"
+                        },
+                        {
+                            "insc_term": "Saturn in Libra"
+                        },
+                        {
+                            "insc_term": "Saturn in Scorpio"
+                        },
+                        {
+                            "insc_term": "Saturn in Sagittarius"
+                        },
+                        {
+                            "insc_term": "Saturn in Capricorn"
+                        },
+                        {
+                            "insc_term": "Saturn in Aquarius"
+                        },
+                        {
+                            "insc_term": "Saturn in Pisces"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Taurus</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_02",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_03",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cancer</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_04",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Leo</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_05",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Virgo</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_06",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Libra</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_07",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Scorpio</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_08",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Sagittarius</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_09",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Capricorn</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_10",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Aquarius</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_11",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Pisces</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc_12",
-                    "scions": []
-                }
-            ]
-        },
-        {
-            "drct_id": "PLCE",
-            "drct_ttl": "Placements of 'Saturn' in the 'Zodiac Houses'",
-            "scion_id": "ls_qbl_alg_plnt_p07_plce_hse",
-            "scions": [
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>1st House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_01",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>2nd House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_02",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>3rd House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_03",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>4th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_04",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>5th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_05",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>6th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_06",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>7th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_07",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>8th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_08",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>9th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_09",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>10th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_10",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>11th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_11",
-                    "scions": []
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Placement",
-                    "insc_ttl": "<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Placement</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>12th House</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse_12",
-                    "scions": []
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse",
+                    "scions": [
+                        {
+                            "insc_term": "Saturn in The First House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Second House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Third House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Fourth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Fifth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Sixth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Seventh House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Eighth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Ninth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Tenth House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Eleventh House"
+                        },
+                        {
+                            "insc_term": "Saturn in The Twelfth House"
+                        }
+                    ]
                 }
             ]
         }

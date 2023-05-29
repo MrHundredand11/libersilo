@@ -53,7 +53,56 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Coleman, Wade",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Crowley, Aleister",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Davies, Ann",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Deal, David Allen",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Einstein, Albert",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Karén, Michelle",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kircher, Athanasius",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Koparkar, Mohan",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -82,6 +131,20 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Puryear, Herbert Bruce",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Shoemaker, David",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -352,7 +415,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
-                    "scion_id": "ls_000_cite_book_lst",
+                    "scion_id": "ls_000_cite_book_lst_sprt",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -409,11 +472,11 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
-                            "cite_ttl": "Secrets of the Great Pyramid",
-                            "cite_auth": "Tompkins, Peter",
-                            "cite_pbls": "Harper & Row, Publishers",
-                            "cite_date": "1971",
-                            "cite_edtn": "First Edition"
+                            "cite_ttl": "Thirty-Two Paths of Wisdom",
+                            "cite_auth": "Case, Paul Foster",
+                            "cite_edtr": "Coleman, Wade",
+                            "cite_edtn": "January 2021",
+                            "cite_isbn": "9781733162081"
                         },
                         {
                             "insc_typ1": "cite",
@@ -431,6 +494,24 @@
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Wisdom in the Hebrew Alphabet",
                             "cite_auth": "Rabbi Munk"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Locational Information</b></u></span>",
+                    "scion_id": "ls_000_cite_book_lst_lctn",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Secrets of the Great Pyramid",
+                            "cite_auth": "Tompkins, Peter",
+                            "cite_pbls": "Harper & Row, Publishers",
+                            "cite_date": "1971",
+                            "cite_edtn": "First Edition"
                         }
                     ]
                 }

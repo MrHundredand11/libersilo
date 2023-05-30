@@ -307,7 +307,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><i>The</i> <b><u>3 Types</b></u> <i>of</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Types</b></u> <i>of</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
                     "scion_id": "ls_dgtl_code_web_js_scop_type",
                     "scions": [
                         {
@@ -407,7 +407,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Types</b></u> <i>of</i> (<b><i>Errors</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Types</b></u> <i>of</i> (<b><i>Errors</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
                     "scion_id": "ls_dgtl_code_web_js_errr_typ_lst",
                     "scions": [
                         {

@@ -124,6 +124,13 @@
                             "scion_id": "ls_dgtl_code_prgm",
                             "scions": [
                                 {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-CCMMNTS",
+                                    "ls_ttl": "Code Coments",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/ccmmnts.json",
+                                    "scion_id": "ls_dgtl_code_prgm_ccmmnts"
+                                },
+                                {
                                     "ls_id": "LS-DGTL-CODE-PRGM-CTRL",
                                     "ls_ttl": "Control Structures",
                                     "ls_type": "+>",
@@ -138,11 +145,39 @@
                                     "scion_id": "ls_dgtl_code_prgm_crud"
                                 },
                                 {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-DSHBRD",
+                                    "ls_ttl": "Dashboards",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/dshbrd.json",
+                                    "scion_id": "ls_dgtl_code_prgm_dshbrd"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-DESDIS",
+                                    "ls_ttl": "Designing for Disabilities",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/desdis.json",
+                                    "scion_id": "ls_dgtl_code_prgm_desdis"
+                                },
+                                {
                                     "ls_id": "LS-DGTL-CODE-PRGM-ERRR",
                                     "ls_ttl": "Errors + Debugging",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/crud.json",
-                                    "scion_id": "ls_dgtl_code_prgm_crud"
+                                    "ls_url": "/ls/dgtl/code/prgm/errr.json",
+                                    "scion_id": "ls_dgtl_code_prgm_errr"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-OUTPUT",
+                                    "ls_ttl": "Outputs",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/output.json",
+                                    "scion_id": "ls_dgtl_code_prgm_output"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-CODE-PRGM-SSSION",
+                                    "ls_ttl": "Session Structures",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/code/prgm/sssion.json",
+                                    "scion_id": "ls_dgtl_code_prgm_sssion"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-VAR",
@@ -200,38 +235,8 @@
                             "scion_id": "ls_dgtl_db_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-DB-DBTYPE",
-                            "ls_ttl": "Database Types",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/db/dbtype/",
-                            "scion_id": "ls_dgtl_db_dbtype",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-DB-TYP-DOC",
-                                    "ls_ttl": "Document Databases",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/typ/doc.json",
-                                    "scion_id": "ls_dgtl_db_typ_doc"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-DB-TYP-GRAPH",
-                                    "ls_ttl": "Graph Databases",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/typ/graph.json",
-                                    "scion_id": "ls_dgtl_db_typ_graph"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-DB-TYP-RLTNL",
-                                    "ls_ttl": "Relational Databases",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/typ/rltnl.json",
-                                    "scion_id": "ls_dgtl_db_typ_rltnl"
-                                }
-                            ]
-                        },
-                        {
                             "ls_id": "LS-DGTL-DB-QL",
-                            "ls_ttl": "Query Languages",
+                            "ls_ttl": "Database Query Languages",
                             "ls_type": "=>",
                             "ls_url": "/ls/dgtl/db/ql/",
                             "scion_id": "ls_dgtl_db_ql",
@@ -260,18 +265,32 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-DGTL-DB-RDBMS",
-                            "ls_ttl": "Relational Database Management Systems",
+                            "ls_id": "LS-DGTL-DB-DBTYPE",
+                            "ls_ttl": "Database Types",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/db/rdbms/",
-                            "scion_id": "ls_dgtl_db_rdbms",
+                            "ls_url": "/ls/dgtl/db/dbtype/",
+                            "scion_id": "ls_dgtl_db_dbtype",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-DB-RDBMS-MSSQL19",
-                                    "ls_ttl": "MS SQL Server 2019",
+                                    "ls_id": "LS-DGTL-DB-TYP-DOC",
+                                    "ls_ttl": "Document Databases",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/rdbms/mssql19.json",
-                                    "scion_id": "ls_dgtl_db_rdbms_mssql19"
+                                    "ls_url": "/ls/dgtl/db/typ/doc.json",
+                                    "scion_id": "ls_dgtl_db_typ_doc"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-TYP-GRAPH",
+                                    "ls_ttl": "Graph Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/typ/graph.json",
+                                    "scion_id": "ls_dgtl_db_typ_graph"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-TYP-RLTNL",
+                                    "ls_ttl": "Relational Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/typ/rltnl.json",
+                                    "scion_id": "ls_dgtl_db_typ_rltnl"
                                 }
                             ]
                         }

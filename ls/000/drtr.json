@@ -124,38 +124,6 @@
                             "scion_id": "ls_dgtl_code_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-CODE-API",
-                            "ls_ttl": "Application Programming Interfaces",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/code/api/",
-                            "scion_id": "ls_dgtl_code_api",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-CODE-API-FETCH",
-                                    "ls_ttl": "The Fetch API",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/api/fetch.json",
-                                    "scion_id": "ls_dgtl_code_api_fetch"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-DGTL-CODE-ARCH",
-                            "ls_ttl": "Architectures of Programming",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/code/arch/",
-                            "scion_id": "ls_dgtl_code_arch",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-CODE-ARCH-MVC",
-                                    "ls_ttl": "MVC Architectural Programming",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/arch/mvc.json",
-                                    "scion_id": "ls_dgtl_code_arch_mvc"
-                                }
-                            ]
-                        },
-                        {
                             "ls_id": "LS-DGTL-CODE-PRGM",
                             "ls_ttl": "Programming Concepts",
                             "ls_type": "=>",

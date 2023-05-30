@@ -432,7 +432,7 @@ async function fetchy(zz) {
             //    var hd_vw_c = createElementWithClass('div', 'hd_vw_c');
             //    var hd_vw_c_1 = createElementWithClass('div', 'hd_vw_c_1');
             //    var hd_vw_c_2 = createElementWithClass('div', 'hd_vw_c_2');
-            //    var hd_lsid = createElementWithClass('div', 'styl_head_lsid');
+                var hd_lsid = createElementWithClass('div', 'styl_head_lsid');
                 var directory_div = createElementWithClass('div', 'styl_head_drct');
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');

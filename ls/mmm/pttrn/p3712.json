@@ -36,6 +36,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The New Testament",
+                            "insc_offs": "offs_dwn_17",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_bbl_nt",
                             "scions": [
                                 {
@@ -53,6 +54,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Celestial Science",
+                            "insc_offs": "offs_dwn_17",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_astr",
                             "scions": [
                                 {
@@ -70,6 +72,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Cube of Space",
+                            "insc_offs": "offs_dwn_17",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_cube",
                             "scions": [
                                 {
@@ -87,6 +90,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Arcana Alphabet",
+                            "insc_offs": "offs_dwn_17",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_qblh_aa",
                             "scions": [
                                 {
@@ -104,6 +108,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Masonic Tradition",
+                            "insc_offs": "offs_dwn_17",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_msnc",
                             "scions": [
                                 {

@@ -78,7 +78,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_styl": "size_23px",
-                                    "insc_offs": "offs_lft_29",
+                                    "insc_offs": "offs_lft_29 styl_offs_dwn_23",
                                     "insc_cntn": "<b>The Cube<b>, which is a basic building block of space that defines the 6 directions of movement, is made of <b>3 axes</b> and <b>7 sides</b> (<i>6 outside + 1 central point</i>) which create <b>12 edges</b>."
                                 }
                             ]

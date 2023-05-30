@@ -403,6 +403,23 @@ function gen_Insc(insc_i, scion) {
                     break;
             }
             return brnc_main;
+
+        case 'tbls':
+            var tbls_main = gen_ECI('table', 'tbl_cntnr', `id_tbls_${scion.scion_id}`);
+            
+            switch (scion.insc_typ2) {
+                    case 'l777':
+                        let thead = tbls_main.createTHead();
+                        let row = thead.insertRow();
+                        for (let key of scion.tbls_keys) {
+                            let th = document.createElement("th");
+                            let text = document.createTextNode(key.key);
+                            th.appendChild(text);
+                            row.appendChild(th);
+                        }
+                    break;
+                }
+        return tbls_main;
     }
 }
 

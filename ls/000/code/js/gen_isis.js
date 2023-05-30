@@ -52,11 +52,21 @@ function gen_term(lf_id, lf_term) {
     if (lf_term == undefined) {
         return undefined;
     } else {
-        var trm = gen_ECI('div', 'styl_insc_trms_li_00', `term_${lf_id}`);
+        var trm = gen_ECI('div', 'styl_insc_trms_li_00', `trm_${lf_id}`);
         trm.innerHTML = lf_term;
         return trm;
     }
 }         
+
+function gen_trm_bg(lf_id, lf_term) {
+    if (lf_term == undefined) {
+        return undefined;
+    } else {
+        var trm = gen_ECI('div', 'trm_bg', `trm_${lf_id}`);
+        trm.innerHTML = lf_term;
+        return trm;
+    }
+}  
 
 function gen_Info(insc_i, insc_id, info) {
     var info_bit = gen_ECI('div', 'styl_info_bit', `id_info_bit_${insc_id}_${insc_i}`);

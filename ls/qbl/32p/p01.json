@@ -138,7 +138,16 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Liber 777 Tables</b></u> <i>for</i> (<b><i>Path 01</b></i>)</span>"
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Liber 777 Tables</b></u> <i>for</i> (<b><i>Path 01</b></i>)</span>",
+                    "scion_id": "ls_qbl_32p_p01_tbls_l777",
+                    "scions": [
+                        {
+                            "insc_typ1": "tbls",
+                            "insc_typ2": "l777",
+                            "scion_id": "ls_qbl_32p_p01_tbls_l777_crwl", 
+                            "tbls_keys": [{"key": "Path #"}, {"key": "Title"}, {"key": "Content"}]
+                        }
+                    ]
                 }
             ]
         }

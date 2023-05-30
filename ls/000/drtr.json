@@ -76,13 +76,6 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/ai/ml.json",
                             "scion_id": "ls_dgtl_ai_ml"
-                        },
-                        {
-                            "ls_id": "LS-DGTL-AI-NLP",
-                            "ls_ttl": "Natural Language Processing",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/ai/nlp.json",
-                            "scion_id": "ls_dgtl_ai_nlp"
                         }
                     ]
                 },

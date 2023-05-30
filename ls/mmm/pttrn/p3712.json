@@ -50,7 +50,18 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
-                            "insc_term": "The Celestial Science"
+                            "insc_term": "The Celestial Science",
+                            "scion_id": "ls_mmm_pttrn_p3712_000_appr_astr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_styl": "size_23px",
+                                    "insc_cntn": "The Astrological Sciences revolve around the transits of the <b>7 Primary Planets</b> moving through the <b>12 Signs</b> around the <b>3-Fold Sun</b>."
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",

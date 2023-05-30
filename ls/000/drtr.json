@@ -591,6 +591,13 @@
                             "scion_id": "ls_hi_alien_lyra"
                         },
                         {
+                            "ls_id": "LS-HI-ALIEN-MNTS",
+                            "ls_ttl": "The Mantis Beings",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/mnts.json",
+                            "scion_id": "ls_hi_alien_mnts"
+                        },
+                        {
                             "ls_id": "LS-HI-ALIEN-MIB",
                             "ls_ttl": "The Men in Black",
                             "ls_type": "+>",

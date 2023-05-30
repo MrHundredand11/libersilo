@@ -13,7 +13,39 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='stm_ttl'><b><u>Appearances</b></u> <i>of the</i> (<b><i>3-7-12 Pattern</b></i>)</span>",
-                    "scion_id": "ls_mmm_pttrn_p3712_000_appr"
+                    "scion_id": "ls_mmm_pttrn_p3712_000_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The Old Testament"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The New Testament"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The Celestial Science"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The Cube of Space"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The Arcana Alphabet"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_bg",
+                            "insc_term": "The Masonic Tradition"
+                        }
+                    ]
                 }
             ]
         }

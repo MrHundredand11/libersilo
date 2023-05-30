@@ -2967,13 +2967,6 @@
                     "scion_id": "ls_qbl_alchy",
                     "scions": [
                         {
-                            "ls_id": "LS-QBL-ALChY-000",
-                            "ls_ttl": "Alchemical Operations",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/alchy/000.json",
-                            "scion_id": "ls_qbl_alchy_000"
-                        },
-                        {
                             "ls_id": "LS-QBL-ALChY-CNCP",
                             "ls_ttl": "Alchemical Concepts",
                             "ls_type": "=>",

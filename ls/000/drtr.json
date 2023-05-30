@@ -207,11 +207,25 @@
                             "scion_id": "ls_dgtl_db_dbtype",
                             "scions": [
                                 {
+                                    "ls_id": "LS-DGTL-DB-DBTYPE-DOC",
+                                    "ls_ttl": "Document Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/dbtype/doc.json",
+                                    "scion_id": "ls_dgtl_db_dbtype_doc"
+                                },
+                                {
                                     "ls_id": "LS-DGTL-DB-DBTYPE-GRAPH",
                                     "ls_ttl": "Graph Databases",
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/db/dbtype/graph.json",
                                     "scion_id": "ls_dgtl_db_dbtype_graph"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-DBTYPE-RLTNL",
+                                    "ls_ttl": "Relational Databases",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/db/dbtype/rltnl.json",
+                                    "scion_id": "ls_dgtl_db_dbtype_rltnl"
                                 }
                             ]
                         },

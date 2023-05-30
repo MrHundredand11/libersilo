@@ -19,6 +19,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
+                            "insc_styl": "size_23px",
                             "insc_cntn": "\"The best time to see a UFO is 10pm on a Wednesday.\"",
                             "scion_id": "ls_hi_alien_ufo_obsr_quot_i_jhnkeel",
                             "scions": [
@@ -33,6 +34,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
+                            "insc_styl": "size_23px",
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "\"I don't believe a UFO observation makes anyone 'psychic'... but the phenomenon comes\nin an environment of manifestations that include heightened awareness of synchronicities,\nparanormal sounds and lights, and occasionally absurd coincidences similar to those described in poltergeist literature.\"",
                             "scion_id": "ls_hi_alien_ufo_obsr_quot_i_jcqsvallee",

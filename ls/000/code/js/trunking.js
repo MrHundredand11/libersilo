@@ -503,6 +503,10 @@ async function fetchy(zz) {
                             bough_trstlbrd.appendChild(gen_Insc(i2, stems[i2]));
                         }
                     }
+                } else {
+                    var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
+                    bough_cntnr.innerHTML = "No content yet!";
+                    trst_cntnr.appendChild(bough_cntnr);
                 }
             }
             pop_main(data);

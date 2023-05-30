@@ -1,5 +1,5 @@
 {
-    "ls_id": "LS-MMM-PTTRN-P3712.json",
+    "ls_id": "LS-MMM-PTTRN-P3712",
     "ls_ttl": "The 3-7-12 Pattern",
     "ls_url": "/ls/mmm/pttrn/p3712.json",
     "scion_id": "ls_mmm_pttrn_p3712",
@@ -36,7 +36,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The New Testament",
-                            "insc_offs": "offs_dwn_23",
+                            "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_bbl_nt",
                             "scions": [
                                 {
@@ -54,7 +54,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Celestial Science",
-                            "insc_offs": "offs_dwn_23",
+                            "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_astr",
                             "scions": [
                                 {
@@ -72,7 +72,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Cube of Space",
-                            "insc_offs": "offs_dwn_23",
+                            "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_cube",
                             "scions": [
                                 {
@@ -90,7 +90,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Arcana Alphabet",
-                            "insc_offs": "offs_dwn_23",
+                            "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_qblh_aa",
                             "scions": [
                                 {
@@ -108,7 +108,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_bg",
                             "insc_term": "The Masonic Tradition",
-                            "insc_offs": "offs_dwn_23",
+                            "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_msnc",
                             "scions": [
                                 {

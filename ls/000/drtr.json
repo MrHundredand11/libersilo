@@ -3632,92 +3632,6 @@
                     ]
                 },
                 {
-                    "ls_id": "LS-QBL-OTz",
-                    "ls_ttl": "The Tree of Life",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/qbl/otz/",
-                    "scion_id": "ls_qbl_otz",
-                    "scions": [
-                        {
-                            "ls_id": "LS-QBL-OTz-000",
-                            "ls_ttl": "Overview of 'The Tree of Life'",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/000.json",
-                            "scion_id": "ls_qbl_otz_000"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR01",
-                            "ls_ttl": "The Sephirah Kether",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr01.json",
-                            "scion_id": "ls_qbl_otz_spr01"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR02",
-                            "ls_ttl": "The Sephirah Chokmah",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr02.json",
-                            "scion_id": "ls_qbl_otz_spr02"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR03",
-                            "ls_ttl": "The Sephirah Binah",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr03.json",
-                            "scion_id": "ls_qbl_otz_spr03"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR04",
-                            "ls_ttl": "The Sephirah Chesed",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr04.json",
-                            "scion_id": "ls_qbl_otz_spr04"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR05",
-                            "ls_ttl": "The Sephirah Geburah",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr05.json",
-                            "scion_id": "ls_qbl_otz_spr05"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR06",
-                            "ls_ttl": "The Sephirah Tiphareth",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr06.json",
-                            "scion_id": "ls_qbl_otz_spr06"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR07",
-                            "ls_ttl": "The Sephirah Netzach",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr07.json",
-                            "scion_id": "ls_qbl_otz_spr07"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR08",
-                            "ls_ttl": "The Sephirah Hod",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr08.json",
-                            "scion_id": "ls_qbl_otz_spr08"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR09",
-                            "ls_ttl": "The Sephirah Yesod",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr09.json",
-                            "scion_id": "ls_qbl_otz_spr09"
-                        },
-                        {
-                            "ls_id": "LS-QBL-OTz-SPR10",
-                            "ls_ttl": "The Sephirah Malkuth",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/qbl/otz/spr10.json",
-                            "scion_id": "ls_qbl_otz_spr10"
-                        }
-                    ]
-                },
-                {
                     "ls_id": "LS-QBL-TARO",
                     "ls_ttl": "The Tarot Arcana",
                     "ls_type": "=>",
@@ -3893,6 +3807,92 @@
                             "ls_type": "=>",
                             "ls_url": "/ls/qbl/taro/mnr/",
                             "scion_id": "ls_qbl_taro_mnr"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-QBL-OTz",
+                    "ls_ttl": "The Tree of Life",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/qbl/otz/",
+                    "scion_id": "ls_qbl_otz",
+                    "scions": [
+                        {
+                            "ls_id": "LS-QBL-OTz-000",
+                            "ls_ttl": "Overview of 'The Tree of Life'",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/000.json",
+                            "scion_id": "ls_qbl_otz_000"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR01",
+                            "ls_ttl": "The Sephirah Kether",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr01.json",
+                            "scion_id": "ls_qbl_otz_spr01"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR02",
+                            "ls_ttl": "The Sephirah Chokmah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr02.json",
+                            "scion_id": "ls_qbl_otz_spr02"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR03",
+                            "ls_ttl": "The Sephirah Binah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr03.json",
+                            "scion_id": "ls_qbl_otz_spr03"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR04",
+                            "ls_ttl": "The Sephirah Chesed",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr04.json",
+                            "scion_id": "ls_qbl_otz_spr04"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR05",
+                            "ls_ttl": "The Sephirah Geburah",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr05.json",
+                            "scion_id": "ls_qbl_otz_spr05"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR06",
+                            "ls_ttl": "The Sephirah Tiphareth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr06.json",
+                            "scion_id": "ls_qbl_otz_spr06"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR07",
+                            "ls_ttl": "The Sephirah Netzach",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr07.json",
+                            "scion_id": "ls_qbl_otz_spr07"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR08",
+                            "ls_ttl": "The Sephirah Hod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr08.json",
+                            "scion_id": "ls_qbl_otz_spr08"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR09",
+                            "ls_ttl": "The Sephirah Yesod",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr09.json",
+                            "scion_id": "ls_qbl_otz_spr09"
+                        },
+                        {
+                            "ls_id": "LS-QBL-OTz-SPR10",
+                            "ls_ttl": "The Sephirah Malkuth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/otz/spr10.json",
+                            "scion_id": "ls_qbl_otz_spr10"
                         }
                     ]
                 }

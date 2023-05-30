@@ -477,29 +477,31 @@ async function fetchy(zz) {
 
             function pop_main(data) {
                 var trst_cntnr = document.getElementById("trestleboard");
-                var trst_boughs = data.scions;
-                for (i in trst_boughs) {
-                    var bough_id = trst_boughs[i].scion_id;
-                    var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
-                    var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
-                    var bough_bmp_top = gen_ECI('div', 'styl_brnch_bmp_top', `id_b_bmp_top_${bough_id}`);
-                    var bough_nametag = gen_ECI('div', 'styl_brnch_nametag', `id_b_nametag_${bough_id}`);
-                    var bough_trstlbrd = gen_ECI('div', 'styl_brnch_trstlbrd', `id_b_trstlbrd_${bough_id}`);
-                    var bough_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${bough_id}`);
-                    
-                    bough_bmp_top.innerHTML = bmp_brnch_top;
-                    bough_bmp_top.setAttribute('onclick', `shovelDigging('${bough_id}')`);
-                    bough_bmp_btm.innerHTML = bmp_brnch_btm;
-                    bough_bmp_btm.setAttribute('onclick', `shovelDigging('${bough_id}')`);
-                    bough_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}'>-></span> <span class='styl_brnch_nametag_name'>${bough_name}</span>:`;
-                    bough_nametag.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+                if (data.scions !== undefined) {
+                    var trst_boughs = data.scions;
+                    for (i in trst_boughs) {
+                        var bough_id = trst_boughs[i].scion_id;
+                        var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
+                        var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
+                        var bough_bmp_top = gen_ECI('div', 'styl_brnch_bmp_top', `id_b_bmp_top_${bough_id}`);
+                        var bough_nametag = gen_ECI('div', 'styl_brnch_nametag', `id_b_nametag_${bough_id}`);
+                        var bough_trstlbrd = gen_ECI('div', 'styl_brnch_trstlbrd', `id_b_trstlbrd_${bough_id}`);
+                        var bough_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${bough_id}`);
+                        
+                        bough_bmp_top.innerHTML = bmp_brnch_top;
+                        bough_bmp_top.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+                        bough_bmp_btm.innerHTML = bmp_brnch_btm;
+                        bough_bmp_btm.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+                        bough_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}'>-></span> <span class='styl_brnch_nametag_name'>${bough_name}</span>:`;
+                        bough_nametag.setAttribute('onclick', `shovelDigging('${bough_id}')`);
 
-                    bough_cntnr.append(bough_bmp_top, bough_nametag, bough_trstlbrd, bough_bmp_btm);
-                    trst_cntnr.appendChild(bough_cntnr);
+                        bough_cntnr.append(bough_bmp_top, bough_nametag, bough_trstlbrd, bough_bmp_btm);
+                        trst_cntnr.appendChild(bough_cntnr);
 
-                    var stems = trst_boughs[i].scions;
-                    for (i2 in stems) {
-                        bough_trstlbrd.appendChild(gen_Insc(i2, stems[i2]));
+                        var stems = trst_boughs[i].scions;
+                        for (i2 in stems) {
+                            bough_trstlbrd.appendChild(gen_Insc(i2, stems[i2]));
+                        }
                     }
                 }
             }

@@ -549,6 +549,13 @@
                     "scion_id": "ls_hi_alien",
                     "scions": [
                         {
+                            "ls_id": "LS-HI-ALIEN-000",
+                            "ls_ttl": "Overview of Alien Life",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/alien/000.json",
+                            "scion_id": "ls_hi_alien_000"
+                        },
+                        {
                             "ls_id": "LS-HI-ALIEN-ASHTAR",
                             "ls_ttl": "Ashtar",
                             "ls_type": "+>",
@@ -556,18 +563,11 @@
                             "scion_id": "ls_hi_alien_ashtar"
                         },
                         {
-                            "ls_id": "LS-HI-ALIEN-EBE",
-                            "ls_ttl": "Extraterrestrial Biological Entities",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/hi/alien/ebe.json",
-                            "scion_id": "ls_hi_alien_ebe"
-                        },
-                        {
                             "ls_id": "LS-HI-ALIEN-GENTRY",
                             "ls_ttl": "The Gentry",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/alien/gentry.json",
-                            "scion_id": "ls_hi_alien_gentry"
+                            "ls_url": "/ls/hi/alien/gntry.json",
+                            "scion_id": "ls_hi_alien_gntry"
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-LAM",

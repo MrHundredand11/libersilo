@@ -1,0 +1,21 @@
+{
+    "ls_id": "LS-MMM-PTTRN-P3712.json",
+    "ls_ttl": "The 3-7-12 Pattern",
+    "ls_url": "/ls/mmm/pttrn/p3712.json",
+    "scion_id": "ls_mmm_pttrn_p3712",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The 3-7-12 Pattern'",
+            "scion_id": "ls_mmm_pttrn_p3712_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Appearances</b></u> <i>of the</i> (<b><i>3-7-12 Pattern</b></i>)</span>",
+                    "scion_id": "ls_mmm_pttrn_p3712_000_appr"
+                }
+            ]
+        }
+    ]
+}

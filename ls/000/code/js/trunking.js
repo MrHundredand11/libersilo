@@ -358,15 +358,19 @@ function gen_Insc(insc_i, scion) {
                     }
                     
                     if (scion.cite_tstr !== undefined) {
-                        var cite_tstr = gen_ECI('div', 'cite_tstr', `id_cite_tstr_${scion.scion_id}`);
-                        cite_tstr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Translator]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_tstr}</span>`;
-                        cite_scns.append(cite_tstr);
+                        for (x in scion.cite_tstr) {
+                            var cite_tstr = gen_ECI('div', 'cite_tstr', `id_cite_tstr_${x}_${scion.scion_id}`);
+                            cite_tstr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Translator]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_tstr[x].name}</span>`;
+                            cite_scns.append(cite_tstr);
+                        }
                     }
 
                     if (scion.cite_edtr !== undefined) {
-                        var cite_edtr = gen_ECI('div', 'cite_edtr', `id_cite_edtr_${scion.scion_id}`);
-                        cite_edtr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Editor]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_edtr}</span>`;
-                        cite_scns.append(cite_edtr);
+                        for (x in scion.cite_edtr) {
+                            var cite_edtr = gen_ECI('div', 'cite_edtr', `id_cite_edtr_${x}_${scion.scion_id}`);
+                            cite_edtr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Editor]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_edtr[x].name}</span>`;
+                            cite_scns.append(cite_edtr);
+                        }
                     }
 
                     if (scion.cite_cmpl !== undefined) {

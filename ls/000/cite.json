@@ -780,7 +780,7 @@
                             "cite_pbls": "Anima Solis Books",
                             "cite_date": "2013",
                             "cite_edtn": "First Reprinting, 2017",
-                            "cite_link": "http://www.livingthelema.com"
+                            "cite_link": [{"link": "http://www.livingthelema.com"}]
                         },
                         {
                             "insc_typ1": "cite",
@@ -803,7 +803,7 @@
                             "cite_date": "2017",
                             "cite_isbn10": "1548138061",
                             "cite_isbn13": "978-1548138066",
-                            "cite_link": "http://www.judith-page.com"
+                            "cite_link": [{"link": "http://www.judith-page.com"}]
                         },
                         {
                             "insc_typ1": "cite",

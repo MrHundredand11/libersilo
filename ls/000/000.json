@@ -60,6 +60,24 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "SEAL",
+            "drct_ttl": "The 'Seal of Sion'",
+            "scion_id": "ls_000_seal",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Interpretations</b></u> <i>of the</i> (<b><i>Seal of Sion</b></i>)</span>",
+                    "scion_id": "ls_000_seal_intrprtns"
+                }
+            ]
+        },
+        {
+            "drct_id": "ATHR",
+            "drct_ttl": "About the Author",
+            "scion_id": "ls_000_athr"
         }
     ]
 }

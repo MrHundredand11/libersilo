@@ -351,7 +351,7 @@ function gen_Insc(insc_i, scion) {
 
                     if (scion.cite_auth !== undefined) {
                         for (x in scion.cite_auth) {
-                            var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.scion_id}`);
+                            var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${x}_${scion.scion_id}`);
                             cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth[x].name}</span>`;
                             cite_scns.append(cite_auth);
                         }
@@ -367,6 +367,14 @@ function gen_Insc(insc_i, scion) {
                         var cite_edtr = gen_ECI('div', 'cite_edtr', `id_cite_edtr_${scion.scion_id}`);
                         cite_edtr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Editor]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_edtr}</span>`;
                         cite_scns.append(cite_edtr);
+                    }
+
+                    if (scion.cite_cmpl !== undefined) {
+                        for (x in scion.cite_cmpl) {
+                            var cite_cmpl = gen_ECI('div', 'cite_cmpl', `id_cite_cmpl_${x}_${scion.scion_id}`);
+                            cite_cmpl.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Compiler]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_cmpl[x].name}</span>`;
+                            cite_scns.append(cite_cmpl);
+                        }
                     }
                         
                     if (scion.cite_pbls !== undefined) {
@@ -409,6 +417,14 @@ function gen_Insc(insc_i, scion) {
                         var cite_locc = gen_ECI('div', 'cite_locc', `id_cite_locc_${scion.scion_id}`);
                         cite_locc.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Library of Congress #]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_locc}</span>`;
                         cite_scns.append(cite_locc);
+                    }
+
+                    if (scion.cite_link !== undefined) {
+                        for (x in scion.cite_link) {
+                            var cite_link = gen_ECI('div', 'cite_link', `id_cite_link_${x}_${scion.scion_id}`);
+                            cite_link.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Link]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_link[x].link}</span>`;
+                            cite_scns.append(cite_link);
+                        }
                     }
 
                     break;    

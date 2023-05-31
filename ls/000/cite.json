@@ -822,7 +822,7 @@
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Thirty-Two Paths of Wisdom",
                             "cite_auth": [{"name": "Case, Paul Foster"}],
-                            "cite_edtr": "Coleman, Wade",
+                            "cite_edtr": [{"name": "Coleman, Wade"}],
                             "cite_edtn": "January 2021",
                             "cite_isbn": "9781733162081"
                         },

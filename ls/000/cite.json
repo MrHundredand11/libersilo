@@ -36,6 +36,20 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Blavatsky, H.P.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Buckland, Raymond",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Case, Paul Foster",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
@@ -88,6 +102,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Fortune, Dion",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Karén, Michelle",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -96,6 +117,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Kircher, Athanasius",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Knight, Gareth",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -179,6 +207,13 @@
                                     "insc_cntn": "Shams al-Din Mohammad"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Townley, Kevin",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -467,6 +502,17 @@
                             "cite_edtn": "First Scarborough House Paperback Edition",
                             "cite_date": "1990",
                             "cite_isbn": "0-8128-8506-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Solitary Séance",
+                            "cite_auth": "Buckland, Raymond",
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_edtn": "First Edition",
+                            "cite_date": "2021",
+                            "cite_isbn": "978-0-7387-2320-4"
                         },
                         {
                             "insc_typ1": "cite",

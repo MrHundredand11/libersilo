@@ -723,7 +723,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Astrology for Enlightenment",
-                            "cite_auth": "Karen, Michelle",
+                            "cite_auth": [{"name": "Karén, Michelle"}],
                             "cite_pbls": "Atria Books",
                             "cite_date": "November 2008",
                             "cite_edtn": "First Atria Books Trade Paperback Edition",

@@ -352,7 +352,7 @@ function gen_Insc(insc_i, scion) {
                     if (scion.cite_auth !== undefined) {
                         for (x in scion.cite_auth) {
                             var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.scion_id}`);
-                            cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth}</span>`;
+                            cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth[x].name}</span>`;
                             cite_scns.append(cite_auth);
                         }
                     }

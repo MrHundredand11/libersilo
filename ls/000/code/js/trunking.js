@@ -343,9 +343,15 @@ function gen_Insc(insc_i, scion) {
                     cite_prtr.append(insc_pnt, cite_ttl);
                     cite_prtr.style['align-items'] = 'center';
 
-                    for (x in scion.cite_auth) {
-                        var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.cite_auth[x]}`);
-                        cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth[x]}</span>`;
+                    if (scion.cite_sbtt !== undefined) {
+                        var cite_sbtt = gen_ECI('div', 'cite_sbtt', `id_cite_sbtt_${scion.cite_sbtt}`);
+                        cite_sbtt.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Subtitle]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_sbtt}</span>`;
+                        cite_scns.append(cite_sbtt);
+                    }
+
+                    if (scion.cite_auth !== undefined) {
+                        var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.cite_auth}`);
+                        cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth}</span>`;
                         cite_scns.append(cite_auth);
                     }
 
@@ -378,6 +384,25 @@ function gen_Insc(insc_i, scion) {
                         cite_isbn.innerHTML = `<span class='cite_flow'>|\\_>> <em>[ISBN]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_isbn}</span>`;
                         cite_scns.append(cite_isbn);
                     }
+
+                    if (scion.cite_isbn13 !== undefined) {
+                        var cite_isbn13 = gen_ECI('div', 'cite_isbn', `id_cite_isbn13_${scion.cite_isbn13}`);
+                        cite_isbn13.innerHTML = `<span class='cite_flow'>|\\_>> <em>[ISBN-13]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_isbn13}</span>`;
+                        cite_scns.append(cite_isbn13);
+                    }
+
+                    if (scion.cite_isbn10 !== undefined) {
+                        var cite_isbn10 = gen_ECI('div', 'cite_isbn', `id_cite_isbn10_${scion.cite_isbn10}`);
+                        cite_isbn10.innerHTML = `<span class='cite_flow'>|\\_>> <em>[ISBN-10]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_isbn10}</span>`;
+                        cite_scns.append(cite_isbn10);
+                    }
+
+                    if (scion.cite_locc !== undefined) {
+                        var cite_locc = gen_ECI('div', 'cite_locc', `id_cite_locc_${scion.cite_locc}`);
+                        cite_locc.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Library of Congress #]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_locc}</span>`;
+                        cite_scns.append(cite_locc);
+                    }
+
                     break;    
                 }   
 

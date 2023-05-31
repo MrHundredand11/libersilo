@@ -343,9 +343,9 @@ function gen_Insc(insc_i, scion) {
                     cite_prtr.append(insc_pnt, cite_ttl);
                     cite_prtr.style['align-items'] = 'center';
 
-                    if (scion.cite_auth !== undefined) {
-                        var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.cite_auth}`);
-                        cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth}</span>`;
+                    for (x in scion.cite_auth) {
+                        var cite_auth = gen_ECI('div', 'cite_auth', `id_cite_auth_${scion.cite_auth[x]}`);
+                        cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth[x]}</span>`;
                         cite_scns.append(cite_auth);
                     }
 

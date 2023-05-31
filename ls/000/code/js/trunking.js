@@ -354,6 +354,12 @@ function gen_Insc(insc_i, scion) {
                         cite_auth.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Author]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_auth}</span>`;
                         cite_scns.append(cite_auth);
                     }
+                    
+                    if (scion.cite_tstr !== undefined) {
+                        var cite_tstr = gen_ECI('div', 'cite_tstr', `id_cite_tstr_${scion.cite_tstr}`);
+                        cite_tstr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Translator]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_tstr}</span>`;
+                        cite_scns.append(cite_tstr);
+                    }
 
                     if (scion.cite_edtr !== undefined) {
                         var cite_edtr = gen_ECI('div', 'cite_edtr', `id_cite_edtr_${scion.cite_edtr}`);

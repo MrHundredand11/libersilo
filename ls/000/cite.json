@@ -735,7 +735,7 @@
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Bahir",
                             "cite_sbtt": "One of the oldest, most important,\n\tand most carefully preserved of all ancient Kabbalah texts.",
-                            "cite_tstr": "Kaplan, Aryeh",
+                            "cite_tstr": [{"name": "Kaplan, Aryeh"}],
                             "cite_pbls": "Samuel Weiser, Inc",
                             "cite_date": "1979",
                             "cite_edtn": "First Paper Edition, 1989",
@@ -747,7 +747,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Breakthrough Astrology",
-                            "cite_auth": "Levine, Joyce",
+                            "cite_auth": [{"name": "Levine, Joyce"}],
                             "cite_pbls": "Red Wheel/Weiser, LLC",
                             "cite_date": "2006",
                             "cite_isbn": "1-57863-357-5"
@@ -757,7 +757,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Everything Astrology Book",
-                            "cite_auth": "MacGregor, Trish",
+                            "cite_auth": [{"name": "MacGregor, Trish"}],
                             "cite_pbls": "Adams Media Corporation",
                             "cite_date": "1999",
                             "cite_isbn": "1-58062-062-0"
@@ -767,7 +767,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Illuminations: The Healing of the Soul",
-                            "cite_auth": "Ashcroft-Nowicki, Dolores",
+                            "cite_auth": [{"name": "Ashcroft-Nowicki, Dolores"}],
                             "cite_pbls": "Llewellyn Publications",
                             "cite_date": "2003"
                         },
@@ -775,8 +775,19 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Living Thelema",
+                            "cite_auth": [{"name": "Shoemaker, David"}],
+                            "cite_pbls": "Anima Solis Books",
+                            "cite_date": "2013",
+                            "cite_edtn": "First Reprinting, 2017",
+                            "cite_link": "http://www.livingthelema.com"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Only Astrology Book You'll Ever Need",
-                            "cite_auth": "Woolfolk, Joanna Martine",
+                            "cite_auth": [{"name": "Woolfolk, Joanna Martine"}],
                             "cite_pbls": "Scarborough House",
                             "cite_edtn": "First Scarborough House Paperback Edition",
                             "cite_date": "1990",
@@ -786,8 +797,20 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "SET",
+                            "cite_cmpl": [{"name": "Page, Judith"}, {"name": "Webb, Don"}],
+                            "cite_pbls": "Aeon of Set Publishing",
+                            "cite_date": "2017",
+                            "cite_isbn10": "1548138061",
+                            "cite_isbn13": "978-1548138066",
+                            "cite_link": "http://www.judith-page.com"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Solitary Séance",
-                            "cite_auth": "Buckland, Raymond",
+                            "cite_auth": [{"name": "Buckland, Raymond"}],
                             "cite_pbls": "Llewellyn Publications",
                             "cite_edtn": "First Edition",
                             "cite_date": "2021",
@@ -798,7 +821,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Thirty-Two Paths of Wisdom",
-                            "cite_auth": "Case, Paul Foster",
+                            "cite_auth": [{"name": "Case, Paul Foster"}],
                             "cite_edtr": "Coleman, Wade",
                             "cite_edtn": "January 2021",
                             "cite_isbn": "9781733162081"
@@ -808,7 +831,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Why Jesus Taught Reincarnation",
-                            "cite_auth": "Puryear, Herbert Bruce",
+                            "cite_auth": [{"name": "Puryear, Herbert Bruce"}],
                             "cite_pbls": "New Paradigm Press",
                             "cite_date": "November 1992",
                             "cite_isbn": "0-9634964-9-2"
@@ -818,7 +841,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Wisdom in the Hebrew Alphabet",
-                            "cite_auth": "Rabbi Munk"
+                            "cite_auth": [{"name": "Rabbi Munk"}]
                         }
                     ]
                 },
@@ -833,7 +856,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Secrets of the Great Pyramid",
-                            "cite_auth": "Tompkins, Peter",
+                            "cite_auth": [{"name": "Tompkins, Peter"}],
                             "cite_pbls": "Harper & Row, Publishers",
                             "cite_date": "1971",
                             "cite_edtn": "First Edition"

@@ -547,6 +547,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Wei, William U.",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "W.U. Wei"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Weor, Samael Aun",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -806,6 +823,17 @@
                             "cite_pbls": "Red Wheel/Weiser, LLC",
                             "cite_date": "2006",
                             "cite_isbn": "1-57863-357-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Cosmic Astrology",
+                            "cite_sbtt": "An East-West Guide to Your Internal Energy Persona",
+                            "cite_auth": [{"name": "Chia, Mantak"}, {"name": "Wei, William U."}],
+                            "cite_pbls": "Destiny Books",
+                            "cite_date": "2012",
+                            "cite_isbn": "978-1-59477-450-8"
                         },
                         {
                             "insc_typ1": "cite",

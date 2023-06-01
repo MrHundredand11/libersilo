@@ -893,7 +893,13 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_mdcl_bd"
+                    "scion_id": "ls_qbl_alg_zdc_s06_mdcl_bdprt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Body Systems</b></u> <i>ruled by</i> (<b><i>Virgo</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s06_mdcl_bdsys"
                 },
                 {
                     "insc_typ1": "stm",
@@ -910,8 +916,14 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>for</i> (<b><i>Virgo</b></i>)</span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>of</i> (<b><i>Virgo</b></i>)</span>",
                     "scion_id": "ls_qbl_alg_zdc_s06_mdcl_hlth"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health Advice</b></u> <i>for</i> (<b><i>Virgo</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s06_mdcl_hlthadvc"
                 },
                 {
                     "insc_typ1": "stm",

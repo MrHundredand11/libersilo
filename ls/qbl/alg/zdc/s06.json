@@ -285,6 +285,203 @@
             ]
         },
         {
+            "drct_id": "PLAC",
+            "drct_ttl": "Placements in 'Virgo'",
+            "scion_id": "ls_qbl_zdc_s06_plac",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                    "scion_id": "ls_qbl_zdc_s06_plac_plnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p01"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p02"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p03"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Virgo Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u></span>",
+                                    "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04_sunmoon",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Virgo Sun + Aries Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Taurus Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Gemini Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Cancer Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Leo Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Virgo Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Libra Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Scorpio Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Sagittarius Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Capricorn Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Aquarius Moon"
+                                        },
+                                        {
+                                            "insc_term": "Virgo Sun + Pisces Moon"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p05"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p06"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p07"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p08"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p09"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p10"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                    "scion_id": "ls_qbl_zdc_s06_plac_clctpnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_nthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_sthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_pof"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                    "scion_id": "ls_qbl_zdc_s06_plac_astrd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Month</b></i>) <i>in the</i> <b><u>Chinese Animal Year</b></u></span>",
+                    "scion_id": "ls_qbl_zdc_s06_plac_anmlyr",
+                    "scions": [
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Rat Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Buffalo Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Tiger Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Rabbit Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Dragon Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Snake Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Horse Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Ram Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Monkey Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Rooster Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Dog Year"
+                        },
+                        {
+                            "insc_term": "Virgo (Rooster) Month + Boar Year"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "SPRT",
             "drct_ttl": "Spirituality of 'Virgo'",
             "scion_id": "ls_qbl_zdc_s06_sprt"
@@ -442,159 +639,6 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Virgo</b></i>)</span>",
                     "scion_id": "ls_qbl_zdc_s06_gift_gftids"
-                }
-            ]
-        },
-        {
-            "drct_id": "PLAC",
-            "drct_ttl": "Placements in 'Virgo'",
-            "scion_id": "ls_qbl_zdc_s06_plac",
-            "scions": [
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s06_plac_plnt",
-                    "scions": [
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p01"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p02"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p03"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04",
-                            "scions": [
-                                {
-                                    "insc_typ1": "stm",
-                                    "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Virgo Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u></span>",
-                                    "scion_id": "ls_qbl_zdc_s06_plac_plnt_p04_sunmoon",
-                                    "scions": [
-                                        {
-                                            "insc_term": "Virgo Sun + Aries Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Taurus Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Gemini Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Cancer Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Leo Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Virgo Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Libra Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Scorpio Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Sagittarius Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Capricorn Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Aquarius Moon"
-                                        },
-                                        {
-                                            "insc_term": "Virgo Sun + Pisces Moon"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p05"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p06"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p07"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p08"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p09"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_p10"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s06_plac_clctpnt",
-                    "scions": [
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_nthnde"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_sthnde"
-                        },
-                        {
-                            "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s06_plac_plnt_clctpnt_pof"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s06_plac_astrd"
                 }
             ]
         },

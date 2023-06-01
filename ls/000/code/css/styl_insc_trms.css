@@ -62,10 +62,18 @@
     white-space: pre;
 }
 
+.trm_lg {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
 .trm_sm {
     font-weight: bold;
     font-family: cambria;
-    font-size: 13px;
+    font-size: 17px;
     display: inline-block;
     white-space: pre;
 }

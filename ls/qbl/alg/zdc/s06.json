@@ -439,7 +439,33 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s06_plac_astrd"
+                    "scion_id": "ls_qbl_zdc_s06_plac_astrd",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Vesta</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_astrd_vesta"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Ceres</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_astrd_ceres"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Juno</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_astrd_juno"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pallas Athene</b></u> <i>in</i> (<b><i>Virgo</b></i>)</span>",
+                            "scion_id": "ls_qbl_zdc_s06_plac_astrd_pllsathn"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
@@ -561,9 +587,300 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb"
+                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb",
+                    "scions": [
+                        {
+                            "insc_term": "Virgo + Aries",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s01",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Aries</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s01_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Aries Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s01_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Aries Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s01_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Taurus",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s02",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Taurus</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s02_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Taurus Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s02_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Taurus Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s02_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Gemini",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s03",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Gemini</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s03_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Gemini Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s03_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Gemini Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s03_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Cancer",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s04",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Cancer</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s04_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Cancer Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s04_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Cancer Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s04_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Leo",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s05",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Leo</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s05_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Leo Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s05_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Leo Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s05_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Virgo",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s06",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Virgo</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s06_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Virgo Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s06_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Virgo Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s06_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Libra",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s07",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Libra</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s07_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Libra Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s07_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Libra Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s07_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Scorpio",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s08",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Scorpio</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s08_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Scorpio Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s08_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Scorpio Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s08_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Sagittarius",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s09",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Sagittarius</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s09_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Sagittarius Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s09_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Sagittarius Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s09_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Capricorn",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s10",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Capricorn</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s10_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Capricorn Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s10_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Capricorn Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s10_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Aquarius",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s11",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Aquarius</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s11_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Aquarius Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s11_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Aquarius Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s11_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Virgo + Pisces",
+                            "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s12",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Virgo</b></i>) + (<b><i>Pisces</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s12_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>) + (<b><i>Pisces Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s12_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>) + (<b><i>Pisces Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_zdc_s06_love_amorcmb_s12_wmn_mn"
+                                }
+                            ]
+                        }
+
+                    ]
                 }
             ]
         },

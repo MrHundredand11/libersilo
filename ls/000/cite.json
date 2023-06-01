@@ -396,6 +396,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Lévi, Éliphas",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Levine, Joyce",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -781,6 +788,17 @@
                             "cite_date": "2013",
                             "cite_edtn": "First Reprinting, 2017",
                             "cite_link": [{"link": "http://www.livingthelema.com"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Magical Ritual of the Sanctum Regnum",
+                            "cite_auth": [{"name": "Lévi, Éliphas"}],
+                            "cite_tstr": [{"name": "Westcott, William Wynn"}],
+                            "cite_pbls": "Read Books Ltd.",
+                            "cite_date": "2018",
+                            "cite_isbn13": "978-1-5287-0974-3"
                         },
                         {
                             "insc_typ1": "cite",

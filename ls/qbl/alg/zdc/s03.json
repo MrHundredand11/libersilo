@@ -1,13 +1,13 @@
 {
-    "ls_id": "LS-QBL-ALG-S03",
+    "ls_id": "LS-QBL-ALG-ZDC-S03",
     "ls_ttl": "The Sign Gemini",
     "ls_url": "/ls/qbl/alg/zdc/s03.json",
     "scion_id": "ls_qbl_alg_zdc_s03",
     "scions": [
         {
-            "drct_id": "QCCL",
-            "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_qbl_alg_zdc_s03_qccl"
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_000"
         },
         {
             "drct_id": "CNTR",
@@ -17,81 +17,82 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Gemstones</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
-                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_gmstn",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Gemstone",
-                            "insc_cntn": "Agate"
-                        }
-                    ]
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Trees</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_tree"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Flowers</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
-                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_flwrs",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Azalea"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Lavender"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Lilac"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Lily of the Valley"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Myrtle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Flower",
-                            "insc_cntn": "Sweet Pea"
-                        }
-                    ]
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Familiar Herbs</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_famherb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Trees</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
-                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_tree",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_trm": "Tree Type",
-                            "insc_cntn": "Nut-producing Trees"
-                        }
-                    ]
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Remedy Herbs</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_remherb"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flowers</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_flwr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flower Essences</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_flwressn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Fragrances</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_frgrnc"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Stones</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_ston"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gemstones</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_gmstn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Metals</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_mtls"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Animals</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_anml"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Colors</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_colr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_shptxtr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Weather</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_cntr_wthr"
                 }
             ]
-        },
-        {
-            "drct_id": "QBLH",
-            "drct_ttl": "Qabalah of 'Gemini'",
-            "scion_id": "ls_qbl_alg_zdc_s03_qblh"
         },
         {
             "drct_id": "PRSN",
@@ -101,70 +102,853 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_tag": "Personality Descriptors",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Personality Descriptors</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Gemini Placements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>General Character</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_gnchr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Characteristics</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_chrctr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Positive Traits</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_trtps"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Negative Traits</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_trtng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <b><u>Loves</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_lvs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <b><u>Can't Stand</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_cntstnd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Livelihood</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_lvlhd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Finances</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_fnce"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Hobbies</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_hbbs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Archetypes</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_archtyp"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_man"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_wmn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Kid</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_kds"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Family Life</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_fam"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Parent</b></i>) <i>and</i> <b><u>Child</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_prsn_prntchld"
+                }
+            ]
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Symbolism of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_symb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Glyph</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_symb_glyp"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbols</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_symb_symb"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbolism</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_symb_symblsm"
+                }
+            ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_aa"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_32p"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The Elemental Forces</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_lmnt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>Alchemy Operations</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_alch"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_shm"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_qblh_cos"
+                }
+            ]
+        },
+        {
+            "drct_id": "DECN",
+            "drct_ttl": "Decans of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_decn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>First Decan</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_decn_d1"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Second Decan</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_decn_d2"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Third Decan</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_decn_d3"
+                }
+            ]
+        },
+        {
+            "drct_id": "PLAC",
+            "drct_ttl": "Placements in 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_plac",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt",
                     "scions": [
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Quick-Witted"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p01"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Intelligent"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p02"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Versatile"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p03"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Air-Headed"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p04",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "lst_exp",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Gemini Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u></span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p04_sunmoon",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Gemini Sun + Aries Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Taurus Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Gemini Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Cancer Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Leo Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Virgo Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Libra Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Scorpio Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Sagittarius Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Capricorn Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Aquarius Moon"
+                                        },
+                                        {
+                                            "insc_term": "Gemini Sun + Pisces Moon"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Communicative"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p05"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Sociable"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p06"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Dual Natured"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p07"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Persuasive"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p08"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Freedom-Loving"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p09"
                         },
                         {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Adaptable"
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_p10"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_plac_clctpnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_clctpnt_nthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_clctpnt_sthnde"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_plnt_clctpnt_pof"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_plac_astrd",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Vesta</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_astrd_vesta"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Ceres</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_astrd_ceres"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Juno</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_astrd_juno"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pallas Athene</b></u> <i>in</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_plac_astrd_pllsathn"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Month</b></i>) <i>in the</i> <b><u>Chinese Animal Year</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_plac_anmlyr",
+                    "scions": [
+                        {
+                            "insc_term": "Gemini (Horse) Month + Rat Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Buffalo Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Tiger Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Rabbit Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Dragon Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Snake Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Horse Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Ram Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Monkey Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Rooster Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Dog Year"
+                        },
+                        {
+                            "insc_term": "Gemini (Horse) Month + Boar Year"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "SPRT",
+            "drct_ttl": "Spirituality of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_sprt"
+        },
+        {
+            "drct_id": "LOVE",
+            "drct_ttl": "'Gemini' in Love",
+            "scion_id": "ls_qbl_alg_zdc_s03_love",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Amorous Nature</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_amor",
+                    "scions": [
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Gemini Woman</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amor_wmn"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Gemini Man</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amor_man"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Compatibilty</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amor_cmptblty"
+                        },
+                        {
+                            "insc_typ1": "twig",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Romance</b></u> <i>and</i> (<b><i>Gemini</b></i>)</span>",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amor_rmnce"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Gemini</b></i>) <b><u>Partner</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_prtnr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>How to Attract</b></u> <i>a</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_attrct"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_erog"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>First Moves</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_mvsfrst"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Last Moves</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_mvslast"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb",
+                    "scions": [
+                        {
+                            "insc_term": "Gemini + Aries",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s01",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Aries</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s01_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Aries Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s01_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Aries Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s01_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Taurus",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s02",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Taurus</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s02_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Taurus Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s02_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Taurus Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s02_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Gemini",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s03",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Gemini</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s03_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Gemini Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s03_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Gemini Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s03_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Cancer",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s04",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Cancer</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s04_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Cancer Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s04_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Cancer Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s04_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Leo",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s05",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Leo</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s05_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Leo Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s05_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Leo Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s05_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Virgo",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s06",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Virgo</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s06_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Virgo Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s06_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Virgo Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s06_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Libra",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s07",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Libra</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s07_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Libra Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s07_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Libra Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s07_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Scorpio",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s08",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Scorpio</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s08_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Scorpio Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s08_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Scorpio Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s08_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Sagittarius",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s09",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Sagittarius</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s09_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Sagittarius Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s09_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Sagittarius Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s09_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Capricorn",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s10",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Capricorn</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s10_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Capricorn Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s10_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Capricorn Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s10_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Aquarius",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s11",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Aquarius</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s11_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Aquarius Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s11_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Aquarius Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s11_wmn_mn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Gemini + Pisces",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s12",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Gemini</b></i>) + (<b><i>Pisces</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s12_genrltn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Man</b></i>) + (<b><i>Pisces Woman</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s12_mn_wmn"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini Woman</b></i>) + (<b><i>Pisces Man</b></i>)</span>",
+                                    "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb_s12_wmn_mn"
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "MDCL",
+            "drct_ttl": "Medical Astrology of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_mdcl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_mdcl_bd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Diet + Health Tips</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_mdcl_tips"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Life Age</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_mdcl_lfag"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_mdcl_hlth"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Physical Build</b></u> <i>of</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_mdcl_build"
+                }
+            ]
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "'Gemini' in Work + Career",
+            "scion_id": "ls_qbl_alg_zdc_s03_work",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Professions</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_work_prfssn"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gemini</b></i>) <i>at</i> <b><u>Work</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_work_work"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Gemini</b></i>) <b><u>Boss</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_work_boss"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Gemini</b></i>) <b><u>Employee</b></u></span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_work_emply"
                 }
             ]
         },
@@ -177,37 +961,63 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Gemini</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s03_gift_lst_ideas",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Gift Idea",
-                            "insc_styl": "size_23px",
-                            "insc_offs": "styl_offs_dwn_17",
-                            "insc_cntn": "Books, music, videos, or anything that will quench the Gemini desire for knowledge will be appreciated, as will theater or an excursion to somewhere fun."
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Gift Idea",
-                            "insc_styl": "size_23px",
-                            "insc_offs": "styl_offs_dwn_17",
-                            "insc_cntn": "Creativity and a sense of fun will impress more than expense and quality brand names, so think about something with a bit of novelty value; if it has a little story to go to it, all the better."
-                        }
-                    ]
+                    "scion_id": "ls_qbl_alg_zdc_s03_gift_gftids"
                 }
             ]
         },
         {
-            "drct_id": "WORK",
-            "drct_ttl": "'Gemini' in Career",
-            "scion_id": "ls_qbl_alg_zdc_s03_work"
+            "drct_id": "LCTN",
+            "drct_ttl": "Locations of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_lctn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_cntrs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. States</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_ustts"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. Cities</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_uscty"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>World Cities</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_glbcty"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Outdoor Locations</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_outdr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Indoor Locations</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_indr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Other Locations</b></u> <i>corresponding to</i> (<b><i>Gemini</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s03_lctn_othr"
+                }
+            ]
         },
         {
-            "drct_id": "MDCL",
-            "drct_ttl": "Medical Astrology of 'Gemini'",
-            "scion_id": "ls_qbl_alg_zdc_s03_mdcl"
+            "drct_id": "TABL",
+            "drct_ttl": "Tables of 'Gemini'",
+            "scion_id": "ls_qbl_alg_zdc_s03_tabl"
         }
     ]
 }

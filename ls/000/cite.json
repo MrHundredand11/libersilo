@@ -417,6 +417,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Lloyd, John Uri",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "MacGregor, Trish",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -797,6 +804,39 @@
                             "insc_term": "Khurkhuriya, Jitesh"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Locational Information</b></u></span>",
+                    "scion_id": "ls_000_cite_tchr_lctn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lloyd, John Uri"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Standish, David"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Tompkins, Peter"
+                        }
+                    ]
                 }
             ]
         },
@@ -991,6 +1031,43 @@
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Locational Information</b></u></span>",
                     "scion_id": "ls_000_cite_book_lst_lctn",
                     "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Etidorhpa",
+                            "cite_cbtt": "Extended Edition",
+                            "cite_auth": [{"name": "Lloyd, John Uri"}],
+                            "cite_pbls": "Nighttime Editions",
+                            "cite_date": "1895",
+                            "cite_edtn": "2019 Nightime Editions",
+                            "cite_isbn13": "9798538305285"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Hollow Earth",
+                            "cite_auth": [{"name": "Standish, David"}],
+                            "cite_pbls": "Da Capo Press",
+                            "cite_date": "2006",
+                            "cite_edtn": "First Da Capo Press paperback edition 2007",
+                            "cite_isbn13": "978-0-306-81373-3",
+                            "cite_isbn10": "0-306-81373-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Kingdom of Agarttha",
+                            "cite_sbtt": "Missin de l'Inde en Europe",
+                            "cite_auth": [{"name": "Saint-Yves D'Alveydre, Marquis Alexandre"}],
+                            "cite_edtr": [{"name": "Godwin, Joscelyn"}],
+                            "cite_pbls": "Inner Traditions",
+                            "cite_date": "1886",
+                            "cite_edtn": "First U.S. edition published in 2008 by Inner Traditions",
+                            "cite_isbn13": "978-1-59477-268-9"
+                        },
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",

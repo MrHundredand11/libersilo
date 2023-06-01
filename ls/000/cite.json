@@ -99,7 +99,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Bloch, Douglas",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Buckland, Raymond",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Burton, Benjamin",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -194,6 +208,23 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Fortune, Dion",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Firth, Violet Mary"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "George, Demetria",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -431,8 +462,39 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "McCarthy, Josephine",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "McCarthy, Peter",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Mirdad, Michael",
                             "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Missler, Chuck",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Dr. Chuck Missler"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -480,6 +542,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Page, Judith",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Pollack, Rachel",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -548,6 +617,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Townley, Kevin",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wall, Amy M.",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -961,6 +1037,18 @@
                             "cite_pbls": "Read Books Ltd.",
                             "cite_date": "2018",
                             "cite_isbn13": "978-1-5287-0974-3"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Mystical Qabalah",
+                            "cite_auth": [{"name": "Fortune, Dion"}, {"name": "Firth, Violet Mary"}],
+                            "cite_pbls": "Red Wheel/Weiser, LLC",
+                            "cite_date": "1935",
+                            "cite_edtn": "Revised edition published in 2000",
+                            "cite_isbn13": "978-1-57863-150-6",
+                            "cite_isbn10": "1-57863-150-5"
                         },
                         {
                             "insc_typ1": "cite",

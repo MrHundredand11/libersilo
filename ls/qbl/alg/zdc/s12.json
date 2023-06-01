@@ -1,335 +1,335 @@
 {
-    "ls_id": "LS-QBL-ZDC-S12",
+    "ls_id": "LS-QBL-ALG-ZDC-S12",
     "ls_ttl": "The Sign Pisces",
-    "ls_url": "/ls/qbl/zdc/s12.json",
-    "scion_id": "ls_qbl_zdc_s12",
+    "ls_url": "/ls/qbl/alg/zdc/s12.json",
+    "scion_id": "ls_qbl_alg_zdc_s12",
     "scions": [
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_000"
+            "scion_id": "ls_qbl_alg_zdc_s12_000"
         },
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_cntr",
+            "scion_id": "ls_qbl_alg_zdc_s12_cntr",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Trees</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_tree"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_tree"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Familiar Herbs</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_famherb"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_famherb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Remedy Herbs</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_remherb"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_remherb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flowers</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_flwr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_flwr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flower Essences</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_flwressn"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_flwressn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Fragrances</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_frgrnc"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_frgrnc"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Stones</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_ston"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_ston"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gemstones</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_gmstn"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_gmstn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Metals</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_mtls"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_mtls"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Animals</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_anml"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_anml"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Colors</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_colr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_colr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_shptxtr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_shptxtr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Weather</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_cntr_wthr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_cntr_wthr"
                 }
             ]
         },
         {
             "drct_id": "PRSN",
             "drct_ttl": "Personality Influences of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_prsn",
+            "scion_id": "ls_qbl_alg_zdc_s12_prsn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl":"<span class='styl_stm_ttl'><b><u>General Character</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_gnchr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_gnchr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl":"<span class='styl_stm_ttl'><b><u>Characteristics</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_chrctr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_chrctr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Positive Traits</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_trtps"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_trtps"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Negative Traits</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_trtng"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_trtng"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <b><u>Loves</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_lvs"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_lvs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <b><u>Can't Stand</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_cntstnd"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_cntstnd"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Livelihood</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_lvlhd"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_lvlhd"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Finances</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_fnce"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_fnce"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Hobbies</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_hbbs"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_hbbs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Archetypes</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_archtyp"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_archtyp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_man"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_man"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_wmn"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_wmn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Kid</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_kds"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_kds"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Family Life</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_fam"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_fam"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Parent</b></i>) <i>and</i> <b><u>Child</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_prsn_prntchld"
+                    "scion_id": "ls_qbl_alg_zdc_s12_prsn_prntchld"
                 }
             ]
         },
         {
             "drct_id": "SYMB",
             "drct_ttl": "Symbols + Symbolism of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_symb",
+            "scion_id": "ls_qbl_alg_zdc_s12_symb",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Glyph</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_symb_glyp"
+                    "scion_id": "ls_qbl_alg_zdc_s12_symb_glyp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbols</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_symb_symb"
+                    "scion_id": "ls_qbl_alg_zdc_s12_symb_symb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbolism</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_symb_symblsm"
+                    "scion_id": "ls_qbl_alg_zdc_s12_symb_symblsm"
                 }
             ]
         },
         {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_qblh",
+            "scion_id": "ls_qbl_alg_zdc_s12_qblh",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_aa"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_32p"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_32p"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The Elemental Forces</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_lmnt"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>Alchemy Operations</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_alch"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_alch"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_taro"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_shm"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_qblh_cos"
+                    "scion_id": "ls_qbl_alg_zdc_s12_qblh_cos"
                 }
             ]
         },
         {
             "drct_id": "DECN",
             "drct_ttl": "Decans of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_decn",
+            "scion_id": "ls_qbl_alg_zdc_s12_decn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>First Decan</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_decn_d1"
+                    "scion_id": "ls_qbl_alg_zdc_s12_decn_d1"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Second Decan</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_decn_d2"
+                    "scion_id": "ls_qbl_alg_zdc_s12_decn_d2"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Third Decan</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_decn_d3"
+                    "scion_id": "ls_qbl_alg_zdc_s12_decn_d3"
                 }
             ]
         },
         {
             "drct_id": "PLAC",
             "drct_ttl": "Placements in 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_plac",
+            "scion_id": "ls_qbl_alg_zdc_s12_plac",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_plac_plnt",
+                    "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p01"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p01"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p02"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p02"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p03"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p03"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p04",
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p04",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Pisces Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u></span>",
-                                    "scion_id": "ls_qbl_zdc_s12_plac_plnt_p04_sunmoon",
+                                    "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p04_sunmoon",
                                     "scions": [
                                         {
                                             "insc_term": "Pisces Sun + Aries Moon"
@@ -375,37 +375,37 @@
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p05"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p05"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p06"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p06"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p07"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p07"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p08"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p08"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p09"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p09"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_p10"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_p10"
                         }
                     ]
                 },
@@ -413,25 +413,25 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_plac_clctpnt",
+                    "scion_id": "ls_qbl_alg_zdc_s12_plac_clctpnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_clctpnt_nthnde"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_clctpnt_nthnde"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_clctpnt_sthnde"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_clctpnt_sthnde"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_plnt_clctpnt_pof"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_plnt_clctpnt_pof"
                         }
                     ]
                 },
@@ -439,31 +439,31 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_plac_astrd",
+                    "scion_id": "ls_qbl_alg_zdc_s12_plac_astrd",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Vesta</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_astrd_vesta"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_astrd_vesta"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Ceres</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_astrd_ceres"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_astrd_ceres"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Juno</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_astrd_juno"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_astrd_juno"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pallas Athene</b></u> <i>in</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_plac_astrd_pllsathn"
+                            "scion_id": "ls_qbl_alg_zdc_s12_plac_astrd_pllsathn"
                         }
                     ]
                 },
@@ -471,7 +471,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Month</b></i>) <i>in the</i> <b><u>Chinese Animal Year</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_plac_anmlyr",
+                    "scion_id": "ls_qbl_alg_zdc_s12_plac_anmlyr",
                     "scions": [
                         {
                             "insc_term": "Pisces (Rabbit) Month + Rat Year"
@@ -516,42 +516,42 @@
         {
             "drct_id": "SPRT",
             "drct_ttl": "Spirituality of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_sprt"
+            "scion_id": "ls_qbl_alg_zdc_s12_sprt"
         },
         {
             "drct_id": "LOVE",
             "drct_ttl": "'Pisces' in Love",
-            "scion_id": "ls_qbl_zdc_s12_love",
+            "scion_id": "ls_qbl_alg_zdc_s12_love",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Amorous Nature</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_amor",
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_amor",
                     "scions": [
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Pisces Woman</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_love_amor_wmn"
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amor_wmn"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Pisces Man</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_love_amor_man"
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amor_man"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Compatibilty</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_love_amor_cmptblty"
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amor_cmptblty"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='styl_stm_ttl'><b><u>Romance</b></u> <i>and</i> (<b><i>Pisces</b></i>)</span>",
-                            "scion_id": "ls_qbl_zdc_s12_love_amor_rmnce"
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amor_rmnce"
                         }
                     ]
                 },
@@ -559,323 +559,323 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Pisces</b></i>) <b><u>Partner</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_prtnr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_prtnr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>How to Attract</b></u> <i>a</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_attrct"
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_attrct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_erog"
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_erog"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>First Moves</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_mvsfrst"
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_mvsfrst"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Last Moves</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_mvslast"
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_mvslast"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb",
+                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb",
                     "scions": [
                         {
                             "insc_term": "Pisces + Aries",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s01",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s01",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Aries</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s01_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s01_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Aries Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s01_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s01_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Aries Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s01_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s01_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Taurus",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s02",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s02",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Taurus</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s02_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s02_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Taurus Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s02_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s02_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Taurus Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s02_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s02_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Gemini",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s03",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s03",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Gemini</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s03_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s03_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Gemini Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s03_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s03_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Gemini Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s03_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s03_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Cancer",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s04",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s04",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Cancer</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s04_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s04_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Cancer Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s04_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s04_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Cancer Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s04_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s04_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Leo",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s05",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s05",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Leo</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s05_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s05_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Leo Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s05_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s05_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Leo Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s05_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s05_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Virgo",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s06",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s06",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Virgo</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s06_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s06_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Virgo Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s06_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s06_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Virgo Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s06_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s06_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Libra",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s07",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s07",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Libra</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s07_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s07_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Libra Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s07_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s07_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Libra Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s07_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s07_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Scorpio",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s08",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s08",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Scorpio</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s08_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s08_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Scorpio Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s08_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s08_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Scorpio Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s08_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s08_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Sagittarius",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s09",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s09",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Sagittarius</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s09_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s09_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Sagittarius Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s09_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s09_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Sagittarius Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s09_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s09_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Capricorn",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s10",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s10",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Capricorn</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s10_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s10_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Capricorn Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s10_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s10_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Capricorn Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s10_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s10_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Aquarius",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s11",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s11",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Aquarius</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s11_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s11_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Aquarius Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s11_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s11_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Aquarius Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s11_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s11_wmn_mn"
                                 }
                             ]
                         },
                         {
                             "insc_term": "Pisces + Pisces",
-                            "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s12",
+                            "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s12",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Pisces</b></i>) + (<b><i>Pisces</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s12_genrltn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s12_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Man</b></i>) + (<b><i>Pisces Woman</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s12_mn_wmn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s12_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces Woman</b></i>) + (<b><i>Pisces Man</b></i>)</span>",
-                                    "scion_id": "ls_qbl_zdc_s12_love_amorcmb_s12_wmn_mn"
+                                    "scion_id": "ls_qbl_alg_zdc_s12_love_amorcmb_s12_wmn_mn"
                                 }
                             ]
                         }
@@ -887,137 +887,149 @@
         {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_mdcl",
+            "scion_id": "ls_qbl_alg_zdc_s12_mdcl",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_mdcl_bd"
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_bdprt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Body Systems</b></u> <i>ruled by</i> (<b><i>Pisces</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_bdsys"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Diet + Health Tips</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_mdcl_tips"
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_tips"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Life Age</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_mdcl_lfag"
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_lfag"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_mdcl_hlth"
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_hlth"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health Advice</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_hlthadvc"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Physical Build</b></u> <i>of</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_mdcl_build"
+                    "scion_id": "ls_qbl_alg_zdc_s12_mdcl_build"
                 }
             ]
         },
         {
             "drct_id": "WORK",
             "drct_ttl": "'Pisces' in Work + Career",
-            "scion_id": "ls_qbl_zdc_s12_work",
+            "scion_id": "ls_qbl_alg_zdc_s12_work",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Professions</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_work_prfssn"
+                    "scion_id": "ls_qbl_alg_zdc_s12_work_prfssn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Pisces</b></i>) <i>at</i> <b><u>Work</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_work_work"
+                    "scion_id": "ls_qbl_alg_zdc_s12_work_work"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Pisces</b></i>) <b><u>Boss</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_work_boss"
+                    "scion_id": "ls_qbl_alg_zdc_s12_work_boss"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Pisces</b></i>) <b><u>Employee</b></u></span>",
-                    "scion_id": "ls_qbl_zdc_s12_work_emply"
+                    "scion_id": "ls_qbl_alg_zdc_s12_work_emply"
                 }
             ]
         },
         {
             "drct_id": "GIFT",
             "drct_ttl": "Gifts for 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_gift",
+            "scion_id": "ls_qbl_alg_zdc_s12_gift",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_gift_gftids"
+                    "scion_id": "ls_qbl_alg_zdc_s12_gift_gftids"
                 }
             ]
         },
         {
             "drct_id": "LCTN",
             "drct_ttl": "Locations of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_lctn",
+            "scion_id": "ls_qbl_alg_zdc_s12_lctn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_cntrs"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_cntrs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. States</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_ustts"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_ustts"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. Cities</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_uscty"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_uscty"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>World Cities</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_glbcty"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_glbcty"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Outdoor Locations</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_outdr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_outdr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Indoor Locations</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_indr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_indr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Other Locations</b></u> <i>corresponding to</i> (<b><i>Pisces</b></i>)</span>",
-                    "scion_id": "ls_qbl_zdc_s12_lctn_othr"
+                    "scion_id": "ls_qbl_alg_zdc_s12_lctn_othr"
                 }
             ]
         },
         {
             "drct_id": "TABL",
             "drct_ttl": "Tables of 'Pisces'",
-            "scion_id": "ls_qbl_zdc_s12_tabl"
+            "scion_id": "ls_qbl_alg_zdc_s12_tabl"
         }
     ]
 }

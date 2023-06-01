@@ -162,19 +162,19 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Man</b></u></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Man</b></i>)</span>",
                     "scion_id": "ls_qbl_zdc_s06_prsn_man"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Woman</b></u></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Woman</b></i>)</span>",
                     "scion_id": "ls_qbl_zdc_s06_prsn_wmn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo</b></i>) <b><u>Kids</b></u></span>",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Kid</b></i>)</span>",
                     "scion_id": "ls_qbl_zdc_s06_prsn_kds"
                 },
                 {
@@ -182,6 +182,12 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Family Life</b></u> <i>of</i> (<b><i>Virgo</b></i>)</span>",
                     "scion_id": "ls_qbl_zdc_s06_prsn_fam"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Virgo Parent</b></i>) <i>and</i> <b><u>Child</b></u></span>",
+                    "scion_id": "ls_qbl_zdc_s06_prsn_prntchld"
                 }
             ]
         },

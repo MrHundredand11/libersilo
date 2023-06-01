@@ -61,3 +61,11 @@
     display: inline-block;
     white-space: pre;
 }
+
+.trm_sm {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 13px;
+    display: inline-block;
+    white-space: pre;
+}

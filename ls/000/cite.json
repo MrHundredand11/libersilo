@@ -235,6 +235,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Grant, Kenneth",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Gray, William",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -412,6 +419,47 @@
                             "insc_tag": "Teacher",
                             "insc_term": "MacGregor, Trish",
                             "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "NEMA",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Ingalls, Margaret C."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Maggie Ingalls"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Nema Anahadna"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Soror Anahadna"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -788,6 +836,18 @@
                             "cite_date": "2013",
                             "cite_edtn": "First Reprinting, 2017",
                             "cite_link": [{"link": "http://www.livingthelema.com"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Maat Magick",
+                            "cite_sbtt": "A Guide to Self-Initiation",
+                            "cite_auth": [{"name": "NEMA"}, {"name": "Ingalls, Margaret C."}],
+                            "cite_pbls": "Samuel Weiser, Inc",
+                            "cite_date": "1995",
+                            "cite_isbn13": "978-0-87728-827-5",
+                            "cite_isbn10": "0-87728-827-5"
                         },
                         {
                             "insc_typ1": "cite",

@@ -1398,7 +1398,23 @@
                                     "insc_styl": "trm_sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_term": "pharmaceutical cupboards"
+                                    "insc_term": "bookstores"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "drugstores"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "warehouses"
                                 }
                             ]
                         },
@@ -1406,19 +1422,105 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_offs": "offs_dwn_23",
-                            "insc_term": "Related to Work and Learning"
+                            "insc_term": "Related to Work and Learning",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "offices"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "libraries"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_offs": "offs_dwn_23",
-                            "insc_term": "Related to Health and Service"
+                            "insc_term": "Related to Health and Service",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "health spas and resorts"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "free health clinics"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "foster care"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "animal hospitals"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "charitable societies"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_offs": "offs_dwn_23",
-                            "insc_term": "On the Farm"
+                            "insc_term": "On the Farm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "dairy farms"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "grain elevators"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "malt houses"
+                                }
+                            ]
                         }
                     ]
                 }

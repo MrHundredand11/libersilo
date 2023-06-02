@@ -36,12 +36,11 @@ function generateLeafletIdNum(xx) {
     return leaflet_id;
 }
 
-function generateTag(lf_id, twig_tag) {
-    var lf_tag_id = `${lf_id}_tag`;
-    var lf_tag_full = gen_ECI('div', 'styl_tag', lf_tag_id);
-    lf_tag_full.setAttribute('onclick', `showHide('${lf_id}')`);
-    lf_tag_full.innerHTML = `[${twig_tag}]::&nbsp`;
-    return lf_tag_full;
+function generateTag(in_id, stpl) {
+    var stpl_full = gen_ECI('div', 'styl_tag', `id_stpl_${in_id}`);
+    stpl_full.setAttribute('onclick', `showHide('${in_id}')`);
+    stpl_full.innerHTML = `[${stpl}]::&nbsp`;
+    return stpl_full;
 }
 
 function generateBranchID(pnt) {

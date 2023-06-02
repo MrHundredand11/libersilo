@@ -117,8 +117,16 @@ function gen_Insc(insc_i, scion) {
             switch (scion.insc_typ2) {
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);
-                    insc_prtr.append(insc_pnt, insc_trm);
                     insc_prtr.style['align-items'] = 'center';
+
+                    if (scion.insc_stpl !== undefined) {
+                        var in_stpl = generateTag(insc_id, scion.insc_stpl);
+                        var in_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
+                        in_extn.append(insc_trm);
+                        insc_prtr.append(insc_pnt, in_stpl, in_extn);  
+                    } else {
+                        insc_prtr.append(insc_pnt, insc_trm);
+                    }
                    
                     if (scion.insc_styl !== undefined) {
                         insc_trm.classList.add(`${scion.insc_styl}`);
@@ -129,6 +137,7 @@ function gen_Insc(insc_i, scion) {
                         insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
                         insc_prtr.append(insc_dfin);
                     }
+
                     break;
                 
                 case 'trm_stpl':

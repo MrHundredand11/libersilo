@@ -25,14 +25,6 @@
     display: inline-block;
 }
 
-.styl_insc_trms_li_00 {
-    font-weight: bold;
-    font-family: cambria;
-    font-size: 23px;
-    display: inline-block;
-    white-space: pre;
-}
-
 .styl_insc_trms_nmbr_inl_00 {
     font-weight: bold;
     font-family: georgia;
@@ -62,7 +54,7 @@
     white-space: pre;
 }
 
-.trm_lg {
+.trm_rg {
     font-weight: bold;
     font-family: cambria;
     font-size: 23px;

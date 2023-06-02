@@ -52,7 +52,7 @@ function gen_term(lf_id, lf_term) {
     if (lf_term == undefined) {
         return undefined;
     } else {
-        var trm = gen_ECI('div', 'styl_insc_trms_li_00', `trm_${lf_id}`);
+        var trm = gen_ECI('div', 'trm_rg', `trm_${lf_id}`);
         trm.innerHTML = lf_term;
         return trm;
     }
@@ -64,7 +64,7 @@ function gen_Info(insc_i, insc_id, info) {
     return info_bit;
 }
 
-function getVers(obj, sc_id) {
+/*function getVers(obj, sc_id) {
     console.log(obj);
     const option = obj.value;
     console.log(option);
@@ -80,4 +80,4 @@ function getVers(obj, sc_id) {
 
     }
     return;
-}
+}*/

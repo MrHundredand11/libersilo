@@ -1384,7 +1384,43 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Other Locations</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_othr"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_othr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Stores",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "pharmaceutical cupboards"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Related to Work and Learning"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Related to Health and Service"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "On the Farm"
+                        }
+                    ]
                 }
             ]
         },

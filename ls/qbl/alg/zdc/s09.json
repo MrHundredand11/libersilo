@@ -957,6 +957,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Financial Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_fnnclcrrs",
@@ -1003,6 +1004,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Law Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_lawcrrs",
@@ -1031,6 +1033,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Organized Religion Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_orgrlgcrrs",
@@ -1077,6 +1080,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Woolen Clothing",
                             "scions": [
@@ -1095,6 +1099,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Horses",
                             "scions": [
@@ -1140,6 +1145,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Foreign Countries",
                             "scions": [
@@ -1203,6 +1209,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Higher Education Careers",
                             "scions": [
@@ -1275,6 +1282,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Sports Players",
                             "scions": [
@@ -1302,6 +1310,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Entertainers",
                             "scions": [
@@ -1329,6 +1338,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_styl": "trm_rg",
+                            "insc_offs": "offs_dwn_31",
                             "insc_tag": "Profession",
                             "insc_term": "Grocers"
                         }

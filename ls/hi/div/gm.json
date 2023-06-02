@@ -53,6 +53,19 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "DPCT",
+            "drct_ttl": "Depictions of 'The Green Man'",
+            "scion_id": "ls_hi_div_gm_dpct",
+            "scions": [
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Carvings</b></u> <i>of the</i> (<b><i>Green Man</b></i>)",
+                    "scion_id": "ls_hi_div_gm_dpct_crv"
+                }
+            ]
         }
     ]
 }

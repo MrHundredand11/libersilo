@@ -19,6 +19,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Akron",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Allen, Richard Hinckley",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -85,6 +92,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Banzhaf, Hajo",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Bardon, Franz",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -132,6 +146,13 @@
                                     "insc_cntn": "PFC"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chang, T. Susan",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -470,6 +491,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "McCarthy, Peter",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Meleen, M.M.",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -989,6 +1017,20 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Crowley Tarot",
+                            "cite_sbtt": "The Handbook to the Cards",
+                            "cite_auth": [{"name": "Akron"}, {"name": "Banzhaf, Hajo"}],
+                            "cite_pbls": "U.S. Games Systems, Inc.",
+                            "cite_date": "1995",
+                            "cite_edtn": "2014",
+                            "cite_isbn13": "978-0-88079-715-3",
+                            "cite_isbn10": "0-88079-715-0",
+                            "cite_locc": "95-060628"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Everything Astrology Book",
                             "cite_auth": [{"name": "MacGregor, Trish"}],
                             "cite_pbls": "Adams Media Corporation",
@@ -1065,6 +1107,18 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Qabalistic Tarot",
+                            "cite_auth": [{"name": "Wang, Robert"}],
+                            "cite_pbls": "Samuel Weiser, INC",
+                            "cite_date": "1983",
+                            "cite_edtn": "Reprinted first paper edition, 1988",
+                            "cite_isbn13": "9780877286721",
+                            "cite_isbn10": "0-87727-672-8"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "SET",
                             "cite_cmpl": [{"name": "Page, Judith"}, {"name": "Webb, Don"}],
                             "cite_pbls": "Aeon of Set Publishing",
@@ -1083,6 +1137,20 @@
                             "cite_edtn": "First Edition",
                             "cite_date": "2021",
                             "cite_isbn": "978-0-7387-2320-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Tarot Deciphered",
+                            "cite_sbtt": "Decoding Esoteric Symbolism in Modern Tarot",
+                            "cite_auth": [{"name": "Chang, T. Susan"}, {"name": "Meleen, M.M."}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_date": "2021",
+                            "cite_edtn": "First Edition, First Printing, 2021",
+                            "cite_isbn13": "9780738764474",
+                            "cite_locc": "2020050980",
+                            "cite_clss": "LCC BF1879.T2 C5155 2021"
                         },
                         {
                             "insc_typ1": "cite",

@@ -986,7 +986,160 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Leo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s05_lctn_cntrs"
+                    "scion_id": "ls_qbl_alg_zdc_s05_lctn_cntrs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Bahrain"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Benin"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Bhutan"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Bolivia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Central African Republic"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Chad"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Colombia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Congo"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Cyprus"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Gabon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Hungary"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "India"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Ivory Coast"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Jamaica"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "South Korea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Liberia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Maldives"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Niger"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Pakistan"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Peru"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Senegal"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Singapore"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Tunisia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Upper Volta"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_31",
+                            "insc_term": "Vanuatu",
+                            "insc_defn": "the south of France"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

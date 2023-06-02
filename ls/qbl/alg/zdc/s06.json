@@ -986,37 +986,399 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_cntrs"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_cntrs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Belize"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Bulgaria"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Chile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Guinea-Bissau"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "North Korea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Malaysia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Mali"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Malta"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Mexico"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Papua New Guinea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Qatar"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "St. Christopher-Nevis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Swaziland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Switzerland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Trinidad and Tobago"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Uruguay"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Venda"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. States</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_ustts"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_ustts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "California"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. Cities</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_uscty"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_uscty",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Kodiak, AK"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Fayetteville, AR"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Los Angeles, CA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Colorado Springs, CO"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Manchester, NH"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Minot, ND"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Reading, PA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Rutland, VT"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Norfolk, VA"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>World Cities</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_glbcty"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_glbcty",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Athens, Greece"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Baghdad, Iraq"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Basel, Switzerland"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Cheltenham, U.K."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Corinth, Ancient Greece"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Georgetown, Guyana"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Heidelberg, Germany"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Jerusalem, Israel"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Lyons, France"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Paris, France"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Reading, U.K."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Strasbourg, France"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "Toulouse, France"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Outdoor Locations</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_outdr"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_outdr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "pasturelands"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "fields where cereals are grown"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "furrows ready for sowing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "ricks",
+                            "insc_defn": "stacks of hay or straw"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "forages"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "arable land",
+                            "insc_defn": "especially if it is a little dry"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "fertilizable flat enriched soil"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "private gardens"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<span class='styl_stm_ttl'><b><u>Indoor Locations</b></u> <i>corresponding to</i> (<b><i>Virgo</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_indr"
+                    "scion_id": "ls_qbl_alg_zdc_s06_lctn_indr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "quarters reserved for staff"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "private practices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "home offices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "apartments"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "houses or rooms rented or for rent"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "food storage rooms"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "locked rooms"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "pantries"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "toilets"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "offs_dwn_23",
+                            "insc_term": "pharmaceutical cupboards"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

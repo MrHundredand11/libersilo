@@ -69,7 +69,7 @@ function gen_Insc(insc_i, scion) {
                         lf_ls_shrt.appendChild(lfl_shrt);
 
                         if (scion.scions[lfl].scions !== undefined) {
-                            console.log(scion.scions[lfl].scions);
+                            //console.log(scion.scions[lfl].scions);
                             var twg_cntnr = gen_ECI('div', 'styl_twg_cntnr stt_hide', `id_twg_cntnr_${scion.scion_id}_${lfl}`);
                             var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${scion.scion_id}_${lfl}`);
                             var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
@@ -86,9 +86,9 @@ function gen_Insc(insc_i, scion) {
                             stm_expnd.appendChild(twg_cntnr);
 
                             for (i2 in scion.scions[lfl].scions) {
-                                console.log(scion.scions[lfl].scions[i2]);
+                               // console.log(scion.scions[lfl].scions[i2]);
                                 var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
-                                console.log(entr_full);
+                                //console.log(entr_full);
                                 twg_cntn.appendChild(entr_full);
                             }
                         }
@@ -125,8 +125,8 @@ function gen_Insc(insc_i, scion) {
                     }
 
                     if (scion.insc_dfin !== undefined) {
-                        var insc_dfin = gen_ECI('div', 'styl_insc_dfin', `id_insc_dfin_${insc_id}`);
-                        insc_dfin.innerHTML = `&nbsp;(<span class='styl_insc_dfin_cntn'>${scion.insc_dfin}</span>)`
+                        var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
+                        insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
                         insc_prtr.append(insc_dfin);
                     }
                     break;

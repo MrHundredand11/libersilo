@@ -193,6 +193,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Curran, Bob",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Dr. Bob Curran"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Davies, Ann",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -201,6 +218,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Deal, David Allen",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Duquette, Lon Milo",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -969,7 +993,7 @@
                             "cite_ttl": "The Anatomy of the Body of God",
                             "cite_auth": [{"name": "Frater Achad"}],
                             "cite_pbls": "Atria Books",
-                            "cite_date": "November 2008",
+                            "cite_date": "1925",
                             "cite_edtn": "Lexington, KY 06 July 2018",
                             "cite_isbn13": "9781511636308"
                         },
@@ -1191,6 +1215,18 @@
                             "cite_edtr": [{"name": "Coleman, Wade"}],
                             "cite_edtn": "January 2021",
                             "cite_isbn": "9781733162081"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Walking with the Green Man",
+                            "cite_auth": [{"name": "Curran, Dr. Bob"}],
+                            "cite_edtr": [{"name": "Talucci, Gina"}],
+                            "cite_pbls": "The Career Press",
+                            "cite_date": "2007",
+                            "cite_isbn13": "978-156414-931-2",
+                            "cite_isbn10": "156414-931-5"
                         },
                         {
                             "insc_typ1": "cite",

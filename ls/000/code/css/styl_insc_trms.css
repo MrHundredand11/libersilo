@@ -69,3 +69,14 @@
     display: inline-block;
     white-space: pre;
 }
+
+.dfin_cntnr {
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.dfin_cntnd {
+    font-style: italic;
+    font-family: sitka;
+}

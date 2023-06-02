@@ -955,14 +955,16 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Financial Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_fnnclcrrs",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -970,7 +972,8 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -978,7 +981,8 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -986,7 +990,8 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -996,14 +1001,16 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Law Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_lawcrrs",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -1011,7 +1018,8 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_sld": "\\_",
                                     "insc_pntr": ">>",
@@ -1021,35 +1029,40 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Organized Religion Careers",
                             "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn_orgrlgcrrs",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "clergy",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "priests",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "ministers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "bishops",
                                     "insc_sld": "\\_"
@@ -1058,13 +1071,15 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Woolen Clothing",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "clothiers",
                                     "insc_sld": "\\_"
@@ -1073,34 +1088,39 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Horses",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "hunters",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "horse jockeys",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "ranchers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "horse trainers",
                                     "insc_sld": "\\_"
@@ -1109,48 +1129,55 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Careers connected with Foreign Countries",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "travel agents",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "foreign language instructors",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "flight attendants",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "ambassadors",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "interpreters",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "tour guides",
                                     "insc_sld": "\\_"
@@ -1159,55 +1186,63 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Higher Education Careers",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "university teachers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "professors",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "publishers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "philosophers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "lecturers",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "orators",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "politicians",
                                     "insc_sld": "\\_"
@@ -1216,20 +1251,23 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Sports Players",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "athletes",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "archers",
                                     "insc_sld": "\\_"
@@ -1238,20 +1276,23 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "Entertainers",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "actors",
                                     "insc_sld": "\\_"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_sm",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Example",
                                     "insc_term": "clowns",
                                     "insc_sld": "\\_"
@@ -1260,7 +1301,8 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
+                            "insc_styl": "trm_bg",
                             "insc_tag": "Profession",
                             "insc_term": "grocers"
                         }

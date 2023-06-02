@@ -2,5 +2,57 @@
     "ls_id": "LS-HI-DIV-GM",
     "ls_ttl": "The Green Man",
     "ls_url": "/ls/hi/div/gm.json",
-    "scion_id": "ls_hi_div_gm"
+    "scion_id": "ls_hi_div_gm",
+    "scions": [
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Green Man'",
+            "scion_id": "ls_hi_div_gm_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='stm_ttl'><b><u>Common Names</b></u> <i>of the</i> (<b><i>Green Man</b></i>)",
+                    "scion_id": "ls_hi_div_gm_name_cmmn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Green Man"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Green Men"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Oak Man"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Man in The Oak"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jack in the Green"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Lord of the Grain"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Robin Goodfellow"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

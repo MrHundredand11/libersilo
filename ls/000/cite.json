@@ -19,6 +19,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Achad, Frater",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Akron",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -959,6 +966,17 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Anatomy of the Body of God",
+                            "cite_auth": [{"name": "Frater Achad"}],
+                            "cite_pbls": "Atria Books",
+                            "cite_date": "November 2008",
+                            "cite_edtn": "Lexington, KY 06 July 2018",
+                            "cite_isbn13": "9781511636308"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Astrology for Enlightenment",
                             "cite_auth": [{"name": "Karén, Michelle"}],
                             "cite_pbls": "Atria Books",
@@ -1001,6 +1019,18 @@
                             "cite_edtn": "First Edition, Twelfth Printing, 2018",
                             "cite_isbn13": "978-0-7387-0703-7",
                             "cite_isbn10": "0-7387-0703-1"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Complete Illustrated Guide to Tarot",
+                            "cite_sbtt": "How to Unlock the Secrets of the Tarot",
+                            "cite_auth": [{"name": "Pollack, Rachel"}],
+                            "cite_pbls": "Gramercy Books, an imprint of Random House Publishing",
+                            "cite_date": "1999",
+                            "cite_edtn": "2004 edition by Gramercy Books",
+                            "cite_isbn10": "0-517-22410-0"
                         },
                         {
                             "insc_typ1": "cite",

@@ -119,8 +119,9 @@ function gen_Insc(insc_i, scion) {
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     insc_prtr.append(insc_pnt, insc_trm);
                     insc_prtr.style['align-items'] = 'center';
+                   
                     if (scion.insc_styl !== undefined) {
-                        insc_prtr.classList.add(`${scion.insc_styl}`);
+                        insc_trm.classList.add(`${scion.insc_styl}`);
                     }
 
                     if (scion.insc_dfin !== undefined) {

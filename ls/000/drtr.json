@@ -1427,11 +1427,11 @@
                                     "scion_id": "ls_luls_fgr_bbl_marymgd"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-FGR-BBL-MARYMOM",
+                                    "ls_id": "LS-LULS-FGR-BBL-MRYMTHR",
                                     "ls_ttl": "Mary the Mother of Jesus",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/fgr/bbl/marymom.json",
-                                    "scion_id": "ls_luls_fgr_bbl_marymom"
+                                    "ls_url": "/ls/luls/fgr/bbl/mrymthr.json",
+                                    "scion_id": "ls_luls_fgr_bbl_mrymthr"
                                 },
                                 {
                                     "ls_id": "LS-LULS-FGR-BBL-MShH",

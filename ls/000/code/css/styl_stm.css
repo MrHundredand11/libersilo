@@ -41,7 +41,7 @@
     display: none;
 }
 
-.styl_stm_nametag {
+.styl_stm_nmtg {
     font-size: 37px;
     display: flex;
     white-space: pre;
@@ -86,7 +86,7 @@
     display: none;
 }
 
-.styl_stm_brnch_nametag {
+.styl_stm_brnch_nmtg {
     font-size: 37px;
     display: flex;
     white-space: pre;
@@ -254,7 +254,7 @@
     padding-bottom: 7px;
 }
 
-.styl_stm_shrt_nametag {
+.styl_stm_shrt_nmtg {
     font-size: 31px;
     display: flex;
     white-space: pre;
@@ -266,7 +266,7 @@
     display: none;
 }
 
-.styl_stm_lst_exp_nametag {
+.styl_stm_lst_exp_nmtg {
     font-size: 37px;
     display: flex;
     white-space: pre;
@@ -289,7 +289,6 @@
 
 .styl_stm_twg_cntnr {
     margin-bottom: 17px;
-    border: 1px solid black;
     border-radius: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -310,7 +309,7 @@
     border: 2.22px solid black;
 }
 
-.styl_stm_twg_nametag {
+.styl_stm_twg_nmtg {
     font-size: 37px;
     display: flex;
     white-space: pre;

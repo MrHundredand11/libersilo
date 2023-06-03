@@ -17,7 +17,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Egyptian Scriptures</b></u> <i>about</i> (<b><i>Set</b></i>)</span>",
+                    "insc_ttl": "<b><u>Egyptian Scriptures</b></u> <i>about</i> (<b><i>Set</b></i>)",
                     "scion_id": "ls_hi_ntr_set_luls_egyptscrpt",
                     "scions": [
                         {
@@ -66,7 +66,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Egyptian Traditions</b></u> <i>about</i> (<b><i>Set</b></i>)</span>",
+                    "insc_ttl": "<b><u>Egyptian Traditions</b></u> <i>about</i> (<b><i>Set</b></i>)",
                     "scion_id": "ls_hi_ntr_set_luls_egypttrad",
                     "scions": [
                         {

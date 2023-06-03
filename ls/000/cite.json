@@ -279,6 +279,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "d'Este, Sorita",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Duquette, Lon Milo",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -715,6 +722,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Puryear, Herbert Bruce",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Rankine, David",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1373,7 +1387,7 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
-                            "cite_ttl": "The Magical of Armadel",
+                            "cite_ttl": "The Magic of Armadel",
                             "cite_sbtt": "A 17th Century Grimoire in Full Color",
                             "cite_edtr": [{"name": "Shaw, Victor"}],
                             "cite_tstr": [{"name": "McGregor Mathers, S.L."}],
@@ -1503,6 +1517,19 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Practical Elemental Magick",
+                            "cite_sbtt": "Working the Magick of the Four Elements in the Western Mystery Tradition",
+                            "cite_auth": [{"name": "Rankine, David"}, {"name": "d'Este, Sorita"}],
+                            "cite_pbls": "Avalonia",
+                            "cite_date": "2008",
+                            "cite_edtn": "First Edition October 2008",
+                            "cite_isbn13": "978-1-905297-19-1",
+                            "cite_isbn10": "1-905297-19-X"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Qabalistic Tarot",
                             "cite_auth": [{"name": "Wang, Robert"}],
                             "cite_pbls": "Samuel Weiser, INC",
@@ -1522,6 +1549,18 @@
                             "cite_edtn": "2000 paperback edition",
                             "cite_date": "1997",
                             "cite_isbn": "1-86204-647-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Sefer Yetzirah",
+                            "cite_sbtt": "The Book of Creation: in Theory and Practice",
+                            "cite_tstr": [{"name": "Kaplan, Aryeh"}],
+                            "cite_pbls": "Red Wheel/Weiser, LLC",
+                            "cite_date": "1997",
+                            "cite_edtn": "Revised edition published in 1997",
+                            "cite_isbn10": "0-87728-855-0"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1556,7 +1595,20 @@
                             "cite_pbls": "Llewellyn Publications",
                             "cite_edtn": "First Edition",
                             "cite_date": "2021",
-                            "cite_isbn": "978-0-7387-2320-4"
+                            "cite_isbn13": "978-0-7387-2320-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Tarot",
+                            "cite_sbtt": "A Key to the Wisdom of the Ages",
+                            "cite_auth": [{"name": "Case, Paul Foster"}],
+                            "cite_pbls": "Builders of the Adytum",
+                            "cite_date": "1947",
+                            "cite_edtn": "First Revised Edition, 1990",
+                            "cite_isbn10": "0-938002-08-2",
+                            "cite_isbn": "0-88053-767-1"
                         },
                         {
                             "insc_typ1": "cite",

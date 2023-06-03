@@ -206,6 +206,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Cold, Indrid",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Coleman, Wade",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -714,7 +721,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
-                            "insc_term": "Regula, DeTraci",
+                            "insc_term": "Regula, deTraci",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -794,6 +801,13 @@
                                     "insc_cntn": "Shams al-Din Mohammad"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Thor, Valiant",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -880,6 +894,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Woolfolk, Joanna Martine",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wriste, Terry",
                             "insc_offs": "algn_y_up_23"
                         }
                     ]
@@ -1380,6 +1401,18 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Mysteries of Isis",
+                            "cite_sbtt": "Her Worship and Magick",
+                            "cite_auth": [{"name": "Regula, deTraci"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_edtn": "First Edition, First Printing, 1995",
+                            "cite_date": "1995",
+                            "cite_isbn10": "1-56718-560-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Mystical Qabalah",
                             "cite_auth": [{"name": "Fortune, Dion"}, {"name": "Firth, Violet Mary"}],
                             "cite_pbls": "Red Wheel/Weiser, LLC",
@@ -1405,12 +1438,47 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Occult Technology of Power",
+                            "cite_auth": [{"name": "The Transcriber"}],
+                            "cite_edtr": [{"name": "Slaughter, Kevin I."}],
+                            "cite_pbls": "Underworld Amusements, LLC",
+                            "cite_edtn": "2016 Underworld Amusements",
+                            "cite_date": "1974",
+                            "cite_isbn": "978-1-943687-04-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Only Astrology Book You'll Ever Need",
                             "cite_auth": [{"name": "Woolfolk, Joanna Martine"}],
                             "cite_pbls": "Scarborough House",
                             "cite_edtn": "First Scarborough House Paperback Edition",
                             "cite_date": "1990",
                             "cite_isbn": "0-8128-8506-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Ontological Mathematics",
+                            "cite_sbtt": "The Science of the Future",
+                            "cite_auth": [{"name": "Morgue"}],
+                            "cite_edtn": "Monee IL, 14 August 2021",
+                            "cite_date": "2019",
+                            "cite_isbn": "9781082506437"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Overthrowing the Old Gods",
+                            "cite_sbtt": "Aleister Crowley and The Book of the Law",
+                            "cite_auth": [{"name": "Webb, Don"}],
+                            "cite_pbls": "Inner Traditions",
+                            "cite_edtn": "First Scarborough House Paperback Edition",
+                            "cite_date": "2013",
+                            "cite_isbn": "978-1-62055-189-9"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1423,6 +1491,18 @@
                             "cite_edtn": "Reprinted first paper edition, 1988",
                             "cite_isbn13": "9780877286721",
                             "cite_isbn10": "0-87727-672-8"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Second Messiah",
+                            "cite_sbtt": "Templars, the Turin Shroud, and the Great Secret of Freemasonry",
+                            "cite_auth": [{"name": "Knight, Christopher"}, {"name": "Lomas, Robert"}],
+                            "cite_pbls": "Element Books, Inc.",
+                            "cite_edtn": "2000 paperback edition",
+                            "cite_date": "1997",
+                            "cite_isbn": "1-86204-647-6"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1566,6 +1646,16 @@
                             "cite_pbls": "Harper & Row, Publishers",
                             "cite_date": "1971",
                             "cite_edtn": "First Edition"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Valiant Thor's The Hellier Below",
+                            "cite_auth": [{"name": "Cold, Indrid"}, {"name": "Wriste, Terry"}],
+                            "cite_pbls": "Apollo Press",
+                            "cite_date": "2022",
+                            "cite_isbn13": "9798361205905"
                         }
                     ]
                 },

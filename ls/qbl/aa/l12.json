@@ -2,19 +2,19 @@
     "ls_id": "LS-QBL-AA-L12",
     "ls_ttl": "The Letter Lamed",
     "ls_url": "/ls/qbl/aa/l12.json",
-    "scion_id": "ls_qbl_qq_l12",
+    "scion_id": "ls_qbl_aa_l12",
     "scions": [
         {
             "drct_id": "QCCL",
             "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_qbl_qq_l12_qccl",
+            "scion_id": "ls_qbl_aa_l12_qccl",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "twg",
                     "insc_tag": "Attributes",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Attribute</span>&nbsp;<span class='styl_stm_ttl_tny'>correspondences of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_qq_l12_qccl_atrb",
+                    "insc_ttl": "<b><u>Attribute</b></u> <i>correspondences of</i> (<b><i>Lamed</b></i>)",
+                    "scion_id": "ls_qbl_aa_l12_qccl_atrb",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -41,14 +41,14 @@
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'Lamed'",
-            "scion_id": "ls_qbl_qq_l12_cntr",
+            "scion_id": "ls_qbl_aa_l12_cntr",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Animals",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Animals</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_qq_l12_cntr_anmls",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Animals</b></u> <i>of</i> (<b><i>Lamed</b></i>)",
+                    "scion_id": "ls_qbl_aa_l12_cntr_anmls",
                     "scions": [
                         {
                             "insc_term": "Birds // Avians"
@@ -60,14 +60,14 @@
         {
             "drct_id": "DEIT",
             "drct_ttl": "Deity Archetypes of 'Lamed'",
-            "scion_id": "ls_qbl_qq_l12_deit",
+            "scion_id": "ls_qbl_aa_l12_deit",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Deity Archetypes",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deity Archetypes</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_qq_l12_deit_lst",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deity Archetypes</b></u> <i>of</i> (<b><i>Lamed</b></i>)",
+                    "scion_id": "ls_qbl_aa_l12_deit_lst",
                     "scions": [
                         {
                             "insc_term": "Ma'at"
@@ -79,14 +79,14 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Lamed'",
-            "scion_id": "ls_qbl_qq_l12_luls",
+            "scion_id": "ls_qbl_aa_l12_luls",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Scriptures",
-                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Scriptures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Lamed</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id":"ls_qbl_qq_l12_luls_lst_scrpt",
+                    "insc_ttl":"<b><u>Biblical Scriptures</b></u> <i>corresponding to</i> (<b><i>Lamed</b></i>)",
+                    "scion_id":"ls_qbl_aa_l12_luls_lst_scrpt",
                     "scions": [
                         {
                             "insc_term": "Proverbs 11:1"

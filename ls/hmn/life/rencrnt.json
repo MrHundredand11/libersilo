@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Christian Concept</b></u> <i>of the</i> (<b><i>Incarnation</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Christian Concept</b></u> <i>of the</i> (<b><i>Incarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_000_chrstnincrntn",
                     "scions": [
                         {
@@ -69,7 +69,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Biblical Scriptures",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)</span>",
+                    "insc_ttl": "<b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_luls_bbl",
                     "scions": [
                         {
@@ -106,7 +106,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Spiritual Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Spiritual Teachers</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)</span>",
+                    "insc_ttl": "<b><u>Spiritual Teachers</b></u> <i>of</i> (<b><i>Reincarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_luls_tchr",
                     "scions": [
                         {

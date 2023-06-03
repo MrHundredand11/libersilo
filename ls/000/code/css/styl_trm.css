@@ -1,0 +1,34 @@
+.trm_bg {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 31px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.trm_rg {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.trm_sm {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 17px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.dfin_cntnr {
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.dfin_cntnd {
+    font-style: italic;
+    font-family: sitka;
+}

@@ -15,7 +15,7 @@ function gen_Insc(insc_i, scion) {
             switch (scion.insc_typ2) {
                 case 'brnch':
                     stm_bmp_top.innerHTML = bmp_stm_scrll;
-                    stm_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${stm_name}</span> ::`;
+                    stm_nametag.innerHTML = `${flow_brnch}<span id='${insc_id}'>${stm_name}</span>&nbsp;::`;
                     stm_bmp_btm.innerHTML = bmp_stm_scrll;
 
                     stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
@@ -36,6 +36,21 @@ function gen_Insc(insc_i, scion) {
                     stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
+                        
+                    for (i2 in scion.scions) {
+                        var entr_full = gen_Insc(i2, scion.scions[i2]);
+                        stm_trstlbrd.appendChild(entr_full);
+                    }
+                    break;
+                
+                case 'twg':
+                    stm_bmp_top.innerHTML = bmp_twg_top;
+                    stm_bmp_btm.innerHTML = bmp_twg_btm;    
+                    stm_nametag.innerHTML = `${flow_twig}<span id='${insc_id}'>${stm_name}</span>&nbsp;::`;
+    
+                    stm_nametag.setAttribute('onclick', `showHideTwig('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideTwig('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideTwig('${insc_id}');`); 
                         
                     for (i2 in scion.scions) {
                         var entr_full = gen_Insc(i2, scion.scions[i2]);

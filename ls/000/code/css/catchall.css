@@ -36,30 +36,6 @@ strong {
     scroll-behavior: smooth;
     margin-right: 23px;
 }
-
-.cambria {
-    font-family: 'cambria-bold', sans-serif;
-    display: inline-block;
-}
-
-.list_elements_______old {
-    list-style: none;
-    line-height: 14.3px;
-}
-
-.list_elements:hover {
-    border: 1.11px solid black;
-    overflow: hidden;
-    padding: 4.44px;
-    font-size: 19px;
-}
-
-.list_elements_onClick {
-    border: 1px solid black;
-    overflow: hidden;
-    padding: 2px;
-    font-size: 19px;
-}
     
 .styl_tag {
     font-style: italic;
@@ -69,11 +45,6 @@ strong {
 .items {
     display: block;
 }   
-
-.span_tiny_words {
-    font-family: shadows_into_light;
-    font-size: 29px;
-}
 
 .span_opn_cls {
     font-stretch: ultra-condensed;   
@@ -89,33 +60,6 @@ strong {
     font-weight: bold;
 }
 
-.styl_li_top {
-    font-weight: bold;
-    font-family: cambria;
-    font-size: 19px;
-}
-
-.styl_list_entry_ext {
-    position: relative;
-    list-style: none;
-    padding-inline-start: 0px;
-    padding-left: 41px;    
-}
-
-.styl_liex_cntn {
-    padding-left: 41px;
-}
-
-.styl_liex_init {
-    position: relative;
-    list-style: none;
-    padding-inline-start: 0px;
-}
-
-.style5 {
-    padding-left: 41px;
-}
-
 .styl_side_seal {
     text-align: center;
     font-family: calibri;
@@ -125,14 +69,4 @@ strong {
     margin-bottom: 17px;
     margin-left: 17px;
     margin-right: 17px;
-}
-
-.styl_entr_term {
-    display: inline-block;
-    font-size: 53px;
-}
-
-.styl_entr_intro {
-    display: inline-block;
-    font-family: calibri;
 }

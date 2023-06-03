@@ -28,6 +28,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
+                                    "insc_styl": "size_23px",
                                     "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "[\t\t<span class='size_23px'>'Recitation by Nut, the greatly beneficent:\n\tThe king is my eldest son who split open my womb;\n\the is my beloved, with whom I am well pleased.</span>\t\t]"
                                 },
@@ -35,6 +36,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
+                                    "insc_styl": "size_23px",
                                     "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "[\t<span class='size_23px'><b>1a.</b> To say by Nut, the brilliant, the great:\n\tThis is (my) son, (my) first born, N., opener of (my) womb;\n\t<b>1b.</b> this is (my) beloved, with whom I have been satisfied.</span>\t\t]"
                                 },
@@ -42,6 +44,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Context",
+                                    "insc_styl": "size_23px",
                                     "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "<b>Set</b> (<i>the <b>first born of Nut</b></i>) is mentioned in <b>the very first utterance in the Pyramid Texts</b> (one of the oldest written collections of ancient Egyptian beliefs)."
                                 },
@@ -49,6 +52,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Context",
+                                    "insc_styl": "size_23px",
                                     "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "This utterance is spoken by <b>Nut</b>, the mother of Set; she is speaking of the king of Egypt, identifying him as her son."
                                 },
@@ -56,6 +60,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Tradition",
+                                    "insc_styl": "size_23px",
                                     "insc_offs": "algn_y_up_23",
                                     "insc_cntn": "According to the <b>Draconian tradition</b> (as revealed in Kenneth Grant's series of Typhonian Trilogies), <b><i>Set was the eldest son of Nut</b></i>."
                                 }
@@ -98,13 +103,17 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "size_23px",
                                     "insc_tag": "1974 Edition",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_cntn": "[\tThe pylons of the ages are unshaken, firmly are they Set. The Day of the Hawk has but seen its dawning, and will see its due measure according to the Laws of Time and Space.\t]"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
-                                    "insc_tag": "1974 Edition",
+                                    "insc_styl": "size_23px",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_tag": "Feathersong Edition",
                                     "insc_cntn": "[\tTime is as stable as it ever was, and history within it, implacable as Saturn/Set, the Lord of time and nevessity. The hero-hawk will fly for as long as his work remains the death of restriction and servility.\t]"
                                 }
                             ]

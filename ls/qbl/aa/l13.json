@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Letter-Name",
-                    "insc_ttl":"<span class='styl_stm_ttl_tny'>The</span>&nbsp;<span class='styl_stm_ttl_spprt'>Letter-Name</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Mem</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Letter-Name</b></u> <i>of</i> (<b><i>Mem</b></i>)",
                     "scion_id": "ls_qbl_aa_l13_lttr_lttrname",
                     "scions": [
                         {
@@ -36,7 +36,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Element",
-                    "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Mem</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>as</span>&nbsp;<span class='styl_stm_ttl_spprt'>The Element of Water</span>",
+                    "insc_ttl": "(<b><i>Mem</b></i>) <i>as</i> The Element of Water",
                     "scion_id": "ls_qbl_aa_l13_qblh_lmnt_e02",
                     "scions": [
                         {
@@ -201,7 +201,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Relationships",
-                    "insc_ttl": "List of Relationships of (Mem)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Mem</b></i>)",
                     "scion_id": "ls_qbl_aa_l13_rltn_lst",
                     "scions": [
                         {

@@ -1,23 +1,23 @@
 {
-    "ls_id": "LS-LULS-111-FGR-BBL-MARYMOM",
+    "ls_id": "LS-LULS-FGR-BBL-MRYMTHR",
     "ls_ttl": "Mary, the Mother of Jesus",
-    "ls_url": "/ls/luls/111/fgr/bbl/marymom.json",
-    "scion_id": "ls_luls_111_fgr_bbl_marymom",
+    "ls_url": "/ls/luls/fgr/bbl/mrymthr.json",
+    "scion_id": "ls_luls_fgr_bbl_mrymthr",
     "scions": [
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Mary, the Mother of Jesus'",
-            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls",
+            "scion_id": "ls_luls_fgr_bbl_mrymthr_luls",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl",
+                    "insc_ttl": "<b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_bbl",
                     "scions": [
                         {
                             "insc_term": "Isaiah 7:14",
-                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b23c07v14",
+                            "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_bbl_b23c07v14",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -29,7 +29,7 @@
                         },
                         {
                             "insc_term": "Revelation 12:1-2, 5-6",
-                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b66c12v1_2_5_6",
+                            "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_bbl_b66c12v1_2_5_6",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -41,7 +41,7 @@
                         },
                         {
                             "insc_term": "Luke 1:26-28",
-                            "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_bbl_b42c01v26_28",
+                            "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_bbl_b42c01v26_28",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -83,14 +83,14 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Apocryphal Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_apoc"
+                    "insc_ttl": "<b><u>Apocryphal Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_apoc"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gnostic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_gnss",
+                    "insc_ttl": "<b><u>Gnostic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_gnss",
                     "scions": [
                         {
                             "insc_term": "Gospel of Philip"
@@ -103,8 +103,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qur'anic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_qrnc",
+                    "insc_ttl": "<b><u>Qur'anic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_qrnc",
                     "scions": [
                         {
                             "insc_term": "Qur'an 13:42-43"
@@ -120,8 +120,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mormon Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_mrmn",
+                    "insc_ttl": "<b><u>Mormon Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_mrmn",
                     "scions": [
                         {
                             "insc_term": "1 Nephi 11:13-23"
@@ -137,8 +137,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Thelemic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_luls_thlma",
+                    "insc_ttl": "<b><u>Thelemic Scriptures</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_luls_thlma",
                     "scions": [
                         {
                             "insc_term": "Liber AL III:56"
@@ -150,13 +150,13 @@
         {
             "drct_id": "LGND",
             "drct_ttl": "Legends of 'Mary, the Mother of Jesus'",
-            "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd",
+            "scion_id": "ls_luls_fgr_bbl_mrymthr_lgnd",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Legends</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)</span>",
-                    "scion_id": "ls_luls_111_fgr_bbl_marymom_lgnd_lst",
+                    "insc_ttl": "<b><u>Legends</b></u> <i>about</i> (<b><i>Mother Mary</b></i>)",
+                    "scion_id": "ls_luls_fgr_bbl_mrymthr_lgnd_lst",
                     "scions": [
                         {
                             "insc_term": "A Story about Mary's Parents"

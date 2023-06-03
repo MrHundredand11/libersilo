@@ -84,6 +84,32 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Thelemic Scriptures</b></u> <i>about</i> (<b><i>Set</b></i>)",
+                    "scion_id": "ls_hi_ntr_set_luls_thlmascrpt",
+                    "scions": [
+                        {
+                            "insc_term": "Liber Pennae Praenumbra v13",
+                            "scion_id": "ls_hi_ntr_set_luls_thlmascrpt_lpp_v13",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "1974 Edition",
+                                    "insc_cntn": "[\tThe pylons of the ages are unshaken, firmly are they Set. The Day of the Hawk has but seen its dawning, and will see its due measure according to the Laws of Time and Space.\t]"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_tag": "1974 Edition",
+                                    "insc_cntn": "[\tTime is as stable as it ever was, and history within it, implacable as Saturn/Set, the Lord of time and nevessity. The hero-hawk will fly for as long as his work remains the death of restriction and servility.\t]"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

@@ -54,6 +54,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Aquino, Michael A.",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Michael A. Aquino, Ph.D."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Ashcroft-Nowicki, Dolores",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
@@ -290,6 +307,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Flowers, Stephen E",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Stephen E. Flowers, Ph D."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Fortune, Dion",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
@@ -468,6 +502,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Knight, Christoper",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Knight, Gareth",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -538,6 +579,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Lomas, Robert",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "MacGregor, Trish",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -585,6 +633,13 @@
                                     "insc_cntn": "Dr. Chuck Missler"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morgue",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -659,7 +714,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Regula, DeTraci",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Shaw, Victor",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -675,6 +744,23 @@
                             "insc_tag": "Teacher",
                             "insc_term": "Smith, George",
                             "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Strassman, Rick",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Rick Strassman, M.D."
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -714,6 +800,20 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Townley, Kevin",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "The Transcriber",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Tyson, Donald",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -766,6 +866,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Weor, Samael Aun",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wolfe, Amber",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1022,6 +1129,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Gabriel, Bonnie"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Wright, Wallace"
                         }
                     ]
@@ -1138,6 +1251,18 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "DMT and the Soul of Prophecy",
+                            "cite_sbtt": "A New Science of Spiritual Revelation in the Hebrew Bible",
+                            "cite_auth": [{"name": "Strassman, Rick"}],
+                            "cite_pbls": "Park Street Press",
+                            "cite_date": "2014",
+                            "cite_isbn": "978-1-59477-342-6",
+                            "cite_link": [{"link": "http://www.rickstrassman.org"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Esoteric Secrets of Meditation and Magic",
                             "cite_sbtt": "Volume 1: The Early Writings",
                             "cite_auth": [{"name": "Case, Paul Foster"}],
@@ -1161,10 +1286,36 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Fraternitas Saturnai",
+                            "cite_auth": [{"name": "Flowers, Stephen E."}],
+                            "cite_pbls": "Inner Traditions",
+                            "cite_date": "1990",
+                            "cite_edtn": "Fourth revised and expanded edition, 2018",
+                            "cite_isbn13": "978-1-62055-721-1",
+                            "cite_lccn": "2017043197"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Illuminations: The Healing of the Soul",
                             "cite_auth": [{"name": "Ashcroft-Nowicki, Dolores"}],
                             "cite_pbls": "Llewellyn Publications",
                             "cite_date": "2003"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Initiation into Hermetics",
+                            "cite_sbtt": "Der Weg zum Wahren Adepten",
+                            "cite_auth": [{"name": "Bardon, Franz"}],
+                            "cite_edtr": [{"name": "Johnson, Ken"}],
+                            "cite_tstr": [{"name": "Hanswille, Gerhard"}, {"name": "Gallo, Franca"}],
+                            "cite_pbls": "Merkur Publishing, Inc",
+                            "cite_date": "1956",
+                            "cite_edtn": "Second English Translation, Tenth Printing 2017",
+                            "cite_isbn13": "978-1885928-12-2"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1175,7 +1326,8 @@
                             "cite_pbls": "Anima Solis Books",
                             "cite_date": "2013",
                             "cite_edtn": "First Reprinting, 2017",
-                            "cite_link": [{"link": "http://www.livingthelema.com"}]
+                            "cite_link": [{"link": "http://www.livingthelema.com"}],
+                            "cite_isbn13": "9780989384414"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1188,6 +1340,18 @@
                             "cite_date": "1995",
                             "cite_isbn13": "978-0-87728-827-5",
                             "cite_isbn10": "0-87728-827-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Magical of Armadel",
+                            "cite_sbtt": "A 17th Century Grimoire in Full Color",
+                            "cite_edtr": [{"name": "Shaw, Victor"}],
+                            "cite_tstr": [{"name": "McGregor Mathers, S.L."}],
+                            "cite_pbls": "Erebus Society",
+                            "cite_date": "2018",
+                            "cite_isbn13": "9781912461158"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1271,6 +1435,18 @@
                             "cite_isbn10": "1548138061",
                             "cite_isbn13": "978-1548138066",
                             "cite_link": [{"link": "http://www.judith-page.com"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Sexual Alchemy",
+                            "cite_sbtt": "Magical Intercourse with Spirits",
+                            "cite_auth": [{"name": "Tyson, Donald"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_edtn": "First Edition, First Printing, 2000",
+                            "cite_date": "2000",
+                            "cite_isbn": "1-56718-741-2"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1409,6 +1585,17 @@
                             "cite_date": "2021",
                             "cite_edtn": "Monee, IL, 29 October 2021",
                             "cite_isbn13": "9798680328583"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Fine Art of Erotic Talk",
+                            "cite_sbtt": "How to Entice, Excite and Enchant Your Lover with Words",
+                            "cite_auth": [{"name": "Gabriel, Bonnie"}],
+                            "cite_pbls": "Bantam Books",
+                            "cite_date": "1996",
+                            "cite_isbn13": "0-553-37396-X"
                         }
                     ]
                 }

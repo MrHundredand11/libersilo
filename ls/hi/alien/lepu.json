@@ -118,13 +118,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "twg",
-                    "insc_ttl": "><b><u>Theories</b></u> <i>of</i> (<b><i>Lepufology</b></i>)",
+                    "insc_ttl": "<b><u>Theories</b></u> <i>of</i> (<b><i>Lepufology</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_thries",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "Rabbits, Lepufologists claim, are the advance party for the visiting aliens to Earth."
+                            "insc_cntn": "<b>Rabbits</b>, Lepufologists claim, are <b><i>the advance party for the visiting aliens</b></i> to Earth."
                         }
                     ]
                 }

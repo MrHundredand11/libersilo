@@ -172,6 +172,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Clark, Paul",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Dr. Paul Clark"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Coleman, Wade",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -218,6 +235,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Deal, David Allen",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "DeLuce, Tony",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1099,6 +1123,19 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Esoteric Secrets of Meditation and Magic",
+                            "cite_sbtt": "Volume 1: The Early Writings",
+                            "cite_auth": [{"name": "Case, Paul Foster"}],
+                            "cite_pbls": "Fraternity of the Hidden Light",
+                            "cite_edtn": "First Publication 2008",
+                            "cite_date": "1925",
+                            "cite_isbn": "978-0-981898977-3-8",
+                            "cite_link": [{"link": "http://www.lvx.org"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Everything Astrology Book",
                             "cite_auth": [{"name": "MacGregor, Trish"}],
                             "cite_pbls": "Adams Media Corporation",
@@ -1171,6 +1208,19 @@
                             "cite_edtn": "Revised edition published in 2000",
                             "cite_isbn13": "978-1-57863-150-6",
                             "cite_isbn10": "1-57863-150-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Occult Fundamentals and Spiritual Unfoldment",
+                            "cite_sbtt": "Volume 1: The Early Writings",
+                            "cite_auth": [{"name": "Case, Paul Foster"}],
+                            "cite_pbls": "Fraternity of the Hidden Light",
+                            "cite_edtn": "First Publication 2008",
+                            "cite_date": "1925",
+                            "cite_isbn": "978-0-981898977-2-1",
+                            "cite_link": [{"link": "http://www.lvx.org"}]
                         },
                         {
                             "insc_typ1": "cite",

@@ -1010,6 +1010,21 @@
                             "insc_term": "Tompkins, Peter"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Human Information</b></u></span>",
+                    "scion_id": "ls_000_cite_tchr_hmn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wright, Wallace"
+                        }
+                    ]
                 }
             ]
         },
@@ -1334,7 +1349,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Etidorhpa",
-                            "cite_cbtt": "Extended Edition",
+                            "cite_sbtt": "Extended Edition",
                             "cite_auth": [{"name": "Lloyd, John Uri"}],
                             "cite_pbls": "Nighttime Editions",
                             "cite_date": "1895",
@@ -1375,6 +1390,25 @@
                             "cite_pbls": "Harper & Row, Publishers",
                             "cite_date": "1971",
                             "cite_edtn": "First Edition"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u></span>",
+                    "scion_id": "ls_000_cite_book_lst_hmn",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Daily Vagus Nerve Exercises",
+                            "cite_cbtt": "Extended Edition",
+                            "cite_auth": [{"name": "Wright, Wallace"}],
+                            "cite_date": "2021",
+                            "cite_edtn": "Monee, IL, 29 October 2021",
+                            "cite_isbn13": "9798680328583"
                         }
                     ]
                 }

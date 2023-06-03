@@ -224,6 +224,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Denning, Melita",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Duquette, Lon Milo",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -601,6 +608,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Page, Judith",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Phillips, Osborne",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1133,6 +1147,18 @@
                             "cite_pbls": "Read Books Ltd.",
                             "cite_date": "2018",
                             "cite_isbn13": "978-1-5287-0974-3"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Magical States of Consciousness",
+                            "cite_sbtt": "Pathworking on the Tree of Life",
+                            "cite_auth": [{"name": "Phillips, Osborne"}, {"name": "Denning, Melita"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_date": "1985",
+                            "cite_edtn": "Second Edition, First Printing, 2012",
+                            "cite_isbn13": "978-0-7387-3282-4"
                         },
                         {
                             "insc_typ1": "cite",

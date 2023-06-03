@@ -1762,122 +1762,122 @@
                             "ls_type": "=>"
                         },
                         {
-                            "ls_id": "LS-LULS-NRDC",
+                            "ls_id": "LS-LULS-TRDN-NRDC",
                             "ls_ttl": "Nordic Scriptures + Spirituality",
                             "ls_type": "=>"
                         },
                         {
-                            "ls_id": "LS-LULS-QBL",
+                            "ls_id": "LS-LULS-TRDN-QBL",
                             "ls_ttl": "Qabalistic Scriptures + Spirituality",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_qbl",
+                            "scion_id": "ls_luls_trdn_qbl",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-QBL-BHYR",
+                                    "ls_id": "LS-LULS-TRDN-QBL-BHYR",
                                     "ls_ttl": "The Sepher Bahir",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/qbl/bhyr",
-                                    "scion_id": "ls_luls_qbl_bhyr",
+                                    "ls_url": "/ls/luls/trdn/qbl/bhyr",
+                                    "scion_id": "ls_luls_trdn_qbl_bhyr",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-QBL-BHYR-C01",
+                                            "ls_id": "LS-LULS-TRDN-QBL-BHYR-C01",
                                             "ls_ttl": "Ch 01 of The Sepher Bahir",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/qbl/bhyr/c01.json",
-                                            "scion_id": "ls_luls_qbl_bhyr_c01"
+                                            "ls_url": "/ls/luls/trdn/qbl/bhyr/c01.json",
+                                            "scion_id": "ls_luls_trdn_qbl_bhyr_c01"
                                         }
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-QBL-YTzYRH",
+                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH",
                                     "ls_ttl": "The Sepher Yetzirah",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/qbl/ytzyrh/",
-                                    "scion_id": "ls_luls_qbl_ytzyrh",
+                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/",
+                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-QBL-YTzYRH-LUL",
+                                            "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL",
                                             "ls_ttl": "Line Upon Line for The Sepher Yetzirah",
                                             "ls_type": "=>",
-                                            "ls_url": "/ls/luls/qbl/ytzyrh/lul/",
-                                            "scion_id": "ls_luls_qbl_ytzyrh_lul",
+                                            "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/",
+                                            "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul",
                                             "scions": [
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V01",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V01",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 01",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v01.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v01.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v01"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V02",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V02",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 02",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v02.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v02.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v02"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V03",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V03",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 03",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v03.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v03"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v03.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v03"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V04",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V04",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 04",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v04.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v04"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v04.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v04"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V05",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V05",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 05",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v05.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v05"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v05.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v05"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V06",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V06",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 06",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v06.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v06"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v06.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v06"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V07",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V07",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 07",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v07.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v07"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v07.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v07"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V08",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V08",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 08",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v08.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v08"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v08.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v08"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V09",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V09",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 09",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v09.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v09"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v09.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v09"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V10",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V10",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 10",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v10.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v10"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v10.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v10"
                                                 },
                                                 {
-                                                    "ls_id": "LS-QBL-YTzYRH-LUL-C01V11",
+                                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V11",
                                                     "ls_ttl": "Line Upon Line for Ch 01 Vs 11",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/qbl/ytzyrh/lul/c01v11.json",
-                                                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v11"
+                                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/lul/c01v11.json",
+                                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh_lul_c01v11"
                                                 }
                                             ]
                                         }
@@ -1901,153 +1901,155 @@
                             "ls_type": "=>"
                         },
                         {
-                            "ls_id": "LS-LULS-SUMER",
+                            "ls_id": "LS-LULS-TRDN-SUMER",
                             "ls_ttl": "Sumerian Scriptures",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-TAO",
-                            "ls_ttl": "Taoist Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-THLMA",
-                            "ls_ttl": "Thelemic Librae",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/thlma",
-                            "scion_id": "ls_luls_thlma",
+                            "ls_url": "/ls/luls/trdn/sumer"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TRDN-TAO",
+                            "ls_ttl": "Taoism",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/trdn/tao"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TRDN-THLMA",
+                            "ls_ttl": "Thelema",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/trdn/thlma",
+                            "scion_id": "ls_luls_trdn_thlma",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-THLMA-000",
+                                    "ls_id": "LS-LULS-TRDN-THLMA-000",
                                     "ls_ttl": "Overview of Thelemic Librae",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/thlma/000.json",
-                                    "scion_id": "ls_luls_thlma_000"
+                                    "ls_url": "/ls/luls/trdn/thlma/000.json",
+                                    "scion_id": "ls_luls_trdn_thlma_000"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-THLMA-CA",
+                                    "ls_id": "LS-LULS-TRDN-THLMA-CA",
                                     "ls_ttl": "Class A Publications",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/thlma/ca/",
-                                    "scion_id": "ls_luls_thlma_ca",
+                                    "ls_url": "/ls/luls/trdn/thlma/ca/",
+                                    "scion_id": "ls_luls_trdn_thlma_ca",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L001",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L001",
                                             "ls_ttl": "Liber B vel Magi",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cx/l001.json",
-                                            "scion_id": "ls_luls_thlma_cx_l001"
+                                            "ls_url": "/ls/luls/trdn/thlma/cx/l001.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cx_l001"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L090",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L090",
                                             "ls_ttl": "Liber Tzaddi vel Hamus Hermeticus",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/ca/l090.json",
-                                            "scion_id": "ls_luls_thlma_ca_l090"
+                                            "ls_url": "/ls/luls/trdn/thlma/ca/l090.json",
+                                            "scion_id": "ls_luls_trdn_thlma_ca_l090"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L156",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L156",
                                             "ls_ttl": "Liber CLVI = Liber Cheth vel Vallvm Abiegni",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cx/l156.json",
-                                            "scion_id": "ls_luls_thlma_cx_l156"
+                                            "ls_url": "/ls/luls/trdn/thlma/cx/l156.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cx_l156"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L220-CI",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L220-CI",
                                             "ls_ttl": "<b>Liber 220</b> = Ch I of Liber AL vel Legis",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/ca/l220_ci.json",
-                                            "scion_id": "ls_luls_thlma_ca_l220_ci"
+                                            "ls_url": "/ls/luls/trdn/thlma/ca/l220_ci.json",
+                                            "scion_id": "ls_luls_trdn_thlma_ca_l220_ci"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L220-CII",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L220-CII",
                                             "ls_ttl": "Liber 220 = Ch II of Liber AL vel Legis",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/ca/l220_cii.json",
-                                            "scion_id": "ls_luls_thlma_ca_l220_cii"
+                                            "ls_url": "/ls/luls/trdn/thlma/ca/l220_cii.json",
+                                            "scion_id": "ls_luls_trdn_thlma_ca_l220_cii"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CA-L220-CIII",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CA-L220-CIII",
                                             "ls_ttl": "Liber 220 = Ch III of Liber AL vel Legis",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/ca/l220_ciii.json",
-                                            "scion_id": "ls_luls_thlma_ca_l220_ciii"
+                                            "ls_url": "/ls/luls/trdn/thlma/ca/l220_ciii.json",
+                                            "scion_id": "ls_luls_trdn_thlma_ca_l220_ciii"
                                         }
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-THLMA-CB",
+                                    "ls_id": "LS-LULS-TRDN-THLMA-CB",
                                     "ls_ttl": "Class B Publications",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/thlma/cb/",
-                                    "scion_id": "ls_luls_thlma_cb",
+                                    "ls_url": "/ls/luls/trdn/thlma/cb/",
+                                    "scion_id": "ls_luls_trdn_thlma_cb",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CB-L474",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CB-L474",
                                             "ls_ttl": "Liber OS ABYSMI vel DAATH",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cb/l474.json",
-                                            "scion_id": "ls_luls_thlma_cb_l474"
+                                            "ls_url": "/ls/luls/trdn/thlma/cb/l474.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cb_l474"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CB-L913",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CB-L913",
                                             "ls_ttl": "Liber ThYShARB VIAE MEMORIE",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cb/l913.json",
-                                            "scion_id": "ls_luls_thlma_cb_l913"
+                                            "ls_url": "/ls/luls/trdn/thlma/cb/l913.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cb_l913"
                                         }
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-THLMA-CD",
+                                    "ls_id": "LS-LULS-TRDN-THLMA-CD",
                                     "ls_ttl": "Class D Publications",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/thlma/cd/",
-                                    "scion_id": "ls_luls_thlma_cd",
+                                    "ls_url": "/ls/luls/trdn/thlma/cd/",
+                                    "scion_id": "ls_luls_trdn_thlma_cd",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CD-L011",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CD-L011",
                                             "ls_ttl": "Liber NV",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cd/l011.json",
-                                            "scion_id": "ls_luls_thlma_cd_l011"
+                                            "ls_url": "/ls/luls/trdn/thlma/cd/l011.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cd_l011"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CD-L036",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CD-L036",
                                             "ls_ttl": "The Star Sapphire",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cd/l036.json",
-                                            "scion_id": "ls_luls_thlma_cd_l036"
+                                            "ls_url": "/ls/luls/trdn/thlma/cd/l036.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cd_l036"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CD-L200",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CD-L200",
                                             "ls_ttl": "Liber Resh vel Helios",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cd/l200.json",
-                                            "scion_id": "ls_luls_thlma_cd_l200"
+                                            "ls_url": "/ls/luls/trdn/thlma/cd/l200.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cd_l200"
                                         }
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-THLMA-CX",
+                                    "ls_id": "LS-LULS-TRDN-THLMA-CX",
                                     "ls_ttl": "Extra-Thelemic Publications",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/thlma/cx/",
-                                    "scion_id": "ls_luls_thlma_cx",
+                                    "ls_url": "/ls/luls/trdn/thlma/cx/",
+                                    "scion_id": "ls_luls_trdn_thlma_cx",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CX-L049",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CX-L049",
                                             "ls_ttl": "The Book of Babalon",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cx/l049.json",
-                                            "scion_id": "ls_luls_thlma_cx_l049"
+                                            "ls_url": "/ls/luls/trdn/thlma/cx/l049.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cx_l049"
                                         },
                                         {
-                                            "ls_id": "LS-LULS-THLMA-CX-PNPRNMB",
+                                            "ls_id": "LS-LULS-TRDN-THLMA-CX-PNPRNMB",
                                             "ls_ttl": "Liber Pennae Praenumbra",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/luls/thlma/cx/pnprnmb.json",
-                                            "scion_id": "ls_luls_thlma_cx_pnprnmb"
+                                            "ls_url": "/ls/luls/trdn/thlma/cx/pnprnmb.json",
+                                            "scion_id": "ls_luls_trdn_thlma_cx_pnprnmb"
                                         }
                                     ]
                                 }

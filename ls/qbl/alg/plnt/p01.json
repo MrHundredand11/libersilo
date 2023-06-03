@@ -37,7 +37,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
+                    "insc_ttl": "(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
                     "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc",
                     "scions": [
                         {
@@ -81,7 +81,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
+                    "insc_ttl": "(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
                     "scion_id": "ls_qbl_alg_plnt_p01_plce_hse",
                     "scions": [
                         {

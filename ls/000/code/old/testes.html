@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/carlito" type="text/css"/>
+        <link rel="stylesheet" href="style_sheet.css" type="text/css"/>
+        <script src="script_soup.js"></script>
+        <script src="test.js"></script>
+    </head>
+
+    <body>
+        <h2>PowerShell Command Reference</h2>
+        <button id="toggle">Hide THIRD div's Alias</button>
+        <p id="trestleboard" class="clss_trstl"></p>
+        
+        <script>
+            var testy2 = "";
+            const url = 'https://api.jsonbin.io/v3/b/633aa097da538724635f700a';
+            const url2 = 'https://api.jsonbin.io/v3/b/63455cf02b3499323bdadd6b';
+            var mainContainer = document.getElementById("trestleboard");
+
+            async function loading() {
+                const response = await fetch(url);
+                const wide_load = await response.json();
+                console.log(wide_load);
+               
+                const testy = wide_load.record;   
+                const testy1 = wide_load.record.children;
+                const testy2 = wide_load.record.children[0].children;
+                const testy3 = wide_load.record.children[1].children;
+                const testy4 = wide_load.record.directory;
+                const testy5 = wide_load.record.children[1].branches;
+                const testy6 = wide_load.record.children[0];
+                //const testy7 = wide_load.record.children[0].branches[0].brnch_head;
+                
+                console.log(testy6);
+
+               
+                function create_drct(obj) {
+                    var drct_cntn = obj.directory;
+                    var div_drct = document.createElement("p");
+                    var div_drct_head = document.createElement("p");
+                    var div_drct_cntn = document.createElement('ul');
+                        
+                    div_drct.classList.add('clss_drct');
+                    div_drct_head.classList.add('clss_drct_head');
+                    div_drct_cntn.classList.add('clss_drct_cntn');
+
+                    div_drct_head.innerHTML = pnt_01 + "<strong><u>Directory to '" + obj.name + "'</strong></u>:";
+
+                    div_drct.appendChild(div_drct_head);  
+                    div_drct.appendChild(div_drct_cntn);
+                                        
+                    function iterate_drct(it) {
+                        var div_drct_item = document.createElement('li');
+                        div_drct_item.classList.add('clss_drct_item');
+                        div_drct_item.innerHTML = pnt_03 + "<div class=\"clss_drct_dscr\">" + it + "</div>";
+                        div_drct_cntn.appendChild(div_drct_item);
+                    }
+
+                    drct_cntn.forEach(iterate_drct);
+                    mainContainer.appendChild(div_drct);
+                    console.log(obj.children);
+
+                    for (eachlimb in obj.children) {
+                        console.log(obj.children[eachlimb].limb_name);
+                        var ln = obj.children[eachlimb].limb_name;
+                        var sp = obj.children[eachlimb].limb_sxpx;
+                        var nm = sp + " = " + ln;
+                        console.log(nm);
+                    }
+                }
+
+                //
+                    
+                //
+                create_drct(testy);
+                
+
+                var div_limb_cntn = document.createElement('p');
+
+                function pplt_page(itx) {
+                    for (it in itx.children) {
+                        var div_limb = document.createElement('p');
+                        var div_limb_head = document.createElement('p');
+                        var div_limb_title = document.createElement('p');
+                        var div_limb_cntn = document.createElement('p');
+                        div_limb.classList.add('clss_limb');
+                        div_limb_head.classList.add('clss_limb_head');
+                        div_limb_title.classList.add('clss_limb_title');
+                        div_limb_cntn.classList.add('clss_limb_cntn');
+                        
+                        div_limb_title.innerHTML = "<strong><u>" + testy1[it].limb_sxpx + " = " + testy1[it].limb_name + "</strong></u>:";
+                        div_limb_head.innerHTML = pnt_01;
+                        div_limb_head.appendChild(div_limb_title);
+                        div_limb.appendChild(div_limb_head);
+                        
+                        console.log(div_limb_title);
+                        
+                        if (typeof itx.children[it].branches !== 'undefined') {
+                            for (item in testy5) {
+
+                                var div_brnch = document.createElement('div');
+                                var div_brnch_pre = document.createElement('div');
+                                var div_brnch_head = document.createElement('div');
+                                var div_brnch_cntn = document.createElement('div');
+                                var div_brnch_pst = document.createElement('div');
+
+                                div_brnch.classList.add('clss_brnch');
+                                div_brnch_pre.classList.add('clss_brnch_pre');
+                                div_brnch_head.classList.add('clss_brnch_head');
+                                div_brnch_cntn.classList.add('clss_brnch_cntn');
+                                div_brnch_pst.classList.add('clss_brnch_pst');
+                                
+                                div_brnch_pre.innerHTML = branch_in;
+                                div_brnch_pst.innerHTML = branch_out;
+                                div_brnch_head.innerHTML = pnt_brnch + testy5[item].brnch_head;
+                                console.log(testy5[item].brnch_head);
+
+                                div_brnch.appendChild(div_brnch_pre);
+                                div_brnch.appendChild(div_brnch_head);
+
+                                if (testy5[item].brnch_type == "list") {
+                                    //const brnch_trns = document.querySelector("");
+
+                                    for (itm in testy5[item].brnch_data) {
+                                        var div_brnch_li = document.createElement('li');
+                                        div_brnch_li.classList.add('clss_list_item');
+                                        div_brnch_li.innerHTML = pnt_03 + "<div class=\"clss_list_dscr\">" + testy5[item].brnch_data[itm] + "</div>";
+                                        div_brnch_cntn.appendChild(div_brnch_li);
+                                    }
+                                }
+                                div_brnch.appendChild(div_brnch_cntn);
+                                div_limb_cntn.appendChild(div_brnch);
+                                div_brnch.appendChild(div_brnch_pst);
+                                console.log(div_brnch);
+                            }
+                        } else {
+                            console.log("createBranch failed");
+                        }
+                        div_limb.appendChild(div_limb_cntn);
+                        /*
+
+                        var variabletest = wide_load.record.children[it].brnch_list_quick_cntn;
+                        
+                        if (typeof variabletest !== 'undefined') {
+                            var div_brnch = document.createElement('div');
+                            var div_brnch_head = document.createElement('div');
+                            var div_brnch_cntn = document.createElement('ul');
+                            div_brnch.classList.add('clss_brnch', 'branching');
+                            div_brnch_head.classList.add('clss_brnch_head');
+                            div_brnch_cntn.classList.add('clss_brnch_cntn');
+                            div_brnch_head.innerHTML = pnt_brnch + wide_load.record.children[it].brnch_list_quick_dscr;
+                            
+                            for (itm in wide_load.record.children[it].brnch_list_quick_cntn) {
+                                var div_list_item = document.createElement('li');
+                                div_list_item.classList.add('clss_list_item');
+                                div_list_item.innerHTML = pnt_03 + "<div class=\"clss_list_dscr\">" + wide_load.record.children[it].brnch_list_quick_cntn[itm] + "</div>";
+                                div_brnch_cntn.appendChild(div_list_item);
+                            }
+
+                            div_brnch.appendChild(div_brnch_head);
+                            div_brnch.appendChild(div_brnch_cntn);
+                            div_limb_cntn.appendChild(div_brnch);
+                        }
+
+                        if (typeof wide_load.record.children[it].brnch_list_expnd_cntn !== 'undefined') {
+                            var div_brnch = document.createElement('div');
+                            var div_brnch_head = document.createElement('div');
+                            var div_brnch_cntn = document.createElement('ul');
+                            div_brnch.classList.add('clss_brnch', 'branching');
+                            div_brnch_head.classList.add('clss_brnch_head');
+                            div_brnch_cntn.classList.add('clss_brnch_cntn');
+                            div_brnch_head.innerHTML = pnt_brnch + wide_load.record.children[it].brnch_list_expnd_dscr;
+                            
+                            for (itm in wide_load.record.children[it].brnch_list_expnd_cntn) {
+                                var div_list_item = document.createElement('li');
+                                div_list_item.classList.add('clss_list_item');
+                                div_list_item.innerHTML = pnt_04 + "<div class=\"clss_list_dscr\">" + wide_load.record.children[it].brnch_list_expnd_cntn[itm].name + "</div>";
+                                div_brnch_cntn.appendChild(div_list_item);
+                            }
+
+                            div_brnch.appendChild(div_brnch_head);
+                            div_brnch.appendChild(div_brnch_cntn);
+                            div_limb_cntn.appendChild(div_brnch);
+                        }
+                        */
+                        
+                        
+                        //createBranch(testy6);
+                        mainContainer.appendChild(div_limb);
+                        
+                    }
+                }
+                pplt_page(testy);
+
+                testy4.forEach(simplelog);
+                function simplelog(item) {
+                    console.log(item);
+                }
+
+                
+                //createBranch(testy6);
+                
+
+                
+                function apnd_list(tt) {
+                    console.log(tt);
+                    var mainContainer = document.getElementById("trestleboard");
+                    
+                    if (typeof tt.children !== 'undefined') {
+                        console.log(tt.children);    
+                        var div_expanded_entries = document.createElement("div");
+                        div_expanded_entries.classList.add("clss_expanded_entries");
+                        div_expanded_entries.innerHTML = "<div>" + "Expanded Entries" + "</div>";
+                        mainContainer.appendChild(div_expanded_entries);
+                            
+                        var div_entry_expand = document.createElement("div");
+                        div_entry_expand.classList.add("entry_expand");
+                        div_entry_expand.innerHTML = "<div>" + pnt_04 + "<div style=\"float:left\">" + tt[i].name + "</div>" + pnt_quad + "</div>";
+                        div_expanded_entries.appendChild(div_entry_expand);
+                    }
+
+                    for (var i = 0; i < tt.length; i++) {
+                        console.log(tt.length);
+
+                        var div_umbr = document.createElement("div");
+                        div_umbr.classList.add("clss_umbr");  
+
+                        //var div_code = document.createElement("div");
+                        //div_code.innerHTML = "[ <span class=\"code\">" + tt[i].name + "</span> ]";
+                        //div_umbr.appendChild(div_code);   
+
+                        if (typeof tt[i].abbr !== 'undefined') {
+                            var div_abbr = document.createElement("div");
+                            div_abbr.classList.add("indent1");
+                            div_abbr.innerHTML = pnt_03 + mark_abbr + tt[i].name + tt[i].abbr + "<br>";
+                            div_umbr.appendChild(div_abbr);
+                        }
+
+                        if (typeof tt[i].desc !== 'undefined') {
+                            var div_desc = document.createElement("div");
+                            div_desc.classList.add("indent1");
+                            div_desc.innerHTML = pnt_03 + mark_desc + tt[i].desc + "<br>";
+                            div_umbr.appendChild(div_desc);
+                        }
+
+                        if (typeof tt[i].alias_for !== 'undefined') {
+                            var div_alias = document.createElement("div");
+                            div_alias.classList.add("indent1");
+                            div_alias.setAttribute('id','third');
+                            div_alias.innerHTML = "<span class=\"pointers\">=> <em>[Alias For]</em>:: &nbsp;&nbsp;</span>" + tt[i].alias_for + "<br>";
+                            div_umbr.appendChild(div_alias);
+                        }
+
+                        if (typeof tt[i].strc !== 'undefined') {
+                            var div_strc_ovr = document.createElement("div");
+                            var div_strc_ind = document.createElement("div");
+                            div_strc_ovr.classList.add('branching');
+                            div_strc_ind.classList.add('entry', 'structure');
+                            div_strc_ovr.innerHTML = branch + pnt_brnch + "General Structure of " + tt[i].name + " ::";
+                            div_strc_ind.innerHTML = "<br>" + pnt_03 + mark_strc + "<div class =\"line_data\">" + tt[i].strc + "</div><br><br>";
+                            div_strc_ovr.appendChild(div_strc_ind);
+                            div_umbr.appendChild(div_strc_ovr);
+                        }
+
+                        if (typeof tt[i].exmp !== 'undefined') {
+                            var div_exmp_ovr = document.createElement("div");
+                            var div_exmp_ind = document.createElement("div");
+                            div_exmp_ovr.classList.add('branching');
+                            div_exmp_ind.classList.add('entry', 'example');
+                            div_exmp_ovr.innerHTML = branch + pnt_brnch + "List of Examples of " + tt[i].name + " ::";
+                            div_exmp_ind.innerHTML = "<br>" + pnt_03 + mark_exmp + "<div class = \"line_data\">" + tt[i].exmp + "</div><br><br>";
+                            div_exmp_ovr.appendChild(div_exmp_ind);
+                            div_umbr.appendChild(div_exmp_ovr);
+                        }
+                        mainContainer.appendChild(div_umbr);
+                        
+                    }
+                };
+                //apnd_list(testy2);
+                apnd_list(testy3);
+                
+            }
+           
+            loading();
+
+            //var targetDiv = document.getElementById("third");
+            const btn = document.getElementById("toggle");
+            //console.log(targetDiv);
+            console.log(btn);
+
+            btn.onclick = function (tag_id) {
+                var targetDiv = document.getElementById(tag_id);
+                if (targetDiv.style.display !== "none") {
+                    targetDiv.style.display = "none";
+                } else {
+                    targetDiv.style.display = "block";
+                }
+            };
+        </script>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 {
     "ls_id": "LS-HI-FAE-000",
-    "ls_ttl": "Overview of The Gentle Faerie Folk",
+    "ls_ttl": "The Gentle Faerie Folk",
     "ls_url": "/ls/hi/fae/000.json",
     "scion_id": "ls_hi_fae_000",
     "scions": [
@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Tend to Love",
-                    "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Faeries</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>tend to</span>&nbsp;<span class='styl_stm_ttl_spprt'>Love</span>",
+                    "insc_ttl": "(<b><i>Faeries</b></i>) <i>tend to</i> <b><u>Love</b></u>",
                     "scion_id": "ls_hi_fae_000_char_tndlove",
                     "scions": [
                         {

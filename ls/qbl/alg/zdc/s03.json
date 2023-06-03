@@ -48,37 +48,37 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Azalea"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Lavender"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Lilac"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Lily of the Valley"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Myrtle"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Flower",
+                            "insc_term": "Flower",
                             "insc_cntn": "Sweet Pea"
                         }
                     ]
@@ -110,7 +110,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Gemstone",
+                            "insc_term": "Gemstone",
                             "insc_cntn": "Agate"
                         }
                     ]
@@ -162,61 +162,61 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Quick-Witted"
+                            "insc_term": "Quick-Witted"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Intelligent"
+                            "insc_term": "Intelligent"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Versatile"
+                            "insc_term": "Versatile"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Air-Headed"
+                            "insc_term": "Air-Headed"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Communicative"
+                            "insc_term": "Communicative"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Sociable"
+                            "insc_term": "Sociable"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Dual Natured"
+                            "insc_term": "Dual Natured"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Persuasive"
+                            "insc_term": "Persuasive"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Freedom-Loving"
+                            "insc_term": "Freedom-Loving"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Personality Descriptor",
-                            "insc_trm": "Adaptable"
+                            "insc_term": "Adaptable"
                         }
                     ]
                 },

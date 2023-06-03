@@ -53,7 +53,7 @@
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch_lmb",
+                            "insc_typ2": "brnch",
                             "insc_ttl": "The Letter A",
                             "scions": [
                                 {
@@ -90,7 +90,7 @@
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch_lmb",
+                            "insc_typ2": "brnch",
                             "insc_ttl": "The Letter B",
                             "scions": [
                                 {

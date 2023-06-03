@@ -69,6 +69,7 @@
                             "insc_typ1": "twg",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<span class='stm_ttl'><b><u>Common Placements</b></u> <i>of</i> <b><u>Carvings</b></u> <i>of the</i> (<b><i>Green Man</b></i>)",
+                            "scion_id": "ls_hi_div_gm_dpct_crv_cmnplcmn",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -101,10 +102,21 @@
                                     "insc_term": "churches"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<span class='stm_ttl'><b><u>Commentary</b></u> <i>on</i> <b><u>Carvings</b></u> <i>of the</i> (<b><i>Green Man</b></i>)",
+                            "scion_id": "ls_hi_div_gm_dpct_crv_cmmnt"
                         }
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Green Man'",
+            "scion_id": "ls_hi_div_gm_deit"
         }
     ]
 }

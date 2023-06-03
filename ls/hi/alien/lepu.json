@@ -10,9 +10,9 @@
             "scion_id": "ls_hi_alien_lepu_000",
             "scions": [
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Definitions</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Definitions</b></u> <i>of</i> (<b><i>Lepufology</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_defn",
                     "scions": [
                         {
@@ -34,9 +34,9 @@
                     ]
                 },
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Historical Conjunctions</b></u> <i>of</i> (<b><i>Rabbits</b></i>) <i>and</i> (<b><i>UFOs</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Historical Conjunctions</b></u> <i>of</i> (<b><i>Rabbits</b></i>) <i>and</i> (<b><i>UFOs</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_hstcnjct",
                     "scions": [
                         {
@@ -55,9 +55,9 @@
                     ]
                 },
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Rulers</b></u> <i>who experienced both</i> (<b><i>Rabbit Attacks</b></i>) <i>and</i> (<b><i>UFOs</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Rulers</b></u> <i>who experienced both</i> (<b><i>Rabbit Attacks</b></i>) <i>and</i> (<b><i>UFOs</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_rlrattck",
                     "scions": [
                         {
@@ -73,9 +73,9 @@
                     ]
                 },
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Media Appearances</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Media Appearances</b></u> <i>of</i> (<b><i>Lepufology</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_mdappr",
                     "scions": [
                         {
@@ -116,9 +116,9 @@
                     ]
                 },
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Theories</b></u> <i>of</i> (<b><i>Lepufology</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "><b><u>Theories</b></u> <i>of</i> (<b><i>Lepufology</b></i>)",
                     "scion_id": "ls_hi_alien_lepu_000_thries",
                     "scions": [
                         {

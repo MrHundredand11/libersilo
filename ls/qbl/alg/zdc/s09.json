@@ -17,80 +17,327 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Trees</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Trees</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_tree"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Familiar Herbs</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Familiar Herbs</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_famherb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Remedy Herbs</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Remedy Herbs</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_remherb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flowers</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Flowers</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_flwr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Flower Essences</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Flower Essences</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_flwressn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Fragrances</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_frgrnc"
+                    "insc_ttl": "<b><u>Fragrances</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_frgrnc",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Clove"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Juniper"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Nutmeg"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Sage"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Stones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Stones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_ston"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gemstones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_gmstn"
+                    "insc_ttl": "<b><u>Gemstones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_gmstn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Amber"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apatite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azurite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Blue Howlite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Blue Quartz"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Blue Topaz"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Blue Turquoise"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Celestite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Falcon's Eye"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Iolite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jacinth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kyanite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Labradorite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Pietersite"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Red Jasper"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Topaz"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Watermelon Tourmaline"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Metals</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Metals</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_mtls"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Animals</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_anml"
+                    "insc_ttl": "<b><u>Animals</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_anml",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Large and kind, great helpers of humanity",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "horse"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "elephant"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "deer"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Beautiful birds bringing happy messages",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "stork"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "snipe"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "golden pheasant"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "skylark"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "turkey"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "<span class='styl_in_btmbmp'>centaur</span>"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Animals actually born in December under Sagittarius",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_styl": "trm_sm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Example",
+                                    "insc_term": "eastern gray squirrel"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Colors</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_colr"
+                    "insc_ttl": "<b><u>Colors</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_colr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "deep royal blue"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "purple"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Shapes + Textures</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_cntr_shptxtr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Weather</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_wthr"
+                    "insc_ttl": "<b><u>Weather</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_cntr_wthr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "nice and serene"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "warm and breezy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "winds from the northeast"
+                        }
+                    ]
                 }
             ]
         },
@@ -102,91 +349,91 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>General Character</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl":"<b><u>General Character</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_gnchr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Characteristics</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl":"<b><u>Characteristics</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_chrctr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Positive Traits</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Positive Traits</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_trtps"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Negative Traits</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Negative Traits</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_trtng"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <b><u>Loves</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <b><u>Loves</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_lvs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <b><u>Can't Stand</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <b><u>Can't Stand</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_cntstnd"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Livelihood</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Livelihood</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_lvlhd"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Finances</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Finances</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_fnce"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Hobbies</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Hobbies</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_hbbs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Archetypes</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Archetypes</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_archtyp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>)</span>",
+                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_man"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>)</span>",
+                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_wmn"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Kid</b></i>)</span>",
+                    "insc_ttl": "(<b><i>Sagittarius Kid</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_kds"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Family Life</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Family Life</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_fam"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Parent</b></i>) <i>and</i> <b><u>Child</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius Parent</b></i>) <i>and</i> <b><u>Child</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_prsn_prntchld"
                 }
             ]
@@ -199,19 +446,19 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Glyph</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Glyph</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_symb_glyp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbols</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Symbols</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_symb_symb"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Symbolism</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Symbolism</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_symb_symblsm"
                 }
             ]
@@ -224,43 +471,43 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_32p"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Elemental Forces</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Elemental Forces</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>Alchemy Operations</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>Alchemy Operations</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_alch"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_qblh_cos"
                 }
             ]
@@ -273,19 +520,19 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>First Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>First Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_decn_d1"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Second Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Second Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_decn_d2"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Third Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Third Decan</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_decn_d3"
                 }
             ]
@@ -298,37 +545,37 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Planets</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Planets</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Luna</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Luna</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p01"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mercury</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Mercury</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p02"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Venus</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Venus</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p03"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Sol</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Sol</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p04",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b>Natal</b> (<b><i>Sagittarius Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u></span>",
+                                    "insc_ttl": "<b>Natal</b> (<b><i>Sagittarius Sun</b></i>) <i>and</i> <b><u>Moon Placements</b></u>",
                                     "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p04_sunmoon",
                                     "scions": [
                                         {
@@ -374,37 +621,37 @@
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Mars</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Mars</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p05"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Jupiter</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Jupiter</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p06"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Saturn</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Saturn</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p07"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Uranus</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Uranus</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p08"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Neptune</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Neptune</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p09"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pluto</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Pluto</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_p10"
                         }
                     ]
@@ -412,25 +659,25 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Calculated Points</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Calculated Points</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_plac_clctpnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>North Node</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>North Node</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_clctpnt_nthnde"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>South Node</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>South Node</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_clctpnt_sthnde"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Part of Fortune</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_plnt_clctpnt_pof"
                         }
                     ]
@@ -438,31 +685,31 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Asteroids</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Asteroids</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_plac_astrd",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Vesta</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Vesta</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_astrd_vesta"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Ceres</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Ceres</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_astrd_ceres"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Juno</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Juno</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_astrd_juno"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Pallas Athene</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Pallas Athene</b></u> <i>in</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_plac_astrd_pllsathn"
                         }
                     ]
@@ -470,7 +717,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Month</b></i>) <i>in the</i> <b><u>Chinese Animal Year</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius Month</b></i>) <i>in the</i> <b><u>Chinese Animal Year</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_plac_anmlyr",
                     "scions": [
                         {
@@ -526,31 +773,31 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Amorous Nature</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Amorous Nature</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_amor",
                     "scions": [
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Sagittarius Woman</b></i>)</span>",
+                            "insc_ttl": "(<b><i>You</b></i>) <i>and the</i> (<b><i>Sagittarius Woman</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_love_amor_wmn"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>You</b></i>) <i>and the</i> (<b><i>Sagittarius Man</b></i>)</span>",
+                            "insc_ttl": "(<b><i>You</b></i>) <i>and the</i> (<b><i>Sagittarius Man</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_love_amor_man"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Compatibilty</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Compatibilty</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_love_amor_cmptblty"
                         },
                         {
                             "insc_typ1": "twig",
                             "insc_typ2": "brnch",
-                            "insc_ttl": "<span class='styl_stm_ttl'><b><u>Romance</b></u> <i>and</i> (<b><i>Sagittarius</b></i>)</span>",
+                            "insc_ttl": "<b><u>Romance</b></u> <i>and</i> (<b><i>Sagittarius</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s09_love_amor_rmnce"
                         }
                     ]
@@ -558,37 +805,37 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Partner</b></u></span>",
+                    "insc_ttl": "<i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Partner</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_prtnr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>How to Attract</b></u> <i>a</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>How to Attract</b></u> <i>a</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_attrct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Erogenous Zones</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_erog"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>First Moves</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>First Moves</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_mvsfrst"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Last Moves</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Last Moves</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_mvslast"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb",
                     "scions": [
                         {
@@ -598,19 +845,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Aries</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Aries</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s01_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Aries Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Aries Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s01_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Aries Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Aries Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s01_wmn_mn"
                                 }
                             ]
@@ -622,19 +869,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Taurus</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Taurus</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s02_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Taurus Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Taurus Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s02_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Taurus Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Taurus Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s02_wmn_mn"
                                 }
                             ]
@@ -646,19 +893,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Gemini</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Gemini</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s03_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Gemini Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Gemini Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s03_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Gemini Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Gemini Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s03_wmn_mn"
                                 }
                             ]
@@ -670,19 +917,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Cancer</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Cancer</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s04_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Cancer Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Cancer Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s04_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Cancer Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Cancer Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s04_wmn_mn"
                                 }
                             ]
@@ -694,19 +941,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Leo</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Leo</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s05_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Leo Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Leo Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s05_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Leo Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Leo Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s05_wmn_mn"
                                 }
                             ]
@@ -718,19 +965,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Virgo</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Virgo</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s06_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Virgo Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Virgo Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s06_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Virgo Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Virgo Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s06_wmn_mn"
                                 }
                             ]
@@ -742,19 +989,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Libra</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Libra</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s07_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Libra Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Libra Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s07_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Libra Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Libra Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s07_wmn_mn"
                                 }
                             ]
@@ -766,19 +1013,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Scorpio</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Scorpio</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s08_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Scorpio Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Scorpio Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s08_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Scorpio Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Scorpio Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s08_wmn_mn"
                                 }
                             ]
@@ -790,19 +1037,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Sagittarius</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Sagittarius</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s09_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Sagittarius Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Sagittarius Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s09_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Sagittarius Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Sagittarius Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s09_wmn_mn"
                                 }
                             ]
@@ -814,19 +1061,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Capricorn</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Capricorn</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s10_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Capricorn Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Capricorn Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s10_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Capricorn Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Capricorn Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s10_wmn_mn"
                                 }
                             ]
@@ -838,19 +1085,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Aquarius</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Aquarius</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s11_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Aquarius Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Aquarius Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s11_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Aquarius Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Aquarius Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s11_wmn_mn"
                                 }
                             ]
@@ -862,19 +1109,19 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Pisces</b></i>)</span>",
+                                    "insc_ttl": "<b><u>General Relationship</b></u> <i>of</i> (<b><i>Sagittarius</b></i>) + (<b><i>Pisces</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s12_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Man</b></i>) + (<b><i>Pisces Woman</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Man</b></i>) + (<b><i>Pisces Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s12_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius Woman</b></i>) + (<b><i>Pisces Man</b></i>)</span>",
+                                    "insc_ttl": "(<b><i>Sagittarius Woman</b></i>) + (<b><i>Pisces Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb_s12_wmn_mn"
                                 }
                             ]
@@ -892,43 +1139,63 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Parts of the Body</b></u> <i>ruled by</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_bdprt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Body Systems</b></u> <i>ruled by</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Body Systems</b></u> <i>ruled by</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_bdsys"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Physical Build</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Physical Build</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_build"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Life Age</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Life Age</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_lfag"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Health</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_hlth"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Health Advice</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
-                    "scion_id": "ls_qbl_alg_zdc_s09_mdcl_hlthadvc"
+                    "insc_ttl": "<b><u>Health Advice</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_mdcl_hlthadvc",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_tag": "Recommendation",
+                            "insc_cntn": "<b>Sagittarians</b> = should avoid stimulants and intoxicants, especially in excess amounts",
+                            "scion_id": "ls_qbl_alg_sgns_s09_mdcl_hlthadvce_avoidstimintx",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reason",
+                                    "insc_term": "Sagittarius",
+                                    "insc_cntn": "Sagittarius = is a&nbsp;<span class='styl_in_txt_emph'>fiery</span>,&nbsp;<span class='styl_in_txt_emph'>hot</span>, and&nbsp;<span class='styl_in_txt_emph'>choleric</span>&nbsp;sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Diet Tips</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Diet Tips</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_mdcl_diettips",
                     "scions": [
                         {
@@ -950,7 +1217,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Professions</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Professions</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_work_prfssn",
                     "scions": [
                         {
@@ -1347,19 +1614,19 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Sagittarius</b></i>) <i>at</i> <b><u>Work</b></u></span>",
+                    "insc_ttl": "(<b><i>Sagittarius</b></i>) <i>at</i> <b><u>Work</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_work_work"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Boss</b></u></span>",
+                    "insc_ttl": "<i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Boss</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_work_boss"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Employee</b></u></span>",
+                    "insc_ttl": "<i>The</i> (<b><i>Sagittarius</b></i>) <b><u>Employee</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s09_work_emply"
                 }
             ]
@@ -1372,7 +1639,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Gift Ideas</b></u> <i>for</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_gift_gftids"
                 }
             ]
@@ -1385,43 +1652,43 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Countries</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_cntrs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. States</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>U.S. States</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_ustts"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>U.S. Cities</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>U.S. Cities</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_uscty"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>World Cities</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>World Cities</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_glbcty"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Outdoor Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Outdoor Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_outdr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Indoor Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Indoor Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_indr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Other Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)</span>",
+                    "insc_ttl": "<b><u>Other Locations</b></u> <i>corresponding to</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_lctn_othr"
                 }
             ]

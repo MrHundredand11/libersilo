@@ -10,9 +10,9 @@
             "scion_id": "ls_qbl_aa_l04_qccl",
             "scions": [
                 {
-                    "insc_typ1": "twig",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Qabalistic</b></u> <i>correspondences of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Qabalistic</b></u> <i>correspondences of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_qccl_qblh",
                     "scions": [
                         {
@@ -123,7 +123,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><i>The</i> <b><u>Letter-Name</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl": "<i>The</i> <b><u>Letter-Name</b></u> <i>of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_lttr_lttrname",
                     "scions": [
                         {
@@ -195,7 +195,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Form Exploration",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Exploration</b></u> <i>of the</i> <b><u>Form</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of the</i> <b><u>Form</b></u> <i>of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_form_xplr",
                     "scions": [
                         {
@@ -229,35 +229,35 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Correspondences",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Daleth</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_qblh_000_crrsp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Arcana Alphabet",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Astrological Cycles",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_alg"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Cube of Space",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Directions",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Directions</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Directions</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_drct",
                     "scions": [
                         {
@@ -312,35 +312,35 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Double Letters",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_dblltr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Modes of Consciousness",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_cnscs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Intelligences",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_intl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tarot Arcana",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tree of Life",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "insc_ttl": "(<b><i>Daleth</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_aa_l04_qblh_otz"
                 }
             ]
@@ -354,7 +354,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Number Exploration",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Exploration</b></u> <i>of the</i> <b><u>Numbers</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of the</i> <b><u>Numbers</b></u> <i>of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_numb_explr",
                     "scions": [
                         {
@@ -442,7 +442,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Prayers</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Prayers</b></u> <i>of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_pryr_lst",
                     "scions": [
                         {
@@ -461,7 +461,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Text",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Text</b></u> <i>of</i> (<b><i>A Prayer of Daleth</b></i>)</span>",
+                                    "insc_ttl": "<b><u>Text</b></u> <i>of</i> (<b><i>A Prayer of Daleth</b></i>)",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_txt",
                                     "scions": [
                                         {
@@ -476,7 +476,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Commentary",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Commentary</b></u> <i>on</i> (<b><i>A Prayer of Daleth</b></i>)</span>",
+                                    "insc_ttl": "<b><u>Commentary</b></u> <i>on</i> (<b><i>A Prayer of Daleth</b></i>)",
                                     "scion_id": "ls_qbl_aa_l04_pryr_v_doloresashcroftnowicki_cmmntry"
                                 }
                             ]
@@ -493,7 +493,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Exploration</b></u> <i>of the</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of the</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_rltn_xplr",
                     "scions": [
                         {
@@ -520,7 +520,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl":"<span class='styl_stm_ttl'><b><u>Meditations</b></u> <i>for</i> (<b><i>Daleth</b></i>)</span>",
+                    "insc_ttl":"<b><u>Meditations</b></u> <i>for</i> (<b><i>Daleth</b></i>)",
                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt",
                     "scions": [
                         {
@@ -528,9 +528,9 @@
                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001",
                             "scions": [
                                 {
-                                    "insc_typ1": "twig",
-                                    "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 1</b></i>)</span>",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "twg",
+                                    "insc_ttl": "<b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 1</b></i>)",
                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_001_prcd",
                                     "scions": [
                                         {
@@ -600,9 +600,9 @@
                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002",
                             "scions": [
                                 {
-                                    "insc_typ1": "twig",
-                                    "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 2</b></i>)</span>",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "twg",
+                                    "insc_ttl": "<b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 2</b></i>)",
                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_002_prcd",
                                     "scions": [
                                         {
@@ -662,9 +662,9 @@
                             "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003",
                             "scions": [
                                 {
-                                    "insc_typ1": "twig",
-                                    "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 3</b></i>)</span>",
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "twg",
+                                    "insc_ttl": "<b><u>Procedures</b></u> <i>for</i> (<b><i>Meditation 3</b></i>)",
                                     "scion_id": "ls_qbl_aa_l04_xrcs_mdtt_i_003_prcd",
                                     "scions": [
                                         {

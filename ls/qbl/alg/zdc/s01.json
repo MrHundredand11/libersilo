@@ -679,25 +679,25 @@
                     "scion_id": "ls_qbl_alg_zdc_s01_love_amor",
                     "scions": [
                         {
-                            "insc_typ1": "twig",
+                            "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "(<b><i>You</b></i>) <i>and the</i> (<b><i>Aries Woman</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_wmn"
                         },
                         {
-                            "insc_typ1": "twig",
+                            "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "(<b><i>You</b></i>) <i>and the</i> (<b><i>Aries Man</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_man"
                         },
                         {
-                            "insc_typ1": "twig",
+                            "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<b><u>Compatibilty</b></u> <i>of</i> (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_cmptblty"
                         },
                         {
-                            "insc_typ1": "twig",
+                            "insc_typ1": "stm",
                             "insc_typ2": "brnch",
                             "insc_ttl": "<b><u>Romance</b></u> <i>and</i> (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_rmnce"

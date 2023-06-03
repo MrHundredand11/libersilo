@@ -1,0 +1,27 @@
+{
+    "ls_id": "LS-LULS-TRDN-THLMA-CX-L049",
+    "ls_ttl": "Liber 49 = The Book of Babalon",
+    "ls_url": "/ls/luls/trdn/thlma/cx/l049.json",
+    "scion_id": "ls_luls_trdn_thlma_cx_l049",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts of 'The Book of Babalon'",
+            "scion_id": "ls_luls_trdn_thlma_cx_l049_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Liber 49</b></i>)",
+                    "scion_id": "ls_luls_trdn_thlma_cx_l049_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Transmission on 28-Feb-1946",
+                            "scion_id": "ls_luls_trdn_thlma_cx_l049_txts_lst_00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

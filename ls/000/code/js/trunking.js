@@ -6,19 +6,19 @@ function gen_Insc(insc_i, scion) {
             var stm_name = scion.insc_ttl;    
             var stm_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_stm_cntnr_${insc_id}`);
             var stm_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_stm_bmp_top_${insc_id}`);
-            var stm_nametag = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nametag`, `id_stm_nametag_${insc_id}`);
+            var stm_nmtg = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nmtg`, `id_stm_nmtg_${insc_id}`);
             var stm_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_stm_trstlbrd_${insc_id}`);
             var stm_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_stm_bmp_btm_${insc_id}`);
   
-            stm_cntnr.append(stm_bmp_top, stm_nametag, stm_trstlbrd, stm_bmp_btm); 
+            stm_cntnr.append(stm_bmp_top, stm_nmtg, stm_trstlbrd, stm_bmp_btm); 
         
             switch (scion.insc_typ2) {
                 case 'brnch':
                     stm_bmp_top.innerHTML = bmp_stm_scrll;
-                    stm_nametag.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
+                    stm_nmtg.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
                     stm_bmp_btm.innerHTML = bmp_stm_scrll;
 
-                    stm_nametag.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_nmtg.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
                     
@@ -31,9 +31,9 @@ function gen_Insc(insc_i, scion) {
                 case 'twg':
                     stm_bmp_top.innerHTML = bmp_twg_top;
                     stm_bmp_btm.innerHTML = bmp_twg_btm;    
-                    stm_nametag.innerHTML = `${flow_twig}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
+                    stm_nmtg.innerHTML = `${flow_twig}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
     
-                    stm_nametag.setAttribute('onclick', `showHideTwig('${insc_id}');`);
+                    stm_nmtg.setAttribute('onclick', `showHideTwig('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideTwig('${insc_id}');`);
                     stm_bmp_btm.setAttribute('onclick', `showHideTwig('${insc_id}');`); 
                         
@@ -51,9 +51,9 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_top.innerHTML = bmp_stm_scrll;
                     stm_bmp_btm.innerHTML = bmp_stm_scrll;
                     stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
-                    stm_nametag.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
+                    stm_nmtg.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
 
-                    stm_nametag.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
+                    stm_nmtg.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
                     stm_bmp_btm.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`); 
 
@@ -258,33 +258,6 @@ function gen_Insc(insc_i, scion) {
             }
 
             return insc_cntnr;
-
-        case 'twig':
-            var twig_id = `id_twig_${insc_id}`;    
-            var twig_name = scion.insc_ttl;    
-            var twig_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_twig_cntnr_${insc_id}`);
-            var twig_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_twig_bmp_top_${insc_id}`);
-            var twig_nametag = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nametag`, `id_twig_nametag_${insc_id}`);
-            var twig_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_twig_trstlbrd_${insc_id}`);
-            var twig_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_twig_bmp_btm_${insc_id}`);
-      
-                twig_cntnr.append(twig_bmp_top, twig_nametag, twig_trstlbrd, twig_bmp_btm); 
-            
-                switch (scion.insc_typ2) {
-                    case 'brnch':
-                        twig_nametag.innerHTML = `${flow_twig}<span id='${insc_id}'>${twig_name}</span> ::`;
-    
-                        twig_nametag.setAttribute('onclick', `showHideTwig('${insc_id}');`);
-                        twig_bmp_top.setAttribute('onclick', `showHideTwig('${insc_id}');`);
-                        twig_bmp_btm.setAttribute('onclick', `showHideTwig('${insc_id}');`); 
-                        
-                        for (i2 in scion.scions) {
-                            var entr_full = gen_Insc(i2, scion.scions[i2]);
-                            twig_trstlbrd.appendChild(entr_full);
-                        }
-                    break;
-                }
-            return twig_cntnr;
 
         case 'gem':
             var gem_cntnr = gen_ECI('div', `styl_gem_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_gem_cntnr_${insc_id}`);
@@ -557,7 +530,7 @@ async function fetchy(zz) {
                         var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
                         var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
                         var bough_bmp_top = gen_ECI('div', 'styl_brnch_bmp_top', `id_b_bmp_top_${bough_id}`);
-                        var bough_nametag = gen_ECI('div', 'styl_brnch_nametag', `id_b_nametag_${bough_id}`);
+                        var bough_nmtg = gen_ECI('div', 'styl_brnch_nmtg', `id_b_nmtg_${bough_id}`);
                         var bough_trstlbrd = gen_ECI('div', 'styl_brnch_trstlbrd', `id_b_trstlbrd_${bough_id}`);
                         var bough_bmp_btm = gen_ECI('div', 'styl_brnch_bmp_btm', `id_b_bmp_btm_${bough_id}`);
                         
@@ -565,10 +538,10 @@ async function fetchy(zz) {
                         bough_bmp_top.setAttribute('onclick', `shovelDigging('${bough_id}')`);
                         bough_bmp_btm.innerHTML = bmp_brnch_btm;
                         bough_bmp_btm.setAttribute('onclick', `shovelDigging('${bough_id}')`);
-                        bough_nametag.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}'>-></span> <span class='styl_brnch_nametag_name'>${bough_name}</span>:`;
-                        bough_nametag.setAttribute('onclick', `shovelDigging('${bough_id}')`);
+                        bough_nmtg.innerHTML = `<span class='styl_shvl_s0' id='id_b_p_${bough_id}'>-></span> <span class='styl_brnch_nmtg_name'>${bough_name}</span>:`;
+                        bough_nmtg.setAttribute('onclick', `shovelDigging('${bough_id}')`);
 
-                        bough_cntnr.append(bough_bmp_top, bough_nametag, bough_trstlbrd, bough_bmp_btm);
+                        bough_cntnr.append(bough_bmp_top, bough_nmtg, bough_trstlbrd, bough_bmp_btm);
                         trst_cntnr.appendChild(bough_cntnr);
 
                         var stems = trst_boughs[i].scions;
@@ -578,7 +551,7 @@ async function fetchy(zz) {
                     }
                 } else {
                     var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
-                    bough_cntnr.innerHTML = "No content yet!";
+                    bough_cntnr.innerHTML = "No content Yet!";
                     trst_cntnr.appendChild(bough_cntnr);
                 }
             }

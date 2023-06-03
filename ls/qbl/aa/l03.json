@@ -11,13 +11,12 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of Associations of (The Letter Gimel) ::",
+                    "insc_ttl": "List of Associations of (The Letter Gimel)",
                     "insc_tag": "Associations",
                     "scion_id": "ls_qbl_aa_l03_assc_lst",
                     "scions": [
                         {
                             "insc_term": "Transportation",
-                            "insc_type": "stm_olst_exp_i",
                             "insc_tag": "Association",
                             "scion_id": "ls_qbl_aa_l03_assc_transportation"
                         }
@@ -40,70 +39,70 @@
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Correspondences",
                     "insc_offs": "algn_y_up_23",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Gimel</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Gimel</b></i>)",
                     "scion_id": "ls_qbl_aa_l03_qblh_000_crrsp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Arcana Alphabet",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Astrological Cycles",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_alg"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Cube of Space",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Directions",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Directions</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Directions</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_drct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Double Letters",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_dblltr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Modes of Consciousness",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_cnscs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Intelligences",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_intl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tarot Arcana",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tree of Life",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "insc_ttl": "(<b><i>Gimel</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_aa_l03_qblh_otz"
                 }
             ]
@@ -136,11 +135,10 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "List of Prayers of (The Letter Gimel) ::",
+                    "insc_ttl": "List of Prayers of (The Letter Gimel)",
                     "scion_id": "ls_qbl_aa_l03_pryr_lst",
                     "scions": [
                         {
-                            "insc_type": "twg_i",
                             "insc_tag": "Prayer",
                             "insc_term": "A Prayer of Gimel by Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki",
@@ -149,12 +147,12 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Text",
-                                    "insc_ttl": "Text of 'A Prayer of Gimel'",
+                                    "insc_ttl": "<b><u>Text</b></u> <i>of</i> (<b><i>A Prayer of Gimel</b></i>)",
                                     "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki_txt",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_txt",
+                                            "insc_typ2": "txt",
                                             "insc_cntn": "<span class='in_txt_cntrd'><span class='in_txt_headr_01'>GIMEL<br>ג</span><br><br>Through thee my life is like a journey filled with wonder,<br>with change, and with challenge.<br>But when I am weary and the road seems long and endless,<br>oft times thine image appears before me in the distance.<br>Then I am lifted up and my limbs are eased of their pain.<br>Like a tired child I am borne onward and comforted by the motion of thy love.<br>I dream, and in my dream I see the road ahead, and I am made strong.<br>Thy strength prepares me for what is to come,<br>be it strewn with stones or paved with lustrous marble.<br>I awake from my dream to find myself beside the road.<br>I see thee departing in the distance and weep.<br>For now, I know I cannot be carried forever.<br>Chastened, I arise and begin to walk toward the Light.</span>"
                                         }
                                     ]
@@ -163,12 +161,12 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Commentary",
-                                    "insc_ttl": "Commentary on 'A Prayer of Gimel'",
+                                    "insc_ttl": "<b><u>Commentary</b></u> <i>on</i> (<b><i>A Prayer of Gimel</b></i>)",
                                     "scion_id": "ls_qbl_aa_l03_pryr_doloresashcroftnowicki_cmmntry",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "insc_txt",
+                                            "insc_typ2": "txt",
                                             "insc_cntn": "Random Commentary"
                                         }
                                     ]
@@ -188,7 +186,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Words Starting With",
-                    "insc_ttl": "List of Words Starting with (The Letter Gimel) ::",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Hebrew Words</b></u> <i>starting with</i> (<b><i>Gimel</b></i>)",
                     "scion_id": "ls_qbl_aa_l03_wrds_strt_lst",
                     "scions": [
                         {

@@ -11,7 +11,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of Associations of (The Letter Gimel)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Associations</b></u> <i>of</i> (<b><i>Gimel</b></i>)",
                     "insc_tag": "Associations",
                     "scion_id": "ls_qbl_aa_l03_assc_lst",
                     "scions": [
@@ -135,7 +135,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Prayers",
-                    "insc_ttl": "List of Prayers of (The Letter Gimel)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Prayers</b></u> <i>of</i> (<b><i>Gimel</b></i>)",
                     "scion_id": "ls_qbl_aa_l03_pryr_lst",
                     "scions": [
                         {

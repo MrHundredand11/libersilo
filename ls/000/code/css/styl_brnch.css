@@ -32,11 +32,11 @@
     display: none;
 }
 
-.styl_brnch_nametag {
+.styl_brnch_nmtg {
     font-size: 47px;
 }
 
-.styl_brnch_nametag_name {
+.styl_brnch_nmtg_name {
     font-weight: bold;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -127,21 +127,6 @@
     font-family: cambria;
     font-weight: bold;
     display: inline-block;
-}
-
-.branch_container {
-    margin-bottom: 17px;
-    display: table;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    width: 100%;
-    left: 3px;
-    top: 3px;
-    position: relative;
 }
 
 .branch_head {

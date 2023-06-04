@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Names + Titles",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Names + Titles</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>The Elements</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_000_name_lst",
                     "scions": [
                         {
@@ -76,7 +76,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Alchemical Qualities",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Alchemical Qualities</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Alchemical Qualities</b></u> <i>of</i> (<b><i>The Elements</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_000_alcm_alcqlts",
                     "scions": [
                         {
@@ -192,7 +192,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Paths",
-                    "insc_ttl": "<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)&nbsp;<span class='styl_stm_ttl_tny'>of the</span>&nbsp;</span><span class='styl_stm_ttl_spprt'>Qabalistic Paths</span>",
+                    "insc_ttl": "(<b><i>The Elements</b></i>) <i>of the</i> (<b><i>Qabalistic Paths</b>",
                     "scion_id": "ls_qbl_lmnt_w_000_qblh_32pths",
                     "scions": [
                         {
@@ -439,7 +439,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Quotes",
-                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Quotes</span>&nbsp;<span class='styl_stm_ttl_tny'>about</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Elements</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Quotes</b></u> <i>about</i> (<b><i>The Elements</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_000_quot_lst",
                     "scions": [
                         {

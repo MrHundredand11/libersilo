@@ -5,14 +5,29 @@
     "scion_id": "ls_qbl_taro_key_k03",
     "scions": [
         {
-            "drct_id": "QCCL",
-            "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_qbl_taro_key_k03_qccl"
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_000"
         },
         {
-            "drct_id": "NAME",
-            "drct_ttl": "Names + Titles of 'The Empress Card'",
-            "scion_id": "ls_qbl_taro_key_k03_name"
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_cncp"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_cntr"
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_deit"
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indication of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_divn"
         },
         {
             "drct_id": "KEYW",
@@ -20,14 +35,29 @@
             "scion_id": "ls_qbl_taro_key_k03_keyw"
         },
         {
+            "drct_id": "000",
+            "drct_ttl": "Lessons of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_lssn"
+        },
+        {
+            "drct_id": "MIND",
+            "drct_ttl": "Psychological Uses of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_mind"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_name"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_nmbr"
+        },
+        {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'The Empress Card'",
             "scion_id": "ls_qbl_taro_key_k03_qblh"
-        },
-        {
-            "drct_id": "SYMB",
-            "drct_ttl": "Symbols + Symbolism of 'The Empress Card'",
-            "scion_id": "ls_qbl_taro_key_k03_symb"
         },
         {
             "drct_id": "RLTN",
@@ -35,14 +65,14 @@
             "scion_id": "ls_qbl_taro_key_k03_rltn"
         },
         {
-            "drct_id": "PRSN",
-            "drct_ttl": "Personal Applications of 'The Empress Card'",
-            "scion_id": "ls_qbl_taro_key_k03_prsn"
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbolism of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_symb"
         },
         {
-            "drct_id": "DEIT",
-            "drct_ttl": "Deity Archetypes of 'The Empress Card'",
-            "scion_id": "ls_qbl_taro_key_k03_deit"
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'The Empress Card'",
+            "scion_id": "ls_qbl_taro_key_k03_xrcs"
         }
     ]
 }

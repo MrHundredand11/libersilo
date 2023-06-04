@@ -17,13 +17,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 04</b></i>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 04</b></i>)",
                     "scion_id": "ls_qbl_32p_p04_name_lst"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 04</b></i>)</span>",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 04</b></i>)",
                     "scion_id": "ls_qbl_32p_p04_name_expl"
                 }
             ]
@@ -36,7 +36,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 04</b></i>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 04</b></i>)",
                     "scion_id": "ls_qbl_32p_p04_txts_lst",
                     "scions": [
                         {
@@ -63,7 +63,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 04</b></i>)</span>"
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 04</b></i>)"
                 }
             ]
         },
@@ -75,25 +75,25 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "insc_ttl": "(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_32p_p04_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
+                    "insc_ttl": "(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_32p_p04_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "insc_ttl": "(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_32p_p04_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Celestial Science</b></u></span>",
+                    "insc_ttl": "(<b><i>Path 04</b></i>) <i>and</i> <b><u>The Celestial Science</b></u>",
                     "scion_id": "ls_qbl_32p_p04_qblh_astr"
                 }
             ]
@@ -106,7 +106,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 04</b></i>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 04</b></i>)",
                     "scion_id": "ls_qbl_32p_p04_rltn_lst"
                 }
             ]

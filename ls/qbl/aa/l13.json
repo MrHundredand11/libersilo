@@ -51,7 +51,7 @@
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Point",
                             "insc_offs": "styl_offs_dwn_43",
-                            "insc_cntn": "The form of the&nbsp;<span class='styl_insc_txt_trm_stkbld'>Greek and Latin and Hebrew Letters</span>&nbsp;for the sound \"<span class='styl_insc_txt_stkblditc_17'>m</span>\" or \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" look like&nbsp;<span class='styl_insc_trms_phrs_01'>the waves of the sea</span>.",                            
+                            "insc_cntn": "The form of the&nbsp;<span class='styl_insc_txt_trm_stkbld'>Greek and Latin and Hebrew Letters</span>&nbsp;for the sound \"<span class='styl_insc_txt_stkblditc_17'>m</span>\" or \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" look like&nbsp;<span class='font_sitka'><b><i>the waves of the sea</b></i></span>.",                            
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -59,7 +59,7 @@
                                     "insc_pntr": "=>",
                                     "insc_sld": "|\\_",
                                     "insc_offs": "styl_offs_lft_73",
-                                    "insc_cntn": "These Letters have the apparance of waves,\n\tsuch as can easily be seen in the <b>up and down</b> within the forms of\n\t\tthe&nbsp;<span class='trm_rg'>μ</span>&nbsp;(<span class='font_sitka'>Greek</span>) and the&nbsp;<span class='trm_rg'>M</span>&nbsp;(<span class='font_sitka'>Latin</span>) and the&nbsp;<span class='trm_rg'>מ</span>&nbsp;(<span class='font_sitka'>Hebrew</span>)."
+                                    "insc_cntn": "These Letters have the apparance of waves,\n\tsuch as can easily be seen in the <b>up and down</b> within the forms of\n\t\tthe&nbsp;<span class='trm_rg'>μ</span>&nbsp;(<span class='font_sitka'>Greek</span>) and the&nbsp;<span class='trm_rg'>M</span>&nbsp;(<span class='font_sitka'><i>Latin</i></span>) and the&nbsp;<span class='trm_rg'>מ</span>&nbsp;(<span class='font_sitka'><i>Hebrew</i></span>)."
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -67,7 +67,7 @@
                                     "insc_pntr": "=>",
                                     "insc_sld": "|\\_",
                                     "insc_offs": "styl_offs_lft_73",
-                                    "insc_cntn": "Both the <b>open</b> and the <b>closed</b> forms of the&nbsp;<span class='styl_insc_trms_phrs_02'>Hebrew Mem</span>&nbsp;have shapes that look like&nbsp;<span class='styl_insc_trms_phrs_01'>waves</span>:",
+                                    "insc_cntn": "Both the <b>open</b> and the <b>closed</b> forms of the&nbsp;<span class='styl_insc_trms_phrs_02'>Hebrew Mem</span>&nbsp;have shapes that look like&nbsp;<span class='font_sitka'><b><i>waves</b></i></span>:",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",

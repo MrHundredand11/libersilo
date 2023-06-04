@@ -1,0 +1,9 @@
+.chst_flx {
+    display: flex;
+    flex-direction: column;
+}
+
+.chst_intr {
+    border: 1px solid black;
+    border-radius: 5px;
+}

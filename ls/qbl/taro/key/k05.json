@@ -5,13 +5,18 @@
     "scion_id": "ls_qbl_taro_key_k05",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_000"
+        },
+        {
             "drct_id": "QCCL",
             "drct_ttl": "Quick Concept Context Lists",
             "scion_id": "ls_qbl_taro_key_k05_qccl",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "twg",
                     "insc_tag": "Tarot",
                     "insc_ttl": "Tarot Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_taro",
@@ -56,7 +61,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "twg",
                     "insc_tag": "Qabalah",
                     "insc_ttl": "Qabalistic Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_qblh",
@@ -107,7 +112,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "twg",
                     "insc_tag": "Magick",
                     "insc_ttl": "Magickal Correspondences of (The Hierophant Card)",
                     "scion_id": "ls_qbl_taro_key_k05_qccl_mgck",
@@ -129,111 +134,47 @@
             ]
         },
         {
-            "drct_id": "NAME",
-            "drct_ttl": "Names + Titles of 'The Hierophant Card'",
-            "scion_id": "ls_qbl_taro_key_k05_name",
-            "scions": [
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Names + Titles",
-                    "insc_ttl": "List of Names + Titles of (The Hierophant Card)",
-                    "scion_id": "ls_qbl_taro_key_k05_name_lst",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "The Hierophant"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "The Pope"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "The Pontiff"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "Jupiter"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "The High Priest"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Name",
-                            "insc_term": "El Sacerdote"
-                        }
-                    ]
-                }
-            ]
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_cncp"
         },
         {
-            "drct_id": "SYMB",
-            "drct_ttl": "Symbols + Scenery of 'The Hierophant Card'",
-            "scion_id": "ls_qbl_taro_key_k05_symb",
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_cntr"
+        },
+        {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_deck",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_tag": "Symbols",
-                    "insc_ttl": "List of Symbols + Scenery of (The Hierophant Card) ::",
-                    "scion_id": "ls_qbl_taro_key_k05_symb_lst",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>The Hierophant</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k05_deck_lst",
                     "scions": [
                         {
-                            "insc_term": "Hierophant // Pope"
+                            "insc_term": "Builders of the Adytum Tarot"
                         },
                         {
-                            "insc_term": "Throne"
+                            "insc_term": "Rider-Waite-Smith Tarot"
                         },
                         {
-                            "insc_term": "Twin Pillars"
-                        },
-                        {
-                            "insc_term": "The Crossed Keys"
-                        },
-                        {
-                            "insc_term": "Four Cherubim"
-                        },
-                        {
-                            "insc_term": "Monks"
-                        },
-                        {
-                            "insc_term": "Nails"
-                        },
-                        {
-                            "insc_term": "The Sceptre"
-                        },
-                        {
-                            "insc_term": "The Papal Cross"
+                            "insc_term": "Crowley's Thoth Tarot"
                         }
                     ]
                 }
             ]
         },
         {
-            "drct_id": "ASTR",
-            "drct_ttl": "Celestial Correspondences of 'The Hierophant Card'",
-            "scion_id": "ls_qbl_taro_key_k05_astr",
-            "scions": [
-
-            ]
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_deit"
         },
         {
             "drct_id": "DIVN",
-            "drct_ttl": "Divinatory Indications of 'The Hierophant Card'",
+            "drct_ttl": "Divinatory Indication of 'The Hierophant Card'",
             "scion_id": "ls_qbl_taro_key_k05_divn",
             "scions": [
                 {
@@ -273,6 +214,127 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "KEYW",
+            "drct_ttl": "Key Words + Themes of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_keyw"
+        },
+        {
+            "drct_id": "LSSN",
+            "drct_ttl": "Lessons of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_lssn"
+        },
+        {
+            "drct_id": "MIND",
+            "drct_ttl": "Psychological Uses of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_mind"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_name",
+            "scions": [
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "The Hierophant"
+                },
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "The Pope"
+                },
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "The Pontiff"
+                },
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "Jupiter"
+                },
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "The High Priest"
+                },
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "trm",
+                    "insc_tag": "Name",
+                    "insc_term": "El Sacerdote"
+                }
+            ]
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_nmbr"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_qblh"
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_rltn"
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbolism of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_symb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_tag": "Symbols",
+                    "insc_ttl": "<b>Common</b> <b><u>Symbols + Scenery</b></u> <i>of</i> (<b><i>The Hierophant</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k05_symb_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hierophant // Pope"
+                        },
+                        {
+                            "insc_term": "Throne"
+                        },
+                        {
+                            "insc_term": "Twin Pillars"
+                        },
+                        {
+                            "insc_term": "The Crossed Keys"
+                        },
+                        {
+                            "insc_term": "Four Cherubim"
+                        },
+                        {
+                            "insc_term": "Monks"
+                        },
+                        {
+                            "insc_term": "Nails"
+                        },
+                        {
+                            "insc_term": "The Sceptre"
+                        },
+                        {
+                            "insc_term": "The Papal Cross"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'The Hierophant Card'",
+            "scion_id": "ls_qbl_taro_key_k05_xrcs"
         }
     ]
 }

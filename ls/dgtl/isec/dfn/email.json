@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "What is the Sender Policy Framework?",
+                    "insc_ttl": "<b>What is</b> <i>the</i> <b><u>Sender Policy Framework<b><u>?",
                     "scion_id": "ls_dgtl_isec_dfn_email_spf_whatis",
                     "scions": [
                         {
@@ -32,7 +32,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "SPF Failures",
+                    "insc_ttl": "(<b><i>SPF</b></i>) <b><u>Failures</b></u>",
                     "scion_id": "ls_dgtl_isec_dfn_email_spf_failures",
                     "scions": [
                         {

@@ -1,0 +1,102 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K04",
+    "ls_ttl": "The Emperor Card",
+    "ls_url": "/ls/qbl/taro/key/k04.json",
+    "scion_id": "ls_qbl_taro_key_k04",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_000"
+        },
+        {
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_cncp"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_cntr"
+        },
+        {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_deck",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>The Emperor</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k04_deck_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Builders of the Adytum Tarot"
+                        },
+                        {
+                            "insc_term": "Rider-Waite-Smith Tarot"
+                        },
+                        {
+                            "insc_term": "Crowley's Thoth Tarot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_deit"
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indication of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_divn"
+        },
+        {
+            "drct_id": "KEYW",
+            "drct_ttl": "Key Words + Themes of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_keyw"
+        },
+        {
+            "drct_id": "LSSN",
+            "drct_ttl": "Lessons of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_lssn"
+        },
+        {
+            "drct_id": "MIND",
+            "drct_ttl": "Psychological Uses of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_mind"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_name"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_nmbr"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_qblh"
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_rltn"
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbolism of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_symb"
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'The Emperor Card'",
+            "scion_id": "ls_qbl_taro_key_k04_xrcs"
+        }
+    ]
+}

@@ -20,6 +20,30 @@
             "scion_id": "ls_qbl_taro_key_k02_cntr"
         },
         {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The High Priestess Card'",
+            "scion_id": "ls_qbl_taro_key_k02_deck",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>The High Priestess</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k02_deck_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Builders of the Adytum Tarot"
+                        },
+                        {
+                            "insc_term": "Rider-Waite-Smith Tarot"
+                        },
+                        {
+                            "insc_term": "Crowley's Thoth Tarot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "DEIT",
             "drct_ttl": "Deity Archetypes of 'The High Priestess Card'",
             "scion_id": "ls_qbl_taro_key_k02_deit"

@@ -12,7 +12,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
                     "scion_id": "ls_000_cite_tchr_qblh",
                     "scions": [
                         {
@@ -930,7 +930,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Digital Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
                     "scion_id": "ls_000_cite_tchr_dgtl",
                     "scions": [
                         {
@@ -1131,7 +1131,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Locational Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Locational Information</b></u>",
                     "scion_id": "ls_000_cite_tchr_lctn",
                     "scions": [
                         {
@@ -1164,7 +1164,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Human Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Human Information</b></u>",
                     "scion_id": "ls_000_cite_tchr_hmn",
                     "scions": [
                         {
@@ -1191,7 +1191,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_sprt",
                     "scions": [
                         {
@@ -1668,7 +1668,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Locational Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Locational Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_lctn",
                     "scions": [
                         {
@@ -1733,7 +1733,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u></span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_hmn",
                     "scions": [
                         {
@@ -1759,6 +1759,12 @@
                             "cite_isbn13": "0-553-37396-X"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_book_lst_dgtl"
                 }
             ]
         },
@@ -1770,8 +1776,40 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Monographs</b></i> <i>of</i> (<b><i>Qabalah</b></i>) Information</span>",
-                    "scion_id": "ls_000_cite_mngr_lst"
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Monographs</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
+                    "scion_id": "ls_000_cite_mngr_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AMORC Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "BOTA Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Masonic Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Rosicrucian Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Templar Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Thelemic Monographs"
+                        }
+                    ]
                 }
             ]
         },
@@ -1783,7 +1821,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "Web Pages relating to (Digital Realms)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
                     "scion_id": "ls_000_cite_wbpg_ls_dgtl",
                     "scions": [
                         {

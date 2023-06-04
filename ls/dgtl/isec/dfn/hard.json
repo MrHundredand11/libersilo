@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Techniques",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Techniques</span>&nbsp;to&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Hardening System Security</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "List of Techniques for (Hardening System Security)",
                     "scions": [
                         {
                             "insc_term": "Baselining",
@@ -41,7 +41,7 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
                                     "insc_tag": "Types",
-                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Updates</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>Updates</b></i>)",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",

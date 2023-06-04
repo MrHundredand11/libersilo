@@ -20,6 +20,33 @@
             "scion_id": "ls_qbl_taro_key_k00_cntr"
         },
         {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_deck",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>The Fool</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k00_deck_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Builders of the Adytum Tarot"
+                        },
+                        {
+                            "insc_term": "Rider-Waite-Smith Tarot"
+                        },
+                        {
+                            "insc_term": "Crowley's Thoth Tarot"
+                        },
+                        {
+                            "insc_term": "G.O. Mebes Tarot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "DEIT",
             "drct_ttl": "Deity Archetypes of 'The Fool Card'",
             "scion_id": "ls_qbl_taro_key_k00_deit"
@@ -35,7 +62,7 @@
             "scion_id": "ls_qbl_taro_key_k00_keyw"
         },
         {
-            "drct_id": "000",
+            "drct_id": "LSSN",
             "drct_ttl": "Lessons of 'The Fool Card'",
             "scion_id": "ls_qbl_taro_key_k00_lssn"
         },

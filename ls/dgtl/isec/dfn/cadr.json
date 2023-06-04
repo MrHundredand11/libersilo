@@ -1,36 +1,33 @@
 {
     "ls_id": "LS-DGTL-ISEC-DFN-CADR",
     "ls_ttl": "Continuity Assurance + Disaster Recovery",
+    "ls_url": "/ls/dgtl/isec/dfn/cadr.json",
+    "scion_id": "ls_dgtl_isec_dfn_cadr",
     "scions": [
         {
             "drct_id": "RDND",
-            "drct_ttl": "Areas of Redundancy",
+            "drct_ttl": "Areas of 'Redundancy'",
             "scion_id": "ls_dgtl_isec_dfn_cadr_rdnd",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_ttl": "<span class='span_list_title'>List</span> of <span class='span_list_title'>Areas</span> with <span class='span_opn_cls'>(</span><span class='span_obj_name'>Required Redundancy</span><span class='span_opn_cls'>)</span> ::",
-                    "insc_type": "stm_olst_exp",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Areas</b></u> <i>with</i> (<b><i>Required Redundancy</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_cadr_rdnd_reqred",
                     "scions": [
                         {
-                            "insc_type": "li_top",
                             "insc_term": "Power Redundancy"
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_term": "Data Redundancy"
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_term": "Network Redundancy"
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_term": "Server Redundancy"
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_term": "Site Redundancy"
                         }
                     ]

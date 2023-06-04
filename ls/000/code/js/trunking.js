@@ -200,7 +200,7 @@ function gen_Insc(insc_i, scion) {
                     i_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
                     i_nmb.innerHTML = scion.insc_nmbr;
                     insc_prtr.append(i_itr, insc_pnt, i_nmb);
-                    insc_prtr.classList.add('algn_cntr');
+                    insc_prtr.classList.add('algn_itm_cntr');
                     break;
 
                 case 'blade':

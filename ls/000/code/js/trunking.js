@@ -486,7 +486,7 @@ async function fetchy(zz) {
                 var directory_name = createElementWithClass('div', 'styl_drct_name');
                 var directory_cntn = createElementWithClass('div', 'styl_drct_cntn');
                 var headboard_tail = createElementWithClass('div', 'hd_tail');
-                hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <strong><u>LS-ID</u></strong>:&nbsp${data.ls_id}<br><br>`;
+                hd_lsid.innerHTML = `<br><span class='styl_pointers'>-></span> <b><u>LS-ID</u></b>: ${data.ls_id}<br><br>`;
         //        hd_vw_a_0.innerHTML = 'Views';
          //       hd_vw_b_1.innerHTML = 'Source:';
          //       hd_vw_b_2_a.innerHTML = 'JSON';
@@ -506,7 +506,7 @@ async function fetchy(zz) {
                 hd_nk_lf.append(hd_lsid, directory_div);
              //   hd_nk_rg.appendChild(hd_view);
                 headboard_tail.innerHTML = "<br><br>" + bmp_brnch_tail;
-                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <strong><u>Directory to ${data.ls_id}</strong></u>:`;
+                directory_name.innerHTML = `<span class='styl_pointers'>-></span> <b><u>Directory to ${data.ls_id}</b></u>:`;
                 mainContainer.appendChild(headBoard);
                 directory_div.appendChild(directory_name);
                 directory_div.appendChild(directory_cntn);

@@ -19,6 +19,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "PAN",
+                            "insc_styl": "trm_bg",
                             "scion_id": "ls_hi_div_pan_name_explr_pan",
                             "scions": [
                                 {
@@ -26,6 +27,7 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_styl": "trm_bg",
                                     "insc_term": "פאנ",
                                     "scions": [
                                         {
@@ -43,6 +45,7 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_styl": "trm_bg",
                                     "insc_term": "פאן",
                                     "scions": [
                                         {
@@ -60,6 +63,7 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_styl": "trm_bg",
                                     "insc_term": "παν"
                                 }
                             ]

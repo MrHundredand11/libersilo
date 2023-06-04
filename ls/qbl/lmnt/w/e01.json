@@ -139,7 +139,8 @@
                             "scion_id": "ls_qbl_lmnt_w_e01_luls_i_nahum156",
                             "scions": [
                                 {
-                                    "insc_type": "in_txt",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "{<b>Nahum 1:5-6</b>}==>[&emsp;The mountains quake because of Him, and the hills melt.\n&emsp;&emsp;The Earth heaves before Him, the world and all that dwell therein.\n&emsp;&emsp;Who can stand before His wrath? Who can resist His fury?\n&emsp;&emsp;<span class='styl_in_txt_bld'>His anger pours out like fire</span>, and rocks are shattered because of Him.&emsp;]"
                                 }
                             ]
@@ -150,7 +151,8 @@
                             "scion_id": "ls_qbl_lmnt_w_e01_luls_i_job11920",
                             "scions": [
                                 {
-                                    "insc_type": "in_txt",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
                                     "insc_cntn": "{<b>Job 1:19-20</b>==>[&emsp;To you, O Lord, I cry, <span class='styl_in_txt_bld'>for fire has devoured the pastures of the plain</span>, and flame has enkindled all the trees of the field.\n&emsp;Even the beasts of the field cry out to you, for the streams of water are dried up, and <span class='styl_in_txt_bld'>the fire has devoured the pastures of the plain</span>.&emsp;]"
                                 }
                             ]

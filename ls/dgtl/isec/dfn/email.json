@@ -1,63 +1,64 @@
 {
     "ls_id": "LS-DGTL-ISEC-DFN-EMAIL",
     "ls_ttl": "E-mail Defense",
+    "ls_url": "/ls/dgtl/isec/dfn/email.json",
     "scion_id": "ls_dgtl_isec_dfn_email",
     "scions": [
         {
             "drct_id": "SPF",
             "drct_ttl": "Sender Policy Framework",
             "scion_id": "ls_dgtl_isec_dfn_email_spf",
-            "type": "branch",
             "scions": [
                 {
-                    "insc_name": "What is the Sender Policy Framework?",
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "What is the Sender Policy Framework?",
                     "scion_id": "ls_dgtl_isec_dfn_email_spf_whatis",
                     "scions": [
                         {
-                            "insc_type": "blade",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
                             "insc_tag": "Abbreviation",
-                            "insc_term": "SPF",
-                            "insc_cntn": "<b>S</b>ender <b>P</b>olicy <b>F</b>ramework"
+                            "insc_cntn": "<b>SPF</b> = <b>S</b>ender <b>P</b>olicy <b>F</b>ramework"
                         },
                         {
-                            "insc_type": "blade",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
                             "insc_tag": "Definition",
-                            "insc_term": "Sender Policy Framework",
-                            "insc_cntn": "is an e-mail authentication protocol that checks the sender's IP address against a list of IPs located on the domain listed in the Return Path header of the e-mail. This list is known as the SPF record."
+                            "insc_cntn": "<b>Sender Policy Framework</b> = is an e-mail authentication protocol that checks the sender's IP address against a list of IPs located on the domain listed in the Return Path header of the e-mail. This list is known as the SPF record."
                         }
                     ]
                 },
                 {
-                    "insc_name": "SPF Failures",
-                    "insc_type": "stm_list",
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "SPF Failures",
                     "scion_id": "ls_dgtl_isec_dfn_email_spf_failures",
                     "scions": [
                         {
-                            "insc_type": "blade",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
                             "insc_tag": "Definition",
-                            "insc_term": "SPF Failure",
-                            "insc_cntn": "is when the sender's IP address is not found in the SPF record."
+                            "insc_cntn": "<b>SPF Failure</b> = is when the sender's IP address is not found in the SPF record."
                         },
                         {
-                            "insc_type": "blade",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
                             "insc_tag": "Result",
-                            "insc_term": "SPF Failure",
-                            "insc_cntn": "means that the e-mail is either <u>sent to spam</u> or <u>discarded altogether</u>."
+                            "insc_cntn": "<b>SPF Failure</b> = means that the e-mail is either <u>sent to spam</u> or <u>discarded altogether</u>."
                         },
                         {
-                            "insc_type": "stm_olst_exp",
-                            "insc_term": "<span class='span_list_title'>Types</span> of <span class='span_opn_cls'>(</span><span class='span_obj_name'>SPF Failure</span><span class='span_opn_cls'>)</span> ::",
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>SPF Failure</b></i>)",
                             "insc_tag": "Failure Types",
                             "scion_id": "ls_dgtl_isec_dfn_email_spf_failures_types",
                             "scions": [
                                 {
-                                    "insc_term": "SPF Hard Fail",
-                                    "insc_type": "entry"
+                                    "insc_term": "SPF Hard Fail"
                                 },
                                 {
-                                    "insc_term": "SPF Soft Fail",
-                                    "insc_type": "entry"
+                                    "insc_term": "SPF Soft Fail"
                                 }
                             ]
                         }

@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Definitions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Definitions + Descriptors</b></u> <i>of</i> (<b><i>Cryptography</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_000_dfin",
                     "scions": [
                         {
@@ -78,7 +78,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Historical Examples",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Historical Examples</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Ciphers</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Historical Examples</b></u> <i>of</i> (<b><i>Cryptography</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_hist_lst_exmp",
                     "scions": [
                         {
@@ -106,7 +106,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Key Types",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Key Types</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Types</b></u> <i>in</i> (<b><i>Cryptography</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_cryp_list",
                     "scions": [
                         {
@@ -273,7 +273,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Encryption Key Algorithms</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Types</b></u> <i>of</i> (<b><i>Encryption Key Algorithms</b></i>)",
                     "insc_tag": "Encryption Key Types",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types",
                     "scions": [
@@ -284,7 +284,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Symmetric Keys</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Symmetric Keys</b></i>)",
                                     "scion_id": "ls_dgtl_isec_dfn_crypt_keys_types_li_symmencrypt_list",
                                     "scions": [
                                         {
@@ -368,15 +368,15 @@
             ]
         },
         {
-            "drct_id": "XTRA",
-            "drct_ttl": "Extra Resources + References",
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Cryptography'",
             "scion_id": "ls_dgtl_isec_dfn_crypt_xtra",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Extra Resources + References",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Extra Resources + References</span>&nbsp;<span class='styl_stm_ttl_tny'>for</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Cryptography</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Extra Resources + References</b></u> <i>of</i> (<b><i>Cryptography</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_crypt_xtra_lst"
                 }
             ]

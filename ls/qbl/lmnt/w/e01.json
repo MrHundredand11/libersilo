@@ -9,9 +9,10 @@
             "scion_id": "ls_qbl_lmnt_w_e01_qual",
             "scions": [
                 {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Qualities",
-                    "insc_type": "stm_olst_exp",
-                    "insc_ttl": "List of Qualities of (The Element of Fire) ::",
+                    "insc_ttl": "<b><u>List <i>of</i> <b><u>Qualities</b></u> <i>of</i> (<b><i>Fire</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_e01_qual_lst",
                     "scions": [
                         {
@@ -39,9 +40,10 @@
             "scion_id": "ls_qbl_lmnt_w_e01_symb",
             "scions": [
                 {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Symbols",
-                    "insc_type": "stm_olst_exp",
-                    "insc_ttl": "List of Symbols of (The Element of Fire) ::",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Symbols</b></u> <i>of</i> (<b><i>Fire</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_e01_symb_lst",
                     "scions": [
                         {
@@ -49,6 +51,12 @@
                         },
                         {
                             "insc_term": "The Pyramid"
+                        },
+                        {
+                            "insc_term": "Candle Flame"
+                        },
+                        {
+                            "insc_term": "The Letter Yod"
                         }
                     ]
                 }
@@ -57,47 +65,56 @@
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'The Element of Fire'",
-            "scion_id": "ls_qbl_lmnt_w_cntr",
+            "scion_id": "ls_qbl_lmnt_w_e01_cntr",
             "scions": [
                 {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_tag": "Plants",
-                    "insc_ttl": "Plants of (The Element of Fire) ::",
-                    "insc_type": "stm_list",
-                    "scion_id": "ls_qbl_lmnt_w_cntr_plnts",
+                    "insc_ttl": "<b><u>Plants</b></u> <i>corresponding to</i> (<b><i>Fire</b></i>)",
+                    "scion_id": "ls_qbl_lmnt_w_e01_cntr_plnts",
                     "scions": [
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
                             "insc_type": "li_entr",
                             "insc_term": "Ash"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Mustard"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Cactus"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Pepper"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Garlic"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Onion"
                         },
                         {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Plant",
-                            "insc_type": "li_entr",
                             "insc_term": "Thistle"
                         }
                     ]
@@ -110,13 +127,13 @@
             "scion_id": "ls_qbl_lmnt_w_e01_luls",
             "scions": [
                 {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Scriptures",
-                    "insc_type": "stm_olst_exp",
-                    "insc_ttl": "List of Scriptures around (The Element of Fire) ::",
+                    "insc_ttl": "List of Scriptures around (Fire)",
                     "scion_id": "ls_qbl_lmnt_w_e01_luls_lst",
                     "scions": [
                         {
-                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
                             "insc_term": "Nahum 1:5-6",
                             "scion_id": "ls_qbl_lmnt_w_e01_luls_i_nahum156",
@@ -128,7 +145,6 @@
                             ]
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
                             "insc_term": "Job 1:19-20",
                             "scion_id": "ls_qbl_lmnt_w_e01_luls_i_job11920",
@@ -140,7 +156,6 @@
                             ]
                         },
                         {
-                            "insc_type": "li_top",
                             "insc_tag": "Scripture",
                             "insc_term": "Chaldean Oracles",
                             "scion_id": "ls_qbl_lmnt_w_e01_luls_i_chaldeanoracles"
@@ -155,9 +170,10 @@
             "scion_id": "ls_qbl_lmnt_w_e01_cnsd",
             "scions": [
                 {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
                     "insc_tag": "Considerations",
-                    "insc_type": "stm_olst_exp",
-                    "insc_ttl": "List of Considerations around (Physical Fire) ::",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Considerations</b></u> <i>around</i> (<b><i>Physical Fire</b></i>)",
                     "scion_id": "ls_qbl_lmnt_w_e01_cnsd_lst",
                     "scions": [
                         {
@@ -166,17 +182,20 @@
                             "scion_id": "ls_qbl_lmnt_w_e01_cnsd_ashes",
                             "scions": [
                                 {
-                                    "insc_type": "blade",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "If you remove ashes from your wood stove or fireplace insert, make sure you carry the ashes outside.\nYou don't want to leave ashes indoors because a stray ash may land on something combustibile and ignite."
                                 },
                                 {
-                                    "insc_type": "blade",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "Storing ashes in a small, metal pail with a lid is best. This way, your ashes won't get wet."
                                 },
                                 {
-                                    "insc_type": "blade",
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
                                     "insc_tag": "Usage",
                                     "insc_cntn": "You can use the ashes for multiple purposes including banking fires and mixing with soil."
                                 }

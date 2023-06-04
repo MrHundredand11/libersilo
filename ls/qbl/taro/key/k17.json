@@ -298,27 +298,37 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[\t<i>Pour water on thyself:\n\tthus shalt thou be a Fountain to the Universe.\n\tFind thou thyself in every Star!\n\tAchieve thou every possibility.</i>\t]"
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "[\tPour water on thyself:\n\tthus shalt thou be a Fountain to the Universe.\n\tFind thou thyself in every Star!\n\tAchieve thou every possibility.\t]"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[\t<i>Heaven itself is no more than a veil before the face of the immortal Goddess.</i>\t]"
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "[\tHeaven itself is no more than a veil before the face of the immortal Goddess.\t]"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[\t<i>Every man and every woman and every person is a Star.</i>\t]"
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "[\tEvery man and every woman and every person is a Star.\t]"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[\t<i>When you have found the beginning of the way, the star of your soul will show its light.</i>\t]"
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "[\tWhen you have found the beginning of the way, the star of your soul will show its light.\t]"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "[\t<i>You must discover the particular hours and in what sign the Psyche of the World ours forth from her two goblets the waters of life like two rivers.</i>\t]"
+                            "insc_styl": "size_23px",
+                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_cntn": "[\tYou must discover the particular hours and in what sign the Psyche of the World pours forth from her two goblets the waters of life like two rivers.\t]"
                         }
                     ]
                 }

@@ -88,7 +88,16 @@ function homeFetch() {
     mainContainer.innerHTML = "";
     var headBoard = createElementWithClass('div', 'branch_container');
     var ls_ttl = createElementWithClass('div', 'hd_name');
+    var chst_plt = gen_ECI('div', 'branch_container', 'id_chst_plt');
     ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>Welcome to Liber Silo</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
     headBoard.appendChild(ls_ttl);
-    mainContainer.appendChild(headBoard);
+    mainContainer.append(headBoard, chst_plt);
+
+    var chst_flx = gen_ECI('div', 'chst_flx', 'id_chst_plt_flx');
+    var chst_intr = gen_ECI('div', 'chst_intr', 'id_chst_plt_intr');
+    var chst_drtr = gen_ECI('div', 'chst_drtr', 'id_chst_plt_drtr');
+    chst_intr.innerHTML = "Click here for an INTRO",
+    chst_drtr.innerHTML = "Click here for a DIRECTORY",
+    chst_flx.append(chst_intr, chst_drtr);
+
 }

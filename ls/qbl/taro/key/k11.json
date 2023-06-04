@@ -11,7 +11,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Words</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Words</b></u> <i>corresponding to</i> (<b><i>Justice</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k11_keyw_lst_keywords",
                     "scions": [
                         {
@@ -134,7 +134,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Phrases</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Phrases</b></u> <i>corresponding to</i> (<b><i>Justice</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k11_keyw_lst_keyphrases",
                     "scions": [
                         {
@@ -149,26 +149,33 @@
         },
         {
             "drct_id": "SYMB",
-            "drct_ttl": "Scenery + Symbols of 'The Justice Card'",
+            "drct_ttl": "Symbols + Symbolism of 'The Justice Card'",
             "scion_id": "ls_qbl_taro_key_k11_symb",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Common Symbols",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Common Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Common Symbols</b></u> <i>of</i> (<b><i>Justice</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k11_symb_cmmn",
                     "scions": [
                         {
                             "insc_term": "a figure of Justice"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The Justice Card'",
+            "scion_id": "ls_qbl_taro_key_k11_deck",
+            "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_tag": "Versions",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Versions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_tag": "Deck Versions",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>Justice</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k11_symb_vrsn",
                     "scions": [
                         {
@@ -258,11 +265,6 @@
             ]
         },
         {
-            "drct_id": "ASTR",
-            "drct_ttl": "Astrology of 'The Justice Card'",
-            "scion_id": "ls_qbl_taro_key_k11_astr"
-        },
-        {
             "drct_id": "DEIT",
             "drct_ttl": "Deity Archetypes of 'The Justice Card'",
             "scion_id": "ls_qbl_taro_key_k11_deit",
@@ -271,7 +273,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Deities",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deities</span>&nbsp;<span class='styl_stm_ttl_tny'>corresponding to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Justice Card</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deities</b></u> <i>corresponding to</i> (<b><i>Justice</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k11_deit_lst",
                     "scions": [
                         {
@@ -290,10 +292,7 @@
         {
             "drct_id": "RLTN",
             "drct_ttl": "Relationships of 'The Justice Card'",
-            "scion_id": "ls_qbl_taro_key_k11_rltn",
-            "scions": [
-
-            ]
+            "scion_id": "ls_qbl_taro_key_k11_rltn"
         }
     ]
 }

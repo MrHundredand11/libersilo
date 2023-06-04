@@ -234,7 +234,8 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "Stream-based = encryption operations is on a constant stream of 0s and 1s"
+                                                    "insc_styl": "size_23px",
+                                                    "insc_cntn": "<b>Stream-based</b> = is where the encryption operations are on a <u>constant stream</u> of 0s and 1s"
                                                 }
                                             ]
                                         },
@@ -246,7 +247,8 @@
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "Block-based = encryption operation is on fixed blocks of plaintext."
+                                                    "insc_styl": "size_23px",
+                                                    "insc_cntn": "<b>Block-based</b> = is where the encryption operations are on <u>fixed blocks</u> of plaintext."
                                                 }
                                             ]
                                         }
@@ -301,13 +303,13 @@
                                                             "insc_typ1": "insc",
                                                             "insc_typ2": "txt_stpl",
                                                             "insc_tag": "Acronym",
-                                                            "insc_cntn": "<span class='styl_insc_trms_li_00'>DES</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;<span class='styl_insc_trms_div_grg'>D</span>ata&nbsp;<span class='styl_insc_trms_div_grg'>E</span>ncryption&nbsp;<span class='styl_insc_trms_div_grg'>S</span>tandard"
+                                                            "insc_cntn": "<b>DES</b> =&nbsp;<span class='styl_insc_trms_div_grg'>D</span>ata&nbsp;<span class='styl_insc_trms_div_grg'>E</span>ncryption&nbsp;<span class='styl_insc_trms_div_grg'>S</span>tandard"
                                                         },
                                                         {
                                                             "insc_typ1": "insc",
-                                                            "insc_typ2": "txt_stpl",
+                                                            "insc_typ2": "trm_stpl",
                                                             "insc_tag": "Old Name",
-                                                            "insc_cntn": "\"<span class='styl_insc_trms_li_00'>Lucifer</span>\""
+                                                            "insc_term": "\"Lucifer\""
                                                         }
                                                     ]
                                                 }

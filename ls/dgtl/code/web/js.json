@@ -12,13 +12,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_tag": "Value Types",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Types</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Values</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_tag": "Data Value Types",
+                    "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>Data Values</b></i>)",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "In&nbsp;<span class='styl_insc_txt_trm_grg'>JavaScript</span>, there are only <b>two types</b> of '<span class='styl_insc_txt_stkitc'>values</span>':\n\t\t<span class='styl_insc_trms_lttr_01'>an Object</span>&nbsp;or&nbsp;<span class='styl_insc_trms_lttr_01'>a Primitive</span>"
+                            "insc_cntn": "In JavaScript  there are only <b>two types</b> of '<span class='styl_insc_txt_stkitc'>values</span>':\n\t\t<span class='trm_rg'>an Object</span>&nbsp;or&nbsp;<span class='trm_rg'>a Primitive</span>"
                         }
                     ]
                 }
@@ -32,7 +32,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Descriptions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "Descriptions of (Operators)",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -87,7 +87,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of all</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Operators</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span>&nbsp;<span class='styl_stm_ttl_spprt'>JavaScript</span>",
+                    "insc_ttl": "List of all (Operators) in JavaScript",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -220,7 +220,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Control Structures</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> (<b><i>Control Structures</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_ctrl_explr",
                     "scions": [
                         {
@@ -230,7 +230,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Control Decision Structures</b></i>)</span>",
+                                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> (<b><i>Control Decision Structures</b></i>)",
                                     "scion_id": "ls_dgtl_code_web_js_ctrl_explr_dcsn_ctrldcsn",
                                     "scions": [
                                         {
@@ -256,7 +256,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> (<b><i>Iterative Loops</b></i>)</span>",
+                                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> (<b><i>Iterative Loops</b></i>)",
                                     "scion_id": "ls_dgtl_code_web_js_ctrl_explr_itrt_loop",
                                     "scions": [
                                         {
@@ -280,7 +280,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Operators</b></u> <i>in</i> (<b><i>Control Structures</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Operators</b></u> <i>in</i> (<b><i>Control Structures</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_ctrl_oprtrs",
                     "scions": [
                         {
@@ -301,13 +301,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Concepts</b></u> <i>around</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Concepts</b></u> <i>around</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_scop_cncp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Types</b></u> <i>of</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>Scope</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_scop_type",
                     "scions": [
                         {
@@ -366,7 +366,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Hoisting</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>"
+                    "insc_ttl": "(<b><i>Hoisting</b></i>) <i>in</i> <b><u>JavaScript</b></u>"
                 }
             ]
         },
@@ -388,13 +388,13 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Adding</b></u> <i>an</i> (<b><i>Event Listener</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Adding</b></u> <i>an</i> (<b><i>Event Listener</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_evnt_addlstnr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Types</b></u> <i>of</i> (<b><i>Events</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>Events</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_evnt_eventtypes"
                 }
             ]
@@ -407,7 +407,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Types</b></u> <i>of</i> (<b><i>Errors</b></i>) <i>in</i> <b><u>JavaScript</b></u></span>",
+                    "insc_ttl": "<b><u>Types</b></u> <i>of</i> (<b><i>Errors</b></i>) <i>in</i> <b><u>JavaScript</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_errr_typ_lst",
                     "scions": [
                         {
@@ -427,7 +427,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Debugging</b></i>) <i>with</i></span>&nbsp;<span class='stm_code'><b><u>console.log()</b></u></span>",
+                    "insc_ttl": "(<b><i>Debugging</b></i>) <i>with</i></span>&nbsp;<span class='stm_code'><b><u>console.log()</b></u>",
                     "scion_id": "ls_dgtl_code_web_js_errr_dbug_clog"
                 }
             ]

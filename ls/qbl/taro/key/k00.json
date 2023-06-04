@@ -1,0 +1,78 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K00",
+    "ls_ttl": "The Fool Card",
+    "ls_url": "/ls/qbl/taro/key/k00.json",
+    "scion_id": "ls_qbl_taro_key_k00",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_000"
+        },
+        {
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_cncp"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Natural Correspondences of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_cntr"
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_deit"
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indication of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_divn"
+        },
+        {
+            "drct_id": "KEYW",
+            "drct_ttl": "Key Words + Themes of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_keyw"
+        },
+        {
+            "drct_id": "000",
+            "drct_ttl": "Lessons of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_lssn"
+        },
+        {
+            "drct_id": "MIND",
+            "drct_ttl": "Psychological Uses of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_mind"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_name"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_nmbr"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_qblh"
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_rltn"
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbolism of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_symb"
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'The Fool Card'",
+            "scion_id": "ls_qbl_taro_key_k00_xrcs"
+        }
+    ]
+}

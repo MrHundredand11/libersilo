@@ -3,41 +3,6 @@
     "ls_ttl": "Overview of Information Security",
     "scions": [
         {
-            "drct_id": "QCCL",
-            "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_dgtl_isec_000_qccl",
-            "scions": [
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "twg",
-                    "insc_ttl": "<b><u>Names</b></u> <i>of</i> (<b><i>Information Security</b></i>)",
-                    "scion_id": "ls_dgtl_isec_000_qccl_name",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_cntn": "Information Security"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "txt",
-                            "insc_cntn": "<b>InfoSec</b> (<b>Info</b>rmation <b>Sec</b>urity)"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_cntn": "Cyber Security"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "txt",
-                            "insc_cntn": "<b>CyberSec</b> (<b>Cyber Sec</b>urity)"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Information Security'",
             "scion_id": "ls_dgtl_isec_000_000",
@@ -45,7 +10,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "twg",
-                    "insc_ttl": "What is (Information Security) ?",
+                    "insc_ttl": "<b>What is</b> (<b><i>Information Security</b></i>) <b>?</b>",
                     "scion_id": "ls_dgtl_isec_000_whatis",
                     "scions": [
                        {
@@ -65,7 +30,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_name": "<span class='span_list_title'>Elements of</span> <span class='span_opn_cls'>(</span><span class='span_obj_name'>Information Security</span><span class='span_opn_cls'>)</span>",
+                    "insc_ttl": "<b><u>Elements</b></u> <i>of</i> (<b><i>Information Security</b></i>)",
                     "scion_id": "ls_dgtl_isec_000_elementsof",
                     "scions": [
                         {
@@ -109,6 +74,41 @@
             ]
         },
         {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_dgtl_isec_000_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Names</b></u> <i>of</i> (<b><i>Information Security</b></i>)",
+                    "scion_id": "ls_dgtl_isec_000_qccl_name",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Information Security"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<b>InfoSec</b> (<b>Info</b>rmation <b>Sec</b>urity)"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Cyber Security"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<b>CyberSec</b> (<b>Cyber Sec</b>urity)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "DOMN",
             "drct_ttl": "Domains of 'Information Security'",
             "scion_id": "ls_dgtl_isec_000_domn",
@@ -116,7 +116,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of (Information Security Domains)",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Domains</b></u> <i>of</i> (<b><i>Information Security</b></i>)",
                     "scion_id": "ls_dgtl_isec_000_domn_lst",
                     "scions": [
                         {
@@ -236,13 +236,13 @@
         },
         {
             "drct_id": "CNCS",
-            "drct_ttl": "Enterprise Environment Concerns + Concepts",
+            "drct_ttl": "Concerns + Concepts of 'Information Security'",
             "scion_id": "ls_dgtl_isec_000_cncs",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of (Security Concepts) in an Enterprise Environment",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Security Concepts</b></i>) <i>in an</i> <b><u>Enterprise Environment</b></u>",
                     "scion_id": "ls_dgtl_isec_cncs_lst",
                     "scions": [
                         {
@@ -264,16 +264,22 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
                                             "insc_cntn": "Standardize the environment"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
                                             "insc_cntn": "Set Baselines to Understand \"Normal\""
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
                                             "insc_cntn": "Identify Conflicts // Collissions // Changes"
                                         }
                                     ]

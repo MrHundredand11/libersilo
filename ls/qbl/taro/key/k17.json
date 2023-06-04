@@ -23,7 +23,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Common Symbols",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Common Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>in</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Star</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Common Symbols</b></u> <i>in</i> (<b><i>The Star</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k17_symb_lst_cmnsymb",
                     "scions": [
                         {
@@ -47,76 +47,83 @@
                             "insc_term": "the bird on its tree"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "drct_id": "DECK",
+            "drct_ttl": "Deck Versions of 'The Star Card'",
+            "scion_id": "ls_qbl_taro_key_k17_deck",
+            "scion": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Deck Versions",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deck Versions</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Star</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deck Versions</b></u> <i>of</i> (<b><i>The Star</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k17_deck_lst",
                     "scions": [
                         {
                             "insc_term": "Builders of the Adytum Deck",
-                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota",
+                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>in the</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>BOTA Deck</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs",
+                                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Symbols</b></u> <i>in the</i> (<b><i>BOTA Deck</b></i>)",
+                                    "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs",
                                     "scions": [
                                         {
                                             "insc_term": "Yellow Star",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_yellowstar",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_yellowstar",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>great yellow star</span>&nbsp;signifies&nbsp;<span class='styl_insc_trms_phrs_02'>the cosmic radiant energy</span>\n\t(which is sent forth from the various suns and fixed stars of the universe)."
+                                                    "insc_cntn": "The great yellow star signifies the cosmic radiant energy\n\t(which is sent forth from the various suns and fixed stars of the universe)."
                                                 }
                                             ]
                                         },
                                         {
                                             "insc_term": "7 Smaller Stars",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_7smallerstars"
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_7smallerstars"
                                         },
                                         {
                                             "insc_term": "Mountain",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_mountain",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_mountain",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>mountain in the background</span>&nbsp;means just what it does in&nbsp;<span class='styl_insc_trms_phrs_02'>Key 6</span>&nbsp;and&nbsp;<span class='styl_insc_trms_phrs_02'>8</span>:\n\t\t\t\tIt is a symbol of the&nbsp;<span class='styl_insc_trms_phrs_02'>Great Work</span>."
+                                                    "insc_cntn": "The mountain in the background means just what it does in Key 6 and 8:\n\t\t\t\tIt is a symbol of the Great Work."
                                                 }
                                             ]
                                         },
                                         {
                                             "insc_term": "Bird",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_bird",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>bird</span>&nbsp;on the bush is&nbsp;<span class='styl_insc_trms_phrs_02'>a scarlet Ibis</span>.",
-                                                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_bird_scarletibis",
+                                                    "insc_cntn": "The bird on the bush is a scarlet Ibis.",
+                                                    "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_bird_scarletibis",
                                                     "scions": [
                                                         {
                                                             "insc_typ1": "insc",
                                                             "insc_typ2": "txt",
                                                             "insc_sld": "\\_",
                                                             "insc_pntr": ">>",
-                                                            "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is the Egyptian bird sacred to&nbsp;<span class='styl_insc_trms_phrs_02'>Hermès</span>, the Magician."
+                                                            "insc_cntn": "The Ibis is the Egyptian bird sacred to Hermès, the Magician."
                                                         },
                                                         {
                                                             "insc_typ1": "insc",
                                                             "insc_typ2": "txt",
                                                             "insc_sld": "\\_",
                                                             "insc_pntr": ">>",
-                                                            "insc_cntn": "The long bill of the&nbsp;<span class='styl_insc_trms_div_grg'>Ibis</span>&nbsp;is a natural&nbsp;<span class='styl_insc_trms_phrs_02'>Fish-Hook</span>&nbsp;(<span class='styl_insc_trms_lttr_01'>צ</span>)."
+                                                            "insc_cntn": "The long bill of the Ibis is a natural Fish-Hook (<span class='styl_insc_trms_lttr_01'>צ)."
                                                         }
                                                     ]
                                                 }
@@ -124,11 +131,11 @@
                                         },
                                         {
                                             "insc_term": "Woman",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_woman"
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_woman"
                                         },
                                         {
                                             "insc_term": "Pool",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_bota_lst_symbs_i_pool"
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_bota_lst_symbs_i_pool"
                                         }
                                     ]
                                 }
@@ -139,31 +146,31 @@
                         },
                         {
                             "insc_term": "Crowley's Thoth Deck",
-                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth",
+                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth",
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "lst_exp",
-                                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>in the</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Thoth Deck</span><span class='styl_stm_ttl_opncls'>)</span>",
-                                    "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs",
+                                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Symbols</b></u> <i>in the</i> (<b><i>Thoth Deck</b></i>)",
+                                    "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth_lst_symbs",
                                     "scions": [
                                         {
                                             "insc_term": "Cups",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cups",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth_lst_symbs_i_cups",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt_stpl",
                                                     "insc_tag": "Qabalah",
-                                                    "insc_cntn": "<span class='styl_insc_trms_div_grg'>Two Cups</span>&nbsp;= the <u><b>Mother Above</b></u> and the <u><b>Daughter Below</b></u>",
-                                                    "scion_id":"ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cups_qblh",
+                                                    "insc_cntn": "Two Cups = the <u><b>Mother Above</b></u> and the <u><b>Daughter Below</b></u>",
+                                                    "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth_lst_symbs_i_cups_qblh",
                                                     "scions": [
                                                         {
                                                             "insc_typ1": "insc",
                                                             "insc_typ2": "txt",
                                                             "insc_sld": "\\_",
                                                             "insc_pntr": "((",
-                                                            "insc_cntn": "the&nbsp;<span class='styl_insc_trms_phrs_02'>upper H</span>&nbsp;and the&nbsp;<span class='styl_insc_trms_phrs_02'>lower H</span>&nbsp;in the Divine Name&nbsp;<span class='styl_insc_trms_div_grg'>YHVH</span> ))"
+                                                            "insc_cntn": "the upper H and the lower H in the Divine Name YHVH ))"
                                                         }
                                                     ]
                                                 }
@@ -171,25 +178,25 @@
                                         },
                                         {
                                             "insc_term": "River",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_river",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth_lst_symbs_i_river",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_01'>a bit hard to see</span>"
+                                                    "insc_cntn": "<b>the River</b> = is a bit hard to see"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;=&nbsp;<span class='styl_insc_trms_phrs_01'>flows at the bottom of the card</span>"
+                                                    "insc_cntn": "<b>the River</b> = flows at the bottom of the card"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "the&nbsp;<span class='styl_insc_trms_div_grg'>River</span>&nbsp;= is&nbsp;<span class='styl_insc_trms_phrs_01'>demarcated by hills on the distant shore</span>"
+                                                    "insc_cntn": "<b>the River</b> = is demarcated by hills on the distant shore"
                                                 }
                                             ]
                                         },
@@ -210,12 +217,12 @@
                                         },
                                         {
                                             "insc_term": "City of the Pyramids",
-                                            "scion_id": "ls_qbl_taro_key_k17_symb_lst_decks_thoth_lst_symbs_i_cityofthepyramids",
+                                            "scion_id": "ls_qbl_taro_key_k17_deck_lst_thoth_lst_symbs_i_cityofthepyramids",
                                             "scions": [
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "txt",
-                                                    "insc_cntn": "The&nbsp;<span class='styl_insc_trms_div_grg'>Star Card</span>&nbsp;is about <u>distance</u> and <u>hope</u>, <u>ideals</u> and <u>goals</u>.\n\tAt the distant shore lies&nbsp;<span class='styl_insc_trms_phrs_01'>The City of The Pyramids</span>, <u>the penultimate attainment across the Abyss</u>."
+                                                    "insc_cntn": "The Star Card is about <u>distance</u> and <u>hope</u>, <u>ideals</u> and <u>goals</u>.\n\tAt the distant shore lies The City of The Pyramids, <u>the penultimate attainment across the Abyss</u>."
                                                 }
                                             ]
                                         },
@@ -239,7 +246,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Deity Archetypes",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Deity Archetypes</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Star</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Deity Archetypes</b></u> <i>of</i> (<b><i>The Star</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k17_deit_lst",
                     "scions": [
                         {
@@ -285,7 +292,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Meditations</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span><span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Star</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Meditative Phrases</b></u> <i>on</i> (<b><i>The Star</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k17_xrcs_lst_mdttns",
                     "scions": [
                         {

@@ -2,5 +2,76 @@
     "ls_id": "LS-HI-DIV-PAN",
     "ls_ttl": "Pan",
     "ls_url": "/ls/hi/div/pan.json",
-    "scion_id": "ls_hi_div_pan"
+    "scion_id": "ls_hi_div_pan",
+    "scions": [
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Pan'",
+            "scion_id": "ls_hi_div_pan_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Exploration</b></i> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Pan</b></i>)",
+                    "scion_id": "ls_hi_div_pan_name_explr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "PAN",
+                            "scion_id": "ls_hi_div_pan_name_explr_pan",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "פאנ",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_tag": "Gematria",
+                                            "insc_term": "[<b>MR</b>]::[ <b>80 + 1 + 50</b> ]= <b>131</b>"
+                                        }                                   
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "פאן",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_tag": "Gematria",
+                                            "insc_term": "[<b>MR</b>]::[ <b>80 + 1 + 700</b> ]= <b>781</b>"
+                                        }                                   
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "παν"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Pan'",
+            "scion_id": "ls_hi_div_pan_luls"
+        }
+    ]
 }

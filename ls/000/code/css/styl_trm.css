@@ -12,6 +12,7 @@
     font-size: 23px;
     display: inline-block;
     white-space: pre;
+    align-self: center;
 }
 
 .trm_sm {

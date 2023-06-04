@@ -33,7 +33,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "List of (Access Control) Models",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Models</b></u> <i>of</i> (<b><i>Access Control</b></i>)",
                     "scion_id": "ls_dgtl_isec_dfn_acsctrl_mdls_mthd",
                     "scions": [
                         {

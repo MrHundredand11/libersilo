@@ -87,7 +87,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Information Security"
+                            "insc_term": "Information Security"
                         },
                         {
                             "insc_typ1": "insc",
@@ -97,7 +97,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Cyber Security"
+                            "insc_term": "Cyber Security"
                         },
                         {
                             "insc_typ1": "insc",
@@ -125,15 +125,15 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Consideration",
-                                    "insc_cntn": "<span class='styl_main_term'>Secure application data storage</span>"
+                                    "insc_term": "Secure application data storage"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Consideration",
-                                    "insc_cntn": "<span class='styl_main_term'>Application Server Configuration</span>"
+                                    "insc_term": "Application Server Configuration"
                                 }
                             ]
                         },
@@ -168,9 +168,10 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Consideration",
-                                    "insc_cntn": "Desktops // Laptops</span> (<em>Disk Encryption / DLP</em>)",
+                                    "insc_cntn": "Desktops + Laptops",
+                                    "insc_dfin": "(<i>Disk Encryption + DLP</i>)",
                                     "insc_itr": "4"
                                 }
                             ]
@@ -181,7 +182,7 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_tag": "Prevention",
                                     "insc_term": "Physical Access Control"
                                 },
@@ -293,30 +294,35 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "When data is stored electronically, it is subject to the laws of the country in which it's located."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "Who owns the data?"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "Who has access to the data?"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "Who can mine the data?"
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "Laws governing data use, access, storage, and deletion vary from country to country."
                                 }
@@ -333,24 +339,28 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Consideration",
                                     "insc_cntn": "'Where people log in from' can identify potential security issues."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Suspicious Activity",
                                     "insc_cntn": "Logins from geographically diverse areas within a short period of time (unless VPN'd)."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Suspicious Activity",
                                     "insc_cntn": "Logins from foreign countries."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Suspicious Activity",
                                     "insc_cntn": "Unusual or flagged IP Blocks."
                                 }

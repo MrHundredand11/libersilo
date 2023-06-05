@@ -11,8 +11,8 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Appearances</b></u> <i>of the</i> (<b><i>3-7-12 Pattern</b></i>)</span>",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>Appearances</b></u> <i>of the</i> (<b><i>3-7-12 Pattern</b></i>)",
                     "scion_id": "ls_mmm_pttrn_p3712_000_appr",
                     "scions": [
                         {

@@ -474,50 +474,6 @@
             "scion_snip": "HI",
             "scions": [
                 {
-                    "ls_id": "LS-HI-AA",
-                    "ls_ttl": "Angels + ArchAngels",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/hi/aa",
-                    "scion_id": "ls_hi_aa",
-                    "scions": [
-                        {
-                            "ls_id": "LS-HI-AA-7A",
-                            "ls_ttl": "The 7 Archangels",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-ANGL",
-                            "ls_ttl": "Angels + Angelic Entities",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-HANIAL",
-                            "ls_ttl": "The ArchAngel Haniel",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-MTTRN",
-                            "ls_ttl": "The ArchAngel Metatron",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-RZYAL",
-                            "ls_ttl": "The ArchAngel Raziel",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-TzPKYAL",
-                            "ls_ttl": "The ArchAngel Tzaphkiel",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-AA-URYAL",
-                            "ls_ttl": "The ArchAngel Uriel",
-                            "ls_type": "+>"
-                        }
-                    ]
-                },
-                {
                     "ls_id": "LS-HI-ALIEN",
                     "ls_ttl": "Alien Life",
                     "ls_type": "=>",
@@ -597,6 +553,50 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HI-ANGL",
+                    "ls_ttl": "Angels + ArchAngels",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hi/angl",
+                    "scion_id": "ls_hi_angl",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-ANGL-000",
+                            "ls_ttl": "Angels + Angelic Entities",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-7A",
+                            "ls_ttl": "The 7 Archangels",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-HANIAL",
+                            "ls_ttl": "The ArchAngel Haniel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-MTTRN",
+                            "ls_ttl": "The ArchAngel Metatron",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-RZYAL",
+                            "ls_ttl": "The ArchAngel Raziel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-TzPKYAL",
+                            "ls_ttl": "The ArchAngel Tzaphkiel",
+                            "ls_type": "+>"
+                        },
+                        {
+                            "ls_id": "LS-HI-ANGL-URYAL",
+                            "ls_ttl": "The ArchAngel Uriel",
+                            "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-HI-ANML",
                     "ls_ttl": "Animal Inhabitants",
                     "ls_type": "=>",
@@ -663,7 +663,7 @@
                 },
                 {
                     "ls_id": "LS-HI-DIV",
-                    "ls_ttl": "Manifestations of God",
+                    "ls_ttl": "Divine Manifestations",
                     "ls_type": "=>",
                     "ls_url": "/ls/hi/div",
                     "scion_id": "ls_hi_div",
@@ -755,39 +755,39 @@
                     ]
                 },
                 {
-                    "ls_id": "LS-HI-FAE",
-                    "ls_ttl": "The Gentle Faerie Folk",
+                    "ls_id": "LS-HI-DMN",
+                    "ls_ttl": "Demons + Demonology",
                     "ls_type": "=>",
-                    "ls_url": "/ls/hi/fae/",
-                    "scion_id": "ls_hi_fae",
+                    "ls_url": "/ls/hi/dmn/",
+                    "scion_id": "ls_hi_dmn",
                     "scions": [
                         {
-                            "ls_id": "LS-HI-FAE-000",
-                            "ls_ttl": "Overview of 'The Gentle Faerie Folk'",
+                            "ls_id": "LS-HI-DMN-000",
+                            "ls_ttl": "Overview of Demons + Demonology",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/fae/000.json",
-                            "scion_id": "ls_hi_fae_000"
+                            "ls_url": "/ls/hi/dmn/000.json",
+                            "scion_id": "ls_hi_dmn_000"
                         },
                         {
-                            "ls_id": "LS-HI-FAE-DRCT",
-                            "ls_ttl": "Directory + Dictionary of The Faerie Folk",
+                            "ls_id": "LS-HI-DMN-DEVIL",
+                            "ls_ttl": "The Devil",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/fae/drct.json",
-                            "scion_id": "ls_hi_fae_drct"
+                            "ls_url": "/ls/hi/dmn/devil.json",
+                            "scion_id": "ls_hi_dmn_devil"
                         },
                         {
-                            "ls_id": "LS-HI-FAE-FOOD",
-                            "ls_ttl": "Foods of The Faerie Folk",
+                            "ls_id": "LS-HI-DMN-EXRCSM",
+                            "ls_ttl": "Exorcism + Exorcists",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/fae/food.json",
-                            "scion_id": "ls_hi_fae_food"
+                            "ls_url": "/ls/hi/dmn/exrcsm.json",
+                            "scion_id": "ls_hi_dmn_exrcsm"
                         },
                         {
-                            "ls_id": "LS-HI-FAE-WARD",
-                            "ls_ttl": "Defensive Measures for Faerie Emergencies",
+                            "ls_id": "LS-HI-FAE-LVTHN",
+                            "ls_ttl": "Leviathan",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/fae/ward.json",
-                            "scion_id": "ls_hi_fae_ward"
+                            "ls_url": "/ls/hi/dmn/lvthn.json",
+                            "scion_id": "ls_hi_dmn_lvthn"
                         }
                     ]
                 },
@@ -823,6 +823,29 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HI-FAE",
+                    "ls_ttl": "The Faerie Folk",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hi/fae/",
+                    "scion_id": "ls_hi_fae",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-FAE-000",
+                            "ls_ttl": "Overview of The Faerie Folk",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/000.json",
+                            "scion_id": "ls_hi_fae_000"
+                        },
+                        {
+                            "ls_id": "LS-HI-FAE-DRCT",
+                            "ls_ttl": "Directory to The Faerie Folk",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/fae/drct.json",
+                            "scion_id": "ls_hi_fae_drct"
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-HI-NTR",
                     "ls_ttl": "The Neteru",
                     "ls_type": "=>",
@@ -830,22 +853,29 @@
                     "scion_id": "ls_hi_ntr",
                     "scions": [
                         {
+                            "ls_id": "LS-HI-NTR-HORUS",
+                            "ls_ttl": "Horus",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ntr/horus.json",
+                            "scion_id": "ls_hi_ntr_horus"
+                        },
+                        {
                             "ls_id": "LS-HI-NTR-ISIS",
-                            "ls_ttl": "The Goddess Isis",
+                            "ls_ttl": "Isis",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/ntr/isis.json",
                             "scion_id": "ls_hi_ntr_isis"
                         },
                         {
                             "ls_id": "LS-HI-NTR-MAAT",
-                            "ls_ttl": "The Goddess Ma'at",
+                            "ls_ttl": "Ma'at",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/ntr/maat.json",
                             "scion_id": "ls_hi_ntr_maat"
                         },
                         {
                             "ls_id": "LS-HI-NTR-SET",
-                            "ls_ttl": "The God Set",
+                            "ls_ttl": "Set",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/ntr/set.json",
                             "scion_id": "ls_hi_ntr_set"
@@ -856,6 +886,8 @@
                     "ls_id": "LS-HI-PPL",
                     "ls_ttl": "Peoples + Persons",
                     "ls_type": "=>",
+                    "ls_url": "/ls/hi/ppl/",
+                    "scion_id": "ls_hi_ppl",
                     "scions": [
                         {
                             "ls_id": "LS-HI-PPL-ANCSTR",
@@ -878,19 +910,38 @@
                             "ls_type": "+>"
                         },
                         {
-                            "ls_id": "LS-HI-PPL-PYTHGRS",
-                            "ls_ttl": "Pythagoras",
-                            "ls_type": "+>"
-                        },
-                        {
-                            "ls_id": "LS-HI-PPL-SANTA",
-                            "ls_ttl": "Santa Claus",
-                            "ls_type": "+>"
-                        },
-                        {
                             "ls_id": "LS-HI-PPL-WLDONES",
                             "ls_ttl": "The Wild Ones",
                             "ls_type": "+>"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-HI-SPRT",
+                    "ls_ttl": "Spiritual Forces",
+                    "ls_url": "/ls/hi/sprt/",
+                    "scion_id": "ls_hi_sprt",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-SPRT-000",
+                            "ls_ttl": "Overview of Spiritual Forces",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/sprt/000.json",
+                            "scion_id": "ls_hi_sprt_000"
+                        },
+                        {
+                            "ls_id": "LS-HI-SPRT-EGRGRE",
+                            "ls_ttl": "The Egregore",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/sprt/egrgre.json",
+                            "scion_id": "ls_hi_sprt_egrgre"
+                        },
+                        {
+                            "ls_id": "LS-HI-SPRT-PHNMNA",
+                            "ls_ttl": "The Phenomena",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/sprt/phnmna.json",
+                            "scion_id": "ls_hi_sprt_phnmna"
                         }
                     ]
                 }

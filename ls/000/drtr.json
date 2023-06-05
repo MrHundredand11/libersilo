@@ -460,15 +460,8 @@
                     "ls_id": "LS-DGTL-TRBL",
                     "ls_ttl": "Troubleshooting",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/trbl/",
                     "scion_id": "ls_dgtl_trbl"
-                },
-                {
-                    "ls_id": "LS-DGTL-V",
-                    "ls_ttl": "Digital Vendors",
-                    "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_dgtl_v"
                 }
             ]
         },
@@ -480,23 +473,6 @@
             "scion_id": "ls_hi",
             "scion_snip": "HI",
             "scions": [
-                {
-                    "ls_id": "LS-HI-000",
-                    "ls_ttl": "Overview of 'The Handbook of Inhabitants'",
-                    "ls_type": "+>",
-                    "ls_url": "/ls/hi/000.json",
-                    "scion_id": "ls_hi_000"
-                },
-                {
-                    "ls_id": "LS-HI-101-EGRGRE",
-                    "ls_ttl": "Egregores",
-                    "ls_type": "+>"
-                },
-                {
-                    "ls_id": "LS-HI-101-PHNMNA",
-                    "ls_ttl": "The Phenomena",
-                    "ls_type": "+>"
-                },
                 {
                     "ls_id": "LS-HI-AA",
                     "ls_ttl": "Angels + ArchAngels",

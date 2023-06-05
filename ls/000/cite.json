@@ -1792,7 +1792,32 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Gnostic Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Golden Dawn Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kabbalistic Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Martinist Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Masonic Monographs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Qabbalistic Monographs"
                         },
                         {
                             "insc_typ1": "insc",

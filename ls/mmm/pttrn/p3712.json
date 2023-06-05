@@ -17,7 +17,7 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The Old Testament",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_bbl_ot",
                             "scions": [
@@ -34,7 +34,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The New Testament",
                             "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_bbl_nt",
@@ -52,7 +52,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The Celestial Science",
                             "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_astr",
@@ -70,7 +70,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The Cube of Space",
                             "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_cube",
@@ -88,7 +88,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The Arcana Alphabet",
                             "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_qblh_aa",
@@ -106,7 +106,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_bg",
+                            "insc_typ2": "trm",
                             "insc_term": "The Masonic Tradition",
                             "insc_offs": "offs_dwn_47",
                             "scion_id": "ls_mmm_pttrn_p3712_000_appr_msnc",

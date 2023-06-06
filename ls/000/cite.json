@@ -801,6 +801,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Pivik, Brian",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Pollack, Rachel",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1746,6 +1753,15 @@
                             "cite_isbn13": "978-0615701028",
                             "cite_isbn10": "0615701027",
                             "cite_link": [{"link": "http://www.bnti.us/"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Gematria and the Tanakh",
+                            "cite_tstr": [{"name": "Pivik, Brian"}],
+                            "cite_date": "2017",
+                            "cite_isbn13": "978-1-257-09404-2"
                         },
                         {
                             "insc_typ1": "cite",

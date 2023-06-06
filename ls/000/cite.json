@@ -673,6 +673,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Marsh, Clint",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "McCarthy, Josephine",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -830,6 +837,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Shoemaker, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Silva, Mari",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1367,7 +1381,7 @@
                             "cite_ttl": "The Complete Enochian Dictionary",
                             "cite_sbtt": "A Dictionary of the Angelic Language as Revealed to Dr. John Dee and Edward Kelley",
                             "cite_auth": [{"name": "Laycock, Donald C."}],
-                            "cite_pbls": "Red Wheel/Weiser LLC",
+                            "cite_pbls": "Red Wheel/Weiser, LLC",
                             "cite_date": "1994",
                             "cite_edtn": "2001 Red Wheel/Weiser",
                             "cite_isbn13": "978-1-57863-254-1",
@@ -1927,6 +1941,28 @@
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_hmn",
                     "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Astral Projection",
+                            "cite_sbtt": "A Guide on How to Travel the Astral Plane and Have an Out-Of-Body Experience",
+                            "cite_auth": [{"name": "Silva, Mari"}],
+                            "cite_date": "2020",
+                            "cite_isbn13": "9798685275905",
+                            "cite_link": [{"link": "http://spiritualityspot.com/meditation/"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Mentalist's Handbook",
+                            "cite_sbtt": "An Explorer's Guide to Astral, Spirit, and Psychic Worlds",
+                            "cite_auth": [{"name": "Marsh, Clint"}],
+                            "cite_date": "2008",
+                            "cite_pbls": "Red Wheel/Weiser, LLC",
+                            "cite_isbn13": "978-1-57863-421-7"
+                        },
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",

@@ -1296,57 +1296,18 @@
                     "scion_id": "ls_hmn_psi",
                     "scions": [
                         {
-                            "ls_id": "LS-HMN-PSI-3RDEYE",
-                            "ls_ttl": "The Third Eye and Spiritual Vision",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/3rdeye/",
-                            "scion_id": "ls_hmn_psi_3rdeye",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-3RDEYE-000",
-                                    "ls_ttl": "Overview of The Third Eye",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/3rdeye/000.json",
-                                    "scion_id": "ls_hmn_psi_3rdeye_000"
-                                }
-                            ]
-                        },
-                        {
-                            "ls_id": "LS-HMN-PSI-AETHYR",
-                            "ls_ttl": "Out of Body Traveling",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/aethyr/",
-                            "scion_id": "ls_hmn_psi_aethyr",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-AETHYR-000",
-                                    "ls_ttl": "Overview of the Aethyric Sciences",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/aethyr/000.json",
-                                    "scion_id": "ls_hmn_psi_aethyr_000"
-                                },
-                                {
-                                    "ls_id": "LS-HMN-PSI-AETHYR-AURA",
-                                    "ls_ttl": "The Energy Bodies of The Aura",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/aethyr/aura.json",
-                                    "scion_id": "ls_hmn_psi_aethyr_aura"
-                                },
-                                {
-                                    "ls_id": "LS-HMN-PSI-AETHYR-LOVE",
-                                    "ls_ttl": "Astral Love",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/aethyr/love.json",
-                                    "scion_id": "ls_hmn_psi_aethyr_love"
-                                }
-                            ]
-                        },
-                        {
                             "ls_id": "LS-HMN-PSI-APPORTS",
                             "ls_ttl": "Apportation",
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/psi/apports.json",
                             "scion_id": "ls_hmn_psi_apports"
+                        },
+                        {
+                            "ls_id": "LS-HMN-PSI-ASTRLPR",
+                            "ls_ttl": "Astral Projection",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/hmn/psi/astrlpr.json",
+                            "scion_id": "ls_hmn_psi_astrlpr"
                         },
                         {
                             "ls_id": "LS-HMN-PSI-DRCTVC",
@@ -1357,19 +1318,10 @@
                         },
                         {
                             "ls_id": "LS-HMN-PSI-DREAM",
-                            "ls_ttl": "Dreams + Dreaming",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/dream/",
-                            "scion_id": "ls_hmn_psi_dream",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-DREAM-YOGA",
-                                    "ls_ttl": "Dream Yoga",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/dream/yoga.json",
-                                    "scion_id": "ls_hmn_psi_dream_yoga"
-                                }
-                            ]
+                            "ls_ttl": "Dreams",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/dream.json",
+                            "scion_id": "ls_hmn_psi_dream"
                         },
                         {
                             "ls_id": "LS-HMN-PSI-PRCPTTN",
@@ -1398,6 +1350,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/psi/sltwrt.json",
                             "scion_id": "ls_hmn_psi_sltwrt"
+                        },
+                        {
+                            "ls_id": "LS-HMN-PSI-SPRTVSN",
+                            "ls_ttl": "Spiritual Vision",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/sprtvsn.json",
+                            "scion_id": "ls_hmn_psi_sprtvsn"
                         }
                     ]
                 },

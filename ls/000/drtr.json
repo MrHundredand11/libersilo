@@ -3960,30 +3960,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "ls_id": "LS-TK",
-            "ls_ttl": "TimeKeeper",
-            "ls_type": "->",
-            "ls_url": "/ls/tk/",
-            "scion_id": "ls_tk",
-            "scion_snip": "TK"
-        },
-        {
-            "ls_id": "LS-WUB",
-            "ls_ttl": "Sound",
-            "ls_type": "->",
-            "ls_url": "/ls/wub/",
-            "scion_id": "ls_wub",
-            "scion_snip": "WUB"
-        },
-        {
-            "ls_id": "LS-XRC",
-            "ls_ttl": "Exercises",
-            "ls_type": "->",
-            "ls_url": "/ls/xrc/",
-            "scion_id": "ls_xrc",
-            "scion_snip": "XRC"
         }
     ]
 }

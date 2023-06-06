@@ -2232,6 +2232,85 @@
                             "cite_isbn13": "9798487639653"
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Nature Information</b></u>",
+                    "scion_id": "ls_000_cite_book_lst_nn",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Magical Gardens",
+                            "cite_sbtt": "Cultivating Soil & Spirit",
+                            "cite_auth": [{"name": "Monaghan, Patricia"}],
+                            "cite_date": "1997",
+                            "cite_edtn": "Second Revised and Expanded Edition",
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_isbn13": "978-0-7387-3192-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Cunningham's Encyclopedia of Magical Herbs",
+                            "cite_auth": [{"name": "Cunningham, Scott"}],
+                            "cite_date": "1985",
+                            "cite_edtn": "Second Edition, Thirty-third Printing, 2020",
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_isbn13": "978-0-87542-122-3",
+                            "cite_isbn10": "0-87542-122-9"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Gemstones of the World",
+                            "cite_auth": [{"name": "Schumann, Walter"}],
+                            "cite_tstr": [{"name": "Stern, Evelyne"}],
+                            "cite_date": "1977",
+                            "cite_edtn": "1979 Reprint",
+                            "cite_pbls": "Sterling Publishing, Co.",
+                            "cite_isbn10": "0-8069-3088-8"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Healing Mushrooms",
+                            "cite_sbtt": "A Practical Guide to Medicinal Mushrooms",
+                            "cite_auth": [{"name": "Bray, Richard"}],
+                            "cite_edtr": [{"name": "Booth, Marlene Lili"}],
+                            "cite_date": "2020",
+                            "cite_pbls": "Monkey Publishing",
+                            "cite_isbn13": "9798670261661"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Master Book of Herbalism",
+                            "cite_auth": [{"name": "Beyerl, Paul"}],
+                            "cite_pbls": "Phoenix Publishing Inc.",
+                            "cite_date": "1984",
+                            "cite_isbn13": "0-919345-53-0"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Moldavite",
+                            "cite_sbtt": "Starborn Stone of Transformation",
+                            "cite_auth": [{"name": "Simmons, Robert"},{"name": "Warner, Kathy"}],
+                            "cite_pbls": "Heaven & Earth Publishing LLC",
+                            "cite_date": "1988",
+                            "cite_edtn": "Eighth Pringing: November 2015",
+                            "cite_isbn13": "0-9621910-0-0",
+                            "cite_locc": "89-080025"
+                        }
+                    ]
                 }
             ]
         },

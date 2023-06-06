@@ -130,6 +130,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Berres, Janet",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Blavatsky, H.P.",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -138,6 +145,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Bloch, Douglas",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Braden, Greg",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -453,6 +467,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Heiser, Michael S.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Hubbard, Lafayette Ron",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -607,6 +628,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Malachi, Tau",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "McCarthy, Josephine",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -647,6 +675,13 @@
                                     "insc_cntn": "Dr. Chuck Missler"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morehead, Ron",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -855,6 +890,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Waite, Arthur Edward",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Wall, Amy M.",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -901,6 +943,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Weor, Samael Aun",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wilson, Robert Anton",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1628,6 +1677,15 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Textbook of the Tarot",
+                            "cite_auth": [{"name": "Berres, Janet"}],
+                            "cite_pbls": "Moonbeam Publishers",
+                            "cite_date": "1993"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Thirty-Two Paths of Wisdom",
                             "cite_auth": [{"name": "Case, Paul Foster"}],
                             "cite_edtr": [{"name": "Coleman, Wade"}],
@@ -1741,7 +1799,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Daily Vagus Nerve Exercises",
-                            "cite_cbtt": "Extended Edition",
+                            "cite_sbtt": "Extended Edition",
                             "cite_auth": [{"name": "Wright, Wallace"}],
                             "cite_date": "2021",
                             "cite_edtn": "Monee, IL, 29 October 2021",
@@ -1765,6 +1823,36 @@
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_dgtl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Inhabitant Information</b></u>",
+                    "scion_id": "ls_000_cite_book_lst_hi",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Quantum Bigfoot",
+                            "cite_auth": [{"name": "Morehead, Ronald J."}],
+                            "cite_pbls": "Sierra Sounds",
+                            "cite_edtn": "Columbia, SC, 01 November 2021",
+                            "cite_date": "2017",
+                            "cite_isbn13": "978-0-9851151-5-9"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Skinwalkers at the Pentagon",
+                            "cite_sbtt": "An Insider's Account of the Secret Government UFO Program",
+                            "cite_auth": [{"name": "Lacatski, James T."},{"name": "Kelleher, Colm A."},{"name": "Knapp, George"}],
+                            "cite_pbls": "RTMA, LLC",
+                            "cite_date": "2021",
+                            "cite_isbn13": "9798487639653"
+                        }
+                    ]
                 }
             ]
         },

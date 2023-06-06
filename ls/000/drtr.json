@@ -1305,7 +1305,7 @@
                         {
                             "ls_id": "LS-HMN-PSI-ASTRLPR",
                             "ls_ttl": "Astral Projection",
-                            "ls_type": "=>",
+                            "ls_type": "+>",
                             "ls_url": "/ls/hmn/psi/astrlpr.json",
                             "scion_id": "ls_hmn_psi_astrlpr"
                         },

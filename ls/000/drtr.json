@@ -920,6 +920,7 @@
                     "ls_id": "LS-HI-SPRT",
                     "ls_ttl": "Spiritual Forces",
                     "ls_url": "/ls/hi/sprt/",
+                    "ls_type": "=>",
                     "scion_id": "ls_hi_sprt",
                     "scions": [
                         {

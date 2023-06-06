@@ -2121,7 +2121,102 @@
                     "ls_ttl": "Geometry",
                     "ls_url": "/ls/mmm/gomtr",
                     "ls_type": "=>",
-                    "scion_id": "ls_mmm_gomtr"
+                    "scion_id": "ls_mmm_gomtr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-GOMTR-SHP",
+                            "ls_ttl": "Geometric Shapes",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/mmm/gomtr/shp/.json",
+                            "scion_id": "ls__mmm_gomtr_shp",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-000",
+                                    "ls_ttl": "Overview of Geometric Shapes",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/000.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-CIRCLE",
+                                    "ls_ttl": "The Circle",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/circle.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_circle"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-ELLPS",
+                                    "ls_ttl": "The Ellipse",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/ellps.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_ellps"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-HXGRM",
+                                    "ls_ttl": "The Hexagram",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/hxgrm.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_hxgrm"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-PNTGRM",
+                                    "ls_ttl": "The Pentagram",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/pntgrm.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_pntgrm"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-PYRMD",
+                                    "ls_ttl": "The Pyramid",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/pyrmd.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_pyrmd"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-SPIRAL",
+                                    "ls_ttl": "The Spiral",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/spiral.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_spiral"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-SQUARE",
+                                    "ls_ttl": "The Square",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/square.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_square"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-STAR",
+                                    "ls_ttl": "The Star",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/star.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_star"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-TRIANGL",
+                                    "ls_ttl": "The Triangle",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/triangl.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_triangle"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-TTT",
+                                    "ls_ttl": "The Triple Tau",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/ttt.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_ttt"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-GOMTR-SHP-VSCPSC",
+                                    "ls_ttl": "The Vesica Piscis",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/mmm/gomtr/shp/vcspsc.json",
+                                    "scion_id": "ls__mmm_gomtr_shp_vcspsc"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-MMM-ND",

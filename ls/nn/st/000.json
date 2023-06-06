@@ -61,7 +61,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Sacred Taxonomy</b></i>)",
+                    "insc_ttl": "<b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i> (<b><i>Sacred Taxonomy</b></i>)",
                     "scion_id": "ls_nn_st_000_luls_bbl",
                     "scions": [
                         {
@@ -72,7 +72,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
                                     "insc_tag": "Text",
-                                    "insc_cntn": "[\t<span class='font_sitka size_23px'><b><i>...and the leaves of the tree were for the healing of nations...</b></i></span>\t]"
+                                    "insc_cntn": "[\t\t<span class='font_sitka size_23px'><b><i>...and the leaves of the tree were for the healing of nations...</b></i></span>\t\t]"
                                 }
                             ]
                         }

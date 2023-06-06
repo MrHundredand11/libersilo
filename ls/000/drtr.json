@@ -662,6 +662,36 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HI-CNTCT",
+                    "ls_ttl": "Contact Methods",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hi/cntct/",
+                    "scion_id": "ls_hi_cntct",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-CNTCT-PSCHMTR",
+                            "ls_ttl": "Psychometry",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/pschmtr.json",
+                            "scion_id": "ls_hi_cntct_pschmtr"
+                        },
+                        {
+                            "ls_id": "LS-HI-CNTCT-SKRY",
+                            "ls_ttl": "Skrying",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/skry.json",
+                            "scion_id": "ls_hi_cntct_skry"
+                        },
+                        {
+                            "ls_id": "LS-HI-CNTCT-TBLTP",
+                            "ls_ttl": "Table Tipping",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/tbltp.json",
+                            "scion_id": "ls_hi_cntct_tbltp"
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-HI-DIV",
                     "ls_ttl": "Divine Manifestations",
                     "ls_type": "=>",
@@ -965,7 +995,7 @@
                 },
                 {
                     "ls_id": "LS-HMN-BD",
-                    "ls_ttl": "Human Bodies",
+                    "ls_ttl": "Body Anatomies",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/bd/",
                     "scion_id": "ls_hmn_bd"
@@ -1141,11 +1171,39 @@
                     "scion_id": "ls_hmn_life",
                     "scions": [
                         {
+                            "ls_id": "LS-HMN-LIFE-2BORN",
+                            "ls_ttl": "The Second Birth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/2born.json",
+                            "scion_id": "ls_hmn_life_2born"
+                        },
+                        {
+                            "ls_id": "LS-HMN-LIFE-IMMRTL",
+                            "ls_ttl": "Immortality",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/immrtl.json",
+                            "scion_id": "ls_hmn_life_immrtl"
+                        },
+                        {
+                            "ls_id": "LS-HMN-LIFE-LLL-LIFE",
+                            "ls_ttl": "Life",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/lll/life.json",
+                            "scion_id": "ls_hmn_life_lll_life"
+                        },
+                        {
                             "ls_id": "LS-HMN-LIFE-RENCRNT",
                             "ls_ttl": "Reincarnation",
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/life/rencrnt.json",
                             "scion_id": "ls_hmn_life_rencrnt"
+                        },
+                        {
+                            "ls_id": "LS-HMN-LIFE-SOZO",
+                            "ls_ttl": "Sozo",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/sozo.json",
+                            "scion_id": "ls_hmn_life_sozo"
                         }
                     ]
                 },
@@ -1284,34 +1342,18 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-HMN-PSI-CNTCT",
-                            "ls_ttl": "Spiritual Contact Methods",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/cntct/",
-                            "scion_id": "ls_hmn_psi_cntct",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-CNTCT-PSCHMTR",
-                                    "ls_ttl": "Psychometry",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/cntct/pschmtr.json",
-                                    "scion_id": "ls_hmn_psi_cntct_pschmtr"
-                                },
-                                {
-                                    "ls_id": "LS-HMN-PSI-CNTCT-SKRY",
-                                    "ls_ttl": "Skrying",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/cntct/skry.json",
-                                    "scion_id": "ls_hmn_psi_cntct_skry"
-                                },
-                                {
-                                    "ls_id": "LS-HMN-PSI-CNTCT-TBLTP",
-                                    "ls_ttl": "Table Tipping",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/cntct/tbltp.json",
-                                    "scion_id": "ls_hmn_psi_cntct_tbltp"
-                                }
-                            ]
+                            "ls_id": "LS-HMN-PSI-APPORTS",
+                            "ls_ttl": "Apportation",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/apports.json",
+                            "scion_id": "ls_hmn_psi_apports"
+                        },
+                        {
+                            "ls_id": "LS-HMN-PSI-DRCTVC",
+                            "ls_ttl": "Direct Voice",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/drctvc.json",
+                            "scion_id": "ls_hmn_psi_drctvc"
                         },
                         {
                             "ls_id": "LS-HMN-PSI-DREAM",
@@ -1330,43 +1372,32 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-HMN-PSI-PSIPWR",
-                            "ls_ttl": "Psychic Powers",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/psipwr/",
-                            "scion_id": "ls_hmn_psi_psipwr",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-PSIPWR-000",
-                                    "ls_ttl": "Overview of Psychic Powers",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/psipwr/000.json",
-                                    "scion_id": "ls_hmn_psi_psipwr_000"
-                                }
-                            ]
+                            "ls_id": "LS-HMN-PSI-PRCPTTN",
+                            "ls_ttl": "Precipitation",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/prcpttn.json",
+                            "scion_id": "ls_hmn_psi_prcpttn"
+                        },
+                        {
+                            "ls_id": "LS-HMN-PSI-PSPHOTO",
+                            "ls_ttl": "Psychic Photography",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/psphoto.json",
+                            "scion_id": "ls_hmn_psi_psphoto"
                         },
                         {
                             "ls_id": "LS-HMN-PSI-RV",
                             "ls_ttl": "Remote Viewing",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/hmn/psi/rv/",
-                            "scion_id": "ls_hmn_psi_rv",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-HMN-PSI-RV-000",
-                                    "ls_ttl": "Overview of Remote Viewing",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/rv/000.json",
-                                    "scion_id": "ls_hmn_psi_rv_000"
-                                },
-                                {
-                                    "ls_id": "LS-HMN-PSI-RV-HIST",
-                                    "ls_ttl": "History of Remote Viewing",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/hmn/psi/rv/hist.json.json",
-                                    "scion_id": "ls_hmn_psi_rv_hist"
-                                }
-                            ]
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/rv.json",
+                            "scion_id": "ls_hmn_psi_rv"
+                        },
+                        {
+                            "ls_id": "LS-HMN-PSI-SLTWRT",
+                            "ls_ttl": "Slate Writing",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/sltwrt.json",
+                            "scion_id": "ls_hmn_psi_sltwrt"
                         }
                     ]
                 },

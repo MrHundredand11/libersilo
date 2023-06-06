@@ -829,6 +829,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Rawn, Jonathan David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Regula, deTraci",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1693,6 +1700,17 @@
                             "cite_isbn13": "978-0-88079-715-3",
                             "cite_isbn10": "0-88079-715-0",
                             "cite_locc": "95-060628"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Discovering Gematria",
+                            "cite_sbtt": "Foundational Exegesis and Primary Dictionary",
+                            "cite_auth": [{"name": "Rawn, Jonathan David"}],
+                            "cite_pbls": "Gematria Publishing",
+                            "cite_date": "2008",
+                            "cite_isbn": "0-9818901-0-5"
                         },
                         {
                             "insc_typ1": "cite",

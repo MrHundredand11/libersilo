@@ -130,6 +130,30 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Barry, Kieren",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Belk, Akiva Gamliel",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Dr. Akiva Gamliel Belk"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Berres, Janet",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -151,7 +175,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
-                            "insc_term": "Braden, Greg",
+                            "insc_term": "Braden, Gregg",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -159,6 +183,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Buckland, Raymond",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Burgoyne, Thomas H.",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -593,6 +624,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Laycock, Donald C.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Lévi, Éliphas",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -798,6 +836,20 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Skinner, Stephen",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Slate, Joe H.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Smith, George",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -943,6 +995,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Weor, Samael Aun",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Weschcke, Carl Llewellyn",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1305,6 +1364,19 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Complete Enochian Dictionary",
+                            "cite_sbtt": "A Dictionary of the Angelic Language as Revealed to Dr. John Dee and Edward Kelley",
+                            "cite_auth": [{"name": "Laycock, Donald C."}],
+                            "cite_pbls": "Red Wheel/Weiser LLC",
+                            "cite_date": "1994",
+                            "cite_edtn": "2001 Red Wheel/Weiser",
+                            "cite_isbn13": "978-1-57863-254-1",
+                            "cite_isbn10": "1-57863-254-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Complete Illustrated Guide to Tarot",
                             "cite_sbtt": "How to Unlock the Secrets of the Tarot",
                             "cite_auth": [{"name": "Pollack, Rachel"}],
@@ -1348,7 +1420,7 @@
                             "cite_pbls": "Park Street Press",
                             "cite_date": "2014",
                             "cite_isbn": "978-1-59477-342-6",
-                            "cite_link": [{"link": "http://www.rickstrassman.org"}]
+                            "cite_link": [{"link": "http://www.rickstrassman.org/"}]
                         },
                         {
                             "insc_typ1": "cite",
@@ -1361,7 +1433,7 @@
                             "cite_edtn": "First Publication 2008",
                             "cite_date": "1925",
                             "cite_isbn": "978-0-981898977-3-8",
-                            "cite_link": [{"link": "http://www.lvx.org"}]
+                            "cite_link": [{"link": "http://www.lvx.org/"}]
                         },
                         {
                             "insc_typ1": "cite",
@@ -1384,6 +1456,31 @@
                             "cite_edtn": "Fourth revised and expanded edition, 2018",
                             "cite_isbn13": "978-1-62055-721-1",
                             "cite_lccn": "2017043197"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Gematria and Mysticism in Genesis",
+                            "cite_tstr": [{"name": "Belk, Dr. Akiva Gamliel"}],
+                            "cite_pbls": "B'nai Noach Torah Institute, LLC",
+                            "cite_date": "2012",
+                            "cite_edtn": "First edition 2012",
+                            "cite_isbn13": "978-0615701028",
+                            "cite_isbn10": "0615701027",
+                            "cite_link": [{"link": "http://www.bnti.us/"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Greek Qabalah",
+                            "cite_sbtt": "Alphabetic Mysticism and Numerology in the Ancient World",
+                            "cite_tstr": [{"name": "Barry, Kieren"}],
+                            "cite_pbls": "Samiel Weiser, Inc.",
+                            "cite_date": "1999",
+                            "cite_isbn13": "9781578631100",
+                            "cite_isbn10": "1-57863-110-6"
                         },
                         {
                             "insc_typ1": "cite",
@@ -1412,11 +1509,36 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Light of Egypt",
+                            "cite_sbtt": "The Science of The Soul and The Stars",
+                            "cite_auth": [{"name": "Burgoyne, Thomas H."}],
+                            "cite_pbls": "Martino Publishing",
+                            "cite_date": "1889",
+                            "cite_edtn": "2013 Martino Publishing",
+                            "cite_isbn13": "978-1-61427-438-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Living Thelema",
                             "cite_auth": [{"name": "Shoemaker, David"}],
                             "cite_pbls": "Anima Solis Books",
                             "cite_date": "2013",
                             "cite_edtn": "First Reprinting, 2017",
+                            "cite_link": [{"link": "http://www.livingthelema.com"}],
+                            "cite_isbn13": "9780989384414"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Llewellyn Complete Book of Psychic Empowerment",
+                            "cite_sbtt": "A Compendium of Tools & Techniques for Growth & Transformation",
+                            "cite_auth": [{"name": "Weschcke, Carl Llewellyn"}, {"name": "Slate, Joe H."}],
+                            "cite_pbls": "Llewellyn Worldwide",
+                            "cite_date": "2011",
+                            "cite_edtn": "First Edition, Second Printing, 2012",
                             "cite_link": [{"link": "http://www.livingthelema.com"}],
                             "cite_isbn13": "9780989384414"
                         },
@@ -1610,6 +1732,17 @@
                             "cite_date": "1997",
                             "cite_edtn": "Revised edition published in 1997",
                             "cite_isbn10": "0-87728-855-0"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Sepher Yetzirah Magic",
+                            "cite_sbtt": "Magic and Meditations derived from the first and greatest Qabalistic Work",
+                            "cite_tstr": [{"name": "Rankine, David"}],
+                            "cite_pbls": "Hadean Press",
+                            "cite_date": "2020",
+                            "cite_isbn13": "978-1-907881-57-2"
                         },
                         {
                             "insc_typ1": "cite",

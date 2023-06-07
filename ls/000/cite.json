@@ -1249,6 +1249,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Gibson, Darril",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Hamedani, Mosh",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1349,6 +1356,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Atcheson, Daniel",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Lloyd, John Uri",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1394,6 +1408,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Marsh, Clint",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Patel, Dr. Rachna",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2287,6 +2308,17 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Estimating Earthwork Quantities",
+                            "cite_sbtt": "Extended Edition",
+                            "cite_auth": [{"name": "Atcheson, Daniel"}],
+                            "cite_pbls": "Norseman Publishing Company",
+                            "cite_date": "1983",
+                            "cite_locc": "83-090340"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Etidorhpa",
                             "cite_sbtt": "Extended Edition",
                             "cite_auth": [{"name": "Lloyd, John Uri"}],
@@ -2390,7 +2422,7 @@
                             "cite_auth": [{"name": "Gabriel, Bonnie"}],
                             "cite_pbls": "Bantam Books",
                             "cite_date": "1996",
-                            "cite_isbn13": "0-553-37396-X"
+                            "cite_isbn10": "0-553-37396-X"
                         }
                     ]
                 },
@@ -2398,7 +2430,20 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_dgtl"
+                    "scion_id": "ls_000_cite_book_lst_dgtl",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Security+ SY0-501 Study Guide",
+                            "cite_sbtt": "Get Certified Get Ahead",
+                            "cite_auth": [{"name": "Gibson, Darril"}],
+                            "cite_pbls": "YCDA, LLC",
+                            "cite_date": "2017",
+                            "cite_isbn13": "978-1-939136-05-3"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
@@ -2462,13 +2507,13 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
-                            "cite_ttl": "Magical Gardens",
-                            "cite_sbtt": "Cultivating Soil & Spirit",
-                            "cite_auth": [{"name": "Monaghan, Patricia"}],
-                            "cite_date": "1997",
-                            "cite_edtn": "Second Revised and Expanded Edition",
-                            "cite_pbls": "Llewellyn Publications",
-                            "cite_isbn13": "978-0-7387-3192-6"
+                            "cite_ttl": "The CBD Oil Solution",
+                            "cite_sbtt": "Treat chronic pain, anxiety, insomnia, and more - without the high",
+                            "cite_auth": [{"name": "Patel, Dr. Rachna"}, {"name": "Kindersley, Dorling"}],
+                            "cite_date": "2019",
+                            "cite_edtn": "First American Edition, 2019",
+                            "cite_pbls": "Penguin Random House",
+                            "cite_isbn13": "978-1-4654-8076-7"
                         },
                         {
                             "insc_typ1": "cite",
@@ -2505,6 +2550,18 @@
                             "cite_date": "2020",
                             "cite_pbls": "Monkey Publishing",
                             "cite_isbn13": "9798670261661"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Magical Gardens",
+                            "cite_sbtt": "Cultivating Soil & Spirit",
+                            "cite_auth": [{"name": "Monaghan, Patricia"}],
+                            "cite_date": "1997",
+                            "cite_edtn": "Second Revised and Expanded Edition",
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_isbn13": "978-0-7387-3192-6"
                         },
                         {
                             "insc_typ1": "cite",

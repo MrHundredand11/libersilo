@@ -879,6 +879,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Shapiro, Rabbi Rami",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Shaw, Victor",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1761,6 +1768,17 @@
                             "cite_pbls": "Gematria Publishing",
                             "cite_date": "2008",
                             "cite_isbn": "0-9818901-0-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Divine Feminine in Biblical Wisdom Literature",
+                            "cite_sbtt": "Selections Annotated & Explained",
+                            "cite_auth": [{"name": "Shapiro, Rabbi Rami"}],
+                            "cite_pbls": "SkyLight Paths Publishing",
+                            "cite_date": "2005",
+                            "cite_isbn": "1-59473-109-8"
                         },
                         {
                             "insc_typ1": "cite",

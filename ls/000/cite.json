@@ -419,6 +419,14 @@
                                     "insc_pntr": ">>",
                                     "insc_tag": "Also Known As",
                                     "insc_cntn": "Stephen E. Flowers, Ph D."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Edred Thorsson"
                                 }
                             ]
                         },
@@ -737,6 +745,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Maxwell, Paul",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "McCarthy, Josephine",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1013,6 +1028,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Tomlin, Chris",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Townley, Kevin",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1021,6 +1043,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "The Transcriber",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Trobe, Kala",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1158,6 +1187,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Allardice, Simon",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Anderson, Kurt",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1173,6 +1209,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Azam, Mohammad",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Bamikole, Ifedayo",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1228,6 +1271,27 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Catrinescu, Vlad",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chapman, Phil",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chappell, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Chiarelli, Charlie",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1236,6 +1300,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Christopher, John",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Clinton, David",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1270,6 +1341,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Eiler, Brian",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Eremenko, Krill",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1285,6 +1363,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Gibson, Darril",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hales, John",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1326,6 +1411,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Holdernes, Sarah",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Houchin, Matt",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1361,6 +1453,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Landry, Jean Francois",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Lawrence, Aaron",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1376,6 +1475,41 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Khurkhuriya, Jitesh",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Mallet, Andrew",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Milner, Matt",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morrissey, Neil",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Pfeiffer, Mike",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Seroter, Richard",
                             "insc_offs": "algn_y_up_23"
                         }
                     ]
@@ -1470,6 +1604,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Taomino, Tristan",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Wright, Wallace",
                             "insc_offs": "algn_y_up_23"
                         }
@@ -1508,6 +1649,27 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Franklin, Anna",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Griffiths-Morgan, Penny",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hayes, Bill",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hong, Wai Yee",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1601,6 +1763,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Bray, Richard",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cho, Anjie",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2550,6 +2719,16 @@
                             "cite_pbls": "Bantam Books",
                             "cite_date": "1996",
                             "cite_isbn10": "0-553-37396-X"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Ultimate Guide to Anal Sex for Women",
+                            "cite_sbtt": "First Edition, Cleis Press, Inc.",
+                            "cite_auth": [{"name": "Taomino, Tristan"}],
+                            "cite_date": "1998",
+                            "cite_pbls": "Cleis Press"
                         }
                     ]
                 },
@@ -2896,9 +3075,102 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.geeksforgeeks.org/"}],
+                            "cite_ttl": "Geeks for Geeks"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.pluralsight.com"}],
+                            "cite_ttl": "Pluralsight"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail"}],
-                            "cite_auth": "Ivan Kovachev",
+                            "cite_auth": [{"name": "Ivan Kovachev"}],
                             "cite_ttl": "SPF Hard Fail vs SPF Soft Fail"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Inhabitant Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_ls_hi",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.hallozween.com.au/the-estes-method/"}],
+                            "cite_ttl": "The Estes Method",
+                            "cite_auth": [{"name": "Hallozween"}]
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.haunted-houses.co.uk/the-estes-method-with-penny-griffiths-morgan/"}],
+                            "cite_ttl": "The Estes Method with Penny Griffiths-Morgan",
+                            "cite_auth": [{"name": "Griffiths-Morgan, Penny"}]
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://matteringsofmind.wordpress.com/2013/12/15/harvey-is-back-on-the-moon/"}],
+                            "cite_ttl": "Harvey is back on the Moon!",
+                            "cite_auth": [{"name": "Hayes, Bill"}, {"name": "matteringsofmind"}]
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.waiyeehong.com/oriental-culture/jade-rabbit-yutu"}],
+                            "cite_ttl": "The Jade Rabbit",
+                            "cite_auth": [{"name": "Hong, Wai Yee"}]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_ls_nn",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "http://www.gempundit.com/blog/astrological-benefits-of-citrine/"}],
+                            "cite_ttl": "Astrological Benefits of Citrine",
+                            "cite_auth": [{"name": "GemPundit"}]
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "http://www.thespruce.com/citrine-srystal-in-feng-shui-1274371/"}],
+                            "cite_ttl": "Learn How to Use Citrine Crystals for Good Feng Shui in Your Home",
+                            "cite_auth": [{"name": "Cho, Anjie"}, {"name": "The Spruce"}]
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "http://www.thepracticalherbalist.com/"}],
+                            "cite_ttl": "The Practical Herbalist",
+                            "cite_sbtt": "Concerning People with Plants"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.damndelicious.net/"}],
+                            "cite_ttl": "Damn Delicious"
                         }
                     ]
                 }

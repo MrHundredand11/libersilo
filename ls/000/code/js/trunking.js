@@ -153,10 +153,6 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.style['align-items'] = 'center';
                     insc_prtr.append(insc_pnt, insc_tag, insc_extn);    
 
-                    if (scion.insc_styl !== undefined) {
-                        insc_trm.classList.add(`${scion.insc_styl}`);
-                    }
-                            
                     break;
 
                 case 'lnk_stpl':

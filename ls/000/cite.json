@@ -189,6 +189,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Burger, Evelin",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Burgoyne, Thomas H.",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -375,6 +382,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Farrell, Nick",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Fiebig, Johannes",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1109,6 +1123,13 @@
                             "insc_tag": "Teacher",
                             "insc_term": "Wriste, Terry",
                             "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Ziegler, Gerd",
+                            "insc_offs": "algn_y_up_23"
                         }
                     ]
                 },
@@ -1675,6 +1696,17 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Book of Thoth",
+                            "cite_auth": [{"name": "Crowley, Aleister"}],
+                            "cite_date": "1944",
+                            "cite_pbls": "Red Wheel/Weiser LLC",
+                            "cite_edtn": "Thirty-seventh printing, 2017",
+                            "cite_isbn13": "978-0-87728-268-6"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Breakthrough Astrology",
                             "cite_auth": [{"name": "Levine, Joyce"}],
                             "cite_pbls": "Red Wheel/Weiser, LLC",
@@ -2137,6 +2169,17 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Secrets of the Thoth Tarot",
+                            "cite_auth": [{"name": "Katz, Marcus"}],
+                            "cite_date": "2018",
+                            "cite_pbls": "Forge Press: Kwesik",
+                            "cite_isbn13": "9781983270390",
+                            "cite_link": [{"link": "http://www.marcuskatz.com"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Sefer Yetzirah",
                             "cite_sbtt": "The Book of Creation: in Theory and Practice",
                             "cite_tstr": [{"name": "Kaplan, Aryeh"}],
@@ -2234,6 +2277,18 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Tarot",
+                            "cite_sbtt": "Mirror of the Soul",
+                            "cite_auth": [{"name": "Ziegler, Gerd"}],
+                            "cite_date": "1986",
+                            "cite_pbls": "Samuel Weiser, Inc.",
+                            "cite_edtn": "First Trade Paper Edition Published in 1988",
+                            "cite_isbn10": "0-87728-683-3"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Tarot Deciphered",
                             "cite_sbtt": "Decoding Esoteric Symbolism in Modern Tarot",
                             "cite_auth": [{"name": "Chang, T. Susan"}, {"name": "Meleen, M.M."}],
@@ -2261,7 +2316,28 @@
                             "cite_auth": [{"name": "Case, Paul Foster"}],
                             "cite_edtr": [{"name": "Coleman, Wade"}],
                             "cite_edtn": "January 2021",
-                            "cite_isbn": "9781733162081"
+                            "cite_isbn13": "9781733162081"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Thoth Tarot",
+                            "cite_auth": [{"name": "Burger, Evelin"},{"name": "Fiebig, Johannes"}],
+                            "cite_date": "2006",
+                            "cite_pbls": "Sterling Ethos",
+                            "cite_edtn": "English Translation 2016",
+                            "cite_isbn13": "978-1-4549-2146-2"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Understanding Aleister Crowley's Thoth Tarot",
+                            "cite_auth": [{"name": "DuQuette, Lon Milo"}],
+                            "cite_date": "2017",
+                            "cite_pbls": "Weiser Books",
+                            "cite_isbn13": "978-1-57863-623-5"
                         },
                         {
                             "insc_typ1": "cite",
@@ -2473,6 +2549,54 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Enchantment of the Faerie Realm",
+                            "cite_sbtt": "Communicate with Nature Spirits & Elementals",
+                            "cite_auth": [{"name": "Andrews, Ted"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_edtn": "Revised Edition, Seventh Printing, 2014",
+                            "cite_date": "2006",
+                            "cite_isbn13": "978-0-87542-002-8"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Faery",
+                            "cite_sbtt": "A Guide to the Lore, Magic & World of the Good Folk",
+                            "cite_auth": [{"name": "Kruse, John T."}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_edtn": "First Edition, Second Printing, 2022",
+                            "cite_date": "2020",
+                            "cite_isbn13": "9780738761893",
+                            "cite_locc": "2019055143"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Guide to the Fairy Ring",
+                            "cite_auth": [{"name": "Franklin, Anna"}],
+                            "cite_pbls": "Llewelyn Publications",
+                            "cite_date": "2002",
+                            "cite_edtn": "First Edition, First Printing, 2002",
+                            "cite_isbn10": "0-7387-0274-9"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Healing with the Faeries",
+                            "cite_sbtt": "Messages, Manifestations, and Love from the World of the Fairies",
+                            "cite_auth": [{"name": "Virtue, Doreen"}],
+                            "cite_pbls": "Hay House, Inc",
+                            "cite_date": "2001",
+                            "cite_edtn": "First Printing, May 2001",
+                            "cite_isbn10": "1-56170-807-0"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "How to Communicate with Spirits",
                             "cite_auth": [{"name": "Owens, Elizabeth"}],
                             "cite_date": "2001",
@@ -2512,6 +2636,41 @@
                             "cite_pbls": "RTMA, LLC",
                             "cite_date": "2021",
                             "cite_isbn13": "9798487639653"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Through the Faerie Glass",
+                            "cite_sbtt": "A Look at the Realm of Unseen and Enchanted Beings",
+                            "cite_auth": [{"name": "Klein, Kenny"}],
+                            "cite_pbls": "Llewelyn Publications",
+                            "cite_date": "2010",
+                            "cite_edtn": "First Edition, First Printing, 2010",
+                            "cite_isbn13": "978-0-7387-1883-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Wisdom of the Plant Devas",
+                            "cite_sbtt": "Herbal Medicine for a New Earth",
+                            "cite_auth": [{"name": "Deer, Thea Summer"}],
+                            "cite_pbls": "Bear & Company",
+                            "cite_date": "2011",
+                            "cite_isbn13": "978-1-59143-085-8"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "A Witch's Guide to Faery Folk",
+                            "cite_sbtt": "How to Work with the Elemental World",
+                            "cite_auth": [{"name": "McCoy, Edain"}],
+                            "cite_pbls": "Llewelyn Publications",
+                            "cite_date": "1994",
+                            "cite_edtn": "First Edition, Twenty-second Printing, 2017",
+                            "cite_isbn13": "978-0-87542-733-1"
                         }
                     ]
                 },
@@ -2603,6 +2762,17 @@
                             "cite_edtn": "Eighth Pringing: November 2015",
                             "cite_isbn13": "0-9621910-0-0",
                             "cite_locc": "89-080025"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Wisdom of the Plant Devas",
+                            "cite_sbtt": "Herbal Medicine for a New Earth",
+                            "cite_auth": [{"name": "Deer, Thea Summer"}],
+                            "cite_pbls": "Bear & Company",
+                            "cite_date": "2011",
+                            "cite_isbn13": "978-1-59143-085-8"
                         }
                     ]
                 }

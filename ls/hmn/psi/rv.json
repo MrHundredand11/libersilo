@@ -1,0 +1,53 @@
+{
+    "ls_id": "LS-HMN-PSI-RV",
+    "ls_ttl": "Remote Viewing",
+    "ls_url": "/ls/hmn/psi/rv.json",
+    "scion_id": "ls_hmn_psi_rv",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_000"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "twg",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Remote Viewing</b></u>)",
+                    "scion_id": "ls_hmn_psi_rv_name_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Remote Viewing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Psychic Research"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Voodoo Warfare"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_hist"
+        },
+        {
+            "drct_id": "MTHD",
+            "drct_ttl": "Methods of 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_mthd"
+        }
+    ]
+}

@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Metaphors",
-                    "insc_ttl": "List of Metaphors for (Liber Silo) ::",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Metaphors</b></u> <i>for</i> (<b><i>Liber Silo</b></i>)",
                     "scion_id": "ls_000_000_what_mtphrs",
                     "scions": [
                         {
@@ -46,7 +46,28 @@
                             ]
                         },
                         {
-                            "insc_term": "A Digital Tombstone",
+                            "insc_term": "A Living Information System"
+                        },
+                        {
+                            "insc_term": "An Ever-Evolving Interface"
+                        },
+                        {
+                            "insc_term": "A Landing Platform"
+                        },
+                        {
+                            "insc_term": "A Pick-and-Choose Buffet"
+                        },
+                        {
+                            "insc_term": "The Qabalistic Scrolls"
+                        },
+                        {
+                            "insc_term": "A Digital Temple"
+                        },
+                        {
+                            "insc_term": "A War (Aur) Engine"
+                        },
+                        {
+                            "insc_term": "My Digital Tombstone",
                             "insc_tag": "Metaphor",
                             "scion_id": "ls_000_000_what_mtphrs_i_digitaltombstone",
                             "scions": [
@@ -56,6 +77,24 @@
                                     "insc_cntn": "This project is my personal digital tombstone, this is the legacy that I want to leave behind. I have dangerous pursuits and goals, and, while I don't plan on dying anytime soon (or ever, really), there are multiple scenarios that could play out in my life in which I could die literally or metaphorically (such as disappearance or brain damage) and so whatever happens, this is the legacy that I want to leave behind when I'm gone."
                                 }
                             ]
+                        },
+                        {
+                            "insc_term": "My Cause to Live For"
+                        },
+                        {
+                            "insc_term": "My Contingency Plans"
+                        },
+                        {
+                            "insc_term": "My \"Retirement\" Project"
+                        },
+                        {
+                            "insc_term": "My Ticket to the Inner Earth"
+                        },
+                        {
+                            "insc_term": "A One-Man Spiritual Intelligence Agency"
+                        },
+                        {
+                            "insc_term": "Syzygy"
                         }
                     ]
                 }

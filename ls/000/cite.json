@@ -241,14 +241,29 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Cicero, Chic",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cicero, Sandra",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Clark, Paul",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_styl": "trm_sm",
                                     "insc_tag": "Also Known As",
                                     "insc_cntn": "Dr. Paul Clark"
                                 }
@@ -611,6 +626,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Kröner, Walther",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kuntz, Darcy",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2059,6 +2081,32 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Sepher Sapphires Volume I",
+                            "cite_sbtt": "A Treatise on Gematria",
+                            "cite_auth": [{"name": "Coleman, Wade"}],
+                            "cite_edtr": [{"name": "Kuntz, Darcy"}],
+                            "cite_pbls": "Amber Studios",
+                            "cite_date": "2001",
+                            "cite_edtn": "Amber Studios Addition, 2019",
+                            "cite_isbn13": "978-1-7331620-0-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Sepher Sapphires Volume II",
+                            "cite_sbtt": "A Treatise on Gematria",
+                            "cite_auth": [{"name": "Coleman, Wade"}],
+                            "cite_edtr": [{"name": "Kuntz, Darcy"}],
+                            "cite_pbls": "Amber Studios",
+                            "cite_date": "2001",
+                            "cite_edtn": "Amber Studios Addition, 2019",
+                            "cite_isbn13": "978-1-7331620-1-2"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Sepher Yetzirah Magic",
                             "cite_sbtt": "Magic and Meditations derived from the first and greatest Qabalistic Work",
                             "cite_tstr": [{"name": "Rankine, David"}],
@@ -2163,11 +2211,21 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Ways of the Lonely Ones",
+                            "cite_auth": [{"name": "Hall, Manly P."}],
+                            "cite_pbls": "Martino Fine Books",
+                            "cite_date": "2017",
+                            "cite_isbn13": "978-1-68422085-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Why Jesus Taught Reincarnation",
                             "cite_auth": [{"name": "Puryear, Herbert Bruce"}],
                             "cite_pbls": "New Paradigm Press",
                             "cite_date": "November 1992",
-                            "cite_isbn": "0-9634964-9-2"
+                            "cite_isbn10": "0-9634964-9-2"
                         },
                         {
                             "insc_typ1": "cite",

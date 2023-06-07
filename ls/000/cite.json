@@ -709,6 +709,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Lytton, Edward Bulwar",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "MacGregor, Trish",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1429,6 +1436,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Gabriel, Bonnie",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Jansen, Carlyle",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2366,6 +2380,7 @@
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Western Mysteries",
+                            "cite_sbtt": "The Key of It All, Book 2",
                             "cite_auth": [{"name": "Hulse, David Allen"}],
                             "cite_edtr": [{"name": "Godwin, David"}, {"name": "Segaard, Matthew"}],
                             "cite_pbls": "Llewellyn Publications",
@@ -2389,6 +2404,14 @@
                             "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Wisdom in the Hebrew Alphabet",
                             "cite_auth": [{"name": "Rabbi Munk"}]
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Zanoni",
+                            "cite_auth": [{"name": "Lytton, Edward Bulwer"}],
+                            "cite_date": "1842"
                         }
                     ]
                 },
@@ -2474,6 +2497,16 @@
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_hmn",
                     "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Anal Sex Basics",
+                            "cite_sbtt": "The Beginner's Guide to Maximizing Anal Pleasure for Every Body",
+                            "cite_auth": [{"name": "Jansen, Carlyle"}],
+                            "cite_date": "2016",
+                            "cite_pbls": "Quiver Books"
+                        },
                         {
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
@@ -2863,7 +2896,7 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
-                            "cite_link": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail",
+                            "cite_link": [{"link": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail"}],
                             "cite_auth": "Ivan Kovachev",
                             "cite_ttl": "SPF Hard Fail vs SPF Soft Fail"
                         }

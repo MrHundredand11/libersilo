@@ -388,6 +388,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Fleming, Kelly",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Flowers, Stephen E",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
@@ -1819,6 +1826,15 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Holy Grail",
+                            "cite_sbtt": "The Quest for Self-Actualization through Ascension & DNA Recoding",
+                            "cite_tstr": [{"name": "Fleming, Kelly"}],
+                            "cite_pbls": "Gypsy Goddess"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "Illuminations: The Healing of the Soul",
                             "cite_auth": [{"name": "Ashcroft-Nowicki, Dolores"}],
                             "cite_pbls": "Llewellyn Publications",
@@ -1837,6 +1853,19 @@
                             "cite_date": "1956",
                             "cite_edtn": "Second English Translation, Tenth Printing 2017",
                             "cite_isbn13": "978-1885928-12-2"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Key of It All",
+                            "cite_sbtt": "Book One: The Eastern Mysteries",
+                            "cite_auth": [{"name": "Hulse, David Allen"}],
+                            "cite_edtr": [{"name": "Godwin, David"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_date": "1993",
+                            "cite_edtn": "First Edition, Second Printing, 1995",
+                            "cite_isbn10": "0-87542-318-3"
                         },
                         {
                             "insc_typ1": "cite",
@@ -2216,6 +2245,18 @@
                             "cite_pbls": "Martino Fine Books",
                             "cite_date": "2017",
                             "cite_isbn13": "978-1-68422085-4"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Western Mysteries",
+                            "cite_auth": [{"name": "Hulse, David Allen"}],
+                            "cite_edtr": [{"name": "Godwin, David"}, {"name": "Segaard, Matthew"}],
+                            "cite_pbls": "Llewellyn Publications",
+                            "cite_date": "1994",
+                            "cite_edtn": "Second Edition, Sixth Printing, 2020",
+                            "cite_isbn10": "1-56718-429-4"
                         },
                         {
                             "insc_typ1": "cite",

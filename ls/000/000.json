@@ -157,6 +157,36 @@
             "drct_id": "ATHR",
             "drct_ttl": "About the Author",
             "scion_id": "ls_000_athr"
+        },
+        {
+            "drct_id": "CNSD",
+            "drct_ttl": "Preliminary Considerations for 'Liber Silo'",
+            "scion_id": "ls_000_cnsd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Considerations</b></u>&nbsp; <i>about</i> (<b><i>Liber Silo</b></i>)",
+                    "scion_id": "ls_000_cnsd_prlmcnd",
+                    "scions": [
+                        {
+                            "insc_term": "Completely and Eternaly Free"
+                        },
+                        {
+                            "insc_term": "Please Download A Copy"
+                        },
+                        {
+                            "insc_term": "Time Periods of AD/BC and CE/BCE"
+                        },
+                        {
+                            "insc_term": "Non-Gendered Language"
+                        },
+                        {
+                            "insc_term": "The Law of Polarity"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

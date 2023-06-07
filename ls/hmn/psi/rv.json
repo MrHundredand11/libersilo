@@ -47,7 +47,14 @@
         {
             "drct_id": "MTHD",
             "drct_ttl": "Methods of 'Remote Viewing'",
-            "scion_id": "ls_hmn_psi_rv_mthd"
+            "scion_id": "ls_hmn_psi_rv_mthd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Preparation</b></u> <i>for</i> (<b><i>Remote Viewing</b></u>)"
+                }
+            ]
         }
     ]
 }

@@ -158,6 +158,7 @@ function gen_Insc(insc_i, scion) {
                 case 'lnk_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_lnk = gen_term(insc_id, scion.insc_cntn);
+                    insc_prtr.style['align-items'] = 'center';
                     insc_prtr.append(insc_pnt, insc_tag, insc_lnk);            
                     break;
 

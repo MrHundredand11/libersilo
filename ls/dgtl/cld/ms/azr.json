@@ -59,72 +59,72 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Compute Services"
+                            "insc_trm": "Compute Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Container Services"
+                            "insc_trm": "Container Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Network Services"
+                            "insc_trm": "Network Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Identity Management Services"
+                            "insc_trm": "Identity Management Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Data Storage Services"
+                            "insc_trm": "Data Storage Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Database Services"
+                            "insc_trm": "Database Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Machine Learning & AI Services"
+                            "insc_trm": "Machine Learning & AI Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Data Analytics Services"
+                            "insc_trm": "Data Analytics Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Integration Services"
+                            "insc_trm": "Integration Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Management & Monitoring Services"
+                            "insc_trm": "Management & Monitoring Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "DevOps Services"
+                            "insc_trm": "DevOps Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Mixed Reality Services"
+                            "insc_trm": "Mixed Reality Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "Mobile App Services"
+                            "insc_trm": "Mobile App Services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_cntn": "IoT (<i>Internet of Things</i>) Services"
+                            "insc_trm": "IoT (<i>Internet of Things</i>) Services"
                         }
                     ]
                 }

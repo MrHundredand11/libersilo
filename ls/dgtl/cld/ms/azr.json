@@ -125,6 +125,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "IoT (<i>Internet of Things</i>) Services"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Governance Services"
                         }
                     ]
                 },
@@ -155,6 +160,19 @@
                             "insc_term": "Management Groups"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "drct_id": "GVRN",
+            "drct_ttl": "Governance Services in 'Azure'",
+            "scion_id": "ls_dgtl_cld_ms_azr_gvrn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> <b><u>Governance Services</b></u> <i>in</i> (<b><i>Azure</b></i>)",
+                    "scion_id": "ls_dgtl_cld_ms_azr_gvrn_explr"
                 }
             ]
         }

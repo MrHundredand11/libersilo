@@ -206,7 +206,28 @@
                     "scion_id": "ls_dgtl_cld_ms_azr_srvc,mntr_3prmry",
                     "scions": [
                         {
-                            "insc_term": "Azure Advisor"
+                            "insc_term": "Azure Advisor",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_pntr": "=>",
+                                    "insc_tag": "Usages",
+                                    "insc_cntn": "<b>Azure Advisor</b> = is the tool to use when you want to:",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "get recommendations on improving your Azure environment"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "find ways to save on costs"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Azure Monitor"

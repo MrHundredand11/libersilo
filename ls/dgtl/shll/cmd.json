@@ -18,22 +18,22 @@
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to shutdown the device}</span>===[&emsp;<span class='styl_in_txt_code'>shutdown /s</span>&emsp;]"
+                            "insc_cntn": "<i>{to shutdown the device}</i>===[&emsp;<span class='styl_in_txt_code'>shutdown /s</span>&emsp;]"
                         },
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to restart the device}</span>===[&emsp;<span class='styl_in_txt_code'>shutdown /r</span>&emsp;]"
+                            "insc_cntn": "<i>{to restart the device}</i>===[&emsp;<span class='styl_in_txt_code'>shutdown /r</span>&emsp;]"
                         },
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to log off the device}</span>===[&emsp;<span class='styl_in_txt_code'>shutdown /l</span>&emsp;]"
+                            "insc_cntn": "<i>{to log off the device}</i>===[&emsp;<span class='styl_in_txt_code'>shutdown /l</span>&emsp;]"
                         },
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to see shutdown options}</span>===[&emsp;<span class='styl_in_txt_code'>shutdown /?</span>&emsp;]"
+                            "insc_cntn": "<i>{to see shutdown options}</i>===[&emsp;<span class='styl_in_txt_code'>shutdown /?</span>&emsp;]"
                         }
                     ]
                 },
@@ -46,12 +46,12 @@
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to view many open ports}</span>===[&emsp;<span class='styl_in_txt_code'>netstat</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='styl_in_txt_code'>netstat | more</span>&emsp;]"
+                            "insc_cntn": "<i>{to view many open ports}</i>===[&emsp;<span class='styl_in_txt_code'>netstat</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='styl_in_txt_code'>netstat | more</span>&emsp;]"
                         },
                         {
                             "insc_type": "in_txt",
                             "insc_tag": "Command",
-                            "insc_cntn": "<span class='styl_in_txt_emph'>{to view all open ports}</span>===[&emsp;<span class='styl_in_txt_code'>netstat -a</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='styl_in_txt_code'>netstat -a | more</span>&emsp;]"
+                            "insc_cntn": "<i>{to view all open ports}</i>===[&emsp;<span class='styl_in_txt_code'>netstat -a</span>&emsp;]=&nbsp;or&nbsp;=[&emsp;<span class='styl_in_txt_code'>netstat -a | more</span>&emsp;]"
                         }
                     ]
                 }

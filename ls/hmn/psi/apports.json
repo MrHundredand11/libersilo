@@ -1,0 +1,33 @@
+{
+    "ls_id": "LS-HMN-PSI-APPORTS",
+    "ls_ttl": "Apportation",
+    "ls_url": "/ls/hmn/psi/apports.json",
+    "scion_id": "ls_hmn_psi_apports",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Apportation'",
+            "scion_id": "ls_hmn_psi_apports_000"
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Apportation'",
+            "scion_id": "ls_hmn_psi_apports_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Apportation</b></i>)",
+                    "scion_id": "ls_hmn_psi_apports_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t\t\"This is the bringing of objects from a distance and is a different phenomenon from levitation and a more complex one. It involves the passage of matter through matter and this can only be achieved by the dematerialization of an object and its subsequent rematerialization elsewhere. In terms of esoteric technicalities this involves dispersing the physical atoms by thought power whilst retaining its etheric counterpart by an act of will on the part of the operator. This is obviously no easy matter despite being almost a commonplace with Madame Blavatsky in her days in India, although the fuss and bother in which it later involved her caused her to wish she had never bothered with this kind of manifestation. It is not as rare as all that, however, and in an emergency a close friend of Phoebe Payne had a key apported to her from a drawer at home.\"\t\t]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

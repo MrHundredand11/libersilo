@@ -17,7 +17,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Link List</b></u> <i>for</i> (<b><i>Azure</b></i>)",
+                    "insc_ttl": "<b><u>Link List</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Azure</b></i>)",
                     "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks",
                     "scions": [
                         {
@@ -171,45 +171,70 @@
         {
             "drct_id": "SRVC",
             "drct_ttl": "Compute Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.cmpt"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,cmpt"
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Network Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.ntwk"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,ntwk"
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Identity Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.idnt"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,idnt"
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Storage Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.strg"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,strg"
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Monitoring Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.mntr"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,mntr",
+            "scions": [
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "txt",
+                    "insc_pntr": "=>",
+                    "insc_cntn": "There are several monitoring solutions within the three main <b>Azure Monitoring Services</b> that can help you react quickly to outages, research intermittent issues, optimize your usage, and be proactive in handling future planned downtime."
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>Three</b>&nbsp; <b><u>Primary Monitoring Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                    "scion_id": "ls_dgtl_cld_ms_azr_srvc,mntr_3prmry",
+                    "scions": [
+                        {
+                            "insc_term": "Azure Advisor"
+                        },
+                        {
+                            "insc_term": "Azure Monitor"
+                        },
+                        {
+                            "insc_term": "Azure Service Health"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Governance Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.gvrn",
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,gvrn",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>Exploration</b></u>  <i>of</i>  <b><u>Governance Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
-                    "scion_id": "ls_dgtl_cld_ms_azr_srvc.gvrn_explr"
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Governance Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                    "scion_id": "ls_dgtl_cld_ms_azr_srvc,gvrn_explr"
                 }
             ]
         },
         {
             "drct_id": "SRVC",
             "drct_ttl": "Information Security in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc.isec"
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,isec"
         }
     ]
 }

@@ -53,7 +53,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Categories of Services</b></u> <i>for</i> (<b><i>Azure</b></i>)",
+                    "insc_ttl": "<b><u>Categories of Services</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Azure</b></i>)",
                     "scion_id": "ls_dgtl_cld_ms_azr_qccl_srvctg",
                     "scions": [
                         {
@@ -136,7 +136,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Organizational Hierarchy</b></u> <i>of</i> (<b><i>Azure</b></i>)",
+                    "insc_ttl": "<b><u>Organizational Hierarchy</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Azure</b></i>)",
                     "scion_id": "ls_dgtl_cld_ms_azr_qccl_orghrrchy",
                     "scions": [
                         {
@@ -201,7 +201,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> <b><u>Governance Services</b></u> <i>in</i> (<b><i>Azure</b></i>)",
+                    "insc_ttl": "<b><u>Exploration</b></u>  <i>of</i>  <b><u>Governance Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
                     "scion_id": "ls_dgtl_cld_ms_azr_srvc.gvrn_explr"
                 }
             ]

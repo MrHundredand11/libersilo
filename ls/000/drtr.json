@@ -685,6 +685,13 @@
                     "scion_id": "ls_hi_cntct",
                     "scions": [
                         {
+                            "ls_id": "LS-HI-CNTCT-000",
+                            "ls_ttl": "Overview of Contact Methods",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/000.json",
+                            "scion_id": "ls_hi_cntct_000"
+                        },
+                        {
                             "ls_id": "LS-HI-CNTCT-PSCHMTR",
                             "ls_ttl": "Psychometry",
                             "ls_type": "+>",

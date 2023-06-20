@@ -1,0 +1,57 @@
+{
+    "ls_id": "LS-HI-CNTCT-000",
+    "ls_ttl": "Overview of Spirit Communications",
+    "ls_url": "/ls/hi/cntct/000.json",
+    "scion_id": "ls_hi_cntct_000",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Spirit Communications'",
+            "scion_id": "ls_hi_cntct_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Spirit Communications</b></i>)",
+                    "scion_id": "ls_hi_cntct_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t\t<span class='ins_quot_01'>Most of \"them\" (they may be nearly limitless in divergent numbers) do not speak English or any human language. Our human languages are slow, tedious and inaccurate word systems. They of the unseen have, universally, a language system of their own. It is a silent psychic language. It is a telepathic thought and image transmission process. Some of these beings will, or can, transmit in words, but not many; most use the thought and image transmission process. This is something we as a species will have to leave and develop.\t\t]</span>",
+                            "scion_id": "ls_hi_cntct_000_quot_assrt_i_tomdongo_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<b>Tom Dongo</b>, <i>Merging Dimensions</i>",
+                                    "scion_id": "ls_hi_cntct_000_quot_assrt_i_tomdongo_001_rfrnc"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t\t<span class='ins_quot_01'>They don't talk like we do. They talk with emotion. They translate emotion into words. And that's why it's hard to understand what they're saying. They use pictures. They use pictures, they use colors. I wasn't understanding it here (pointing to her head), I was understanding them, the symbols emotionally then I would say something to you and you'd be like \"you said ten-four\" like I figured, like [laughs]\t\t]</span>",
+                            "scion_id": "ls_hi_cntct_000_quot_assrt_i_dananewkirk_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<b>Dana Newkirk</b>, after the God Helmet session in the domes in Point Pleasant, <i>Hellier Season 2, Episode 3</i>, 31:03",
+                                    "scion_id": "ls_hi_cntct_000_quot_assrt_i_dananewkirk_001_rfrnc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

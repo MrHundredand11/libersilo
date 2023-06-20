@@ -226,6 +226,21 @@
                                             "insc_cntn": "find ways to save on costs"
                                         }
                                     ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "<b>Azure Advisor</b> evaluates your Azure resources and makes recommendations to help improve reliability, security, and performance, achieve operational excellence, and reduce costs. Advisor is designed to help you save time on cloud optimization. The recommendation service includes suggested actions you can take right away, postpone, or dismiss.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "The recommendations are available via the <b>Azure portal</b> and the <b>API</b>, and <i>you can set up notifications to alert you to new recommendations."
+                                        }
+                                    ]
                                 }
                             ]
                         },

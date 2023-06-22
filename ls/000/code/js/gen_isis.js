@@ -61,9 +61,9 @@ function gen_link(lf_id, lf_term) {
     if (lf_term == undefined) {
         return undefined;
     } else {
-        var trm = gen_ECI('div', 'trm_rg', `trm_${lf_id}`);
-        trm.innerHTML = `<a href='${lf_term}' target='_blank'>${lf_term}</a>`;
-        return trm;
+        var lnk = gen_ECI('div', 'trm_rg', `lnk_${lf_id}`);
+        lnk.innerHTML = `<a href='${lf_term}' target='_blank'>${lf_term}</a>`;
+        return lnk;
     }
 }
 

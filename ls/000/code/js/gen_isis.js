@@ -55,7 +55,17 @@ function gen_term(lf_id, lf_term) {
         trm.innerHTML = lf_term;
         return trm;
     }
-}         
+}
+
+function gen_link(lf_id, lf_term) {
+    if (lf_term == undefined) {
+        return undefined;
+    } else {
+        var trm = gen_ECI('div', 'trm_rg', `trm_${lf_id}`);
+        trm.innerHTML = `<a href='${lf_term}' target='_blank'>${lf_term}</a>`;
+        return trm;
+    }
+}
 
 function gen_Info(insc_i, insc_id, info) {
     var info_bit = gen_ECI('div', 'styl_info_bit', `id_info_bit_${insc_id}_${insc_i}`);

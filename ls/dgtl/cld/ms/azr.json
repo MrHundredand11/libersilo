@@ -37,9 +37,9 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Services Page</b>",
-                            "insc_cntn": "https://azure.microsoft.com/services/",
-                            "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_services"
+                            "insc_tag": "<b>Azure Products Page</b>",
+                            "insc_cntn": "https://azure.microsoft.com/en-us/products/",
+                            "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_products"
                         },
                         {
                             "insc_typ1": "insc",

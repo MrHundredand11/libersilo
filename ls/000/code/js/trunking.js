@@ -2,15 +2,15 @@ function gen_Insc(insc_i, scion) {
     var insc_id = generateLeafIdNum(scion.scion_id, insc_i);
     switch (scion.insc_typ1) {
         case 'stm':
-            var stm_id = `id_stm_${insc_id}`;    
-            var stm_name = scion.insc_ttl;    
+            var stm_id = `id_stm_${insc_id}`;
+            var stm_name = scion.insc_ttl;
             var stm_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_stm_cntnr_${insc_id}`);
             var stm_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_stm_bmp_top_${insc_id}`);
             var stm_nmtg = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nmtg`, `id_stm_nmtg_${insc_id}`);
             var stm_trstlbrd = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_trstlbrd`, `id_stm_trstlbrd_${insc_id}`);
             var stm_bmp_btm = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_btm`, `id_stm_bmp_btm_${insc_id}`);
   
-            stm_cntnr.append(stm_bmp_top, stm_nmtg, stm_trstlbrd, stm_bmp_btm); 
+            stm_cntnr.append(stm_bmp_top, stm_nmtg, stm_trstlbrd, stm_bmp_btm);
         
             switch (scion.insc_typ2) {
                 case 'brnch':
@@ -158,8 +158,9 @@ function gen_Insc(insc_i, scion) {
                 case 'lnk_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_lnk = gen_term(insc_id, scion.insc_cntn);
+                    var insc_link = `<a href='${scion.insc_cntn}' target='_blank'>${insc_lnk}</a>`
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_lnk);            
+                    insc_prtr.append(insc_pnt, insc_tag, insc_link);
                     break;
 
                 case 'txt':

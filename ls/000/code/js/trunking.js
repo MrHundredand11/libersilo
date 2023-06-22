@@ -156,11 +156,10 @@ function gen_Insc(insc_i, scion) {
                     break;
 
                 case 'lnk_stpl':
-                    var insc_tag = generateTag(insc_id, scion.insc_tag);    
-                    var insc_lnk = gen_term(insc_id, scion.insc_cntn);
-                    var insc_link = `<a href='${scion.insc_cntn}' target='_blank'>${insc_lnk}</a>`
+                    var insc_tag = generateTag(insc_id, scion.insc_tag);
+                    var insc_lnk = gen_link(insc_id, scion.insc_cntn);
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_link);
+                    insc_prtr.append(insc_pnt, insc_tag, insc_lnk);
                     break;
 
                 case 'txt':

@@ -31,21 +31,28 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "lnk_stpl",
                             "insc_tag": "<b>Azure Status Page</b>",
-                            "insc_cntn": "https://status.azure.com/status",
+                            "insc_cntn": "https://status.azure.com/status/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_status"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "lnk_stpl",
                             "insc_tag": "<b>Azure Services Page</b>",
-                            "insc_cntn": "https://azure.microsoft.com/services",
+                            "insc_cntn": "https://azure.microsoft.com/services/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_services"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "lnk_stpl",
+                            "insc_tag": "<b>Azure Geographies Page</b>",
+                            "insc_cntn": "https://azure.microsoft.com/en-us/global-infrastructure/geographies/",
+                            "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_geographies"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "lnk_stpl",
                             "insc_tag": "<b>M365 Admin Page</b>",
-                            "insc_cntn": "https://admin.microsoft.com",
+                            "insc_cntn": "https://admin.microsoft.com/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_m365admin"
                         }
                     ]

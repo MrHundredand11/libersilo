@@ -58,6 +58,13 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "lnk_stpl",
+                            "insc_tag": "<b>Azure Pricing Calculator Page</b>",
+                            "insc_cntn": "https://azure.microsoft.com/en-us/pricing/calculator/",
+                            "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_pricecalc"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "lnk_stpl",
                             "insc_tag": "<b>M365 Admin Page</b>",
                             "insc_cntn": "https://admin.microsoft.com/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_m365admin"
@@ -314,8 +321,38 @@
         },
         {
             "drct_id": "SRVC",
-            "drct_ttl": "Identity Services in 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_srvc,idnt"
+            "drct_ttl": "Identity Management Services in 'Azure'",
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,iams",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Identity Management Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                    "scion_id": "ls_dgtl_cld_ms_azr_srvc,iams_srvclst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure Active Directory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure Active Directory Domain Services"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure Active Directory External Identities"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure Information Protection"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "SRVC",

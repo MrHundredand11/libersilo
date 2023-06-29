@@ -5,6 +5,11 @@
     "scion_id": "ls_qbl_alg_plnt_p07",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Saturn'",
+            "scion_id": "ls_qbl_alg_plnt_p07_000"
+        },
+        {
             "drct_id": "ASTR",
             "drct_ttl": "Celestial Correspondences of 'Saturn'",
             "scion_id": "ls_qbl_alg_plnt_p07_astr",
@@ -13,20 +18,18 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Orbit",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Orbit</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Orbit</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_astr_orbt",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Complete Orbit",
                             "insc_term": "29.5 yrs"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Transit Time",
                             "insc_term": "2 1/2 yrs in each Sign"
                         }
@@ -36,20 +39,18 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Transits",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Transits</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Transits</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_astr_trnst",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Transit Time",
                             "insc_term": "2 1/2 yrs in each Sign"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Transit Influence",
                             "insc_cntn": "The Sign that Saturn falls in shows the&nbsp;<span class='styl_in_txt_undr'>lessons of responsibility</span>&nbsp;that must be learned by our peer age group,\nhow our age group seeks&nbsp;<span class='styl_in_txt_undr'>status</span>,\nand&nbsp;what are their&nbsp;<span class='styl_in_txt_undr'>fears</span>&nbsp;or&nbsp;<span class='styl_in_txt_undr'>inadequacies</span>."
                         }
@@ -66,13 +67,12 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Flavors",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Flavors</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Flavors</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "bitter",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_bitter"
@@ -80,7 +80,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acid",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acid"
@@ -88,7 +87,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "sour",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_sour"
@@ -96,7 +94,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "acrid",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acrid"
@@ -104,7 +101,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "pungent",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_pungent"
@@ -112,7 +108,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Flavor",
                             "insc_term": "astringent",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_astringent"
@@ -123,13 +118,12 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Plants",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Plants</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Plants</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Ivy",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_ivy"
@@ -137,7 +131,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Yew",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_yew"
@@ -145,7 +138,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Hemlock",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemlock"
@@ -153,7 +145,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Nightshade",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_nightshade"
@@ -161,7 +152,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Amaranth",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_amaranth"
@@ -169,7 +159,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Hemp",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemp"
@@ -177,7 +166,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Plant",
                             "insc_term": "Aconite",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_aconite"
@@ -188,13 +176,12 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Vedic Gemology",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Vedic Gemology</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Vedic Gemology</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Sapphire",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_bluesapphire"
@@ -202,7 +189,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Spinel",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_bluespinel"
@@ -210,7 +196,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Tanzanite",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_tanzanite"
@@ -218,7 +203,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Indicolite",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_indicolite"
@@ -226,7 +210,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Iolote",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_iolote"
@@ -234,7 +217,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Amethyst",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_amethyst"
@@ -245,13 +227,12 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Shapes + Textures",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Shapes + Textures</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Shapes + Textures</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Shape",
                             "insc_term": "Short, straight, hard lines, ornament-free but well drawn",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_shp_shrtstrghthrdlnes"
@@ -259,7 +240,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
-                            "insc_sld": "\\_",
                             "insc_tag": "Texture",
                             "insc_term": "Cold, hard, and heavy",
                             "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_txtr_cldhrdhvy"
@@ -277,7 +257,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Medicaments",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Medicaments</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Saturn</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Medicaments</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
                     "scion_id": "ls_qbl_alg_plnt_p07_mdcl_mdcmnts",
                     "scions": [
                         {
@@ -303,7 +283,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hemp",
-                            "insc_extr": ["1", "1", "Cannabis Sativa I."]
+                            "insc_extr": [1, 1, "Cannabis Sativa I."]
                         },
                         {
                             "insc_typ1": "insc",
@@ -340,7 +320,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hellebore",
-                            "insc_extr": ["1", "1", "the white and black"]
+                            "insc_extr": [1, 1, "the white and black"]
                         },
                         {
                             "insc_typ1": "insc",
@@ -365,14 +345,14 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hemlock",
-                            "insc_extr": ["1", "1", "Conium Maculatum"]
+                            "insc_extr": [1, 1, "Conium Maculatum"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Aconite",
-                            "insc_extr": ["1", "1", "Aconitum Napellus I."]
+                            "insc_extr": [1, 1, "Aconitum Napellus I."]
                         },
                         {
                             "insc_typ1": "insc",
@@ -393,28 +373,28 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Menbrillo",
-                            "insc_dfin": "Cydonia Vulgaris I."
+                            "insc_extr": [1, 1, "Cydonia Vulgaris I."]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Cress",
-                            "insc_dfin": "in Chile"
+                            "insc_extr": [1, 1, "in Chile"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Bag of Shepherd",
-                            "insc_dfin": "in Spain"
+                            "insc_extr": [1, 1, "in Spain"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Capsella Bursa",
-                            "insc_dfin": "Pastoris Moench"
+                            "insc_extr": [1, 1, "Pastoris Moench"]
                         }
                     ]
                 }
@@ -428,7 +408,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
+                    "insc_ttl": "(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
                     "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc",
                     "scions": [
                         {
@@ -472,7 +452,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
+                    "insc_ttl": "(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
                     "scion_id": "ls_qbl_alg_plnt_p07_plce_hse",
                     "scions": [
                         {

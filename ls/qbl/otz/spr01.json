@@ -18,6 +18,411 @@
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brnch",
+                            "insc_ttl": "<b><u>Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                            "scion_id": "ls_qbl_otz_spr01_qccl_ttl",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "God the Creator"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The First Cause"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Source"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Source of Sources"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Source of Energy from the Infinite Unmanifest"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Existence of Existences"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Ancient of Ancients"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Ancient of Days"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Ancient Holy One"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Primordial Point"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Simple Point"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Small Point"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Smooth Point"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Point within The Circle"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Most High"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Crown"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Highest Crown"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Holy Crown"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Vast Countenance"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Great Countenance"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The White Head"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Head-Which-Is-Not"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Monad"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Macroprosopus"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Amen"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "So Be It"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Lux Occulta"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Lux Interna"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Light of Adam Kadmon"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Light of The Messiah"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Transparent or Clear Light"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Hidden Light"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Supernal Light"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Light Within"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "He // HVA"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Pronoia"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Ratzon"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Inscrutable Height"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The First Manifest"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The First Motion"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The First Movement"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The First of All Things"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Maker of All Things"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Source of Ideas"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Great Unknown"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Admirable Intelligence"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Hidden Intelligence"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Hidden Light"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Hidden One"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Most Hidden of All Things Hidden"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Concealed of The Concealed"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Primal Glory"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "All that Is, the Breath of That which is Not"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The One"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Holy One"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "The Holy One of Being"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Bornless One"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Bornless Spirit"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Depth of Good"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Absolute Compassion"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Supernal Being"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Primal Stirrings of Intent"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Arousal of Desite"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Origin of Will"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "Air that cannot be Grasped"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Title",
+                                    "insc_term": "That from Which we come, and to Which we shall return"
+                                }
+        
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
                             "insc_ttl": "<b><u>Experiences + Vices + Virtues</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
                             "scion_id": "ls_qbl_otz_spr01_000_qccl_exvv",
                             "scions": [

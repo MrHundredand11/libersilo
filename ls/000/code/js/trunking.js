@@ -160,8 +160,8 @@ function gen_Insc(insc_i, scion) {
                     }
 
                     if (scion.insc_extr !== undefined) {
-                        var insc_extr = gen_ECI('div', 'extr_cntnr', `id_trm_extr_${insc_id}`);
-                        insc_extr.innerHTML = `&nbsp;(<span class='extr_cntnd_${scion.insc_extr[0]}'>${scion.insc_extr[1]}</span>)`;
+                        var insc_extr = gen_ECI('div', `extr_cntnr_${scion.insc_extr[0]}`, `id_trm_extr_${insc_id}`);
+                        insc_extr.innerHTML = `&nbsp;(<span class='extr_cntnd_${scion.insc_extr[1]}'>${scion.insc_extr[2]}</span>)`;
                         insc_prtr.append(insc_extr);
                     }
 

@@ -23,49 +23,49 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Experience",
                                     "insc_term": "Ascension"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Experience",
                                     "insc_term": "Unification of God + Godhood"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Virtue",
                                     "insc_term": "Supreme Attainment"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Virtue",
                                     "insc_term": "Attainment of Supernal Being"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Virtue",
                                     "insc_term": "Self-Made-Perfect"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Virtue",
                                     "insc_term": "Enlightenment + Liberation"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Virtue",
                                     "insc_term": "Christhood"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm_qccl",
                                     "insc_tag": "Vice",
                                     "insc_term": "None"
                                 }

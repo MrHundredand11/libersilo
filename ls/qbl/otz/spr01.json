@@ -487,7 +487,24 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>Vices</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
-                    "scion_id": "ls_qbl_otz_spr01_exvv_vice"
+                    "scion_id": "ls_qbl_otz_spr01_exvv_vice",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "None",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Flip Side",
+                                    "insc_cntn": "However, the \"<i>Pursuit of God</i>\" is considered a <b>vice</b> to those stuck in the mindsets of the \"world\"."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

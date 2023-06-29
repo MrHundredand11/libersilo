@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Quick Concept Context List</b></u>",
+                    "insc_ttl": "<b><u>Quick Concept Context Lists</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_000_qccl",
                     "scions": [
                         {
@@ -21,6 +21,48 @@
                             "insc_ttl": "<b><u>Experiences + Vices + Virtues</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
                             "scion_id": "ls_qbl_otz_spr01_000_qccl_exvv",
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Experience",
+                                    "insc_term": "Ascension"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Experience",
+                                    "insc_term": "Unification of God + Godhood"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Virtue",
+                                    "insc_term": "Supreme Attainment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Virtue",
+                                    "insc_term": "Attainment of Supernal Being"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Virtue",
+                                    "insc_term": "Self-Made-Perfect"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Virtue",
+                                    "insc_term": "Enlightenment + Liberation"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Virtue",
+                                    "insc_term": "Christhood"
+                                },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_stpl",

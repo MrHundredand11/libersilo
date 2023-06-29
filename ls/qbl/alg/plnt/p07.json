@@ -379,7 +379,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Pansy",
-                            "insc_extr": ["1", "1", "Viola Tricolor"]
+                            "insc_extr": [1, 1, "Viola Tricolor"]
                         },
                         {
                             "insc_typ1": "insc",

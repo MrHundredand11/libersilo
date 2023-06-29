@@ -1,0 +1,15 @@
+.extr_cntnr {
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.extr_cntnd_1 {
+    font-style: italic;
+    font-family: sitka;
+}
+
+.extr_cntnd_2 {
+    font-weight: bold;
+    font-family: cambria;
+}

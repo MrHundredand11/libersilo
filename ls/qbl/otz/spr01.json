@@ -70,6 +70,92 @@
                                     "insc_term": "None"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<b><u>Numbers</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                            "scion_id": "ls_qbl_otz_spr01_000_qccl_nmbr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "0"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "1"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "12"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "13"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "19"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "21"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "31"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "78"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "91"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "220"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "224"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "559"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Number",
+                                    "insc_term": "620"
+                                }
+                            ]
                         }       
                     ]
                 }

@@ -5,6 +5,35 @@
     "scion_id": "ls_qbl_otz_spr01",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Quick Concept Context List</b></u>",
+                    "scion_id": "ls_qbl_otz_spr01_000_qccl",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<b><u>Experiences + Vices + Virtues</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                            "scion_id": "ls_qbl_otz_spr01_000_qccl_exvv",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_tag": "Vice",
+                                    "insc_term": "None"
+                                }
+                            ]
+                        }       
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "NAME",
             "drct_ttl": "Names + Titles of 'Kether'",
             "scion_id": "ls_qbl_otz_spr01_name",

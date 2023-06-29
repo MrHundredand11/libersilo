@@ -13,14 +13,13 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Quotes",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Quotes</span>&nbsp;<span class='styl_stm_ttl_tny'>about</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>UFO Observation</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>UFO Observation</b></i>)",
                     "scion_id": "ls_hi_alien_ufo_obsr_quot",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_styl": "size_23px",
-                            "insc_cntn": "\"The best time to see a UFO is 10pm on a Wednesday.\"",
+                            "insc_cntn": "<span class='ins_quot_01'>[\t\t\"The best time to see a UFO is 10pm on a Wednesday.\"\t\t]</span>",
                             "scion_id": "ls_hi_alien_ufo_obsr_quot_i_jhnkeel",
                             "scions": [
                                 {

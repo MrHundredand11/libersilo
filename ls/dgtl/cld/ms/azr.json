@@ -185,9 +185,42 @@
             ]
         },
         {
-            "drct_id": "TOOL",
-            "drct_ttl": "Management Tools for 'Azure'",
-            "scion_id": "ls_dgtl_cld_ms_azr_tool.mgmt"
+            "drct_id": "SRVC",
+            "drct_ttl": "Management Services in 'Azure'",
+            "scion_id": "ls_dgtl_cld_ms_azr_srvc,mgmt",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Monitoring Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                    "scion_id": "ls_dgtl_cld_ms_azr_srvc,mgmt",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_ttl": "<b>Three</b>&nbsp; <b><u>Primary Monitoring Services</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                            "scion_id": "ls_dgtl_cld_ms_azr_srvc,mgmt_mntr",
+                            "scions": [
+                                {
+                                    "insc_term": "Azure Advisor"
+                                },
+                                {
+                                    "insc_term": "Azure Monitor"
+                                },
+                                {
+                                    "insc_term": "Azure Service Health"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<b><u>Diagnostic Logs</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
+                            "scion_id": "ls_dgtl_cld_ms_azr_srvc,mgmt_diaglogs"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "SRVC",

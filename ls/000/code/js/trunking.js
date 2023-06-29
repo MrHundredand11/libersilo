@@ -170,6 +170,17 @@ function gen_Insc(insc_i, scion) {
 
                     break;
 
+                case 'trm_qccl':
+                    var insc_tag = generateTag(insc_id, scion.insc_tag);    
+                    var insc_trm = gen_term(insc_id, scion.insc_term);
+                    var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
+                    insc_extn.append(insc_trm);
+                    insc_tag.style['font-size'] = '19px';
+                    insc_prtr.style['align-items'] = 'center';
+                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);    
+
+                    break;
+
                 case 'lnk_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);
                     var insc_lnk = gen_link(insc_id, scion.insc_cntn);

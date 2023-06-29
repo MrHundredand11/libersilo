@@ -214,7 +214,7 @@
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "bn2",
                             "insc_ttl": "<b><u>Diagnostic Logs</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Azure</b></i>)",
                             "scion_id": "ls_dgtl_cld_ms_azr_srvc,mgmt_diaglogs"
                         }

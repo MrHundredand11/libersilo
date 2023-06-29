@@ -173,7 +173,7 @@ function gen_Insc(insc_i, scion) {
                         var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
                         insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
                         insc_prtr.append(insc_dfin);
-                    }    
+                    }
 
                     break;
 
@@ -184,7 +184,13 @@ function gen_Insc(insc_i, scion) {
                     insc_extn.append(insc_trm);
                     insc_tag.style['font-size'] = '19px';
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);    
+                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);
+                    
+                    if (scion.insc_dfin !== undefined) {
+                        var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
+                        insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
+                        insc_prtr.append(insc_dfin);
+                    }
 
                     break;
 

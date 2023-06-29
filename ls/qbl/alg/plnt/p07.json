@@ -303,7 +303,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hemp",
-                            "insc_dfin": "Cannabis Sativa I."
+                            "insc_extr": ["1", "1", "Cannabis Sativa I."]
                         },
                         {
                             "insc_typ1": "insc",
@@ -340,7 +340,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hellebore",
-                            "insc_dfin": "the white and black"
+                            "insc_extr": ["1", "1", "the white and black"]
                         },
                         {
                             "insc_typ1": "insc",
@@ -365,28 +365,28 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Hemlock",
-                            "insc_dfin": "Conium Maculatum"
+                            "insc_extr": ["1", "1", "Conium Maculatum"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Aconite",
-                            "insc_dfin": "Aconitum Napellus I."
+                            "insc_extr": ["1", "1", "Aconitum Napellus I."]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Pansy",
-                            "insc_dfin": "Viola Tricolor"
+                            "insc_extr": [1, 1, "Viola Tricolor"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Medicament",
                             "insc_term": "Belladonna",
-                            "insc_dfin": "Atropa Belladonna I."
+                            "insc_extr": ["1", "1", "Atropa Belladonna I."]
                         },
                         {
                             "insc_typ1": "insc",

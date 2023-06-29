@@ -175,10 +175,10 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.style['align-items'] = 'center';
                     insc_prtr.append(insc_pnt, insc_tag, insc_extn);
                     
-                    if (scion.insc_dfin !== undefined) {
-                        var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
-                        insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
-                        insc_prtr.append(insc_dfin);
+                    if (scion.insc_extr !== undefined) {
+                        var insc_extr = gen_ECI('div', `extr_cntnr_${scion.insc_extr[0]}`, `id_trm_extr_${insc_id}`);
+                        insc_extr.innerHTML = `&nbsp;(<span class='extr_cntnd_${scion.insc_extr[1]}'>${scion.insc_extr[2]}</span>)`;
+                        insc_prtr.append(insc_extr);
                     }
 
                     break;
@@ -191,11 +191,11 @@ function gen_Insc(insc_i, scion) {
                     insc_tag.style['font-size'] = '19px';
                     insc_prtr.style['align-items'] = 'center';
                     insc_prtr.append(insc_pnt, insc_tag, insc_extn);
-                    
-                    if (scion.insc_dfin !== undefined) {
-                        var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
-                        insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
-                        insc_prtr.append(insc_dfin);
+
+                    if (scion.insc_extr !== undefined) {
+                        var insc_extr = gen_ECI('div', `extr_cntnr_${scion.insc_extr[0]}`, `id_trm_extr_${insc_id}`);
+                        insc_extr.innerHTML = `&nbsp;(<span class='extr_cntnd_${scion.insc_extr[1]}'>${scion.insc_extr[2]}</span>)`;
+                        insc_prtr.append(insc_extr);
                     }
 
                     break;

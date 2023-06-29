@@ -1,0 +1,38 @@
+{
+    "ls_id": "LS-HMN-DLC-MRRG",
+    "ls_ttl": "Marriage",
+    "ls_url": "/ls/hmn/dlc/mrrg.json",
+    "scion_id": "ls_hmn_dlc_mrrg",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Marriage'",
+            "scion_id": "ls_hmn_dlc_mrrg_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Marriage</b></i>)",
+                    "scion_id": "ls_hmn_dlc_mrrg_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "[\t\t\"A love affair has to do with immediate personal satisfaction. But marriage is an ordeal; it means yielding, time and again. That's why it's a sacrament: you give up your personal simplicity to participate in a relationship. And when you're giving, you're not giving to the other person: you're giving to the relationship. And if you realize you are in the relationship just as the other person is, then it becomes life building, a life fostering and enriching experience, not an impoverishment because you're giving to someone else ... This is the challenge of a marriage.\"\t\t]",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "\t|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>Joseph Campbell</span>, <i>An Open Life: Joseph Campbell in Conversation with Michael Toms</i>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

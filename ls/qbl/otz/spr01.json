@@ -156,7 +156,51 @@
                                     "insc_term": "620"
                                 }
                             ]
-                        }       
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl": "<b><u>Symbols</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                            "scion_id": "ls_qbl_otz_spr01_000_qccl_symb",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "The Point"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "The Point within the Circle"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "An Ancient Bearded King Seen in Profile"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "The Crown"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "The Swastika"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_qccl",
+                                    "insc_tag": "Symbol",
+                                    "insc_term": "The Pyramid"
+                                }
+                            ]
+                        }      
                     ]
                 }
             ]

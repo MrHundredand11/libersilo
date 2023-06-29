@@ -229,7 +229,8 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_qccl",
                                     "insc_tag": "Title",
-                                    "insc_term": "He // HVA"
+                                    "insc_term": "He // HVA",
+                                    "insc_dfin": "הוא"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -910,7 +911,8 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Name + Title",
-                            "insc_term": "He // HVA"
+                            "insc_term": "He // HVA",
+                            "insc_dfin": "הוא"
                         },
                         {
                             "insc_typ1": "insc",

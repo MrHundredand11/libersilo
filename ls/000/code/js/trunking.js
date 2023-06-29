@@ -115,6 +115,7 @@ function gen_Insc(insc_i, scion) {
         case 'insc':
             var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
+
             var insc_scns = gen_ECI('div', 'styl_insc_scns stt_hide', `id_insc_scns_${insc_id}`);
             insc_cntnr.append(insc_prtr, insc_scns);
             
@@ -166,7 +167,13 @@ function gen_Insc(insc_i, scion) {
                     var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
                     insc_extn.append(insc_trm);
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);    
+                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);
+                    
+                    if (scion.insc_dfin !== undefined) {
+                        var insc_dfin = gen_ECI('div', 'dfin_cntnr', `id_trm_dfin_${insc_id}`);
+                        insc_dfin.innerHTML = `&nbsp;(<span class='dfin_cntnd'>${scion.insc_dfin}</span>)`
+                        insc_prtr.append(insc_dfin);
+                    }    
 
                     break;
 

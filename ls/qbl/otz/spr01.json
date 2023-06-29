@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Names + Titles",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Names + Titles</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Kether</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
                     "scion_id": "ls_qbl_otz_spr01_name_lst",
                     "scions": [
                         {
@@ -425,44 +425,69 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_astr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Four Worlds</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_4wrl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Kether</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
+                    "insc_ttl": "(<b><i>Kether</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_otz_spr01_qblh_32p"
+                }
+            ]
+        },
+        {
+            "drct_id": "EXVV",
+            "drct_ttl": "Experiences + Virtues + Vices of 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_exvv",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Experiences</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr01_exvv_exprncs"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Virtues</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr01_exvv_virtues"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Vices</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr01_exvv_vice"
                 }
             ]
         }

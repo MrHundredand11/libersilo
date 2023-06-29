@@ -27,6 +27,21 @@ function gen_Insc(insc_i, scion) {
                         stm_trstlbrd.appendChild(entr_full);
                     }
                     break;
+
+                case 'bn2':
+                    stm_bmp_top.innerHTML = bmp_stm_scrll;
+                    stm_nmtg.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
+                    stm_bmp_btm.innerHTML = bmp_stm_scrll;
+    
+                    stm_nmtg.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
+                        
+                    for (i2 in scion.scions) {
+                        var entr_full = gen_Insc(i2, scion.scions[i2]);
+                        stm_trstlbrd.appendChild(entr_full);
+                    }
+                    break;
                 
                 case 'twg':
                     stm_bmp_top.innerHTML = bmp_twg_top;

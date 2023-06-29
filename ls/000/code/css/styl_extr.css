@@ -1,5 +1,11 @@
-.extr_cntnr {
+.extr_cntnr_1 {
     font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.extr_cntnr_2 {
+    font-size: 31px;
     display: inline-block;
     white-space: pre;
 }

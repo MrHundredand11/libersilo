@@ -31,7 +31,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm_qccl",
                                     "insc_tag": "Experience",
-                                    "insc_term": "Unification of God + Godhood"
+                                    "insc_term": "Unification with God + Godhood"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -746,6 +746,76 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Christification of the Soul",
                             "insc_term": "Receiving the Crown of Christ is the attainment of the Work"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_xrcs",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Exercises</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Kether</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr01_xrcs_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Meditation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Zen"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Unconditional Love"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Waking Revelations"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dream Visions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Ecstatic Moments of Heightened Self-Awareness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Being Present / Be Here Now"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "I AM Mantras + Affirmations"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Naked Meditations Upon the Body"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Your Own Descriptions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reflect on The Four Aces"
                         }
                     ]
                 }

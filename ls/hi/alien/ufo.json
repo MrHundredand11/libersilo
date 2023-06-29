@@ -44,7 +44,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt_stpl",
-                                    "insc_sld": "|\\_",
+                                    "insc_sld": "\t|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Reference",
                                     "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>Jacques Vallee</span>"

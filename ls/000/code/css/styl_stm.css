@@ -84,6 +84,7 @@
 
 .styl_stm_brnch_bmp_top {
     display: none;
+    white-space: nowrap;
 }
 
 .styl_stm_brnch_nmtg {
@@ -100,6 +101,7 @@
 
 .styl_stm_brnch_bmp_btm {
     display: none;
+    white-space: nowrap;
     text-align: center;
     padding-top: 17px;
     padding-bottom: 7px;

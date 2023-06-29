@@ -578,6 +578,48 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Biblical Correspondences</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Kether</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr01_luls_bblcrsp",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Mosaic Commandment",
+                            "insc_term": "You shall have no other gods before Me.",
+                            "insc_dfin": "Exodus 20:3"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Sermon on the Mount",
+                            "insc_term": "You are the light of the world.",
+                            "insc_dfin": "Matthew 5:14-16"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Apocalypse of John",
+                            "insc_term": "Source of the Light of the Great Angel",
+                            "insc_dfin": "Revelation 1:12-16"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Christification of the Soul",
+                            "insc_term": "Receiving the Crown of Christ is the attainment of the Work"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

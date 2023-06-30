@@ -42,3 +42,22 @@
     display: inline-block;
     font-family: calibri;
 }
+
+.styl_pntr_bg {
+    font-size: 31px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.styl_pntr_rg {
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+    align-self: center;
+}
+
+.styl_pntr_sm {
+    font-size: 17px;
+    display: inline-block;
+    white-space: pre;
+}

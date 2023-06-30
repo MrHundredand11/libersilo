@@ -727,11 +727,11 @@
                             "scion_id": "ls_hi_cntct_skry"
                         },
                         {
-                            "ls_id": "LS-HI-CNTCT-TBLTP",
+                            "ls_id": "LS-HI-CNTCT-TBLTIP",
                             "ls_ttl": "Table Tipping",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hi/cntct/tbltp.json",
-                            "scion_id": "ls_hi_cntct_tbltp"
+                            "ls_url": "/ls/hi/cntct/tbltip.json",
+                            "scion_id": "ls_hi_cntct_tbltip"
                         }
                     ]
                 },

@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-PSCHMTR",
+    "ls_ttl": "Psychometry",
+    "ls_url": "/ls/hi/cntct/pschmtr.json",
+    "scion_id": "ls_hi_cntct_pschmtr",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Psychometry'",
+            "scion_id": "ls_hi_cntct_pschmtr_000"
+        }
+    ]
+}

@@ -706,6 +706,13 @@
                             "scion_id": "ls_hi_cntct_estes"
                         },
                         {
+                            "ls_id": "LS-HI-CNTCT-PSCHMNT",
+                            "ls_ttl": "The Psychomanteum",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/pschmnt.json",
+                            "scion_id": "ls_hi_cntct_pschmnt"
+                        },
+                        {
                             "ls_id": "LS-HI-CNTCT-PSCHMTR",
                             "ls_ttl": "Psychometry",
                             "ls_type": "+>",

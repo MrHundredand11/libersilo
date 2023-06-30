@@ -1212,21 +1212,21 @@
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Mosaic Commandment",
                             "insc_term": "You shall have no other gods before Me.",
-                            "insc_dfin": "Exodus 20:3"
+                            "insc_extr": [1, 1, "Exodus 20:3"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Sermon on the Mount",
                             "insc_term": "You are the light of the world.",
-                            "insc_dfin": "Matthew 5:14-16"
+                            "insc_extr": [1, 1, "Matthew 5:14-16"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Apocalypse of John",
                             "insc_term": "Source of the Light of the Great Angel",
-                            "insc_dfin": "Revelation 1:12-16"
+                            "insc_extr": [1, 1, "Revelation 1:12-16"]
                         },
                         {
                             "insc_typ1": "insc",

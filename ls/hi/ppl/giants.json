@@ -1,0 +1,23 @@
+{
+    "ls_id": "LS-HI-PPL-GIANTS",
+    "ls_ttl": "The Giants",
+    "ls_url": "/ls/hi/ppl/giants.json",
+    "scion_id": "ls_hi_ppl_giants",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Giants'",
+            "scion_id": "ls_hi_ppl_giants_luls"
+        },
+        {
+            "drct_id": "EXCV",
+            "drct_ttl": "Archarological Excavations about 'Giants'",
+            "scion_id": "ls_hi_ppl_giants_excv"
+        },
+        {
+            "drct_id": "NEWS",
+            "drct_ttl": "News Appearances of 'Giants'",
+            "scion_id": "ls_hi_ppl_giants_news"
+        }
+    ]
+}

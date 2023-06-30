@@ -37,31 +37,31 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Ginger",
-                            "insc_dfin": "Zingiber officinale"
+                            "insc_extr": [1, 1, "Zingiber officinale"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Nettles",
-                            "insc_dfin": "Urtica dioica"
+                            "insc_extr": [1, 1, "Urtica dioica"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Bearberry",
-                            "insc_dfin": "Arctostaphylos uva-ursi"
+                            "insc_extr": [1, 1, "Arctostaphylos uva-ursi"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Vitex",
-                            "insc_dfin": "Vitex agnus castus"
+                            "insc_extr": [1, 1, "Vitex agnus castus"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Wormwood",
-                            "insc_dfin": "Artemisia absinthium"
+                            "insc_extr": [1, 1, "Artemisia absinthium"]
                         }
                     ]
                 },
@@ -75,31 +75,31 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Yarrow",
-                            "insc_dfin": "Achillea millefolium"
+                            "insc_extr": [1, 1, "Achillea millefolium"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Vervain",
-                            "insc_dfin": "Verbena officinalis"
+                            "insc_extr": [1, 1, "Verbena officinalis"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Eucalyptus",
-                            "insc_dfin": "Eucalyptus globulus"
+                            "insc_extr": [1, 1, "Eucalyptus globulus"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Hawthorn",
-                            "insc_dfin": "Crataegus monogyna"
+                            "insc_extr": [1, 1, "Crataegus monogyna"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Hops",
-                            "insc_dfin": "Humulus Lupulus"
+                            "insc_extr": [1, 1, "Humulus Lupulus"]
                         }
                     ]
                 },
@@ -665,7 +665,21 @@
         {
             "drct_id": "SPRT",
             "drct_ttl": "Spirituality of 'Aries'",
-            "scion_id": "ls_qbl_alg_zdc_s01_sprt"
+            "scion_id": "ls_qbl_alg_zdc_s01_sprt",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Personal Spirituality</b></u> <i>of</i> (<b><i>Aries</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s01_sprt_prsnl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Spiritual Themes</b></u> <i>of</i> (<b><i>Aries</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s01_sprt_theme"
+                }
+            ]
         },
         {
             "drct_id": "LOVE",

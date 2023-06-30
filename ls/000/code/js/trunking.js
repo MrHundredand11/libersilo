@@ -117,7 +117,7 @@ function gen_Insc(insc_i, scion) {
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
 
             if (scion.scns_chut !== undefined) {
-                var scns_chut = gen_ECI('div', `styl_scns_chut_${scions.scns_chut}`, `id_scns_chut_${scions.scns_chut}_${insc_id}`);
+                var scns_chut = gen_ECI('div', `styl_scns_chut_${scion.scns_chut}`, `id_scns_chut_${scion.scns_chut}_${insc_id}`);
                 var insc_scns = gen_ECI('div', 'styl_insc_scns stt_hide', `id_insc_scns_${insc_id}`);
                 insc_cntnr.append(insc_prtr, scns_chut);
                 scns_chut.append(insc_scns);

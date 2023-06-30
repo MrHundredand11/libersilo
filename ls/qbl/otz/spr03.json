@@ -43,16 +43,7 @@
                             "insc_tag": "Divine Name",
                             "insc_term": "HKA",
                             "insc_extr": [1, 1, "Heka // Hekate // Heket"]
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Titles",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
-                    "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
-                    "scions": [
+                        },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
@@ -80,7 +71,16 @@
                             "insc_tag": "Title",
                             "insc_term": "Marah",
                             "insc_extr": [1, 1, "the Great Sea"]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Titles",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
+                    "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",

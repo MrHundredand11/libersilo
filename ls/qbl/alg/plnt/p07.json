@@ -31,7 +31,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Transit Time",
-                            "insc_term": "2 1/2 yrs in each Sign"
+                            "insc_term": "2.5 yrs in each Sign"
                         }
                     ]
                 },
@@ -52,7 +52,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_tag": "Transit Influence",
-                            "insc_cntn": "The Sign that Saturn falls in shows the&nbsp;<span class='styl_in_txt_undr'>lessons of responsibility</span>&nbsp;that must be learned by our peer age group,\nhow our age group seeks&nbsp;<span class='styl_in_txt_undr'>status</span>,\nand&nbsp;what are their&nbsp;<span class='styl_in_txt_undr'>fears</span>&nbsp;or&nbsp;<span class='styl_in_txt_undr'>inadequacies</span>."
+                            "insc_cntn": "The Sign that Saturn falls in shows the <b><u>lessons of responsibility</b></u> that must be learned by our peer age group,\n\thow our age group seeks <u>status</u>,\n\t\tand what are their <u>fears</u> or <u>inadequacies</u>."
                         }
                     ]
                 }

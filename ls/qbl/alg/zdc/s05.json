@@ -516,7 +516,21 @@
         {
             "drct_id": "SPRT",
             "drct_ttl": "Spirituality of 'Leo'",
-            "scion_id": "ls_qbl_alg_zdc_s05_sprt"
+            "scion_id": "ls_qbl_alg_zdc_s05_sprt",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Personal Spirituality</b></u> <i>of</i> (<b><i>Leo</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s05_sprt_prsnl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Spiritual Themes</b></u> <i>of</i> (<b><i>Leo</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s05_sprt_theme"
+                }
+            ]
         },
         {
             "drct_id": "LOVE",
@@ -1137,7 +1151,7 @@
                             "insc_typ2": "trm",
                             "insc_offs": "offs_dwn_31",
                             "insc_term": "Vanuatu",
-                            "insc_dfin": "the south of France"
+                            "insc_extr": [1, 1, "the south of France"]
                         }
                     ]
                 },

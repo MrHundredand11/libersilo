@@ -13,6 +13,16 @@
             "drct_id": "HIST",
             "drct_ttl": "History of 'Skrying'",
             "scion_id": "ls_hi_cntct_skry_hist"
+        },
+        {
+            "drct_id": "TOOL",
+            "drct_ttl": "Tools used with 'Skrying'",
+            "scion_id": "ls_hi_cntct_skry_tool"
+        },
+        {
+            "drct_id": "HWTO",
+            "drct_ttl": "How To 'Skry'",
+            "scion_id": "ls_hi_cntct_skry_hwto"
         }
     ]
 }

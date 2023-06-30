@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-TBLTIP",
+    "ls_ttl": "Table Tipping",
+    "ls_url": "/ls/hi/cntct/tbltip.json",
+    "scion_id": "ls_hi_cntct_tbltip",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Table Tipping'",
+            "scion_id": "ls_hi_cntct_tbltip_000"
+        }
+    ]
+}

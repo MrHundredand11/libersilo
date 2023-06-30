@@ -1,132 +1,396 @@
 {
-    "ls_id": "LS-LULS-QBL-YTzYRH-LUL-C01V01",
-    "ls_ttl": "Line Upon Line for Ch 01 Vs 01",
-    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01",
+    "ls_id": "LS-QBL-OTz-SPR10",
+    "ls_ttl": "The Sephirah Malkuth",
+    "ls_url": "/ls/qbl/otz/spr10.json",
+    "scion_id": "ls_qbl_otz_spr10",
     "scions": [
         {
-            "drct_id": "000",
-            "drct_ttl": "Overview of 'Ch 01 Vs 01'",
-            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_000",
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Malkuth'",
+            "scion_id": "ls_qbl_otz_spr10_qblh",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_tag": "Teachings",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>Teachings</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Ch 01 Vs 01</span><span class='styl_stm_ttl_opncls'>)</span>",
-                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_000_teach",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_otz",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt",
-                            "insc_pntr": "=>",
-                            "insc_cntn": "This first Verse teaches us that <b>the universe was create by the&nbsp;<span class='styl_insc_trms_div_grg'>One God</span>&nbsp;who is known by many Names</b> and that He used&nbsp;<span class='styl_insc_trms_nmbr_inl_00'>32</span>&nbsp;\"<span class='font_sitka'><b><i>Paths</b></i></span>\" or <b>tools</b> in the creative process.",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Placement",
+                            "insc_term": "At the Base of the Pillar of Equilibrium"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_shm",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Final H in YHVH"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Adonai Melekh"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "Adon ha-Aretz"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_astr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Celestial Correspondence",
+                            "insc_term": "The Planet Earth"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_4wrl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Final H in YHVH"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Adonai Melekh"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Atziluth",
+                            "insc_term": "Adon ha-Arets"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Briyah",
+                            "insc_term": "Sandalphon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Yetzirah",
+                            "insc_term": "Ishim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "The Earth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "Matter in its Entirety"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Assiah",
+                            "insc_term": "The Mundane Physical World"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_taro",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "The World"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "Judgement"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Major",
+                            "insc_term": "The Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Minors",
+                            "insc_term": "The 4 Tens",
+                            "scion_id": "ls_qbl_otz_spr10_qblh_taro_mnrs_tens",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_cntn": "These&nbsp;<span class='styl_insc_trms_phrs_02'>tools</span>&nbsp;have various means by which they may be employed."
-                                },
-                                {
-                                    "insc_typ1": "flow",
-                                    "insc_typ2": "chut",
-                                    "insc_chut": "||"
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Wands"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_cntn": "Ten of the 32 Paths are <b>the Numbers 1 through 10</b>, symbolized in <b>the Ten Sephiroth</b>."
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Cups"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Swords"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Ten of Pentacles"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Tarot Minors",
+                            "insc_term": "The 4 Princess Cards",
+                            "scion_id": "ls_qbl_otz_spr10_qblh_taro_mnrs_prncss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Wands"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Cups"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Swords"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": "++>",
+                                    "insc_tag": "Tarot Minor",
+                                    "insc_term": "Princess of Pentacles"
                                 }
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "drct_id": "TXTS",
-            "drct_ttl": "Texts + Translations of 'Ch 01 Vs 01'",
-            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_txts",
-            "scions": [
+                },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)</span>",
-                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_txts_lst",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_lmnt",
                     "scions": [
                         {
-                            "insc_term": "Hebrew Text"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Element",
+                            "insc_term": "All Four Elements"
                         },
                         {
-                            "insc_term": "Aryeh Kaplan Translation"
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Element",
+                            "insc_term": "The Element Earth"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Malkuth</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
+                    "scion_id": "ls_qbl_otz_spr10_qblh_32p",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_tag": "Qabalistic Path",
+                            "insc_term": "The 10th Path"
                         }
                     ]
                 }
             ]
         },
         {
-            "drct_id": "LULS",
-            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 01'",
-            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_luls",
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'Malkuth'",
+            "scion_id": "ls_qbl_otz_spr10_xrcs",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)</span>",
-                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v01_luls_lst",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Exercises</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Malkuth</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst",
                     "scions": [
                         {
-                            "insc_term": "With 32"
+                            "insc_term": "The Opening Exercise",
+                            "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_opnxrc",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<b><u>Procedures</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>The Opening Exercise</b></i>)",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_opnxrc_prcdrs",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Follow the usual starting procedure."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "With your eyes closed, be as relaxed and empty of thoughts, feelings, and sensations as possible."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "When you feel ready, open your eyes and see the world before you, wherever you are, as a completely new place. Everything and everyone you see before you is not named. You have no mental, emotional, or physical constructs with which to identify your environment. You are not attached to anything."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Imagine yourself as a new-born being."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Now close your eyes, go back into your inner world, still self-identified, and make a conscious decision that when you open your eyes again you will see everything, and everyone else as equally reborn. Everything has its old familiar name, but it is different, new, seen in a new light because of your choice, your will."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Open your eyes."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Be aware of how you needed to use both your will and awareness in this exercise."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Write about your experience in your diary."
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "insc_term": "Paths"
+                            "insc_term": "The Exercise of the Senses",
+                            "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_xrcsnss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<b><u>Procedures</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>The Exercise of The Senses</b></i>)",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_xrcsnss_prcdrs"
+                                }
+                            ]
                         },
                         {
-                            "insc_term": "Mystical"
+                            "insc_term": "The Temple of Malkuth"
                         },
                         {
-                            "insc_term": "Wisdom"
-                        },
-                        {
-                            "insc_term": "Engraved"
-                        },
-                        {
-                            "insc_term": "Engraved Yah"
-                        },
-                        {
-                            "insc_term": "Yah"
-                        },
-                        {
-                            "insc_term": "Yah, the Lord..."
-                        },
-                        {
-                            "insc_term": "The Lord of Hosts"
-                        },
-                        {
-                            "insc_term": "God of Israel"
-                        },
-                        {
-                            "insc_term": "The Living God"
-                        },
-                        {
-                            "insc_term": "King of the Universe"
-                        },
-                        {
-                            "insc_term": "El Shaddai"
-                        },
-                        {
-                            "insc_term": "Merciful and Gracious"
-                        },
-                        {
-                            "insc_term": "High and Exalted"
-                        },
-                        {
-                            "insc_term": "With three books"
+                            "insc_term": "The Awareness Continuum",
+                            "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_awrnsscntnm",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<b><u>Commentary</b></u>&nbsp; <i>on</i>&nbsp; (<b><i>The Awareness Continuum</b></i>)",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_awrnsscntnm_cmmntry",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "This&nbsp;<span class='styl_insc_trms_div_grg'>Awareness Continuum</span>&nbsp;is composed of our&nbsp;<span class='font_sitka'>intuitions</span>,&nbsp;<span class='font_sitka'>thoughts</span>,&nbsp;<span class='font_sitka'>feelings</span>,&nbsp;<span class='font_sitka'>emotions</span>,&nbsp;<span class='font_sitka'>sensations</span>,&nbsp;<span class='font_sitka'>imaginings</span>...&nbsp;<em>all the functions of our total being</em>."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brnch",
+                                    "insc_ttl": "<b><u>Procedures</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>The Awareness Continuum</b></i>)",
+                                    "scion_id": "ls_qbl_otz_spr10_xrcs_lst_i_awrnsscntnm_prcdrs",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "+>",
+                                            "insc_cntn": "Follow the usual starting procedure."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "Meditations on Malkuth",
+                    "scion_id": "ls_qbl_otz_spr10_xrcs_mdtt"
                 }
             ]
         }

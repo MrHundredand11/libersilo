@@ -33,3 +33,28 @@
     font-style: italic;
     font-family: sitka;
 }
+
+.styl_trm_bg {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 31px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.styl_trm_rg {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 23px;
+    display: inline-block;
+    white-space: pre;
+    align-self: center;
+}
+
+.styl_trm_sm {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 17px;
+    display: inline-block;
+    white-space: pre;
+}

@@ -4,7 +4,63 @@
     "ls_url": "/ls/hi/cntct/000.json",
     "scion_id": "ls_hi_cntct_000",
     "scions": [
-        
+        {
+            "drct_id": "MTHD",
+            "drct_ttl": "Methods of 'Spirit Contact'",
+            "scion_id": "ls_hi_cntct_000_mthd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Methods</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Spirit Contact</b></i>)",
+                    "scion_id": "ls_hi_cntct_000_mthd_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automatic Writing",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_autowrt"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Estes Method",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_estes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Psychomanteum",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_psychmnt"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Psychometry",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_psychmtr"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Séance",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_seance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Skrying",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_skry"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Table Tipping",
+                            "scion_id": "ls_hi_cntct_000_mthd_lst_i_tbltip"
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "drct_id": "QUOT",
             "drct_ttl": "Quotes about 'Spirit Contact'",

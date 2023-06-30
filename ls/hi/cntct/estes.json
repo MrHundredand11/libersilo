@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-ESTES",
+    "ls_ttl": "The Estes Method",
+    "ls_url": "/ls/hi/cntct/estes.json",
+    "scion_id": "ls_hi_cntct_estes",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Estes Method'",
+            "scion_id": "ls_hi_cntct_estes_000"
+        }
+    ]
+}

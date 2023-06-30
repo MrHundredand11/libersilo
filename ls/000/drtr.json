@@ -945,27 +945,44 @@
                         {
                             "ls_id": "LS-HI-PPL-ANCSTR",
                             "ls_ttl": "Ancestors + Ancestral Spirits",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/ancstr.json",
+                            "scion_id": "ls_hi_ppl_ancstr"
                         },
                         {
                             "ls_id": "LS-HI-PPL-DEAD",
                             "ls_ttl": "The Dead",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/dead.json",
+                            "scion_id": "ls_hi_ppl_dead"
+                        },
+                        {
+                            "ls_id": "LS-HI-PPL-GIANTS",
+                            "ls_ttl": "The Giants",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/giants.json",
+                            "scion_id": "ls_hi_ppl_giants"
                         },
                         {
                             "ls_id": "LS-HI-PPL-HRYHMND",
                             "ls_ttl": "Hairy Hominids",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/hryhmnd.json",
+                            "scion_id": "ls_hi_ppl_hryhmnd"
                         },
                         {
                             "ls_id": "LS-HI-PPL-HUMAN",
                             "ls_ttl": "Human People",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/human.json",
+                            "scion_id": "ls_hi_ppl_human"
                         },
                         {
                             "ls_id": "LS-HI-PPL-WLDONES",
                             "ls_ttl": "The Wild Ones",
-                            "ls_type": "+>"
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/ppl/wldones.json",
+                            "scion_id": "ls_hi_ppl_wldones"
                         }
                     ]
                 },

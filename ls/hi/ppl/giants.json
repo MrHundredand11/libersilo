@@ -7,12 +7,144 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Giants'",
-            "scion_id": "ls_hi_ppl_giants_luls"
+            "scion_id": "ls_hi_ppl_giants_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Biblical</b></u>&nbsp; <i>appearances of</i>&nbsp; (<b><i>Giants</b></i>)",
+                    "scion_id": "ls_hi_ppl_giants_luls_bbl_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Nephilim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Goliath the Philistine"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Native American</b></u>&nbsp; <i>appearances of</i>&nbsp; (<b><i>Giants</b></i>)",
+                    "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Many Native American Tribes tell of the long forgotten existence of a race of humans that were much taller and stronger and sometimes more cruel than ordinary men."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Nahullo",
+                            "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr_i_nahullo",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Origin",
+                                    "insc_term": "Choktaw Tribe",
+                                    "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr_i_nahullo_origin_choktaw",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_cntn": "The Choktaw Tribe has a legend about the Nahullo, a race of giants who ate human flesh. The Choktaw killed these giants whenever they could. Eventually those giants were driven West."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Si-Te-Cah",
+                            "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr_i_sitecah",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_term": "Saiduka"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_term": "Sai'i"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Origin",
+                                    "insc_term": "Paiute Tribe"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Sumerian</b></u>&nbsp; <i>appearances of</i>&nbsp; (<b><i>Giants</b></i>)",
+                    "scion_id": "ls_hi_ppl_giants_luls_smrn_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Annunaki"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Hindu</b></u>&nbsp; <i>appearances of</i>&nbsp; (<b><i>Giants</b></i>)",
+                    "scion_id": "ls_hi_ppl_giants_luls_hndu_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Satya Yuga"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "EXCV",
-            "drct_ttl": "Archarological Excavations about 'Giants'",
-            "scion_id": "ls_hi_ppl_giants_excv"
+            "drct_ttl": "Archaeological Excavations of 'Giants'",
+            "scion_id": "ls_hi_ppl_giants_excv",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><i>Alleged</b></i>&nbsp; <b><u>Archaeological Excavations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Giants</b></i>)",
+                    "scion_id": "ls_hi_ppl_giants_excv_appr_allg",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lovelock Cave"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "NEWS",

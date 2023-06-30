@@ -116,9 +116,16 @@ function gen_Insc(insc_i, scion) {
             var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
 
-            var insc_scns = gen_ECI('div', 'styl_insc_scns stt_hide', `id_insc_scns_${insc_id}`);
-            insc_cntnr.append(insc_prtr, insc_scns);
-            
+            if (scion.scns_chut !== undefined) {
+                var scns_chut = gen_ECI('div', `styl_scns_chut_${scions.scns_chut}`, `id_scns_chut_${scions.scns_chut}_${insc_id}`);
+                var insc_scns = gen_ECI('div', 'styl_insc_scns stt_hide', `id_insc_scns_${insc_id}`);
+                insc_cntnr.append(insc_prtr, scns_chut);
+                scns_chut.append(insc_scns);
+            } else {
+                var insc_scns = gen_ECI('div', 'styl_insc_scns stt_hide', `id_insc_scns_${insc_id}`);
+                insc_cntnr.append(insc_prtr, insc_scns);
+            }
+
             if (scion.insc_sld !== undefined) {
                 var insc_sld = createElementWithClass('span', 'styl_pointers');
                 insc_sld.innerHTML = scion.insc_sld;

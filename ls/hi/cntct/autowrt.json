@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-AUTOWRT",
+    "ls_ttl": "Automatic Writing",
+    "ls_url": "/ls/hi/cntct/autowrt.json",
+    "scion_id": "ls_hi_cntct_autowrt",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Automatic Writing'",
+            "scion_id": "ls_hi_cntct_autowrt_000"
+        }
+    ]
+}

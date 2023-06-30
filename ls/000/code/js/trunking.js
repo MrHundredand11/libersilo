@@ -126,9 +126,9 @@ function gen_Insc(insc_i, scion) {
             }
             
             if (scion.insc_pntr !== undefined) {
-                var insc_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
+                var insc_pntr = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
             } else {
-                var insc_pnt = gen_Pntr(insc_i, insc_id);
+                var insc_pntr = gen_Pntr(insc_i, insc_id);
             }         
             
             if (scion.insc_styl !== undefined) {
@@ -144,9 +144,9 @@ function gen_Insc(insc_i, scion) {
                         var in_stpl = generateTag(insc_id, scion.insc_stpl);
                         var in_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
                         in_extn.append(insc_trm);
-                        insc_prtr.append(insc_pnt, in_stpl, in_extn);  
+                        insc_prtr.append(insc_pntr, in_stpl, in_extn);  
                     } else {
-                        insc_prtr.append(insc_pnt, insc_trm);
+                        insc_prtr.append(insc_pntr, insc_trm);
                     }
                    
                     if (scion.insc_styl !== undefined) {
@@ -181,7 +181,7 @@ function gen_Insc(insc_i, scion) {
                     var insc_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
                     insc_extn.append(insc_trm);
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);
+                    insc_prtr.append(insc_pntr, insc_tag, insc_extn);
                     
                     if (scion.insc_extr !== undefined) {
                         var insc_extr = gen_ECI('div', `extr_cntnr_${scion.insc_extr[0]}`, `id_trm_extr_${insc_id}`);
@@ -198,7 +198,7 @@ function gen_Insc(insc_i, scion) {
                     insc_extn.append(insc_trm);
                     insc_tag.style['font-size'] = '19px';
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_extn);
+                    insc_prtr.append(insc_pntr, insc_tag, insc_extn);
 
                     if (scion.insc_extr !== undefined) {
                         var insc_extr = gen_ECI('div', `extr_cntnr_${scion.insc_extr[0]}`, `id_trm_extr_${insc_id}`);
@@ -212,21 +212,21 @@ function gen_Insc(insc_i, scion) {
                     var insc_tag = generateTag(insc_id, scion.insc_tag);
                     var insc_lnk = gen_link(insc_id, scion.insc_cntn);
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pnt, insc_tag, insc_lnk);
+                    insc_prtr.append(insc_pntr, insc_tag, insc_lnk);
                     break;
 
                 case 'txt':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
                     
-                    insc_prtr.append(insc_pnt, insc_cntn);
+                    insc_prtr.append(insc_pntr, insc_cntn);
                     break;
                 
                 case 'txt_stpl':
                     var insc_tag = generateTag(insc_id, scion.insc_tag);    
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
                     insc_cntn.innerHTML = scion.insc_cntn;
-                    insc_prtr.append(insc_pnt, insc_tag, insc_cntn);
+                    insc_prtr.append(insc_pntr, insc_tag, insc_cntn);
                     break;
 
                 case 'txt_itr':
@@ -234,7 +234,7 @@ function gen_Insc(insc_i, scion) {
                     insc_cntn.innerHTML = scion.insc_cntn;
                     var insc_itr = createElementWithClass('span', 'styl_insc_itr');
                     insc_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
-                    insc_prtr.append(insc_itr, insc_pnt, insc_cntn);
+                    insc_prtr.append(insc_itr, insc_pntr, insc_cntn);
                     break;
 
                 case 'gem_hbrw':
@@ -246,7 +246,7 @@ function gen_Insc(insc_i, scion) {
                     eqq.innerHTML = bmp_def_flow;
                     trm.innerHTML = scion.insc_term;
                     eqc.append(num, eqq, trm);
-                    insc_prtr.append(insc_pnt, eqc);
+                    insc_prtr.append(insc_pntr, eqc);
                     break;
 
                 case 'nmbr_01':
@@ -254,7 +254,7 @@ function gen_Insc(insc_i, scion) {
                     var i_itr = gen_ECI('div', 'i_nmbr_01_itr', `id_nmbr_01_itr_${insc_id}`);
                     i_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
                     i_nmb.innerHTML = scion.insc_nmbr;
-                    insc_prtr.append(i_itr, insc_pnt, i_nmb);
+                    insc_prtr.append(i_itr, insc_pntr, i_nmb);
                     insc_prtr.classList.add('algn_itm_cntr');
                     break;
 
@@ -265,7 +265,7 @@ function gen_Insc(insc_i, scion) {
                     var insc_term = gen_term(insc_id, scion.insc_term);
                     var insc_cntn = gen_ECI('div', 'styl_lf_bld stt_show', `${bld_id}_cntn`);
                     insc_cntn.innerHTML = scion.insc_cntn; 
-                    insc_prtr.append(insc_pnt, insc_tag, insc_arm);
+                    insc_prtr.append(insc_pntr, insc_tag, insc_arm);
 
                     if (insc_term !== undefined) {
                         var lf_eqls = createElementWithClass('div', 'styl_pointers');
@@ -366,15 +366,15 @@ function gen_Insc(insc_i, scion) {
             cite_cntnr.append(cite_prtr, cite_scns);
             
             if (scion.insc_pntr !== undefined) {
-                var insc_pnt = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
+                var insc_pntr = gen_Pntr(insc_i, insc_id, scion.insc_pntr);
             } else {
-                var insc_pnt = gen_Pntr(insc_i, insc_id);
+                var insc_pntr = gen_Pntr(insc_i, insc_id);
             }
            
             switch (scion.insc_typ2) {
                 case 'md_00':
                     var cite_ttl = gen_term(insc_id, scion.cite_ttl);
-                    cite_prtr.append(insc_pnt, cite_ttl);
+                    cite_prtr.append(insc_pntr, cite_ttl);
                     cite_prtr.style['align-items'] = 'center';
 
                     if (scion.cite_sbtt !== undefined) {

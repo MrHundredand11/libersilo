@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-PSCHMNT",
+    "ls_ttl": "The Psychomanteum",
+    "ls_url": "/ls/hi/cntct/pschmnt.json",
+    "scion_id": "ls_hi_cntct_pschmnt",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Psychomanteum'",
+            "scion_id": "ls_hi_cntct_pschmnt_000"
+        }
+    ]
+}

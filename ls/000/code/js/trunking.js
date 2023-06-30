@@ -165,6 +165,10 @@ function gen_Insc(insc_i, scion) {
                         insc_prtr.append(insc_extr);
                     }
 
+                    if (scion.term_styl !== undefined) {
+                        insc_trm.classList.add(`styl_trm_${scion.term_styl}`);
+                    }
+
                     break;
                 
                 case 'trm_stpl':

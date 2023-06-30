@@ -692,11 +692,32 @@
                             "scion_id": "ls_hi_cntct_000"
                         },
                         {
+                            "ls_id": "LS-HI-CNTCT-AUTOWRT",
+                            "ls_ttl": "Automatic Writing",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/autowrt.json",
+                            "scion_id": "ls_hi_cntct_autowrt"
+                        },
+                        {
+                            "ls_id": "LS-HI-CNTCT-ESTES",
+                            "ls_ttl": "The Estes Method",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/estes.json",
+                            "scion_id": "ls_hi_cntct_estes"
+                        },
+                        {
                             "ls_id": "LS-HI-CNTCT-PSCHMTR",
                             "ls_ttl": "Psychometry",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/cntct/pschmtr.json",
                             "scion_id": "ls_hi_cntct_pschmtr"
+                        },
+                        {
+                            "ls_id": "LS-HI-CNTCT-SEANCE",
+                            "ls_ttl": "The Séance",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hi/cntct/seance.json",
+                            "scion_id": "ls_hi_cntct_seance"
                         },
                         {
                             "ls_id": "LS-HI-CNTCT-SKRY",

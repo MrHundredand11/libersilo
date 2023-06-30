@@ -13,78 +13,43 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_otz",
-                    "scions": [
-                        {
-
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_shm",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_astr",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_astr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_4wrl",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_4wrl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_taro",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_lmnt",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
-                    "scion_id": "ls_qbl_otz_spr02_qblh_32p",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "scion_id": "ls_qbl_otz_spr02_qblh_32p"
                 }
             ]
         },

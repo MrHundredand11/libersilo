@@ -46,7 +46,7 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Origin",
@@ -72,7 +72,7 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Also Known As",
@@ -80,7 +80,7 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Also Known As",
@@ -88,7 +88,7 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Origin",

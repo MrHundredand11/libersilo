@@ -143,6 +143,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Lovelock Cave"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cahokia Mounds"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Acambaro Artifacts"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Catalina Island"
                         }
                     ]
                 }

@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_otz",
                     "scions": [
                         {
@@ -23,7 +23,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_shm",
                     "scions": [
                         {
@@ -34,7 +34,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_astr",
                     "scions": [
                         {
@@ -45,7 +45,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_4wrl",
                     "scions": [
                         {
@@ -56,7 +56,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_taro",
                     "scions": [
                         {
@@ -67,7 +67,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_lmnt",
                     "scions": [
                         {
@@ -78,7 +78,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
+                    "insc_ttl": "(<b><i>Chokmah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_otz_spr02_qblh_32p",
                     "scions": [
                         {
@@ -97,7 +97,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Symbols",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Symbols</b></u> <i>of</i> (<b><i>Chokmah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls",
                     "scions": [
                         {
@@ -148,7 +148,7 @@
                             "insc_tag": "Symbol",
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_term": "Phallus // Lingam",
-                            "insc_dfin": "the Virile Member at its most Potent",
+                            "insc_extr": [1, 1, "the Virile Member at its most Potent"],
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_phallus"
                         },
                         {
@@ -156,7 +156,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Symbol",
                             "insc_offs": "styl_offs_dwn_43",
-                            "insc_term": "The Yod",
+                            "insc_term": "The Letter Yod",
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_yod"
                         },
                         {
@@ -164,6 +164,7 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Symbol",
                             "insc_term": "Yod of Tetragrammaton",
+                            "insc_extr": [2, 2, "י in יהיה"],
                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symbls_yodttrgrmmtn"
                         },
                         {
@@ -180,7 +181,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Symbol Explorations",
-                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>Exploration</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Symbols</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl":"<b><u>Exploration</b></u> <i>of</i> <b><u>Symbols</b></u> <i>of</i> (<b><i>Chokmah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr",
                     "scions": [
                         {
@@ -201,7 +202,7 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brnch",
-                                    "insc_ttl": "<span class='styl_stm_ttl_tny'>From</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Point</span><span class='styl_stm_ttl_opncls'>)</span>&nbsp;<span class='styl_stm_ttl_tny'>to</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Line</span><span class='styl_stm_ttl_opncls'>)</span>",
+                                    "insc_ttl": "<i>From</i> (<b><i>The Point</b></i>) <i>to</i> (<b><i>The Line</b></i>)",
                                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr_line_frompnttolne",
                                     "scions": [
                                         {
@@ -257,7 +258,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Magickal Images",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Magical Images</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Chokmah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Magical Images</b></u> <i>of</i> (<b><i>Chokmah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs",
                     "scions": [
                         {

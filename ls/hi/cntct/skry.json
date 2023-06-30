@@ -1,0 +1,18 @@
+{
+    "ls_id": "LS-HI-CNTCT-SKRY",
+    "ls_ttl": "Skrying",
+    "ls_url": "/ls/hi/cntct/skry.json",
+    "scion_id": "ls_hi_cntct_skry",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Skrying'",
+            "scion_id": "ls_hi_cntct_skry_000"
+        },
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'Skrying'",
+            "scion_id": "ls_hi_cntct_skry_hist"
+        }
+    ]
+}

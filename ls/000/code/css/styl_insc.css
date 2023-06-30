@@ -3,9 +3,15 @@
     position: relative;
 }
 
+.styl_insc_scns_1 {
+    left: -4.5px;
+    position: relative;
+}
+
 .styl_scns_chut_1 {
     left: 31px;
     position: relative;
+    border-left: 1.37px solid black;
 }
 
 .styl_insc_txt {

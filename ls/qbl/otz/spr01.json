@@ -1106,6 +1106,11 @@
             ]
         },
         {
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts of 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_cncp"
+        },
+        {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'Kether'",
             "scion_id": "ls_qbl_otz_spr01_qblh",
@@ -1237,6 +1242,11 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "LVLS",
+            "drct_ttl": "Levels of 'Kether'",
+            "scion_id": "ls_qbl_otz_spr01_lvls"
         },
         {
             "drct_id": "XRCS",

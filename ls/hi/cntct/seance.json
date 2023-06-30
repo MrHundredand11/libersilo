@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-HI-CNTCT-SEANCE",
+    "ls_ttl": "The Séance",
+    "ls_url": "/ls/hi/cntct/seance.json",
+    "scion_id": "ls_hi_cntct_seance",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Séance'",
+            "scion_id": "ls_hi_cntct_seance_000"
+        }
+    ]
+}

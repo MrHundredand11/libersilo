@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Divine Names",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Divine Names</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Divine Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_dvnnames_lst",
                     "scions": [
                         {
@@ -21,28 +21,28 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Divine Name",
                             "insc_term": "ALHYM",
-                            "insc_dfin": "Elohim"
+                            "insc_extr": [1, 1, "Elohim"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Divine Name",
                             "insc_term": "YHVH ALHYM",
-                            "insc_dfin": "Yahweh Elohim // Jehovah Elohim"
+                            "insc_extr": [1, 1, "Yahweh Elohim // Jehovah Elohim"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Divine Name",
                             "insc_term": "NV",
-                            "insc_dfin": "Nu // Nut // Nuit"
+                            "insc_extr": [1, 1, "Nu // Nut // Nuit"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Divine Name",
                             "insc_term": "HKA",
-                            "insc_dfin": "Heka // Hekate // Heket"
+                            "insc_extr": [1, 1, "Heka // Hekate // Heket"]
                         }
                     ]
                 },
@@ -50,7 +50,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Titles",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Titles</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
                     "scions": [
                         {
@@ -58,28 +58,28 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "AMA",
-                            "insc_dfin": "the dark sterile Mother"
+                            "insc_extr": [1, 1, "the dark sterile Mother"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "AYMA",
-                            "insc_dfin": "the bright fertile Mother"
+                            "insc_extr": [1, 1, "the bright fertile Mother"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "Kursiya",
-                            "insc_dfin": "the Throne"
+                            "insc_extr": [1, 1, "the Throne"]
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "Marah",
-                            "insc_dfin": "the Great Sea"
+                            "insc_extr": [1, 1, "the Great Sea"]
                         },
                         {
                             "insc_typ1": "insc",
@@ -117,7 +117,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Other Names",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Other Names</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>Binah</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Other Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
                     "scions": [
                         {
@@ -138,79 +138,44 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_otz",
-                    "scions": [
-                        {
-
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Divine Names</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_shm",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_astr",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_astr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_4wrl",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_4wrl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_taro",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_lmnt",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='styl_stm_ttl'>(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u></span>",
-                    "scion_id": "ls_qbl_otz_spr03_qblh_32p",
-                    "scions": [
-                        {
-                            
-                        }
-                    ]
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_32p"
                 }
             ]
         }

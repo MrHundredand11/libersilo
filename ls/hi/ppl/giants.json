@@ -42,6 +42,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Nahullo",
+                            "term_styl": "bg",
                             "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr_i_nahullo",
                             "scions": [
                                 {
@@ -67,6 +68,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "term_styl": "bg",
                             "insc_term": "Si-Te-Cah",
                             "scion_id": "ls_hi_ppl_giants_luls_ntvamrc_appr_i_sitecah",
                             "scions": [

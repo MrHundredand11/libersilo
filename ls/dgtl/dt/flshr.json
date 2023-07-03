@@ -25,6 +25,8 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "lnk_stpl",
                                     "insc_tag": "Link",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_cntn": "https://drive.google.com/",
                                     "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_ggldrv_lnk"
                                 }
@@ -34,13 +36,15 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "MEGA",
-                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_offs": "styl_offs_dwn_23",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_mega",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "lnk_stpl",
                                     "insc_tag": "Link",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_cntn": "https://mega.nz/",
                                     "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_mega_lnk"
                                 }
@@ -50,13 +54,15 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "OneDrive",
-                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_offs": "styl_offs_dwn_23",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_1drv",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "lnk_stpl",
                                     "insc_tag": "Link",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_cntn": "https://onedrive.live.com/",
                                     "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_1drv_lnk"
                                 }
@@ -66,13 +72,15 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "WeTransfer",
-                            "insc_offs": "styl_offs_dwn_17",
+                            "insc_offs": "styl_offs_dwn_23",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_wetrnsfr",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "lnk_stpl",
                                     "insc_tag": "Link",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_cntn": "https://wetransfer.com/",
                                     "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_wetrnsfr_lnk"
                                 }

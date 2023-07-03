@@ -1,42 +1,3 @@
-.styl_div_stem {
-    position: relative;
-    left: 43px;
-    display: block;
-}
-.styl_stem_head {
-    font-family: bahnSchrift;
-    font-size: 23px;
-}
-.styl_stem_body {
-    position: relative;
-    left: 17px;
-    list-style: none;
-    margin-top: 7px;
-    padding-inline-start: 0px;
-}
-
-.styl_stm_cntnr {
-    margin-bottom: 17px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 7px;
-    padding-right: 47px;
-    margin-right: 47px;
-    width: 100%;
-    left: 23px;
-    top: 3px;
-    position: relative;
-    display: block;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-
-.styl_stm_cntnr:hover {
-    border: 2.22px solid black;
-}
-
 .styl_stm_bmp_top {
     display: none;
 }
@@ -195,31 +156,6 @@
     margin-left: 61px;
     margin-bottom: 29px;
     display: block;
-}
-
-.styl_stm_ttl_opncls {
-    font-family: Montserrat_Light;
-}
-
-.styl_stm_ttl_spprt {
-    font-weight: bold;
-    font-stretch: condensed;
-    text-decoration: underline;
-    font-family: bahnSchrift;
-}
-
-.styl_stm_ttl_tny {
-    font-family: Montserrat_ThinItalic;
-    font-weight: bold;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-
-.styl_stm_ttl_trm {
-    font-weight: bold;
-    font-style: italic;
-    font-family: bahnSchrift;
-    margin-right: 3px;
 }
 
 .styl_stm_shrt_cntnr {

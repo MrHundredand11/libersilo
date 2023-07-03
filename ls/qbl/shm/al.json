@@ -1,0 +1,104 @@
+{
+    "ls_id": "LS-QBL-ShM-AL",
+    "ls_ttl": "The Name AL",
+    "ls_url": "/ls/qbl/shm/al.json",
+    "scion_id": "ls_qbl_shm_al",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'AL'",
+            "scion_id": "ls_qbl_shm_al_000"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'AL'",
+            "scion_id": "ls_qbl_shm_al_nmbr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Numbers</b></i>&nbsp; <i>of</i>&nbsp; (<b><i>AL</b></i>)",
+                    "scion_id": "ls_qbl_shm_al_nmbr_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "1",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0001"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "3",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0003"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "4",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0004"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "31",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0031"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "56",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0056"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "78",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0078"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "1",
+                            "scion_id": "ls_qbl_shm_al_nmbr_lst_i_0092"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Numbers</b></i>&nbsp; <i>of</i>&nbsp; (<b><i>AL</b></i>)",
+                    "scion_id": "ls_qbl_shm_al_nmbr_explr",
+                    "scions": [
+                        {
+                            "insc_term": "1"
+                        },
+                        {
+                            "insc_term": "3"
+                        },
+                        {
+                            "insc_term": "4"
+                        },
+                        {
+                            "insc_term": "31"
+                        },
+                        {
+                            "insc_term": "56"
+                        },
+                        {
+                            "insc_term": "78"
+                        },
+                        {
+                            "insc_term": "92"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'AL'",
+            "scion_id": "ls_qbl_shm_al_luls"
+        }
+    ]
+}

@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_brnch": "brnch",
+                    "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>Websites</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>File Sharing</b></i>)",
                     "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst",
                     "scions": [

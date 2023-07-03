@@ -1561,89 +1561,89 @@
                     "ls_id": "LS-LULS-LCT",
                     "ls_ttl": "Scriptural + Spiritual Locations",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/lct/",
-                    "scion_id": "ls_luls_lct",
+                    "ls_url": "/ls/luls/lctn/",
+                    "scion_id": "ls_luls_lctn",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-LCT-BBL",
+                            "ls_id": "LS-LULS-LCTN-BBL",
                             "ls_ttl": "Biblical Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/bbl/",
-                            "scion_id": "ls_luls_lct_bbl"
+                            "ls_url": "/ls/luls/lctn/bbl/",
+                            "scion_id": "ls_luls_lctn_bbl"
                         },
                         {
-                            "ls_id": "LS-LULS-LCT-HLWE",
+                            "ls_id": "LS-LULS-LCTN-HLWE",
                             "ls_ttl": "Hollow Earth Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/hlwe/",
-                            "scion_id": "ls_luls_lct_hlwe"
+                            "ls_url": "/ls/luls/lctn/hlwe/",
+                            "scion_id": "ls_luls_lctn_hlwe"
                         },
                         {
-                            "ls_id": "LS-LULS-LCT-LSCN",
+                            "ls_id": "LS-LULS-LCTN-LSCN",
                             "ls_ttl": "Lost Continent Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/lscn/",
-                            "scion_id": "ls_luls_lct_lscn",
+                            "ls_url": "/ls/luls/lctn/lscn/",
+                            "scion_id": "ls_luls_lctn_lscn",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-LCT-LSCN-LEMURIA",
+                                    "ls_id": "LS-LULS-LCTN-LSCN-LEMURIA",
                                     "ls_ttl": "Lemuria",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/lscn/lemuria.json",
-                                    "scion_id": "ls_luls_lct_lemuria"
+                                    "ls_url": "/ls/luls/lctn/lscn/lemuria.json",
+                                    "scion_id": "ls_luls_lctn_lemuria"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-LCT-MT",
+                            "ls_id": "LS-LULS-LCTN-MT",
                             "ls_ttl": "Mountain Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/mt/",
-                            "scion_id": "ls_luls_lct_mt",
+                            "ls_url": "/ls/luls/lctn/mt/",
+                            "scion_id": "ls_luls_lctn_mt",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-LCT-MT-GRTPYR",
+                                    "ls_id": "LS-LULS-LCTN-MT-GRTPYR",
                                     "ls_ttl": "The Great Pyramid",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/mt/grtpyr.json",
-                                    "scion_id": "ls_luls_lct_mt_grtpyr"
+                                    "ls_url": "/ls/luls/lctn/mt/grtpyr.json",
+                                    "scion_id": "ls_luls_lctn_mt_grtpyr"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-LCT-MT-SHSTA",
+                                    "ls_id": "LS-LULS-LCT-MTN-SHSTA",
                                     "ls_ttl": "Mount Shasta",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/mt/shsta.json",
-                                    "scion_id": "ls_luls_lct_mt_shsta"
+                                    "ls_url": "/ls/luls/lct/mnt/shsta.json",
+                                    "scion_id": "ls_luls_lct_mtn_shsta"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-LCT-MT-VLCN",
+                                    "ls_id": "LS-LULS-LCT-MTN-VLCN",
                                     "ls_ttl": "Volcanoes",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/mt/vlcn.json",
-                                    "scion_id": "ls_luls_lct_mt_vlcn"
+                                    "ls_url": "/ls/luls/lct/mtn/vlcn.json",
+                                    "scion_id": "ls_luls_lct_mtn_vlcn"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-LCT-PLLR",
+                            "ls_id": "LS-LULS-LCTN-PLLR",
                             "ls_ttl": "Pillar Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/pllr/",
-                            "scion_id": "ls_luls_lct_pllr",
+                            "ls_url": "/ls/luls/lctn/pllr/",
+                            "scion_id": "ls_luls_lctn_pllr",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-LCT-PLLR-TZDK",
+                                    "ls_id": "LS-LULS-LCTN-PLLR-TZDK",
                                     "ls_ttl": "The Tzadik Pillar",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/pllr/tzdk.json",
-                                    "scion_id": "ls_luls_lct_pllr_tzdk"
+                                    "ls_url": "/ls/luls/lctn/pllr/tzdk.json",
+                                    "scion_id": "ls_luls_lctn_pllr_tzdk"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-LCT-PLLR-MERU",
+                                    "ls_id": "LS-LULS-LCTN-PLLR-MERU",
                                     "ls_ttl": "The Meru Pillar",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/pllr/meru.json",
-                                    "scion_id": "ls_luls_lct_pllr_meru"
+                                    "ls_url": "/ls/luls/lctn/pllr/meru.json",
+                                    "scion_id": "ls_luls_lctn_pllr_meru"
                                 }
                             ]
                         }

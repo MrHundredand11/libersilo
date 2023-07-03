@@ -15,6 +15,52 @@
             "scion_id": "ls_dgtl_os_ms_wos_vrsn"
         },
         {
+            "drct_id": "NTWK",
+            "drct_ttl": "Networking with 'Windows OS'",
+            "scion_id": "ls_dgtl_os_ms_wos_ntwk",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Networking Configuration</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "twg",
+                            "insc_ttl": "<b><u>Configurations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Windows OS Networking</b></i>)"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Networking Tools</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_tool"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Networking Commands</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_cmnd",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ipconfig",
+                            "insc_extr": [1, 1, "CMD"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ping",
+                            "insc_extr": [1, 1, "CMD"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "APPS",
             "drct_ttl": "Applications is 'Windows OS'",
             "scion_id": "ls_dgtl_os_ms_wos_apps",

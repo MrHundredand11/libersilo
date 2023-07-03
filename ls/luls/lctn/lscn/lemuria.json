@@ -1,0 +1,62 @@
+{
+    "ls_id": "LS-LULS-LCTN-LSCN-LEMURIA",
+    "ls_ttl": "Lemuria",
+    "ls_url": "/ls/luls/lctn/lscn/lemuria.json",
+    "scion_id": "ls_luls_lctn_lscn_lemuria",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources about 'Lemuria'",
+            "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Films</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Lemuria</b></i>)",
+                    "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_films",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Beyond Lemuria",
+                            "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_films_beyondlemuria",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Director",
+                                    "insc_term": "Gregory Jednack"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Starring",
+                                    "insc_term": "Poke Runyon"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Release Year",
+                                    "insc_term": "2007"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Videos</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Lemuria</b></i>)",
+                    "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_videos"
+                }
+            ]
+        }
+    ]
+}

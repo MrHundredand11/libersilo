@@ -54,6 +54,31 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'UFOs + Aeros'",
+            "scion_id": "ls_hi_alien_ufo_obsr_luls"
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'UFOs + Aeros'",
+            "scion_id": "ls_hi_alien_ufo_obsr_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Songs</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>UFOs</b></i>)",
+                    "scion_id": "ls_hi_alien_ufo_obsr_rsrc_song",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "\"<span class='font_cambria'><b>Calling Occupants of Interplanetary Craft</b></span>\"&nbsp;by&nbsp;<span class='font_sitka'><i>Carpenters</i></span>"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

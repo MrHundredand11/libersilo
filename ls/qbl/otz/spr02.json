@@ -180,7 +180,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
                                             "insc_offs": "styl_offs_dwn_43",
-                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>The Point</span>&nbsp;<span class='styl_insc_txt_flow'>(</span><span class='styl_insc_txt_stkitc'>Kether</span><span class='styl_insc_txt_flow'>)</span>&nbsp;to&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>The Line</span>&nbsp;<span class='styl_insc_txt_flow'>(</span><span class='styl_insc_txt_stkitc'>Chokmah</span><span class='styl_insc_txt_flow'>)</span>",
+                                            "insc_cntn": "<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>The Point</span>&nbsp;(<span class='font_sitka'><i>Kether</i></span>)&nbsp;to&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>The Line</span>&nbsp;(<span class='font_sitka'><i>Chokmah</i>)",
                                             "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr_line_frompnttolne_cntn",
                                             "scions": [
                                                 {
@@ -201,7 +201,7 @@
                                                     "insc_typ2": "txt",
                                                     "insc_offs": "styl_offs_dwn_23",
                                                     "insc_pntr": "=>",
-                                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>The Straight Line // Uplifted Rod of Power</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;is&nbsp;<span class='styl_insc_txt_stkitc'>the dynamic forth-flowing Energy of <span class='styl_insc_txt_bld'>Kether</span></span>",
+                                                    "insc_cntn": "<span class='styl_insc_txt_trm_grg'>The Straight Line // Uplifted Rod of Power</span>&nbsp;<span class='styl_insc_txt_flow'>=</span>&nbsp;is&nbsp;<span class='font_sitka'><i>the dynamic forth-flowing Energy of <span class='styl_insc_txt_bld'>Kether</span></i></span>",
                                                     "scions": [
                                                         {
                                                             "insc_typ1": "insc",

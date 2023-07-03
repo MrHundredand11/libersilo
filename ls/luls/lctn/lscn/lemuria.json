@@ -24,7 +24,7 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Director",
@@ -32,7 +32,7 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Starring",
@@ -40,7 +40,7 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Release Year",
@@ -54,7 +54,42 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>Videos</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Lemuria</b></i>)",
-                    "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_videos"
+                    "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_videos",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "The Other Atlantis: Exploring Mount Shasta's Lost Civilization",
+                            "scion_id": "ls_luls_lctn_lscn_lemuria_rsrc_films_hntdobj018",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Source",
+                                    "insc_term": "<span class='font_cambria styl_insc_txt_size_23'><b>The Haunted Objects Podcast</b></span>,&nbsp;<span class='font_sitka'><i>Episode 018</i></span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Publisher",
+                                    "insc_term": "Planet Weird"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "YouTube Link",
+                                    "insc_cntn": "https://www.youtube.com/watch?v=R7o9JRoXq1I"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

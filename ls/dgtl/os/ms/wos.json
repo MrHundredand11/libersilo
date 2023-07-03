@@ -1,0 +1,79 @@
+{
+    "ls_id": "LS-DGTL-OS-MS-WOS",
+    "ls_ttl": "The Windows Operating System",
+    "ls_url": "/ls/dgtl/os/ms/wos.json",
+    "scion_id": "ls_dgtl_os_ms_wos",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of the 'Windows OS'",
+            "scion_id": "ls_dgtl_os_ms_wos_000"
+        },
+        {
+            "drct_id": "VRSN",
+            "drct_ttl": "Versions of the 'Windows OS'",
+            "scion_id": "ls_dgtl_os_ms_wos_vrsn"
+        },
+        {
+            "drct_id": "APPS",
+            "drct_ttl": "Applications is 'Windows OS'",
+            "scion_id": "ls_dgtl_os_ms_wos_apps",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_types"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Deployment Options</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Installing</b></u>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_install"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Office 365 Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_o365apps"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Microsoft Store</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_mssstore"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "(<b><i>Assigned Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_assgndaccss"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Sideloading</b></u>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_sideload"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Default</b></u>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_default"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Startup</b></u>&nbsp; (<b><i>Applications</b></i>)",
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_startup"
+                }
+            ]
+        }
+    ]
+}

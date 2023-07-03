@@ -1,6 +1,6 @@
 {
     "ls_id": "LS-DGTL-OS-MS-WOS",
-    "ls_ttl": "The Windows Operating System",
+    "ls_ttl": "The Windows OS",
     "ls_url": "/ls/dgtl/os/ms/wos.json",
     "scion_id": "ls_dgtl_os_ms_wos",
     "scions": [
@@ -29,7 +29,59 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>Deployment Options</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Applications</b></i>)",
-                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns"
+                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "twg",
+                            "insc_ttl":"<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Deployment Options</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Applications</b></i>)",
+                            "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Manual Installation",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_maninstll"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Group Policy",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_grpplcy"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "System Center Configuration Manager",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_sccm"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Microsoft Intune",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_intune"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Virtualized Applications",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_vrtlapps"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Remote Applications",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_rmtapps"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Included in Image",
+                                    "scion_id": "ls_dgtl_os_ms_wos_apps_deployoptns_twglst_i_inclimg"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

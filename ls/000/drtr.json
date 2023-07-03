@@ -1568,21 +1568,37 @@
                             "ls_id": "LS-LULS-LCT-BBL",
                             "ls_ttl": "Biblical Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/bbl",
+                            "ls_url": "/ls/luls/lct/bbl/",
                             "scion_id": "ls_luls_lct_bbl"
                         },
                         {
                             "ls_id": "LS-LULS-LCT-HLWE",
                             "ls_ttl": "Hollow Earth Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/hlwe",
+                            "ls_url": "/ls/luls/lct/hlwe/",
                             "scion_id": "ls_luls_lct_hlwe"
+                        },
+                        {
+                            "ls_id": "LS-LULS-LCT-LSCN",
+                            "ls_ttl": "Lost Continent Locations",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/lct/lscn/",
+                            "scion_id": "ls_luls_lct_lscn",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-LCT-LSCN-LEMURIA",
+                                    "ls_ttl": "Lemuria",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/lct/lscn/lemuria.json",
+                                    "scion_id": "ls_luls_lct_lemuria"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-LCT-MT",
                             "ls_ttl": "Mountain Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lct/mt",
+                            "ls_url": "/ls/luls/lct/mt/",
                             "scion_id": "ls_luls_lct_mt",
                             "scions": [
                                 {

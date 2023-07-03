@@ -1,0 +1,53 @@
+{
+    "ls_id": "LS-QBL-OTz-SPR09",
+    "ls_ttl": "The Sephirah of Yesod",
+    "ls_url": "/ls/qbl/otz/spr09.json",
+    "scion_id": "ls_qbl_otz_spr09",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_000"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_name"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_qblh"
+        },
+        {
+            "drct_id": "ASSC",
+            "drct_ttl": "Associations of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_assc"
+        },
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_symb"
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Nature Correspondences of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_cntr"
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_deit"
+        },
+        {
+            "drct_id": "EXVV",
+            "drct_ttl": "Experiences + Virtues + Vices of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_exvv"
+        },
+        {
+            "drct_id": "LVLS",
+            "drct_ttl": "Level of 'Yesod'",
+            "scion_id": "ls_qbl_otz_spr09_lvls"
+        }
+    ]
+}

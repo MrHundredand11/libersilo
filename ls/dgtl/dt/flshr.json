@@ -1,0 +1,83 @@
+{
+    "ls_id": "LS-DGTL-DT-FLSHR",
+    "ls_ttl": "File Sharing",
+    "ls_url": "/ls/dgtl/dt/flshr.json",
+    "scion_id": "ls_dgtl_dt_flshr",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'File Sharing'",
+            "scion_id": "ls_dgtl_dt_flshr_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_brnch": "brnch",
+                    "insc_ttl": "<b><u>Websites</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>File Sharing</b></i>)",
+                    "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google Drive",
+                            "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_ggldrv",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk_stpl",
+                                    "insc_tag": "Link",
+                                    "insc_cntn": "https://drive.google.com/",
+                                    "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_ggldrv_lnk"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MEGA",
+                            "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_mega",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk_stpl",
+                                    "insc_tag": "Link",
+                                    "insc_cntn": "https://mega.nz/",
+                                    "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_mega_lnk"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "OneDrive",
+                            "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_1drv",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk_stpl",
+                                    "insc_tag": "Link",
+                                    "insc_cntn": "https://onedrive.live.com/",
+                                    "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_1drv_lnk"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "WeTransfer",
+                            "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_wetrnsfr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk_stpl",
+                                    "insc_tag": "Link",
+                                    "insc_cntn": "https://wetransfer.com/",
+                                    "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_wetrnsfr_lnk"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

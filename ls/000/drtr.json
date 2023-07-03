@@ -588,7 +588,7 @@
                         },
                         {
                             "ls_id": "LS-HI-ALIEN-UFO",
-                            "ls_ttl": "UFOs + Saucers + Aeros",
+                            "ls_ttl": "UFOs + Aeros",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/alien/ufo.json",
                             "scion_id": "ls_hi_alien_ufo"

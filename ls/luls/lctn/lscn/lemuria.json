@@ -69,7 +69,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Source",
-                                    "insc_cntn": "<span class='font_cambria styl_insc_txt_size_23'><b>The Haunted Objects Podcast</b></span>,&nbsp;<span class='font_sitka'><i>Episode 018</i></span>"
+                                    "insc_cntn": "<span class='styl_insc_txt_size_23'><span class='font_cambria'><b>The Haunted Objects Podcast</b></span>,&nbsp;<span class='font_sitka'><i>Episode 018</i></span></span>"
                                 },
                                 {
                                     "insc_typ1": "insc",

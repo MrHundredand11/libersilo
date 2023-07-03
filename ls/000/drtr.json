@@ -316,8 +316,17 @@
                     "ls_id": "LS-DGTL-DT",
                     "ls_ttl": "Data Science",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_dgtl_dt"
+                    "ls_url": "/ls/dgtl/dt/",
+                    "scion_id": "ls_dgtl_dt",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-DT-FLSHR",
+                            "ls_ttl": "File Sharing",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/dt/flshr.json",
+                            "scion_id": "ls_dgtl_dt_flshr"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-DGTL-GRC",

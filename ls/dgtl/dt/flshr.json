@@ -34,6 +34,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "MEGA",
+                            "insc_offs": "styl_offs_dwn_17",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_mega",
                             "scions": [
                                 {
@@ -49,6 +50,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "OneDrive",
+                            "insc_offs": "styl_offs_dwn_17",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_1drv",
                             "scions": [
                                 {
@@ -64,6 +66,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "WeTransfer",
+                            "insc_offs": "styl_offs_dwn_17",
                             "scion_id": "ls_dgtl_dt_flshr_rsrc_wbst_i_wetrnsfr",
                             "scions": [
                                 {

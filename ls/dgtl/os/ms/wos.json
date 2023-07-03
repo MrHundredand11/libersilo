@@ -28,7 +28,34 @@
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "twg",
-                            "insc_ttl": "<b><u>Configurations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Windows OS Networking</b></i>)"
+                            "insc_ttl": "<b><u>Configurations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Windows OS Networking</b></i>)",
+                            "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg_cnfgrtns"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "twg",
+                            "insc_ttl": "<b><u>Methods</b></u>&nbsp; <i>for assigning</i>&nbsp; (<b><i>IPv4 Addressing</b></i>)",
+                            "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg_mthd_assgnaddrss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Manual Configuration",
+                                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg_mthd_assgnaddrss_i_man"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "DHCP",
+                                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg_mthd_assgnaddrss_i_dhcp"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "APIPA",
+                                    "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg_mthd_assgnaddrss_i_apipa"
+                                }
+                            ]
                         }
                     ]
                 },

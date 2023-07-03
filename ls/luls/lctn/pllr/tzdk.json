@@ -1,0 +1,36 @@
+{
+    "ls_id": "LS-LULS-LCT-PLLR-TZDK",
+    "ls_ttl": "The Tzadik Pillar",
+    "ls_url": "/ls/luls/lct/pllr/tzdk.json",
+    "scion_id": "ls_luls_lct_pllr_tzdk",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Tzadik Pillar'",
+            "scion_id": "ls_luls_lct_pllr_tzdk_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Qabalistic Scriptures</b></u> <i>about</i> (<b><i>The Tzadik Pillar</b></i>)",
+                    "scion_id": "ls_luls_lct_pllr_tzdk_luls_qbl",
+                    "scions": [
+                        {
+                            "insc_term": "Sepher Bahir 102",
+                            "scion_id": "ls_luls_lct_pllr_tzdk_luls_qbl_bhyr_102",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_styl": "size_23px",
+                                    "insc_tag": "Text",
+                                    "insc_cntn": "[\t\"We learned: There is a single pillar extending from heaven to earth, and its name is <b>Righteous</b> (<i>Tzadik</i>).\n\n\t[This Pillar] is named after the righteous. When there are righteous people in the world, then it becomes strong, and when there are not, it becomes weak.\n\n\tIt supports the entire world, as it is written, \"And Righteousness is the foundation of the world.\" If it becomes weak, then the world cannot endure.\n\n\tTherefore, even if there is only one righteous person in the world, it is he who supports the world. It is therefore written, \"And a righteous one is the foundation of the world.\"\t\t\t]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

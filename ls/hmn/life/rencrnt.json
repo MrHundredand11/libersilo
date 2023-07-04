@@ -72,6 +72,11 @@
                     "insc_cntn": "There are many cases of young children who report very specific details of an apparent past life, which are later verified.",
                     "scions": [
                         {
+                            "insc_typ1": "flow",
+                            "insc_typ2": "chut",
+                            "insc_chut": "||"
+                        },
+                        {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt_stpl",
                             "insc_sld": "|\\_",
@@ -90,7 +95,7 @@
                             "insc_sld": "|\\_",
                             "insc_pntr": ">>",
                             "insc_tag": "Case",
-                            "insc_cntn": "Ryan Hammons",
+                            "insc_term": "Ryan Hammons",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",

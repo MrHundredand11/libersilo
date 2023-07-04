@@ -950,6 +950,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Riordan, Holly",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -3285,6 +3292,23 @@
                             "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://www.damndelicious.net/"}],
                             "cite_ttl": "Damn Delicious"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Spiritual Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_ls_sprt",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://collective.world/the-best-part-of-marrying-each-zodiac-sign/"}],
+                            "cite_auth": [{"name": "Riordan, Holly"}],
+                            "cite_site": [{"name": "Collective World"}],
+                            "cite_ttl": "The Best Part of Marrying Each Zodiac Sign"
                         }
                     ]
                 }

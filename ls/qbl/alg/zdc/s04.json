@@ -588,7 +588,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>an</i>&nbsp; (<b><i>Cancer</b></i>)",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Cancer</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s04_love_mrrge_bstprt",
                     "scions": [
                         {

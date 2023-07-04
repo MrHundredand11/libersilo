@@ -702,6 +702,21 @@
                 },
                 {
                     "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Gemini</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s03_love_mrrge_bstprt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Gemini</i></span>, is having&nbsp;<span class='font_sitka'><b>a best friend</b></span>&nbsp;around all the time. You're more than a partner, you're a buddy. You're going to have a ton of inside jokes with your person and know how to make them laugh harder than anyone around. With you, every day will be a good day.",
+                            "scion_id": "ls_qbl_alg_zdc_s03_love_mrrge_bstprt_i_bestfriend"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Gemini</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s03_love_amorcmb",

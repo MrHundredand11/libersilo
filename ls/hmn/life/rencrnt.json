@@ -69,7 +69,7 @@
                     "insc_typ1": "insc",
                     "insc_typ2": "txt_stpl",
                     "insc_tag": "Trend",
-                    "insc_cntn": "There are many cases of young children who report very specific details of an apparent past life, which are later verified.",
+                    "insc_cntn": "<span class='font_cambria'><b>There are many cases of young children who report very specific details of an apparent past life, which are later verified.</b></span>",
                     "scions": [
                         {
                             "insc_typ1": "flow",
@@ -78,7 +78,7 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "txt_stpl",
                             "insc_sld": "|\\_",
                             "insc_pntr": ">>",
                             "insc_tag": "Criticism",
@@ -242,6 +242,31 @@
                             "insc_typ2": "trm",
                             "insc_term": "Ryan Hammons",
                             "scion_id": "ls_hmn_life_rencrnt_case_expn_allg_i_ryanhammons"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Reincarnation'",
+            "scion_id": "ls_hmn_life_rencrnt_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Reincarnation</b></i>)",
+                    "scion_id": "ls_hmn_life_rencrnt_rsrc_lst_wbpg",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.psychologytoday.com/us/blog/out-the-darkness/202112/evaluating-the-evidence-reincarnation?amp"}],
+                            "cite_auth": [{"name": "Taylor, Steve", "extr": "Ph.D."}],
+                            "cite_ttl": "Evaluating the Evidence for Reincarnation",
+                            "cite_sbtt": "Can deceased people somehow be reborn in a different body?",
+                            "cite_site": "Pyschology Today"
                         }
                     ]
                 }

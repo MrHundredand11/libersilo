@@ -3332,6 +3332,16 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://medium.com/@tangela_5275/the-spiritual-significance-of-silver-20af3951204e/"}],
+                            "cite_ttl": "The Significance of Silver in Our Lives",
+                            "cite_sbtt": "The Spiritual Significance of Silver",
+                            "cite_auth": [{"name": "Harper, Tangela"}],
+                            "cite_site": "Medium"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://www.damndelicious.net/"}],
                             "cite_ttl": "Damn Delicious"
                         }
@@ -3368,6 +3378,14 @@
                             "cite_link": [{"link": "https://get.tithe.ly/blog/bible-verses-about-debt/"}],
                             "cite_auth": [{"name": "Maxwell, Paul"}],
                             "cite_ttl": "Bible Verses about Debt to Proactively Grow"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.joyvernon.com/"}],
+                            "cite_auth": [{"name": "Vernon, Joy"}],
+                            "cite_ttl": "Joy Vernon Astrology"
                         },
                         {
                             "insc_tag": "Web Page",

@@ -393,7 +393,7 @@ function gen_Insc(insc_i, scion) {
                     if (scion.cite_site !== undefined) {
                         for (x in scion.cite_site) {
                             var cite_site = gen_ECI('div', 'cite_site', `id_cite_site_${x}_${scion.scion_id}`);
-                            cite_site.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Web Site]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_site[x].link}</span>`;
+                            cite_site.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Web Site]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_site}</span>`;
                             cite_scns.append(cite_site);
                         }
                     }

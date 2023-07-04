@@ -1523,6 +1523,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Loner, Patrick",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Lowrie, Daniel",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -3106,6 +3113,32 @@
                             "cite_pbls": "Bear & Company",
                             "cite_date": "2011",
                             "cite_isbn13": "978-1-59143-085-8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CORS",
+            "drct_ttl": "Lists of 'Courses'",
+            "scion_id": "ls_000_cite_cors",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Courses</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_cors_lst_dgtl",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.udemy.com/course/modern-desktop-certification-exam-md-100-windows-10/"}],
+                            "cite_ttl": "Exam MD100",
+                            "cite_sbtt": "Modern Desktop Certification Exam MD-100: Windows 10",
+                            "cite_tchr": [{"name": "Loner, Patrick"}],
+                            "cite_pbls": [{"name": "Stone River eLearning"}],
+                            "cite_pltf": [{"name": "Udemy"}]
                         }
                     ]
                 }

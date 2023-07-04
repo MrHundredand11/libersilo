@@ -429,6 +429,14 @@ function gen_Insc(insc_i, scion) {
                             cite_scns.append(cite_cmpl);
                         }
                     }
+
+                    if (scion.cite_tchr !== undefined) {
+                        for (x in scion.cite_tchr) {
+                            var cite_tchr = gen_ECI('div', 'cite_tchr', `id_cite_tchr_${x}_${scion.scion_id}`);
+                            cite_tchr.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Teacher]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_tchr[x].name}</span>`;
+                            cite_scns.append(cite_tchr);
+                        }
+                    }
                         
                     if (scion.cite_pbls !== undefined) {
                         var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.scion_id}`);

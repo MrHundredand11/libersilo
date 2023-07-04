@@ -61,6 +61,51 @@
             ]
         },
         {
+            "drct_id": "TRND",
+            "drct_ttl": "Trends of 'Reincarnation'",
+            "scion_id": "ls_hmn_life_rencrnt_trnd",
+            "scions": [
+                {
+                    "insc_typ1": "insc",
+                    "insc_typ2": "txt_stpl",
+                    "insc_tag": "Trend",
+                    "insc_cntn": "There are many cases of young children who report very specific details of an apparent past life, which are later verified.",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt_stpl",
+                            "insc_sld": "|\\_",
+                            "insc_pntr": ">>",
+                            "insc_tag": "Criticism",
+                            "insc_cntn": "Some claim that children's reports of past lives could be the result of&nbsp;<span class='font_sitka'><b><i>fraug</b></i></span>,&nbsp;<span class='font_sitka'><b><i>imagination</b></i></span>, or&nbsp;<span class='font_sitka'><b><i>embellishment</b></i></span>."
+                        },
+                        {
+                            "insc_typ1": "flow",
+                            "insc_typ2": "chut",
+                            "insc_chut": "||"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm_stpl",
+                            "insc_sld": "|\\_",
+                            "insc_pntr": ">>",
+                            "insc_tag": "Case",
+                            "insc_cntn": "Ryan Hammons",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "\\_",
+                                    "insc_pntr": ">",
+                                    "insc_cntn": "<span class='font_cambria'><b>Ryan Hammons</b></span>&nbsp;= made 55 very specific statements about a previous life that were verified"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'Reincarnation'",
             "scion_id": "ls_hmn_life_rencrnt_luls",
@@ -157,6 +202,41 @@
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CASE",
+            "drct_ttl": "Cases of 'Reincarnation'",
+            "scion_id": "ls_hmn_life_rencrnt_case",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Alleged Cases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Reincarnation</b></i>)",
+                    "scion_id": "ls_hmn_life_rencrnt_case_lst_allg",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Ryan Hammons",
+                            "scion_id": "ls_hmn_life_rencrnt_case_lst_allg_i_ryanhammons"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Expansion</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Alleged Cases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Reincarnation</b></i>)",
+                    "scion_id": "ls_hmn_life_rencrnt_case_expn_allg",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Ryan Hammons",
+                            "scion_id": "ls_hmn_life_rencrnt_case_expn_allg_i_ryanhammons"
                         }
                     ]
                 }

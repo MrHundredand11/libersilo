@@ -587,6 +587,21 @@
                 },
                 {
                     "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Virgo</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s06_love_mrrge_bstprt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Virgo</i></span>, is&nbsp;<span class='font_cambria'><b>the unyielding support</b></span>. You are going to be your partner's biggest cheerleader because you have faith that they can achieve all their goals. Whenever they have doubts, you'll give them a pep talk and bring their confidence back up. You'll remind them how incredible they are.",
+                            "scion_id": "ls_qbl_alg_zdc_s06_love_mrrge_bstprt_i_unyieldingsupport"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Virgo</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s06_love_amorcmb",

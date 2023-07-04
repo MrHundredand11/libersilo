@@ -587,6 +587,21 @@
                 },
                 {
                     "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>an</i>&nbsp; (<b><i>Cancer</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s04_love_mrrge_bstprt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Cancer</i></span>, is&nbsp;<span class='font_cambria'><b>the consistency</b></span>. You're not going anywhere, and that kind of trust and stability is hard to find. Your person will rest easy knowing that they have you around forever and ever. You aren't going to abandon them out of the blue because that's not your style.",
+                            "scion_id": "ls_qbl_alg_zdc_s04_love_mrrge_bstprt_i_consistency"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Cancer</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s04_love_amorcmb",

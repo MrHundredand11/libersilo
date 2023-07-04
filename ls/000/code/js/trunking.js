@@ -28,6 +28,21 @@ function gen_Insc(insc_i, scion) {
                     }
                     break;
 
+                case 'brn':
+                    stm_bmp_top.innerHTML = bmp_stm_scrll;
+                    stm_nmtg.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
+                    stm_bmp_btm.innerHTML = bmp_stm_scrll;
+    
+                    stm_nmtg.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStem('${insc_id}');`); 
+                        
+                    for (i2 in scion.scions) {
+                        var entr_full = gen_Insc(i2, scion.scions[i2]);
+                        stm_trstlbrd.appendChild(entr_full);
+                    }
+                    break;
+
                 case 'bn2':
                     stm_bmp_top.innerHTML = bmp_stm_scrll;
                     stm_nmtg.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
@@ -487,7 +502,7 @@ function gen_Insc(insc_i, scion) {
                     if (scion.cite_link !== undefined) {
                         for (x in scion.cite_link) {
                             var cite_link = gen_ECI('div', 'cite_link', `id_cite_link_${x}_${scion.scion_id}`);
-                            cite_link.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Link]</em>::</span>&nbsp;<a href='${scion.cite_link[x].link}' class='cite_sbdt'>${scion.cite_link[x].link}</a>`;
+                            cite_link.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Link]</em>::</span>&nbsp;<a href='${scion.cite_link[x].link}' target='_blank' class='cite_sbdt'>${scion.cite_link[x].link}</a>`;
                             cite_scns.append(cite_link);
                         }
                     }

@@ -3307,6 +3307,15 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.hunker.com/12001523/how-to-bank-ashes-in-fireplaces/"}],
+                            "cite_ttl": "How to Bank Ashes in Fireplaces",
+                            "cite_auth": [{"name": "Gardner, Karen"}],
+                            "cite_site": "Hunker"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "http://www.thespruce.com/citrine-srystal-in-feng-shui-1274371/"}],
                             "cite_ttl": "Learn How to Use Citrine Crystals for Good Feng Shui in Your Home",
                             "cite_auth": [{"name": "Cho, Anjie"}, {"name": "The Spruce"}]

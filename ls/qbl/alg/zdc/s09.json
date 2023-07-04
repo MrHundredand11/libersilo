@@ -834,6 +834,21 @@
                 },
                 {
                     "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Sagittarius</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s09_love_mrrge_bstprt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Sagittarius</i></span>, is&nbsp;<span class='font_cambria'><b>the unpredictability</b></span>. Even after being with you for years, you'll still keep them on their toes. You'll keep surprising them in new ways. They won't know exactly what to expect from you, so no two days will be exactly alike.",
+                            "scion_id": "ls_qbl_alg_zdc_s09_love_mrrge_bstprt_i_unpredictability"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Sagittarius</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s09_love_amorcmb",
@@ -1186,7 +1201,7 @@
                                     "insc_pntr": ">>",
                                     "insc_tag": "Reason",
                                     "insc_term": "Sagittarius",
-                                    "insc_cntn": "Sagittarius = is a&nbsp;<span class='styl_in_txt_emph'>fiery</span>,&nbsp;<span class='styl_in_txt_emph'>hot</span>, and&nbsp;<span class='styl_in_txt_emph'>choleric</span>&nbsp;sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
+                                    "insc_cntn": "Sagittarius = is a <i>fiery</i>, <i>hot</i>, and <i>choleric</i> sign, and so the individual intoxicated Sagittarius can easily get driven to extremes."
                                 }
                             ]
                         }

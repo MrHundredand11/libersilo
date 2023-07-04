@@ -3292,6 +3292,24 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Human Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_ls_hmn",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.psychologytoday.com/us/blog/out-the-darkness/202112/evaluating-the-evidence-reincarnation?amp"}],
+                            "cite_auth": [{"name": "Taylor, Steve", "extr": "Ph.D."}],
+                            "cite_ttl": "Evaluating the Evidence for Reincarnation",
+                            "cite_sbtt": "Can deceased people somehow be reborn in a different body?",
+                            "cite_site": "Pyschology Today"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
                     "scion_id": "ls_000_cite_wbpg_ls_nn",
                     "scions": [

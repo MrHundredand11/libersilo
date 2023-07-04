@@ -437,12 +437,6 @@ function gen_Insc(insc_i, scion) {
                             cite_scns.append(cite_tchr);
                         }
                     }
-                        
-                    if (scion.cite_pbls !== undefined) {
-                        var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.scion_id}`);
-                        cite_pbls.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Publisher]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_pbls}</span>`;
-                        cite_scns.append(cite_pbls);
-                    }
 
                     if (scion.cite_date !== undefined) {
                         var cite_date = gen_ECI('div', 'cite_date', `id_cite_date_${scion.scion_id}`);
@@ -454,6 +448,18 @@ function gen_Insc(insc_i, scion) {
                         var cite_edtn = gen_ECI('div', 'cite_edtn', `id_cite_edtn_${scion.scion_id}`);
                         cite_edtn.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Edition]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_edtn}</span>`;
                         cite_scns.append(cite_edtn);
+                    }
+
+                    if (scion.cite_pbls !== undefined) {
+                        var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.scion_id}`);
+                        cite_pbls.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Publisher]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_pbls[x].name}</span>`;
+                        cite_scns.append(cite_pbls);
+                    }
+
+                    if (scion.cite_pltf !== undefined) {
+                        var cite_pltf = gen_ECI('div', 'cite_pltf', `id_cite_pltf_${scion.scion_id}`);
+                        cite_pltf.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Platform]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_pltf[x].name}</span>`;
+                        cite_scns.append(cite_pltf);
                     }
 
                     if (scion.cite_isbn !== undefined) {

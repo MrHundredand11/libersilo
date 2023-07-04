@@ -1,0 +1,177 @@
+{
+    "ls_id": "LS-DGTL-ISEC-THRT-MLWR",
+    "ls_ttl": "Malware Threats",
+    "ls_url": "/ls/dgtl/isec/thrt/mlwr.json",
+    "scion_id": "ls_dgtl_isec_thrt_mlwr",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Malware Threats'",
+            "scion_id": "ls_dgtl_isec_thrt_mlwr_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b><u>Quick Concept Context Lists</b></u>",
+                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl":"<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Malware</b></i>)",
+                            "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_viruses"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Worms",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_worms"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Trojans",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_trojans"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Rootkits",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_rootkits"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Ransomware",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_ransomware"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Spyware",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_spyware"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Adware",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_adware"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Logic Bomb",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_mlwr_i_logicbomb"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brnch",
+                            "insc_ttl":"<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Viruses</b></i>)",
+                            "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Boot Sector Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_bootsector"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Macro Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_macro"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Program Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_program"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Multipartite Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_multipartite"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Encrypted Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_encrypted"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Polymorphic Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_polymorphic"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Metamorphic Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_metamorphic"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Stealth Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_stealth"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Armored Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_armored"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Hoax Viruses",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr_000_qccl_type_vrss_i_hoax"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "TYPE",
+            "drct_ttl": "Types of 'Malware Threats'",
+            "scion_id": "ls_dgtl_isec_thrt_mlwr_type",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Malware</b></i>)",
+                    "scion_id": "ls_dgtl_isec_thrt_mlwr_type_explr",
+                    "scions": [
+                        {
+                            "insc_term": "Viruses"
+                        },
+                        {
+                            "insc_term": "Worms"
+                        },
+                        {
+                            "insc_term": "Trojans"
+                        },
+                        {
+                            "insc_term": "Spyware"
+                        },
+                        {
+                            "insc_term": "Logic Bomb"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -589,14 +589,14 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>an</i>&nbsp; (<b><i>Aquarius</b></i>)",
-                    "scion_id": "ls_qbl_alg_zdc_s10_love_mrrge_bstprt",
+                    "scion_id": "ls_qbl_alg_zdc_s11_love_mrrge_bstprt",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_pntr": "=>",
                             "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Aquarius</i></span>, is&nbsp;<span class='font_cambria'><b>the feeling of comfort</b></span>. Your person knows they can be their most authentic self around you. They can let their guard down because you would never judge. You have an open heart and mind. And you love them exactly the way they are.",
-                            "scion_id": "ls_qbl_alg_zdc_s10_love_mrrge_bstprt_i_feelingofcomfort"
+                            "scion_id": "ls_qbl_alg_zdc_s11_love_mrrge_bstprt_i_feelingofcomfort"
                         }
                     ]
                 },

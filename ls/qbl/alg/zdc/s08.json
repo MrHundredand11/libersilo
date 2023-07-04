@@ -587,6 +587,21 @@
                 },
                 {
                     "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Scorpio</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s08_love_mrrge_bstprt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "The best part of marrying you,&nbsp;<span class='font_sitka'><i>Scorpio</i></span>, is&nbsp;<span class='font_cambria'><b>the laughs</b></span>. You're going to make your partner smile, even when they're in a terrible mood because you know exactly what they want to hear. With you around, even the most mundane activities will feel fresh and fun.",
+                            "scion_id": "ls_qbl_alg_zdc_s08_love_mrrge_bstprt_i_laughs"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Amorous Combinations</b></u> <i>of</i> (<b><i>Scorpio</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s08_love_amorcmb",

@@ -3322,6 +3322,16 @@
                             "cite_site": "Northwest Arkansas Democrat Gazette",
                             "cite_date": "February 9, 2013",
                             "cite_ttl": "Big Bob, don't worry too much about Bigfoot"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "copycateffect.blogspot.com/2012/06/fayette-factor/"},{"link": "https://rense.com/general49/fay.htm"}],
+                            "cite_auth": [{"name": "Coleman, Loren"}],
+                            "cite_site": "Twilight Language",
+                            "cite_date": "Sunday, June 10, 2012",
+                            "cite_ttl": "The Fayette Factor"
                         }
                     ]
                 },

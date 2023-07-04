@@ -367,7 +367,7 @@
                             "ls_id": "LS-DGTL-ISEC-DFN",
                             "ls_ttl": "InfoSec Defensive Measures",
                             "ls_type": "=>",
-                            "ls_url": "",
+                            "ls_url": "/ls/dgtl/isec/dfn/",
                             "scion_id": "ls_dgtl_isec_dfn",
                             "scions": [
                                 {
@@ -404,6 +404,22 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/isec/dfn/hard.json",
                                     "scion_id": "ls_dgtl_isec_dfn_hard"
+                                }
+                            ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-THRT",
+                            "ls_ttl": "Security Threats",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/isec/thrt/",
+                            "scion_id": "ls_dgtl_isec_thrt",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-ISEC-THRT-MLWR",
+                                    "ls_ttl": "Malware Threats",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/isec/thrt/mlwr.json",
+                                    "scion_id": "ls_dgtl_isec_thrt_mlwr"
                                 }
                             ]
                         }

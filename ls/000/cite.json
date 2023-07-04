@@ -3338,6 +3338,15 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.premierchristianity.com/opinion/3-things-every-christian-should-know-about-the-jewish-feast-of-tabernacles/3796.article"}],
+                            "cite_auth": [{"name": "Emanuel, Emily"}],
+                            "cite_site": "Premier Christianity",
+                            "cite_ttl": "3 Things Every Christian Should Know about the Jewish Feast of Tabernacles"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://collective.world/the-best-part-of-marrying-each-zodiac-sign/"}],
                             "cite_auth": [{"name": "Riordan, Holly"}],
                             "cite_site": "Collective World",

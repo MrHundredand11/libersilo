@@ -181,7 +181,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Common</b></u>&nbsp; (<b><i>Malware</b><i>)-<i>Modified</i>&nbasp; <b><u>Windows Policies</b></u>",
+                    "insc_ttl": "<b><u>Common</b></u>&nbsp; (<b><i>Malware</b><i>)-<i>Modified</i>&nbsp; <b><u>Windows Policies</b></u>",
                     "scion_id": "ls_dgtl_isec_thrt_mlwr_indc_mdfwndplc",
                     "scions": [
                         {

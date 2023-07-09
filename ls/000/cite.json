@@ -3412,6 +3412,15 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.llewellyn.com/journal/article/472/"}],
+                            "cite_auth": [{"name": "Godwin, David"}],
+                            "cite_site": "Llewellyn",
+                            "cite_ttl": "Astrological Attributions of the Twelve Tribes of Israel"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://collective.world/the-best-part-of-marrying-each-zodiac-sign/"}],
                             "cite_auth": [{"name": "Riordan, Holly"}],
                             "cite_site": "Collective World",

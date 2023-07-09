@@ -17,7 +17,50 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Religious Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Divine Couples</b></i>)"
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Religious Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Divine Couples</b></i>)",
+                    "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jesus of Nazareth&nbsp;<span class='styl_cncl'>and</span>&nbsp;Mary the Magdeline"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jesus Christ&nbsp;<span class='styl_cncl'>and</span>&nbsp;The Bride of The Church"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Had&nbsp;<span class='styl_cncl'>and</span>&nbsp;Nu"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Osiris&nbsp;<span class='styl_cncl'>and</span>&nbsp;Isis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dumuzi&nbsp;<span class='styl_cncl'>and</span>&nbsp;Inanna"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tammuz&nbsp;<span class='styl_cncl'>and</span>&nbsp;Ishtar"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Ba'al&nbsp;<span class='styl_cncl'>and</span>&nbsp;Astarte"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Attis&nbsp;<span class='styl_cncl'>and</span>&nbsp;Cybele"
+                        }
+                    ]
                 }
             ]
         }

@@ -1,0 +1,25 @@
+{
+    "ls_id": "LS-HMN-DLC-HRSGMS",
+    "ls_ttl": "Hieros Gamos",
+    "ls_url": "/ls/hmn/dlc/hrsgms.json",
+    "scion_id": "ls_hmn_dlc_hrsgms",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Hieros Gamos'",
+            "scion_id": "ls_hmn_dlc_hrsgms_000"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Hieros Gamos'",
+            "scion_id": "ls_hmn_dlc_hrsgms_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Religious Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Divine Couples</b></i>)"
+                }
+            ]
+        }
+    ]
+}

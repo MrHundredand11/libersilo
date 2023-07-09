@@ -3300,6 +3300,13 @@
                     "scion_id": "ls_qbl_alg",
                     "scions": [
                         {
+                            "ls_id": "LS-QBL-ALG-000",
+                            "ls_ttl": "Overview of AstroLogos",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/qbl/alg/000.json",
+                            "scion_id": "ls_qbl_alg_000"
+                        },
+                        {
                             "ls_id": "LS-QBL-ALG-AEON",
                             "ls_ttl": "Astrological Ages",
                             "ls_type": "=>",

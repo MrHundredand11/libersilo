@@ -23,42 +23,56 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Jesus of Nazareth&nbsp;<span class='styl_cncl'>and</span>&nbsp;Mary the Magdeline"
+                            "insc_term": "Jesus of Nazareth&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Mary the Magdeline",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_jesusnazarethmarymagdeline"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Jesus Christ&nbsp;<span class='styl_cncl'>and</span>&nbsp;The Bride of The Church"
+                            "insc_term": "Jesus Christ&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;The Bride of The Church",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_jesuschristthechurch"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Had&nbsp;<span class='styl_cncl'>and</span>&nbsp;Nu"
+                            "insc_term": "Had&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Nu",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_hadnu"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Osiris&nbsp;<span class='styl_cncl'>and</span>&nbsp;Isis"
+                            "insc_term": "Hadit&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Nuit",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_haditnuit"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Dumuzi&nbsp;<span class='styl_cncl'>and</span>&nbsp;Inanna"
+                            "insc_term": "Osiris&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Isis",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_osirisisis"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Tammuz&nbsp;<span class='styl_cncl'>and</span>&nbsp;Ishtar"
+                            "insc_term": "Dumuzi&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Inanna",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_dumuziinanna"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Ba'al&nbsp;<span class='styl_cncl'>and</span>&nbsp;Astarte"
+                            "insc_term": "Tammuz&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Ishtar",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_tammuzishtar"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Attis&nbsp;<span class='styl_cncl'>and</span>&nbsp;Cybele"
+                            "insc_term": "Ba'al&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Astarte",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_baalastarte"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Attis&nbsp;<span class='styl_cncl'><i>and</i></span>&nbsp;Cybele",
+                            "scion_id": "ls_hmn_dlc_hrsgms_luls_rlgexmp_dvncpl_i_attiscybele"
                         }
                     ]
                 }

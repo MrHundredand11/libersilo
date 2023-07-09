@@ -1168,11 +1168,11 @@
                             "scion_id": "ls_hmn_dlc_erotlk"
                         },
                         {
-                            "ls_id": "LS-HMN-DLC-HRSGSMS",
+                            "ls_id": "LS-HMN-DLC-HRSGMS",
                             "ls_ttl": "Hieros Gamos",
                             "ls_type": "+>",
-                            "ls_url": "/ls/hmn/dlc/hrsgsms.json",
-                            "scion_id": "ls_hmn_dlc_hrsgsms"
+                            "ls_url": "/ls/hmn/dlc/hrsgms.json",
+                            "scion_id": "ls_hmn_dlc_hrsgms"
                         },
                         {
                             "ls_id": "LS-HMN-DLC-KISS",

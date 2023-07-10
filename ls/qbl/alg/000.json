@@ -1,0 +1,77 @@
+{
+    "ls_id": "LS-QBL-ALG-000",
+    "ls_ttl": "Overview of 'AstroLogos'",
+    "ls_url": "/ls/qbl/alg/000.json",
+    "scion_id": "ls_qbl_alg_000",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'AstroLogos'",
+            "scion_id": "ls_qbl_alg_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></i>&nbsp; <i>of</i>&nbsp; <b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Astrology</b></i>)",
+                    "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Genesis 1:14-16",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_genesis1_1416"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Leviticus 17:7",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_leviticus17_7"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Deuteronomy 32:8",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_deuteronomy32_8"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Judges 5:19-21",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_judges5_1921"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "2nd Kings 23:5",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_2kings23_5"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Job 9:9-13",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job9_913"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Job 25:5",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job25_5"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Job 26:13",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job26_13"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Job 38:31-36",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job38_3136"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

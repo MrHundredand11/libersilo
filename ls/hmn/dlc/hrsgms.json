@@ -18,7 +18,17 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
-                            "insc_cntn": "<span class='styl_insc_txt_size_23'>▽</span>&nbsp;=&nbsp;<span class='font_cambria'><b>The Shape of the Letter V</b></span>&nbsp;= is associated with&nbsp;<span class='font_sitka'><b><i>The Great Mother</b></i></span>"
+                            "insc_cntn": "<span class='algn_itm_cntr'><span class='styl_insc_txt_size_19'>▽</span>&nbsp;=&nbsp;<span class='font_cambria'><b>The Shape of the Letter V</b></span>&nbsp;= is associated with&nbsp;<span class='font_sitka'><b><i>The Great Mother</b></i></span></span>"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='algn_itm_cntr'><span class='styl_insc_txt_size_19'>△</span>&nbsp;=&nbsp;<span class='font_cambria'><b>The Shape of the Letter A</b></span>&nbsp;= is associated with&nbsp;<span class='font_sitka'><b><i>The Great Father</b></i></span></span>"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='algn_itm_cntr'><span class='styl_insc_txt_size_19'>✡</span>&nbsp;=&nbsp;<span class='font_cambria'><b>Two Intertwined Triangles</b></span>&nbsp;= is associated with&nbsp;<span class='font_sitka'><b><i>The Sacred Marriage</b></i></span></span>"
                         }
                     ]
                 }

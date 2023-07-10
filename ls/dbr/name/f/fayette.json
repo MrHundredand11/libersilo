@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-DBR-NAME-F-FAYETTE",
+    "ls_ttl": "Fayette",
+    "ls_url": "/ls/dbr/name/f/fayette.json",
+    "scion_id": "ls_dbr_name_f_fayette",
+    "scions": [
+        {
+            "drct_id": "PHNM",
+            "drct_ttl": "Phenomena associated with 'Fayette'",
+            "scion_id": "ls_dbr_name_f_fayette_phnm",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Expansion</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Phenomena</b></u>&nbsp; <i>associated with</i>&nbsp; (<b><i>Fayette</b></i>)",
+                    "scion_id":"ls_dbr_name_f_fayette_phnm_expns",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "The Fayette Factor"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

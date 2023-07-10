@@ -964,6 +964,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Schopenhauer, Arthur",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Shapiro, Rabbi Rami",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1007,6 +1014,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Smith, George",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Starbird, Margaret",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2251,6 +2265,17 @@
                             "cite_date": "1995",
                             "cite_isbn13": "978-0-87728-827-5",
                             "cite_isbn10": "0-87728-827-5"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Magdalene's Lost Legacy",
+                            "cite_sbtt": "Symbolic Numbers and Sacred Union in Christianity",
+                            "cite_auth": [{"name": "Starbird, Margaret"}],
+                            "cite_pbls": "Bear & Company",
+                            "cite_date": "2003",
+                            "cite_isbn10": "1-59143-012-7"
                         },
                         {
                             "insc_typ1": "cite",

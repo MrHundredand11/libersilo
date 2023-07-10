@@ -20,7 +20,53 @@
                             "insc_typ2": "trm",
                             "term_styl": "bg",
                             "insc_term": "Cain and his descendants are the Bigfoot",
-                            "scion_id": "ls_hi_ppl_hryhmnd_thry_expns_i_cain"
+                            "scion_id": "ls_hi_ppl_hryhmnd_thry_expns_i_cain",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Culture",
+                                    "insc_term": "Mormon Folklore"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Origin",
+                                    "insc_term": "Mormon Priests"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Question",
+                                    "insc_term": "Why do some people say that Cain is Bigfoot?",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_tag": "Answer",
+                                            "insc_cntn": "Mostly because of a passage in Spence W. Kimball's book <i>Miracle of Forgiveness</i>. The passage records an account claiming Apostle David W. Patten met a very large, hairy man who identified himself as Cain during a mule ride. Although Kimball doesn't identify Cain as \"Bigfoot\", this idea has become part of Mormon folklore."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

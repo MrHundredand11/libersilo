@@ -37,9 +37,10 @@
         {
             "ls_id": "LS-DBR",
             "ls_ttl": "Mystical Etymology",
-            "ls_type": "=>",
+            "ls_type": "->",
             "ls_url": "/ls/dbr/",
             "scion_id": "ls_dbr",
+            "scion_snip": "DBR",
             "scions": [
                 {
                     "ls_id": "LS-DBR-NAME",

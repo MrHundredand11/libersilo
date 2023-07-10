@@ -57,6 +57,18 @@
                                     "insc_cntn": "The&nbsp;<span class='font_cambria'><b>enterprise deployment lifecycle</b></span>&nbsp;is a framework for identifying the processes and tasks required to deploy and manage an organization’s desktops. This process includes the initial planning of the entire deployment lifecycle, desktop acquisition, the deployment process itself, and post-deployment management. The lifecycle also includes how you’ll support the deployment process, including upgrades, and how it will eventually be retired."
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Benefits</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Modern Management</b></i>)",
+                            "scion_id": "ls_dgtl_os_ms_wos_etrp_bnf_mdrnmgmt"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Examine</b></u>&nbsp; <i>the</i>&nbsp; (<b><i>Enterprise Desktop Life-Cycle</b></i>)&nbsp; <b><u>Model</b></u>",
+                            "scion_id": "ls_dgtl_os_ms_wos_etrp_bnf_etrpdsktlfcyc"
                         }
                     ]
                 }
@@ -69,7 +81,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Networking Configuration</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Applications</b></i>)",
                     "scion_id": "ls_dgtl_os_ms_wos_ntwk_cnfg",
                     "scions": [

@@ -32,6 +32,8 @@ function gen_Insc(insc_i, scion) {
                     stm_bmp_top.innerHTML = bmp_stm_scrll;
                     stm_nmtg.innerHTML = `${flow_brnch}<span class='stm_ttl' id='${insc_id}'>${stm_name}</span>&nbsp;::`;
                     stm_bmp_btm.innerHTML = bmp_stm_scrll;
+
+                    //insc_xind
     
                     stm_nmtg.setAttribute('onclick', `showHideStem('${insc_id}');`);
                     stm_bmp_top.setAttribute('onclick', `showHideStem('${insc_id}');`);
@@ -237,10 +239,15 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.append(insc_pntr, insc_tag, insc_lnk);
                     break;
 
+                case 'quot':
+                    var insc_cntn = createElementWithClass('div', 'styl_insc_quot');
+                    insc_cntn.innerHTML = scion.insc_cntn;
+                    insc_prtr.append(insc_pntr, insc_cntn);
+                    break;
+
                 case 'txt':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
-                    insc_cntn.innerHTML = scion.insc_cntn;
-                    
+                    insc_cntn.innerHTML = scion.insc_cntn;   
                     insc_prtr.append(insc_pntr, insc_cntn);
                     break;
                 

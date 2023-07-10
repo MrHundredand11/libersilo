@@ -1,0 +1,30 @@
+{
+    "ls_id": "LS-HI-PPL-HRYHMND",
+    "ls_ttl": "Hairy Hominids",
+    "ls_url": "/ls/hi/ppl/hryhmnd.json",
+    "scion_id": "ls_hi_ppl_hryhmnd",
+    "scions": [
+        {
+            "drct_id": "THRY",
+            "drct_ttl": "Theories about 'Hairy Hominids'",
+            "scion_id": "ls_hi_ppl_hryhmnd_thry",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Expansion</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Theories</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Hairy Hominids</b></i>)",
+                    "scion_id": "ls_hi_ppl_hryhmnd_thry_expns",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Cain and his descendants are the Bigfoot",
+                            "scion_id": "ls_hi_ppl_hryhmnd_thry_expns_i_cain"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

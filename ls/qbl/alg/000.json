@@ -12,62 +12,134 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>List</b></i>&nbsp; <i>of</i>&nbsp; <b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Astrology</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Astrology</b></i>)",
                     "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Genesis 1:14-16",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_genesis1_1416"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_genesis_1_1416"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Leviticus 17:7",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_leviticus17_7"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_leviticus_17_7"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Deuteronomy 32:8",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_deuteronomy32_8"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_deuteronomy_32_8"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Judges 5:19-21",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_judges5_1921"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_judges_5_1921"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "2nd Kings 23:5",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_2kings23_5"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_2kings_23_5"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Job 9:9-13",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job9_913"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job_9_913"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Job 25:5",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job25_5"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job_25_5"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Job 26:13",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job26_13"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job_26_13"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Job 38:31-36",
-                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job38_3136"
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_job_38_3136"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Psalm 19",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_psalm_19"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Psalm 104:19",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_psalm_104_19"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Psalm 147:4",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_psalm_147_4"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Isaiah 13:10",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_isaiah_13_10"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Isaiah 14:12-13",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_isaiah_14_1213"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Isaiah 40:26",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_isaiah_40_26"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Jeremiah 44:17-19",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_jeremiah_44_1719"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Amos 5:8",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_amos_5_8"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Matthew 2:2",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_matthew_2_2"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Matthew 13:43",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_matthew_13_43"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Matthew 16:1-4",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_matthew_16_14"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Revelation 12:4",
+                            "scion_id": "ls_qbl_alg_000_luls_lst_bbl_scrp_i_revelation_12_4"
                         }
                     ]
                 }

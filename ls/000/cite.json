@@ -1421,6 +1421,13 @@
                             "scion_id": "ls_hmn_psi_astrlpr"
                         },
                         {
+                            "ls_id": "LS-HMN-PSI-CLRVYNC",
+                            "ls_ttl": "Clairvoyance",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/clrvync.json",
+                            "scion_id": "ls_hmn_psi_clrvync"
+                        },
+                        {
                             "ls_id": "LS-HMN-PSI-DRCTVC",
                             "ls_ttl": "Direct Voice",
                             "ls_type": "+>",
@@ -1625,18 +1632,18 @@
                                     "scion_id": "ls_luls_lctn_mt_grtpyr"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-LCT-MT-SHSTA",
+                                    "ls_id": "LS-LULS-LCTN-MT-SHSTA",
                                     "ls_ttl": "Mount Shasta",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/mt/shsta.json",
-                                    "scion_id": "ls_luls_lct_mt_shsta"
+                                    "ls_url": "/ls/luls/lctn/mt/shsta.json",
+                                    "scion_id": "ls_luls_lctn_mt_shsta"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-LCT-MT-VLCN",
+                                    "ls_id": "LS-LULS-LCTN-MT-VLCN",
                                     "ls_ttl": "Volcanoes",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lct/mt/vlcn.json",
-                                    "scion_id": "ls_luls_lct_mt_vlcn"
+                                    "ls_url": "/ls/luls/lctn/mt/vlcn.json",
+                                    "scion_id": "ls_luls_lctn_mt_vlcn"
                                 }
                             ]
                         },

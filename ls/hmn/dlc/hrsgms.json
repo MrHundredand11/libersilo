@@ -7,7 +7,22 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Hieros Gamos'",
-            "scion_id": "ls_hmn_dlc_hrsgms_000"
+            "scion_id": "ls_hmn_dlc_hrsgms_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<i>The</i>&nbsp; (<b><i>V</b></i>)&nbsp; <i>and The</i>&nbsp; (<b><i>A</b></i>)",
+                    "scion_id": "ls_hmn_dlc_hrsgms_000_va",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='styl_insc_txt_size_23'>▽</span>&nbsp;=&nbsp;<span class='font_cambria'><b>The Shape of the Letter V</b></span>&nbsp;= is associated with&nbsp;<span class='font_sitka'><b><i>The Great Mother</b></i></span>"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "LULS",

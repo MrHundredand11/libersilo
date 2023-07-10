@@ -1,5 +1,6 @@
 .styl_insc_scns {
-    left: 31px;
+    padding-left: 31px;
+    padding-right: 31px;
     position: relative;
 }
 

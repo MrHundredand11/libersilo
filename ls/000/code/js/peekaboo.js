@@ -196,6 +196,8 @@ function mnu_showHide_top_blur(scion_id) {
     //var blur_id = blur_list.find(`mnu_accrd_cntnr_${scion_id}`);
     //console.log(blur_id);
     //blur_list.forEach(console.log(listObj));
+
+    Array.from(blur_list).forEach(function(el) {console.log(el);});
     
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");

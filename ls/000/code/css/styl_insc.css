@@ -136,7 +136,7 @@
 
 .styl_insc_quot {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 }
 
 .styl_insc_quot_wrds {

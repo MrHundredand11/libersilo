@@ -193,7 +193,12 @@ function mnu_showHide_top_blur(scion_id) {
     //console.log(blur_list);
     //var blur_id = blur_list.find(`mnu_accrd_cntnr_${scion_id}`);
     //console.log(blur_id);
-    blur_list.forEach(console.log(listObj));
+    //blur_list.forEach(console.log(listObj));
+    var list = blur_list.childNodes;
+    console.log(list);
+    for (const entry of list.entries()) {
+        console.log(entry);
+    }
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");
     var panel = document.getElementById(`mnu_accrd_cntn_${scion_id}`);

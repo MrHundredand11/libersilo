@@ -200,9 +200,11 @@ function mnu_showHide_top_blur(scion_id) {
         //console.log(el.classList);
         if (el.id == `mnu_accrd_cntnr_${scion_id}`) {
             console.log('yep');
-        } else {
-            console.log('nope');
-        }
+            console.log(blur_list.findIndex(`mnu_accrd_cntnr_${scion_id}`));
+        } 
+        //else {
+          //  console.log('nope');
+        //}
     });
     
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);

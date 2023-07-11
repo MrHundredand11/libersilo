@@ -189,7 +189,7 @@ function mnu_showHide_fldr(scion_id) {
 }
 
 function mnu_showHide_top_blur(scion_id) {
-    var blur_list = [...document.querySelectorAll(`[class=styl_mnu_accrd_fldr]`)];
+    var blur_list = [...document.querySelectorAll(`[class=styl_mnu_accrd_cntnr]`)];
     console.log(blur_list);
     //var blur_id = blur_list.find(`mnu_accrd_cntnr_${scion_id}`);
     //console.log(blur_id);
@@ -198,7 +198,7 @@ function mnu_showHide_top_blur(scion_id) {
     Array.from(blur_list).forEach(function(el) {
         //console.log(el.id);
         //console.log(el.classList);
-        if (el.id == `mnu_accrd_fldr_${scion_id}`) {
+        if (el.id == `mnu_accrd_cntnr_${scion_id}`) {
             console.log('yep');
         } else {
             console.log('nope');

@@ -190,9 +190,10 @@ function mnu_showHide_fldr(scion_id) {
 
 function mnu_showHide_top_blur(scion_id) {
     var blur_list = document.querySelectorAll(`[class=styl_mnu_accrd_fldr]`);
-    console.log(blur_list);
-    var blur_id = blur_list.find(`mnu_accrd_cntnr_${scion_id}`);
-    console.log(blur_id);
+    //console.log(blur_list);
+    //var blur_id = blur_list.find(`mnu_accrd_cntnr_${scion_id}`);
+    //console.log(blur_id);
+    blur_list.forEach(console.log(listObj));
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");
     var panel = document.getElementById(`mnu_accrd_cntn_${scion_id}`);

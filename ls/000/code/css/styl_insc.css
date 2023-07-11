@@ -133,3 +133,8 @@
 .txt_fnt_stka {
     font-family: sitka;
 }
+
+.styl_insc_quot {
+    display: flex;
+    flex-flow: column nowrap;
+}

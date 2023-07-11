@@ -472,7 +472,7 @@ function gen_Insc(insc_i, scion) {
 
                     if (scion.cite_pbls !== undefined) {
                         var cite_pbls = gen_ECI('div', 'cite_pbls', `id_cite_pbls_${scion.scion_id}`);
-                        cite_pbls.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Publisher]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_pbls[x].name}</span>`;
+                        cite_pbls.innerHTML = `<span class='cite_flow'>|\\_>> <em>[Publisher]</em>::</span>&nbsp;<span class='cite_sbdt'>${scion.cite_pbls}</span>`;
                         cite_scns.append(cite_pbls);
                     }
 

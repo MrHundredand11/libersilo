@@ -1,115 +1,145 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="/ls/000/code/css/catchall.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_pntr.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_mnu.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_algn.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_brnch.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_chst.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_cite.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_drct.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_extr.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_flow.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_font.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_hdbrd.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_ins.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_stm.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_stt.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_size.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_trm.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_twg.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_in_txt.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_lf.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_lfl.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_insc.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_insc_trms.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_gem.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_info.css">
-        <link rel="stylesheet" href="/ls/000/code/css/styl_offs.css">
-        <script type="text/javascript">
-            let pnt_plus = "<div class='styl_pointers'>+> </div>" + " ";
-            let pnt_minus = "<div class='styl_pointers' id='pntmns' onclick='rotatePointer()'>-> </div>" + " ";
-            let flow_brnch = "<div class='styl_pointers'>]}=></div>&nbsp;";
-            let flow_twig = "<div class='styl_pointers'>))=>></div>&nbsp;";
-            let flow_lmb = "<div class='styl_pointers'>]}==>></div>&nbsp;";
-            let pnt_lixp = "<div class='styl_pointers'>+=>&nbsp</div>";
-            let bmp_brnch_top = "---<br>--- ---<br>--- --- ---";
-            let bmp_brnch_btm = "---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----";
-            let bmp_stm_scrll = "<div class='styl_stm_scrll'>@ === === === === === === === ||| === === === === === === === @</div>";
-            let bmp_twg_top = "<div class='bumpers'>-- --<br>-- -- --</div>";
-            let bmp_twg_btm = "<div class='bump_butt'>--- --- ---<br>--- ---</div>";
-            let bmp_stem_liste = "<div class='bumpers'>--- --- --- --- --- --- ---</div>";
-            let bmp_stem_cycl = "<div class='styl_stem_cycl bumpers'><br>------- ------- -------<br>------- -------<br>-------</div>";
-            let bmp_stem_exli = "<div class='bumper'>---<br>--- ---<br></div>";
-            let bmp_stem_exli_bttm = "<div class='styl_stem_tail'><br>---- ----<br>----<br></div>";
-            let bmp_brnch_tail = "<div class='styl_stem_tail'>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----<br>---- ---- ---- ----</div>";
-            let bmp_sld_01 = "\\_";
-            let bmp_def = "&nbsp=&nbsp";
-            let bmp_stm_02 = "-- --<br>-- -- --<br>";
-            let bmp_def_flow = "&nbsp<span class='styl_insc_txt_flow'>=</span>&nbsp";
-        </script>
-        <script>
-            function createElementWithClass(type, className) {
-                const element = document.createElement(type);
-                element.className = className;
-                return element;
-            };
-            
-            function gen_ECI(type, className, id) {
-                const element = document.createElement(type);
-                element.className = className;
-                element.setAttribute('id', id);
-                return element;
-            };
+.styl_insc_scns {
+    padding-left: 31px;
+    padding-right: 31px;
+    position: relative;
+}
 
-            function gen_ECIC(type, className, id, clckfnct) {
-                const element = document.createElement(type);
-                element.className = className;
-                element.setAttribute('id', id);
-                element.setAttribute('onclick', clckfnct);
-                return element;
-            };
+.styl_insc_scns_1 {
+    left: -4.5px;
+    position: relative;
+}
 
-            function fillErUp(x) {
-                fetchy(decodeURIComponent(x));
-            };
-        </script>
-        <script type="text/javascript" src="/ls/000/code/js/whatsOnTheMenu.js"></script>
-        <script type="text/javascript" src="/ls/000/code/js/homepage.js"></script>
-        <script type="text/javascript" src="/ls/000/code/js/trunking.js"></script>
-        <script type="text/javascript" src="/ls/000/code/js/peekaboo.js"></script>
-        <script type="text/javascript" src="/ls/000/code/js/gen_isis.js"></script>
-    </head>
-    
-    <body>        
-        <div id="overall">
-            <div id="menu">
-                <div id="id_mnu_top">
-                    <div class='styl_side_seal'>
-                        <img id='mnu_seal' src='Seal.jpg' width='111' height='111'></img><br>
-                        <span id='mnu_ttl'>-> Menu <-</span><br>
-                    </div>
-                </div>
-                <div id="id_mnu_btm"></div>
-            </div>
-            <div id="trestleboard" class='trestleboard'><script>homeFetch()</script></div>
-        </div>
-        <script type="text/javascript">
-            {
-                let sideBar = document.querySelector('#menu');
-                let trstboard = document.querySelector('#trestleboard');
-                let arrowCollapse = document.querySelector('.styl_side_seal');
-                arrowCollapse.onclick = () => {
-                    sideBar.classList.toggle('collapse');
-                    trstboard.classList.toggle('collapse');
-                    arrowCollapse.classList.toggle('collapse');
-                    if (arrowCollapse.classList.contains('collapse')) {
-                        arrowCollapse.classList = 'styl_side_seal collapse';
-                    } else {
-                        arrowCollapse.classList = 'styl_side_seal';
-                    }
-                };
-            }
-        </script>
-    </body>
-</html>
+.styl_scns_chut_1 {
+    left: 31px;
+    position: relative;
+    border-left: 1.37px solid black;
+}
+
+.styl_insc_txt {
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.styl_insc_txt_undr {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.styl_insc_txt_trm_grg {
+    font-weight: bold;
+    font-family: georgia;
+}
+
+.styl_insc_txt_trm_stkbld {
+    font-weight: bold;
+    font-family: sitka;
+}
+
+.styl_insc_txt_trm_stkitc_19 {
+    font-style: italic;
+    font-family: sitka;
+    font-size: 19px;
+}
+
+.styl_insc_txt_xtroff_131 {
+    position: relative;
+    margin-left: 131px;
+}
+
+.styl_insc_scns_extr {
+    display: none;
+}
+
+.styl_insc_txt_stkitc {
+    font-style: italic;
+    font-family: sitka;
+}
+
+.styl_insc_txt_stkblditc_17 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: sitka;
+    font-size: 17px;
+}
+
+.styl_insc_txt_size_13 {
+    font-size: 13px;
+}
+
+.styl_insc_txt_size_17 {
+    font-size: 17px;
+}
+
+.styl_insc_txt_size_19 {
+    font-size: 19px;
+}
+
+.styl_insc_txt_size_23 {
+    font-size: 23px;
+}
+
+.styl_insc_txt_bld {
+    font-weight: bold;
+}
+
+.styl_insc_txt_flow {
+    font-family: calibri;
+}
+
+.styl_insc_txt_itc {
+    font-style: italic;
+}
+
+.styl_insc_txt_fnt_cmbria {
+    font-family: cambria;
+}
+
+.styl_insc_txt_topline_cntrd {
+    display: flex;
+    align-items: center;
+    white-space: pre;
+}
+
+.styl_insc_txt_23px {
+    font-size: 23px;
+}
+
+.styl_insc_itr {
+    font-family: georgia;
+    font-weight: bold;
+}
+
+.i_nmbr_01_itr {
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.i_nmbr_01_nmb {
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.size_23px {
+    font-size: 23px;
+}
+
+.size_17px {
+    font-size: 17px;
+}
+
+.txt_fnt_stka {
+    font-family: sitka;
+}
+
+.styl_insc_quot {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.styl_insc_quot_wrds {
+    white-space: normal;
+    width: 777px;
+}

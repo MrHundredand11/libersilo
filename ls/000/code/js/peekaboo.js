@@ -187,3 +187,18 @@ function mnu_showHide_fldr(scion_id) {
         panel.style.display = "block";
     }
 }
+
+function mnu_showHide_top_blur(scion_id) {
+    var blur_list = document.querySelectorAll(`[class=styl_mnu_accrd_fldr]`);
+    console.log(blur_list);
+    var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
+    cnt.classList.toggle("active");
+    var panel = document.getElementById(`mnu_accrd_cntn_${scion_id}`);
+    if (panel.style.display === "block") {
+        panel.style.display = "none";
+        //cnt.style.margin = "0px";
+    } else {
+        panel.style.display = "block";
+        //cnt.style.margin = "7px";
+    }
+}

@@ -197,7 +197,12 @@ function mnu_showHide_top_blur(scion_id) {
     //console.log(blur_id);
     //blur_list.forEach(console.log(listObj));
 
-    Array.from(blur_list).forEach(function(el) {console.log(el);});
+    Array.from(blur_list).forEach(function(el) {
+        if (el.id == `mnu_accrd_cntnr_${scion_id}`) {
+            console.log('yep');
+        } else {
+            console.log('nope');
+        }});
     
     var cnt = document.getElementById(`mnu_accrd_cntnr_${scion_id}`);
     cnt.classList.toggle("active");

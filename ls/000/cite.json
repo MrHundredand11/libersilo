@@ -3162,7 +3162,7 @@
                             "cite_ttl": "Exam MD100",
                             "cite_sbtt": "Modern Desktop Certification Exam MD-100: Windows 10",
                             "cite_tchr": [{"name": "Loner, Patrick"}],
-                            "cite_pbls": [{"name": "Stone River eLearning"}],
+                            "cite_pbls": "Stone River eLearning",
                             "cite_pltf": [{"name": "Udemy"}]
                         }
                     ]

@@ -142,4 +142,6 @@
 .styl_insc_quot_wrds {
     white-space: normal;
     width: 777px;
+    font-family: sitka;
+    font-size: 31px;
 }

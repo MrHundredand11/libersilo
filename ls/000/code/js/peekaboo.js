@@ -198,7 +198,7 @@ function mnu_showHide_top_blur(scion_id) {
     Array.from(blur_list).forEach(function(el) {
         //console.log(el.id);
         //console.log(el.classList);
-        if (el.id == `mnu_accrd_cntnr_${scion_id}`) {
+        if (el.id == `mnu_accrd_fldr_${scion_id}`) {
             console.log('yep');
         } else {
             console.log('nope');

@@ -5,9 +5,98 @@
     "scion_id": "ls_hmn_psi_tool_espcrds",
     "scions": [
         {
+            "drct_id": "NAME",
+            "drct_ttl": "Names 'E.S.P. Cards'",
+            "scion_id": "ls_hmn_psi_tool_espcrds_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "scion_id": "ls_hmn_psi_tool_espcrds_name_lst_nmtt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "E.S.P. Cards",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_name_lst_nmtt_t_espcards"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Zener Cards",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_name_lst_nmtt_t_zenercards"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'E.S.P. Cards'",
+            "scion_id": "ls_hmn_psi_tool_espcrds_hist"
+        },
+        {
             "drct_id": "QUOT",
             "drct_ttl": "Quotes about 'E.S.P. Cards'",
             "scion_id": "ls_hmn_psi_tool_espcrds_quot"
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Persons around 'E.S.P. Cards'",
+            "scion_id": "ls_hmn_psi_tool_espcrds_prsn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Researchers</b></i>)&nbsp; <i>into</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Hubert Pierce",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_hubertpierce"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Joseph Banks Rhine",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_josephbanksrhine"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Melita Denning",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_melitadenning"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Osborne Phillips",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_osbornephillips"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Uri Geller",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_urigeller"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Karl Zener",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_karlzener"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "RSRC",
@@ -17,7 +106,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Teachers</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Teachers</b></i>)&nbsp; <i>that discuss</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
                     "scion_id": "ls_hmn_psi_tool_espcrds_rsrc_lst_tchr",
                     "scions": [
                         {
@@ -28,7 +117,7 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Teacher",
@@ -36,7 +125,7 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Teacher",
@@ -49,12 +138,40 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm",
+                                    "insc_typ2": "trm_stpl",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_tag": "Book",
                                     "insc_term": "The Development of Psychic Powers",
                                     "insc_defn": "1981"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Uri Geller",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Book",
+                                    "insc_term": "The ParaScience Pack",
+                                    "insc_defn": "2000",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm_stpl",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_tag": "Co-Creator",
+                                            "insc_term": "The Development of Psychic Powers",
+                                            "insc_defn": "1981"
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -63,7 +180,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Books</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Books</b></i>)&nbsp; <i>that discuss</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
                     "scion_id": "ls_hmn_psi_tool_espcrds_rsrc_lst_book",
                     "scions": [
                         {
@@ -76,6 +193,17 @@
                             "cite_edtn": "Twelfth Printing, 1993",
                             "cite_isbn10": "0-87542-191-1",
                             "cite_pbls": "Llewellyn Publications"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The ParaScience Pack",
+                            "cite_sbtt": "An Interactive Exploration of Your Psi Powers",
+                            "cite_auth": [{"name": "Geller, Uri"}, {"name": "van der Meer, Ron"}],
+                            "cite_pbls": "Van der Meer Publishing",
+                            "cite_date": "2000",
+                            "cite_isbn10": "1-902413-53-9"
                         }
                     ]
                 }

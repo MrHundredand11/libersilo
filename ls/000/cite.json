@@ -2894,12 +2894,34 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Daily Vagus Nerve Exercises",
+                            "cite_sbtt": "Extended Edition",
+                            "cite_auth": [{"name": "Wright, Wallace"}],
+                            "cite_date": "2021",
+                            "cite_edtn": "Monee, IL, 29 October 2021",
+                            "cite_isbn13": "9798680328583"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "The Development of Psychic Powers",
                             "cite_auth": [{"name": "Denning, Melita"}, {"name": "Osborne, Phillips"}],
                             "cite_date": "1981",
                             "cite_edtn": "Twelfth Printing, 1993",
                             "cite_isbn10": "0-87542-191-1",
                             "cite_pbls": "Llewellyn Publications"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Fine Art of Erotic Talk",
+                            "cite_sbtt": "How to Entice, Excite and Enchant Your Lover with Words",
+                            "cite_auth": [{"name": "Gabriel, Bonnie"}],
+                            "cite_pbls": "Bantam Books",
+                            "cite_date": "1996",
+                            "cite_isbn10": "0-553-37396-X"
                         },
                         {
                             "insc_typ1": "cite",
@@ -2922,28 +2944,6 @@
                             "cite_date": "2008",
                             "cite_pbls": "Red Wheel/Weiser, LLC",
                             "cite_isbn13": "978-1-57863-421-7"
-                        },
-                        {
-                            "insc_typ1": "cite",
-                            "insc_typ2": "md_00",
-                            "insc_offs": "algn_y_up_23",
-                            "cite_ttl": "Daily Vagus Nerve Exercises",
-                            "cite_sbtt": "Extended Edition",
-                            "cite_auth": [{"name": "Wright, Wallace"}],
-                            "cite_date": "2021",
-                            "cite_edtn": "Monee, IL, 29 October 2021",
-                            "cite_isbn13": "9798680328583"
-                        },
-                        {
-                            "insc_typ1": "cite",
-                            "insc_typ2": "md_00",
-                            "insc_offs": "algn_y_up_23",
-                            "cite_ttl": "The Fine Art of Erotic Talk",
-                            "cite_sbtt": "How to Entice, Excite and Enchant Your Lover with Words",
-                            "cite_auth": [{"name": "Gabriel, Bonnie"}],
-                            "cite_pbls": "Bantam Books",
-                            "cite_date": "1996",
-                            "cite_isbn10": "0-553-37396-X"
                         },
                         {
                             "insc_typ1": "cite",

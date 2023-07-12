@@ -1,0 +1,85 @@
+{
+    "ls_id": "LS-HMN-PSI-TOOL-ESPCRDS",
+    "ls_ttl": "E.S.P. Cards",
+    "ls_url": "/ls/hmn/psi/tool/espcrds.json",
+    "scion_id": "ls_hmn_psi_tool_espcrds",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'E.S.P. Cards'",
+            "scion_id": "ls_hmn_psi_tool_espcrds_quot"
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'E.S.P. Cards'",
+            "scion_id": "ls_hmn_psi_tool_espcrds_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Teachers</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "scion_id": "ls_hmn_psi_tool_espcrds_rsrc_lst_tchr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Denning & Phillips",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Teacher",
+                                    "insc_term": "Denning, Melita"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Teacher",
+                                    "insc_term": "Denning, Melita"
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Book",
+                                    "insc_term": "The Development of Psychic Powers",
+                                    "insc_defn": "1981"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Books</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>E.S.P. Cards</b></i>)",
+                    "scion_id": "ls_hmn_psi_tool_espcrds_rsrc_lst_book",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Development of Psychic Powers",
+                            "cite_auth": [{"name": "Denning, Melita"}, {"name": "Osborne, Phillips"}],
+                            "cite_date": "1981",
+                            "cite_edtn": "Twelfth Printing, 1993",
+                            "cite_isbn10": "0-87542-191-1",
+                            "cite_pbls": "Llewellyn Publications"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

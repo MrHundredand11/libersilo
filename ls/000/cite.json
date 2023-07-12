@@ -368,7 +368,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Denning, Melita",
-                            "insc_offs": "algn_y_up_23"
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -902,7 +912,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Phillips, Osborne",
-                            "insc_offs": "algn_y_up_23"
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -1653,6 +1673,23 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Denning, Melita",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Gabriel, Bonnie",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -1676,6 +1713,23 @@
                             "insc_tag": "Teacher",
                             "insc_term": "Patel, Dr. Rachna",
                             "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Phillips, Osborne",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
                         },
                         {
                             "insc_typ1": "insc",
@@ -1712,6 +1766,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Andrews, Ted",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Clelland, Mike",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2833,6 +2894,17 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Development of Psychic Powers",
+                            "cite_auth": [{"name": "Denning, Melita"}, {"name": "Osborne, Phillips"}],
+                            "cite_date": "1981",
+                            "cite_edtn": "Twelfth Printing, 1993",
+                            "cite_isbn10": "0-87542-191-1",
+                            "cite_pbls": "Llewellyn Publications"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
                             "cite_ttl": "How to Read the Aura",
                             "cite_sbtt": "and Practice Psychometry, Telepathy, & Clairvoyance",
                             "cite_auth": [{"name": "Butler, W.E."}],
@@ -2872,6 +2944,17 @@
                             "cite_pbls": "Bantam Books",
                             "cite_date": "1996",
                             "cite_isbn10": "0-553-37396-X"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The ParaScience Pack",
+                            "cite_sbtt": "An Interactive Exploration of Your Psi Powers",
+                            "cite_auth": [{"name": "Geller, Uri"}, {"name": "van der Meer, Ron"}],
+                            "cite_pbls": "Van der Meer Publishing",
+                            "cite_date": "2000",
+                            "cite_isbn10": "1-902413-53-9"
                         },
                         {
                             "insc_typ1": "cite",

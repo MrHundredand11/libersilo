@@ -1,0 +1,40 @@
+{
+    "ls_id": "LS-LULS-CNCP-TRUTH",
+    "ls_ttl": "Truth",
+    "ls_url": "/ls/luls/cncp/truth.json",
+    "scion_id": "ls_luls_cncp_truth",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Truth'",
+            "scion_id": "ls_luls_cncp_truth_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Truth</b></i>)",
+                    "scion_id": "ls_luls_cncp_truth_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "The Knower of Truth should go about the world outwardly stupid like a child, a madman, or a devil.",
+                            "scion_id": "ls_luls_cncp_truth_quot_assrt_i_mahavakyaratnamala_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_term": "Mahavakyaratnamala",
+                                    "scion_id": "ls_luls_cncp_truth_quot_assrt_i_mahavakyaratnamala_001_rfrn"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1569,7 +1569,16 @@
                     "ls_ttl": "Scriptural + Spiritual Concepts",
                     "ls_type": "=>",
                     "ls_url": "/ls/luls/cncp/",
-                    "scion_id": "ls_luls_cncp"
+                    "scion_id": "ls_luls_cncp",
+                    "scions": [
+                        {
+                            "ls_id": "LS-LULS-CNCP-TRUTH",
+                            "ls_ttl": "Truth",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/luls/cncp/truth.json",
+                            "scion_id": "ls_luls_cncp_truth"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-LULS-EVNT",

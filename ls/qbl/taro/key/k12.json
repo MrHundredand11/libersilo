@@ -187,6 +187,80 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'The Hanged Man'",
+            "scion_id": "ls_qbl_taro_key_k12_deit",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Extension</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Deity Archetypes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>The Hanged Man</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k12_deit_extn_dtarc",
+                    "scions": [
+                        {
+                            "insc_term": "stories of sacrifice, resurrection, and redemption",
+                            "scion_id": "ls_qbl_taro_key_k12_deit_extn_dtarc_i_storiessacrificeresurrectionredemption",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "The mythologies suited to this Card are the&nbsp;<span class='font_sitka'><b><i>dying gods</b></i></span>&nbsp;and the stories of&nbsp;<span class='font_sitka'><b><i>sacrifice</b></i></span>,&nbsp;<span class='font_sitka'><b><i>resurrection</b></i></span>, and&nbsp;<span class='font_sitka'><b><i>redemption</b></i></span>:",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Tammuz/Dumuzid</b></span>, sent to the underworld for failing to mourn Inanna"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Osiris</b></span>, slain by Set and reassembled by Isis"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Jesus</b></span>, the crucified and resurrected Incarnation of God"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Lazarus</b></span>, who arose from the tomb"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Attis</b></span>, the self-castrated"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "beautiful&nbsp;<span class='font_cambria'><b>Adonis</b></span>, slain lover of Aphrodite transformed by her tears"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Dionysus</b></span>, slain by Titans and resurrected by Zeus"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Mithras</b></span>&nbsp;the savior, guardian of waters"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>The Norse God Odin</b></span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

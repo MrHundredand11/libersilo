@@ -13,7 +13,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Titles",
-                    "insc_ttl":"<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Titles</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Hanged Man</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl":"<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>The Hanged Man</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k12_name_lst_ttls",
                     "scions": [
                         {
@@ -59,7 +59,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Key Words + Phrases",
-                    "insc_ttl": "<span class='styl_stm_ttl_spprt'>List</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_spprt'>Key Words + Phrases</span>&nbsp;<span class='styl_stm_ttl_tny'>of</span>&nbsp;<span class='styl_stm_ttl_opncls'>(</span><span class='styl_stm_ttl_trm'>The Hanged Man</span><span class='styl_stm_ttl_opncls'>)</span>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Key Words + Phrases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>The Hanged Man</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k12_keyw_lst",
                     "scions": [
                         {
@@ -195,7 +195,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brn",
+                    "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Extension</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Deity Archetypes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>The Hanged Man</b></i>)",
                     "scion_id": "ls_qbl_taro_key_k12_deit_extn_dtarc",
                     "scions": [
@@ -207,7 +207,7 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_pntr": "=>",
-                                    "insc_cntn": "The mythologies suited to this Card are the&nbsp;<span class='font_sitka'><b><i>dying gods</b></i></span>&nbsp;and the stories of&nbsp;<span class='font_sitka'><b><i>sacrifice</b></i></span>,&nbsp;<span class='font_sitka'><b><i>resurrection</b></i></span>, and&nbsp;<span class='font_sitka'><b><i>redemption</b></i></span>:",
+                                    "insc_cntn": "The&nbsp;<span class='font_sitka'><u>mythologies</u></span>&nbsp;suited to this Card are the&nbsp;<span class='font_sitka'><b><i>dying gods</b></i></span>&nbsp;and the stories of&nbsp;<span class='font_sitka'><b><i>sacrifice</b></i></span>,&nbsp;<span class='font_sitka'><b><i>resurrection</b></i></span>, and&nbsp;<span class='font_sitka'><b><i>redemption</b></i></span>:",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",

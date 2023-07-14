@@ -261,6 +261,74 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "DIVN",
+            "drct_ttl": "Divinatory Indications of 'The Hanged Man'",
+            "scion_id": "ls_qbl_taro_key_k12_divn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Potential Indications</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Drawing</b></u>&nbsp; <i>the</i>&nbsp; (<b><i>Upright Hanged Man</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k12_divn_indc_upr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "This is a message to look at things from a different viewpoint."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Let go of the illusion of control."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Turn things on thier heads."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Look carefully at the lessons before you."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Relax, be patient."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Read the signs carefully and meditate on their lessons."
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Potential Indications</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Drawing</b></u>&nbsp; <i>the</i>&nbsp; (<b><i>Reversed Hanged Man</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k12_divn_indc_rvs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Being stuck."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Relax and let changes come."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Transitional Phase"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

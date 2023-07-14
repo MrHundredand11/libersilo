@@ -1,0 +1,125 @@
+{
+    "ls_id": "LS-QBL-TARO-KEY-K14",
+    "ls_ttl": "The Temperance Card",
+    "ls_url": "/ls/qbl/taro/key/k14.json",
+    "scion_id": "ls_qbl_taro_key_k14",
+    "scions": [
+        {
+            "drct_id": "SYMB",
+            "drct_ttl": "Symbols + Symbolism of 'Temperance'",
+            "scion_id": "ls_qbl_taro_key_k14_symb",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Common Symbols</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Temperance Cards</b></i>)",
+                    "scion_id": "ls_qbl_taro_key_k14_symb_cmmnsmb",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "two goblets, continually pouring into each other"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "a rainbow",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_cambria'>rainbow</span>&nbsp;=&nbsp;<span class='font_sitka'><b><i>hope</b></i></span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_cambria'>rainbow</span>&nbsp;=&nbsp;<span class='font_sitka'><b><i>magick</b></i></span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_cambria'>rainbow</span>&nbsp;=&nbsp;<span class='font_sitka'><b><i>miracles</b></i></span>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Temperance</b></i>)&nbsp; <b><u>Symbolizes</b></u>",
+                    "scion_id": "ls_qbl_taro_key_k14_symb_symblzes",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "balance and creativity",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "the <b>mixing</b> of different magickal elements <b>to create</b> something new",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt_stpl",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_tag": "Example",
+                                            "insc_cntn": "<span class='font_sitka'><i>Rain</i></span>&nbsp;+&nbsp;<span class='font_sitka'><i>Sun</i></span>&nbsp;=&nbsp;<span class='font_cambria'><b>Rainbow</b></span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "the personal alchemy of spiritual transformation",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Divinatory Indication",
+                                    "insc_cntn": "Pulling the&nbsp;<span class='font_cambria'><b>Temperance/Art Card</b></span>&nbsp;in a reading can symbolize that now is the time to work on the healing of your spiritual self."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "restoring equilibrium",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_cambria'><b>Temperance</b></span>&nbsp;= symbolizes&nbsp;<span class='font_sitka'><b><i>moderation</b></i></span>,&nbsp;<span class='font_sitka'><b><i>restraint</b></i></span>,&nbsp;and<span class='font_sitka'><b><i>tact</b></i></span>."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Divinatory Indication",
+                                    "insc_cntn": "<span class='font_cambria'><b>Find your balance.</b></span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1442,6 +1442,13 @@
                     "scion_id": "ls_hmn_psi",
                     "scions": [
                         {
+                            "ls_id": "LS-HMN-PSI-000",
+                            "ls_ttl": "Overview of Psi Powers",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/psi/000.json",
+                            "scion_id": "ls_hmn_psi_000"
+                        },
+                        {
                             "ls_id": "LS-HMN-PSI-APPORTS",
                             "ls_ttl": "Apportation",
                             "ls_type": "+>",

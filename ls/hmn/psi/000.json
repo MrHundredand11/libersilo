@@ -1,0 +1,33 @@
+{
+    "ls_id": "LS-HMN-PSI-000",
+    "ls_ttl": "Overview of Psi Powers",
+    "ls_url": "/ls/hmn/psi/000.json",
+    "scion_id": "ls_hmn_psi_000",
+    "scions": [
+        {
+            "drct_id": "TYPE",
+            "drct_ttl": "Types of 'Psi Powers'",
+            "scion_id": "ls_hmn_psi_000_type",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Receptive Psi</b></i>)&nbsp; <i>vs</i>&nbsp; (<b><i>Active Psi</b></i>)",
+                    "scion_id": "ls_hmn_psi_000_type_vs_rcpact",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='font_cambria'><b>Receptive Psi</b></span>&nbsp;=&nbsp;<span class='font_sitka'><b><i>telepathy</b></i></span>,&nbsp;<span class='font_sitka'><b><i>clairvoyance</b></i></span>,&nbsp;<span class='font_sitka'><b><i>precognition</b></i></span>"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "<span class='font_cambria'><b>Active Psi</b></span>&nbsp;=&nbsp;<span class='font_sitka'><b><i>mind-over-matter</b></i></span>,&nbsp;<span class='font_sitka'><b><i>healing</b></i></span>,&nbsp;<span class='font_sitka'><b><i>psychokinesis</b></i></span>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

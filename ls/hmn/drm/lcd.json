@@ -1,0 +1,69 @@
+{
+    "ls_id": "LS-HMN-DRM-LCD",
+    "ls_ttl": "Lucid Dreaming",
+    "ls_url": "/ls/hmn/drm/lcd.json",
+    "scion_id": "ls_hmn_drm_lcd",
+    "scions": [
+        {
+            "drct_id": "TIPS",
+            "drct_ttl": "Tips for 'Lucid Dreaming'",
+            "scion_id": "ls_hmn_drm_lcd_tips",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Tips</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Lucid Dreaming</b></i>)",
+                    "scion_id": "ls_hmn_drm_lcd_tips_lst_tps",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dream Journaling"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reality Checks"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Affirmation Mantras"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dream Visualizations"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Spinning"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wake Back to Bed"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wake-Induced Lucid Dreaming",
+                            "insc_dfin": "WILD"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "PRSN",
+            "drct_ttl": "Persons around 'Lucid Dreaming'",
+            "scion_id": "ls_hmn_drm_lcd_prsn"
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Lucid Dreaming'",
+            "scion_id": "ls_hmn_drm_lcd_rsrc"
+        }
+    ]
+}

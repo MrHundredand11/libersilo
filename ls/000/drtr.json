@@ -1310,6 +1310,22 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HMN-DRM",
+                    "ls_ttl": "Dreams + Dreaming",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hmn/drm/",
+                    "scion_id": "ls_hmn_drm",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HMN-DRM-LCD",
+                            "ls_ttl": "Lucid Dreaming",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/drm/lcd.json",
+                            "scion_id": "ls_hmn_drm_lcd"
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-HMN-LIFE",
                     "ls_ttl": "Life + Life Force",
                     "ls_type": "=>",
@@ -1475,13 +1491,6 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/psi/drctvc.json",
                             "scion_id": "ls_hmn_psi_drctvc"
-                        },
-                        {
-                            "ls_id": "LS-HMN-PSI-DREAM",
-                            "ls_ttl": "Dreams",
-                            "ls_type": "+>",
-                            "ls_url": "/ls/hmn/psi/dream.json",
-                            "scion_id": "ls_hmn_psi_dream"
                         },
                         {
                             "ls_id": "LS-HMN-PSI-PRCPTTN",

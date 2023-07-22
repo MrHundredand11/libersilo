@@ -132,6 +132,10 @@ function gen_Insc(insc_i, scion) {
         case 'insc':
             var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
+            
+            if (scion.insc_wdth !== undefined) {
+                insc_prtr.style.width = `${insc_wdth}`;
+            }
 
             if (scion.scns_chut !== undefined) {
                 var scns_chut = gen_ECI('div', `styl_scns_chut_${scion.scns_chut}`, `id_scns_chut_${scion.scns_chut}_${insc_id}`);

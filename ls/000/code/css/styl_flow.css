@@ -7,3 +7,8 @@
     padding-left: 17px;
     padding-right: 17px;
 }
+
+.styl_chut_cntnr {
+    display: inline-block;
+    font-family: calibri;
+}

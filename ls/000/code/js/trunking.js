@@ -134,7 +134,7 @@ function gen_Insc(insc_i, scion) {
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
             
             if (scion.insc_wdth !== undefined) {
-                insc_prtr.style.width = `${insc_wdth}`;
+                insc_prtr.style.width = `${scion.insc_wdth}`;
             }
 
             if (scion.scns_chut !== undefined) {

@@ -16,8 +16,8 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "twg",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Remote Viewing</b></u>)",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Remote Viewing</b></i>)",
                     "scion_id": "ls_hmn_psi_rv_name_lst",
                     "scions": [
                         {
@@ -45,13 +45,43 @@
             "scion_id": "ls_hmn_psi_rv_hist"
         },
         {
+            "drct_id": "PRSN",
+            "drct_ttl": "Persons around 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_prsn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Researchers</b></u> <i>into</i> (<b><i>Remote Viewing</b></i>)",
+                    "scion_id": "ls_hmn_psi_rv_prsn_lst_rsrchr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Morehouse, David A."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Puthoff, Harold"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Targ, Russell"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "MTHD",
             "drct_ttl": "Methods of 'Remote Viewing'",
             "scion_id": "ls_hmn_psi_rv_mthd",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Preparation</b></u> <i>for</i> (<b><i>Remote Viewing</b></i>)"
                 }
             ]

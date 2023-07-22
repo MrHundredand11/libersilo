@@ -135,7 +135,7 @@ function gen_Insc(insc_i, scion) {
             
             if (scion.insc_itrt !== undefined) {
                 var in_itrt = gen_ECI('div', `styl_insc_itrt_${scion.insc_itrt[0]}`, `id_insc_itrt_${insc_id}`);
-                in_itrt.innerHTML = `scion.insc_itrt[1]&nbsp;`;
+                in_itrt.innerHTML = `${scion.insc_itrt[1]}&nbsp;`;
                 insc_prtr.append(in_itrt);
             }
             

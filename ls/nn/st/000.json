@@ -16,14 +16,14 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "(<b><i>Sacred Taxonomy</b></i>) <i>and</i> <b><u>Astrology</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Sacred Taxonomy</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>Astrology</b></u>",
                     "scion_id": "ls_nn_st_000_qblh_astr",
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "twg",
-                            "insc_ttl": "<b><u>Astrologically-Intentioned Interactions</b></u> <i>with</i> (<b><i>Plants</b></i>)",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Astrologically-Intentioned Interactions</b></u>&nbsp; <i>with</i>&nbsp; (<b><i>Plants</b></i>)",
                             "scion_id": "ls_nn_st_000_qblh_astr_plntintnt",
                             "scions": [
                                 {
@@ -61,7 +61,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i> (<b><i>Sacred Taxonomy</b></i>)",
+                    "insc_ttl": "<b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Sacred Taxonomy</b></i>)",
                     "scion_id": "ls_nn_st_000_luls_bbl",
                     "scions": [
                         {

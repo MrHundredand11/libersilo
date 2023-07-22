@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Quotes",
                     "insc_ttl": "<b><u>Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>UFO Observation</b></i>)",
                     "scion_id": "ls_hi_alien_ufo_obsr_quot",
@@ -67,7 +67,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Songs</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>UFOs</b></i>)",
                     "scion_id": "ls_hi_alien_ufo_obsr_rsrc_song",
                     "scions": [

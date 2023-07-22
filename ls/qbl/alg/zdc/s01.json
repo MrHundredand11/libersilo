@@ -16,7 +16,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Trees</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_tree",
                     "scions": [
@@ -29,7 +29,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Familiar Herbs</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_famherb",
                     "scions": [
@@ -67,7 +67,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Remedy Herbs</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_remherb",
                     "scions": [
@@ -105,7 +105,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Flowers</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_flwr",
                     "scions": [
@@ -131,7 +131,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Flower Essences</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_flwressn",
                     "scions": [
@@ -175,13 +175,13 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Fragrances</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_frgrnc"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Stones</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_ston",
                     "scions": [
@@ -207,37 +207,37 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Gemstones</b></u> &nbsp;<i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_gmstn"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Metals</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_mtls"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Animals</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_anml"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Colors</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_colr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Shapes + Textures</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_shptxtr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Weather</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_cntr_wthr"
                 }
@@ -250,85 +250,85 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>General Character</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_gnchr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Characteristics</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_chrctr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Positive Traits</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_trtps"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Negative Traits</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_trtng"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <b><u>Loves</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_lvs"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <b><u>Can't Stand</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_cntstnd"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Livelihood</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_lvlhd"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Finances</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_fnce"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Hobbies</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_hbbs"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Archetypes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_archtyp"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries Man</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_man"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries Woman</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_wmn"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries Kid</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_kds"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Family Life</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_prsn_fam"
                 },
@@ -347,19 +347,19 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Glyph</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_symb_glyp"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Symbols</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_symb_symb"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Symbolism</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_symb_symblsm"
                 }
@@ -372,43 +372,43 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Arcana Alphabet</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_32p"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Elemental Forces</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>Alchemy Operations</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_alch"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Divine Names</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_qblh_cos"
                 }
@@ -421,19 +421,19 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>First Decan</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_decn_d1"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>Second Decan</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_decn_d2"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>Third Decan</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_decn_d3"
                 }
@@ -446,31 +446,31 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Planets</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Luna</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p01"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Mercury</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p02"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Venus</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p03"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Sol</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p04",
                             "scions": [
@@ -522,37 +522,37 @@
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Mars</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p05"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Jupiter</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p06"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Saturn</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p07"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Uranus</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p08"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Neptune</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p09"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Pluto</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_p10"
                         }
@@ -560,25 +560,25 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Calculated Points</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_plac_clctpnt",
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>North Node</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_clctpnt_nthnde"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>South Node</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_clctpnt_sthnde"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Part of Fortune</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_plnt_clctpnt_pof"
                         }
@@ -586,31 +586,31 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Asteroids</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_plac_astrd",
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Vesta</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_astrd_vesta"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Ceres</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_astrd_ceres"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Juno</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_astrd_juno"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Pallas Athene</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_plac_astrd_pllsathn"
                         }
@@ -669,13 +669,13 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Personal Spirituality</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_sprt_prsnl"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Spiritual Themes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_sprt_theme"
                 }
@@ -688,31 +688,31 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>Amorous Nature</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_amor",
                     "scions": [
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "(<b><i>You</b></i>)&nbsp; <i>and the</i>&nbsp; (<b><i>Aries Woman</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_wmn"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "(<b><i>You</b></i>)&nbsp; <i>and the</i>&nbsp; (<b><i>Aries Man</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_man"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Compatibilty</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_cmptblty"
                         },
                         {
                             "insc_typ1": "stm",
-                            "insc_typ2": "brnch",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Romance</b></u>&nbsp; <i>and</i>&nbsp; (<b><i>Aries</b></i>)",
                             "scion_id": "ls_qbl_alg_zdc_s01_love_amor_rmnce"
                         }
@@ -720,37 +720,37 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; (<b><i>Aries</b></i>)&nbsp; <b><u>Partner</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_prtnr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>How to Attract</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_attrct"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Erogenous Zones</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_erog"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>First Moves</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_mvsfrst"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Last Moves</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_mvslast"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; <b><u>Best Part</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Marrying</b></u>&nbsp; <i>an</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_love_mrrge_bstprt",
                     "scions": [
@@ -775,19 +775,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)&nbsp; +&nbsp; (<b><i>Aries</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s01_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Aries Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s01_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Aries Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s01_wmn_mn"
                                 }
@@ -799,19 +799,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Taurus</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s02_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Taurus Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s02_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Taurus Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s02_wmn_mn"
                                 }
@@ -823,19 +823,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Gemini</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s03_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Gemini Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s03_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Gemini Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s03_wmn_mn"
                                 }
@@ -847,19 +847,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Cancer</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s04_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Cancer Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s04_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Cancer Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s04_wmn_mn"
                                 }
@@ -871,19 +871,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Leo</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s05_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Leo Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s05_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Leo Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s05_wmn_mn"
                                 }
@@ -895,19 +895,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Virgo</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s06_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Virgo Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s06_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Virgo Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s06_wmn_mn"
                                 }
@@ -919,19 +919,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Libra</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s07_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Libra Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s07_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Libra Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s07_wmn_mn"
                                 }
@@ -943,19 +943,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Scorpio</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s08_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Scorpio Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s08_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Scorpio Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s08_wmn_mn"
                                 }
@@ -967,19 +967,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Sagittarius</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s09_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Sagittarius Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s09_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Sagittarius Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s09_wmn_mn"
                                 }
@@ -991,19 +991,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Capricorn</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s10_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Capricorn Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s10_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Capricorn Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s10_wmn_mn"
                                 }
@@ -1015,19 +1015,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Aquarius</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s11_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Aquarius Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s11_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Aquarius Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s11_wmn_mn"
                                 }
@@ -1039,19 +1039,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>General Relationship</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>) + (<b><i>Pisces</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s12_genrltn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Man</b></i>)&nbsp; +&nbsp; (<b><i>Pisces Woman</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s12_mn_wmn"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "(<b><i>Aries Woman</b></i>)&nbsp; +&nbsp; (<b><i>Pisces Man</b></i>)",
                                     "scion_id": "ls_qbl_alg_zdc_s01_love_amorcmb_s12_wmn_mn"
                                 }
@@ -1069,45 +1069,59 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Parts of the Body</b></u>&nbsp; <i>ruled by</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_bdprt"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Body Systems</b></u>&nbsp; <i>ruled by</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_bdsys"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Physical Build</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_build"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Life Age</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_lfag"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Health</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_hlth"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Health Advice</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_hlthadvc"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Diet Tips</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_mdcl_diettips"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Disease Degrees</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Aries</b></i>)",
+                    "scion_id": "ls_qbl_alg_zdc_s01_mdcl_dssdgrs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": [1, "03"],
+                            "insc_term": "goiter"
+                        }
+                    ]
                 }
             ]
         },
@@ -1118,25 +1132,25 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Professions</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_work_prfssn"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Aries</b></i>)&nbsp; <i>at</i>&nbsp; <b><u>Work</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_work_work"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; (<b><i>Aries</b></i>)&nbsp; <b><u>Boss</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_work_boss"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<i>The</i>&nbsp; (<b><i>Aries</b></i>)&nbsp; <b><u>Employee</b></u>",
                     "scion_id": "ls_qbl_alg_zdc_s01_work_emply"
                 }
@@ -1149,7 +1163,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Gift Ideas</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_gift_gftids"
                 }
@@ -1162,7 +1176,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Countries</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_cntrs",
                     "scions": [
@@ -1188,19 +1202,19 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>U.S. States</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_ustts"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>U.S. Cities</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_uscty"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>World Cities</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_glbcty",
                     "scions": [
@@ -1232,19 +1246,19 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Outdoor Locations</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_outdr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Indoor Locations</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_indr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Other Locations</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_lctn_othr"
                 }
@@ -1257,7 +1271,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Poetic Waxing</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Aries</b></i>)",
                     "scion_id": "ls_qbl_alg_zdc_s01_luls_pwax",
                     "scions": [

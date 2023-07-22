@@ -79,6 +79,81 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Sacred Taxonomy'",
+            "scion_id": "ls_nn_st_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Sacred Taxonomy</b></i>)",
+                    "scion_id": "ls_nn_st_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "A flower does not use words to announce its arrival to the world; it just blooms.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<span class='font_cambria'><b>Matshona Dhilwayo</b></span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "Look deep into nature, and then you will understand everything better.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<span class='font_cambria'><b>Albert Einstein</b></span>"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "We still do not know one-thousandth of one percent of what nature has revealed to us.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Reference",
+                                    "insc_cntn": "<span class='font_cambria'><b>Albert Einstein</b></span>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

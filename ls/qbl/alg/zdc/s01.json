@@ -1224,6 +1224,66 @@
                             "insc_typ2": "trm",
                             "insc_itrt": ["001", "14"],
                             "insc_term": "hemorrhage"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "15"],
+                            "insc_term": "stroke"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "16"],
+                            "insc_term": "stroke"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "17"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "18"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "19"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "20"],
+                            "insc_term": "abscesses"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "21"],
+                            "insc_term": "abscesses"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "22"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "23"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "24"],
+                            "insc_term": ""
                         }
                     ]
                 }

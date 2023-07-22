@@ -189,8 +189,25 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Option"],
-                                    "insc_term": "Eat something",
+                                    "insc_term": "Eat something.",
                                     "insc_dfin": "such as a favorite comfort food"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Watch something that makes you feel good.",
+                                    "insc_dfin": "like comedies"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Engage with something that feels funny and silly and enjoyable. Find things that make you giggle."
                                 }
                             ]
                         },

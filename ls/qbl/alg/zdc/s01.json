@@ -1118,8 +1118,62 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_itrt": ["001", "01"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "02"],
+                            "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_itrt": ["001", "03"],
                             "insc_term": "goiter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "03"],
+                            "insc_term": "abscesses"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "04"],
+                            "insc_term": "goiter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "04"],
+                            "insc_term": "abscesses"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "05"],
+                            "insc_term": "hair issues"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "06"],
+                            "insc_term": "jaundice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "07"],
+                            "insc_term": "jaundice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "08"],
+                            "insc_term": ""
                         }
                     ]
                 }

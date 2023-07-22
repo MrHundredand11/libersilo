@@ -23,10 +23,10 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Reference",
+                                    "insc_stpl": [1, "Reference"],
                                     "insc_term": "Mahavakyaratnamala",
                                     "scion_id": "ls_luls_cncp_truth_quot_assrt_i_mahavakyaratnamala_001_rfrn"
                                 }

@@ -11,8 +11,8 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<i>The</i> <b><u>Christian Concept</b></u> <i>of the</i> (<b><i>Incarnation</b></i>)",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>Christian Concept</b></u>&nbsp; <i>of the</i>&nbsp; (<b><i>Incarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_000_chrstnincrntn",
                     "scions": [
                         {
@@ -67,8 +67,8 @@
             "scions": [
                 {
                     "insc_typ1": "insc",
-                    "insc_typ2": "txt_stpl",
-                    "insc_tag": "Trend",
+                    "insc_typ2": "txt",
+                    "insc_stpl": [1, "Trend"],
                     "insc_cntn": "<span class='font_cambria'><b>There are many cases of young children who report very specific details of an apparent past life, which are later verified.</b></span>",
                     "scions": [
                         {
@@ -78,10 +78,10 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
+                            "insc_typ2": "txt",
                             "insc_sld": "|\\_",
                             "insc_pntr": ">>",
-                            "insc_tag": "Criticism",
+                            "insc_stpl": [1, "Criticism"],
                             "insc_cntn": "Some claim that children's reports of past lives could be the result of&nbsp;<span class='font_sitka'><b><i>fraug</b></i></span>,&nbsp;<span class='font_sitka'><b><i>imagination</b></i></span>, or&nbsp;<span class='font_sitka'><b><i>embellishment</b></i></span>."
                         },
                         {
@@ -91,10 +91,10 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
+                            "insc_typ2": "trm",
                             "insc_sld": "|\\_",
                             "insc_pntr": ">>",
-                            "insc_tag": "Case",
+                            "insc_stpl": [1, "Case"],
                             "insc_term": "Ryan Hammons",
                             "scions": [
                                 {
@@ -119,7 +119,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_tag": "Biblical Scriptures",
-                    "insc_ttl": "<b><u>Biblical Scriptures</b></u> <i>about</i> (<b><i>Reincarnation</b></i>)",
+                    "insc_ttl": "<b><u>Biblical Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Reincarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_luls_bbl",
                     "scions": [
                         {
@@ -132,8 +132,8 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_tag": "Text",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Text"],
                                     "insc_cntn": "{<b>KJV</b>}==[\tAnd if ye will receive it, this is Elijah, which was for to come. He that hath ears to hear, let him hear.\t]"
                                 }
                             ]
@@ -219,7 +219,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Alleged Cases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Reincarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_case_lst_allg",
                     "scions": [
@@ -254,7 +254,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Reincarnation</b></i>)",
                     "scion_id": "ls_hmn_life_rencrnt_rsrc_lst_wbpg",
                     "scions": [

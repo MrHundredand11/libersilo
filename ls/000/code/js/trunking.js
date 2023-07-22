@@ -133,6 +133,12 @@ function gen_Insc(insc_i, scion) {
             var insc_cntnr = gen_ECI('div', `styl_insc_cntnr styl_${scion.insc_typ1}_${scion.insc_typ2} stt_hide`, `id_insc_cntnr_${insc_id}`);
             var insc_prtr = createElementWithClass('div', 'styl_lf_protrusion');
             
+            if (scion.insc_itrt !== undefined) {
+                var in_itrt = gen_ECI('div', `styl_insc_itrt_${scion.insc_itrt[0]}`, `id_insc_itrt_${insc_id}`);
+                in_itrt.innerHTML = insc_itrt[1];
+                insc_prtr.append(in_itrt);
+            }
+            
             if (scion.insc_wdth !== undefined) {
                 insc_prtr.style.width = `${scion.insc_wdth}`;
             }

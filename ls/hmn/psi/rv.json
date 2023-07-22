@@ -185,10 +185,10 @@
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Option",
+                                    "insc_stpl": [1, "Option"],
                                     "insc_term": "Eat something",
                                     "insc_dfin": "such as a favorite comfort food"
                                 }

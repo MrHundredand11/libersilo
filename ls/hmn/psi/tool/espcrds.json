@@ -132,16 +132,12 @@
                                     "insc_term": "Denning, Melita"
                                 },
                                 {
-                                    "insc_typ1": "flow",
-                                    "insc_typ2": "chut",
-                                    "insc_chut": "||"
-                                },
-                                {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Book",
+                                    "insc_stpl": [1, "Book"],
                                     "insc_term": "The Development of Psychic Powers",
                                     "insc_defn": "1981"
                                 }

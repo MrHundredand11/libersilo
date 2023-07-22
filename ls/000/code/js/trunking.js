@@ -192,6 +192,7 @@ function gen_Insc(insc_i, scion) {
                     if (scion.term_styl !== undefined) {
                         insc_trm.classList.add(`styl_trm_${scion.term_styl}`);
                         insc_pntr.classList.add(`styl_pntr_${scion.term_styl}`);
+                        insc_prtr.classList.add(`styl_prtr_trm_${scion.term_styl}`)
                         if (insc_sld !== undefined) {
                             insc_sld.classList.add(`styl_sldr_${scion.term_styl}`);
                         }

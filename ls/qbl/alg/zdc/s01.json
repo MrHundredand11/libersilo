@@ -1174,6 +1174,56 @@
                             "insc_typ2": "trm",
                             "insc_itrt": ["001", "08"],
                             "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "09"],
+                            "insc_term": "fevers"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "10"],
+                            "insc_term": "fevers"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "11"],
+                            "insc_term": "fevers"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "12"],
+                            "insc_term": "fevers"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "13"],
+                            "insc_term": "rheumatic fevers",
+                            "insc_dfin": "rhuematism"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "13"],
+                            "insc_term": "hemorrhage"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "14"],
+                            "insc_term": "rheumatic fevers",
+                            "insc_dfin": "rhuematism"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "14"],
+                            "insc_term": "hemorrhage"
                         }
                     ]
                 }

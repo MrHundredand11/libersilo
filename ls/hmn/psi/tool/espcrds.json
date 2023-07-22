@@ -56,42 +56,42 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "Hubert Pierce",
-                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_hubertpierce"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "term_styl": "bg",
-                            "insc_term": "Joseph Banks Rhine",
-                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_josephbanksrhine"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "term_styl": "bg",
-                            "insc_term": "Melita Denning",
+                            "insc_term": "Denning, Melita",
                             "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_melitadenning"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "Osborne Phillips",
-                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_osbornephillips"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "term_styl": "bg",
-                            "insc_term": "Uri Geller",
+                            "insc_term": "Geller, Uri",
                             "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_urigeller"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "Karl Zener",
+                            "insc_term": "Phillips, Osborne",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_osbornephillips"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Pierce, Hubert",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_hubertpierce"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Rhine, Joseph Banks",
+                            "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_josephbanksrhine"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Zener, Karl",
                             "scion_id": "ls_hmn_psi_tool_espcrds_prsn_lst_rsrchr_i_karlzener"
                         }
                     ]
@@ -117,19 +117,19 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Teacher",
+                                    "insc_stpl": [1, "Teacher"],
                                     "insc_term": "Denning, Melita"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Teacher",
-                                    "insc_term": "Denning, Melita"
+                                    "insc_stpl": [1, "Teacher"],
+                                    "insc_term": "Phillips, Osborne"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -139,7 +139,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Book"],
                                     "insc_term": "The Development of Psychic Powers",
-                                    "insc_defn": "1981"
+                                    "insc_dfin": "1981"
                                 }
                             ]
                         },
@@ -147,27 +147,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "Uri Geller",
+                            "insc_term": "Geller, Uri",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Book",
+                                    "insc_stpl": [1, "Book"],
                                     "insc_term": "The ParaScience Pack",
-                                    "insc_defn": "2000",
-                                    "scions": [
-                                        {
-                                            "insc_typ1": "insc",
-                                            "insc_typ2": "trm_stpl",
-                                            "insc_sld": "\\_",
-                                            "insc_pntr": ">",
-                                            "insc_tag": "Co-Creator",
-                                            "insc_term": "The Development of Psychic Powers",
-                                            "insc_defn": "1981"
-                                        }
-                                    ]
+                                    "insc_dfin": "2000"
                                 }
                             ]
                         }

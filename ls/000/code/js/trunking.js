@@ -165,10 +165,14 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.style['align-items'] = 'center';
 
                     if (scion.insc_stpl !== undefined) {
-                        var in_stpl = generateTag(insc_id, scion.insc_stpl);
-                        var in_extn = gen_ECI('div', 'styl_insc_trm_stpl_extn', `id_insc_trm_stpl_extn_${insc_id}`);
-                        in_extn.append(insc_trm);
-                        insc_prtr.append(insc_pntr, in_stpl, in_extn);  
+                        if (scion.insc_stpl[0] == 1) {
+                            var in_stpl = generateTag(insc_id, scion.insc_stpl[1]);
+                            var in_cntnd = gen_ECI('div', 'styl_insc_trm_stpl_cntnd', `id_insc_trm_stpl_cntnd_${insc_id}`);
+                            in_cntnd.append(insc_trm);
+                            insc_prtr.append(insc_pntr, in_stpl, in_cntnd);
+                        } else {
+                            insc_prtr.append(insc_pntr, insc_trm);
+                        } 
                     } else {
                         insc_prtr.append(insc_pntr, insc_trm);
                     }

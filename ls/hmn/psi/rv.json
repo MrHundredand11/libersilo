@@ -338,6 +338,55 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Remember"],
                                     "insc_term": "Remind yourself that you are playing. Don't take it too seriously."
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Tip"],
+                                    "insc_cntn": "Take a moment and constantly come back to that inner child play. Take on the fun mindset of \"I'm exploring!\" Try to smile. Try to remember to be playful with this experience. Just bring it back to that sense of play and that inner child and then go and explore. You will find that you get less overwhelmend and that you will have more of a robust experience because you're engaging with that inner sense of playfulness."
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Tip"],
+                                    "insc_cntn": "If you are being chased by something scary, just pause, come into your body, into the seat of yourself, smile internally, really engage the playfulness that you have as a child, and then go back into the experience."
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_cntn": "Don't take it too seriously.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Side Note"],
+                                            "insc_cntn": "You can take it seriously later. When you're discerning everything, when you're researching everything, then you can be as serious as you want to be (and you should be serious), but in the moment:&nbsp;<span class='font_sitka'><b><i>play, and bring it back to play as much as you can</b></i></span>."
+                                        }
+                                    ]
                                 }
                             ]
                         }

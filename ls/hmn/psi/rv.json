@@ -162,6 +162,49 @@
             ]
         },
         {
+            "drct_id": "TIPS",
+            "drct_ttl": "Tips for 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_tips",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Tips</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Remote Viewing</b></i>)",
+                    "scion_id": "ls_hmn_psi_rv_tips_tips",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Ground Yourself After a Session",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Option",
+                                    "insc_cntn": "Eat something",
+                                    "insc_dfin": "such as a favorite comfort food"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Return to the Play of the Inner Child"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "RSRC",
             "drct_ttl": "Resources for 'Remote Viewing'",
             "scion_id": "ls_hmn_psi_rv_rsrc",

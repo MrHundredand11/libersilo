@@ -52,7 +52,33 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Preparation</b></u> <i>for</i> (<b><i>Remote Viewing</b></u>)"
+                    "insc_ttl": "<b><u>Preparation</b></u> <i>for</i> (<b><i>Remote Viewing</b></i>)"
+                }
+            ]
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Remote Viewing'",
+            "scion_id": "ls_hmn_psi_rv_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Books</b></u> <i>about</i> (<b><i>Remote Viewing</b></i>)",
+                    "scion_id": "ls_hmn_psi_rv_rsrc_lst_book",
+                    "scions": [
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Remote Viewing",
+                            "cite_sbtt": "The Complete User's Manual for Coordinate Remote Viewing",
+                            "cite_auth": [{"name": "Morehouse, David A."}],
+                            "cite_pbls": "Sounds True, Inc.",
+                            "cite_date": "2008",
+                            "cite_isbn13": "978-1-59179-239-0"
+                        }
+                    ]
                 }
             ]
         }

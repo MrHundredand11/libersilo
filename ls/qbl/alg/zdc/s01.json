@@ -1284,6 +1284,66 @@
                             "insc_typ2": "trm",
                             "insc_itrt": ["001", "24"],
                             "insc_term": ""
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "25"],
+                            "insc_term": "tuberculosis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "25"],
+                            "insc_term": "digestive troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "26"],
+                            "insc_term": "tuberculosis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "26"],
+                            "insc_term": "digestive troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "26"],
+                            "insc_term": "blindness/weak eyes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "27"],
+                            "insc_term": "tuberculosis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "27"],
+                            "insc_term": "blindness/weak eyes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "28"],
+                            "insc_term": "bronchitis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "29"],
+                            "insc_term": "bronchitis"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_itrt": ["001", "30"],
+                            "insc_term": ""
                         }
                     ]
                 }

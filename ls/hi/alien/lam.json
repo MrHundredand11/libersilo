@@ -11,14 +11,15 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "twg",
-                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>LAM</b></i>)",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>LAM</b></i>)",
                     "scion_id": "ls_hi_alien_lam_name_xplr",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "LAM"
+                            "insc_term": "LAM",
+                            "term_styl": "bg"
                         }
                     ]
                 }
@@ -32,7 +33,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>Historical Commentary</b></u> <i>on</i> (<b><i>LAM</b></i>)",
+                    "insc_ttl": "<b><u>Historical Commentary</b></u>&nbsp; <i>on</i>&nbsp; (<b><i>LAM</b></i>)",
                     "scion_id": "ls_hi_alien_lam_hist_hstcmnt",
                     "scions": [
                         {

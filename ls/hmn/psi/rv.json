@@ -376,7 +376,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Remember"],
-                                    "insc_tern": "Don't take it too seriously.",
+                                    "insc_term": "Don't take it too seriously.",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",

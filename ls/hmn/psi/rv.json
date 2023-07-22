@@ -208,6 +208,91 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Option"],
                                     "insc_term": "Engage with something that feels funny and silly and enjoyable. Find things that make you giggle."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Slowly allow yourself to release the experience."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Meditate, ground and release the experience."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Do a bit of protective spellwork."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Feel comfortable. Put on a nice pair of pajamas. Find your comfort person or comfort pet."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Do things that bring you back down into your lower energy."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Go sit down on the ground."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Go into Nature."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Spend time with the people in your life."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Option"],
+                                    "insc_term": "Spend time with your favorite things."
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_term": "Don't stay in that heightened state. Allow yourself to disconnect from the experience and allow yourself to ground."
                                 }
                             ]
                         },
@@ -215,7 +300,46 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "Return to the Play of the Inner Child"
+                            "insc_term": "Return to the Play of the Inner Child",
+                            "scions": [
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_term": "Have fun."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_term": "Be playful, go and explore."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_term": "Bring it back to play as much as you can."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Remember"],
+                                    "insc_term": "Remind yourself that you are playing. Don't take it too seriously."
+                                }
+                            ]
                         }
                     ]
                 }

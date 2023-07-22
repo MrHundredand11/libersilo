@@ -253,8 +253,20 @@ function gen_Insc(insc_i, scion) {
 
                 case 'txt':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_txt');
-                    insc_cntn.innerHTML = scion.insc_cntn;   
-                    insc_prtr.append(insc_pntr, insc_cntn);
+                    insc_cntn.innerHTML = scion.insc_cntn; 
+                    
+                    if (scion.insc_stpl !== undefined) {
+                        if (scion.insc_stpl[0] == 1) {
+                            var in_stpl = generateTag(insc_id, scion.insc_stpl[1]);
+                            var in_cntnd = gen_ECI('div', 'styl_insc_txt_stpl_cntnd', `id_insc_txt_stpl_cntnd_${insc_id}`);
+                            in_cntnd.append(insc_cntn);
+                            insc_prtr.append(insc_pntr, in_stpl, in_cntnd);
+                        } else {
+                            insc_prtr.append(insc_pntr, insc_cntn);
+                        } 
+                    } else {
+                        insc_prtr.append(insc_pntr, insc_cntn);
+                    }
                     break;
                 
                 case 'txt_stpl':

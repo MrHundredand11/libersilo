@@ -137,6 +137,16 @@ function gen_Insc(insc_i, scion) {
                 insc_prtr.style.width = `${scion.insc_wdth}`;
             }
 
+            if (scion.insc_chut !== undefined) {
+                let chut_cntnr = gen_ECI('div', 'styl_chut_cntnr', `id_chut_cntnr_${insc_id}`);
+                insc_cntnr.append(chut_cntnr);
+                switch (scion.insc_chut) {
+                    case '001':
+                        chut_cntnr.innerHTML = "||";
+                        break;
+                }
+            }
+
             if (scion.scns_chut !== undefined) {
                 var scns_chut = gen_ECI('div', `styl_scns_chut_${scion.scns_chut}`, `id_scns_chut_${scion.scns_chut}_${insc_id}`);
                 var insc_scns = gen_ECI('div', `styl_insc_scns_${scion.scns_chut} stt_hide`, `id_insc_scns_${scion.scns_chut}_${insc_id}`);

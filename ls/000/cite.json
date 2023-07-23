@@ -1,6 +1,7 @@
 {
     "ls_id": "LS-000-CITE",
     "ls_ttl": "Citation Lists",
+    "ls_url": "/ls/000/cite.json",
     "scion_id": "ls_000_cite",
     "scions": [
         {
@@ -10,9 +11,9 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Teachers</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>Spiritual Information</b></i>)",
                     "scion_id": "ls_000_cite_tchr_qblh",
                     "scions": [
                         {
@@ -55,15 +56,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Aquino, Michael A.",
+                            "insc_dfin": "Ph.D.",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Michael A. Aquino, Ph.D."
+                                    "term_styl": "sm",
+                                    "insc_tag": [1, "Also Known As"],
+                                    "insc_term": "Michael A. Aquino, Ph.D."
                                 }
                             ]
                         },
@@ -76,11 +79,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "DAN"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "DAN"
                                 }
                             ]
                         },
@@ -138,15 +142,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Belk, Akiva Gamliel",
+                            "insc_dfin": "Dr.",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Dr. Akiva Gamliel Belk"
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Dr. Akiva Gamliel Belk"
                                 }
                             ]
                         },
@@ -243,11 +249,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "PFC"
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "PFC"
                                 }
                             ]
                         },
@@ -331,15 +338,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Curran, Bob",
+                            "insc_dfin": "Dr.",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Dr. Bob Curran"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Dr. Bob Curran"
                                 }
                             ]
                         },
@@ -373,11 +382,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Denning & Phillips"
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Denning & Phillips"
                                 }
                             ]
                         },
@@ -446,19 +456,21 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Stephen E. Flowers, Ph D."
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Stephen E. Flowers, Ph D."
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Edred Thorsson"
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Edred Thorsson"
                                 }
                             ]
                         },
@@ -471,11 +483,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Firth, Violet Mary"
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Firth, Violet Mary"
                                 }
                             ]
                         },

@@ -284,16 +284,17 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Clark, Paul",
+                            "insc_dfin": "Dr.",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "trm_stpl",
+                                    "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_styl": "trm_sm",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Dr. Paul Clark"
+                                    "insc_styl": "sm",
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Dr. Paul Clark"
                                 }
                             ]
                         },

@@ -12,7 +12,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "(<b><i>Venus</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
+                    "insc_ttl": "(<b><i>Venus</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>The Zodiac Signs</b></u>",
                     "scion_id": "ls_qbl_alg_plnt_p03_plce_zdc",
                     "scions": [
                         {
@@ -56,8 +56,8 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "(<b><i>Venus</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p03_plce_hse",
+                    "insc_ttl": "(<b><i>Venus</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>The Zodiac Houses</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p03_plce_hous",
                     "scions": [
                         {
                             "insc_term": "Venus in The First House"
@@ -94,6 +94,51 @@
                         },
                         {
                             "insc_term": "Venus in The Twelfth House"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "ASTR",
+            "drct_ttl": "Astro Cycles of 'Venus'",
+            "scion_id": "ls_qbl_alg_plnt_p03_astr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Venus</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>Retrograde</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Tips</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Venus Retrograde</b></i>)",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_tips",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Implement a self-care regimen into your daily routine."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Embrace all of your emotions. Let them flow out.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Be cautious of your emotions and mental health during this period. Face your emotions, honor them, treat them well, and address them."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

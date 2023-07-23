@@ -363,6 +363,227 @@
                                             "insc_cntn": "It's hard to trust others just now, and perhaps more so, it isn't easy to trust our own instincts when it comes to judging others or our relationships. As such, we might suspect insincerity in others. People can appear to be more selfish, withdrawn, and self-protective."
                                         }
                                     ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Don't make any cosmetic changes to your appearance.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Because Venus rules&nbsp;<span class='font_sitka'><i>beauty</i></span>&nbsp;and&nbsp;<span class='font_sitka'><i>aesthetics</i></span>, Venus Retrograde is a less than ideal time for beautification processes, such as new hairdos, enhancements, purchasing a new wardrobe, cosmetic surgery, and so forth."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Venus represents hair in astrology. Do not get a new hairstyle or color. Do not go for a hair-cut, you may end up messy, this is not a time for personal makeover."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Do not buy apparel, jewel, and other cosmetics (because you would likely become dissatisfied with what you bought since your ideas about style and fashion get mixed up when Venus is in retrograde)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Not a good time to decorate your living space as you are more likely to mess it up."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Don't take on more than you can handle."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Reflect on and re-evaluate the material goals that you yearn for."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Reassess what matters to you.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "001",
+                                            "term_styl": "sm",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Think about what you value most in life, and whether the decision is correct."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "001",
+                                            "term_styl": "sm",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Reassess your relationships, your possessions, what holds worth to you."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Avoid major decision-making.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Venus rules our values, and when retrograde, we don't seem to be in touch with exactly what and who we value, or, some might say, we see things more or too clearly. After the retrograde cycle is over, we may look back and wonder what we were thinking. So, do what you can to avoid major decision-making during Venus’ retrograde period, but pay attention to your assessments to see if they last. A change of heart is possible later."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "The people we meet during Venus Retrograde may appear more fabulous than they turn out to be. It's also possible that some people we meet now seem less attractive than they turn out to be! Whatever the case, try to hold off until after the retrograde ends before making big decisions, particularly life-altering ones."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Clear the Decks of the Past.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Venus retrograde is a period for clearing the decks and dealing with the past to move forward fresh and re-energized, and this is especially appropriate in the first three weeks of the cycle. During the second half of the retrograde cycle, watch for impulsiveness."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "What happened in the past, including past love affairs, can flood our consciousness now. Sometimes, a past lover reappears in their physical form, even if just for a moment to deliver a message."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Discuss the future of relationships.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Don't be afraid to have honest conversations, set important boundaries, or – perhaps more importantly – do things differently. Stepping outside your comfort zone is highly recommended during Venus retrograde."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "However"],
+                                            "insc_cntn": "It's hard to make headway directly in our love relationships for now. If you are hoping to fix a relationship or trying to schedule a reunion, it may not be the best time to do so."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Remember"],
+                                            "insc_cntn": "Reassess your relationships when Venus goes retrograde."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_31",
+                                    "insc_term": "Don't jump into or end relationships too quickly.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Venus Retrograde is not normally considered a good time to start a new love affair, although sometimes the lessons of Venus Retrograde might be found within whatever the season brings."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "There's nothing truly to fear about Venus retrograde, but taking special care during this cycle is always wise. It's not the best period for entering into a new relationship because our sensors when it comes to love are not up to par. However, beginning a relationship under the influence of a retrograde Venus is not unheard of, and the relationship survives and/or thrives."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "When breakups do occur in the second half of a Venus retrograde cycle, they are sometimes noticed to be imperfect. They are not often clean breaks. Couples and friends may reunite later, or if they stay broken up, they might frequently wonder if it was the right thing to do - something is left hanging.",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_sld": "\\_",
+                                                    "insc_pntr": ">",
+                                                    "insc_cntn": "Try to not end a relationship or get a divorce during the chaos of the Venus Retrograde as you might regret it later. Try to weather the storm and see where you land after the retrograde ends."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "001",
+                                            "term_styl": "sm",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Be cautious with relationships, as emotions get marred now."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "001",
+                                            "term_styl": "sm",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Do not plan or schedule a wedding during a Venus Retrograde, as lots of delays and hindrances abound."
+                                        }
+                                    ]
                                 }
                             ]
                         }

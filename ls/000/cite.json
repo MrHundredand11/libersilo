@@ -3659,6 +3659,16 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.allure.com/story/venus-retrograde-guide/"}],
+                            "cite_auth": [{"name": "Aint Thomas, Sophie"}],
+                            "cite_ttl": "Your Ultimate Guide to Venus Retrograde",
+                            "cite_sbtt": "You may experience some unexpected shake-ups, but you can prepare with this guide.",
+                            "cite_site": "allure"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://parade.com/astrology/venus-retrograde-love-romance-money/"}],
                             "cite_auth": [{"name": "Ash, Lauren"}],
                             "cite_ttl": "Your Ultimate Love, Money, and Beauty Guide to Venus Retrograde",

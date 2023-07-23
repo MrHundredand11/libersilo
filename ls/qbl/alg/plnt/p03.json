@@ -124,6 +124,51 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_term": "Allow yourself to rest and relax.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Put your needs first during this time."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Be cautious of your emotions and mental health during this period."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Look at your Inner Self and find peace and learn life lessons."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "During this time, relax and don't forget about self-care. Take care of yourself in the same extravagant way that a TAurus (ruled by Venus) would take care of themself."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
                                     "insc_term": "Embrace all of your emotions. Let them flow out.",
                                     "scions": [
                                         {
@@ -134,7 +179,93 @@
                                             "insc_sld": "|\\_",
                                             "insc_pntr": ">>",
                                             "insc_stpl": [1, "Tip"],
-                                            "insc_term": "Be cautious of your emotions and mental health during this period. Face your emotions, honor them, treat them well, and address them."
+                                            "insc_term": "Be cautious of your emotions and mental health during this period.\n\t\t\tFace your emotions, honor them, treat them well, and address them."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Roar your emotions out when you feel them. Let yourself be heard."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Postpone all legal hearings and lawsuits for now."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Try to not start a new business or make a new investment.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Try to not sign any contracts, because Venus retrograde tends to hide the finer print from you."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Let monetary or financial settlements wait for Venus to go direct."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Start a new financial or savings plan. Learn to budget.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Do not buy anything costly, as it may become worthless later on."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Buy items of less value and those that can be bought on a bargain."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_term": "Be kind to yourself and others.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "We may not be as openly or obviously warm and affectionate during this cycle. It's hard to trust others just now, and perhaps more so, it isn't easy to trust our own instincts when it comes to judging others or our relationships.",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_sld": "\\_",
+                                                    "insc_pntr": ">",
+                                                    "insc_cntn": "As such, we might suspect insincerity in others. People can appear to be more selfish, withdrawn, and self-protective."
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

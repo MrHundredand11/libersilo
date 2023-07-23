@@ -6,7 +6,7 @@
     "scions": [
         {
             "drct_id": "RSRC",
-            "drct_ttl": "Resources about 'Lemuria'",
+            "drct_ttl": "Resources for 'Lemuria'",
             "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc",
             "scions": [
                 {

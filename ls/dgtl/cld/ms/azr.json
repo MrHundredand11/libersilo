@@ -22,50 +22,50 @@
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Portal Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Portal Page</b>"],
                             "insc_cntn": "https://portal.azure.com/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_portal"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Status Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Status Page</b>"],
                             "insc_cntn": "https://status.azure.com/status/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_status"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Products Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Products Page</b>"],
                             "insc_cntn": "https://azure.microsoft.com/en-us/products/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_products"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Geographies Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Geographies Page</b>"],
                             "insc_cntn": "https://azure.microsoft.com/en-us/global-infrastructure/geographies/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_geographies"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Free Sign-Up Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Free Sign-Up Page</b>"],
                             "insc_cntn": "https://azure.microsoft.com/en-us/free/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_freesignup"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>Azure Pricing Calculator Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>Azure Pricing Calculator Page</b>"],
                             "insc_cntn": "https://azure.microsoft.com/en-us/pricing/calculator/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_pricecalc"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "lnk_stpl",
-                            "insc_tag": "<b>M365 Admin Page</b>",
+                            "insc_typ2": "lnk",
+                            "insc_stpl": [1, "<b>M365 Admin Page</b>"],
                             "insc_cntn": "https://admin.microsoft.com/",
                             "scion_id": "ls_dgtl_cld_ms_azr_qccl_lnks_m365admin"
                         }
@@ -414,9 +414,9 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "txt",
                                     "insc_pntr": "=>",
-                                    "insc_tag": "Usages",
+                                    "insc_stpl": [1, "Usages"],
                                     "insc_cntn": "<b>Azure Advisor</b> = is the tool to use when you want to:",
                                     "scions": [
                                         {

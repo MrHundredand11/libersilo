@@ -113,6 +113,30 @@
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>What</b></u>&nbsp; <i>is</i>&nbsp; (<b><i>Venus Retrograde</b></i>)",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_whatis"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<i>How</i>&nbsp; (<b><i>Venus Retrograde</b></i>)&nbsp; <i>affects your</i>&nbsp; <b><u>Relationships</b></u>",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_affct_rltn"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<i>How</i>&nbsp; (<b><i>Venus Retrograde</b></i>)&nbsp; <i>affects your</i>&nbsp; <b><u>Money</b></u>",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_affct_mny"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<i>How</i>&nbsp; (<b><i>Venus Retrograde</b></i>)&nbsp; <i>affects your</i>&nbsp; <b><u>Beauty</b></u>",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_affct_beauty"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Tips</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Venus Retrograde</b></i>)",
                             "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_tips",
                             "scions": [
@@ -124,6 +148,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Allow yourself to rest and relax.",
                                     "scions": [
                                         {
@@ -162,13 +187,14 @@
                                             "insc_chut": "001",
                                             "insc_sld": "|\\_",
                                             "insc_pntr": ">>",
-                                            "insc_cntn": "During this time, relax and don't forget about self-care. Take care of yourself in the same extravagant way that a TAurus (ruled by Venus) would take care of themself."
+                                            "insc_cntn": "During this time, relax and don't forget about self-care. Take care of yourself in the same extravagant way that a Taurus (ruled by Venus) would take care of themself."
                                         }
                                     ]
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Embrace all of your emotions. Let them flow out.",
                                     "scions": [
                                         {
@@ -179,7 +205,7 @@
                                             "insc_sld": "|\\_",
                                             "insc_pntr": ">>",
                                             "insc_stpl": [1, "Tip"],
-                                            "insc_term": "Be cautious of your emotions and mental health during this period.\n\t\t\tFace your emotions, honor them, treat them well, and address them."
+                                            "insc_term": "Be cautious of your emotions and mental health during this period.\n\tFace your emotions, honor them, treat them well, and address them."
                                         },
                                         {
                                             "insc_typ1": "insc",
@@ -196,11 +222,13 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Postpone all legal hearings and lawsuits for now."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Try to not start a new business or make a new investment.",
                                     "scions": [
                                         {
@@ -216,11 +244,13 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Let monetary or financial settlements wait for Venus to go direct."
                                 },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Start a new financial or savings plan. Learn to budget.",
                                     "scions": [
                                         {
@@ -248,6 +278,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
                                     "insc_term": "Be kind to yourself and others.",
                                     "scions": [
                                         {
@@ -266,6 +297,70 @@
                                                     "insc_cntn": "As such, we might suspect insincerity in others. People can appear to be more selfish, withdrawn, and self-protective."
                                                 }
                                             ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_term": "Keep an open mind and heart.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "001",
+                                            "term_styl": "sm",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_stpl": [1, "Tip"],
+                                            "insc_term": "Be very attentive to people and relationships close to you."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "Interestingly, we may not be as openly or obviously warm and affectionate during this cycle. It's hard to trust others just now, and perhaps more so, it isn't easy to trust our own instincts when it comes to judging others or our relationships."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_term": "Welcome exes and old friends back into your life - if only for a moment.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "There is a&nbsp;<span class='font_sitka'><b><i>feeling of the inevitable</b></i></span>&nbsp;during a Venus Retrograde. What happened in the past, including past love affairs, can flood our consciousness now. Sometimes, a past lover reappears in their physical form, even if just for a moment to deliver a message."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_term": "Don't take your problems out on other people."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_offs": "styl_offs_dwn_23",
+                                    "insc_term": "Do not jump to assumptions. Wait for the facts before making decisions.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_chut": "001",
+                                            "insc_sld": "|\\_",
+                                            "insc_pntr": ">>",
+                                            "insc_cntn": "It's hard to trust others just now, and perhaps more so, it isn't easy to trust our own instincts when it comes to judging others or our relationships. As such, we might suspect insincerity in others. People can appear to be more selfish, withdrawn, and self-protective."
                                         }
                                     ]
                                 }

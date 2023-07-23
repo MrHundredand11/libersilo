@@ -292,7 +292,7 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_styl": "sm",
+                                    "term_styl": "sm",
                                     "insc_stpl": [1, "Also Known As"],
                                     "insc_term": "Dr. Paul Clark"
                                 }

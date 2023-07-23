@@ -12,169 +12,176 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<i>The</i> <b><u>First 100</b></u> (<b><i>Prime Numbers</b></i>)",
+                    "insc_ttl": "<i>The</i>&nbsp; <b><u>First 100</b></u>&nbsp; (<b><i>Prime Numbers</b></i>)",
                     "scion_id": "ls_mmm_nmbr_prime_list_first100",
                     "scions": [
                         {
-                            "insc_tag": "P001",
+                            "insc_sbtg": "P001",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "1",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "1",
                             "insc_nmbr": "2"
                         },
                         {
-                            "insc_tag": "P002",
+                            "insc_sbtg": "P002",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "2",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "2",
                             "insc_nmbr": "3"
                         },
                         {
-                            "insc_tag": "P003",
+                            "insc_sbtg": "P003",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "3",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "3",
                             "insc_nmbr": "5"
                         },
                         {
-                            "insc_tag": "P004",
+                            "insc_sbtg": "P004",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "4",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "4",
                             "insc_nmbr": "7"
                         },
                         {
-                            "insc_tag": "P005",
+                            "insc_sbtg": "P005",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "5",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "5",
                             "insc_nmbr": "11"
                         },
                         {
-                            "insc_tag": "P006",
+                            "insc_sbtg": "P006",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "6",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "6",
                             "insc_nmbr": "13"
                         },
                         {
-                            "insc_tag": "P007",
+                            "insc_sbtg": "P007",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "7",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "7",
                             "insc_nmbr": "17"
                         },
                         {
-                            "insc_tag": "P008",
+                            "insc_sbtg": "P008",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "8",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "8",
                             "insc_nmbr": "19"
                         },
                         {
-                            "insc_tag": "P009",
+                            "insc_sbtg": "P009",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "9",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "9",
                             "insc_nmbr": "23"
                         },
                         {
-                            "insc_tag": "P010",
+                            "insc_sbtg": "P010",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "10",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "10",
                             "insc_nmbr": "29"
                         },
                         {
-                            "insc_tag": "P011",
+                            "insc_sbtg": "P011",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "11",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "11",
                             "insc_nmbr": "31"
                         },
                         {
-                            "insc_tag": "P012",
+                            "insc_sbtg": "P012",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "12",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "12",
                             "insc_nmbr": "37"
                         },
                         {
-                            "insc_tag": "P013",
+                            "insc_sbtg": "P013",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "13",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "13",
                             "insc_nmbr": "41"
                         },
                         {
-                            "insc_tag": "P014",
+                            "insc_sbtg": "P014",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "14",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "14",
                             "insc_nmbr": "43"
                         },
                         {
-                            "insc_tag": "P015",
+                            "insc_sbtg": "P015",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "15",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "15",
                             "insc_nmbr": "47"
                         },
                         {
-                            "insc_tag": "P016",
+                            "insc_sbtg": "P016",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "16",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "16",
                             "insc_nmbr": "53"
                         },
                         {
-                            "insc_tag": "P017",
+                            "insc_sbtg": "P017",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "17",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "17",
                             "insc_nmbr": "59"
                         },
                         {
-                            "insc_tag": "P018",
+                            "insc_sbtg": "P018",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "18",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "18",
                             "insc_nmbr": "61"
                         },
                         {
-                            "insc_tag": "P019",
+                            "insc_sbtg": "P019",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "19",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "19",
                             "insc_nmbr": "67"
                         },
                         {
-                            "insc_tag": "P020",
+                            "insc_sbtg": "P020",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "20",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "20",
                             "insc_nmbr": "71"
                         },
                         {
-                            "insc_tag": "P021",
+                            "insc_sbtg": "P021",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "21",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "21",
                             "insc_nmbr": "73"
                         },
                         {
-                            "insc_tag": "P022",
+                            "insc_sbtg": "P022",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "22",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "22",
                             "insc_nmbr": "79"
                         },
                         {
-                            "insc_tag": "P023",
+                            "insc_sbtg": "P023",
                             "insc_typ1": "insc",
-                            "insc_typ2": "nmbr_01",
-                            "insc_itr": "23",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "23",
                             "insc_nmbr": "83"
+                        },
+                        {
+                            "insc_sbtg": "P024",
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr",
+                            "insc_itrt": "24",
+                            "insc_nmbr": "89"
                         }
                     ]
                 }

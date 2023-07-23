@@ -1692,18 +1692,18 @@
                             "scion_id": "ls_luls_lctn_hlwe"
                         },
                         {
-                            "ls_id": "LS-LULS-LCTN-LSCN",
+                            "ls_id": "LS-LULS-LCTN-LSTCNT",
                             "ls_ttl": "Lost Continent Locations",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/lctn/lscn/",
-                            "scion_id": "ls_luls_lctn_lscn",
+                            "ls_url": "/ls/luls/lctn/lstcnt/",
+                            "scion_id": "ls_luls_lctn_lstcnt",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-LCTN-LSCN-LEMURIA",
+                                    "ls_id": "LS-LULS-LCTN-LSTCNT-LEMURIA",
                                     "ls_ttl": "Lemuria",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/lctn/lscn/lemuria.json",
-                                    "scion_id": "ls_luls_lctn_lemuria"
+                                    "ls_url": "/ls/luls/lctn/lstcnt/lemuria.json",
+                                    "scion_id": "ls_luls_lctn_lstcnt_lemuria"
                                 }
                             ]
                         },

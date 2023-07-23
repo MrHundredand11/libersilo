@@ -1,0 +1,97 @@
+{
+    "ls_id": "LS-LULS-LCTN-LSTCNT-LEMURIA",
+    "ls_ttl": "Lemuria",
+    "ls_url": "/ls/luls/lctn/lstcnt/lemuria.json",
+    "scion_id": "ls_luls_lctn_lstcnt_lemuria",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources about 'Lemuria'",
+            "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Films</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Lemuria</b></i>)",
+                    "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc_films",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Beyond Lemuria",
+                            "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc_films_beyondlemuria",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Director"],
+                                    "insc_term": "Gregory Jednack"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Starring"],
+                                    "insc_term": "Poke Runyon"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Release Year"],
+                                    "insc_term": "2007"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Videos</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Lemuria</b></i>)",
+                    "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc_videos",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "The Other Atlantis: Exploring Mount Shasta's Lost Civilization",
+                            "scion_id": "ls_luls_lctn_lstcnt_lemuria_rsrc_films_hntdobj018",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Source"],
+                                    "insc_cntn": "<span class='styl_insc_txt_size_23'><span class='font_cambria'><b>The Haunted Objects Podcast</b></span>,&nbsp;<span class='font_sitka'><i>Episode 018</i></span></span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Publisher"],
+                                    "insc_term": "Planet Weird"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "lnk",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "YouTube Link"],
+                                    "insc_cntn": "https://www.youtube.com/watch?v=R7o9JRoXq1I"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

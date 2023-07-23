@@ -326,12 +326,10 @@ function gen_Insc(insc_i, scion) {
                     insc_prtr.append(insc_pntr, eqc);
                     break;
 
-                case 'nmbr_01':
-                    var i_nmb = gen_ECI('div', 'i_nmbr_01_nmb', `id_nmbr_01_nmb_${insc_id}`);
-                    var i_itr = gen_ECI('div', 'i_nmbr_01_itr', `id_nmbr_01_itr_${insc_id}`);
-                    i_itr.innerHTML = `${scion.insc_itr}&nbsp;`;
-                    i_nmb.innerHTML = scion.insc_nmbr;
-                    insc_prtr.append(i_itr, insc_pntr, i_nmb);
+                case 'nmbr':
+                    var in_nmbr = gen_ECI('div', 'i_nmbr_01_nmb', `id_nmbr_01_nmb_${insc_id}`);
+                    in_nmbr.innerHTML = scion.insc_nmbr;
+                    insc_prtr.append(insc_pntr, in_nmbr);
                     insc_prtr.classList.add('algn_itm_cntr');
                     break;
 

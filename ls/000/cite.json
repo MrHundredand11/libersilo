@@ -663,6 +663,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Kelly, Aliza",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Kenyon, Tom",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -943,11 +950,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Denning & Phillips"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Denning & Phillips"
                                 }
                             ]
                         },
@@ -998,6 +1006,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Riordan, Holly",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Saint Thomas, Sophie",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1074,7 +1089,15 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Stardust, Lisa",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Strassman, Rick",
+                            "insc_dfin": "MD",
                             "insc_offs": "algn_y_up_23",
                             "scions": [
                                 {
@@ -1103,27 +1126,30 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Shams Tabrizi"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Shams Tabrizi"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Shams-i Tabrīzī"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Shams-i Tabrīzī"
                                 },
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Shams al-Din Mohammad"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "Shams al-Din Mohammad"
                                 }
                             ]
                         },
@@ -1227,11 +1253,12 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "W.U. Wei"
+                                    "insc_stpl": [1, "Also Known As"],
+                                    "insc_term": "W.U. Wei"
                                 }
                             ]
                         },
@@ -3660,7 +3687,7 @@
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://www.allure.com/story/venus-retrograde-guide/"}],
-                            "cite_auth": [{"name": "Aint Thomas, Sophie"}],
+                            "cite_auth": [{"name": "Saint Thomas, Sophie"}],
                             "cite_ttl": "Your Ultimate Guide to Venus Retrograde",
                             "cite_sbtt": "You may experience some unexpected shake-ups, but you can prepare with this guide.",
                             "cite_site": "allure"

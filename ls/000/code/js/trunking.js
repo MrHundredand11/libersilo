@@ -258,11 +258,21 @@ function gen_Insc(insc_i, scion) {
 
                     break;
 
-                case 'lnk_stpl':
-                    var insc_tag = generateTag(insc_id, scion.insc_tag);
-                    var insc_lnk = gen_link(insc_id, scion.insc_cntn);
+                case 'lnk':
+                    var in_lnk = gen_link(insc_id, scion.insc_cntn);
                     insc_prtr.style['align-items'] = 'center';
-                    insc_prtr.append(insc_pntr, insc_tag, insc_lnk);
+                    if (scion.insc_stpl !== undefined) {
+                        if (scion.insc_stpl[0] == 1) {
+                            var in_stpl = generateTag(insc_id, scion.insc_stpl[1]);
+                            var in_cntnd = gen_ECI('div', 'styl_insc_lnk_stpl_cntnd', `id_insc_lnk_stpl_cntnd_${insc_id}`);
+                            in_cntnd.append(in_lnk);
+                            insc_prtr.append(insc_pntr, in_stpl, in_cntnd);
+                        } else {
+                            insc_prtr.append(insc_pntr, in_lnk);
+                        } 
+                    } else {
+                        insc_prtr.append(insc_pntr, in_lnk);
+                    }    
                     break;
 
                 case 'quot':

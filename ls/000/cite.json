@@ -69,6 +69,12 @@
                                     "insc_term": "Michael A. Aquino, Ph.D."
                                 }
                             ]
+                        },{
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Ash, Lauren",
+                            "insc_offs": "algn_y_up_23"
                         },
                         {
                             "insc_typ1": "insc",
@@ -3612,6 +3618,14 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.findyourfate.com/astrology/venus/venusretro-dos-and-dont.html"}],
+                            "cite_ttl": "Dos and Don'ts for Venus Retrograde",
+                            "cite_site": "Find Your Fate"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://www.joyvernon.com/"}],
                             "cite_auth": [{"name": "Vernon, Joy"}],
                             "cite_ttl": "Joy Vernon Astrology"
@@ -3623,6 +3637,33 @@
                             "cite_link": [{"link": "https://www.mattnorman.com/meek/"}],
                             "cite_auth": [{"name": "Norman, Matt"}],
                             "cite_ttl": "Strength Under Control: How to Lead Like a Meek Warhorse"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://cafeastrology.com/venusretrograde.html"}],
+                            "cite_ttl": "Venus Retrograde",
+                            "cite_site": "Café Astrology"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.thehoodwitch.com/blog/2023/7/21/9mcwhgzg4m0akmfnkdsyh2b773d5e7/"}],
+                            "cite_auth": [{"name": "Stardust, Lisa"}],
+                            "cite_ttl": "Venus Retrograde 2023",
+                            "cite_site": "The Hoodwitch"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://parade.com/astrology/venus-retrograde-love-romance-money/"}],
+                            "cite_auth": [{"name": "Ash, Lauren"}],
+                            "cite_ttl": "Your Ultimate Love, Money, and Beauty Guide to Venus Retrograde",
+                            "cite_sbtt": "The planet of love, sex, and money will move backwards this month. Here's what to expect.",
+                            "cite_site": "Parade"
                         }
                     ]
                 }

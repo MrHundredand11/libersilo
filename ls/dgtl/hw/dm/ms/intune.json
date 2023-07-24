@@ -1,0 +1,27 @@
+{
+    "ls_id": "LS-DGTL-HW-DM-MS-INTUNE",
+    "ls_ttl": "Microsoft Intune",
+    "ls_url": "/ls/dgtl/hw/dm/ms/intune.json",
+    "scion_id": "ls_dgtl_hw_dm_ms_intune",
+    "scions": [
+        {
+            "drct_id": "PRFL",
+            "drct_ttl": "Profiles within 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>Device Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>User Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_user_undscnfg"
+                }
+            ]
+        }
+    ]
+}

@@ -93,7 +93,45 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>Device Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_exmn"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_type"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Create</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_crt_dvpf"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Create</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Custom Device Profile</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_crt_cstm"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Oversee</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_ovrs"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Device Sync</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_dvcsync"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",

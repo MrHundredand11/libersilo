@@ -5,6 +5,86 @@
     "scion_id": "ls_dgtl_hw_dm_ms_intune",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intune_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>What is</b></u>&nbsp; (<b><i>Microsoft Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_whatis"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Mobile Devices</b></i>)&nbsp; <i>with</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_mbldvc_mng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enable</b></u>&nbsp; (<b><i>Mobile Device Management</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_mdm_enbl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Devices</b></i>)&nbsp; <b><u>Remotely</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_dvc_rmtmng"
+                }
+            ]
+        },
+        {
+            "drct_id": "NRLL",
+            "drct_ttl": "Enrollment within 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Considerations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_cnsdr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Corporate Enrollment Policy</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_crpnrllplc_mng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Windows Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_wnds"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Android Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_andrd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>iOS Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_ios"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Explore</b></u>&nbsp; (<b><i>Device Enrollment Manager</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dem_xplr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Monitor</b></u>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_mntr"
+                }
+            ]
+        },
+        {
             "drct_id": "PRFL",
             "drct_ttl": "Profiles within 'Intune'",
             "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl",

@@ -374,8 +374,26 @@
                     "ls_id": "LS-DGTL-HW",
                     "ls_ttl": "Hardware",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_dgtl_hw"
+                    "ls_url": "/ls/dgtl/hw/",
+                    "scion_id": "ls_dgtl_hw",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-HW-DM",
+                            "ls_ttl": "Device Management",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/hw/dm/",
+                            "scion_id": "ls_dgtl_hw_dm",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-HW-DM-MS-INTUNE",
+                                    "ls_ttl": "Microsoft Intune",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/hw/dm/ms/intune.json",
+                                    "scion_id": "ls_dgtl_hw_dm_ms_intune"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-DGTL-IAM",
@@ -517,7 +535,7 @@
                     "ls_id": "LS-DGTL-SHLL",
                     "ls_ttl": "Command Line Interfaces",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/shll/",
                     "scion_id": "ls_dgtl_shll",
                     "scions": [
                         {

@@ -370,7 +370,7 @@ function gen_Insc(insc_i, scion) {
                         th.innerHTML = hd;
                         for (let ent in scion.tabl_rows) {
                             console.log(ent);
-                            let text = document.createTextNode(tabl_rows[hd]);
+                            let text = document.createTextNode(scion.tabl_rows[hd]);
                             th.appendChild(text);
                         }
                         row.appendChild(th);

@@ -368,7 +368,7 @@ function gen_Insc(insc_i, scion) {
                     for (let hd in scion.tabl_head) {
                         let th = document.createElement("th");
                         th.innerHTML = scion.tabl_head[hd];
-                        for (ent in scion.tabl_rows) {
+                        for (ent in scion.tabl_rows[hd]) {
                             console.log(ent);
                             console.log(scion.tabl_rows[hd][ent]);
                             let text = document.createTextNode(scion.tabl_rows[hd][ent]);

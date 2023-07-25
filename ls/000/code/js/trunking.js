@@ -369,12 +369,7 @@ function gen_Insc(insc_i, scion) {
                         let th = document.createElement("th");
                         th.innerHTML = scion.tabl_head[hd];
                         for (let ent of scion.tabl_rows) {
-                            console.log(ent);
-                            console.log(scion.tabl_rows[ent]);
-                            console.log(scion.tabl_rows[hd]);
-                            console.log(scion.tabl_rows[ent][hd]);
-                            console.log(scion.tabl_rows[hd][ent]);
-                            let text = document.createTextNode(scion.tabl_rows[ent][hd]);
+                            let text = document.createTextNode(ent[hd]);
                             th.appendChild(text);
                         }
                         row.appendChild(th);

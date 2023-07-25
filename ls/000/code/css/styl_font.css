@@ -17,3 +17,8 @@
     font-family: cambria;
     display: inline-block;
 }
+
+.font_code {
+    font-family: Inconsolata_SEB;
+    font-weight: bold;
+}

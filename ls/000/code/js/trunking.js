@@ -368,8 +368,8 @@ function gen_Insc(insc_i, scion) {
                     for (let hd of scion.tabl_head) {
                         let th = document.createElement("th");
                         th.innerHTML = scion.tabl_head[hd];
-                        for (let ent of scion.tabl_keys) {
-                            let text = document.createTextNode(scion.tabl_keys[ent][hd]);
+                        for (let ent of scion.tabl_rows) {
+                            let text = document.createTextNode(scion.tabl_rows[ent][hd]);
                             th.appendChild(text);
                         }
                         row.appendChild(th);

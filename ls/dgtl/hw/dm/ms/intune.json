@@ -252,6 +252,26 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Folder Extensions</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>User Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_fldrextn",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "The name of the folder in which you store the profile must use the correct&nbsp;<span class='font_cambria'><b>extension</b></span>&nbsp;for the operating system it will be applied to. The following table lists the correct extension for each operating system version."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Example"],
+                                    "insc_cntn": "For example, if a&nbsp;<span class='font_cambria'><b>profile</b></span>&nbsp;is being created for&nbsp;<span class='font_sitka'><b>Windows v20H2</b></span>, the&nbsp;<span class='font_sitka'>path</b></span>&nbsp;to the&nbsp;<span class='font_sitka'>profile folder</b></span>&nbsp;might be <span class='font_code'><b>\\\\server\\share\\profile.v6</b></span>, with the extension indicating which version."
+                                }
+                            ]
                         }
                     ]
                 }

@@ -360,6 +360,21 @@ function gen_Insc(insc_i, scion) {
                         insc_scns.classList.add(`${scion.insc_adjst}`);
                     }
                     return;
+
+                case 'tbl':
+                    var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
+                            let thead = in_tbl.createTHead();
+                            let row = thead.insertRow();
+                            for (let key of scion.tabl_keys.ky_head) {
+                                let th = document.createElement("th");
+                                th.innerHTML = key.ky_head[key];
+                                for (let ent of scion.tabl_keys.ky_rows) {
+                                    let text = document.createTextNode(ent[key]);
+                                    th.appendChild(text);
+                                }
+                                row.appendChild(th);
+                            }
+                    return in_tbl;
             }
 
             if (scion.scions !== undefined) {

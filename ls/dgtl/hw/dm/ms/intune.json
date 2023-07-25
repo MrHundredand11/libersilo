@@ -263,7 +263,19 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_pntr": "=>",
-                                    "insc_cntn": "The name of the folder in which you store the profile must use the correct&nbsp;<span class='font_cambria'><b>extension</b></span>&nbsp;for the operating system it will be applied to. The following table lists the correct extension for each operating system version."
+                                    "insc_cntn": "The name of the folder in which you store the profile must use the correct&nbsp;<span class='font_cambria'><b>extension</b></span>&nbsp;for the operating system it will be applied to. The following table lists the correct extension for each operating system version.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "tbl",
+                                            "tabl_keys": [
+                                                {
+                                                    "ky_head": ["Client Operating System Version", "Server Operating System Verson", "Profile Extension"],
+                                                    "ky_rows": [["Windows 10, version 1507 and 1511", "N/A", "V5"], ["Windows 10, versions 1607, 1703, 1709, 1803, 1809, 1903, and 1909", "Windows Server 2016 and Windows Server 2019", "V6"]]
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
                                     "insc_typ1": "insc",

@@ -179,6 +179,10 @@ function gen_Insc(insc_i, scion) {
                 insc_prtr.classList.add(`${scion.insc_styl}`);
             }
 
+            if (scion.insc_brdr !== undefined) {
+                insc_cntnr.classList.add(`${scion.insc_brdr}`);
+            }
+
             switch (scion.insc_typ2) {
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);

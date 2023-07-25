@@ -365,9 +365,9 @@ function gen_Insc(insc_i, scion) {
                     var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
                     let thead = in_tbl.createTHead();
                     let row = thead.insertRow();
-                    for (let hd of scion.tabl_head) {
+                    for (let hd in scion.tabl_head) {
                         let th = document.createElement("th");
-                        th.innerHTML = hd;
+                        th.innerHTML = scion.tabl_head[hd];
                         for (let ent in scion.tabl_rows) {
                             console.log(ent);
                             console.log(scion.tabl_rows[hd][ent]);

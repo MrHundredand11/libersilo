@@ -363,10 +363,11 @@ function gen_Insc(insc_i, scion) {
 
                 case 'tbl':
                     var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
-                            let thead = in_tbl.createTHead();
-                            let row = thead.insertRow();
-                            console.log(scion.tabl_keys.ky_head);
-                            for (let key of scion.tabl_keys.ky_head) {
+                    let thead = in_tbl.createTHead();
+                    let row = thead.insertRow();
+                    console.log(scion.tabl_keys);
+                    console.log(scion.tabl_keys.ky_head);
+                    for (let key of scion.tabl_keys.ky_head) {
                                 let th = document.createElement("th");
                                 th.innerHTML = key.ky_head[key];
                                 for (let ent of scion.tabl_keys.ky_rows) {

@@ -144,6 +144,42 @@
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>User Profiles</b></i>)",
                             "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_exmn"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>User Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_type",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Windows has different&nbsp;<span class='font_sitka'><b>types</b></span>&nbsp;of&nbsp;<span class='font_cambria'><b>user profiles</b></span>&nbsp;for the various different scenarios in how user configurations might be applied. The four common different types of user profiles are:",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Local User Profile:</b></span>&nbsp;&nbsp;This type is available on a single computer only."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Roaming User Profile:</b></span>&nbsp;&nbsp;This type can roam between computers that are domain members."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Mandatory User Profile:</b></span>&nbsp;&nbsp;This is a special type of pre-configured user profile that doesn't store user changes between sign-ins."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Temporary User Profile:</b></span>&nbsp;&nbsp;A temporary profile is issued each time that an error condition prevents the user's profile from loading."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

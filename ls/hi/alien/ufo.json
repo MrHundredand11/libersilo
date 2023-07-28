@@ -48,6 +48,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Strange Lights"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Strange Synchronicities"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Absurd Coincidences"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Aerial Abduction"
                         },
                         {
@@ -154,9 +169,8 @@
                                     "insc_typ2": "txt",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_wdth": "919px",
                                     "insc_stpl": [1, "Description"],
-                                    "insc_cntn": "A broadsheet published in 1566 depicted&nbsp;<span class='font_sitka'><b><i>numerous spherical objects appearing out of the Sun</b></i></span>. The event was recorded and depicted by&nbsp;<span class='font_cambria'><b>Samuel Coccius</b></span>, \"a student of the Holy Scripture and of the free arts, at Basel\"."
+                                    "insc_cntn": "A broadsheet published in 1566 depicted&nbsp;<span class='font_sitka'><b><i>numerous spherical objects appearing out of the Sun</b></i></span>.\nThe event was recorded and depicted by&nbsp;<span class='font_cambria'><b>Samuel Coccius</b></span>, \"a student of the Holy Scripture and of the free arts, at Basel\"."
                                 }
                             ]
                         }

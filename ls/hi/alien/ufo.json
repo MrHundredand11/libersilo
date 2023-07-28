@@ -5,6 +5,66 @@
     "scion_id": "ls_hi_alien_ufo",
     "scions": [
         {
+            "drct_id": "PHNM",
+            "drct_ttl": "Phenomena associated with 'UFOs + Aeros'",
+            "scion_id": "ls_hi_alien_ufo_phnm",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Phenomena</b></u>&nbsp; <i>associated with</i>&nbsp; (<b><i>UFOs</b></i>)",
+                    "scion_id": "ls_hi_alien_ufo_phnm_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Time Loss"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Memory Loss"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Crop Circles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cattle Mutilation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Strange Rumblings"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Strange Sounds"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Aerial Abduction"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Distortion of Electronics"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Shutting Down of Electronics"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "OBSR",
             "drct_ttl": "Observing 'UFOs + Aeros'",
             "scion_id": "ls_hi_alien_ufo_obsr",
@@ -25,11 +85,11 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "txt",
                                     "insc_sld": "\t|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Reference",
-                                    "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>John Keel</span>, <span class='styl_insc_txt_itc'>The Mothman Prophecies</span>"
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_cntn": "<span class='font_cambria'><b>John Keel</b></span>, <span class='font_sitka'><i>The Mothman Prophecies</i></span>"
                                 }
                             ]
                         },
@@ -43,11 +103,11 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
+                                    "insc_typ2": "txt",
                                     "insc_sld": "\t|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_tag": "Reference",
-                                    "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>Jacques Vallee</span>"
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_cntn": "<span class='font_cambria'><b>Jacques Vallee</b></span>"
                                 }
                             ]
                         }
@@ -58,18 +118,18 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'UFOs + Aeros'",
-            "scion_id": "ls_hi_alien_ufo_obsr_luls"
+            "scion_id": "ls_hi_alien_ufo_luls"
         },
         {
             "drct_id": "RSRC",
             "drct_ttl": "Resources for 'UFOs + Aeros'",
-            "scion_id": "ls_hi_alien_ufo_obsr_rsrc",
+            "scion_id": "ls_hi_alien_ufo_rsrc",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Songs</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>UFOs</b></i>)",
-                    "scion_id": "ls_hi_alien_ufo_obsr_rsrc_song",
+                    "scion_id": "ls_hi_alien_ufo_rsrc_song",
                     "scions": [
                         {
                             "insc_typ1": "insc",

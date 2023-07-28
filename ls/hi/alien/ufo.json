@@ -112,6 +112,54 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>UFOs</b></i>)&nbsp; <i>observed</i>&nbsp; <b><u>Emerging</b></u>&nbsp; <i>from the</i>&nbsp; <b><u>Sun</b></u>",
+                    "scion_id": "ls_hi_alien_ufo_obsr_emrg_sol",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "1566 AD Celestial Phenomenon over Basel",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Date"],
+                                    "insc_term": "1566-08-07"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Location"],
+                                    "insc_term": "EU, Switzerland; Basel, Basel"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Name"],
+                                    "insc_term": "\"1566 Celestial Phenomenon over Basel\""
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Description"],
+                                    "insc_cntn": "A broadsheet published in 1566 depicted&nbsp;<span class='font_sitka'><b><i>numerous spherical objects appearing out of the Sun</b></i></span>. The event was recorded and depicted by&nbsp;<span class='font_cambria'><b>Samuel Coccius</b></span>, \"a student of the Holy Scripture and of the free arts, at Basel\"."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },

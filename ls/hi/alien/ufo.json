@@ -101,10 +101,20 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_chut": "001",
                                     "insc_sld": "\t|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Reference"],
                                     "insc_cntn": "<span class='font_cambria'><b>John Keel</b></span>, <span class='font_sitka'><i>The Mothman Prophecies</i></span>"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "\t|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_cntn": "The prolific Area 51 researcher&nbsp;<span class='font_cambria'><b>Glenn Campbell</b></span>&nbsp;often took out tour groups on Wednesday nights to watch for UFOs."
                                 }
                             ]
                         },

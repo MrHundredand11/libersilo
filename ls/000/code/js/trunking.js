@@ -391,11 +391,12 @@ function gen_Insc(insc_i, scion) {
                     return in_tbl;
 
                 case 'tbl':
-                    var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
+                    
                     
                     switch (scion.tabl_typ1) {
                         case 'dwn_002':
-                            for (let rw in scion.tabl_rows) {
+                            var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);    
+                        for (let rw in scion.tabl_rows) {
                                 var row = document.createElement('tr');
 
                                 for (ent in scion.tabl_rows[rw]) {

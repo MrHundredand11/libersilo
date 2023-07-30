@@ -18,6 +18,8 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "tbl",
+                            "tabl_typ1": "dwn_002",
+                            "tabl_typ2": "lft_001",
                             "tabl_rows": [["32 Paths of Wisdom", "Path 17"], ["Qabalistic Intelligence", "The Disposing Intelligence"], ["Location on the Tree of Life", "Connects <u>Binah</u> to <u>Tiphareth</u>"]]
                         }
                     ]

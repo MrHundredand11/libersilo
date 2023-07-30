@@ -4,7 +4,7 @@ function gen_Insc(insc_i, scion) {
         case 'stm':
             var stm_id = `id_stm_${insc_id}`;
             if (scion.insc_dfin !== undefined) {
-                var stm_name = `${scion.insc_ttl} (<span class='styl_stm_ttl_dfin'><i>${scion.insc_dfin}</i></span>)`;
+                var stm_name = `${scion.insc_ttl}&nbsp;<span class='styl_stm_ttl_dfin_c'>(<span class='styl_stm_ttl_dfin'><i>${scion.insc_dfin}</i></span>)</span>`;
             } else {
                 var stm_name = scion.insc_ttl;
             }

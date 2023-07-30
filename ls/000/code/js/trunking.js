@@ -100,7 +100,12 @@ function gen_Insc(insc_i, scion) {
                         var lfl_shrt_pnter = gen_Pntr(scion.scions[lfl].scion_id, insc_i);
                         var lfl_shrt_term = createElementWithClass('a', 'styl_lfl_shrt_term');
                         lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${scion.scion_id}_${lfl}`);
-                        lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
+                        
+                        if (scion.scions[lfl].insc_dfin !== undefined) {
+                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}<span class='styl_stm_ttl_dfin_c'>(<span class='styl_stm_ttl_dfin'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
+                        } else {
+                            lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
+                        }
                         lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
                         lf_ls_shrt.appendChild(lfl_shrt);
 

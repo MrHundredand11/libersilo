@@ -355,3 +355,12 @@
     padding-top: 17px;
     padding-bottom: 7px;
 }
+
+.styl_stm_ttl_dfin {
+    font-family: sitka;
+    font-style: italic;
+}
+
+.styl_stm_ttl_dfin_c {
+    all: initial;
+}

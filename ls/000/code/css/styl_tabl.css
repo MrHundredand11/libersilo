@@ -7,11 +7,15 @@
     font-family: cambria;
     font-weight: bold;
     border: 1px solid black;
-    padding: 1px;
+    padding: 5px;
+    font-size: 19px;
+    text-align: center;
 }
 
 .styl_tabl_lft_001_rg {
     font-family: sitka;
     border: 1px solid black;
-    padding: 1px;
+    padding: 5px;
+    font-size: 17px;
+    text-align: center;
 }

@@ -373,10 +373,10 @@ function gen_Insc(insc_i, scion) {
                     }
                     return;
 
-                case 'tbl':
+                case 'tbl_h':
                     var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
-                    let thead = in_tbl.createTHead();
-                    let row = thead.insertRow();
+                    var thead = in_tbl.createTHead();
+                    var row = thead.insertRow();
                     for (let hd in scion.tabl_head) {
                         let th = document.createElement("th");
                         th.innerHTML = scion.tabl_head[hd];
@@ -389,6 +389,17 @@ function gen_Insc(insc_i, scion) {
                         row.appendChild(th);
                     }
                     return in_tbl;
+
+                case 'tbl':
+                    var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
+                    for (let rw in scion.tabl_rows) {
+                        var row = in_tbl.insertRow();
+                        for (ent in scion.tabl_rows[rw]) {
+                                let text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                row.appendChild(text);
+                            }
+                        }
+                        return in_tbl;
             }
 
             if (scion.scions !== undefined) {

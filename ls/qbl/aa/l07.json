@@ -2,5 +2,168 @@
     "ls_id": "LS-QBL-AA-L07",
     "ls_ttl": "The Letter Zayin",
     "ls_url": "/ls/qbl/aa/l07.json",
-    "scion_id": "ls_qbl_aa_l07"
+    "scion_id": "ls_qbl_aa_l07",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_000"
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_qblh"
+        },
+        {
+            "drct_id": "ASCT",
+            "drct_ttl": "Associations of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_asct"
+        },
+        {
+            "drct_id": "LSSN",
+            "drct_ttl": "Lessons of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_lssn"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_luls"
+        },
+        {
+            "drct_id": "RLTN",
+            "drct_ttl": "Relationships of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_rltn"
+        },
+        {
+            "drct_id": "PRYR",
+            "drct_ttl": "Prayers of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_pryr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Prayers</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
+                    "scion_id": "ls_qbl_aa_l07_pryr_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Prayer 001",
+                            "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "PTWK",
+            "drct_ttl": "PathWorkings of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_ptwk",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>PathWorkings</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
+                    "scion_id": "ls_qbl_aa_l07_ptwk_lst",
+                    "scions": [
+                        {
+                            "insc_term": "PathWorking 001",
+                            "scion_id": "ls_qbl_aa_l07_ptwk_lst_i_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "XRCS",
+            "drct_ttl": "Exercises of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_xrcs",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Meditations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
+                    "scion_id": "ls_qbl_aa_l07_xrcs_mdtt",
+                    "scions": [
+                        {
+                            "insc_term": "Meditation 001",
+                            "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Meditation 002",
+                            "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_002",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Meditation 003",
+                            "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_003",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Rituals</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
+                    "scion_id": "ls_qbl_aa_l07_xrcs_rtls",
+                    "scions": [
+                        {
+                            "insc_term": "Ritual 001",
+                            "scion_id": "ls_qbl_aa_l07_xrcs_rtls_i_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "term_styl": "sm",
+                                    "insc_stpl": [1, "Author"],
+                                    "insc_term": "Dolores Ashcroft-Nowicki"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

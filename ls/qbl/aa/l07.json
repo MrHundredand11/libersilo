@@ -66,7 +66,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
                                             "insc_stpl": [1, "Text"],
-                                            "insc_cntn": "\n\t\t\t\t\t<span class='font_cambria'><b>Zayin</b></span>\n\t\tSword-Bearer, I come to thee\n\t\twith my hands open.\n\t\tBe not wrathful with me,\n\t\tbut stand beside me as a protector.\n\t\tIn the presence of my enemies,\n\t\tbe thou my shield and my armor."
+                                            "insc_cntn": "[\n\t\t\t\t\t<span class='font_cambria styl_size_23px'><b>Zayin</b></span>\n\n\t\tSword-Bearer, I come to thee\n\t\twith my hands open.\n\t\tBe not wrathful with me,\n\t\tbut stand beside me as a protector.\n\t\tIn the presence of my enemies,\n\t\tbe thou my shield and my armor."
                                         }
                                     ]
                                 },

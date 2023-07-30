@@ -159,14 +159,14 @@
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_tag": "Association",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Association"],
                                     "insc_sld": "\\_",
                                     "insc_cntn": "Chokmah = is assocated with The Line"
                                 },
                                 {
                                     "insc_typ1": "stm",
-                                    "insc_typ2": "brnch",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<i>From</i> (<b><i>The Point</b></i>) <i>to</i> (<b><i>The Line</b></i>)",
                                     "scion_id": "ls_qbl_otz_spr02_symb_lst_symblexplr_line_frompnttolne",
                                     "scions": [
@@ -194,7 +194,7 @@
                                                     "insc_typ2": "txt",
                                                     "insc_pntr": "=>",
                                                     "insc_offs": "styl_offs_dwn_23",
-                                                    "insc_cntn": "<span class='styl_insc_txt_bld'>Kether</span>&nbsp;is the&nbsp;<span class='styl_insc_txt_bld'>Point</span>&nbsp;formulated in the Void. A Point has position but no dimensions.\nHowever, if a Point may be conceived of as extending through space,&nbsp;<span class='styl_insc_txt_trm_stkbld'>it becomes a line</span>."
+                                                    "insc_cntn": "<b>Kether</b>&nbsp;is the&nbsp;<b>Point</b>&nbsp;formulated in the Void. A Point has position but no dimensions.\nHowever, if a Point may be conceived of as extending through space,&nbsp;<span class='styl_insc_txt_trm_stkbld'>it becomes a line</span>."
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
@@ -207,7 +207,7 @@
                                                             "insc_typ1": "insc",
                                                             "insc_typ2": "txt",
                                                             "insc_pntr": "==>",
-                                                            "insc_cntn": "This&nbsp;<span class='styl_insc_txt_bld'>forth-flowing energy</span>, represented by the&nbsp;<span class='styl_insc_txt_undr'>straight line</span>&nbsp;or the&nbsp;<span class='styl_insc_txt_undr'>uplifted rod of power</span>, is essentially&nbsp;<span class='styl_insc_txt_stkblditc_17'>dynamic</span>."
+                                                            "insc_cntn": "This&nbsp;<span class='styl_insc_txt_bld'>forth-flowing energy</span>, represented by the&nbsp;<u>straight line</u>&nbsp;or the&nbsp;<u>uplifted rod of power</u>, is essentially&nbsp;<span class='styl_insc_txt_stkblditc_17'>dynamic</span>."
                                                         }
                                                     ]
                                                 }
@@ -221,7 +221,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Magickal Images",
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Magical Images</b></u> <i>of</i> (<b><i>Chokmah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr02_symb_lst_mgckimgs",

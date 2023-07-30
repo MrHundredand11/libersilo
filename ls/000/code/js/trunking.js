@@ -396,16 +396,19 @@ function gen_Insc(insc_i, scion) {
                     switch (scion.tabl_typ1) {
                         case 'dwn_002':
                             for (let rw in scion.tabl_rows) {
-                                var row = in_tbl.insertRow();
+                                var row = document.createElement('tr');
+
                                 for (ent in scion.tabl_rows[rw]) {
                                     if (ent == 0) {
-                                        var text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                        var text = document.createElement('td');
+                                        text.innerHTML = scion.tabl_rows[rw][ent];
                                         text.classList.add('styl_tabl_lft_001_lf');
                                     } else {
                                         var text = document.createTextNode(scion.tabl_rows[rw][ent]);
                                     }
                                     row.appendChild(text);
                                 }
+                                in_tabl.append(row);
                         }
                         break;
                     }

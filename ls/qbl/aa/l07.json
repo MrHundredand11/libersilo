@@ -67,7 +67,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "txt",
                                             "insc_stpl": [1, "Text"],
-                                            "insc_cntn": "[\n\t\t\t\t\t<span class='font_cambria styl_size_23px'><b>Zayin</b></span>\n\n\t\tSword-Bearer, I come to thee\n\t\twith my hands open.\n\t\tBe not wrathful with me,\n\t\tbut stand beside me as a protector.\n\t\tIn the presence of my enemies,\n\t\tbe thou my shield and my armor."
+                                            "insc_cntn": "[\n\t\t\t\t\t<span class='font_cambria styl_size_23px'><b>Zayin</b></span>\n\n\t\tSword-Bearer, I come to thee\n\t\twith my hands open.\n\t\tBe not wrathful with me,\n\t\tbut stand beside me as a protector.\n\t\tIn the presence of my enemies,\n\t\tbe thou my shield and my armor.\n\t\tThou art my jackal,\n\t\tsmelling out the spoor of those who wound me.\n\t\tThey come upon me like flies seeking my blood.\n\t\tBut thou art my champion and I lean upon thy strength.\n\t\tWe two will stand together\n\t\tand the darkness shall not overcome us.\n\t\tGive me thy hand, let me feel its power.\n\t\tGive me thy love, that I may be like unto the pomegranate\n\t\tand bear seeds of greatness.\n\t\tSeparate me not from thee,\n\t\tbut let me dwell with thee in love.\n\t\tTwo of a likeness, from above and\n\t\tfrom below, we will stand together.\n\t\tFrom the mountaintop comes the voice of the Lord:\n\t\t\"With the Zayin shall I cleave thine enemies\n\t\tand scatter their bones in the desert.\""
                                         }
                                     ]
                                 },
@@ -75,7 +75,37 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>Commentary</b></u>&nbsp; <i>on</i>&nbsp; (<b><i>A Prayer of Zayin</b></i>)",
-                                    "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001_cmnt"
+                                    "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001_cmnt",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "=>",
+                                            "insc_wdth": "733px",
+                                            "insc_cntn": "There are times when anger is the only thing that serves the immediate purpose. There are, after all, only four cheeks on the human body that one can turn! When the pressure becomes too great to bear, one might be forgiven for venting one's spleen as an alternative to raising the blood pressure to dangerous levels. After all, even Yeshua got steamed up in the court of the money changers!"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "=>",
+                                            "insc_wdth": "733px",
+                                            "insc_cntn": "This prayer came at such a moment and putting it on paper was immensely satisfying. It was a moment when apathy and despondence gave way to rage, rage at herself for allowing things to get her to such a low state. This was followed by a steely determination to rise above the situation. To those who find themselves in a similar predicament, let it be said that the situation is only as bad as you want to make it."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "=>",
+                                            "insc_wdth": "733px",
+                                            "insc_cntn": "To become angry is to raise the level of one's value of the self. It is the level above apathy and that means you are on the way up. This is not a prayer asking for your hand to be held, it is a demand for backup in a just cause. “Be thou my shield and my armor” - this is fighting talk! It is at such a time that one finds there is someone beside you. It may be your own higher self, or a presence from the angelic world. It can even be someone you knew and loved and who has gone before you. There have been many instances when a much-loved relative or friend has returned to give help in such times. Accept it, it is your just dues."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "=>",
+                                            "insc_wdth": "733px",
+                                            "insc_cntn": "\"We two will stand together and the darkness shall not overcome us.\" When you can feel that there is someone/something behind you, you are on your way. The prayer makes it quite clear that you are dealing here with what the Bible calls “righteous wrath”; this is not, I repeat not, for anyone who simply feels they would like to have a go at their boss or the man next door with the dog that barks all night. Once the link is made between you and your companion, you will begin to feel a lightness of spirit.  This is the point where you begin to see the light at the end of your dark night of the soul."
+                                        }
+                                    ]
                                 }
                             ]
                         }

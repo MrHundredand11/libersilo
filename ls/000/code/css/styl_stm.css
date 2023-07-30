@@ -356,11 +356,12 @@
     padding-bottom: 7px;
 }
 
-.styl_stm_ttl_dfin {
+.styl_extn_trm_shrt {
     font-family: sitka;
     font-style: italic;
 }
 
-.styl_stm_ttl_dfin_c {
+.styl_extn_trm_shrt_c {
     all: initial;
+    font-size: 23px;
 }

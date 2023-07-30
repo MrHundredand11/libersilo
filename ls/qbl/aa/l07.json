@@ -13,7 +13,14 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Correspondence Table</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
-                    "scion_id": "ls_qbl_aa_l07_000_crsptbl"
+                    "scion_id": "ls_qbl_aa_l07_000_crsptbl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "tbl",
+                            "tabl_rows": [["32 Paths of Wisdom", "Path 17"], ["Qabalistic Intelligence", "The Disposing Intelligence"], ["Location on the Tree of Life", "Connects <u>Binah</u> to <u>Tiphareth</u>"]]
+                        }
+                    ]
                 }
             ]
         },

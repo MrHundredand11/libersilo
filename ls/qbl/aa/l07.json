@@ -55,6 +55,26 @@
                                     "term_styl": "sm",
                                     "insc_stpl": [1, "Author"],
                                     "insc_term": "Dolores Ashcroft-Nowicki"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Content</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>A Prayer of Zayin</b></i>)",
+                                    "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001_cntn",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_stpl": [1, "Text"],
+                                            "insc_cntn": "\n\t\t\t\t\t<span class='font_cambria'><b>Zayin</b></span>\n\t\tSword-Bearer, I come to thee\n\t\twith my hands open.\n\t\tBe not wrathful with me,\n\t\tbut stand beside me as a protector.\n\t\tIn the presence of my enemies,\n\t\tbe thou my shield and my armor."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Commentary</b></u>&nbsp; <i>on</i>&nbsp; (<b><i>A Prayer of Zayin</b></i>)",
+                                    "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001_cmnt"
                                 }
                             ]
                         }

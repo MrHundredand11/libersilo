@@ -27,9 +27,19 @@
             ]
         },
         {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_name"
+        },
+        {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'Zayin'",
             "scion_id": "ls_qbl_aa_l07_qblh"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'Zayin'",
+            "scion_id": "ls_qbl_aa_l07_nmbr"
         },
         {
             "drct_id": "ASCT",

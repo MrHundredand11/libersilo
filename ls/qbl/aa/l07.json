@@ -47,6 +47,7 @@
                     "scions": [
                         {
                             "insc_term": "Prayer 001",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_pryr_lst_i_001",
                             "scions": [
                                 {
@@ -95,6 +96,7 @@
                     "scions": [
                         {
                             "insc_term": "PathWorking 001",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_ptwk_lst_i_001",
                             "scions": [
                                 {
@@ -123,6 +125,7 @@
                     "scions": [
                         {
                             "insc_term": "Meditation 001",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_001",
                             "scions": [
                                 {
@@ -144,6 +147,7 @@
                         },
                         {
                             "insc_term": "Meditation 002",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_002",
                             "scions": [
                                 {
@@ -165,6 +169,7 @@
                         },
                         {
                             "insc_term": "Meditation 003",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_xrcs_mdtt_i_003",
                             "scions": [
                                 {
@@ -194,6 +199,7 @@
                     "scions": [
                         {
                             "insc_term": "Ritual 001",
+                            "insc_dfin": "Dolores Ashcroft-Nowicki",
                             "scion_id": "ls_qbl_aa_l07_xrcs_rtls_i_001",
                             "scions": [
                                 {

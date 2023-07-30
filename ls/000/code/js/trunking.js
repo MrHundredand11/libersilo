@@ -3,11 +3,8 @@ function gen_Insc(insc_i, scion) {
     switch (scion.insc_typ1) {
         case 'stm':
             var stm_id = `id_stm_${insc_id}`;
-            if (scion.insc_dfin !== undefined) {
-                var stm_name = `${scion.insc_ttl}&nbsp;<span class='styl_stm_ttl_dfin_c'>(<span class='styl_stm_ttl_dfin'><i>${scion.insc_dfin}</i></span>)</span>`;
-            } else {
-                var stm_name = scion.insc_ttl;
-            }
+            var stm_name = scion.insc_ttl;
+            
             var stm_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_stm_cntnr_${insc_id}`);
             var stm_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_stm_bmp_top_${insc_id}`);
             var stm_nmtg = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nmtg`, `id_stm_nmtg_${insc_id}`);
@@ -102,7 +99,7 @@ function gen_Insc(insc_i, scion) {
                         lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${scion.scion_id}_${lfl}`);
                         
                         if (scion.scions[lfl].insc_dfin !== undefined) {
-                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}<span class='styl_stm_ttl_dfin_c'>(<span class='styl_stm_ttl_dfin'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
+                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}<span class='styl_extn_trm_dfin_shrt_c'>(<span class='styl_extn_trm_dfin_shrt'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
                         } else {
                             lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
                         }
@@ -121,7 +118,13 @@ function gen_Insc(insc_i, scion) {
                             twg_bmp_btm.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
                             twg_bmp_top.innerHTML = "---<br>--- ---";
                             twg_bmp_btm.innerHTML = "---- ----<br>----";
-                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                            
+                            if (scion.scions[lfl].insc_dfin !== undefined) {
+                                twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_extn_trm_dfin_lng_c'>(<span class='styl_extn_trm_dfin_lng'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                            } else {
+                                twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                            }
+                           // twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
 
                             twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
                             stm_expnd.appendChild(twg_cntnr);

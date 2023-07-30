@@ -392,11 +392,9 @@ function gen_Insc(insc_i, scion) {
 
                 case 'tbl':
                     var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`); 
-                    
                     switch (scion.tabl_typ1) {
-                        case 'dwn_002':
-                               
-                        for (let rw in scion.tabl_rows) {
+                        case 'dwn_002': 
+                            for (let rw in scion.tabl_rows) {
                                 var row = in_tbl.insertRow();
                                 for (ent in scion.tabl_rows[rw]) {
                                     if (ent == 0) {
@@ -404,7 +402,9 @@ function gen_Insc(insc_i, scion) {
                                         text.innerHTML = scion.tabl_rows[rw][ent];
                                         text.classList.add('styl_tabl_lft_001_lf');
                                     } else {
-                                        var text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                        var text = document.createElement('td');
+                                        text.innerHTML = scion.tabl_rows[rw][ent];
+                                        text.classList.add('styl_tabl_lft_001_rg');
                                     }
                                     row.appendChild(text);
                                 }

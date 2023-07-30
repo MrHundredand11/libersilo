@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Letter-Name",
                     "insc_ttl": "<i>The</i> <b><u>Letter-Name</b></u> <i>of</i> (<b><i>Mem</b></i>)",
                     "scion_id": "ls_qbl_aa_l13_lttr_lttrname",
@@ -34,22 +34,22 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Element",
                     "insc_ttl": "(<b><i>Mem</b></i>) <i>as</i> The Element of Water",
                     "scion_id": "ls_qbl_aa_l13_qblh_lmnt_e02",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Point",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Point"],
                             "insc_sld": "\\_",
-                            "insc_cntn": "The&nbsp;<span class='styl_insc_txt_undr'>spelling of the Letter-Name</span>&nbsp;of the Letter M (מ) is מים (<span class='styl_insc_txt_itc'>MYM</span>),\nwhich translates to the word \"<span class='styl_insc_txt_stkitc'>water</span>\" or \"<span class='styl_insc_txt_stkitc'>waters</span>\". The word \"Mem\"\nliterally means \"<span class='styl_insc_txt_stkitc'>seas</span>\" but it designates the general idea of \"<span class='styl_insc_txt_stkitc'>water</span>\"."
+                            "insc_cntn": "The <u>spelling of the Letter-Name</u> of the Letter M (מ) is מים (<i>MYM</i>),\nwhich translates to the word \"<span class='styl_insc_txt_stkitc'>water</span>\" or \"<span class='styl_insc_txt_stkitc'>waters</span>\". The word \"Mem\"\nliterally means \"<span class='styl_insc_txt_stkitc'>seas</span>\" but it designates the general idea of \"<span class='styl_insc_txt_stkitc'>water</span>\"."
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Point",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Point"],
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The form of the&nbsp;<span class='styl_insc_txt_trm_stkbld'>Greek and Latin and Hebrew Letters</span>&nbsp;for the sound \"<span class='styl_insc_txt_stkblditc_17'>m</span>\" or \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" look like&nbsp;<span class='font_sitka'><b><i>the waves of the sea</b></i></span>.",                            
                             "scions": [
@@ -91,8 +91,8 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Point",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Point"],
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_sld": "\\_",
                             "insc_cntn": "The sound of \"<span class='styl_insc_txt_stkblditc_17'>em</span>\" has often been associates with terms of&nbsp;<span class='styl_insc_txt_stkblditc_17'>water</span>:",
@@ -155,15 +155,15 @@
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Point",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Point"],
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) holds the&nbsp;<span class='font_sitka'><b><i>Standard Gematria Value</b></i></span>&nbsp;of&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>,\n\tand&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;is a Number that has connection to the concept of&nbsp;<span class='styl_insc_txt_stkblditc_17'>Water</span>,\n\t\tsuch as the&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;days and nights of the&nbsp;<span class='styl_insc_txt_stkblditc_17'>Biblical Flood</span>,\n\t\tor the&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>40</span>&nbsp;weeks (<span class='styl_insc_txt_stkitc'>9 Months</span>) in which the child develops within the&nbsp;<span class='styl_insc_txt_stkblditc_17'>waters of the womb</span>.",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_tag": "Additionally",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Additionally"],
                                     "insc_sld": "\\_",
                                     "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "<span class='styl_insc_txt_topline_cntrd'>The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Letter&nbsp;<span class='styl_insc_txt_size_19'>מ</span></span>&nbsp;(<span class='styl_insc_txt_stkitc'>Mem</span>) is spelled&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מם</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MM</span>) or&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מים</span>&nbsp;(<span class='styl_insc_txt_stkitc'>MYM</span>) which is&nbsp;<span class='styl_insc_txt_fnt_cambria styl_insc_txt_size_23 styl_insc_txt_bld'>מ + מ</span>&nbsp;(<span class='styl_insc_txt_stkitc'>M + M</span>) or&nbsp;<span class='styl_insc_trms_nmbr_inl_00'>40 + 40</span>,</span>\nwhich finds itself reflected in the&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights of the Flood,\nor in Moses being on Mt. Sinai for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights,\nor in Jesus fasting in the Wilderness for&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;days and&nbsp;<span class='styl_insc_txt_bld'>40</span>&nbsp;nights."
@@ -172,16 +172,16 @@
                         },
                         {
                             "insc_typ1": "insc", 
-                            "insc_typ2": "txt_stpl",
-                            "insc_tag": "Point",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Point"],
                             "insc_sld": "\\_",
                             "insc_offs": "styl_offs_dwn_43",
                             "insc_cntn": "<span class='styl_insc_txt_trm_stkbld'>Water</span>&nbsp;is the symbol of the female womb of creation from which all matter is derived or born from.&nbsp;<span class='styl_insc_txt_trm_grg'>M</span>atter&nbsp;<span class='styl_insc_txt_trm_grg'>M</span>&nbsp;is born from&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>W</span>ater&nbsp;<span class='styl_insc_txt_trm_grg styl_insc_txt_size_17'>W</span>.",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_tag": "Connection",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Connection"],
                                     "insc_sld": "|\\_",
                                     "insc_offs": "styl_offs_dwn_17",
                                     "insc_cntn": "The&nbsp;<span class='styl_insc_txt_trm_stkbld'>Final Mem</span>&nbsp;(<span class='styl_insc_txt_size_19'>מ</span>) of&nbsp;<span class='styl_insc_txt_stkbld'>Elemental Earth</span>&nbsp;is Matter M,\n and The Initial Mem () of Elemental Water is Water W"

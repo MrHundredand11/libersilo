@@ -7,7 +7,15 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Zayin'",
-            "scion_id": "ls_qbl_aa_l07_000"
+            "scion_id": "ls_qbl_aa_l07_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Correspondence Table</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Zayin</b></i>)",
+                    "scion_id": "ls_qbl_aa_l07_000_crsptbl"
+                }
+            ]
         },
         {
             "drct_id": "QBLH",

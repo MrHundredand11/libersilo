@@ -99,7 +99,7 @@ function gen_Insc(insc_i, scion) {
                         lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${scion.scion_id}_${lfl}`);
                         
                         if (scion.scions[lfl].insc_dfin !== undefined) {
-                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}<span class='styl_extn_trm_dfin_shrt_c'>(<span class='styl_extn_trm_dfin_shrt'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
+                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}&nbsp;<span class='styl_extn_trm_dfin_shrt_c'>(<span class='styl_extn_trm_dfin_shrt'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
                         } else {
                             lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
                         }
@@ -120,7 +120,7 @@ function gen_Insc(insc_i, scion) {
                             twg_bmp_btm.innerHTML = "---- ----<br>----";
                             
                             if (scion.scions[lfl].insc_dfin !== undefined) {
-                                twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_extn_trm_dfin_lng_c'>(<span class='styl_extn_trm_dfin_lng'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                                twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;</span>&nbsp;<span class='styl_extn_trm_dfin_lng_c'>(<span class='styl_extn_trm_dfin_lng'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>&nbsp;<span class='styl_lfl_ttl_term'>}</span>&nbsp;<span class='styl_pointers'>::</span>`;
                             } else {
                                 twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
                             }

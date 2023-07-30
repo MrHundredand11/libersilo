@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Tend to Love",
                     "insc_ttl": "(<b><i>Faeries</b></i>) <i>tend to</i> <b><u>Love</b></u>",
                     "scion_id": "ls_hi_fae_000_char_tndlove",
@@ -20,7 +20,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "txt",
                             "insc_pntr": "=>",
-                            "insc_cntn": "Almost universally,&nbsp;<span class='styl_insc_txt_trm_grg'>Faeries</span>&nbsp;love&nbsp;<span class='styl_insc_txt_trm_stkbld'>nature</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>music</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>hunting</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>dancing</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>horses</span>, and&nbsp;<span class='styl_insc_txt_trm_stkbld'>teasing</span>\nand&nbsp;<span class='styl_insc_txt_trm_stkbld'>spying</span>&nbsp;on humans (<span class='styl_insc_txt_itc'>whose follies and foibles never cease to puzzle and intrigue them</span>)."
+                            "insc_cntn": "Almost universally,&nbsp;<span class='styl_insc_txt_trm_grg'>Faeries</span>&nbsp;love&nbsp;<span class='styl_insc_txt_trm_stkbld'>nature</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>music</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>hunting</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>dancing</span>,&nbsp;<span class='styl_insc_txt_trm_stkbld'>horses</span>, and&nbsp;<span class='styl_insc_txt_trm_stkbld'>teasing</span>\nand&nbsp;<span class='styl_insc_txt_trm_stkbld'>spying</span>&nbsp;on humans (<i>whose follies and foibles never cease to puzzle and intrigue them</i>)."
                         }
                     ]
                 }

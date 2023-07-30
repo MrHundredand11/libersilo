@@ -3,7 +3,11 @@ function gen_Insc(insc_i, scion) {
     switch (scion.insc_typ1) {
         case 'stm':
             var stm_id = `id_stm_${insc_id}`;
-            var stm_name = scion.insc_ttl;
+            if (scion.insc_dfin !== undefined) {
+                var stm_name = `${scion.insc_ttl} (<span class='styl_stm_ttl_dfin'><i>${scion.insc_dfin}</i></span>)`;
+            } else {
+                var stm_name = scion.insc_ttl;
+            }
             var stm_cntnr = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_cntnr stt_hide`, `id_stm_cntnr_${insc_id}`);
             var stm_bmp_top = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_bmp_top`, `id_stm_bmp_top_${insc_id}`);
             var stm_nmtg = gen_ECI('div', `styl_${scion.insc_typ1}_${scion.insc_typ2}_nmtg`, `id_stm_nmtg_${insc_id}`);

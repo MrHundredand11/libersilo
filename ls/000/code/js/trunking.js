@@ -392,14 +392,19 @@ function gen_Insc(insc_i, scion) {
 
                 case 'tbl':
                     var in_tbl = gen_ECI('table', 'tbl_cntnr', `id_tbl_${scion.scion_id}`);
-                    for (let rw in scion.tabl_rows) {
-                        var row = in_tbl.insertRow();
-                        for (ent in scion.tabl_rows[rw]) {
-                                let text = document.createTextNode(scion.tabl_rows[rw][ent]);
-                                row.appendChild(text);
-                            }
+                    
+                    switch (scion.tabl_typ1) {
+                        case 'dwn_002':
+                            for (let rw in scion.tabl_rows) {
+                                var row = in_tbl.insertRow();
+                                for (ent in scion.tabl_rows[rw]) {
+                                    let text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                    row.appendChild(text);
+                                }
                         }
-                        return in_tbl;
+                        break;
+                    }
+                return in_tbl; 
             }
 
             if (scion.scions !== undefined) {

@@ -398,7 +398,12 @@ function gen_Insc(insc_i, scion) {
                             for (let rw in scion.tabl_rows) {
                                 var row = in_tbl.insertRow();
                                 for (ent in scion.tabl_rows[rw]) {
-                                    let text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                    if (ent == 0) {
+                                        var text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                        text.classList.add('styl_tabl_lft_001_lf');
+                                    } else {
+                                        var text = document.createTextNode(scion.tabl_rows[rw][ent]);
+                                    }
                                     row.appendChild(text);
                                 }
                         }

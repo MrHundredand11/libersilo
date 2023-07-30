@@ -397,7 +397,7 @@ function gen_Insc(insc_i, scion) {
                         case 'dwn_002':
                                
                         for (let rw in scion.tabl_rows) {
-                                var row = in_tabl.insertRow();
+                                var row = in_tbl.insertRow();
                                 for (ent in scion.tabl_rows[rw]) {
                                     if (ent == 0) {
                                         var text = document.createElement('td');
@@ -408,7 +408,7 @@ function gen_Insc(insc_i, scion) {
                                     }
                                     row.appendChild(text);
                                 }
-                                in_tabl.append(row);
+                                in_tbl.append(row);
                         }
                         break;
                     }

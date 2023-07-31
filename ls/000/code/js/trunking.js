@@ -293,7 +293,7 @@ function gen_Insc(insc_i, scion) {
 
                 case 'quot':
                     var insc_cntn = createElementWithClass('div', 'styl_insc_quot');
-                    insc_cntn.innerHTML = `<span class='bknd_01'>[</span>\t<span class='styl_insc_quot_wrds'>${scion.insc_cntn}</span>\t<span class='bknd_01'>]</span>`;
+                    insc_cntn.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${scion.insc_cntn}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
                     insc_prtr.append(insc_pntr, insc_cntn);
                     break;
 

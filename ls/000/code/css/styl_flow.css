@@ -6,6 +6,8 @@
     font-size: 31px;
     padding-left: 17px;
     padding-right: 17px;
+    display: inline-block;
+    position: absolute;
 }
 
 .styl_chut_cntnr {

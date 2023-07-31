@@ -2,12 +2,16 @@
     all: initial;
 }
 
-.bknd_01 {
+.styl_bknd_001 {
     font-size: 31px;
     padding-left: 17px;
     padding-right: 17px;
     display: inline-block;
     position: absolute;
+}
+
+.bknd_r {
+    right: 0;
 }
 
 .styl_chut_cntnr {

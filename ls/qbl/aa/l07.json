@@ -34,7 +34,61 @@
         {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'Zayin'",
-            "scion_id": "ls_qbl_aa_l07_qblh"
+            "scion_id": "ls_qbl_aa_l07_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Zayin</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The 32 Paths of Wisdom</b></u>",
+                    "scion_id": "ls_qbl_aa_l07_qblh_32pw",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_ttl": "<b><u>Translations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 17</b></i>)",
+                            "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns",
+                            "scions": [
+                                {
+                                    "insc_term": "William Wynn Westcott Translation",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_wwwestcott",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Translation"],
+                                            "insc_cntn": "The Seventeenth Path is the Disposing Intelligence which provides Faith to the Righteous, and they are clothed with the Holy Spirit by it, and it is called the Foundation of Excellence in the state of higher things."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_term": "Wade Coleman Translation",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_wcoleman",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Translation"],
+                                            "insc_cntn": "The 17th Path is Perceptive Intelligence (Sekhel Ha.her.gesh). It is prepared for the Faithful Ones (Saints), so they are clothed with the Holy Spirit. It is called the Foundation (Yesod) of Beauty (Tiphareth) and is placed among the Supernals (upper realms)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_term": "Athanasius Kircher Commentary",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_akircher",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Translation"],
+                                            "insc_cntn": "The 17th Path is called the Disposing Intelligence, which prepares Christian faith for the devout, so that, through it, they shall be covered by the Holy Spirit, and it is said to be the fundament of beauty, by the condition of Supreme entities. Moreover, it supervises all superior and inferior forms."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "NMBR",

@@ -145,6 +145,8 @@
     width: 777px;
     font-family: sitka;
     font-size: 31px;
+    display: inline-block;
+    margin-left: 47px;
 }
 
 .styl_insc_itrt_001 {

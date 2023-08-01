@@ -607,6 +607,59 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Resources</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Venus Retrograde</b></i>)",
+                            "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_rsrc",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Venus Retrograde</b></i>)",
+                                    "scion_id": "ls_qbl_alg_plnt_p03_astr_rtrgd_rsrc_wbpg",
+                                    "scions": [
+                                        {
+                                            "insc_tag": "Web Page",
+                                            "insc_typ1": "cite",
+                                            "insc_typ2": "md_00",
+                                            "cite_link": [{"link": "https://www.findyourfate.com/astrology/venus/venusretro-dos-and-dont.html"}],
+                                            "cite_ttl": "Dos and Don'ts for Venus Retrograde",
+                                            "cite_site": "Find Your Fate"
+                                        },
+                                        {
+                                            "insc_tag": "Web Page",
+                                            "insc_typ1": "cite",
+                                            "insc_typ2": "md_00",
+                                            "cite_link": [{"link": "https://www.thehoodwitch.com/blog/2023/7/21/9mcwhgzg4m0akmfnkdsyh2b773d5e7/"}],
+                                            "cite_auth": [{"name": "Stardust, Lisa"}],
+                                            "cite_ttl": "Venus Retrograde 2023",
+                                            "cite_site": "The Hoodwitch"
+                                        },
+                                        {
+                                            "insc_tag": "Web Page",
+                                            "insc_typ1": "cite",
+                                            "insc_typ2": "md_00",
+                                            "cite_link": [{"link": "https://www.allure.com/story/venus-retrograde-guide/"}],
+                                            "cite_auth": [{"name": "Saint Thomas, Sophie"}],
+                                            "cite_ttl": "Your Ultimate Guide to Venus Retrograde",
+                                            "cite_sbtt": "You may experience some unexpected shake-ups, but you can prepare with this guide.",
+                                            "cite_site": "allure"
+                                        },
+                                        {
+                                            "insc_tag": "Web Page",
+                                            "insc_typ1": "cite",
+                                            "insc_typ2": "md_00",
+                                            "cite_link": [{"link": "https://parade.com/astrology/venus-retrograde-love-romance-money/"}],
+                                            "cite_auth": [{"name": "Ash, Lauren"}],
+                                            "cite_ttl": "Your Ultimate Love, Money, and Beauty Guide to Venus Retrograde",
+                                            "cite_sbtt": "The planet of love, sex, and money will move backwards this month. Here's what to expect.",
+                                            "cite_site": "Parade"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

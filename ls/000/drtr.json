@@ -293,13 +293,6 @@
                             "scion_id": "ls_dgtl_db_ql",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-DB-QL-GREMLIN",
-                                    "ls_ttl": "Apache Gremlin",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/ql/gremlin.json",
-                                    "scion_id": "ls_dgtl_db_ql_gremlin"
-                                },
-                                {
                                     "ls_id": "LS-DGTL-DB-QL-NEO4J",
                                     "ls_ttl": "neo4j",
                                     "ls_type": "+>",
@@ -312,6 +305,22 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/dgtl/db/ql/sql.json",
                                     "scion_id": "ls_dgtl_db_ql_sql"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-DB-QL-G",
+                                    "ls_ttl": "Querying Graph Databases",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/db/ql/g",
+                                    "scion_id": "ls_dgtl_db_ql_g",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-DB-QL-G-GREMLIN",
+                                            "ls_ttl": "Apache Gremlin",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/db/ql/g/gremlin.json",
+                                            "scion_id": "ls_dgtl_db_ql_g_gremlin"
+                                        }
+                                    ]
                                 }
                             ]
                         },

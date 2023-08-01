@@ -293,18 +293,20 @@
                             "scion_id": "ls_dgtl_db_ql",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-DB-QL-NEO4J",
-                                    "ls_ttl": "neo4j",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/ql/neo4j.json",
-                                    "scion_id": "ls_dgtl_db_ql_neo4j"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-DB-QL-SQL",
-                                    "ls_ttl": "Structured Query Language",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/db/ql/sql.json",
-                                    "scion_id": "ls_dgtl_db_ql_sql"
+                                    "ls_id": "LS-DGTL-DB-QL-R",
+                                    "ls_ttl": "Querying Relational Databases",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/db/ql/r",
+                                    "scion_id": "ls_dgtl_db_ql_r",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-DB-QL-R-SQL",
+                                            "ls_ttl": "Structured Query Language",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/db/ql/r/sql.json",
+                                            "scion_id": "ls_dgtl_db_ql_r_sql"
+                                        }
+                                    ]
                                 },
                                 {
                                     "ls_id": "LS-DGTL-DB-QL-G",
@@ -319,6 +321,13 @@
                                             "ls_type": "+>",
                                             "ls_url": "/ls/dgtl/db/ql/g/gremlin.json",
                                             "scion_id": "ls_dgtl_db_ql_g_gremlin"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-DB-QL-G-NEO4J",
+                                            "ls_ttl": "neo4j",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/db/ql/g/neo4j.json",
+                                            "scion_id": "ls_dgtl_db_ql_g_neo4j"
                                         }
                                     ]
                                 }
@@ -574,6 +583,22 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/shll/rvrs.json",
                             "scion_id": "ls_dgtl_shll_rvrs"
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-TM",
+                    "ls_ttl": "Time Stamps",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/tm/",
+                    "scion_id": "ls_dgtl_tm",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-TM-000",
+                            "ls_ttl": "Time Stamps",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/tm/000.json",
+                            "scion_id": "ls_dgtl_tm_000"
                         }
                     ]
                 },

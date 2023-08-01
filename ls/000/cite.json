@@ -3443,6 +3443,15 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://jrtechs.net/java/gremlin-in-10-minutes/"}],
+                            "cite_site": "JRTECHS",
+                            "cite_ttl": "Gremlin in 10 Minutes",
+                            "cite_date": "Saturday, 2018-07-28"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://www.pluralsight.com/"}],
                             "cite_ttl": "Pluralsight"
                         },

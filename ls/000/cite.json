@@ -3475,6 +3475,14 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://ss64.com/nt/time.html"}],
+                            "cite_site": "SS64",
+                            "cite_ttl": "Time = Windows CMD"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://tinkerpop.apache.org/docs/current/"}],
                             "cite_site": "Apache Tinkerpop",
                             "cite_ttl": "TinkerPop Compendium"

@@ -1,0 +1,31 @@
+{
+    "ls_id": "LS-DGTL-TM-000",
+    "ls_ttl": "Time Stamps",
+    "ls_url": "/ls/dgtl/tm/000.json",
+    "scion_id": "ls_dgtl_tm_000",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'TimeStamps'",
+            "scion_id": "ls_dgtl_tm_000_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; <b><u>Learning</b></u>&nbsp; (<b><i>Time Stamps</b></i>)",
+                    "scion_id": "ls_dgtl_tm_000_rsrc_wbpg_lrn",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://ss64.com/nt/time.html"}],
+                            "cite_site": "SS64",
+                            "cite_ttl": "Time - Windows CMD"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

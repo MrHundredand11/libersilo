@@ -24,6 +24,51 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Fayette'",
+            "scion_id": "ls_dbr_name_f_fayette_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Fayette</b></i>)",
+                    "scion_id": "ls_dbr_name_f_fayette_rsrc_lst_wbpg",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://www.nwaonline.com/news/2013/feb/09/big-bob-dont-worry-too-much-about-bigfoot-20130209/"}],
+                            "cite_auth": [{"name": "The Arkansas Democrat-Gazette"}],
+                            "cite_site": "Northwest Arkansas Democrat Gazette",
+                            "cite_date": "February 9, 2013",
+                            "cite_ttl": "Big Bob, don't worry too much about Bigfoot"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "copycateffect.blogspot.com/2012/06/fayette-factor.html"},{"link": "https://rense.com/general49/fay.htm"}],
+                            "cite_auth": [{"name": "Coleman, Loren"}],
+                            "cite_site": "Twilight Language",
+                            "cite_date": "Sunday, June 10, 2012",
+                            "cite_ttl": "The Fayette Factor"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://cryptomundo.com/cryptozoo-news/fayette-factor/"}],
+                            "cite_auth": [{"name": "Coleman, Loren"}],
+                            "cite_site": "Cryptomundo",
+                            "cite_date": "08:27am Monday, June 11, 2012",
+                            "cite_ttl": "Further on Fayette Factor"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

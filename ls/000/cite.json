@@ -3453,6 +3453,14 @@
                             "cite_link": [{"link": "https://knowledge.ondmarc.redsift.com/en/articles/1148885-spf-hard-fail-vs-spf-soft-fail/"}],
                             "cite_auth": [{"name": "Ivan Kovachev"}],
                             "cite_ttl": "SPF Hard Fail vs SPF Soft Fail"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://jointhegraph.github.io/articles/using-gremlin-net-from-an-asp-net-web-application/"}],
+                            "cite_site": "Join the Graph!",
+                            "cite_ttl": "Using Gremlin.Net From an ASP.NET Web Application"
                         }
                     ]
                 },

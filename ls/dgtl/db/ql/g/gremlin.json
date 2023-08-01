@@ -1,0 +1,31 @@
+{
+    "ls_id": "LS-DGTL-DB-QL-G-GREMLIN",
+    "ls_ttl": "Apache Gremlin",
+    "ls_url": "/ls/dgtl/db/ql/g/gremlin.json",
+    "scion_id": "ls_dgtl_db_ql_g_gremlin",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources for 'Gremlin'",
+            "scion_id": "ls_dgtl_db_ql_g_gremlin_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Web Pages</b></u>&nbsp; <i>about</i>&nbsp; <b><u>Developing With</b></u>&nbsp; (<b><i>Gremlin</b></i>)",
+                    "scion_id": "ls_dgtl_db_ql_g_gremlin_rsrc_wbpg_dvlp",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://jointhegraph.github.io/articles/using-gremlin-net-from-an-asp-net-web-application/"}],
+                            "cite_site": "Join the Graph!",
+                            "cite_ttl": "Using Gremlin.Net From an ASP.NET Web Application"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

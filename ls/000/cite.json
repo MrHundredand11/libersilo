@@ -3443,6 +3443,14 @@
                             "insc_tag": "Web Page",
                             "insc_typ1": "cite",
                             "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://dkuppitz.github.io/gremlin-cheat-sheet/101.html"}],
+                            "cite_auth": [{"name": "Kuppitz, Daniel"}],
+                            "cite_ttl": "Gremlin Cheat Sheet 101"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
                             "cite_link": [{"link": "https://jrtechs.net/java/gremlin-in-10-minutes/"}],
                             "cite_site": "JRTECHS",
                             "cite_ttl": "Gremlin in 10 Minutes",

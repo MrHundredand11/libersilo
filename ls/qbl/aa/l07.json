@@ -50,7 +50,7 @@
                             "scions": [
                                 {
                                     "insc_term": "William Wynn Westcott Translation",
-                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_wwwestcott",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_i_wwwestcott",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -62,7 +62,7 @@
                                 },
                                 {
                                     "insc_term": "Wade Coleman Translation",
-                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_wcoleman",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_i_wcoleman",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -74,7 +74,7 @@
                                 },
                                 {
                                     "insc_term": "Athanasius Kircher Commentary",
-                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_akircher",
+                                    "scion_id": "ls_qbl_aa_l07_qblh_32pw_trns_i_akircher",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -328,6 +328,22 @@
                                     "term_styl": "sm",
                                     "insc_stpl": [1, "Author"],
                                     "insc_term": "Dolores Ashcroft-Nowicki"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Original Text</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Ritual 001</b></i>)",
+                                    "scion_id": "ls_qbl_aa_l07_xrcs_rtls_i_001_otxt",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_pntr": "",
+                                            "insc_wdth": "733px",
+                                            "insc_cntn": "You will need a table for an altar; white cloth; a bowl and a candle for the center light; a thurible of incense; in the east a piece of charcoal; an apple and a sharp dagger in the south; a chalice and a medium-sized bunch of grapes in the west; a freshly baked bread roll and a sharp knife in the north; a second, smaller chalice half full of water; a pinch of salt; a small candle in a holder (lit); and an incense stick (lit). The intent is to divide and reunite. (It is a good idea to have a box of moist towelettes at hand.)\n\n\t<i>Make sure you have all at hand and then begin. Take the dagger in hand. Go to the door and make the sign of Zayin with the blade. Speak:</i>\n\n\t“With the dividing power of Zayin, I seal this space from all outside influence. <i>Go to the east and make the sign of an equal-armed cross with the dagger.</i>I call through the door of the east to the glory that is Raphael, Son of the Morning, one of the first born. Come thou, Day Star of the Horizon, to the place prepared for thee, and open the gates of the element of air. By the power of the Zayin that guards the gate of heaven, I call thee and welcome thee.” <i>Go to the south and repeat the sign.</i>\n\n\t“I call through the door of the south to the glory that is Michael, Son of the Morning, one of the first born. Come thou, Radiance of the Noonday, into this place prepared for thee, and open the gates of the element of fire. By the power of the Zayin that guard the gate of heaven, I call thee and welcome thee.” <i>Go to the west and repeat the sign.</i>\n\n\t“I call through the door of the west to the silver-voiced messenger that is Gabriel, herald of the Word of the Most High. Come thou, Keeper of the Word of Creation, into this place prepared for thee, and open the gates of the element of water. By the power of the Zayin that guards the gate of heaven, I call thee and welcome thee.” <i>Go to the north and repeat the sign.</i>\n\n\t“I call through the door of the north to the glory that is Uriel, Son of the Morning, one of the first born. Come thou, Living Symbol of the Earth, come into this place prepared for thee, and open the gates of earth. By the power of the Zayin that guards the gate of heaven, I call thee and welcome thee.” <i>Go to the altar, pick up the charcoal, and hold it in your fingers.</i>\n\n\t“With the power of Zayin, I divide this object that I may know the strength of the Zayin. <i>Hold both pieces to the flame of the center light.</i> By the power of the Light I shall multiply its uses to create more Light. <i>Place both pieces in the thurible and wait until it is hot enough to take the incense.</i> Let the scent of herbs and spices mount up to heaven that the air may be hallowed with its fragrance. Raphael, accept this gift of perfume and place it before the throne that the element of air may be glorified and united with fire.” </i>Go to the south and take the dagger and the apple. Cut the apple into four quarters and hold them up.</i>\n\n\t“With the power of Zayin, I divide this apple that I may likewise divide my time on Earth and make it more fruitful. Pass the pieces through the center flame. By the power of the Light, I shall multiply these seeds to create more of itself. Take a small bite of one piece. I take the fruit, ripened by the heat of the sun to its full sweetness. I offer the taste of this fruit to thee, Michael. Let it be pleasant in the mouth of the Most High that the element of fire, the heat of the sun that gave it ripeness, may be blessed and united by its juices to the element of water.” <i>Go to the west and pick the grapes off the stalk.</i>\n\n\t“With the power of Zayin, I divide this fruit from its vine. <i>Squeeze the juice into the chalice. Sprinkle a drop on the flame, taking care not to put it out.</i> I take the wine and offer it to the messenger of God that it may be taken and placed in the hand of the One. Let its strength be added to that of the hand that gave life to Adam. Let it be a token of welcome to the stranger in my tents and thereby bless the element of water.” <i>Go to the north and cut the bread into pieces.</i>\n\n\t“With the power of Zayin, I divide this bread and share its essence with the holy angels who surround us. <i>Sprinkle a pinch of salt on the bread and eat it.</i> I offer it to the keeper of the Earth, Uriel, that it may be taken and placed in the hand of the One. Let its strength be added to that of the hand that gave life to Adam. Let it be a token of welcome to the stranger in my tents. As the manna sustained us in the desert, let this bread now become a gift to he who created all things. Let it be blessed in its making and in its eating, thereby blessing the element of earth.” <i>Go to the east; take the chalice of water and sprinkle a little of the salt into it. Douse the candle from the south in it, and then douse the tip of the incense stick in it.</i>\n\n\t“Earth and water, fire and air, combine together, united as in the beginning when nothing was separated one from the other. With the Zayin did the Lord divide the waters from the earth, and the above from the below. He divided the earth into many parts and made them multiply. Likewise did he separate Life into many kinds but in the fullness of time all shall be united in him. Selah.”\n\n\t<i>Douse all candles and leave.</i>",
+                                            "scion_id": "ls_qbl_aa_l07_xrcs_rtls_i_001_otxt_cntn"
+                                        }
+                                    ]
                                 }
                             ]
                         }

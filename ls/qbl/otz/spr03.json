@@ -269,7 +269,7 @@
                                     "insc_pntr": ">>",
                                     "insc_wdth": "733px",
                                     "insc_stpl": [1, "Explanation"],
-                                    "insc_cntn": "The fluttering image of the <span class='font_cambria'><b>Aleph</b></span> appears as a '<span class='font_sitka'><b>Butterfly</b> frolicking in daylight fields</span>' in the <span class='font_sitka'><b>Sphere of Chokmah</b></span> and a '<span class='font_sitka'><b>Moth</b> flapping through the nighttime darkness</span>' in the <span class='font_cambria'><b>Sphere of Binah</b></span>."
+                                    "insc_cntn": "The fluttering image of the <span class='font_cambria'><b>Aleph</b></span> appears as\n\ta '<span class='font_sitka'><b>Butterfly</b> frolicking in daylight fields</span>' in the <span class='font_sitka'><b>Sphere of Chokmah</b></span>\n\t\tand a '<span class='font_sitka'><b>Moth</b> flapping through the nighttime darkness</span>' in the <span class='font_cambria'><b>Sphere of Binah</b></span>."
                                 }
                             ]
                         },

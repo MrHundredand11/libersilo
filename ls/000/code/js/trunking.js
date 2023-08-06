@@ -292,7 +292,7 @@ function gen_Insc(insc_i, scion) {
                     break;
 
                 case 'quot':
-                    var insc_cntn = createElementWithClass('div', 'styl_insc_quot');
+                    var insc_cntn = createElementWithClass('div', 'styl_insc_quot_cntn');
                     insc_cntn.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${scion.insc_cntn}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
                     insc_prtr.append(insc_pntr, insc_cntn);
                     insc_scns.classList.add('algn_x_lf_53');

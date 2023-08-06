@@ -135,7 +135,7 @@
     font-family: sitka;
 }
 
-.styl_insc_quot {
+.styl_insc_quot_cntn {
     display: inline-grid;
     grid-template-columns: 1fr 17fr 1fr;
     grid-template-rows: 1fr;

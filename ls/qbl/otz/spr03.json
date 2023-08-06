@@ -5,6 +5,18 @@
     "scion_id": "ls_qbl_otz_spr03",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Correspondence Table</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)"
+                }
+            ]
+        },
+        {
             "drct_id": "NAME",
             "drct_ttl": "Names + Titles of 'Binah'",
             "scion_id": "ls_qbl_otz_spr03_name",

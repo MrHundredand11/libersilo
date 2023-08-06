@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Divine Names",
                     "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Divine Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_dvnnames_lst",
@@ -76,7 +76,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Titles",
                     "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
@@ -115,7 +115,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Other Names",
                     "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Other Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
@@ -125,6 +125,61 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Other Name",
                             "insc_term": "HmG GeN"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Other Names",
+                    "insc_ttl": "<b><u>Expansions</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_tag": "Other Name",
+                            "insc_term": "The Great Sea",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_wdth": "733px",
+                                    "insc_stpl": [1, "Commentary"],
+                                    "insc_cntn": "This is the Sphere of Understanding. Approach Her in silence. She is the Ocean of Existence upon which we all float, seeing only the waves and never the clear water. This is the life of the dead; Rest in Peace; but there is a philosophical death..."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "Marah",
+                                    "insc_dfin": "The Great Sea"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "The Ocean of Existence"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "The Mother of All Living"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -137,43 +192,43 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_shm"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_astr"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_4wrl"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_lmnt"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_32p"
                 }

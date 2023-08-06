@@ -136,8 +136,10 @@
 }
 
 .styl_insc_quot {
-    display: flex;
-    flex-flow: wrap;
+    display: inline-grid;
+    grid-template-columns: 1fr 17fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 11px;
 }
 
 .styl_insc_quot_wrds {

@@ -336,6 +336,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "This is the Sphere of Understanding. Approach Her in silence. She is the Ocean of Existence upon which we all float, seeing only the waves and never the clear water. This is the life of the dead; Rest in Peace; but there is a philosophical death..."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

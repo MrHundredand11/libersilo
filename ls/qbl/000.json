@@ -1,0 +1,39 @@
+{
+    "ls_id": "LS-QBL-000",
+    "ls_ttl": "Overview of 'The Qabalah'",
+    "ls_url": "/ls/qbl/000.json",
+    "scion_id": "ls_qbl_000",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'The Qabalah'",
+            "scion_id": "ls_qbl_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about the</i>&nbsp; (<b><i>Qabalah</b></i>)",
+                    "scion_id": "ls_qbl_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "A <i>qabalah</i> is specifically related to three factors: one, a languag; two, a 'holy' text or texts; three, mathematical laws at work in these two.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_term": "Jake Stratton-Kent"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

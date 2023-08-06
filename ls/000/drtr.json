@@ -2969,6 +2969,13 @@
             "scion_snip": "QBL",
             "scions": [
                 {
+                    "ls_id": "LS-QBL-000",
+                    "ls_ttl": "Overview of The Qabalah",
+                    "ls_type": "+>",
+                    "ls_url": "/ls/qbl/000.json",
+                    "scion_id": "ls_qbl_000"
+                },
+                {
                     "ls_id": "LS-QBL-32P",
                     "ls_ttl": "The 32 Paths of The Qabalah",
                     "ls_type": "=>",

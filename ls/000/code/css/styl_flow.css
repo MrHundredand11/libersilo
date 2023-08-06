@@ -12,6 +12,7 @@
 
 .bknd_r {
     right: 0;
+    align-self: self-end;
 }
 
 .styl_chut_cntnr {

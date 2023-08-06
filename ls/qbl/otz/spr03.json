@@ -165,7 +165,6 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
-                                    "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Related Name"],
@@ -231,6 +230,110 @@
                     "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
                     "scion_id": "ls_qbl_otz_spr03_qblh_32p"
+                }
+            ]
+        },
+        {
+            "drct_id": "CNTR",
+            "drct_ttl": "Nature Correspondences of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_cntr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Animals</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_cntr_anml",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Moth",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Explanation"],
+                                    "insc_text": "The fluttering image of the <span class='font_cambria'><b>Aleph</b></span> appears as a '<span class='font_sitka'><b>Butterfly</b> frolicking in daylight fields</span>' in the <span class='font_sitka'><b>Sphere of Chokmah</b></span> and a '<span class='font_sitka'><b>Moth</b> flapping through the nighttime darkness</span>' in the <span class='font_cambria'><b>Sphere of Binah</b></span>."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Owl",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "a bird of the night",
+                                    "insc_dfin": "Binah as Night"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "a bird of Hekate",
+                                    "insc_dfin": "Binah as Hekate"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Black Dog",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "the dog in Key 18 in the Tarot Arcana",
+                                    "insc_dfin": "Binah as the Lunar Pillar of the Moon Card"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "\"Luna\" = 42 = \"Canis\"",
+                                    "insc_dfin": "Binah as the Lunar Pillar"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "an animal of Hekate",
+                                    "insc_dfin": "Binah as Hekate"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Whale"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Woman"
+                        }
+                    ]
                 }
             ]
         }

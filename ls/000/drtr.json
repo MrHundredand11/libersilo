@@ -2373,7 +2373,16 @@
                     "ls_ttl": "Ciphers",
                     "ls_url": "/ls/mmm/cphr",
                     "ls_type": "=>",
-                    "scion_id": "ls_mmm_cphr"
+                    "scion_id": "ls_mmm_cphr",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-CPHR-000",
+                            "ls_ttl": "Overview of Ciphers",
+                            "ls_url": "/ls/mmm/cphr/000.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_cphr_000"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-MMM-GMTRI",

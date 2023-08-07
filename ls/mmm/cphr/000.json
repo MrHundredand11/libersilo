@@ -1,0 +1,41 @@
+{
+    "ls_id": "LS-MMM-CPHR-000",
+    "ls_ttl": "Overview of Ciphers",
+    "ls_url": "/ls/mmm/cphr/000.json",
+    "scion_id": "ls_mmm_cphr_000",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Ciphers'",
+            "scion_id": "ls_mmm_cphr_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Ciphers</b></i>)",
+                    "scion_id": "ls_mmm_cphr_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "I am fairly familiar with all forms of secret writings, and am myself the author of a trifling monography upon the subject, in which I analyze 160 ciphers, but I confess that this is entirely new to me. The object of those who invented the system has apparently been to conceal that these characters convey a message, and to give the idea that they are the mere random sketches of children.",
+                            "scion_id": "ls_mmm_cphr_000_quot_assrt_i_arthurconandoyle_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_term": "Arthur Conan Doyle",
+                                    "insc_dfin": "The Adventure of the Dancing Men"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

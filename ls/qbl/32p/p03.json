@@ -41,15 +41,39 @@
                     "scions": [
                         {
                             "insc_term": "William Wynn Westcott Translation",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_wwwestcott"
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_wwwestcott",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "quot",
+                                    "insc_stpl": [1, "Translation"],
+                                    "insc_cntn": "The Third Path is the Sanctifying Intelligence, and is the basis of foundation of Primordial Wisdom, which is called the Former of Faith, and its roots, Amen; and it is the parent of Faith, from whose virtues doth Faith emanate."
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Wade Coleman Translation",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_wcoleman"
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_wcoleman",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "quot",
+                                    "insc_stpl": [1, "Translation"],
+                                    "insc_cntn": "The 3rd Path is Sanctifying Intelligence (Sekhel ha.Kudash). It is the foundation of the Primordial Wisdom and the Faithful Artesian. It is the basis of faith (Amen) and the Father of Faith. By its power, Faith emanates (Atziluth)."
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Athanasius Kircher Commentary",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_akircher"
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_akircher",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "quot",
+                                    "insc_stpl": [1, "Text"],
+                                    "insc_cntn": "The 3rd Path is called the Glorifying Intelligence, and it is the fundament of primary knowledge, which is called “creator of faith” and its “roots” [amen, אמנ], and it is “mother of faith” because faith stems out drom its power It corresponds to the third Sephira or to the third measure, which is called Binah [בינה], or “Intelligence”, because, through it, there is a fulfillment of knowledge for all measures (Sephiroth). However, see the book entitled <i>Baresitich Rabbah</i> (The Great Genesis), which discusses such discourse profusely."
+                                }
+                            ]
                         }
                     ]
                 }

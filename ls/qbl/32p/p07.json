@@ -133,26 +133,31 @@
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "trm",
+                                                    "term_styl": "sm",
                                                     "insc_term": "to hide"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "trm",
+                                                    "term_styl": "sm",
                                                     "insc_term": "to veil"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "trm",
+                                                    "term_styl": "sm",
                                                     "insc_term": "to cover"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "trm",
+                                                    "term_styl": "sm",
                                                     "insc_term": "to conceal"
                                                 },
                                                 {
                                                     "insc_typ1": "insc",
                                                     "insc_typ2": "trm",
+                                                    "term_styl": "sm",
                                                     "insc_term": "secret"
                                                 }
                                             ]

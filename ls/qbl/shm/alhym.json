@@ -5,6 +5,75 @@
     "scion_id": "ls_qbl_shm_alhym",
     "scions": [
         {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers of 'Elohim'",
+            "scion_id": "ls_qbl_shm_alhym_nmbr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Numbers</b></u>&nbsp; <i>associated with</i>&nbsp; (<b><i>Elohim</b></i>)",
+                    "scion_id": "ls_qbl_shm_alhym_nmbr_assct",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "86",
+                            "scion_id": "ls_qbl_shm_alhym_nmbr_assct_i_86",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_georgia'><b>86</b></span> is the <span class='font_sitka'><b>value of ALHYM</b></span> in Standard Gematria.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Gematria"],
+                                            "insc_cntn": "[<b>MR</b>]:[&nbsp; <span class='font_cambria'><b>1+30+5+10+40</b></span>&nbsp; ]=&nbsp; <span class='font_georgia'><b>86</b></span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "646",
+                            "scion_id": "ls_qbl_shm_alhym_nmbr_assct_i_646",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<span class='font_georgia'><b>646</b></span> is the <span class='font_sitka'><b>value of ALHYM</b></span> in Gematria when the Mem is calculated in its final form of 600.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Gematria"],
+                                            "insc_cntn": "[<b>MG</b>]:[&nbsp; <span class='font_cambria'><b>1+30+5+10+600</b></span>&nbsp; ]=&nbsp; <span class='font_georgia'><b>646</b></span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "QUOT",
             "drct_ttl": "Quotes about 'Elohim'",
             "scion_id": "ls_qbl_shm_alhym_quot",

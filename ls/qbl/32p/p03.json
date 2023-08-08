@@ -16,14 +16,14 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 03</b></i>)",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)",
                     "scion_id": "ls_qbl_32p_p03_name_lst"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 03</b></i>)",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)",
                     "scion_id": "ls_qbl_32p_p03_name_expl"
                 }
             ]
@@ -36,12 +36,12 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 03</b></i>)",
+                    "insc_ttl": "<b><u>Texts + Translations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)",
                     "scion_id": "ls_qbl_32p_p03_txts_lst",
                     "scions": [
                         {
                             "insc_term": "William Wynn Westcott Translation",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_wwwestcott",
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_i_wwwestcott",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -53,7 +53,7 @@
                         },
                         {
                             "insc_term": "Wade Coleman Translation",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_wcoleman",
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_i_wcoleman",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -65,7 +65,7 @@
                         },
                         {
                             "insc_term": "Athanasius Kircher Commentary",
-                            "scion_id": "ls_qbl_32p_p03_txts_lst_akircher",
+                            "scion_id": "ls_qbl_32p_p03_txts_lst_i_akircher",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -87,7 +87,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 03</b></i>)"
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Key Words + Phrases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)"
                 }
             ]
         },
@@ -98,26 +98,26 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "(<b><i>Path 03</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 03</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_32p_p03_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "(<b><i>Path 03</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 03</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_32p_p03_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "(<b><i>Path 03</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 03</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_32p_p03_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "(<b><i>Path 03</b></i>) <i>and</i> <b><u>The Celestial Science</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 03</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Celestial Science</b></u>",
                     "scion_id": "ls_qbl_32p_p03_qblh_astr"
                 }
             ]
@@ -130,7 +130,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 03</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Relationships</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)",
                     "scion_id": "ls_qbl_32p_p03_rltn_lst"
                 }
             ]

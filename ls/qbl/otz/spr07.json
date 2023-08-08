@@ -1,0 +1,127 @@
+{
+    "ls_id": "LS-QBL-OTz-SPR07",
+    "ls_ttl": "The Sephirah Netzach",
+    "ls_url": "/ls/qbl/otz/spr07.json",
+    "scion_id": "ls_qbl_otz_spr07",
+    "scions": [
+        {
+            "drct_id": "DEIT",
+            "drct_ttl": "Deity Archetypes of 'Netzach'",
+            "scion_id": "ls_qbl_otz_spr07_deit",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Deity Archetypes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Netzach</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr07_deit_arch_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hathor"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Bhavani"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Nike"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Aphrodite"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Explorations</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Deity Archetypes</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Netzach</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr07_deit_arch_explr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Hathor",
+                            "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_hathor",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Pantheon"],
+                                    "insc_term": "Egyptian",
+                                    "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_hathor_pnthn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Bhavani",
+                            "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_bhavani",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Pantheon"],
+                                    "insc_term": "Hindu",
+                                    "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_bhavani_pnthn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Nike",
+                            "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_nike",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Association"],
+                                    "insc_cntn": "Nike crowns with her&nbsp;<span class='font_sitka'><b>garland of parsley or bay</b></span>",
+                                    "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_nike_pnthn"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Aphrodite",
+                            "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_aphrodite",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Description"],
+                                    "insc_cntn": "<span class='font_cambira'><b>Aphrodite</b></span>&nbsp;= is the Lady of Love and Beauty with the power of <i>bestowing her beauty and charms to others</i>.",
+                                    "scion_id": "ls_qbl_otz_spr07_deit_arch_explr_i_aphrodite_dscr"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,26 +1,158 @@
 {
-    "ls_id": "LS-QBL-ShM-ALHYM",
-    "ls_ttl": "The Name Elohim",
-    "ls_url": "/ls/qbl/shm/alhym.json",
-    "scion_id": "ls_qbl_shm_alhym",
+    "ls_id": "LS-QBL-OTz-SPR03",
+    "ls_ttl": "The Sephirah of Binah",
+    "ls_url": "/ls/qbl/otz/spr03.json",
+    "scion_id": "ls_qbl_otz_spr03",
     "scions": [
         {
-            "drct_id": "NMBR",
-            "drct_ttl": "Numbers of 'Elohim'",
-            "scion_id": "ls_qbl_shm_alhym_nmbr",
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_000",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>Numbers</b></u>&nbsp; <i>associated with</i>&nbsp; (<b><i>Elohim</b></i>)",
-                    "scion_id": "ls_qbl_shm_alhym_nmbr_assct",
+                    "insc_ttl": "<b><u>Correspondence Table</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)"
+                }
+            ]
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names + Titles of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Divine Names",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Divine Names</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_dvnnames_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "ALHYM",
+                            "insc_extr": [1, 1, "Elohim"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "YHVH ALHYM",
+                            "insc_extr": [1, 1, "Yahweh Elohim // Jehovah Elohim"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "NV",
+                            "insc_extr": [1, 1, "Nu // Nut // Nuit"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Divine Name",
+                            "insc_term": "HKA",
+                            "insc_extr": [1, 1, "Heka // Hekate // Heket"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "AMA",
+                            "insc_extr": [1, 1, "the dark sterile Mother"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "AYMA",
+                            "insc_extr": [1, 1, "the bright fertile Mother"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Kursiya",
+                            "insc_extr": [1, 1, "the Throne"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Marah",
+                            "insc_extr": [1, 1, "the Great Sea"]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Titles",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Great Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Mother of All Living"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Supernal Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Dark Sterile Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Giver and Taker of Life"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Other Names",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Other Names</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Other Name",
+                            "insc_term": "HmG GeN"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Other Names",
+                    "insc_ttl": "<b><u>Expansions</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
-                            "insc_term": "86",
-                            "scion_id": "ls_qbl_shm_alhym_nmbr_assct_i_86",
+                            "insc_tag": "Other Name",
+                            "insc_term": "The Great Sea",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -28,42 +160,348 @@
                                     "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_cntn": "<span class='font_georgia'><b>86</b></span> is the <span class='font_sitka'><b>value of ALHYM</b></span> in Standard Gematria.",
-                                    "scions": [
-                                        {
-                                            "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
-                                            "insc_sld": "\\_",
-                                            "insc_pntr": ">",
-                                            "insc_stpl": [1, "Gematria"],
-                                            "insc_cntn": "[<b>MR</b>]:[&nbsp; <span class='font_cambria'><b>1+30+5+10+40</b></span>&nbsp; ]=&nbsp; <span class='font_georgia'><b>86</b></span>"
-                                        }
-                                    ]
+                                    "insc_wdth": "733px",
+                                    "insc_stpl": [1, "Commentary"],
+                                    "insc_cntn": "This is the Sphere of Understanding. Approach Her in silence. She is the Ocean of Existence upon which we all float, seeing only the waves and never the clear water. This is the life of the dead; Rest in Peace; but there is a philosophical death..."
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "Marah",
+                                    "insc_dfin": "The Great Sea"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "The Ocean of Existence"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Related Name"],
+                                    "insc_term": "The Mother of All Living"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Titles",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of <b>all</b></i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_ttls_all_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "בינה"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "term_styl": "bg",
-                            "insc_term": "646",
-                            "scion_id": "ls_qbl_shm_alhym_nmbr_assct_i_646",
+                            "insc_tag": "Title",
+                            "insc_term": "Binah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Understanding"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "אלהים"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "ALHYM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "יהוה אלהים"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YHVH ALHYM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YHVH Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Yahweh Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Great Sea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Ocean of Existence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Third Path"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Path of Binah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "שכל ה-קודש"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Sekhel ha.Kudash"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Sanctifying Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Glorifying Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Sanctified Consciousness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Foundation of Wisdom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Foundation of Primordial Wisdom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Faithful Artesian"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Basis of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Mother of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Father of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Divine Spirit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Spirit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Ghost"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "psyche",
+                            "insc_dfin": "Plato"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "anima",
+                            "insc_dfin": "Plato"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "phronesis",
+                            "insc_dfin": "Pythagoras"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "prudentia",
+                            "insc_dfin": "Pythagoras"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QBLH",
+            "drct_ttl": "Qabalah of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_qblh",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_otz"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Divine Names</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_shm"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_astr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Four Worlds</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_4wrl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_taro"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The Alchemical Elements</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_lmnt"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Binah</b></i>) <i>and</i> <b><u>The 32 Paths</b></u>",
+                    "scion_id": "ls_qbl_otz_spr03_qblh_32p",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_ttl": "<b><u>Texts + Translations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 03</b></i>)",
+                            "scion_id": "ls_qbl_otz_spr03_qblh_32p_txts_lst",
                             "scions": [
                                 {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "txt",
-                                    "insc_chut": "001",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_cntn": "<span class='font_georgia'><b>646</b></span> is the <span class='font_sitka'><b>value of ALHYM</b></span> in Gematria when the Mem is calculated in its final form of 600.",
+                                    "insc_term": "William Wynn Westcott Translation",
+                                    "scion_id": "ls_qbl_otz_spr03_qblh_32p_txts_i_wwwestcott",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
-                                            "insc_sld": "\\_",
-                                            "insc_pntr": ">",
-                                            "insc_stpl": [1, "Gematria"],
-                                            "insc_cntn": "[<b>MG</b>]:[&nbsp; <span class='font_cambria'><b>1+30+5+10+600</b></span>&nbsp; ]=&nbsp; <span class='font_georgia'><b>646</b></span>"
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Translation"],
+                                            "insc_cntn": "The Third Path is the Sanctifying Intelligence, and is the basis of foundation of Primordial Wisdom, which is called the Former of Faith, and its roots, Amen; and it is the parent of Faith, from whose virtues doth Faith emanate."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_term": "Wade Coleman Translation",
+                                    "scion_id": "ls_qbl_otz_spr03_qblh_32p_txts_i_wcoleman",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Translation"],
+                                            "insc_cntn": "The 3rd Path is Sanctifying Intelligence (Sekhel ha.Kudash). It is the foundation of the Primordial Wisdom and the Faithful Artesian. It is the basis of faith (Amen) and the Father of Faith. By its power, Faith emanates (Atziluth)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_term": "Athanasius Kircher Commentary",
+                                    "scion_id": "ls_qbl_otz_spr03_qblh_32p_txts_i_akircher",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "quot",
+                                            "insc_stpl": [1, "Text"],
+                                            "insc_cntn": "The 3rd Path is called the Glorifying Intelligence, and it is the fundament of primary knowledge, which is called “creator of faith” and its “roots” [amen, אמנ], and it is “mother of faith” because faith stems out drom its power It corresponds to the third Sephira or to the third measure, which is called Binah [בינה], or “Intelligence”, because, through it, there is a fulfillment of knowledge for all measures (Sephiroth). However, see the book entitled <i>Baresitich Rabbah</i> (The Great Genesis), which discusses such discourse profusely."
                                         }
                                     ]
                                 }
@@ -74,34 +512,125 @@
             ]
         },
         {
-            "drct_id": "QUOT",
-            "drct_ttl": "Quotes about 'Elohim'",
-            "scion_id": "ls_qbl_shm_alhym_quot",
+            "drct_id": "CNTR",
+            "drct_ttl": "Nature Correspondences of 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_cntr",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Elohim</b></i>)",
-                    "scion_id": "ls_qbl_shm_alhym_quot_assrt",
+                    "insc_ttl": "<b><u>Animals</b></u>&nbsp; <i>corresponding to</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_cntr_anml",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "quot",
-                            "insc_cntn": "The divine name Elohim (אלהים) is assigned to the third path. It is plural, following the idea that the three Sephiroth on the same side of the Tree as Binah is associated with multiplicity. Elohim is the divine name associated with creation in the first chapter of Genesis. Elohim is divine self-expression, just as Jah (יה) and Jehovah (יהוה) are names connected with the divine self-realization.",
-                            "scion_id": "ls_qbl_shm_alhym_quot_assrt_i_pfcwd_001",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Moth",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_wdth": "733px",
+                                    "insc_stpl": [1, "Explanation"],
+                                    "insc_cntn": "The fluttering image of the <span class='font_cambria'><b>Aleph</b></span> appears as\n\ta '<span class='font_sitka'><b>Butterfly</b> frolicking in daylight fields</span>' in the <span class='font_sitka'><b>Sphere of Chokmah</b></span>\n\t\tand a '<span class='font_sitka'><b>Moth</b> flapping through the nighttime darkness</span>' in the <span class='font_cambria'><b>Sphere of Binah</b></span>."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Owl",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
-                                    "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_stpl": [1, "Reference"],
-                                    "insc_term": "Paul Foster Case + Wade Coleman",
-                                    "insc_dfin": "Thirty-Two Paths of Wisdom",
-                                    "scion_id": "ls_qbl_shm_alhym_quot_assrt_i_pfcwd_001_rfrn"
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "a bird of the night",
+                                    "insc_dfin": "Binah as Night"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "a bird of Hekate",
+                                    "insc_dfin": "Binah as Hekate"
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Black Dog",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "the dog in Key 18 in the Tarot Arcana",
+                                    "insc_dfin": "Binah as the Lunar Pillar of the Moon Card"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "\"Luna\" = 42 = \"Canis\"",
+                                    "insc_dfin": "Binah as the Lunar Pillar"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Connection"],
+                                    "insc_term": "an animal of Hekate",
+                                    "insc_dfin": "Binah as Hekate"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Whale"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Woman"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Binah'",
+            "scion_id": "ls_qbl_otz_spr03_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "This is the Sphere of Understanding. Approach Her in silence. She is the Ocean of Existence upon which we all float, seeing only the waves and never the clear water. This is the life of the dead; Rest in Peace; but there is a philosophical death..."
                         }
                     ]
                 }

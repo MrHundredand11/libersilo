@@ -159,12 +159,12 @@
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "trm",
+                                            "insc_typ2": "txt",
                                             "insc_chut": "002",
                                             "insc_sld": "\\",
                                             "insc_pntr": ">",
                                             "insc_stpl": [1, "Gematria"],
-                                            "insc_term": "[<b>MR</b>]:[&nbsp;<span class='font_cambria'><b>60+400+200</b></span>&nbsp;]=&nbsp;<span class='font_georgia'><b>660</b></span>"
+                                            "insc_cntn": "[<b>MR</b>]:[&nbsp;<span class='font_cambria'><b>60+400+200</b></span>&nbsp;]=&nbsp;<span class='font_georgia'><b>660</b></span>"
                                         }
                                     ]
                                 },

@@ -162,6 +162,10 @@ function gen_Insc(insc_i, scion) {
                     case '001':
                         chut_cntnr.innerHTML = "||";
                         break;
+                    
+                    case '002':
+                        chut_cntnr.innerHTML = "|";
+                        break;
                 }
             }
 

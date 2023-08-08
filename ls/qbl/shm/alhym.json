@@ -1,0 +1,42 @@
+{
+    "ls_id": "LS-QBL-ShM-ALHYM",
+    "ls_ttl": "The Name Elohim",
+    "ls_url": "/ls/qbl/shm/alhym.json",
+    "scion_id": "ls_qbl_shm_alhym",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Elohim'",
+            "scion_id": "ls_qbl_shm_alhym_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Elohim</b></i>)",
+                    "scion_id": "ls_qbl_shm_alhym_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "The divine name Elohim (אלהים) is assigned to the third path. It is plural, following the idea that the three Sephiroth on the same side of the Tree as Binah is associated with multiplicity. Elohim is the divine name associated with creation in the first chapter of Genesis. Elohim is divine self-expression, just as Jah (יה) and Jehovah (יהוה) are names connected with the divine self-realization.",
+                            "scion_id": "ls_qbl_shm_alhym_quot_assrt_i_pfcwd_001",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_term": "Paul Foster Case + Wade Coleman",
+                                    "insc_dfin": "Thirty-Two Paths of Wisdom",
+                                    "scion_id": "ls_qbl_shm_alhym_quot_assrt_i_pfcwd_001_rfrn"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

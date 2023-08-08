@@ -110,7 +110,63 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Root"],
                                     "insc_term": "סתר",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_root_001"
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_root_001",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "002",
+                                            "insc_sld": "\\",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Transliteration"],
+                                            "insc_term": "sah.tar"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "002",
+                                            "insc_sld": "\\",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Translations"],
+                                            "insc_term": "",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_term": "to hide"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_term": "to veil"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_term": "to cover"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_term": "to conceal"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_term": "secret"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_chut": "002",
+                                            "insc_sld": "\\",
+                                            "insc_pntr": ">",
+                                            "insc_stpl": [1, "Gematria"],
+                                            "insc_term": "[<b>MR</b>]:[&nbsp;<span class='font_cambria'><b>60+400+200</b></span>&nbsp;]=&nbsp;<span class='font_georgia'><b>660</b></span>"
+                                        }
+                                    ]
                                 },
                                 {
                                     "insc_typ1": "insc",

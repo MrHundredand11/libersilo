@@ -16,15 +16,115 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
-                    "scion_id": "ls_qbl_32p_p07_name_lst"
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
+                    "scion_id": "ls_qbl_32p_p07_name_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "שכל נסתר"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ShKL NSThr"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Sekhel Nistar"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Shekel Nistar"
+                        }
+                    ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>Exploration</b></u> <i>of</i> <b><u>Names + Titles</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
-                    "scion_id": "ls_qbl_32p_p07_name_expl"
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
+                    "scion_id": "ls_qbl_32p_p07_name_expl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "שכל נסתר",
+                            "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Transliteration"],
+                                    "insc_term": "ShKL NSThr",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_001"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Transliteration"],
+                                    "insc_term": "Sekhel Nistar",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_002"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Transliteration"],
+                                    "insc_term": "Shekel Nistar",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_003"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Translation"],
+                                    "insc_term": "The Hidden Intelligence",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnslt_001"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Translation"],
+                                    "insc_term": "The Occult Intelligence",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnslt_002"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Root"],
+                                    "insc_term": "סתר",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_root_001"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Gematria"],
+                                    "insc_cntn": "[MR]:[&nbsp;<span class='font_cambria'><b>300+20+30 + 50+60+400+200</b></span>&nbsp;]=&nbsp;<span class='font_georgia'><b>1060</b></span>",
+                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_gmtr_001"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -36,7 +136,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>",
+                    "insc_ttl": "<b><u>Texts + Translations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
                     "scion_id": "ls_qbl_32p_p07_txts_lst",
                     "scions": [
                         {
@@ -77,7 +177,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>"
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Key Words + Phrases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)"
                 }
             ]
         },
@@ -88,26 +188,26 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Tree of Life</b></u></span>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tree of Life</b></u>",
                     "scion_id": "ls_qbl_32p_p07_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Cube of Space</b></u></span>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Cube of Space</b></u>",
                     "scion_id": "ls_qbl_32p_p07_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u></span>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tarot Arcana</b></u>",
                     "scion_id": "ls_qbl_32p_p07_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<span class='stm_ttl'>(<b><i>Path 07</b></i>) <i>and</i> <b><u>The Celestial Science</b></u></span>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Celestial Science</b></u>",
                     "scion_id": "ls_qbl_32p_p07_qblh_astr"
                 }
             ]
@@ -120,7 +220,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<span class='stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Relationships</b></u> <i>of</i> (<b><i>Path 07</b></i>)</span>"
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Relationships</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)"
                 }
             ]
         }

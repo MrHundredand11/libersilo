@@ -205,7 +205,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
-                            "insc_term": "YHVH Elohim"
+                            "insc_term": "בינה"
                         },
                         {
                             "insc_typ1": "insc",
@@ -222,6 +222,51 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "אלהים"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "ALHYM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "יהוה אלהים"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YHVH ALHYM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YHVH Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Yahweh Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
                             "insc_tag": "Title",
                             "insc_term": "The Great Sea"
                         },
@@ -234,6 +279,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
                             "insc_tag": "Title",
                             "insc_term": "The Third Path"
                         },
@@ -246,6 +292,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
                             "insc_tag": "Title",
                             "insc_term": "שכל ה-קודש"
                         },
@@ -282,6 +329,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
                             "insc_tag": "Title",
                             "insc_term": "The Foundation of Wisdom"
                         },
@@ -294,6 +342,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
                             "insc_tag": "Title",
                             "insc_term": "The Faithful Artesian"
                         },
@@ -318,6 +367,13 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "The Divine Spirit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "The Holy Spirit"
                         },
@@ -326,6 +382,42 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "The Holy Ghost"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "HmG GeN"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_offs": "styl_offs_dwn_31",
+                            "insc_tag": "Title",
+                            "insc_term": "psyche",
+                            "insc_dfin": "Plato"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "anima",
+                            "insc_dfin": "Plato"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "phronesis",
+                            "insc_dfin": "Pythagoras"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "prudentia",
+                            "insc_dfin": "Pythagoras"
                         }
                     ]
                 }

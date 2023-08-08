@@ -236,6 +236,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
+                            "insc_term": "ALHIM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
                             "insc_term": "Elohim"
                         },
                         {
@@ -255,6 +261,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
+                            "insc_term": "YHVH ALHIM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
                             "insc_term": "YHVH Elohim"
                         },
                         {
@@ -262,6 +274,12 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Title",
                             "insc_term": "Yahweh Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YaHoWah AloHim"
                         },
                         {
                             "insc_typ1": "insc",

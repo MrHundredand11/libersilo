@@ -25,7 +25,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_tag": "Divine Names",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Divine Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Divine Names</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_dvnnames_lst",
                     "scions": [
                         {
@@ -90,7 +90,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_tag": "Titles",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_ttls_lst",
                     "scions": [
                         {
@@ -129,7 +129,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_tag": "Other Names",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Other Names</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Other Names</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Binah</b></i>)",
                     "scion_id": "ls_qbl_otz_spr03_name_othrnames_lst",
                     "scions": [
                         {
@@ -191,6 +191,141 @@
                                     "insc_term": "The Mother of All Living"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Titles",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of <b>all</b></i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; (<b><i>Binah</b></i>)",
+                    "scion_id": "ls_qbl_otz_spr03_name_ttls_all_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "YHVH Elohim"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Binah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Understanding"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Great Sea"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Ocean of Existence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Third Path"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Path of Binah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "שכל ה-קודש"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Sekhel ha.Kudush"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Sanctifying Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Glorifying Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "Sanctified Consciousness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Foundation of Wisdom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Foundation of Primordial Wisdom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Faithful Artesian"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Basis of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Mother of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Father of Faith"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Spirit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Title",
+                            "insc_term": "The Holy Ghost"
                         }
                     ]
                 }

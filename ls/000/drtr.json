@@ -1186,7 +1186,7 @@
             "scions": [
                 {
                     "ls_id": "LS-HMN-ACT",
-                    "ls_ttl": "Human Actions",
+                    "ls_ttl": "Actions of the Human",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/act/",
                     "scion_id": "ls_hmn_act",

@@ -1,0 +1,39 @@
+{
+    "ls_id": "LS-HMN-ACT-DO",
+    "ls_ttl": "The Action of Do-ing",
+    "ls_url": "/ls/hmn/act/do.json",
+    "scion_id": "ls_hmn_act_do",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Do-ing'",
+            "scion_id": "ls_hmn_act_do_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Motivational Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Do-ing</b></i>)",
+                    "scion_id": "ls_hmn_act_do_quot_mtvtnl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "Whatsoever thou resolvest to do, do it quickly. Defer not till the evening what the morning may accomplish.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_term": "Unto Thee I Grant"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

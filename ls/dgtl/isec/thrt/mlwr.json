@@ -175,6 +175,42 @@
                                         },
                                         {
                                             "insc_term": "Macro Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Program Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Multipartate Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Encrypted Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Polymorphic Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Metamorphic Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Stealth Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Armored Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Hoax Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Attachment Viruses"
+                                        },
+                                        {
+                                            "insc_term": "File Infector Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Network Viruses"
+                                        },
+                                        {
+                                            "insc_term": "Fileless Viruses"
                                         }
                                     ]
                                 }

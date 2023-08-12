@@ -1189,7 +1189,16 @@
                     "ls_ttl": "Human Actions",
                     "ls_type": "=>",
                     "ls_url": "/ls/hmn/act/",
-                    "scion_id": "ls_hmn_act"
+                    "scion_id": "ls_hmn_act",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HMN-ACT-DO",
+                            "ls_ttl": "The Action of Do-ing",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/act/do.json",
+                            "scion_id": "ls_hmn_act_do"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-HMN-BD",

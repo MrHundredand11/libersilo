@@ -13,13 +13,54 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Expansion</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Phenomena</b></u>&nbsp; <i>associated with</i>&nbsp; (<b><i>Fayette</b></i>)",
-                    "scion_id":"ls_dbr_name_f_fayette_phnm_expns",
+                    "scion_id": "ls_dbr_name_f_fayette_phnm_expns",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
                             "insc_term": "The Fayette Factor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Fayette'",
+            "scion_id": "ls_dbr_name_f_fayette_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "(<b><i>Fayette</b></i>)&nbsp; <i>appearances in</i>&nbsp; <b><u>American-born Religions</b></u>",
+                    "scion_id": "ls_dbr_name_f_fayette_luls_amrcrlg",
+                    "scions": [
+                        {
+
+                            "insc_term": "Mormonism",
+                            "insc_dfin": "Joseph Smith"
+                        },
+                        {
+                            "insc_term": "Jehovah's Witnesses",
+                            "insc_dfin": "Charles Taze Russell"
+                        },
+                        {
+                            "insc_term": "The I AM Activity",
+                            "insc_dfin": "Guy Ballard",
+                            "scion_id": "ls_dbr_name_f_fayette_luls_amrcrlg_i_iamact",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Appearance"],
+                                    "insc_cntn": "The I AM Activity under the St. Germain Foundation regularly puts on patriotic plays, and in the play \"<span class='font_cambria'><b>The Deliverer</b></span>\" about the founding of America, the&nbsp;<span class='font_cambria'><b>Marquis de Lafayette</b></span>&nbsp;makes an appearance and delivers a few paragraphs of lines."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Scientology",
+                            "insc_dfin": "L. Ron Hubbard"
                         }
                     ]
                 }

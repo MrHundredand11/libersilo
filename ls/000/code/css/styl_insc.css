@@ -21,6 +21,7 @@
     white-space: pre-wrap;
     margin-bottom: 17px;
     width: 677px;
+    text-wrap: balance;
 }
 
 .styl_insc_txt_undr {

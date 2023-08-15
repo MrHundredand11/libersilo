@@ -1,0 +1,123 @@
+{
+    "ls_id": "LS-NN-GEO-000",
+    "ls_ttl": "Overview of Geology + Gemology",
+    "ls_url": "/ls/nn/geo/000.json",
+    "scion_id": "ls_nn_geo_000",
+    "scions": [
+        {
+            "drct_id": "USES",
+            "drct_ttl": "Uses of 'Geology' + 'Gemology'",
+            "scion_id": "ls_nn_geo_000_uses"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Geology' + 'Gemology'",
+            "scion_id": "ls_nn_geo_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Biblical</b></u>&nbsp; <i>appearances of</i>&nbsp; (<b><i>Geology</b></i>) + (<b><i>Gemology</b></i>)",
+                    "scion_id": "ls_nn_geo_000_luls_bbl_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Biblical</b></u>&nbsp; <i>words for</i>&nbsp; (<b><i>Geology</b></i>) + (<b><i>Gemology</b></i>)",
+                            "scion_id": "ls_nn_geo_000_luls_bbl_appr_wrds",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "<span class=''><b></b></span>&nbsp; =&nbsp; <span class=''><b>Even</b></span>&nbsp;//&nbsp;<span class=''><b></b></span>&nbsp; = \"<span class=''>stone</span>\""
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "lst_exp",
+                            "insc_ttl": "(<b><i>Stones</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>The Bible</b></u>",
+                            "scion_id": "ls_nn_geo_000_luls_bbl_stns",
+                            "scions": [
+                                {
+                                    "insc_term": "Jacob's Headstone"
+                                },
+                                {
+                                    "insc_term": "12 Stones of the Breastplate"
+                                },
+                                {
+                                    "insc_term": "Rosh Pinah",
+                                    "insc_dfin": "Cornerstone"
+                                },
+                                {
+                                    "insc_term": "The Stone that the Builders Rejected"
+                                },
+                                {
+                                    "insc_term": "A Stone Cut Without Hands"
+                                },
+                                {
+                                    "insc_term": "The Stone with Seven Eyes"
+                                },
+                                {
+                                    "insc_term": "The 2 Stones each with 6 Names"
+                                },
+                                {
+                                    "insc_term": "12 Stones of Memorial for the Tribes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Mormon Scriptures</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Stones</b></i>)",
+                    "scion_id": "ls_nn_geo_000_luls_mrmn",
+                    "scions": [
+                        {
+                            "insc_term": "2 Nephi 28:28"
+                        },
+                        {
+                            "insc_term": "Jacob 4:15-17"
+                        },
+                        {
+                            "insc_term": "Helaman 5:12"
+                        },
+                        {
+                            "insc_term": "3 Nephi 11:39-40"
+                        },
+                        {
+                            "insc_term": "3 Nephi 18:12-13"
+                        },
+                        {
+                            "insc_term": "3 Nephi 14:24"
+                        },
+                        {
+                            "insc_term": "Doctrine and Covenants 11:24"
+                        },
+                        {
+                            "insc_term": "Doctrine and Covenants 33:12-13"
+                        },
+                        {
+                            "insc_term": "Doctrine and Covenants 6:34"
+                        },
+                        {
+                            "insc_term": "Moses 7:53"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Legendary</b></u>&nbsp; (<b><i>Stones</b></i>)",
+                    "scion_id": "ls_nn_geo_000_luls_lgndry",
+                    "scions": [
+                        {
+                            "insc_term": "The Stone of Destiny"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -126,31 +126,86 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
-                                            "insc_term": "Surges"
+                                            "insc_term": "Surges",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>surge</b></span>&nbsp;= is an unexpected increase in the amount of voltage provided"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
-                                            "insc_term": "Spikes"
+                                            "insc_term": "Spikes",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>spike</b></span>&nbsp;= is a short transient in voltage that can be due to a short circuit, tripped circuit breaker, power outage, or lightning strike"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
-                                            "insc_term": "Sags"
+                                            "insc_term": "Sags",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>sag</b></span>&nbsp;= is an unexpected decrease in the amount of voltage provided"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
-                                            "insc_term": "Brownouts"
+                                            "insc_term": "Brownouts",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>brownout</b></span>&nbsp;= occurs when the voltage drops low enought that it typically causes the lights to dim and can cause a computer to shut off"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
-                                            "insc_term": "Blackouts"
+                                            "insc_term": "Blackouts",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>blackout</b></span>&nbsp;= occurs when there is a total loss of power for a prolonged period"
+                                                }
+                                            ]
                                         }
                                     ]
                                 },

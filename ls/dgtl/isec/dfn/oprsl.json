@@ -1,0 +1,204 @@
+{
+    "ls_id": "LS-DGTL-ISEC-DFN-OPRSL",
+    "ls_ttl": "Operational Resiliency",
+    "ls_url": "/ls/dgtl/isec/dfn/oprsl.json",
+    "scion_id": "ls_dgtl_isec_dfn_oprsl",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'Operational Resiliency'",
+            "scion_id": "ls_dgtl_isec_dfn_oprsl_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Definitions</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Operational Resiliency</b></i>)",
+                    "scion_id": "ls_dgtl_isec_dfn_oprsl_000_dfn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_stpl": [1, "InfoSec Area"],
+                            "insc_term": "Availability"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_stpl": [1, "Definition"],
+                            "insc_cntn": "<span class='font_cambria'><b>Operational Resiliency</b></span>&nbsp;= how we can survive a forseeable failure"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Topics</b></u>&nbsp; <i>surrounding</i>&nbsp; (<b><i>Operational Resiliency</b></i>)",
+                    "scion_id": "ls_dgtl_isec_dfn_oprsl_000_tpcs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Fault Tolerance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "High Availability"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Common Areas</b></u>&nbsp; <i>of implemented</i>&nbsp; (<b><i>Redundancy</b></i>)",
+                    "scion_id": "ls_dgtl_isec_dfn_oprsl_000_tpcs",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hardware Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Power Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Data Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Directory Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Network Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Server Redundancy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Site Redundancy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "AREA",
+            "drct_ttl": "Areas of 'Operational Resiliency'",
+            "scion_id": "ls_dgtl_isec_dfn_oprsl_area",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Areas</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Redundancy</b></i>)",
+                    "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy",
+                    "scions": [
+                        {
+                            "insc_term": "Hardware Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_hrdwr"
+                        },
+                        {
+                            "insc_term": "Power Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_pwr",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Problems</b></u>&nbsp; <i>surrounding</i>&nbsp; (<b><i>Power Redundancy</b></i>)",
+                                    "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_pwr_prblm"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Options</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Power Redundancy</b></i>)",
+                                    "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_pwr_optns",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Dual PSUs",
+                                            "insc_dfin": "Power Supply Unit"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "UPS",
+                                            "insc_dfin": "Uniterruptible Power Supply"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "MPDUs",
+                                            "insc_dfin": "Managed Power Supply Unit"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Backup Power Generators"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Power Grid Redundancy",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>Power Grid Redundancy</b></span>&nbsp;= is hooking upyour devices in your data center to two or more power grids in case one of them goes down."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Data Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_data"
+                        },
+                        {
+                            "insc_term": "Directory Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_drctry"
+                        },
+                        {
+                            "insc_term": "Network Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_ntwrk"
+                        },
+                        {
+                            "insc_term": "Server Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_srvr"
+                        },
+                        {
+                            "insc_term": "Site Redundancy",
+                            "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_site"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

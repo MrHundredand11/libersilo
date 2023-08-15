@@ -133,7 +133,18 @@
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
                                             "insc_term": "Dual PSUs",
-                                            "insc_dfin": "Power Supply Unit"
+                                            "insc_dfin": "Power Supply Unit",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Definition"],
+                                                    "insc_cntn": "<span class='font_cambria'><b>Dual PSUs</b></span>&nbsp;= is the usage of more than one power supply in case one of them fails"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",
@@ -147,7 +158,18 @@
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
                                             "insc_term": "MPDUs",
-                                            "insc_dfin": "Managed Power Supply Unit"
+                                            "insc_dfin": "Managed Power Supply Unit",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "insc_chut": "001",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_stpl": [1, "Usage Location"],
+                                                    "insc_term": "Server Racks in Data Centers"
+                                                }
+                                            ]
                                         },
                                         {
                                             "insc_typ1": "insc",

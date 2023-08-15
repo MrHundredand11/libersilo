@@ -126,6 +126,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Surges",
                                             "scions": [
                                                 {
@@ -143,6 +144,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Spikes",
                                             "scions": [
                                                 {
@@ -160,6 +162,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Sags",
                                             "scions": [
                                                 {
@@ -177,6 +180,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Brownouts",
                                             "scions": [
                                                 {
@@ -194,6 +198,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Blackouts",
                                             "scions": [
                                                 {
@@ -219,6 +224,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Dual PSUs",
                                             "insc_dfin": "Power Supply Unit",
                                             "scions": [
@@ -237,6 +243,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "UPS",
                                             "insc_dfin": "Uniterruptible Power Supply"
                                         },
@@ -244,6 +251,7 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "MPDUs",
                                             "insc_dfin": "Managed Power Supply Unit",
                                             "scions": [
@@ -262,12 +270,14 @@
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Backup Power Generators"
                                         },
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
                                             "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
                                             "insc_term": "Power Grid Redundancy",
                                             "scions": [
                                                 {

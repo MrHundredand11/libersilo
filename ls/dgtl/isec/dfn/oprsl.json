@@ -120,7 +120,39 @@
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>Problems</b></u>&nbsp; <i>surrounding</i>&nbsp; (<b><i>Power Redundancy</b></i>)",
-                                    "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_pwr_prblm"
+                                    "scion_id": "ls_dgtl_isec_dfn_oprsl_area_i_rddncy_i_pwr_prblm",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Surges"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Spikes"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Sags"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Brownouts"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Blackouts"
+                                        }
+                                    ]
                                 },
                                 {
                                     "insc_typ1": "stm",
@@ -190,7 +222,7 @@
                                                     "insc_sld": "|\\_",
                                                     "insc_pntr": ">>",
                                                     "insc_stpl": [1, "Definition"],
-                                                    "insc_cntn": "<span class='font_cambria'><b>Power Grid Redundancy</b></span>&nbsp;= is hooking upyour devices in your data center to two or more power grids in case one of them goes down."
+                                                    "insc_cntn": "<span class='font_cambria'><b>Power Grid Redundancy</b></span>&nbsp;= is hooking up your devices in your data center to two or more power grids in case one of them goes down."
                                                 }
                                             ]
                                         }

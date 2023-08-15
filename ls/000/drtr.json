@@ -2871,7 +2871,7 @@
             "ls_id": "LS-NN",
             "ls_ttl": "Nurturing Nature",
             "ls_type": "->",
-            "ls_url": "/ls/nn",
+            "ls_url": "/ls/nn/",
             "scion_id": "ls_nn",
             "scion_snip": "NN",
             "scions": [
@@ -2879,7 +2879,7 @@
                     "ls_id": "LS-NN-BF",
                     "ls_ttl": "Blessed Food Recipes",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/nn/bf/",
                     "scion_id": "ls_nn_bf",
                     "scions": [
                         {
@@ -2909,8 +2909,17 @@
                     "ls_id": "LS-NN-GEO",
                     "ls_ttl": "Geology + Gemology",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_nn_geo"
+                    "ls_url": "/ls/nn/geo/",
+                    "scion_id": "ls_nn_geo",
+                    "scions": [
+                        {
+                            "ls_id": "LS-NN-GEO-000",
+                            "ls_ttl": "OverView of Geology + Gemology",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/nn/geo/000.json",
+                            "scion_id": "ls_nn_geo_000"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-NN-ST",

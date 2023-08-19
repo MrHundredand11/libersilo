@@ -1,0 +1,38 @@
+{
+    "ls_id": "LS-DGTL-IAM-AAA",
+    "ls_ttl": "Authentication + Authorization + Accounting",
+    "ls_url": "/ls/dgtl/iam/aaa.json",
+    "scion_id": "ls_dgtl_iam_aaa",
+    "scions": [
+        {
+            "drct_id": "AREA",
+            "drct_ttl": "Areas of 'The AAA Triad'",
+            "scion_id": "ls_dgtl_iam_aaa_area",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>Areas</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>AAA</b></i>)",
+                    "scion_id": "ls_dgtl_iam_aaa_area_twgs",
+                    "scions": [
+                        {
+                            "insc_term": "Identification"
+                        },
+                        {
+                            "insc_term": "Authentication"
+                        },
+                        {
+                            "insc_term": "Authorization"
+                        },
+                        {
+                            "insc_term": "Accounting"
+                        },
+                        {
+                            "insc_term": "Auditing"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

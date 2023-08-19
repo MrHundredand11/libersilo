@@ -43,23 +43,63 @@
                                             "scions": [
                                                 {
                                                     "insc_term": "Something You Know",
-                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouknow"
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouknow",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "stm",
+                                                            "insc_typ2": "brn",
+                                                            "insc_ttl": "<b><u>Increasing</b></u>&nbsp; (<b><i>Password Security</b></i>)",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouknow_psswrd_incrsec"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "insc_term": "Something You Have",
-                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouhave"
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouhave",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "stm",
+                                                            "insc_typ2": "brn",
+                                                            "insc_ttl": "<b><u>Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Something You Have</b></i>)",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouhave_xmpl"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "insc_term": "Something You Are",
-                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouare"
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouare",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "stm",
+                                                            "insc_typ2": "brn",
+                                                            "insc_ttl": "<b><u>Methods</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Biometrics</b></i>)",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouare_bmtrcs_mthds"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "insc_term": "Somewhere You Are",
-                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smwhryouare"
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smwhryouare",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "stm",
+                                                            "insc_typ2": "brn",
+                                                            "insc_ttl": "<b><u>Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Somewhere You Have</b></i>)",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smwhryouare_xmpl"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "insc_term": "Something You Do",
-                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyoudo"
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyoudo",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "stm",
+                                                            "insc_typ2": "brn",
+                                                            "insc_ttl": "<b><u>Examples</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Something You Do</b></i>)",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyoudo_xmpl"
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }

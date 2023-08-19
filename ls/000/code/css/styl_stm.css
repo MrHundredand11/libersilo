@@ -315,12 +315,11 @@
     border-radius: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-left: 7px;
+    padding-left: 31px;
     padding-right: 47px;
     margin-right: 47px;
     margin-top: 23px;
     width: 100%;
-    left: 23px;
     top: 3px;
     position: relative;
     display: block;
@@ -380,7 +379,7 @@
 .styl_stm_twgs_cntnr {
     position: relative;
     margin-top: 23px;
-    padding-left: 7px;
+    padding-left: 31px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-right: 37px;

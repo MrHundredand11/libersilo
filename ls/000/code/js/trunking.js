@@ -190,11 +190,13 @@ function gen_Insc(insc_i, scion) {
                         twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
                         stm_expnd.appendChild(twg_cntnr);
 
-                        for (i2 in scion.scions[lfl].scions) {
+                        if (scion.scions[lfl].scions !== undefined) {
+                            for (i2 in scion.scions[lfl].scions) {
                                 console.log(scion.scions[lfl].scions[i2]);
-                            var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
+                                var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
                                 //console.log(entr_full);
-                            twg_cntn.appendChild(entr_full);
+                                twg_cntn.appendChild(entr_full);
+                            }
                         }
                     }
                     break;

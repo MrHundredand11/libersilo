@@ -417,8 +417,17 @@
                     "ls_id": "LS-DGTL-IAM",
                     "ls_ttl": "Identity + Access",
                     "ls_type": "=>",
-                    "ls_url": "",
-                    "scion_id": "ls_dgtl_iam"
+                    "ls_url": "/ls/dgtl/iam/",
+                    "scion_id": "ls_dgtl_iam",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-IAM-AAA",
+                            "ls_ttl": "Authentication + Authorization + Accounting",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/dgtl/iam/aaa.json",
+                            "scion_id": "ls_dgtl_iam_aaa"
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-DGTL-ISEC",

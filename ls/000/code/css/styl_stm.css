@@ -158,6 +158,14 @@
     display: block;
 }
 
+.styl_stm_lst_exp_nmtg {
+    font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .styl_stm_shrt_cntnr {
     margin-bottom: 17px;
     border: 1px solid black;
@@ -203,13 +211,6 @@
     display: none;
 }
 
-.styl_stm_lst_exp_nmtg {
-    font-size: 37px;
-    display: flex;
-    white-space: pre;
-    flex-wrap: nowrap;
-    align-items: center;
-}
 
 .styl_stm_ttl {
     font-family: 'Times New Roman';
@@ -374,4 +375,67 @@
 .styl_extn_trm_dfin_lng_c {
     all: initial;
     font-size: 31px;
+}
+
+.styl_stm_twgs_cntnr {
+    position: relative;
+    margin-top: 23px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 37px;
+    margin-right: 11px;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.styl_stm_twgs_cntnr:hover {
+    border: 2.22px solid black;
+}
+
+.styl_stm_twgs_bmp_top {
+    display: none;
+}
+
+.styl_stm_twgs_bmp_btm {
+    display: none;
+}
+
+.styl_stm_twgs_bmp_cycl {
+    display: block;
+}
+
+.styl_stm_twgs_trstlbrd {
+    padding-left: 73px;
+    margin-top: 17px;
+    display: none;
+}
+
+.styl_stm_twgs_ttl {
+    font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.styl_stm_twgs_expnd {
+    padding-top: 7px;
+    display: block;
+}
+
+.styl_stm_twgs_ls_shrt {
+    margin-left: 61px;
+    margin-bottom: 29px;
+    display: block;
+}
+
+.styl_stm_twgs_nmtg {
+    font-size: 37px;
+    display: flex;
+    white-space: pre;
+    flex-wrap: nowrap;
+    align-items: center;
 }

@@ -191,7 +191,7 @@ function gen_Insc(insc_i, scion) {
                         stm_expnd.appendChild(twg_cntnr);
 
                         for (i2 in scion.scions[lfl].scions) {
-                               // console.log(scion.scions[lfl].scions[i2]);
+                                console.log(scion.scions[lfl].scions[i2]);
                             var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
                                 //console.log(entr_full);
                             twg_cntn.appendChild(entr_full);

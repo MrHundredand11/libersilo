@@ -138,6 +138,66 @@ function gen_Insc(insc_i, scion) {
                         }
                     }
                     break;
+
+                case 'twgs':
+                    var lf_ls_shrt = gen_ECI('div', 'styl_stm_lst_exp_ls_shrt', `${insc_id}_stm_lst_exp_ls_short`);
+                    var stm_bmp_cycl = gen_ECI('div', 'styl_stm_lst_exp_bmp_cycl', `${insc_id}_stm_lst_exp_bmp_cycl`);
+                    var stm_expnd = gen_ECI('div', 'styl_stm_lst_exp_expnd', `${insc_id}_stm_lst_exp_expnd`);
+
+                    stm_bmp_top.innerHTML = bmp_stm_scrll;
+                    stm_bmp_btm.innerHTML = bmp_stm_scrll;
+                    stm_bmp_cycl.innerHTML = "------- ------- -------<br>------- -------<br>-------";
+                    stm_nmtg.innerHTML = `${flow_brnch}&nbsp;${stm_name}&nbsp;::`;
+
+                    stm_nmtg.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
+                    stm_bmp_top.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`);
+                    stm_bmp_btm.setAttribute('onclick', `showHideStmLstExp('${insc_id}');`); 
+
+                    stm_trstlbrd.append(lf_ls_shrt, stm_bmp_cycl, stm_expnd);
+                    
+                    for (lfl in scion.scions) {
+                        var lfl_shrt = createElementWithClass('div', 'styl_lfl_shrt');
+                        var lfl_shrt_pnter = gen_Pntr(scion.scions[lfl].scion_id, insc_i);
+                        var lfl_shrt_term = createElementWithClass('a', 'styl_lfl_shrt_term');
+                        lfl_shrt_term.setAttribute('href', `#id_twg_cntn_${scion.scion_id}_${lfl}`);
+                        
+                        if (scion.scions[lfl].insc_dfin !== undefined) {
+                            lfl_shrt_term.innerHTML = `${scion.scions[lfl].insc_term}&nbsp;<span class='styl_extn_trm_dfin_shrt_c'>(<span class='styl_extn_trm_dfin_shrt'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>`;
+                        } else {
+                            lfl_shrt_term.innerHTML = scion.scions[lfl].insc_term;
+                        }
+                        lfl_shrt.append(lfl_shrt_pnter, lfl_shrt_term);
+                        lf_ls_shrt.appendChild(lfl_shrt);
+
+                        var twg_cntnr = gen_ECI('div', 'styl_twg_cntnr stt_hide', `id_twg_cntnr_${scion.scion_id}_${lfl}`);
+                        var twg_bmp_top = gen_ECI('div', 'styl_twg_bmp_top', `id_twg_bmp_top_${scion.scion_id}_${lfl}`);
+                        var twg_ttl = gen_ECI('div', 'styl_twg_ttl', `id_twg_ttl_${scion.scion_id}_${lfl}`);
+                        var twg_cntn = gen_ECI('div', 'styl_twg_cntn', `id_twg_cntn_${scion.scion_id}_${lfl}`);
+                        var twg_bmp_btm = gen_ECI('div', 'styl_twg_bmp_btm', `id_twg_bmp_btm_${scion.scion_id}_${lfl}`);
+                        twg_ttl.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_top.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_btm.setAttribute('onclick', `showHideTwg('${scion.scion_id}_${lfl}');`);
+                        twg_bmp_top.innerHTML = "---<br>--- ---";
+                        twg_bmp_btm.innerHTML = "---- ----<br>----";
+                            
+                        if (scion.scions[lfl].insc_dfin !== undefined) {
+                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;</span>&nbsp;<span class='styl_extn_trm_dfin_lng_c'>(<span class='styl_extn_trm_dfin_lng'><i>${scion.scions[lfl].insc_dfin}</i></span>)</span>&nbsp;<span class='styl_lfl_ttl_term'>}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                        } else {
+                            twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+                        }
+                           // twg_ttl.innerHTML = `<span class='styl_pointers'>+=></span>&nbsp;<span class='styl_lfl_ttl_term'>{&nbsp;${scion.scions[lfl].insc_term}&nbsp;}</span>&nbsp;<span class='styl_pointers'>::</span>`;
+
+                        twg_cntnr.append(twg_bmp_top, twg_ttl, twg_cntn, twg_bmp_btm);
+                        stm_expnd.appendChild(twg_cntnr);
+
+                        for (i2 in scion.scions[lfl].scions) {
+                               // console.log(scion.scions[lfl].scions[i2]);
+                            var entr_full = gen_Insc(i2, scion.scions[lfl].scions[i2]);
+                                //console.log(entr_full);
+                            twg_cntn.appendChild(entr_full);
+                        }
+                    }
+                    break;
             }  
             return stm_cntnr;
         

@@ -382,13 +382,6 @@
                     ]
                 },
                 {
-                    "ls_id": "LS-DGTL-GRC",
-                    "ls_ttl": "Governance",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/grc",
-                    "scion_id": "ls_dgtl_grc"
-                },
-                {
                     "ls_id": "LS-DGTL-HW",
                     "ls_ttl": "Hardware",
                     "ls_type": "=>",
@@ -433,7 +426,7 @@
                     "ls_id": "LS-DGTL-ISEC",
                     "ls_ttl": "Information Security",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/isec",
                     "scion_id": "ls_dgtl_isec",
                     "scions": [
                         {
@@ -442,6 +435,13 @@
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/isec/000.json",
                             "scion_id": "ls_dgtl_isec_000"
+                        },
+                        {
+                            "ls_id": "LS-DGTL-ISEC-GRC",
+                            "ls_ttl": "Governance + Risk + Compliance",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/isec/grc/",
+                            "scion_id": "ls_dgtl_isec_grc"
                         },
                         {
                             "ls_id": "LS-DGTL-ISEC-DFN",
@@ -516,7 +516,7 @@
                     "ls_id": "LS-DGTL-NW",
                     "ls_ttl": "Networking",
                     "ls_type": "=>",
-                    "ls_url": "",
+                    "ls_url": "/ls/dgtl/nw/",
                     "scion_id": "ls_dgtl_nw"
                 },
                 {
@@ -718,7 +718,7 @@
                     "ls_id": "LS-HI-ANGL",
                     "ls_ttl": "Angels + ArchAngels",
                     "ls_type": "=>",
-                    "ls_url": "/ls/hi/angl",
+                    "ls_url": "/ls/hi/angl/",
                     "scion_id": "ls_hi_angl",
                     "scions": [
                         {
@@ -892,7 +892,7 @@
                     "ls_id": "LS-HI-DIV",
                     "ls_ttl": "Divine Manifestations",
                     "ls_type": "=>",
-                    "ls_url": "/ls/hi/div",
+                    "ls_url": "/ls/hi/div/",
                     "scion_id": "ls_hi_div",
                     "scions": [
                         {

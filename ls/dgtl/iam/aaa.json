@@ -41,6 +41,122 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Factors</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "brn",
+                                            "insc_ttl": "<b><u>Introduction</b></u>&nbsp; <i>to</i>&nbsp; (<b><i>Authentication Factors</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_intro"
+                                        },
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "twgs",
+                                            "insc_ttl": "<b><u>Extensions</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication Factors</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs",
+                                            "scions": [
+                                                {
+                                                    "insc_term": "Something You Know",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouknow"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Have",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouhave"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Are",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouare"
+                                                },
+                                                {
+                                                    "insc_term": "Somewhere You Are",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smwhryouare"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Do",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyoudo"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "twgs",
+                                    "insc_ttl": "<b><u>Methods</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Directory Services",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_drctysrvcs"
+                                        },
+                                        {
+                                            "insc_term": "Federation",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_federation"
+                                        },
+                                        {
+                                            "insc_term": "Single Sign On",
+                                            "insc_dfin": "SSO",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_sso"
+                                        },
+                                        {
+                                            "insc_term": "Attestation",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_attsttn"
+                                        },
+                                        {
+                                            "insc_term": "Tokens",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "stm",
+                                                    "insc_typ2": "brn",
+                                                    "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Tokens</b></i>)",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns_types",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Connected",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns_types_i_connected",
+                                                            "scions": [
+                                                                {
+                                                                    "insc_typ1": "insc",
+                                                                    "insc_typ2": "txt",
+                                                                    "insc_chut": "001",
+                                                                    "insc_sld": "|\\_",
+                                                                    "insc_pntr": ">>",
+                                                                    "insc_cntn": "requires some kind of&nbsp;<span class='font_cambria'><b>physical connection</b></span>&nbsp;to the system"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Disconnected"
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Contactless"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_term": "One-Time Passwords",
+                                            "insc_dfin": "OTP",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_otp"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>Protocols</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Authentication</b></i>)",
                                     "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls",
                                     "scions": [

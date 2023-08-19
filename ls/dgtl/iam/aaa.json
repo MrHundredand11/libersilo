@@ -64,6 +64,191 @@
                                             ]
                                         }
                                     ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Methods</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds",
+                                    "scions": [
+                                        {
+                                            "insc_term": "Directory Services",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_drctysrvcs"
+                                        },
+                                        {
+                                            "insc_term": "Federation",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_federation"
+                                        },
+                                        {
+                                            "insc_term": "Single Sign On",
+                                            "insc_dfin": "SSO",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_sso"
+                                        },
+                                        {
+                                            "insc_term": "Attestation",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_attsttn"
+                                        },
+                                        {
+                                            "insc_term": "Tokens",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "stm",
+                                                    "insc_typ2": "brn",
+                                                    "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Tokens</b></i>)",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns_types",
+                                                    "scions": [
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Connected",
+                                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_tkns_types_i_connected",
+                                                            "scions": [
+                                                                {
+                                                                    "insc_typ1": "insc",
+                                                                    "insc_typ2": "txt",
+                                                                    "insc_chut": "001",
+                                                                    "insc_sld": "|\\_",
+                                                                    "insc_pntr": ">>",
+                                                                    "insc_stpl": [1, "Implementation"],
+                                                                    "insc_cntn": "requires some kind of&nbsp;<span class='font_cambria'><b>physical connection</b></span>&nbsp;to the system"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Disconnected"
+                                                        },
+                                                        {
+                                                            "insc_typ1": "insc",
+                                                            "insc_typ2": "trm",
+                                                            "term_styl": "bg",
+                                                            "insc_term": "Contactless"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_term": "One-Time Passwords",
+                                            "insc_dfin": "OTP",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_mthds_i_otp"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Protocols</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "brn",
+                                            "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Protocols</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Password Authentication Protocol",
+                                                    "insc_dfin": "PAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_pap"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Challenge Handshake Authentication Protocol",
+                                                    "insc_dfin": "CHAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_chap"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Extensible Authentication Protocol",
+                                                    "insc_dfin": "EAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_eap"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "802.1X",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_8021x"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Remote Authentication Dial-in User Service",
+                                                    "insc_dfin": "RADIUS",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_radius"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Terminal Access Controller Access Control System",
+                                                    "insc_dfin": "TACACS",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_tacacs"
+                                                },
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "trm",
+                                                    "term_styl": "bg",
+                                                    "insc_term": "Kerberos",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_lst_i_kerberos"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "twgs",
+                                            "insc_ttl": "<b><u>Extensions</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Protocols</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs",
+                                            "scions": [
+                                                {
+                                                    "insc_term": "Password Authentication Protocol",
+                                                    "insc_dfin": "PAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_pap"
+                                                },
+                                                {
+                                                    "insc_term": "Challenge Handshake Authentication Protocol",
+                                                    "insc_dfin": "CHAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_chap"
+                                                },
+                                                {
+                                                    "insc_term": "Extensible Authentication Protocol",
+                                                    "insc_dfin": "EAP",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_eap"
+                                                },
+                                                {
+                                                    "insc_term": "802.1X",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_8021x"
+                                                },
+                                                {
+                                                    "insc_term": "Remote Authentication Dial-in User Service",
+                                                    "insc_dfin": "RADIUS",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_radius"
+                                                },
+                                                {
+                                                    "insc_term": "Terminal Access Controller Access Control System",
+                                                    "insc_dfin": "TACACS",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_tacacs"
+                                                },
+                                                {
+                                                    "insc_term": "Kerberos",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls_ptcls_twgs_i_kerberos"
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },

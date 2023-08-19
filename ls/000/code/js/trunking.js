@@ -197,6 +197,8 @@ function gen_Insc(insc_i, scion) {
                                 //console.log(entr_full);
                                 twg_cntn.appendChild(entr_full);
                             }
+                        } else {
+                            break;
                         }
                     }
                     break;

@@ -26,6 +26,48 @@
                                 {
                                     "insc_typ1": "stm",
                                     "insc_typ2": "brn",
+                                    "insc_ttl": "<b><u>Factors</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication</b></i>)",
+                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "brn",
+                                            "insc_ttl": "<b><u>Introduction</b></u>&nbsp; <i>to</i>&nbsp; (<b><i>Authentication Factors</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_intro"
+                                        },
+                                        {
+                                            "insc_typ1": "stm",
+                                            "insc_typ2": "twgs",
+                                            "insc_ttl": "<b><u>Extensions</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Authentication Factors</b></i>)",
+                                            "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs",
+                                            "scions": [
+                                                {
+                                                    "insc_term": "Something You Know",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouknow"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Have",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouhave"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Are",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyouare"
+                                                },
+                                                {
+                                                    "insc_term": "Somewhere You Are",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smwhryouare"
+                                                },
+                                                {
+                                                    "insc_term": "Something You Do",
+                                                    "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_fctrs_twgs_i_smthngyoudo"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
                                     "insc_ttl": "<b><u>Protocols</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Authentication</b></i>)",
                                     "scion_id": "ls_dgtl_iam_aaa_area_twgs_i_authentication_prtcls",
                                     "scions": [

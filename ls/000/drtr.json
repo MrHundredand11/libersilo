@@ -767,7 +767,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HI-ANML-000",
-                            "ls_ttl": "Overview of Animal Inhabitants",
+                            "ls_ttl": "Animal Life Forms",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/anml/000.json",
                             "scion_id": "ls_hi_anml_000"

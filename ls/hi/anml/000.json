@@ -1,0 +1,38 @@
+{
+    "ls_id": "LS-HI-ANML-000",
+    "ls_ttl": "Animal Life Forms",
+    "ls_url": "/ls/hi/anml/000.json",
+    "scion_id": "ls_hi_anml_000",
+    "scions": [
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes about 'Animals'",
+            "scion_id": "ls_hi_anml_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Quotes</b></u>&nbsp; <i>about</i>&nbsp; (<b><i>Animal Spirits</b></i>)",
+                    "scion_id": "ls_hi_anml_000_quot_anmlsprts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "<span class='font_cambria'><b>Animal Spirits</b></span>\n\n\tAnimals have aetheric doubles just as naturally as any other thing on earth. When an animal dies, its double continues to live in the aether, manifesting to the material world when necessary.\n\n\tUnlike human spirits, which may haunt sites from their life on earth in order to fulfill karmic duties, animal spirits exist mostly to aid humans, performing any of a number of functions. An animal spirit may serve as a guardian, a retriever, or a messenger. These functions are innate duties of the animal’s soul, not tricks, so no training is necessary. In fact, more often than not, animal spirits aid humans without prompting from a mentalist.\n\n\tThe spirits of departed animals may be contacted through a formal séance or may appear spontaneously in the vision of people familiar with the animals during their lives. In the case of pets, owners are often the only mundane (nonmentalist) humans able to see the animal after death.\n\n\tVisually, an animal spirit keeps the same size and shape the animal had when living, albeit with a translucent, pale-colored body. Like other ghosts, animal spirits glow slightly and are more visible in the dark than in sunlight. When an animal spirit enters a room, the vibrational frequency of the aether in the room raises slightly, increasing static electricity. Living animals in the vicinity of an animal spirit react much the same as they would if the animal were physically present (e.g., cats will often exhibit fear around dog spirits).\n\n\tAnimal spirits rarely continue on to Elysium after death. Those that do are often the spirits of “eternal animals” - such as the phoenix, manticore, or gryphon – that took a lesser animal’s form for a period of time in the material world. Other animal spirits in Elysium act as servants to the masters and other highly evolved human spirits.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_cntn": "<span class='font_cambria'><b>Clint Marsh</b></span>,&nbsp;<span class='font_sitka'><i>The Mentalist's Handbook</i></span>&nbsp;(Lesson Two, Aetheric Beings)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

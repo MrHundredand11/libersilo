@@ -1,0 +1,1605 @@
+{
+    "ls_id": "LS-DGTL-HW-DM-MS-INTN",
+    "ls_ttl": "Microsoft Intune",
+    "ls_url": "/ls/dgtl/hw/dm/ms/intn.json",
+    "scion_id": "ls_dgtl_hw_dm_ms_intn",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>What is</b></u>&nbsp; (<b><i>Microsoft Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_whatis"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Mobile Devices</b></i>)&nbsp; <i>with</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_mbldvc_mng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enable</b></u>&nbsp; (<b><i>Mobile Device Management</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_mdm_enbl"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Devices</b></i>)&nbsp; <b><u>Remotely</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_dvc_rmtmng"
+                }
+            ]
+        },
+        {
+            "drct_id": "TERM",
+            "drct_ttl": "Terminology around 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_term",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Acronyms</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_term_acrnym",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AAD",
+                            "insc_extr": [1, 1, "<b>A</b>zure <b>A</b>ctive <b>D</b>irectory"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ABM",
+                            "insc_extr": [1, 1, "<b>A</b>pple <b>B</b>usiness <b>M</b>anager"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AD",
+                            "insc_extr": [1, 1, "<b>A</b>ctive <b>D</b>irectory"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ADE",
+                            "insc_extr": [1, 1, "<b>A</b>utomated <b>D</b>evice <b>E</b>nrollment"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AD DS",
+                            "insc_extr": [1, 1, "<b>A</b>ctive <b>D</b>irectory <b>D</b>omain <b>S</b>ervices"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ASM",
+                            "insc_extr": [1, 1, "<b>A</b>pple <b>S</b>chool <b>M</b>anager"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AZ",
+                            "insc_extr": [1, 1, "<b>Az</b>ure"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "BYOD",
+                            "insc_extr": [1, 1, "<b>B</b>ring <b>Y</b>our <b>O</b>wn <b>D</b>evice"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "COBO",
+                            "insc_extr": [1, 1, "<b>C</b>orporate-<b>O</b>wned <b>B</b>usiness <b>O</b>nly"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "COPE",
+                            "insc_extr": [1, 1, "<b>C</b>orporate-<b>O</b>wned <b>P</b>ersonally-<b>E</b>nabled"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "DEM",
+                            "insc_extr": [1, 1, "<b>D</b>evice <b>E</b>nrollment <b>M</b>anager"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "DEP",
+                            "insc_extr": [1, 1, "<b>D</b>evice <b>E</b>nrollment <b>P</b>rogram"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "EMS",
+                            "insc_extr": [1, 1, "<b>E</b>nterprise <b>M</b>obility + <b>S</b>ecurity"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "IT",
+                            "insc_extr": [1, 1, "<b>I</b>nformation <b>T</b>echnology"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "M365",
+                            "insc_extr": [1, 1, "<b>M</b>icrosoft <b>365</b>"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MAM",
+                            "insc_extr": [1, 1, "<b>M</b>obile <b>A</b>pplication <b>M</b>anagement"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM",
+                            "insc_extr": [1, 1, "<b>M</b>obile <b>D</b>evice <b>M</b>anagement"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MFA",
+                            "insc_extr": [1, 1, "<b>M</b>ulti-<b>F</b>actor <b>A</b>uthentication"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "OS",
+                            "insc_extr": [1, 1, "<b>O</b>perating <b>S</b>ystem"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "PC",
+                            "insc_extr": [1, 1, "<b>P</b>ersonal <b>C</b>omputer"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "RBAC",
+                            "insc_extr": [1, 1, "<b>R</b>ole-<b>B</b>ased <b>A</b>ccess <b>C</b>ontrol"]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Vocabulary</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_term_vcblry",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access Control"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Admin"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Administrative"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Administrative Permissions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "All"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "All Devices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android Enterprise"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android Enterprise Dedicated"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android Enterprise Fully Managed"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Android Enterprise Work Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "App Protection"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "App Protection Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple Business Manager",
+                            "insc_dfin": "ABM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple Configurator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple Device Enrollment Program",
+                            "insc_dfin": "DEP"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Apple School Manager",
+                            "insc_dfin": "ASM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Application"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Application Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Application Protection"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Application Protection Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assign"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assignment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Audit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Audit Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Audit Log"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Authentication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automated"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automated Device Enrollment",
+                            "insc_dfin": "ADE"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Availability"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Available"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure",
+                            "insc_dfin": "AZ"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Baseline"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Bring Your Own Device",
+                            "insc_dfin": "BYOD"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Broad"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Broad Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Bulk"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Bulk Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "BYOD Devices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Change"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Change Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cloud"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cloud-based"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cloud Computing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Co-management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Communicate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Company"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Company Portal"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Company Portal App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Company Portal Website"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Company Portal Welcome Screen"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Compliance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Compliance Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Compliance Data Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Compliance Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Comply"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Computer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Conditional Access"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Conditional Access Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configure Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configuration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Control"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Application"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Identifier"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Identity"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Resource"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate Standard"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate-owned Business Only",
+                            "insc_dfin": "COBO"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate-owned Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Corporate-owned Personally-Enabled",
+                            "insc_dfin": "COPE"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cost"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Current"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Current State"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Custom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Custom Domain"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Data Protection"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dedicated"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "DEM Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Desktop"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Desktop Computer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Compliance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Enrollment Manager",
+                            "insc_dfin": "DEM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Enrollment Program",
+                            "insc_dfin": "DEP"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Profiles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Settings"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Type"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Direct Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Directory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Disruption"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Distribute"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Distribution"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Domain"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Domain Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Download"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "E-mail"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "End User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "End User Experience"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Endpoint"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Endpoint Security"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Endpoint Security Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Endpoint Security Node"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enroll"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment Failure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment Restrictions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment Steps"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Application"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Identity"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Resource"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise Standards"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise State Roaming"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enterprise-owned Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Environment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Exclusion"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Factory Reset"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "FastTrack Center Benefit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Feature"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Fully Managed"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Geography"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Global"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Global Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Global Reader"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google Play"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google Play Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google Services"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Google Zero Touch"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Helpdesk"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Helpdesk Operator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Identifier"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Identity"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Information"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Information Technology",
+                            "insc_dfin": "IT"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Integration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "International Mobile Equipment Identifier",
+                            "insc_dfin": "IMEI"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Admin Center"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Administration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Role Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Rollout"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Service Administrator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Intune Subscription"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Inventory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "iOS"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "iOS Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Isolate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Isolation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kickoff"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kickoff Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Layer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "License"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Licensing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lifecycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Local"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Local Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Location"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mac"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "macOS"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "macOS Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mail"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Manage"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Management Task"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Manual"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Manual Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM Authority"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM Service"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM User Scope"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Meeting"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Microsoft"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "CMND",
+            "drct_ttl": "Commands around 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_cmnd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>All Actions</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_cmnd_actn_all",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Add User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "App Installation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assign App"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assign License"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assign Role"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configure App Policies"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configure Devices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configure Domain Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Customize Company Portal"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enable Device Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Export"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Factory Reset"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Remote Control"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reset"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Restart"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Set the MDM Authority"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Setup Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Sign-in"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "View Information"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "NRLL",
+            "drct_ttl": "Enrollment within 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Considerations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_cnsdr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Corporate Enrollment Policy</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_crpnrllplc_mng"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Windows Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_wnds"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Android Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_andrd"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>iOS Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_ios"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Explore</b></u>&nbsp; (<b><i>Device Enrollment Manager</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dem_xplr"
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Monitor</b></u>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_mntr"
+                }
+            ]
+        },
+        {
+            "drct_id": "PRFL",
+            "drct_ttl": "Profiles within 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>Device Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_exmn"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_type"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Create</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_crt_dvpf"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Create</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Custom Device Profile</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_crt_cstm"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Oversee</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_ovrs"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Device Sync</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_dvcsync"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>User Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg",
+                    "scions": [
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>User Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_exmn"
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>User Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_type",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "Windows has different&nbsp;<span class='font_sitka'><b>types</b></span>&nbsp;of&nbsp;<span class='font_cambria'><b>user profiles</b></span>&nbsp;for the various different scenarios in how user configurations might be applied. The four common different types of user profiles are:",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Local User Profile:</b></span>&nbsp;&nbsp;This type is available on a single computer only."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Roaming User Profile:</b></span>&nbsp;&nbsp;This type can roam between computers that are domain members."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Mandatory User Profile:</b></span>&nbsp;&nbsp;This is a special type of pre-configured user profile that doesn't store user changes between sign-ins."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_cambria'><b>Temporary User Profile:</b></span>&nbsp;&nbsp;A temporary profile is issued each time that an error condition prevents the user's profile from loading."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
+                                            "insc_offs": "styl_offs_dwn_73",
+                                            "insc_term": "Local User Profiles",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_wdth": "677px",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_cntn": "When a user signs in for the first time, the Windows operating system automatically creates a&nbsp;<span class='font_cambria'><b>local user profile</b></span>&nbsp;for all subsequent sign-ins to the same computer. A local user profile is used only when a user signs in to the computer where the profile was created, and it's useful when a user is using a single computer. If a user roams between multiple computers, then by default, separate local user profiles will be created on each computer. This means that modifications and documents that a user creates on one computer won't be available on other computers. Therefore, administrators should avoid local profiles if users sign in to multiple devices."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
+                                            "insc_offs": "styl_offs_dwn_73",
+                                            "insc_term": "Roaming User Profiles",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_wdth": "677px",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_cntn": "In a domain environment, administrators can configure a user with a&nbsp;<span class='font_cambria'><b>roaming user profile</b></span>&nbsp;by configuring their profile path. With roaming user profiles, user settings and data are stored on a network location and locally on the computer where a user signs in. When a user signs in, the local copy of the user profile is compared to the copy that is stored on the network location, and only newer files are copied locally. The user can change settings and create data files, which are stored in the local user profile copy. These changes copy to the network location when the user signs out. If users roam between multiple computers, their documents and settings follow them. If a user profile contains a lot of data, or if a user stores large files on the desktop, then signing in to the computer might take a long time. If a user signs in to multiple computers at the same time, changes performed on one computer override changes performed on a second computer because user profile changes copy to the network location only when the user signs out. Some parts of a user profile, such as Temporary Internet Files or AppData\\Local, never copy to the network location even if roaming user profiles are used. You should be aware that roaming user profiles are incompatible between different versions of Windows operating systems."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
+                                            "insc_offs": "styl_offs_dwn_73",
+                                            "insc_term": "Mandatory User Profiles",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_wdth": "677px",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_cntn": "A&nbsp;<span class='font_cambria'><b>mandatory user profile</b></span>&nbsp;is a type of roaming user profile that administrators can configure. With mandatory user profiles, user changes are stored in the local copy of a user profile but aren't preserved after a user signs out from the computer. When the user signs in again, the mandatory user profile downloads from the network location, and it overrides the local user profile copy. The two types of mandatory user profiles are normal mandatory profiles and super-mandatory profiles. Administrators can configure users with mandatory user profiles first by configuring them with roaming user profiles and then by renaming the Ntuser.dat file in their profiles to Ntuser.man. The .man extension causes user modifications to the profile to be discarded at the next sign-in and user profiles to behace as read-only."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_brdr": "styl_brdr_001",
+                                            "insc_offs": "styl_offs_dwn_73",
+                                            "insc_term": "Temporary User Profiles",
+                                            "scions": [
+                                                {
+                                                    "insc_typ1": "insc",
+                                                    "insc_typ2": "txt",
+                                                    "insc_wdth": "677px",
+                                                    "insc_sld": "|\\_",
+                                                    "insc_pntr": ">>",
+                                                    "insc_cntn": "A&nbsp;<span class='font_cambria'><b>temporary profile</b></span>&nbsp;is issued each time that an error condition prevents the user's profile from loading. Temporary profiles are deleted at the end of each session, and changes made by the user to desktop settings and files are lost when the user logs off."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "stm",
+                            "insc_typ2": "brn",
+                            "insc_ttl": "<b><u>Folder Extensions</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>User Profiles</b></i>)",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_fldrextn",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": "=>",
+                                    "insc_cntn": "The name of the folder in which you store the profile must use the correct&nbsp;<span class='font_cambria'><b>extension</b></span>&nbsp;for the operating system it will be applied to. The following table lists the correct extension for each operating system version.",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "tbl",
+                                            "tabl_head": ["Client Operating System Version", "Server Operating System Verson", "Profile Extension"],
+                                            "tabl_rows": [["Windows 10, version 1507 and 1511", "N/A", "V5"], ["Windows 10, versions 1607, 1703, 1709, 1803, 1809, 1903, and 1909", "Windows Server 2016 and Windows Server 2019", "V6"]]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_stpl": [1, "Example"],
+                                    "insc_cntn": "For example, if a&nbsp;<span class='font_cambria'><b>profile</b></span>&nbsp;is being created for&nbsp;<span class='font_sitka'><b>Windows v20H2</b></span>, the&nbsp;<span class='font_sitka'>path</b></span>&nbsp;to the&nbsp;<span class='font_sitka'>profile folder</b></span>&nbsp;might be <span class='font_code'><b>\\\\server\\share\\profile.v6</b></span>, with the extension indicating which version."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

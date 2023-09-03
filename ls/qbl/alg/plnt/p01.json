@@ -2,43 +2,467 @@
     "ls_id": "LS-QBL-ALG-PLNT-P01",
     "ls_ttl": "The Planet Luna",
     "ls_url": "/ls/qbl/alg/plnt/p01.json",
-    "scion_id": "ls_qbl_alg_plnt_p01",
+    "scion_id": "ls_qbl_alg_plnt_p01_000",
     "scions": [
         {
-            "drct_id": "QCCL",
-            "drct_ttl": "Quick Concept Context Lists",
-            "scion_id": "ls_qbl_alg_plnt_p01_qccl"
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'Luna'",
+            "scion_id": "ls_qbl_alg_plnt_p01_000_000"
+        },
+        {
+            "drct_id": "TERM",
+            "drct_ttl": "Terminology around 'Luna'",
+            "scion_id": "ls_qbl_alg_plnt_p01_000_term",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Vocabulary</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Luna</b></i>)",
+                    "scion_id": "ls_qbl_alg_plnt_p01_000_term",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Alternations"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Binah",
+                            "insc_dfin": "The Sephirah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Biorhythms"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cancer",
+                            "insc_dfin": "The Sign"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Chandra"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Crescent"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Crime"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Crone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Darkness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Desires"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Earth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Earth's Shadow"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Eclipse"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Emotions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Feelings"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Fertility"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "First Quarter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Fourth Quarter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Full Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Fullness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Gardenia"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Goddess"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Growth"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Habits"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Half Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hecate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hekate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Impressionability"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Incidence of Crime"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Instincts"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Interests"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lemon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Liquids"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lotus"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Luck"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Luck-Generating"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Luna"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar Eclipse"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar-Linked"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar-Linked Activites"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar Phases"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Lunar Powers"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Maiden"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Magnetism"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mansion"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mansions of the Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Menstruation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Monday",
+                            "insc_dfin": "The Day"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Moods"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Moonwort"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Moon Phase"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mother"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Motherly"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mushroom"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Needs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Interests"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Phases"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Plant Life"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Poppy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Quarter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Receptivity"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reflections"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reflexes"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Second Quarter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Shadow"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Subconscious"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Subconscious"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Third Quarter"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tides"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Triple Goddess"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Venus Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wane"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Waning"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wax"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Waxing"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Willow"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wolf Moon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Woman"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Yesod",
+                            "insc_dfin": "The Sephirah"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "ASTR",
             "drct_ttl": "Astrological Information of 'The Planet Luna'",
-            "scion_id": "ls_qbl_alg_plnt_p01_astr"
+            "scion_id": "ls_qbl_alg_plnt_p01_000_astr"
         },
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondences of 'The Planet Luna'",
-            "scion_id": "ls_qbl_alg_plnt_p01_cntr"
+            "scion_id": "ls_qbl_alg_plnt_p01_000_cntr"
         },
         {
             "drct_id": "HIST",
             "drct_ttl": "History of Observing Luna",
-            "scion_id": "ls_qbl_alg_plnt_p01_hist"
+            "scion_id": "ls_qbl_alg_plnt_p01_000_hist"
         },
         {
             "drct_id": "MNSN",
             "drct_ttl": "The 28 Mansions of The Moon",
-            "scion_id": "ls_qbl_alg_plnt_p01_mnsn"
+            "scion_id": "ls_qbl_alg_plnt_p01_000_mnsn"
         },
         {
             "drct_id": "PLCE",
             "drct_ttl": "Placements of 'Luna'",
-            "scion_id": "ls_qbl_alg_plnt_p01_plce",
+            "scion_id": "ls_qbl_alg_plnt_p01_000_plce",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p01_plce_zdc",
+                    "scion_id": "ls_qbl_alg_plnt_p01_000_plce_zdc",
                     "scions": [
                         {
                             "insc_term": "Luna in Aries"
@@ -82,7 +506,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "(<b><i>Luna</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p01_plce_hse",
+                    "scion_id": "ls_qbl_alg_plnt_p01_000_plce_hse",
                     "scions": [
                         {
                             "insc_term": "Luna in The First House"
@@ -127,7 +551,7 @@
         {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'The Planet Luna'",
-            "scion_id": "ls_qbl_alg_plnt_p01_mdcl"
+            "scion_id": "ls_qbl_alg_plnt_p01_000_mdcl"
         }
     ]
 }

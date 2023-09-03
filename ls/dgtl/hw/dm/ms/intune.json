@@ -51,6 +51,54 @@
                             "insc_typ2": "trm",
                             "insc_term": "AAD",
                             "insc_extr": [1, 1, "<b>A</b>zure <b>A</b>ctive <b>D</b>irectory"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AD",
+                            "insc_extr": [1, 1, "<b>A</b>ctive <b>D</b>irectory"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AZ",
+                            "insc_extr": [1, 1, "<b>Az</b>ure"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "BYOD",
+                            "insc_extr": [1, 1, "<b>B</b>ring <b>Y</b>our <b>O</b>wn <b>D</b>evice"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "EMS",
+                            "insc_extr": [1, 1, "<b>E</b>nterprise <b>M</b>obility + <b>S</b>ecurity"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "IT",
+                            "insc_extr": [1, 1, "<b>I</b>nformation <b>T</b>echnology"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "M365",
+                            "insc_extr": [1, 1, "<b>M</b>icrosoft <b>365</b>"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MAM",
+                            "insc_extr": [1, 1, "<b>M</b>obile <b>A</b>pplication <b>M</b>anagement"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MDM",
+                            "insc_extr": [1, 1, "<b>M</b>obile <b>D</b>evice <b>M</b>anagement"]
                         }
                     ]
                 }

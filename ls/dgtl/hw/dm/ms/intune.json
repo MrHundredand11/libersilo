@@ -2,134 +2,155 @@
     "ls_id": "LS-DGTL-HW-DM-MS-INTUNE",
     "ls_ttl": "Microsoft Intune",
     "ls_url": "/ls/dgtl/hw/dm/ms/intune.json",
-    "scion_id": "ls_dgtl_hw_dm_ms_intune",
+    "scion_id": "ls_dgtl_hw_dm_ms_intn",
     "scions": [
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Intune'",
-            "scion_id": "ls_dgtl_hw_dm_ms_intune_000",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>What is</b></u>&nbsp; (<b><i>Microsoft Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_whatis"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_whatis"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Mobile Devices</b></i>)&nbsp; <i>with</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_mbldvc_mng"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_mbldvc_mng"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Enable</b></u>&nbsp; (<b><i>Mobile Device Management</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_mdm_enbl"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_mdm_enbl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Devices</b></i>)&nbsp; <b><u>Remotely</b></u>&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_000_dvc_rmtmng"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_000_dvc_rmtmng"
+                }
+            ]
+        },
+        {
+            "drct_id": "TERM",
+            "drct_ttl": "Terminology around 'Intune'",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_term",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Acronyms</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Intune</b></i>)",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_term_acrnym",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AAD",
+                            "insc_extr": [1, 1, "<b>A</b>zure <b>A</b>ctive <b>D</b>irectory"]
+                        }
+                    ]
                 }
             ]
         },
         {
             "drct_id": "NRLL",
             "drct_ttl": "Enrollment within 'Intune'",
-            "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Considerations</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_cnsdr"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_cnsdr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Corporate Enrollment Policy</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_crpnrllplc_mng"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_crpnrllplc_mng"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Windows Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_wnds"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_wnds"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>Android Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_andrd"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_andrd"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Enroll</b></u>&nbsp; (<b><i>iOS Devices</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dvcnrll_ios"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dvcnrll_ios"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Explore</b></u>&nbsp; (<b><i>Device Enrollment Manager</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_dem_xplr"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_dem_xplr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Monitor</b></u>&nbsp; (<b><i>Device Enrollment</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_nrll_mntr"
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_nrll_mntr"
                 }
             ]
         },
         {
             "drct_id": "PRFL",
             "drct_ttl": "Profiles within 'Intune'",
-            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl",
+            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>Device Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_exmn"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_exmn"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Device Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_type"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_type"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Create</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_crt_dvpf"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_crt_dvpf"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Create</b></u>&nbsp; <i>a</i>&nbsp; (<b><i>Custom Device Profile</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_crt_cstm"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_crt_cstm"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Oversee</b></u>&nbsp; (<b><i>Device Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_ovrs"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_ovrs"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Manage</b></u>&nbsp; (<b><i>Device Sync</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_dvc_undscnfg_dvcsync"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_dvc_undscnfg_dvcsync"
                         }
                     ]
                 },
@@ -137,19 +158,19 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Understanding + Configuring</b></u>&nbsp; (<b><i>User Profiles</b></i>)&nbsp; <i>in</i>&nbsp; (<b><i>Intune</b></i>)",
-                    "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg",
+                    "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg",
                     "scions": [
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Examine</b></u>&nbsp; (<b><i>User Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_exmn"
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_exmn"
                         },
                         {
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Types</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>User Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_type",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_type",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -257,7 +278,7 @@
                             "insc_typ1": "stm",
                             "insc_typ2": "brn",
                             "insc_ttl": "<b><u>Folder Extensions</b></u>&nbsp; <i>for</i>&nbsp; (<b><i>User Profiles</b></i>)",
-                            "scion_id": "ls_dgtl_hw_dm_ms_intune_prfl_usr_undscnfg_fldrextn",
+                            "scion_id": "ls_dgtl_hw_dm_ms_intn_000_prfl_usr_undscnfg_fldrextn",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",

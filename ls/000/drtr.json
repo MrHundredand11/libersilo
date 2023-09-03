@@ -396,11 +396,11 @@
                             "scion_id": "ls_dgtl_hw_dm",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-HW-DM-MS-INTUNE",
+                                    "ls_id": "LS-DGTL-HW-DM-MS-INTN",
                                     "ls_ttl": "Microsoft Intune",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/hw/dm/ms/intune.json",
-                                    "scion_id": "ls_dgtl_hw_dm_ms_intune"
+                                    "ls_url": "/ls/dgtl/hw/dm/ms/intn.json",
+                                    "scion_id": "ls_dgtl_hw_dm_ms_intn"
                                 }
                             ]
                         }

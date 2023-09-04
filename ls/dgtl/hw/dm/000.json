@@ -133,6 +133,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
+                            "insc_brdr": "styl_brdr_001",
                             "insc_term": "Devices",
                             "scions": [
                                 {

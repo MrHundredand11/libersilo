@@ -195,6 +195,12 @@
                             "insc_typ2": "trm",
                             "insc_term": "RBAC",
                             "insc_extr": [1, 1, "<b>R</b>ole-<b>B</b>ased <b>A</b>ccess <b>C</b>ontrol"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "SCCM",
+                            "insc_extr": [1, 1, "<b>S</b>ystem <b>C</b>enter <b>C</b>onfiguration <b>M</b>anager"]
                         }
                     ]
                 },
@@ -208,8 +214,61 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
+                            "insc_term": "Device",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Device Compliance",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Compliant Device"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Noncompliant Device"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Device Enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "User-less Device"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
                             "insc_term": "Enrollment",
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Automatic Enrollment"
+                                },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
@@ -222,7 +281,37 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_term": "Co-management Enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_term": "Device Enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Device Enrollment Manager",
+                                    "insc_dfin": "DEM"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Device Enrollment Program",
+                                    "insc_dfin": "DEP"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Device Enrollment Status"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -292,6 +381,13 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_term": "Group Policy Enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_term": "Manual Enrollment"
                                 },
                                 {
@@ -306,6 +402,34 @@
                                     "insc_typ2": "trm",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
+                                    "insc_term": "Post-enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Post-enrollment Communication"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Pre-enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Pre-enrollment Communication"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
                                     "insc_term": "User Enrollment"
                                 },
                                 {
@@ -314,6 +438,49 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_term": "User Enrollment Profile"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Windows 10 Automatic Enrollment"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Windows Autopilot Enrollment"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Policy",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Compliance Policy"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Configuration Policy"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Group Policy"
                                 }
                             ]
                         }
@@ -339,6 +506,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Account, Azure AD"
                         },
                         {
                             "insc_typ1": "insc",
@@ -577,6 +749,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Automatic"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automatic Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Automatically"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Availability"
                         },
                         {
@@ -589,6 +776,33 @@
                             "insc_typ2": "trm",
                             "insc_term": "Azure",
                             "insc_dfin": "AZ"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure Active Directory",
+                            "insc_dfin": "AAD"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure AD",
+                            "insc_dfin": "AAD"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure AD Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure AD Join"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure AD Premium"
                         },
                         {
                             "insc_typ1": "insc",
@@ -685,6 +899,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Co-management Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Communicate"
                         },
                         {
@@ -740,6 +959,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Compliant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Compliant Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Comply"
                         },
                         {
@@ -781,6 +1010,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Configuration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configuration Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configuration Policy"
                         },
                         {
                             "insc_typ1": "insc",
@@ -937,6 +1176,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Device, Compliant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device, Domain-Joined"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device, Noncompliant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Device Compliance"
                         },
                         {
@@ -955,6 +1209,11 @@
                             "insc_typ2": "trm",
                             "insc_term": "Device Enrollment Program",
                             "insc_dfin": "DEP"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Enrollment Status"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1005,6 +1264,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Domain"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Domain-Joined"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Domain-Joined Device"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1244,12 +1513,42 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Group, Pilot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Group Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Group Policy Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Helpdesk"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Helpdesk Operator"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hybrid"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hybrid Azure AD Joined"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1461,6 +1760,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Managed"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Managed Desktop"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Management"
                         },
                         {
@@ -1526,13 +1835,23 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Microsoft O365"
+                            "insc_term": "Microsoft 365",
+                            "insc_dfin": "M365"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Microsoft Endpoint Manager",
-                            "insc_dfin": "O365"
+                            "insc_term": "Microsoft 365 Government"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Microsoft Configuration Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Microsoft Endpoint Manager"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1557,6 +1876,12 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Microsoft O365",
+                            "insc_dfin": "O365"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Microsoft Specialist"
                         },
                         {
@@ -1573,6 +1898,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Microsoft Windows 11"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Microsoft Windows Autopilot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Microsoft Windows Configuration Designer"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1660,6 +1995,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Noncompliant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Noncompliant Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "None"
                         },
                         {
@@ -1711,6 +2056,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Organization Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Organization App"
                         },
                         {
@@ -1752,6 +2102,137 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Overview"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Permission"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Permissions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Computer",
+                            "insc_dfin": "PC"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Data"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Identity"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Personal Resource"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Phase"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Phone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Pilot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Pilot Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Plan"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Planning"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Platform"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, Compliance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, Configuration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy and Profile Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Portal"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Post-enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Post-enrollment Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Pre-enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Pre-enrollment Communication"
                         }
                     ]
                 },
@@ -1851,6 +2332,17 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Azure AD",
+                            "insc_dfin": "AAD"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Azure AD Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Azure AD Identity"
                         },
                         {
@@ -1887,6 +2379,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Company Portal Website"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Configuration Manager"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1973,6 +2470,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Microsoft Configuration Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Microsoft Endpoint Manager",
                             "insc_dfin": "MEM"
                         },
@@ -1999,7 +2501,8 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "Microsoft O365"
+                            "insc_term": "Microsoft O365",
+                            "insc_dfin": "O365"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2025,6 +2528,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Microsoft Windows Configuration Designer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Microsoft Windows OS"
                         },
                         {
@@ -2041,6 +2549,12 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "System Center Configuration Manager",
+                            "insc_dfin": "SCCM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Windows 10"
                         },
                         {
@@ -2052,6 +2566,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Windows Autopilot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Configuration Designer"
                         },
                         {
                             "insc_typ1": "insc",

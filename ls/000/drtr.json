@@ -2206,8 +2206,19 @@
                         },
                         {
                             "ls_id": "LS-LULS-RC",
-                            "ls_ttl": "Rosicrucian Scriptures",
-                            "ls_type": "=>"
+                            "ls_ttl": "Rosicrucian Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/trdn/rc/",
+                            "scion_id": "ls_luls_trdn_rc",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-TRDN-RC-000",
+                                    "ls_ttl": "Rosicrucian Traditions",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/luls/trdn/rc/000.json",
+                                    "scion_id": "ls_luls_trdn_rc_000"
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-SHKSPR",

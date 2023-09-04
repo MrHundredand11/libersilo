@@ -133,6 +133,12 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "EULA",
+                            "insc_extr": [1, 1, "<b>E</b>nd <b>U</b>ser <b>L</b>icense <b>A</b>greement"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "IMEI",
                             "insc_extr": [1, 1, "<b>I</b>nternational <b>M</b>obile <b>E</b>quipment <b>I</b>dentifier"]
                         },
@@ -182,7 +188,7 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "OOBE",
-                            "insc_extr": [1, 1, "<b>O</b>ut <b>o</b>f <b>B</b>ox <b>E</b>experience"]
+                            "insc_extr": [1, 1, "<b>O</b>ut-<b>o</b>f-<b>B</b>ox <b>E</b>experience"]
                         },
                         {
                             "insc_typ1": "insc",
@@ -222,6 +228,13 @@
                             "term_styl": "bg",
                             "insc_term": "Device",
                             "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Assigned Devices"
+                                },
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "trm",
@@ -734,6 +747,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Assigned"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assigned Devices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Assignment"
                         },
                         {
@@ -1177,6 +1200,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Default"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "DEM Account"
                         },
                         {
@@ -1222,12 +1250,22 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Device, Assigned"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Device, Compliant"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Device, Domain-Joined"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device, Name"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1265,6 +1303,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Device Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Name"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1345,6 +1388,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "End User Experience"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "End User License Agreement",
+                            "insc_dfin": "EULA"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1564,6 +1613,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Group, Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Group, Pilot"
                         },
                         {
@@ -1732,6 +1786,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Isolation"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Join"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Joined"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2031,6 +2095,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Name, Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Name, Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Name, User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Network"
                         },
                         {
@@ -2154,6 +2233,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Organization-owned Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Out-of-Box Experience",
+                            "insc_dfin": "OOBE"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2290,6 +2375,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Pre-enrollment Communication"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Privacy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Privacy Settings"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2505,6 +2600,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Scope"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Scope Tags"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Script"
                         },
                         {
@@ -2551,6 +2656,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Setting"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Settings"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Settings, Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Settings, Privacy"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2611,6 +2731,267 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Supported Platforms"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Sync"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "System"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "System Center Configuration Manager",
+                            "insc_dfin": "SCCM"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tag"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tag, Scope"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tags"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tenant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Tenant Administration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Term"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Terms"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Terms and Conditions"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Timeline"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Track"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Troubleshoot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Troubleshooting"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Troubleshooting + Support"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Unenroll"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Update"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Usage"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User, Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User, Single"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User-less"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User-less Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Account"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Account Type"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Base"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Choice"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Enrollment Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Group"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "User Scope"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Username"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "View"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Visual Snapshot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wi-Fi"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows 10"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows 10 Automatic Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows 11"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Autopilot"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Autopilot Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Configuration Designer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows OS"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wipe"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wireless"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wireless Network"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Work Profile"
                         }
                     ]
                 },

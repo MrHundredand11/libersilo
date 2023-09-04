@@ -245,6 +245,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
+                                            "term_styl": "sm",
                                             "insc_sld": "\\_",
                                             "insc_pntr": ">",
                                             "insc_term": "Compliant Device"
@@ -252,6 +253,7 @@
                                         {
                                             "insc_typ1": "insc",
                                             "insc_typ2": "trm",
+                                            "term_styl": "sm",
                                             "insc_sld": "\\_",
                                             "insc_pntr": ">",
                                             "insc_term": "Noncompliant Device"
@@ -3389,6 +3391,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Assign Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Assign License"
                         },
                         {
@@ -3410,6 +3417,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Configure Domain Name"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Create Autopilot Deployment Profile"
                         },
                         {
                             "insc_typ1": "insc",

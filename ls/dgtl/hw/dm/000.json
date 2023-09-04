@@ -139,9 +139,10 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_chut": "001",
+                                    "insc_styl": "styl_size_23px",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Ownership</b></i>)",
+                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Ownership</b></i>) ::",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -159,9 +160,10 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_chut": "001",
+                                    "insc_styl": "styl_size_23px",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Models</b></i>)",
+                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Models</b></i>) ::",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -212,9 +214,10 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_chut": "001",
+                                    "insc_styl": "styl_size_23px",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Consideration</b></i>)",
+                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device Considerations</b></i>) ::",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -295,7 +298,7 @@
                                     "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
-                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device OSs</b></i>)",
+                                    "insc_cntn": "<i>[Types]</i> of (<b><i>Device OSs</b></i>) ::",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",

@@ -396,6 +396,13 @@
                             "scion_id": "ls_dgtl_hw_dm",
                             "scions": [
                                 {
+                                    "ls_id": "LS-DGTL-HW-DM",
+                                    "ls_ttl": "Device Management",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/dgtl/hw/dm/000.json",
+                                    "scion_id": "ls_dgtl_hw_dm_000"
+                                },
+                                {
                                     "ls_id": "LS-DGTL-HW-DM-MS-INTN",
                                     "ls_ttl": "Microsoft Intune",
                                     "ls_type": "+>",

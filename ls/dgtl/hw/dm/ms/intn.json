@@ -213,6 +213,12 @@
                             "insc_typ2": "trm",
                             "insc_term": "SCCM",
                             "insc_extr": [1, 1, "<b>S</b>ystem <b>C</b>enter <b>C</b>onfiguration <b>M</b>anager"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "SSO",
+                            "insc_extr": [1, 1, "<b>S</b>ingle <b>S</b>ign <b>O</b>n"]
                         }
                     ]
                 },
@@ -521,7 +527,32 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Access, Grant"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access, Remote"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access, Revoke"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Access Control"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access Control, Mandatory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Access Control, Role-Based"
                         },
                         {
                             "insc_typ1": "insc",
@@ -661,6 +692,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "App, Mandatory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "App Protection"
                         },
                         {
@@ -765,6 +801,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Assignments"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Assistance"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1227,6 +1268,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Deployment Options"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Deployment Profile"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Description"
                         },
                         {
@@ -1277,6 +1328,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Device Assignment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Device Compliance"
                         },
                         {
@@ -1304,6 +1360,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Device Information"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Logs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Device Management"
                         },
                         {
@@ -1315,6 +1381,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Device Profiles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Registration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Device Retirement"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1426,6 +1502,36 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Enrollment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, Automatic"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, Bulk"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, Group Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, Manual"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Enrollment, User"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1852,6 +1958,36 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Log"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Logging"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Logs"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Logs, Audit"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Logs, Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Logs, User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Mac"
                         },
                         {
@@ -1898,6 +2034,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mandatory"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mandatory Access Control"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Mandatory App"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2336,7 +2487,17 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Policy, Application Protection"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Policy, Compliance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, Conditional Access"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2346,12 +2507,37 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Policy, Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Policy, Group"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Policy, Restriction"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, Security"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy, User"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Policy and Profile Manager"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Policy Settings"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2416,7 +2602,17 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Profile, Deployment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Profile, Device"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Profile, Enrollment"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2442,6 +2638,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Protect"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Purpose"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2501,6 +2702,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Remote Assistance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Remote Control"
                         },
                         {
@@ -2532,6 +2738,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Restriction"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Restriction Policy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Retire"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Retire Device"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2652,6 +2873,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Select"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Selective"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Selective Wipe"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Service"
                         },
                         {
@@ -2688,6 +2924,12 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Single"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Single Sign On",
+                            "insc_dfin": "SSO"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2923,6 +3165,16 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Violate"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Violated"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Visual Snapshot"
                         },
                         {
@@ -2979,6 +3231,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Wipe"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Wipe, Selective"
                         },
                         {
                             "insc_typ1": "insc",

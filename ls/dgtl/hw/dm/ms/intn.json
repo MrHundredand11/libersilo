@@ -1263,6 +1263,21 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Deployment, Desktop"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Deployment, Physical"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Deployment Guidelines"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Deployment Mode"
                         },
                         {
@@ -1278,6 +1293,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Deployment Readiness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Description"
                         },
                         {
@@ -1289,6 +1309,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Desktop Computer"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Desktop Deployment"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1741,6 +1766,36 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Guideline"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Guidelines"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Guidelines, Deployment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hardware"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hardware Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hardware Requirements"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Helpdesk"
                         },
                         {
@@ -1757,6 +1812,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Hybrid Azure AD Joined"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Hyper-V"
                         },
                         {
                             "insc_typ1": "insc",
@@ -1798,6 +1858,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Infrastructure, Hardware"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Infrastructure, Network"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Infrastructure, Software"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2268,6 +2343,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Network Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Network Resource"
                         },
                         {
@@ -2401,6 +2481,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Peripheral Devices"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Permission"
                         },
                         {
@@ -2453,6 +2538,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Phone"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Physical"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Physical Deployment"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2677,6 +2772,36 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Readiness"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Readiness, Deployment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Readiness Tools"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Ready"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Redeploy"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Redeployment"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Region"
                         },
                         {
@@ -2693,6 +2818,16 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Registration"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reinstall"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Reinstallation"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2723,6 +2858,21 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Reports Reader"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Requirement"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Requirements"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Requirements, Hardware"
                         },
                         {
                             "insc_typ1": "insc",
@@ -2939,12 +3089,27 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Software"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Software Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "State"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Status"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Strategy"
                         },
                         {
                             "insc_typ1": "insc",
@@ -3230,6 +3395,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Windows Server"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Wipe"
                         },
                         {
@@ -3437,6 +3607,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "Hyper-V"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "Intune"
                         },
                         {
@@ -3594,6 +3769,11 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "Windows OS"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Windows Server"
                         }
                     ]
                 }

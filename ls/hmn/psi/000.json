@@ -85,6 +85,113 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "TEST",
+            "drct_ttl": "Tests around 'Psi Powers'",
+            "scion_id": "ls_hmn_psi_000_test",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Tests</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Psi Powers</b></i>)",
+                    "scion_id": "ls_hmn_psi_000_test_tsts",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Tests with ESP Cards",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Individual Tests with ESP Cards"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Group Tests with ESP Cards"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Tests with the Pendulum",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Telekenesis Testing",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Individual Telekenesis Tests with the Pendulum"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Group Telekenesis Tests with the Pendulum"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "trm",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_term": "Divination Testion",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Individual Divination Tests with the Pendulum"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "sm",
+                                            "insc_sld": "\\_",
+                                            "insc_pntr": ">",
+                                            "insc_term": "Group Divination Tests with the Pendulum"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Mind Painting"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Guessing Dice"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

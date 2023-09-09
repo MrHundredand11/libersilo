@@ -57,7 +57,51 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Vocabulary</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Psi Powers</b></i>)",
-                    "scion_id": "ls_hmn_psi_000_term_vcblry"
+                    "scion_id": "ls_hmn_psi_000_term_vcblry",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Astral"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Astral Phenomena"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Astral Phenomenon"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Astral Projection",
+                            "insc_extr": [1, 1, "AP"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Astral Sight"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Clairaudience"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Clairvoyance"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Coordinate Remote Viewing",
+                            "insc_extr": [1, 1, "CRV"]
+                        }
+                    ]
                 }
             ]
         },

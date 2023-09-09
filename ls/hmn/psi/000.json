@@ -1,9 +1,66 @@
 {
     "ls_id": "LS-HMN-PSI-000",
-    "ls_ttl": "Overview of Psi Powers",
+    "ls_ttl": "Psi Powers",
     "ls_url": "/ls/hmn/psi/000.json",
     "scion_id": "ls_hmn_psi_000",
     "scions": [
+        {
+            "drct_id": "TERM",
+            "drct_ttl": "Terminology around 'Psi Powers'",
+            "scion_id": "ls_hmn_psi_000_term",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Acronyms</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Psi Powers</b></i>)",
+                    "scion_id": "ls_hmn_psi_000_term_acrnym",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "AP",
+                            "insc_extr": [1, 1, "<b>A</b>stral <b>P</b>rojection"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "CRV",
+                            "insc_extr": [1, 1, "<b>C</b>oordinate <b>R</b>emote <b>V</b>iewing"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ESP",
+                            "insc_extr": [1, 1, "<b>E</b>xtra-<b>S</b>ensory <b>P</b>erception"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "OOB",
+                            "insc_extr": [1, 1, "<b>O</b>ut-<b>o</b>f-<b>B</b>ody"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "OOBE",
+                            "insc_extr": [1, 1, "<b>O</b>ut-<b>o</b>f-<b>B</b>ody <b>E</b>xperience"]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "RV",
+                            "insc_extr": [1, 1, "<b>R</b>emote <b>V</b>iewing"]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Vocabulary</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Psi Powers</b></i>)",
+                    "scion_id": "ls_hmn_psi_000_term_vcblry"
+                }
+            ]
+        },
         {
             "drct_id": "TYPE",
             "drct_ttl": "Types of 'Psi Powers'",

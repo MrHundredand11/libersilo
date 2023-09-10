@@ -651,7 +651,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HI-ALIEN-000",
-                            "ls_ttl": "Overview of Alien Life",
+                            "ls_ttl": "Alien Life",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/alien/000.json",
                             "scion_id": "ls_hi_alien_000"
@@ -839,7 +839,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HI-CNTCT-000",
-                            "ls_ttl": "Overview of Contact Methods",
+                            "ls_ttl": "Contact Methods",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/cntct/000.json",
                             "scion_id": "ls_hi_cntct_000"
@@ -997,7 +997,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HI-DMN-000",
-                            "ls_ttl": "Overview of Demons + Demonology",
+                            "ls_ttl": "Demons + Demonology",
                             "ls_type": "+>",
                             "ls_url": "/ls/hi/dmn/000.json",
                             "scion_id": "ls_hi_dmn_000"
@@ -1424,6 +1424,13 @@
                             "scion_id": "ls_hmn_life_2born"
                         },
                         {
+                            "ls_id": "LS-HMN-LIFE-DEATH",
+                            "ls_ttl": "Death",
+                            "ls_type": "+>",
+                            "ls_url": "/ls/hmn/life/death.json",
+                            "scion_id": "ls_hmn_life_death"
+                        },
+                        {
                             "ls_id": "LS-HMN-LIFE-IMMRTL",
                             "ls_ttl": "Immortality",
                             "ls_type": "+>",
@@ -1462,7 +1469,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HMN-MD-000",
-                            "ls_ttl": "Overview of Medical Directory",
+                            "ls_ttl": "Medical Directory",
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/md/000.json",
                             "scion_id": "ls_hmn_md_000"
@@ -1543,7 +1550,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-HMN-PSI-000",
-                            "ls_ttl": "Overview of Psi Powers",
+                            "ls_ttl": "Psi Powers",
                             "ls_type": "+>",
                             "ls_url": "/ls/hmn/psi/000.json",
                             "scion_id": "ls_hmn_psi_000"

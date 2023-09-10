@@ -7,40 +7,38 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Saturn'",
-            "scion_id": "ls_qbl_alg_plnt_p07_000"
+            "scion_id": "ls_qbl_alg_plnt_p07_000_000"
         },
         {
             "drct_id": "ASTR",
             "drct_ttl": "Celestial Correspondences of 'Saturn'",
-            "scion_id": "ls_qbl_alg_plnt_p07_astr",
+            "scion_id": "ls_qbl_alg_plnt_p07_000_astr",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Orbit",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Orbit</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_astr_orbt",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_astr_orbt",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Complete Orbit",
+                            "insc_typ2": "trm",
+                            "insc_stpl": [1, "Complete Orbit"],
                             "insc_term": "29.5 yrs"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Transit Time",
+                            "insc_typ2": "trm",
+                            "insc_stpl": [1, "Transit Time"],
                             "insc_term": "2.5 yrs in each Sign"
                         }
                     ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Transits",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Transits</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_astr_trnst",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_astr_trnst",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -60,189 +58,182 @@
         },
         {
             "drct_id": "CNTR",
-            "drct_ttl": "Natural Correspondences of 'Saturn'",
-            "scion_id": "ls_qbl_alg_plnt_p07_cntr",
+            "drct_ttl": "Nature Correspondences of 'Saturn'",
+            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Flavors",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Flavors</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs",
                     "scions": [
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "bitter",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_bitter"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_bitter"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "acid",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acid"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_acid"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "sour",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_sour"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_sour"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "acrid",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_acrid"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_acrid"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "pungent",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_pungent"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_pungent"
                         },
                         {
                             "insc_typ1": "insc",
-                            "insc_typ2": "trm_stpl",
-                            "insc_tag": "Flavor",
+                            "insc_typ2": "trm",
                             "insc_term": "astringent",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_flvrs_astringent"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_flvrs_astringent"
                         }
                     ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Plants",
                     "insc_ttl": "<b><u>Plants</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Ivy",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_ivy"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_ivy"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Yew",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_yew"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_yew"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Hemlock",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemlock"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_hemlock"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Nightshade",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_nightshade"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_nightshade"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Amaranth",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_amaranth"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_amaranth"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Hemp",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_hemp"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_hemp"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Plant",
                             "insc_term": "Aconite",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_plnts_aconite"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_plnts_aconite"
                         }
                     ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Vedic Gemology",
                     "insc_ttl": "<b><u>Vedic Gemology</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Sapphire",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_bluesapphire"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_bluesapphire"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Blue Spinel",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_bluespinel"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_bluespinel"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Tanzanite",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_tanzanite"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_tanzanite"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Indicolite",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_indicolite"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_indicolite"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Iolote",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_iolote"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_iolote"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Vedic Gem",
                             "insc_term": "Amethyst",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_vdcgem_amethyst"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_vdcgem_amethyst"
                         }
                     ]
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Shapes + Textures",
                     "insc_ttl": "<b><u>Shapes + Textures</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_shptxtr",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Shape",
                             "insc_term": "Short, straight, hard lines, ornament-free but well drawn",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_shp_shrtstrghthrdlnes"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_shptxtr_shp_shrtstrghthrdlnes"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm_stpl",
                             "insc_tag": "Texture",
                             "insc_term": "Cold, hard, and heavy",
-                            "scion_id": "ls_qbl_alg_plnt_p07_cntr_shptxtr_txtr_cldhrdhvy"
+                            "scion_id": "ls_qbl_alg_plnt_p07_000_cntr_shptxtr_txtr_cldhrdhvy"
                         }
                     ]
                 }
@@ -251,14 +242,14 @@
         {
             "drct_id": "MDCL",
             "drct_ttl": "Medical Astrology of 'Saturn'",
-            "scion_id": "ls_qbl_alg_plnt_p07_mdcl",
+            "scion_id": "ls_qbl_alg_plnt_p07_000_mdcl",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Medicaments",
                     "insc_ttl": "<b><u>Medicaments</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Saturn</b></i>)",
-                    "scion_id": "ls_qbl_alg_plnt_p07_mdcl_mdcmnts",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_mdcl_mdcmnts",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -403,13 +394,13 @@
         {
             "drct_id": "PLCE",
             "drct_ttl": "Placements of 'Saturn'",
-            "scion_id": "ls_qbl_alg_plnt_p07_plce",
+            "scion_id": "ls_qbl_alg_plnt_p07_000_plce",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_zdc",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_plce_zdc",
                     "scions": [
                         {
                             "insc_term": "Saturn in Aries"
@@ -453,7 +444,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "(<b><i>Saturn</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p07_plce_hse",
+                    "scion_id": "ls_qbl_alg_plnt_p07_000_plce_hse",
                     "scions": [
                         {
                             "insc_term": "Saturn in The First House"

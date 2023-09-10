@@ -1,0 +1,38 @@
+{
+    "ls_id": "LS-HMN-LIFE-DEATH",
+    "ls_ttl": "Death",
+    "ls_url": "/ls/hmn/life/death.json",
+    "scion_id": "ls_hmn_life_death",
+    "scions": [
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Death'",
+            "scion_id": "ls_hmn_life_death_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Nordic Scriptures</b></u>&nbsp; <i>mentioning</i>&nbsp; (<b><i>Death</b></i>)",
+                    "scion_id": "ls_hmn_life_death_luls_nrdc",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "&emsp;Cattle die, kindred die, every man is mortal:\n&emsp;But the good name never dies of one who has done well.<br><br>Cattle die, kindred die, every man is mortal:<br>&emsp;But I know one thing that never dies, the glory of the great dead.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_cntn": "The Havamal"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

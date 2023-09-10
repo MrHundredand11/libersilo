@@ -18,7 +18,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "quot",
-                            "insc_cntn": "&emsp;Cattle die, kindred die, every man is mortal:\n&emsp;But the good name never dies of one who has done well.<br><br>Cattle die, kindred die, every man is mortal:<br>&emsp;But I know one thing that never dies, the glory of the great dead.",
+                            "insc_cntn": "&emsp;Cattle die, kindred die, every man is mortal:<br>&emsp;But the good name never dies of one who has done well.<br><br>Cattle die, kindred die, every man is mortal:<br>&emsp;But I know one thing that never dies, the glory of the great dead.",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -26,7 +26,7 @@
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Reference"],
-                                    "insc_cntn": "The Havamal"
+                                    "insc_cntn": "<span class='font_cambria'><b>The Havamal</b></span>"
                                 }
                             ]
                         }

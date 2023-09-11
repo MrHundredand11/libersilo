@@ -415,6 +415,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Edensor, Julie",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Einstein, Albert",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -3751,6 +3758,16 @@
                             "cite_link": [{"link": "https://www.joyvernon.com/"}],
                             "cite_auth": [{"name": "Vernon, Joy"}],
                             "cite_ttl": "Joy Vernon Astrology"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "http://www.zarephath.co.uk/blog/messianic-insights-beth-pt1-discovering-messiah-through-hebrew-alphabet-/"}],
+                            "cite_auth": [{"name": "Edensor, Julie"}],
+                            "cite_ttl": "Messianic Insights - Beth PT2",
+                            "cite_sbtt": "Discovering Messiah Through Hebrew Alphabet",
+                            "cite_site": "Zarephath Ministries"
                         },
                         {
                             "insc_tag": "Web Page",

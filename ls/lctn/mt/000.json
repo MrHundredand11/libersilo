@@ -1,0 +1,40 @@
+{
+    "ls_id": "LS-LCTN-MT-000",
+    "ls_ttl": "Sacred Mountains",
+    "ls_url": "/ls/lctn/mt/000.json",
+    "scion_id": "ls_lctn_mt_000",
+    "scions": [
+        {
+            "drct_id": "ACNT",
+            "drct_ttl": "Accounts around 'Mountains'",
+            "scion_id": "ls_lctn_mt_000_acnt",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Accounts</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Doors into Mountains</b></i>)",
+                    "scion_id": "ls_lctn_mt_000_acnt_doorsintomntns",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Unveiled Mysteries, Ch. 3",
+                            "insc_extr": [1, 1, "Godfré Ray King"],
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "quot",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Quote"],
+                                    "insc_cntn": "&emsp;We soon reached the top of a majestic mountain that stands sentinel over one of the most beautiful scenic belts in the United States. Vast forests lay beneath us, and great ranges of mountains with their treasures of mineral wealth still untouched stretched as far as the eye could see.<br><br>&emsp;Going to a point where huge masses of stone lay in confusion as if giants had hurled them in a war upon each other, Saint Germain touched a great boulder. Instantly the enormous mass tipped out, perhaps four feet away from its original position. He motioned me to follow. We entered and, to my astonishment, stood before a large bronze door.<br><br>&emsp;“This has been here since before the sinking of Atlantis, more than twelve thousand years ago,” he explained.<br><br>&emsp;He stepped forward and pressed certain points on the door. The great mass of bronze weighing many tons swung slowly open and admitted us into a spacious chamber from which a stairway cut in the solid rock led downward. We descended some two hundred feet and entered another space, circular in shape."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

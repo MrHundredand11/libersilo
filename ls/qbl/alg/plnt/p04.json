@@ -2,18 +2,18 @@
     "ls_id": "LS-QBL-ALG-PLNT-P04",
     "ls_ttl": "The Planet Sol",
     "ls_url": "/ls/qbl/alg/plnt/p04.json",
-    "scion_id": "ls_qbl_alg_plnt_p04",
+    "scion_id": "ls_qbl_alg_plnt_p04_000",
     "scions": [
         {
             "drct_id": "PLCE",
             "drct_ttl": "Placements of 'Sol'",
-            "scion_id": "ls_qbl_alg_plnt_p04_plce",
+            "scion_id": "ls_qbl_alg_plnt_p04_000_plce",
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "lst_exp",
-                    "insc_ttl": "(<b><i>Sol</b></i>) <i>in</i> <b><u>The Zodiac Signs</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p04_plce_zdc",
+                    "insc_typ2": "twgs",
+                    "insc_ttl": "(<b><i>Sol</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>The Zodiac Signs</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_000_plce_zdc",
                     "scions": [
                         {
                             "insc_term": "Sol in Aries"
@@ -55,9 +55,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "lst_exp",
-                    "insc_ttl": "(<b><i>Sol</b></i>) <i>in</i> <b><u>The Zodiac Houses</b></u>",
-                    "scion_id": "ls_qbl_alg_plnt_p04_plce_hse",
+                    "insc_typ2": "twgs",
+                    "insc_ttl": "(<b><i>Sol</b></i>)&nbsp; <i>in</i>&nbsp; <b><u>The Zodiac Houses</b></u>",
+                    "scion_id": "ls_qbl_alg_plnt_p04_000_plce_hse",
                     "scions": [
                         {
                             "insc_term": "Sol in The First House"
@@ -94,6 +94,36 @@
                         },
                         {
                             "insc_term": "Sol in The Twelfth House"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "AFRM",
+            "drct_ttl": "Affirmations around 'Sol'",
+            "scion_id": "ls_qbl_alg_plnt_p04_000_afrm",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Affirmations</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Sunrise</b></i>)",
+                    "scion_id": "ls_qbl_alg_plnt_p04_000_afrm_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "Mighty God in me, I face Your Eternal Sunrise and I receive Your Mighty Radiance and Activity visibly manifest in my experience now!",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Reference"],
+                                    "insc_cntn": "<span class='font_cambria'><b>Godfre Ray King</b></span>,&nbsp;<span class='font_sitka'>Ascended Master Instruction</span>&nbsp;(<i>pg. 7</i>)"
+                                }
+                            ]
                         }
                     ]
                 }

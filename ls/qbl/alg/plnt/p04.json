@@ -118,10 +118,20 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Reference"],
-                                    "insc_cntn": "<span class='font_cambria'><b>Godfre Ray King</b></span>,&nbsp;<span class='font_sitka'>Ascended Master Instruction</span>&nbsp;(<i>pg. 7</i>)"
+                                    "insc_cntn": "<span class='font_cambria'><b>Godfré Ray King</b></span>,&nbsp;<span class='font_sitka'>Ascended Master Instruction</span>&nbsp;(<i>pg. 7</i>)"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_stpl": [1, "Instructions"],
+                                    "insc_cntn": "(<i>Aloud or silently, at any Time of Day or Night</i>)<br>&emsp;Stand and face the East,<br>&emsp;&emsp;then say this affirmation with Certainty<br>&emsp;&emsp;&emsp;&emsp;and Confidence."
                                 }
                             ]
                         }

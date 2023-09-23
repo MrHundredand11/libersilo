@@ -69,7 +69,15 @@
                                     "insc_term": "Michael A. Aquino, Ph.D."
                                 }
                             ]
-                        },{
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Arcturus, Beloved Mighty Elohim",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
@@ -362,6 +370,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "David, Earl",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Davies, Ann",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -517,6 +532,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "George, Demetria",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Germain, St.",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -2151,6 +2173,16 @@
                             "cite_isbn13": "9781578633357",
                             "cite_isbn10": "1-57863-335-4",
                             "cite_locc": "91-40972"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "Code of the Heart",
+                            "cite_sbtt": "Gematria as a Bible Decoder",
+                            "cite_auth": [{"name": "David, Earl"}],
+                            "cite_date": "2016",
+                            "cite_isbn13": "9781520393469"
                         },
                         {
                             "insc_typ1": "cite",

@@ -1117,6 +1117,31 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-HI-PN",
+                    "ls_ttl": "Pantheon Inhabitants",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/hi/pn/",
+                    "scion_id": "ls_hi_pn",
+                    "scions": [
+                        {
+                            "ls_id": "LS-HI-PN-HNDU",
+                            "ls_ttl": "Hindu Pantheon",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/hi/pn/hndu",
+                            "scion_id": "ls_hi_pn_hndu",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-HI-PN-HNDU-KALI",
+                                    "ls_ttl": "Kali",
+                                    "ls_type": "+>",
+                                    "ls_url": "/ls/hi/pn/hndu/kali.json",
+                                    "scion_id": "ls_hi_pn_hndu_kali"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-HI-PPL",
                     "ls_ttl": "Peoples + Persons",
                     "ls_type": "=>",

@@ -13,7 +13,762 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Teachers</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>Spiritual Information</b></i>)",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_dgtl_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Afzal, Imran",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Allardice, Simon",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Anderson, Kurt",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Anderson, Neil",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Azam, Mohammad",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Bamikole, Ifedayo",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Bechberger, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Biocchi, Michael",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Brown, Kevin",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Bryan, Wes",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Buchalka, Tim",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Burton, Philip",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cannon, Jason",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Catrinescu, Vlad",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chapman, Phil",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chappell, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Chiarelli, Charlie",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Christopher, John",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Clinton, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Culp, Brian",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Diaz, Edwin",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Dion, Jason",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Duffy, Scott",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Eiler, Brian",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Eremenko, Krill",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Fattah, Miran",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Gibson, Darril",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hales, John",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hamedani, Mosh",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hasan, Aboul",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hill, Paul",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hill, Robert",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hilton, Bruse",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Holdernes, Sarah",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Houchin, Matt",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Jerga, Filip",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Joy, Kshitij",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kimbrell, Evan",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lachance, Dan",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Landry, Jean Francois",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lawrence, Aaron",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Loner, Patrick",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lowrie, Daniel",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Khurkhuriya, Jitesh",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Mallet, Andrew",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Microsoft Learn",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Milner, Matt",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Mitchell, Thomas",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morrissey, Neil",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Pfeiffer, Mike",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Rodrigues, Alan",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Seroter, Richard",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>relating to</i> <b><u>Locational Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_lctn_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Atcheson, Daniel",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Lloyd, John Uri",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Standish, David",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Tompkins, Peter",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>relating to</i> <b><u>Inhabitant Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_hi_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Andrews, Ted",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Clelland, Mike",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Deer, Thea Summer",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Farrell, Nick",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Franklin, Anna",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Griffiths-Morgan, Penny",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hayes, Bill",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Hong, Wai Yee",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kirk, Robert",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Klein, Kenny",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Kruse, John T.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Marsh, Clint",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "McCoy, Edain",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morehead, Ron",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Owens, Elizabeth",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Stern, Marina T.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Virtue, Doreen",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Zaczek, Iain",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>of</i> <b><u>Human Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_hmn_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Denning, Melita",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Gabriel, Bonnie",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Jansen, Carlyle",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Marsh, Clint",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Morehouse, David A.",
+                            "insc_dfin": "Ph.D.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Patel, Rachna",
+                            "insc_dfin": "Dr.",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Phillips, Osborne",
+                            "insc_offs": "algn_y_up_23",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt_stpl",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_tag": "Also Known As",
+                                    "insc_cntn": "Denning & Phillips"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Silva, Mari",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Taomino, Tristan",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Volk, Steve",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Wright, Wallace",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>relating to</i> <b><u>Mathematics Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_math_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Heidrick, Bill",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Phillips, Billy",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
+                    "scion_id": "ls_000_cite_tchr_nn_ls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Beyerl, Paul",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Bray, Richard",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cho, Anjie",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Cunningham, Scott",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Deer, Thea Summer",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Monaghan, Patricia",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Schumann, Walter",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Simmons, Robert",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Warner, Kathy",
+                            "insc_offs": "algn_y_up_23"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_tag": "Teachers",
+                    "insc_ttl": "(<b><i>Teachers</b></i>)&nbsp; <i>of</i>&nbsp; (<b><i>Spiritual Information</b></i>)",
                     "scion_id": "ls_000_cite_tchr_qblh",
                     "scions": [
                         {
@@ -636,6 +1391,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Heidrick, Bill",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Heiser, Michael S.",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -968,6 +1730,13 @@
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
                             "insc_term": "Page, Judith",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
+                            "insc_term": "Phillips, Billy",
                             "insc_offs": "algn_y_up_23"
                         },
                         {
@@ -1348,738 +2117,6 @@
                             "insc_offs": "algn_y_up_23"
                         }
                     ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
-                    "scion_id": "ls_000_cite_tchr_dgtl",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Afzal, Imran",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Allardice, Simon",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Anderson, Kurt",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Anderson, Neil",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Azam, Mohammad",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Bamikole, Ifedayo",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Bechberger, David",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Biocchi, Michael",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Brown, Kevin",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Bryan, Wes",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Buchalka, Tim",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Burton, Philip",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Cannon, Jason",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Catrinescu, Vlad",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Chapman, Phil",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Chappell, David",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Chiarelli, Charlie",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Christopher, John",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Clinton, David",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Culp, Brian",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Diaz, Edwin",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Dion, Jason",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Duffy, Scott",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Eiler, Brian",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Eremenko, Krill",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Fattah, Miran",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Gibson, Darril",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hales, John",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hamedani, Mosh",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hasan, Aboul",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hill, Paul",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hill, Robert",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hilton, Bruse",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Holdernes, Sarah",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Houchin, Matt",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Jerga, Filip",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Joy, Kshitij",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Kimbrell, Evan",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Lachance, Dan",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Landry, Jean Francois",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Lawrence, Aaron",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Loner, Patrick",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Lowrie, Daniel",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Khurkhuriya, Jitesh",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Mallet, Andrew",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Microsoft Learn",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Milner, Matt",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Mitchell, Thomas",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Morrissey, Neil",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Pfeiffer, Mike",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Rodrigues, Alan",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Seroter, Richard",
-                            "insc_offs": "algn_y_up_23"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Locational Information</b></u>",
-                    "scion_id": "ls_000_cite_tchr_lctn",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Atcheson, Daniel",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Lloyd, John Uri",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Saint-Yves D'Alveydre, Marquis Alexandre",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Standish, David",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Tompkins, Peter",
-                            "insc_offs": "algn_y_up_23"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Human Information</b></u>",
-                    "scion_id": "ls_000_cite_tchr_hmn",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Denning, Melita",
-                            "insc_offs": "algn_y_up_23",
-                            "scions": [
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Denning & Phillips"
-                                }
-                            ]
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Gabriel, Bonnie",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Jansen, Carlyle",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Marsh, Clint",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Morehouse, David A.",
-                            "insc_dfin": "Ph.D.",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Patel, Rachna",
-                            "insc_dfin": "Dr.",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Phillips, Osborne",
-                            "insc_offs": "algn_y_up_23",
-                            "scions": [
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "txt_stpl",
-                                    "insc_sld": "|\\_",
-                                    "insc_pntr": ">>",
-                                    "insc_tag": "Also Known As",
-                                    "insc_cntn": "Denning & Phillips"
-                                }
-                            ]
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Silva, Mari",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Taomino, Tristan",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Volk, Steve",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Wright, Wallace",
-                            "insc_offs": "algn_y_up_23"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Inhabitant Information</b></u>",
-                    "scion_id": "ls_000_cite_tchr_hi",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Andrews, Ted",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Clelland, Mike",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Deer, Thea Summer",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Farrell, Nick",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Franklin, Anna",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Griffiths-Morgan, Penny",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hayes, Bill",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Hong, Wai Yee",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Kirk, Robert",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Klein, Kenny",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Kruse, John T.",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Marsh, Clint",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "McCoy, Edain",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Morehead, Ron",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Owens, Elizabeth",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Stern, Marina T.",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Virtue, Doreen",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Zaczek, Iain",
-                            "insc_offs": "algn_y_up_23"
-                        }
-                    ]
-                },
-                {
-                    "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_tag": "Teachers",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Teachers</b></i>) <i>of</i> <b><u>Nature Information</b></u>",
-                    "scion_id": "ls_000_cite_tchr_nn",
-                    "scions": [
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Beyerl, Paul",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Bray, Richard",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Cho, Anjie",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Cunningham, Scott",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Deer, Thea Summer",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Monaghan, Patricia",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Schumann, Walter",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Simmons, Robert",
-                            "insc_offs": "algn_y_up_23"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_tag": "Teacher",
-                            "insc_term": "Warner, Kathy",
-                            "insc_offs": "algn_y_up_23"
-                        }
-                    ]
                 }
             ]
         },
@@ -2090,9 +2127,9 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_sprt",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Spiritual Information</b></u>",
+                    "scion_id": "ls_000_cite_book_sprt_ls",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -2930,9 +2967,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Locational Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_lctn",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Locational Information</b></u>",
+                    "scion_id": "ls_000_cite_book_lctn_ls",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -3006,9 +3043,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Human Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_hmn",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Human Information</b></u>",
+                    "scion_id": "ls_000_cite_book_hmn_ls",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -3122,9 +3159,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_dgtl",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_book_dgtl_ls",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -3141,9 +3178,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Inhabitant Information</b></u>",
-                    "scion_id": "ls_000_cite_book_lst_hi",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Inhabitant Information</b></u>",
+                    "scion_id": "ls_000_cite_book_hi_ls",
                     "scions": [
                         {
                             "insc_typ1": "cite",
@@ -3276,8 +3313,8 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Books</b></i>) <i>of</i> <b><u>Nature Information</b></u>",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Books</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
                     "scion_id": "ls_000_cite_book_lst_nn",
                     "scions": [
                         {
@@ -3385,9 +3422,9 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Courses</b></i>) <i>of</i> <b><u>Digital Information</b></u>",
-                    "scion_id": "ls_000_cite_cors_lst_dgtl",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Courses</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_cors_dgtl_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3411,9 +3448,9 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Monographs</b></i>) <i>of</i> <b><u>Spiritual Information</b></u>",
-                    "scion_id": "ls_000_cite_mngr_lst",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Monographs</b></i>) <i>relating to</i> <b><u>Spiritual Information</b></u>",
+                    "scion_id": "ls_000_cite_mngr_ls",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -3481,9 +3518,9 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_dgtl",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Digital Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_dgtl_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3552,9 +3589,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Inhabitant Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_hi",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Inhabitant Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_hi_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3592,9 +3629,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Human Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_hmn",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Human Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_hmn_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3610,9 +3647,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Locational Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_lctn",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Locational Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_lctn_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3678,9 +3715,27 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_nn",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Mathematics Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_math_ls",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://kabbalahstudent.com/the-magic-of-137/"}],
+                            "cite_auth": [{"name": "Phillips, Billy"}],
+                            "cite_ttl": "The Magic of 137",
+                            "cite_site": "Billy Phillips Kabbalah Student",
+                            "cite_date": "2011, June 10"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Nature Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_nn_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3736,9 +3791,9 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> (<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Spiritual Information</b></u>",
-                    "scion_id": "ls_000_cite_wbpg_ls_sprt",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "(<b><i>Web Pages</b></i>) <i>relating to</i> <b><u>Spiritual Information</b></u>",
+                    "scion_id": "ls_000_cite_wbpg_sprt_ls",
                     "scions": [
                         {
                             "insc_tag": "Web Page",
@@ -3790,6 +3845,16 @@
                             "cite_link": [{"link": "https://www.joyvernon.com/"}],
                             "cite_auth": [{"name": "Vernon, Joy"}],
                             "cite_ttl": "Joy Vernon Astrology"
+                        },
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://kabbalahstudent.com/the-magic-of-137/"}],
+                            "cite_auth": [{"name": "Phillips, Billy"}],
+                            "cite_ttl": "The Magic of 137",
+                            "cite_site": "Billy Phillips Kabbalah Student",
+                            "cite_date": "2011, June 10"
                         },
                         {
                             "insc_tag": "Web Page",

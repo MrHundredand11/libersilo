@@ -81,6 +81,31 @@
             "drct_id": "SCNC",
             "drct_ttl": "Science around 'The Number 137'",
             "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_scnc"
+        },
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "Resources around 'The Number 137'",
+            "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Web Pages</b></u>&nbsp; <i>relating to</i>&nbsp; (<b><i>137</b></i>)",
+                    "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_rsrc_wbpg_ls",
+                    "scions": [
+                        {
+                            "insc_tag": "Web Page",
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "cite_link": [{"link": "https://kabbalahstudent.com/the-magic-of-137/"}],
+                            "cite_auth": [{"name": "Phillips, Billy"}],
+                            "cite_ttl": "The Magic of 137",
+                            "cite_site": "Billy Phillips Kabbalah Student",
+                            "cite_date": "2011, June 10"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,86 @@
+{
+    "ls_id": "LS-MMM-ND-0100s-0130s-0137",
+    "ls_ttl": "The Number 137",
+    "ls_url": "/ls/mmm/nd/0100s/0130s/0137.json",
+    "scion_id": "ls_mmm_nd_0100s_0130s_0137",
+    "scions": [
+        {
+            "drct_id": "MATH",
+            "drct_ttl": "Mathematics around 'The Number 137'",
+            "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_math"
+        },
+        {
+            "drct_id": "GMTR",
+            "drct_ttl": "Gematria around 'The Number 137'",
+            "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_gmtr"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Number 137'",
+            "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Biblical Appearances</b></u>&nbsp; <i>relating to</i>&nbsp; (<b><i>137</b></i>)",
+                    "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_luls_bbl_appr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Amram, the father of Moses, lived 137 years."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Ishmael lived 137 years."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Levi lived 137 years."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "137 in the Gematria of \"The Cohen & The Levites\"."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "137 in the Generations of Noah."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "137 in the Descendants of Adam."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "137 in the Number of Letters in the Torah"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "137 in the Length of Moses' Tabernacle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "SCNC",
+            "drct_ttl": "Science around 'The Number 137'",
+            "scion_id": "ls_mmm_nd_0100s_0130s_0137_000_scnc"
+        }
+    ]
+}

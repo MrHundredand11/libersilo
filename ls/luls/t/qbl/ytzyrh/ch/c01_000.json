@@ -36,7 +36,14 @@
                         },
                         {
                             "insc_term": "Thompson & Marson Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_thompsonmarson"
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_thompsonmarson",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\n<b>Chapter One</b>\n\n<span class='font_sitka'>1. In thirty-two mysterious paths of Wisdom,&nbsp;<b>Yah</b>, Eternal of Hosts [<b>Yod-Vav-Yod</b>], God of Israel, Living&nbsp;<b>Elohim</b>, Almighty God, High and Extolled, Dwelling in Eternity, Holy Be His Name, engraved and created His world in three&nbsp;<b>Sefarim</b>: in&nbsp;<b>writing</b>,&nbsp;<b>number</b>, and&nbsp;<b>word</b>. Ten&nbsp;<b>Sefirot</b>&nbsp; out of nothing, twenty-two foundation letters, three mothers, seven doubles, and twelve simples.</span>\n]"
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Bill Heidrick Translation",

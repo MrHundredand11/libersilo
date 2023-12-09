@@ -1,0 +1,50 @@
+{
+    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C01-000",
+    "ls_ttl": "Ch 01 of The Sepher Yetzirah",
+    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c01/000.json",
+    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts around 'Chapter 01'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts",
+            "scions": [
+                {
+                    "insc_typ1": "brn",
+                    "insc_typ2": "twgs",
+                    "insc_ttl": "<b><u>[Translations]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl",
+                    "scions": [
+                        {
+                            "insc_term": "Isidor Kalisch Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_isidorkalisch"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_aryehkaplan"
+                        },
+                        {
+                            "insc_term": "Knut Sterling Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_knutsterling",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\n<b>CHAPTER I</b>\n\n\t<b>1. In thirty-two mysterious paths of wisdom did the Lord write,&nbsp;<i>the Lord of Hosts, the God of Israel, the Living Elohim, and King of the Universe, the Almighty, Merciful, and Gracious God; He is great and exalted and eternally dwelling in the Height, His name is holy, He is exalted and holy</i>. He created His Universe by the three forms of expression: Numbers, Letters, and Words."
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Thompson & Marson Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_thompsonmarson"
+                        },
+                        {
+                            "insc_term": "Bill Heidrick Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000_txts_trnsl_i_billheidrick"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

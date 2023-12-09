@@ -2133,10 +2133,10 @@
                             "ls_type": "=>"
                         },
                         {
-                            "ls_id": "LS-LULS-TRDN-QBL",
+                            "ls_id": "LS-LULS-T-QBL",
                             "ls_ttl": "Qabalistic Scriptures + Spirituality",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_trdn_qbl",
+                            "scion_id": "ls_luls_t_qbl",
                             "scions": [
                                 {
                                     "ls_id": "LS-LULS-TRDN-QBL-BHYR",
@@ -2155,12 +2155,19 @@
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH",
+                                    "ls_id": "LS-LULS-T-QBL-YTzYRH",
                                     "ls_ttl": "The Sepher Yetzirah",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/trdn/qbl/ytzyrh/",
-                                    "scion_id": "ls_luls_trdn_qbl_ytzyrh",
+                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/",
+                                    "scion_id": "ls_luls_t_qbl_ytzyrh",
                                     "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C01",
+                                            "ls_ttl": "Chapter 01 of The Sepher Yetzirah",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c01_000.json",
+                                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000"
+                                        },
                                         {
                                             "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL",
                                             "ls_ttl": "Line Upon Line for The Sepher Yetzirah",

@@ -85,19 +85,28 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>[Translations]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)",
-                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_lst",
+                    "insc_ttl": "<b>[<u>Hebrew Texts</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_hbrwtxts_lst",
                     "scions": [
                         {
-                            "insc_term": "Hebrew Text"
-                        },
+                            "insc_term": "Aryeh Kaplan Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_hbrwtxts_lst_i_aryehkaplan"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>English Translations</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_engtrnsl_lst",
+                    "scions": [
                         {
                             "insc_term": "Aryeh Kaplan Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_trnsl_i_aryehkaplan"
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_engtrnsl_lst_i_aryehkaplan"
                         },
                         {
                             "insc_term": "Isidor Kalisch Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_trnsl_i_isidorkalisch",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_engtrnsl_lst_i_isidorkalisch",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -108,7 +117,7 @@
                         },
                         {
                             "insc_term": "Bill Heidrick Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_trnsl_i_billheidrick",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_engtrnsl_lst_i_billheidrick",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -119,12 +128,12 @@
                         },
                         {
                             "insc_term": "Amy M. Wall Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_trnsl_i_amymwall",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01_v01_000_txts_engtrnsl_lst_i_amymwall",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "quot",
-                                    "insc_cntn": "<span class='styl_insc_quot_headr'><b>Verse 1:1 Thirty-Two Paths of Wisdom</b></span><br>\n\n\t<i>In 32 paths of wisdom, did Yah, Lord of Hosts, God of Israel, Living God, King of the Universe, Almighty God, Merciful and Gracious, High and Exalted, Eternal, Whose Name is Holy, create the universe with three methods [Sepharim]: numbers, letters and ther expression.</i>"
+                                    "insc_cntn": "<br><span class='styl_insc_quot_headr'><b>Verse 1:1 Thirty-Two Paths of Wisdom</b></span><br>\n\n\t<i>In 32 paths of wisdom, did Yah, Lord of Hosts, God of Israel, Living God, King of the Universe, Almighty God, Merciful and Gracious, High and Exalted, Eternal, Whose Name is Holy, create the universe with three methods [Sepharim]: numbers, letters and ther expression.</i>"
                                 }
                             ]
                         }

@@ -362,7 +362,7 @@ function gen_Insc(insc_i, scion) {
                     insc_cntn.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${scion.insc_cntn}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
                     insc_prtr.append(insc_pntr, insc_cntn);
                     insc_pntr.classList.add('styl_pntr_bg');
-                    insc_scns.classList.add('algn_x_lf_53');
+                    insc_scns.classList.add('styl_scns_quot_bg');
                     break;
 
                 case 'txt':

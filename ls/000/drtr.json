@@ -2162,11 +2162,20 @@
                                     "scion_id": "ls_luls_t_qbl_ytzyrh",
                                     "scions": [
                                         {
-                                            "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C01",
-                                            "ls_ttl": "Chapter 01 of The Sepher Yetzirah",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c01_000.json",
-                                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000"
+                                            "ls_id": "LS-LULS-T-QBL-YTzYRH-CH",
+                                            "ls_ttl": "Chapters of The Sepher Yetzirah",
+                                            "ls_type": "=>",
+                                            "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/",
+                                            "scion_id": "ls_luls_t_qbl_ytzyrh_ch",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C01-000",
+                                                    "ls_ttl": "Chapter 01",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c01_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000"
+                                                }
+                                            ]
                                         },
                                         {
                                             "ls_id": "LS-LULS-T-QBL-YTzYRH-VS",
@@ -2179,77 +2188,77 @@
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V01-000",
                                                     "ls_ttl": "Chapter 01 Verse 01",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v01/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v01_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000"
                                                 },
                                                 {
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V02-000",
                                                     "ls_ttl": "Chapter 01 Verse 02",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v02/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v02_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v02_000"
                                                 },
                                                 {
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V03-000",
                                                     "ls_ttl": "Chapter 01 Verse 03",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v03/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v03_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v03_000"
                                                 },
                                                 {
-                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-LUL-C01V04",
-                                                    "ls_ttl": "Line Upon Line for Ch 01 Vs 04",
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V04-000",
+                                                    "ls_ttl": "Chapter 01 Verse 04",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/lul/c01v04.json",
-                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_lul_c01v04"
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v04_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v04_000"
                                                 },
                                                 {
-                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-LUL-C01V05",
-                                                    "ls_ttl": "Line Upon Line for Ch 01 Vs 05",
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V05-000",
+                                                    "ls_ttl": "Chapter 01 Verse 05",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/lul/c01v05.json",
-                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_lul_c01v05"
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v05_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v05_000"
                                                 },
                                                 {
-                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-LUL-C01V06",
-                                                    "ls_ttl": "Line Upon Line for Ch 01 Vs 06",
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V06-000",
+                                                    "ls_ttl": "Chapter 01 Verse 06",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/lul/c01v06.json",
-                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_lul_c01v06"
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v06_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v06_000"
                                                 },
                                                 {
-                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-LUL-C01V07",
-                                                    "ls_ttl": "Line Upon Line for Ch 01 Vs 07",
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V07-000",
+                                                    "ls_ttl": "Chapter 01 Verse 07",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/lul/c01v07.json",
-                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_lul_c01v07"
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v07_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v07_000"
                                                 },
                                                 {
-                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-LUL-C01V08",
-                                                    "ls_ttl": "Line Upon Line for Ch 01 Vs 08",
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V08-000",
+                                                    "ls_ttl": "Chapter 01 Verse 08",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/lul/c01v08.json",
-                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_lul_c01v08"
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v08_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v08_000"
                                                 },
                                                 {
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V09-000",
                                                     "ls_ttl": "Chapter 01 Verse 09",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v09/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v09_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v09_000"
                                                 },
                                                 {
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V10-000",
                                                     "ls_ttl": "Chapter 01 Verse 10",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v10/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v10_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v10_000"
                                                 },
                                                 {
                                                     "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V11-000",
                                                     "ls_ttl": "Chapter 01 Verse 11",
                                                     "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v11/000.json",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v11_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v11_000"
                                                 }
                                             ]

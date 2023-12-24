@@ -154,6 +154,14 @@
     margin-left: 47px;
 }
 
+.styl_insc_quot_headr {
+    white-space: normal;
+    font-family: cambria;
+    font-size: 41px;
+    display: inline-block;
+    text-align: center;
+}
+
 .styl_insc_itrt_001 {
     font-family: georgia;
     font-size: 23px;

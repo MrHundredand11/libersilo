@@ -1,0 +1,53 @@
+{
+    "ls_id": "LS-LULS-T-QBL-YTzYRH-000",
+    "ls_ttl": "The Sepher Yetzirah",
+    "ls_url": "/ls/luls/t/qbl/ytzyrh/000.json",
+    "scion_id": "ls_luls_t_qbl_ytzyrh_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'The Sepher Yetzirah'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_000_000"
+        },
+        {
+            "drct_id": "CNCP",
+            "drct_ttl": "Concepts around 'The Sepher Yetzirah'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_000_cncp"
+        },
+        {
+            "drct_id": "NMBR",
+            "drct_ttl": "Numbers around 'The Sepher Yetzirah'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_000_nmbr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Numbers</u>]<b>&nbsp; <i>directly mentioned in</i>&nbsp; (<b><i>The Sepher Yetzirah</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_000_nmbr_drctmnt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr",
+                            "insc_nmbr": "32"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr",
+                            "insc_nmbr": "22"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "nmbr",
+                            "insc_nmbr": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "PTRN",
+            "drct_ttl": "Patterns around 'The Sepher Yetzirah'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_000_ptrn"
+        }
+    ]
+}

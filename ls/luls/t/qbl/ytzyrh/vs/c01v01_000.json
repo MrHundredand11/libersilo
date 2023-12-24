@@ -1,0 +1,73 @@
+{
+    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V02-000",
+    "ls_ttl": "Chapter 01 Verse 02",
+    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v02_000.json",
+    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v02_000",
+    "scions": [
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts around 'Ch 01 Vs 02'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v02_000_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Translations]</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v02_000_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        },
+                        {
+                            "insc_term": "Bill Heidrick Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v02_000_txts_trnsl_i_billheidrick",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\n<b>SECTION 2.</b>\n\n<span class='font='sitka'>\tThe ten Sephiroth out of nothing out of nothing is analogous to that of the ten fingers <i>{and toes}</i> of human body, five parallel to five, and in the center of which is the covenant with the only One <i>{between the hands this is the tongue. Between the feet this is the circumcised penis or the broken hymen}</i> by the word of the tongue and the rite of Abraham.</span>\n]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 02'",
+            "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<span class='styl_stm_ttl'><b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 02</i></b>)</span>",
+                    "scion_id": "ls_luls_qbl_ytzyrh_lul_c01v02_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Ten Sephiroth"
+                        },
+                        {
+                            "insc_term": "Of Nothingness"
+                        },
+                        {
+                            "insc_term": "22 Foundation Letters"
+                        },
+                        {
+                            "insc_term": "3 Mothers"
+                        },
+                        {
+                            "insc_term": "7 Doubles"
+                        },
+                        {
+                            "insc_term": "12 Elementals"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

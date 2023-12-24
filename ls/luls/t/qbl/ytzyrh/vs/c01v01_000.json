@@ -63,14 +63,7 @@
                         },
                         {
                             "insc_term": "Aryeh Kaplan Translation",
-                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_trnsl_i_aryehkaplan",
-                            "scions": [
-                                {
-                                    "insc_typ1": "insc",
-                                    "insc_typ2": "quot",
-                                    "insc_cntn": "\n<b>SECTION 1.</b>\n\n\tYah, the Lord of Hosts, the living God, King of the Universe, Omnipotent, All-Kind and Merciful, Supreme and Extolled, who is Eternal, Sublime and Most-Holy, ordained (formed) and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: 1) S'for&nbsp;סִפָר&nbsp;; 2) Sippur&nbsp;סִפוּר&nbsp;; and 3) Sapher סֵפֶר which are in Him one and the same. They consist of a decade out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: 1) three אִמוֹת mothers, fundamental letters or first elements; 2) seven double; and 3) twelve simple consonants.\n"
-                                }
-                            ]
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_trnsl_i_aryehkaplan"
                         },
                         {
                             "insc_term": "Isidor Kalisch Translation",
@@ -79,7 +72,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "quot",
-                                    "insc_cntn": "<span class='font_cambria'><b>SECTION 1.</b></span>\n\n\tYah, the Lord of Hosts, the living God, King of the Universe, Omnipotent, All-Kind and Merciful, Supreme and Extolled, who is Eternal, Sublime and Most-Holy, ordained (formed) and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: 1) S'for&nbsp;סִפָר&nbsp;; 2) Sippur&nbsp;סִפוּר&nbsp;; and 3) Sapher סֵפֶר which are in Him one and the same. They consist of a decade out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: 1) three אִמוֹת mothers, fundamental letters or first elements; 2) seven double; and 3) twelve simple consonants.\n"
+                                    "insc_cntn": "<span class='font_cambria'><b>SECTION 1.</b></span>\n\n\tYah, the Lord of Hosts, the living God, King of the Universe, Omnipotent, All-Kind and Merciful, Supreme and Extolled, who is Eternal, Sublime and Most-Holy, ordained (formed) and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: 1) S'for&nbsp;סִפָר&nbsp;; 2) Sippur&nbsp;סִפוּר&nbsp;; and 3) Sapher סֵפֶר which are in Him one and the same. They consist of a decade out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: 1) three אִמוֹת mothers, fundamental letters or first elements; 2) seven double; and 3) twelve simple consonants."
                                 }
                             ]
                         },
@@ -90,7 +83,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "quot",
-                                    "insc_cntn": "<span class='font_cambria'><b>SECTION 1.</b></span>\n\n\tYah, Jehovah of hosts, the living Elohim, King of the Universe, Omnipotent, All-King and Merciful, Supreme and Extolled, Who is Eternal, Sublime and Most-Holy, formed and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: S'for, Sippur and Sapher <i>{<b>ספור</b>, <b>ספר</b> and <b>ספר</b>: These angelic names mean: Numbers, Letters and Words}</i> which are in Him one and the same. They consist of ten Sehpiroth out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: Three Mothers, fundamental letters or first elements; Seven Double; and Twelve Simple consonants.\n"
+                                    "insc_cntn": "<span class='font_cambria'><b>SECTION 1.</b></span><span>\n\n\tYah, Jehovah of hosts, the living Elohim, King of the Universe, Omnipotent, All-King and Merciful, Supreme and Extolled, Who is Eternal, Sublime and Most-Holy, formed and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: S'for, Sippur and Sapher <i>{<b>ספור</b> ,<b>ספר</b> and <b>ספר</b>: These angelic names mean: Numbers, Letters and Words}</i> which are in Him one and the same. They consist of ten Sehpiroth out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: Three Mothers, fundamental letters or first elements; Seven Double; and Twelve Simple consonants.</span>"
                                 }
                             ]
                         },
@@ -101,7 +94,7 @@
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "quot",
-                                    "insc_cntn": "<span class='font_cambria'><b>Verse 1:1 Thirty-Two Paths of Wisdom</b></span><i>In 32 paths of wisdom, did Yah, Lord of Hosts, God of Israel, Living God, King of the Universe, Almighty God, Merciful and Gracious, High and Exalted, Eternal, Whose Name is Holy, create the universe with three methods [Sepharim]: numbers, letters and ther expression.</i>\n"
+                                    "insc_cntn": "<span class='font_cambria'><b>Verse 1:1 Thirty-Two Paths of Wisdom</b></span><i>In 32 paths of wisdom, did Yah, Lord of Hosts, God of Israel, Living God, King of the Universe, Almighty God, Merciful and Gracious, High and Exalted, Eternal, Whose Name is Holy, create the universe with three methods [Sepharim]: numbers, letters and ther expression.</i>"
                                 }
                             ]
                         }

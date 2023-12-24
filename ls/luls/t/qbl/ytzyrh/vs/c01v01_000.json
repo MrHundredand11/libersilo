@@ -7,14 +7,14 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'Ch 01 Vs 01'",
-            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_000",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_tag": "Teachings",
-                    "insc_ttl": "<b><u>Teachings</b></u> <i>of</i> (<b><i>Ch 01 Vs 01</b></i>)",
-                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_teach",
+                    "insc_ttl": "<b><u>[Teachings]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_000_teach",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -55,7 +55,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>[Translations]</b></u> <i>of</i> (<b><i>Ch 01 Vs 01</b></i>)",
+                    "insc_ttl": "<b><u>[Translations]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)",
                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_lst",
                     "scions": [
                         {
@@ -161,6 +161,18 @@
                             "insc_term": "With three books"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "drct_id": "WORK",
+            "drct_ttl": "Working with Ch 01 Vs 01",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_work",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>[Suggestions]</b></u>&nbsp; <i>for working with</i>&nbsp; (<b><i>Ch 01 Vs 01</b></i>)"
                 }
             ]
         }

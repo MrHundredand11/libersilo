@@ -1,0 +1,146 @@
+{
+    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V01",
+    "ls_ttl": "Line Upon Line for Ch 01 Vs 01",
+    "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v01/000.json",
+    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'Ch 01 Vs 01'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_tag": "Teachings",
+                    "insc_ttl": "<b><u>Teachings</b></u> <i>of</i> (<b><i>Ch 01 Vs 01</b></i>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_teach",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_pntr": "=>",
+                            "insc_cntn": "This first Verse teaches us that <b>the universe was create by the&nbsp;<span class='styl_insc_trms_div_grg'>One God</span>&nbsp;who is known by many Names</b> and that He used&nbsp;<span class='styl_insc_trms_nmbr_inl_00'>32</span>&nbsp;\"<span class='font_sitka'><b><i>Paths</b></i></span>\" or <b>tools</b> in the creative process.",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "These&nbsp;<span class='font_sitka'><b><i>tools</b></i></span>&nbsp;have various means by which they may be employed."
+                                },
+                                {
+                                    "insc_typ1": "flow",
+                                    "insc_typ2": "chut",
+                                    "insc_chut": "||"
+                                },
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "Ten of the 32 Paths are <b>the Numbers 1 through 10</b>, symbolized in <b>the Ten Sephiroth</b>."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "TXTS",
+            "drct_ttl": "Texts around 'Ch 01 Vs 01'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_lst",
+                    "scions": [
+                        {
+                            "insc_term": "Hebrew Text"
+                        },
+                        {
+                            "insc_term": "Aryeh Kaplan Translation"
+                        },
+                        {
+                            "insc_term": "Isidor Kalisch Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_trnsl_i_isidorkalisch",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\n<b>SECTION 1.</b>\n\n<span class='font='sitka'>\tYah, the Lord of Hosts, the living God, King of the Universe, Omnipotent, All-Kind and Merciful, Supreme and Extolled, who is Eternal, Sublime and Most-Holy, ordained (formed) and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: 1) S'for&nbsp;סִפָר&nbsp;; 2) Sippur&nbsp;סִפוּר&nbsp;; and 3) Sapher סֵפֶר which are in Him one and the same. They consist of a decade out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: 1) three אִמוֹת mothers, fundamental letters or first elements; 2) seven double; and 3) twelve simple consonants.</span>\n]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'Ch 01 Vs 01'",
+            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Key Words + Phrases</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)",
+                    "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_luls_lst",
+                    "scions": [
+                        {
+                            "insc_term": "With 32"
+                        },
+                        {
+                            "insc_term": "Paths"
+                        },
+                        {
+                            "insc_term": "Mystical"
+                        },
+                        {
+                            "insc_term": "Wisdom"
+                        },
+                        {
+                            "insc_term": "Engraved"
+                        },
+                        {
+                            "insc_term": "Engraved Yah"
+                        },
+                        {
+                            "insc_term": "Yah"
+                        },
+                        {
+                            "insc_term": "Yah, the Lord..."
+                        },
+                        {
+                            "insc_term": "The Lord of Hosts"
+                        },
+                        {
+                            "insc_term": "God of Israel"
+                        },
+                        {
+                            "insc_term": "The Living God"
+                        },
+                        {
+                            "insc_term": "King of the Universe"
+                        },
+                        {
+                            "insc_term": "El Shaddai"
+                        },
+                        {
+                            "insc_term": "Merciful and Gracious"
+                        },
+                        {
+                            "insc_term": "High and Exalted"
+                        },
+                        {
+                            "insc_term": "With three books"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "ls_id": "LS-LULS-TRDN-QBL-YTzYRH-LUL-C01V01",
-    "ls_ttl": "Line Upon Line for Ch 01 Vs 01",
+    "ls_id": "LS-LULS-T-QBL-YTzYRH-VS-C01V01-000",
+    "ls_ttl": "Chapter 01 Verse 01",
     "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/c01v01/000.json",
     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000",
     "scions": [
@@ -11,7 +11,7 @@
             "scions": [
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brnch",
+                    "insc_typ2": "brn",
                     "insc_tag": "Teachings",
                     "insc_ttl": "<b><u>Teachings</b></u> <i>of</i> (<b><i>Ch 01 Vs 01</b></i>)",
                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_teach",
@@ -55,7 +55,7 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Texts + Translations</b></u> <i>of</i> (<i><b>Ch 01 Vs 01</i></b>)",
+                    "insc_ttl": "<b><u>[Translations]</b></u> <i>of</i> (<b><i>Ch 01 Vs 01</b></i>)",
                     "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_lst",
                     "scions": [
                         {
@@ -72,6 +72,17 @@
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
                                     "insc_cntn": "[\n<b>SECTION 1.</b>\n\n<span class='font='sitka'>\tYah, the Lord of Hosts, the living God, King of the Universe, Omnipotent, All-Kind and Merciful, Supreme and Extolled, who is Eternal, Sublime and Most-Holy, ordained (formed) and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: 1) S'for&nbsp;סִפָר&nbsp;; 2) Sippur&nbsp;סִפוּר&nbsp;; and 3) Sapher סֵפֶר which are in Him one and the same. They consist of a decade out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: 1) three אִמוֹת mothers, fundamental letters or first elements; 2) seven double; and 3) twelve simple consonants.</span>\n]"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Bill Heidrick Translation",
+                            "scion_id": "ls_luls_t_qbl_ytzyrh_vs_c01v01_000_txts_trnsl_i_billheidrick",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\n<b>SECTION 1.</b>\n\n<span class='font='sitka'>\tYah, Jehovah of hosts, the living Elohim, King of the Universe, Omnipotent, All-King and Merciful, Supreme and Extolled, Who is Eternal, Sublime and Most-Holy, formed and created the Universe in thirty-two mysterious paths of wisdom by three Sepharim, namely: S'for, Sippur and Sapher <i>{<b>ספור</b>, <b>ספר</b> and <b>ספר</b>: These angelic names mean: Numbers, Letters and Words}</i> which are in Him one and the same. They consist of ten Sehpiroth out of nothing and of twenty-two fundamental letters. He divided the twenty-two consonants into three divisions: Three Mothers, fundamental letters or first elements; Seven Double; and Twelve Simple consonants.</span>\n]"
                                 }
                             ]
                         }

@@ -2162,8 +2162,15 @@
                                     "scion_id": "ls_luls_t_qbl_ytzyrh",
                                     "scions": [
                                         {
+                                            "ls_id": "LS-LULS-T-QBL-YTzYRH-000",
+                                            "ls_ttl": "OverView",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/t/qbl/ytzyrh/000.json",
+                                            "scion_id": "ls_luls_t_qbl_ytzyrh_000"
+                                        },
+                                        {
                                             "ls_id": "LS-LULS-T-QBL-YTzYRH-CH",
-                                            "ls_ttl": "Chapters of The Sepher Yetzirah",
+                                            "ls_ttl": "Chapters",
                                             "ls_type": "=>",
                                             "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/",
                                             "scion_id": "ls_luls_t_qbl_ytzyrh_ch",
@@ -2174,12 +2181,40 @@
                                                     "ls_type": "+>",
                                                     "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c01_000.json",
                                                     "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c01_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C02-000",
+                                                    "ls_ttl": "Chapter 02",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c02_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c02_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C03-000",
+                                                    "ls_ttl": "Chapter 03",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c03_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c03_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C04-000",
+                                                    "ls_ttl": "Chapter 04",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c04_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c04_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-T-QBL-YTzYRH-CH-C05-000",
+                                                    "ls_ttl": "Chapter 05",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/qbl/ytzyrh/ch/c05_000.json",
+                                                    "scion_id": "ls_luls_t_qbl_ytzyrh_ch_c05_000"
                                                 }
                                             ]
                                         },
                                         {
                                             "ls_id": "LS-LULS-T-QBL-YTzYRH-VS",
-                                            "ls_ttl": "Verses of The Sepher Yetzirah",
+                                            "ls_ttl": "Verses",
                                             "ls_type": "=>",
                                             "ls_url": "/ls/luls/t/qbl/ytzyrh/vs/",
                                             "scion_id": "ls_luls_t_qbl_ytzyrh_vs",

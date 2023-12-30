@@ -1945,22 +1945,24 @@
                             "scion_id": "ls_luls_apoc"
                         },
                         {
-                            "ls_id": "LS-LULS-BBL",
-                            "ls_ttl": "Books of The Bible",
+                            "ls_id": "LS-LULS-T-BBL",
+                            "ls_ttl": "The Holy Bible",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_bbl",
+                            "scion_id": "ls_luls_t_bbl",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-BBL-000",
+                                    "ls_id": "LS-LULS-T-BBL-000",
                                     "ls_ttl": "Overview of 'The Holy Bible'",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/bbl/000.json",
-                                    "scion_id": "ls_luls_bbl_000"
+                                    "ls_url": "/ls/luls/t/bbl/000.json",
+                                    "scion_id": "ls_luls_t_bbl_000"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-BBL-BPRB",
+                                    "ls_id": "LS-LULS-T-BBL-PRB",
                                     "ls_ttl": "Biblical Parables",
-                                    "ls_type": "=>"
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/t/bbl/prb/",
+                                    "scion_id": "ls_luls_t_bbl_prb"
                                 },
                                 {
                                     "ls_id": "LS-LULS-BBL-EVD",
@@ -2031,7 +2033,23 @@
                                             ]
                                         }
                                     ]
-                                }  
+                                },
+                                {
+                                    "ls_id": "LS-LULS-BBL-TK",
+                                    "ls_ttl": "TimeKeeper for 'The Holy Bible'",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/t/bbl/tk/",
+                                    "scion_id": "ls_luls_t_bbl_tk",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-BBL-TK-70WK",
+                                            "ls_ttl": "The 70 Weeks",
+                                            "ls_type": "=>",
+                                            "ls_url": "/ls/luls/t/bbl/tk/70wk/000.json",
+                                            "scion_id": "ls_luls_t_bbl_tk_70wk"
+                                        }
+                                    ]
+                                }
                             ]
                         },
                         {

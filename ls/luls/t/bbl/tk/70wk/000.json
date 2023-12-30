@@ -1,0 +1,86 @@
+{
+    "ls_id": "LS-LULS-T-BBL-TK-70WK-000",
+    "ls_ttl": "The 70 Weeks",
+    "ls_url": "/ls/luls/t/bbl/tk/70wk/000.json",
+    "scion_id": "ls_luls_t_bbl_tk_70wk_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'The 70 Weeks'",
+            "scion_id": "ls_luls_t_bbl_tk_70wk_000_000",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Explanations</u>]</b>&nbsp; <i>around the</i>&nbsp; (<b><i>70 Weeks</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_tk_70wk_000_000_expl",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "Daniel was told that God had decreed \"seventy-sevens\" upon the nation of Israel and upon the city of Jerusalem. During this time God would \"...finish transgression, to put an end to sin, to atone for wickedness, to bring in everlasting righteousness, to seal up vision and prophecy and to anoint the most holy\" (Daniel 9:24 NIV)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names around 'The 70 Weeks'",
+            "scion_id": "ls_luls_t_bbl_tk_70wk_000_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>All Names</u>]</b>&nbsp; <i>around the</i>&nbsp; (<b><i>70 Weeks</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_tk_70wk_000_name_all",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "The 70 Weeks"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "The 70 Weeks of Daniel"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Seventy Sevens"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "Quotes around 'The 70 Weeks'",
+            "scion_id": "ls_luls_t_bbl_tk_70wk_000_quot",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Assorted Quotes</u>]</b>&nbsp; <i>around the</i>&nbsp; (<b><i>70 Weeks</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_tk_70wk_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot",
+                            "insc_cntn": "<span class='styl_insc_quot_headr'>A Divine Timetable</span><br><br><span>Daniel was told</span>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "STRC",
+            "drct_ttl": "Structure of 'The 70 Weeks'",
+            "scion_id": "ls_luls_t_bbl_tk_70wk_000_strc"
+        }
+    ]
+}

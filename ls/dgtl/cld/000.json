@@ -1,6 +1,53 @@
 {
     "ls_id": "LS-DGTL-CLD-000",
-    "ls_ttl": "Cloud Systems",
+    "ls_ttl": "Cloud Computing",
     "ls_url": "/ls/dgtl/cld/000.json",
-    "scion_id": "ls_dgtl_cld_000"
+    "scion_id": "ls_dgtl_cld_000",
+    "scions": [
+        {
+            "drct_id": "SECR",
+            "drct_ttl": "Security around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_secr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Security Concepts</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_secr_cncp",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Identity + Access Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security Access Controls"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Public Key Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security and Key Management also MFA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Network Segmentation"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

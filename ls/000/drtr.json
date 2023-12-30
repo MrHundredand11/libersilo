@@ -123,7 +123,7 @@
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CLD-000",
-                            "ls_ttl": "Overview of 'Cloud Systems'",
+                            "ls_ttl": "Cloud Computing",
                             "ls_type": "+>",
                             "ls_url": "/ls/dgtl/cld/000.json",
                             "scion_id": "ls_dgtl_cld_000"

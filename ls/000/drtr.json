@@ -2044,9 +2044,67 @@
                                         {
                                             "ls_id": "LS-LULS-BBL-TK-70WK",
                                             "ls_ttl": "The 70 Weeks",
-                                            "ls_type": "=>",
+                                            "ls_type": "+>",
                                             "ls_url": "/ls/luls/t/bbl/tk/70wk/000.json",
                                             "scion_id": "ls_luls_t_bbl_tk_70wk"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-TK-7BF",
+                                            "ls_ttl": "The 7 Biblical Feasts",
+                                            "ls_type": "=>",
+                                            "ls_url": "/ls/luls/t/bbl/tk/7bf/",
+                                            "scion_id": "ls_luls_t_bbl_tk_7bf",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F01-000",
+                                                    "ls_ttl": "The Feast of Passover (Chag Pesach)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f01/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f01_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F02-000",
+                                                    "ls_ttl": "The Feast of Unleavened Bread (Chag HaMatzot)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f02/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f02_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F03-000",
+                                                    "ls_ttl": "The Feast of Firstfruits (Chag Bikkurim)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f03/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f03_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F04-000",
+                                                    "ls_ttl": "The Feast of Weeks (Chag Shavuot)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f04/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f04_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F05-000",
+                                                    "ls_ttl": "The Feast of Trumpets (Rosh Hashanah)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f05/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f05_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F06-000",
+                                                    "ls_ttl": "The Day of Atonement (Yom Kippur)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f06/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f06_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-7BF-F07-000",
+                                                    "ls_ttl": "The Feast of Tabernacles (Chag Sukkot)",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/7bf/f07/000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_7bf_f07_000"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

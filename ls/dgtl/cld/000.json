@@ -5,6 +5,86 @@
     "scion_id": "ls_dgtl_cld_000",
     "scions": [
         {
+            "drct_id": "MDLS",
+            "drct_ttl": "Models around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_mdls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Types</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Computing Models</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs",
+                    "scions": [
+                        {
+                            "insc_term": "Cloud Service Models"
+                        },
+                        {
+                            "insc_term": "Cloud Deployment Models",
+                            "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Deployment Models</u>]</b>&nbsp; <i>for</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_lst",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Public Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Private Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Community Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Hybrid Cloud"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>Selecting</b>&nbsp; <i>a</i>&nbsp; (<b><i>Deployment Model</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_slct"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Ways of Thinking</u>]</b>&nbsp; <i>about</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_wythnk"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Comparison Table</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_tbl_cmpr"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Explorations</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_explr"
+                                }
+
+                            ]
+                        },
+                        {
+                            "insc_term": "Cloud Expense Models"
+                        }
+                    ]
+                }
+            ]
+        },{
             "drct_id": "SECR",
             "drct_ttl": "Security around 'Cloud Computing'",
             "scion_id": "ls_dgtl_cld_000_secr",

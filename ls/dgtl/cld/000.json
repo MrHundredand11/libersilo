@@ -94,7 +94,7 @@
                 },
                 {
                     "insc_typ1": "stm",
-                    "insc_typ2": "brn",
+                    "insc_typ2": "lst_exp",
                     "insc_ttl": "<b>[<u>Troubleshooting Scenarios</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
                     "scion_id": "ls_dgtl_cld_000_trbl_scnros_expnd",
                     "scions": [

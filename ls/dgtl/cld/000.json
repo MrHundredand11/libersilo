@@ -48,6 +48,74 @@
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "TRBL",
+            "drct_ttl": "Troubleshooting around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_trbl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Common Trouble Types</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_trbl_types_cmmn_list",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Deployment Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Connectivity Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Performance Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Automation & Orchestration Issues + Troubles"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Troubleshooting Scenarios</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_trbl_scnros_expnd",
+                    "scions": [
+                        {
+                            "insc_term": "Cloud Security Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Deployment Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Connectivity Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Performance Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Automation & Orchestration Troubleshooting Scenarios"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -79,7 +79,30 @@
                             ]
                         },
                         {
-                            "insc_term": "Cloud Expense Models"
+                            "insc_term": "Cloud Expense Models",
+                            "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_xpns",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Expense Models</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_xpns_lst",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Capital Expenditure"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Operational Expenditure"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

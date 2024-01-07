@@ -1789,6 +1789,13 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_tag": "Teacher",
+                            "insc_term": "Rätsch, Christian",
+                            "insc_offs": "algn_y_up_23"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_tag": "Teacher",
                             "insc_term": "Rawn, Jonathan David",
                             "insc_offs": "algn_y_up_23"
                         },
@@ -3340,6 +3347,16 @@
                             "cite_pbls": "Llewellyn Publications",
                             "cite_isbn13": "978-0-87542-122-3",
                             "cite_isbn10": "0-87542-122-9"
+                        },
+                        {
+                            "insc_typ1": "cite",
+                            "insc_typ2": "md_00",
+                            "insc_offs": "algn_y_up_23",
+                            "cite_ttl": "The Dictionary of Sacred and Magical Plants",
+                            "cite_auth": [{"name": "Rätsch, Christian"}],
+                            "cite_date": "1992",
+                            "cite_pbls": "Penton Media, Inc.",
+                            "cite_isbn10": "0-87436-716-6"
                         },
                         {
                             "insc_typ1": "cite",

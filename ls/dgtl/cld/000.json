@@ -11,7 +11,7 @@
         },
         {
             "drct_id": "QCCL",
-            "drct_ttl": "Quick Concept Context Lists for 'Cloud Computing'",
+            "drct_ttl": "Quick Concept Context Lists",
             "scion_id": "ls_dgtl_cld_000_qccl",
             "scions": [
                 {

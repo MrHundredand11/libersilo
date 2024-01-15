@@ -5,6 +5,47 @@
     "scion_id": "ls_dgtl_cld_000",
     "scions": [
         {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_000"
+        },
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists for 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Models</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_qccl_mdls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Cloud Service Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Service Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "txt",
+                                            "insc_cntn": "<span class='font_georgia'><b>IaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>I</b></span>nfrastructure&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "MDLS",
             "drct_ttl": "Models around 'Cloud Computing'",
             "scion_id": "ls_dgtl_cld_000_mdls",

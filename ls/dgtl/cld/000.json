@@ -75,6 +75,71 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Cloud Deployment Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Deployment Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Public Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Private Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Community Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Hybrid Cloud"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Cloud Expense Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_chut": "001",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Expense Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Capital Expenditure",
+                                            "insc_extr": [1, 1, "CapEx"]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Operational Expenditure",
+                                            "insc_extr": [1, 1, "OpEx"]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

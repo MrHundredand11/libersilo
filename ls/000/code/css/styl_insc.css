@@ -24,6 +24,13 @@
     text-wrap: balance;
 }
 
+.styl_insc_cxet {
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    text-wrap: balance;
+}
+
 .styl_insc_txt_undr {
     text-decoration: underline;
     display: inline-block;

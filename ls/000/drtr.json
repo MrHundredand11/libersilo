@@ -116,7 +116,7 @@
                 },
                 {
                     "ls_id": "LS-DGTL-CLD",
-                    "ls_ttl": "Cloud Systems",
+                    "ls_ttl": "Cloud Computing",
                     "ls_type": "=>",
                     "ls_url": "/ls/dgtl/cld/",
                     "scion_id": "ls_dgtl_cld",

@@ -42,6 +42,14 @@
     font-family: sitka;
 }
 
+.styl_trm_xl {
+    font-weight: bold;
+    font-family: cambria;
+    font-size: 43px;
+    display: inline-block;
+    white-space: pre;
+}
+
 .styl_trm_bg {
     font-weight: bold;
     font-family: cambria;

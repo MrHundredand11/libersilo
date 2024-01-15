@@ -34,42 +34,42 @@
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>IaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>I</b></span>nfrastructure&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>PaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>P</b></span>latform&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>SaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>S</b></span>oftware&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>BaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>B</b></span>ackend&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>FaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>F</b></span>unction&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>DBaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>D</b></span>ata<span class='font_georgia'><b>b</b></span>ase&nbsp;&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>DRaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>D</b></span>isaster&nbsp;<span class='font_georgia'><b>R</b></span>ecovery&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         },
                                         {
                                             "insc_typ1": "insc",
-                                            "insc_typ2": "txt",
+                                            "insc_typ2": "cxet",
                                             "insc_cntn": "<span class='font_georgia'><b>XaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>Anything</b></span>&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
                                         }
                                     ]

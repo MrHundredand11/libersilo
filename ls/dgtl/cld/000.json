@@ -23,12 +23,15 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "term_styl": "bg",
+                            "term_styl": "xl",
                             "insc_term": "Cloud Service Models",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_cntn": "<b>[<u>Service Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
                                     "scions": [
@@ -79,12 +82,15 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "term_styl": "bg",
+                            "term_styl": "xl",
                             "insc_term": "Cloud Deployment Models",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
                                     "insc_pntr": ">>",
                                     "insc_cntn": "<b>[<u>Deployment Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
                                     "scions": [
@@ -115,12 +121,13 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "term_styl": "bg",
+                            "term_styl": "xl",
                             "insc_term": "Cloud Expense Models",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
                                     "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
                                     "insc_chut": "001",
                                     "insc_sld": "|\\_",
                                     "insc_pntr": ">>",

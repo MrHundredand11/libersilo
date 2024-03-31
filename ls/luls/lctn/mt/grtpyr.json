@@ -54,7 +54,14 @@
                     "scions": [
                         {
                             "insc_term": "Arabian Nights",
-                            "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt_bin"
+                            "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt__i_arabiannights",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tIn the <b>Arabian Nights</b>, the <i>Great Pyramid</i> was reputed to have <b>magical qualities</b> and to contain <b>extraordinary treasures</b>.\t]"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -65,7 +72,14 @@
                     "scion_id": "ls_luls_lct_mt_grtpyr_luls_jdc_txt_bin",
                     "scions": [
                         {
-                            "insc_term": "Josephus's Antiquities II:91"
+                            "insc_term": "Josephus's Antiquities II:91",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tThey [the Egyptian taskmasters] set them also to build pyramids.\t]"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -83,7 +97,28 @@
                     "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_bin",
                     "scions": [
                         {
-                            "insc_term": "Does Isaiah 19:19-20 refer to it?"
+                            "insc_term": "Does Isaiah 19:19-20 refer to it?",
+                            "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_i_doesIs191920refertoit",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "bin",
+                                    "insc_ttl": "<b><u>[Characteristics]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Isa 19:19-20</b></i>)",
+                                    "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_i_doesIs191920refertoit_char",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "It shall speak in the \"End Time\"."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Located in Middle of the Land and at the Border"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Who designed it?"

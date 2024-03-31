@@ -1740,8 +1740,8 @@
                             "ls_id": "LS-LCTN-MT-GRTPYR",
                             "ls_ttl": "The Great Pyramid",
                             "ls_type": "+>",
-                            "ls_url": "/ls/lctn/mt/grtpyr.json",
-                            "scion_id": "ls_lctn_mt_grtpyr"
+                            "ls_url": "/ls/lctn/mt/gpyr_000.json",
+                            "scion_id": "ls_lctn_mt_gpyr_000"
                         },
                         {
                             "ls_id": "LS-LCTN-MT-SHSTA",

@@ -27,7 +27,73 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'The Great Pyramid'",
-            "scion_id": "ls_luls_lct_mt_grtpyr_luls"
+            "scion_id": "ls_luls_lct_mt_grtpyr_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Biblical Scriptures]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_bbl_sc_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Isaiah 19:19-20"
+                        },
+                        {
+                            "insc_term": "Job 38:4-6"
+                        },
+                        {
+                            "insc_term": "Matthew 21:42"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Arabic Texts]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Arabian Nights",
+                            "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt_bin"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Judaic Texts]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_jdc_txt_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Josephus's Antiquities II:91"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QSTN",
+            "drct_ttl": "Questions around 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_qstn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Important Questions]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Does Isaiah 19:19-20 refer to it?"
+                        },
+                        {
+                            "insc_term": "Who designed it?"
+                        },
+                        {
+                            "insc_term": "What is its purpose?"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

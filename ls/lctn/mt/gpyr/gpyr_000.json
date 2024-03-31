@@ -1,0 +1,134 @@
+{
+    "ls_id": "LS-LULS-LCT-MT-GRTPYR",
+    "ls_ttl": "The Great Pyramid",
+    "ls_url": "/ls/luls/lct/mt/grtpyr.json",
+    "scion_id": "ls_luls_lct_mt_grtpyr",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "Overview of 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_000"
+        },
+        {
+            "drct_id": "MATH",
+            "drct_ttl": "Mathematics of 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_math"
+        },
+        {
+            "drct_id": "HIST",
+            "drct_ttl": "History of 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_hist"
+        },
+        {
+            "drct_id": "THRY",
+            "drct_ttl": "Theories about 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_thry"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line for 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Biblical Scriptures]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_bbl_sc_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Isaiah 19:19-20"
+                        },
+                        {
+                            "insc_term": "Job 38:4-6"
+                        },
+                        {
+                            "insc_term": "Matthew 21:42"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Arabic Texts]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Arabian Nights",
+                            "scion_id": "ls_luls_lct_mt_grtpyr_luls_arb_txt__i_arabiannights",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tIn the <b>Arabian Nights</b>, the <i>Great Pyramid</i> was reputed to have <b>magical qualities</b> and to contain <b>extraordinary treasures</b>.\t]"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Judaic Texts]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_luls_jdc_txt_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Josephus's Antiquities II:91",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_cntn": "[\tThey [the Egyptian taskmasters] set them also to build pyramids.\t]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "QSTN",
+            "drct_ttl": "Questions around 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_grtpyr_qstn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>[Important Questions]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_bin",
+                    "scions": [
+                        {
+                            "insc_term": "Does Isaiah 19:19-20 refer to it?",
+                            "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_i_doesIs191920refertoit",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "bin",
+                                    "insc_ttl": "<b><u>[Characteristics]</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Isa 19:19-20</b></i>)",
+                                    "scion_id": "ls_luls_lct_mt_grtpyr_qstn_imp_i_doesIs191920refertoit_char",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "It shall speak in the \"End Time\"."
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Located in Middle of the Land and at the Border"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "Who designed it?"
+                        },
+                        {
+                            "insc_term": "What is its purpose?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

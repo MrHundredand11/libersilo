@@ -7,12 +7,37 @@
         {
             "drct_id": "000",
             "drct_ttl": "Overview of 'The Great Pyramid'",
-            "scion_id": "ls_luls_lct_mt_grtpyr_000"
+            "scion_id": "ls_luls_lct_mt_gpyr_000"
+        },
+        {
+            "drct_id": "NAME",
+            "drct_ttl": "Names around 'The Great Pyramid'",
+            "scion_id": "ls_luls_lct_mt_gpyr_name",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "bin",
+                    "insc_ttl": "<b><u>[Names]</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>The Great Pyramid</b></i>)",
+                    "scion_id": "ls_luls_lct_mt_gpyr_name_lst_bin",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Great Pyramid"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "An Altar to the Lord"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_id": "MATH",
             "drct_ttl": "Mathematics of 'The Great Pyramid'",
-            "scion_id": "ls_luls_lct_mt_grtpyr_math"
+            "scion_id": "ls_luls_lct_mt_gpyr_math"
         },
         {
             "drct_id": "HIST",

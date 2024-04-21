@@ -2035,142 +2035,143 @@
                                     ]
                                 },
                                 {
+                                    "ls_id": "LS-LULS-T-BBL-CYC",
+                                    "ls_ttl": "Biblical Cycles",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/luls/t/bbl/cyc/",
+                                    "scion_id": "ls_luls_t_bbl_cyc",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-BBL-CYC-000",
+                                            "ls_ttl": "Biblical Cycles",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/luls/t/bbl/cyc/cyc_000.json",
+                                            "scion_id": "ls_luls_t_bbl_cyc_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-T-BBL-CYCL",
+                                            "ls_ttl": "Cycle Instances",
+                                            "ls_type": "=>",
+                                            "ls_url": "/ls/luls/t/bbl/cyc/i/",
+                                            "scion_id": "ls_luls_t_bbl_cyc_i",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5TM",
+                                                    "ls_ttl": "The 3.5-Times Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/3_5tm/3_5tm_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_3_5tm_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5DY",
+                                                    "ls_ttl": "The 3.5-Day Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/3_5dy/3_5dy_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_3_5dy_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-7TM",
+                                                    "ls_ttl": "The 7-Times Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7tm/7tm_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_7tm_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-7DY",
+                                                    "ls_ttl": "The 7-Day Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7dy/7dy_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_7dy_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-40DY",
+                                                    "ls_ttl": "The 40-Day Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/40dy/40dy_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_40dy_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-40YR",
+                                                    "ls_ttl": "The 40-Year Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/40yr/40yr_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_40yr_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-70WK",
+                                                    "ls_ttl": "The 70-Week Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/70wk/70wk_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_70wk_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-70YR",
+                                                    "ls_ttl": "The 70-Year Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/70yr/70yr_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_70yr_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-360DY",
+                                                    "ls_ttl": "The 360-Day Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/360dy/360dy_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_360dy_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-430YR",
+                                                    "ls_ttl": "The 430-Year Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/430yr/430yr_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_430yr_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-490YR",
+                                                    "ls_ttl": "The 490-Year Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/490yr/490yr_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_490yr_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-2300TM",
+                                                    "ls_ttl": "The 2,300-Times Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2300tm/2300tm_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_2300tm_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520TM",
+                                                    "ls_ttl": "The 2,520-Times Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520tm/2520tm_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520tm_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520YR",
+                                                    "ls_ttl": "The 2,520-Year Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520yr/2520yr_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520yr_000"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-I-7000TM",
+                                                    "ls_ttl": "The 7,000 Times Cycle",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7000tm/7000tm_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i_7000tm_000"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "ls_id": "LS-LULS-BBL-TK",
                                     "ls_ttl": "TimeKeeper",
                                     "ls_type": "=>",
                                     "ls_url": "/ls/luls/t/bbl/tk/",
                                     "scion_id": "ls_luls_t_bbl_tk",
                                     "scions": [
-                                        {
-                                            "ls_id": "LS-LULS-T-BBL-TK-CYCL",
-                                            "ls_ttl": "Biblical Time Cycles",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/",
-                                            "scion_id": "ls_luls_t_bbl_tk_cycl",
-                                            "scions": [
-                                                {
-                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-000",
-                                                    "ls_ttl": "Biblical Time Cycles",
-                                                    "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/cycl_000.json",
-                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_000"
-                                                },
-                                                {
-                                                    "ls_id": "LS-LULS-T-BBL-TK-CYCL",
-                                                    "ls_ttl": "Cycle Instances",
-                                                    "ls_type": "=>",
-                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/i/",
-                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_i",
-                                                    "scions": [
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5TM",
-                                                            "ls_ttl": "The 3.5-Times Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/3_5tm/3_5tm_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_3_5tm_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5DY",
-                                                            "ls_ttl": "The 3.5-Day Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/3_5dy/3_5dy_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_3_5dy_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-7TM",
-                                                            "ls_ttl": "The 7-Times Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7tm/7tm_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_7tm_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-7DY",
-                                                            "ls_ttl": "The 7-Day Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7dy/7dy_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_7dy_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-40DY",
-                                                            "ls_ttl": "The 40-Day Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/40dy/40dy_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_40dy_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-40YR",
-                                                            "ls_ttl": "The 40-Year Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/40yr/40yr_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_40yr_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-70WK",
-                                                            "ls_ttl": "The 70-Week Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/70wk/70wk_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_70wk_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-70YR",
-                                                            "ls_ttl": "The 70-Year Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/70yr/70yr_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_70yr_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-360DY",
-                                                            "ls_ttl": "The 360-Day Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/360dy/360dy_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_360dy_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-430YR",
-                                                            "ls_ttl": "The 430-Year Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/430yr/430yr_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_430yr_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-490YR",
-                                                            "ls_ttl": "The 490-Year Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/490yr/490yr_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_490yr_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-2300TM",
-                                                            "ls_ttl": "The 2,300-Times Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2300tm/2300tm_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_2300tm_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520TM",
-                                                            "ls_ttl": "The 2,520-Times Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520tm/2520tm_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520tm_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520YR",
-                                                            "ls_ttl": "The 2,520-Year Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520yr/2520yr_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520yr_000"
-                                                        },
-                                                        {
-                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-7000TM",
-                                                            "ls_ttl": "The 7,000 Times Cycle",
-                                                            "ls_type": "+>",
-                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7000tm/7000tm_000.json",
-                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_7000tm_000"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
+                                        
                                         {
                                             "ls_id": "LS-LULS-BBL-TK-7BF",
                                             "ls_ttl": "The 7 Biblical Feasts",

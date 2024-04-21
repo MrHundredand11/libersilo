@@ -19,3 +19,7 @@
     display: inline-block;
     font-family: calibri;
 }
+
+.un_bold {
+    font-weight: normal;
+}

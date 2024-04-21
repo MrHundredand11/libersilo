@@ -2049,6 +2049,13 @@
                                             "scion_id": "ls_luls_t_bbl_tk_cycl",
                                             "scions": [
                                                 {
+                                                    "ls_id": "LS-LULS-BBL-TK-CYCL-000",
+                                                    "ls_ttl": "Biblical Time Cycles",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "/ls/luls/t/bbl/tk/cycl/cycl_000.json",
+                                                    "scion_id": "ls_luls_t_bbl_tk_cycl_000"
+                                                },
+                                                {
                                                     "ls_id": "LS-LULS-T-BBL-TK-CYCL",
                                                     "ls_ttl": "Cycle Instances",
                                                     "ls_type": "=>",

@@ -3,33 +3,86 @@
     "ls_ttl": "Biblical Cycles",
     "ls_url": "/ls/luls/t/bbl/cyc/cyc_000.json",
     "scion_id": "ls_luls_t_bbl_cyc_000",
-    "scion": [
+    "scions": [
         {
             "drct_id": "000",
-            "drct_ttl": "OverView of 'Biblical Cycles'",
+            "drct_ttl": "OverView around 'Biblical Cycles'",
             "scion_id": "ls_luls_t_bbl_cyc_000_000"
         },
         {
             "drct_id": "MSRS",
-            "drct_ttl": "Measures around 'Biblical Time Cycles'",
+            "drct_ttl": "Measures around 'Biblical Cycles'",
             "scion_id": "ls_luls_t_bbl_cyc_000_msrs"
         },
         {
             "drct_id": "CYCL",
-            "drct_ttl": "Cycles of 'Biblical Time'",
-            "scion_id": "ls_luls_t_bbl_tk_cyc_000_cycl",
+            "drct_ttl": "Cycles around 'The Holy Bible'",
+            "scion_id": "ls_luls_t_bbl_cyc_000_cycl",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Biblical Time Cycles</b></i>)",
-                    "scion_id": "ls_luls_t_bbl_cyc_000_cycl_bbl_mntns_lst",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Time Cycles</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_cyc_000_cycl_lst_cyc_time",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "The 3.5-Times Cycle"
                         },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 40-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 70-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 360-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 430-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 490-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,300-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,520-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7,000-Times Cycle"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Day Cycles</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_cyc_000_cycl_lst_cyc_day",
+                    "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",

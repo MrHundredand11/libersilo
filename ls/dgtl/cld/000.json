@@ -319,7 +319,80 @@
                         },
                         {
                             "insc_term": "Configuring & Deploying Cloud Compute Services",
-                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute"
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Benefits</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Compute</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute_o_bnft",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "dynamic performance improvement"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "automatic scaling"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "use only when required"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "test new hardware capabilities"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "evaluate new software"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "implement specialized processing"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "minimized expenditure"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Challenges</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Compute</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute_o_chllng",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "latency of results"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "learning new methodologies"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "understanding cloud architectures"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "understanding service provider options"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "insc_term": "Configuring & Deploying Cloud Container Services",

@@ -1,18 +1,18 @@
 {
-    "ls_id": "ls_luls_t_bbl_tk_cyc_000",
-    "ls_ttl": "Biblical Time Cycles",
-    "ls_url": "/ls/luls/t/bbl/tk/cyc/cyc_000.json",
-    "scion_id": "ls_luls_t_bbl_tk_cyc_000",
+    "ls_id": "ls_luls_t_bbl_cyc_000",
+    "ls_ttl": "Biblical Cycles",
+    "ls_url": "/ls/luls/t/bbl/cyc/cyc_000.json",
+    "scion_id": "ls_luls_t_bbl_cyc_000",
     "scion": [
         {
             "drct_id": "000",
-            "drct_ttl": "OverView of 'Biblical Time Cycles'",
-            "scion_id": "ls_luls_t_bbl_tk_cyc_000_000"
+            "drct_ttl": "OverView of 'Biblical Cycles'",
+            "scion_id": "ls_luls_t_bbl_cyc_000_000"
         },
         {
             "drct_id": "MSRS",
             "drct_ttl": "Measures around 'Biblical Time Cycles'",
-            "scion_id": "ls_luls_t_bbl_tk_cyc_000_msrs"
+            "scion_id": "ls_luls_t_bbl_cyc_000_msrs"
         },
         {
             "drct_id": "CYCL",
@@ -23,7 +23,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Biblical Time Cycles</b></i>)",
-                    "scion_id": "ls_luls_t_bbl_tk_cyc_000_cycl_bbl_mntns_lst",
+                    "scion_id": "ls_luls_t_bbl_cyc_000_cycl_bbl_mntns_lst",
                     "scions": [
                         {
                             "insc_typ1": "insc",

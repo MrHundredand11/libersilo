@@ -1,0 +1,549 @@
+{
+    "ls_id": "LS-DGTL-CLD-000",
+    "ls_ttl": "Cloud Computing",
+    "ls_url": "/ls/dgtl/cld/000.json",
+    "scion_id": "ls_dgtl_cld_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_000"
+        },
+        {
+            "drct_id": "QCCL",
+            "drct_ttl": "Quick Concept Context Lists",
+            "scion_id": "ls_dgtl_cld_000_qccl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Models</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_qccl_mdls",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "xl",
+                            "insc_term": "Cloud Service Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Service Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>IaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>I</b></span>nfrastructure&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>PaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>P</b></span>latform&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>SaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>S</b></span>oftware&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>BaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>B</b></span>ackend&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>FaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>F</b></span>unction&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>DBaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>D</b></span>ata<span class='font_georgia'><b>b</b></span>ase&nbsp;&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>DRaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>D</b></span>isaster&nbsp;<span class='font_georgia'><b>R</b></span>ecovery&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "cxet",
+                                            "insc_cntn": "<span class='font_georgia'><b>XaaS</b></span>&nbsp;=&nbsp;<span class='font_sitka'><span class='font_georgia'><b>Anything</b></span>&nbsp;<span class='font_georgia'><b>a</b></span>s&nbsp;<span class='font_georgia'><b>a</b></span>&nbsp;<span class='font_georgia'><b>S</b></span>ervice</span>"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "xl",
+                            "insc_term": "Cloud Deployment Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Deployment Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Public Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Private Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Community Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Hybrid Cloud"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "xl",
+                            "insc_term": "Cloud Expense Models",
+                            "scions": [
+                                {
+                                    "insc_typ1": "insc",
+                                    "insc_typ2": "txt",
+                                    "insc_styl": "styl_size_29px",
+                                    "insc_chut": "001",
+                                    "insc_sld": "|\\_",
+                                    "insc_pntr": ">>",
+                                    "insc_cntn": "<b>[<u>Expense Models</u>]</b>&nbsp; for&nbsp; (<b><i>Cloud Computing</b></i>) ::",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Capital Expenditure",
+                                            "insc_extr": [1, 1, "CapEx"]
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Operational Expenditure",
+                                            "insc_extr": [1, 1, "OpEx"]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "MDLS",
+            "drct_ttl": "Models around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_mdls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Types</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Computing Models</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs",
+                    "scions": [
+                        {
+                            "insc_term": "Cloud Service Models"
+                        },
+                        {
+                            "insc_term": "Cloud Deployment Models",
+                            "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Deployment Models</u>]</b>&nbsp; <i>for</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_lst",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Public Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Private Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Community Cloud"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Hybrid Cloud"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>Selecting</b>&nbsp; <i>a</i>&nbsp; (<b><i>Deployment Model</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_slct"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Ways of Thinking</u>]</b>&nbsp; <i>about</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_wythnk"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Comparison Table</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_tbl_cmpr"
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Explorations</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Deployment Models</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_dply_explr"
+                                }
+
+                            ]
+                        },
+                        {
+                            "insc_term": "Cloud Expense Models",
+                            "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_xpns",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Expense Models</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_mdls_types_twgs_i_xpns_lst",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Capital Expenditure"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Operational Expenditure"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "SECR",
+            "drct_ttl": "Security around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_secr",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Security Concepts</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_secr_cncp",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Identity + Access Management"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security Access Controls"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Public Key Infrastructure"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security and Key Management also MFA"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Network Segmentation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DPLY",
+            "drct_ttl": "Deployment of 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_dply",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Concepts</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Deployment</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp",
+                    "scions": [
+                        {
+                            "insc_term": "Provisioning of Cloud Resources",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_prvsncldrsrc"
+                        },
+                        {
+                            "insc_term": "<span class='un_bold'>Configuring & Deploying</span> Cloud Compute Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Benefits</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Compute Services</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute_o_bnft",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "dynamic performance improvement"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "automatic scaling"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "use only when required"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "test new hardware capabilities"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "evaluate new software"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "implement specialized processing"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "minimized expenditure"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Challenges</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Compute Services</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute_o_chllng",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "latency of results"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "learning new methodologies"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "understanding cloud architectures"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "understanding service provider options"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "<span class='un_bold'>Configuring & Deploying</span> Cloud Container Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_container"
+                        },
+                        {
+                            "insc_term": "<span class='un_bold'>Configuring & Deploying</span> Cloud Storage Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_storage",
+                            "scions": [
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Considerations</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Storage Services</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_storage_o_cnsdr",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Types of Cloud Storage"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Storage Tiering"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "IOPS & R/W"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "Storage Protocols"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "term_styl": "bg",
+                                            "insc_term": "RAID"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "insc_typ1": "stm",
+                                    "insc_typ2": "brn",
+                                    "insc_ttl": "<b>[<u>Types</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Cloud Storage Services</b></i>)",
+                                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_storage_o_types",
+                                    "scions": [
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Block Storage"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "File Storage"
+                                        },
+                                        {
+                                            "insc_typ1": "insc",
+                                            "insc_typ2": "trm",
+                                            "insc_term": "Object Storage"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "insc_term": "<span class='un_bold'>Configuring & Deploying</span> Cloud Networking Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_network"
+                        },
+                        {
+                            "insc_term": "Cloud Migrations",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_migrations"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "TRBL",
+            "drct_ttl": "Troubleshooting around 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_trbl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Common Trouble Types</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_trbl_types_cmmn_list",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Security Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Deployment Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Connectivity Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Performance Issues + Troubles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "term_styl": "bg",
+                            "insc_term": "Automation & Orchestration Issues + Troubles"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Troubleshooting Scenarios</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Computing</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_trbl_scnros_expnd",
+                    "scions": [
+                        {
+                            "insc_term": "Cloud Security Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Deployment Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Connectivity Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Performance Troubleshooting Scenarios"
+                        },
+                        {
+                            "insc_term": "Cloud Automation & Orchestration Troubleshooting Scenarios"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

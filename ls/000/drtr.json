@@ -2063,6 +2063,13 @@
                                                     "scion_id": "ls_luls_t_bbl_tk_cycl_i",
                                                     "scions": [
                                                         {
+                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5TM",
+                                                            "ls_ttl": "The 3.5-Times Cycle",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/3_5tm/3_5tm_000.json",
+                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_3_5tm_000"
+                                                        },
+                                                        {
                                                             "ls_id": "LS-LULS-BBL-TK-CYCL-I-3_5DY",
                                                             "ls_ttl": "The 3.5-Day Cycle",
                                                             "ls_type": "+>",
@@ -2133,22 +2140,36 @@
                                                             "scion_id": "ls_luls_t_bbl_tk_cycl_i_490yr_000"
                                                         },
                                                         {
+                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-2300TM",
+                                                            "ls_ttl": "The 2,300-Times Cycle",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2300tm/2300tm_000.json",
+                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_2300tm_000"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520TM",
+                                                            "ls_ttl": "The 2,520-Times Cycle",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520tm/2520tm_000.json",
+                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520tm_000"
+                                                        },
+                                                        {
                                                             "ls_id": "LS-LULS-BBL-TK-CYCL-I-2520YR",
                                                             "ls_ttl": "The 2,520-Year Cycle",
                                                             "ls_type": "+>",
                                                             "ls_url": "/ls/luls/t/bbl/tk/cycl/i/2520yr/2520yr_000.json",
                                                             "scion_id": "ls_luls_t_bbl_tk_cycl_i_2520yr_000"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-TK-CYCL-I-7000TM",
+                                                            "ls_ttl": "The 7,000 Times Cycle",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "/ls/luls/t/bbl/tk/cycl/i/7000tm/7000tm_000.json",
+                                                            "scion_id": "ls_luls_t_bbl_tk_cycl_i_7000tm_000"
                                                         }
                                                     ]
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-TK-70WK",
-                                            "ls_ttl": "The 70 Weeks",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/luls/t/bbl/tk/70wk/000.json",
-                                            "scion_id": "ls_luls_t_bbl_tk_70wk"
                                         },
                                         {
                                             "ls_id": "LS-LULS-BBL-TK-7BF",

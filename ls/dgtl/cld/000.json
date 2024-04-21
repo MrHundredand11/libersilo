@@ -256,7 +256,8 @@
                     ]
                 }
             ]
-        },{
+        },
+        {
             "drct_id": "SECR",
             "drct_ttl": "Security around 'Cloud Computing'",
             "scion_id": "ls_dgtl_cld_000_secr",
@@ -296,6 +297,45 @@
                             "insc_typ2": "trm",
                             "term_styl": "bg",
                             "insc_term": "Network Segmentation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "DPLY",
+            "drct_ttl": "Deployment of 'Cloud Computing'",
+            "scion_id": "ls_dgtl_cld_000_dply",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Concepts</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Cloud Deployment</b></i>)",
+                    "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp",
+                    "scions": [
+                        {
+                            "insc_term": "Provisioning of Cloud Resources",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_prvsncldrsrc"
+                        },
+                        {
+                            "insc_term": "Configuring & Deploying Cloud Compute Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_compute"
+                        },
+                        {
+                            "insc_term": "Configuring & Deploying Cloud Container Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_container"
+                        },
+                        {
+                            "insc_term": "Configuring & Deploying Cloud Storage Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_storage"
+                        },
+                        {
+                            "insc_term": "Configuring & Deploying Cloud Networking Services",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_cnfgdply_srvc_network"
+                        },
+                        {
+                            "insc_term": "Cloud Migrations",
+                            "scion_id": "ls_dgtl_cld_000_dply_c_lst_exp_i_migrations"
                         }
                     ]
                 }

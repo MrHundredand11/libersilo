@@ -53,6 +53,11 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "The 390-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "The 430-Times Cycle"
                         },
                         {
@@ -91,11 +96,6 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "The 7-Times Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
                             "insc_term": "The 7-Day Cycle"
                         },
                         {
@@ -106,22 +106,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "The 40-Year Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 70-Times Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 70-Week Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 70-Year Cycle"
+                            "insc_term": "The 70-Day Cycle"
                         },
                         {
                             "insc_typ1": "insc",
@@ -131,22 +116,55 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
+                            "insc_term": "The 390-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 430-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,520-Day Cycle"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Year Cycles</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_cyc_000_cycl_lst_cyc_year",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 3.5-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 40-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 70-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 390-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
                             "insc_term": "The 430-Year Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 490-Year Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 2,300-Times Cycle"
-                        },
-                        {
-                            "insc_typ1": "insc",
-                            "insc_typ2": "trm",
-                            "insc_term": "The 2,520-Times Cycle"
                         },
                         {
                             "insc_typ1": "insc",
@@ -156,7 +174,7 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "The 7,000-Times Cycle"
+                            "insc_term": "The 7,000-Year Cycle"
                         }
                     ]
                 }

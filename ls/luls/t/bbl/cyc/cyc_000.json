@@ -1,0 +1,136 @@
+{
+    "ls_id": "ls_luls_t_bbl_tk_cyc_000",
+    "ls_ttl": "Biblical Time Cycles",
+    "ls_url": "/ls/luls/t/bbl/tk/cyc/cyc_000.json",
+    "scion_id": "ls_luls_t_bbl_tk_cyc_000",
+    "scion": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "OverView of 'Biblical Time Cycles'",
+            "scion_id": "ls_luls_t_bbl_tk_cyc_000_000"
+        },
+        {
+            "drct_id": "MSRS",
+            "drct_ttl": "Measures around 'Biblical Time Cycles'",
+            "scion_id": "ls_luls_t_bbl_tk_cyc_000_msrs"
+        },
+        {
+            "drct_id": "CYCL",
+            "drct_ttl": "Cycles of 'Biblical Time'",
+            "scion_id": "ls_luls_t_bbl_tk_cyc_000_cycl",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; (<b><i>Biblical Time Cycles</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_tk_cyc_000_cycl_bbl_mntns_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 3.5-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 3.5-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 40-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 40-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 70-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 70-Week Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 70-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 360-Day Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 430-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 490-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,300-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,520-Times Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 2,520-Year Cycle"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The 7,000-Times Cycle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "Line Upon Line around 'Biblical Time Cycles'",
+            "scion_id": "ls_luls_t_bbl_tk_cyc_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Biblical Mentions</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Astrological Cycles</b></i>)",
+                    "scion_id": "ls_luls_t_bbl_tk_cyc_000_luls_bbl_mntns",
+                    "scions": [
+                        {
+                            "insc_term": "Jeremiah 31:35-36"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drct_id": "PRPH",
+            "drct_ttl": "Prophecy around 'Biblical Time Cycles'",
+            "scion_id": "ls_luls_t_bbl_tk_cyc_000_prph"
+        }
+    ]
+}

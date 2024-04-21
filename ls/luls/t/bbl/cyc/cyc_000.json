@@ -1,5 +1,5 @@
 {
-    "ls_id": "ls_luls_t_bbl_cyc_000",
+    "ls_id": "LS-LULS-T-BBL-CYC-000",
     "ls_ttl": "Biblical Cycles",
     "ls_url": "/ls/luls/t/bbl/cyc/cyc_000.json",
     "scion_id": "ls_luls_t_bbl_cyc_000",
@@ -111,14 +111,14 @@
         },
         {
             "drct_id": "LULS",
-            "drct_ttl": "Line Upon Line around 'Biblical Time Cycles'",
-            "scion_id": "ls_luls_t_bbl_tk_cyc_000_luls",
+            "drct_ttl": "Line Upon Line around 'Biblical Cycles'",
+            "scion_id": "ls_luls_t_bbl_cyc_000_luls",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b>[<u>Biblical Mentions</u>]</b>&nbsp; <i>of</i>&nbsp; (<b><i>Astrological Cycles</b></i>)",
-                    "scion_id": "ls_luls_t_bbl_tk_cyc_000_luls_bbl_mntns",
+                    "scion_id": "ls_luls_t_bbl_cyc_000_luls_bbl_mntns",
                     "scions": [
                         {
                             "insc_term": "Jeremiah 31:35-36"
@@ -129,8 +129,8 @@
         },
         {
             "drct_id": "PRPH",
-            "drct_ttl": "Prophecy around 'Biblical Time Cycles'",
-            "scion_id": "ls_luls_t_bbl_tk_cyc_000_prph"
+            "drct_ttl": "Prophecy around 'Biblical Cycles'",
+            "scion_id": "ls_luls_t_bbl_cyc_000_prph"
         }
     ]
 }

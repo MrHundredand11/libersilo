@@ -101,8 +101,48 @@
             ]
         },
         {
+            "drct_id": "LGND",
+            "drct_ttl": "Legend for 'Liber Silo'",
+            "scion_id": "ls_000_lgnd",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b>[<u>Introduction</u>]</b> <i>to the</i> (<b><i>Folder Structure</b></i>)",
+                    "scion_id": "ls_000_lgnd",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "000"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "IN"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "CN"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "TD"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "TYP\t\t\t[Types] of (<b><u>the topic</b></u>)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "NAME",
-            "drct_ttl": "Names + Titles of 'Liber Silo'",
+            "drct_ttl": "Names around 'Liber Silo'",
             "scion_id": "ls_000_name",
             "scions": [
                 {

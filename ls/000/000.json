@@ -119,17 +119,17 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "IN\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Instances</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
+                            "insc_term": "IN\t\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Instances</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "CN\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Concepts</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
+                            "insc_term": "CN\t\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Concepts</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "TD\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Traditions</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
+                            "insc_term": "TD\t\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Traditions</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
                         },
                         {
                             "insc_typ1": "insc",

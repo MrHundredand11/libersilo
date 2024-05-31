@@ -109,7 +109,7 @@
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_ttl": "<b>[<u>Introduction</u>]</b> <i>to the</i> (<b><i>Folder Structure</b></i>)",
-                    "scion_id": "ls_000_lgnd",
+                    "scion_id": "ls_000_lgnd_fldstc",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -135,6 +135,119 @@
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "insc_term": "TYP\t\t\t<span class='font_timesnewroman'><span class='un_bold'>[</span><u>Types</u><span class='un_bold'>] of (</span><b><i>the topic</b></i><span class='un_bold'>)</span></span>"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b>[<u>Parts</u>]</b> <i>of the</i> (<b><i>topic page</b></i>)",
+                    "scion_id": "ls_000_lgnd_tpcpg",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "000 = OverView of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ADVC = Advice of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "APPR = Appearances of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ASTR = Astrology of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "BLFS = Beliefs of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "CLNS = Cleansing of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "CNCP = Concepts of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "CNCR = Concerns of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "DPCT = Depictions of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "EVDN = Evidence of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "GLSS = Glossary of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "GMTR = Gematria of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "HLTH = Health of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "MATH = Mathematics of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "NAME = Names of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "QBLH = Qabalah of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "QCCL = Quick Concept Context Lists"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "QSTN = Questions of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "RTLS = Rituals of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "TKTK = TimeKeeper of & for & around '. . .'"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "VRNT = Variants of & for & around '. . .'"
                         }
                     ]
                 }

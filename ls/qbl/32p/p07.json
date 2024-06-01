@@ -1,24 +1,36 @@
 {
-    "ls_id": "LS-QBL-32P-P07",
+    "ls_id": "LS-QBL-32P-IN-P07-000",
     "ls_ttl": "The 7th Path",
-    "ls_url": "/ls/qbl/32p/p07.json",
-    "scion_id": "ls_qbl_32p_p07",
+    "ls_url": "/ls/qbl/32p/in/p07.json",
+    "scion_id": "ls_qbl_32p_in_p07_000",
     "scions": [
         {
             "drct_id": "000",
-            "drct_ttl": "Overview of 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_000"
+            "drct_ttl": "[OverView] of & for & around (The 7th Path)",
+            "scion_id": "ls_qbl_32p_in_p07_000_000"
+        },
+        {
+            "drct_id": "GLSS",
+            "drct_ttl": "[Glossary] of & for & around (The 7th Path)",
+            "scion_id": "ls_qbl_32p_in_p07_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Key Words + Phrases</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)"
+                }
+            ]
         },
         {
             "drct_id": "NAME",
-            "drct_ttl": "Names + Titles of 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_name",
+            "drct_ttl": "[Names] of & for & around (The 7th Path)",
+            "scion_id": "ls_qbl_32p_in_p07_000_name",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>List</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
-                    "scion_id": "ls_qbl_32p_p07_name_lst",
+                    "insc_ttl": "<b>{All-List}</b>&nbsp; of&nbsp; <b>[<u>Names</u>]</b>&nbsp; of&nbsp; (<b><i>Path 07</b></i>)",
+                    "scion_id": "ls_qbl_32p_in_p07_000_name_lst_all",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -45,15 +57,56 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; <b>[<u>Transliterations</u>]</b>&nbsp; of&nbsp; (<b><i>שכל נסתר</b></i>)",
+                    "scion_id": "ls_qbl_32p_in_p07_000_name_trnsltrtn_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ShKL NSThr"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Sekhel Nistar"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Shekel Nistar"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; <b>[<u>Translations</u>]</b>&nbsp; of&nbsp; (<b><i>שכל נסתר</b></i>)",
+                    "scion_id": "ls_qbl_32p_in_p07_000_name_trnsltn_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Hidden Intelligence"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "The Occult Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
                     "insc_ttl": "<b><u>Exploration</b></u>&nbsp; <i>of</i>&nbsp; <b><u>Names + Titles</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
-                    "scion_id": "ls_qbl_32p_p07_name_expl",
+                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
                             "term_styl": "bg",
                             "insc_term": "שכל נסתר",
-                            "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר",
+                            "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -63,7 +116,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Transliteration"],
                                     "insc_term": "ShKL NSThr",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_001"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_trnsltrt_001"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -72,7 +125,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Transliteration"],
                                     "insc_term": "Sekhel Nistar",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_002"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_trnsltrt_002"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -81,7 +134,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Transliteration"],
                                     "insc_term": "Shekel Nistar",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnsltrt_003"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_trnsltrt_003"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -91,7 +144,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Translation"],
                                     "insc_term": "The Hidden Intelligence",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnslt_001"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_trnslt_001"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -100,7 +153,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Translation"],
                                     "insc_term": "The Occult Intelligence",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_trnslt_002"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_trnslt_002"
                                 },
                                 {
                                     "insc_typ1": "insc",
@@ -110,7 +163,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Root"],
                                     "insc_term": "סתר",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_root_001",
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_root_001",
                                     "scions": [
                                         {
                                             "insc_typ1": "insc",
@@ -181,7 +234,7 @@
                                     "insc_pntr": ">>",
                                     "insc_stpl": [1, "Gematria"],
                                     "insc_cntn": "[MR]:[&nbsp;<span class='font_cambria'><b>300+20+30 + 50+60+400+200</b></span>&nbsp;]=&nbsp;<span class='font_georgia'><b>1060</b></span>",
-                                    "scion_id": "ls_qbl_32p_p07_name_expl_שכלנסתר_gmtr_001"
+                                    "scion_id": "ls_qbl_32p_in_p07_000_name_expl_שכלנסתר_gmtr_001"
                                 }
                             ]
                         }
@@ -192,21 +245,21 @@
         {
             "drct_id": "TXTS",
             "drct_ttl": "Texts + Translations of 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_txts",
+            "scion_id": "ls_qbl_32p_in_p07_000_txts",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
                     "insc_ttl": "<b><u>Texts + Translations</b></u>&nbsp; <i>of</i>&nbsp; (<b><i>Path 07</b></i>)",
-                    "scion_id": "ls_qbl_32p_p07_txts_lst",
+                    "scion_id": "ls_qbl_32p_in_p07_000_txts_lst",
                     "scions": [
                         {
                             "insc_term": "William Wynn Westcott Translation",
-                            "scion_id": "ls_qbl_32p_p07_txts_lst_wwwestcott"
+                            "scion_id": "ls_qbl_32p_in_p07_000_txts_lst_wwwestcott"
                         },
                         {
                             "insc_term": "Wade Coleman Translation",
-                            "scion_id": "ls_qbl_32p_p07_txts_lst_wcoleman",
+                            "scion_id": "ls_qbl_32p_in_p07_000_txts_lst_wcoleman",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -217,7 +270,7 @@
                         },
                         {
                             "insc_term": "Athanasius Kircher Commentary",
-                            "scion_id": "ls_qbl_32p_p07_txts_lst_akircher",
+                            "scion_id": "ls_qbl_32p_in_p07_000_txts_lst_akircher",
                             "scions": [
                                 {
                                     "insc_typ1": "insc",
@@ -233,7 +286,7 @@
         {
             "drct_id": "LULS",
             "drct_ttl": "Line Upon Line for 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_luls",
+            "scion_id": "ls_qbl_32p_in_p07_000_luls",
             "scions": [
                 {
                     "insc_typ1": "stm",
@@ -245,38 +298,38 @@
         {
             "drct_id": "QBLH",
             "drct_ttl": "Qabalah of 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_qblh",
+            "scion_id": "ls_qbl_32p_in_p07_000_qblh",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tree of Life</b></u>",
-                    "scion_id": "ls_qbl_32p_p07_qblh_otz"
+                    "scion_id": "ls_qbl_32p_in_p07_000_qblh_otz"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Cube of Space</b></u>",
-                    "scion_id": "ls_qbl_32p_p07_qblh_cube"
+                    "scion_id": "ls_qbl_32p_in_p07_000_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Tarot Arcana</b></u>",
-                    "scion_id": "ls_qbl_32p_p07_qblh_taro"
+                    "scion_id": "ls_qbl_32p_in_p07_000_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
                     "insc_ttl": "(<b><i>Path 07</b></i>)&nbsp; <i>and</i>&nbsp; <b><u>The Celestial Science</b></u>",
-                    "scion_id": "ls_qbl_32p_p07_qblh_astr"
+                    "scion_id": "ls_qbl_32p_in_p07_000_qblh_astr"
                 }
             ]
         },
         {
             "drct_id": "RLTN",
             "drct_ttl": "Relationships of 'The 7th Path'",
-            "scion_id": "ls_qbl_32p_p07_rltn",
+            "scion_id": "ls_qbl_32p_in_p07_000_rltn",
             "scions": [
                 {
                     "insc_typ1": "stm",

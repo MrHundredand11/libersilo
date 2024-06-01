@@ -6,15 +6,63 @@
     "scions": [
         {
             "drct_id": "NAME",
-            "drct_ttl": "Names + Titles of 'The Letter Qoph'",
-            "scion_id": "ls_qbl_aa_l19_name",
+            "drct_ttl": "[Names] of & for & around (The Letter Qoph)",
+            "scion_id": "ls_qbl_aa_l19_000_name",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
-                    "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Titles</b></u> <i>of</i> (<b><i>Qoph</b></i>)",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; <b>[<u>Hebrew Spellings</u>]</b>&nbsp; of&nbsp; (<b><i>קופ</b></i>)",
+                    "insc_tag": "Hebrew Spellings",
+                    "scion_id": "ls_qbl_aa_l19_000_name_hbrwspll_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "(קופ) QVP"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; <b>[<u>Transliterations</u>]</b>&nbsp; of&nbsp; (<b><i>קופ</b></i>)",
+                    "insc_tag": "Transliterations",
+                    "scion_id": "ls_qbl_aa_l19_000_name_trnsltrtn_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "QVP"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Qoph"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Qof"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kof"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Kuf"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brnch",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of&nbsp; <b>[<u>Titles</u>]</b>&nbsp; of&nbsp; (<b><i>קופ</b></i>)",
                     "insc_tag": "Titles",
-                    "scion_id": "ls_qbl_aa_l19_name_lst_ttl",
+                    "scion_id": "ls_qbl_aa_l19_000_name_ttl_lst",
                     "scions": [
                         {
                             "insc_typ1": "insc",
@@ -52,85 +100,85 @@
         },
         {
             "drct_id": "QBLH",
-            "drct_ttl": "Qabalah of 'Qoph'",
-            "scion_id": "ls_qbl_aa_l19_qblh",
+            "drct_ttl": "[Qabalah] of & for & around (Qoph)",
+            "scion_id": "ls_qbl_aa_l19_000_qblh",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Correspondences",
                     "insc_ttl": "<b><u>List</b></u> <i>of</i> <b><u>Qabalistic Correspondences</b></u> of (<b><i>Qoph</b></i>)",
-                    "scion_id": "ls_qbl_aa_l19_qblh_000_crrsp"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_000_crrsp"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Arcana Alphabet",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Arcana Alphabet</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_aa"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_aa"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Astrological Cycles",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Astrological Cycles</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_alg"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_alg"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Cube of Space",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Cube of Space</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_cube"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_cube"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Directions",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Directions</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_drct"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_drct"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Double Letters",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Double Letters</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_dblltr"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_dblltr"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Modes of Consciousness",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Modes of Consciousness</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_cnscs"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_cnscs"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "Qabalistic Intelligences",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Qabalistic Intelligences</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_intl"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_intl"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tarot Arcana",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Tarot Arcana</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_taro"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_taro"
                 },
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brnch",
                     "insc_tag": "The Tree of Life",
                     "insc_ttl": "(<b><i>Qoph</b></i>) <i>and</i> <b><u>The Tree of Life</b></u>",
-                    "scion_id": "ls_qbl_aa_l19_qblh_otz"
+                    "scion_id": "ls_qbl_aa_l19_000_qblh_otz"
                 }
             ]
         },
         {
             "drct_id": "CNTR",
             "drct_ttl": "Natural Correspondence of 'Qoph'",
-            "scion_id": "ls_qbl_aa_l19_cntr"
+            "scion_id": "ls_qbl_aa_l19_000_cntr"
         }
     ]
 }

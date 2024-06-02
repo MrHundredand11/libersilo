@@ -1,6 +1,6 @@
 {
     "ls_id": "LS-TK-000",
-    "ls_tll": "TimeKeeper",
+    "ls_ttl": "TimeKeeper",
     "ls_url": "/ls/tk/000/tk_000.json",
     "scion_id": "ls_tk_000",
     "scions": [
@@ -10,6 +10,50 @@
             "scion_id": "ls_tk_000_000"
         },
         {
+            "drct_id": "GLSS",
+            "drct_ttl": "[Glossary] of & for & around (TimeKeeper)",
+            "scion_id": "ls_tk_000_glss"
+        },
+        {
+            "drct_id": "CNCP",
+            "drct_ttl": "[Concepts] of & for & around (TimeKeeper)",
+            "scion_id": "ls_tk_000_cncp",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of &nbsp; <b>[<u>Core Concepts</u>]</b>&nbsp; around&nbsp; (<b><i>TimeKeeper</i></b>)",
+                    "scion_id": "ls_tk_cncp_crcncp_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Dispensations",
+                            "term_styl": "bg"
+                        }
+                    ]
+                },
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>{List}</b>&nbsp; of &nbsp; <b>[<u>General Concepts</u>]</b>&nbsp; around&nbsp; (<b><i>Time</i></b>)",
+                    "scion_id": "ls_tk_cncp_c_time_gncnp_lst",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Cycles"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "Punctuality"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_id": "LULS",
             "drct_ttl": "[Line Upon Line] of & for & around (TimeKeeper)",
             "scion_id": "ls_tk_000_luls",
@@ -17,27 +61,59 @@
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "lst_exp",
-                    "insc_ttl": "<b>[<u>Biblical Words</u>]</b>&nbsp; around&nbsp; (<b><i>Time</i></b>)",
+                    "insc_ttl": "<b>{All-List}</b>&nbsp; of&nbsp; <b>[<u>Biblical Words</u>]</b>&nbsp; around&nbsp; (<b><i>Time</i></b>)",
                     "scion_id": "ls_tk_000_luls_bbl_wrds",
                     "scions": [
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "עת"
+                            "insc_term": "עת",
+                            "term_styl": "bg"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "בעת"
+                            "insc_term": "בעת",
+                            "term_styl": "bg"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_term": "יום"
+                            "insc_term": "יום",
+                            "term_styl": "bg"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "ביום",
+                            "term_styl": "bg"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "היום",
+                            "term_styl": "bg"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "כיום",
+                            "term_styl": "bg"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "מיום",
+                            "term_styl": "bg"
                         }
                     ]
                 }
             ]
+        },
+        {
+            "drct_id": "QUOT",
+            "drct_ttl": "[Quotes] of & for & around (TimeKeeper)",
+            "scion_id": "ls_tk_000_quot"
         }
     ]
 }

@@ -1,0 +1,43 @@
+{
+    "ls_id": "LS-TK-000",
+    "ls_tll": "TimeKeeper",
+    "ls_url": "/ls/tk/000/tk_000.json",
+    "scion_id": "ls_tk_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "[OverView] of & for & around (TimeKeeper)",
+            "scion_id": "ls_tk_000_000"
+        },
+        {
+            "drct_id": "LULS",
+            "drct_ttl": "[Line Upon Line] of & for & around (TimeKeeper)",
+            "scion_id": "ls_tk_000_luls",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "lst_exp",
+                    "insc_ttl": "<b>[<u>Biblical Words</u>]</b>&nbsp; around&nbsp; (<b><i>Time</i></b>)",
+                    "scion_id": "ls_tk_000_luls_bbl_wrds",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "עת"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "בעת"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_term": "יום"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

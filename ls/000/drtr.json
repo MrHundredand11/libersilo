@@ -520,6 +520,68 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-MG",
+                    "ls_ttl": "Digital Asset Management",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/mg/",
+                    "scion_id": "ls_dgtl_mg",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-MG-IN",
+                            "ls_ttl": "[Instances] of (Digital Asset Management)",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/mg/in/",
+                            "scion_id": "ls_dgtl_mg_in",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DCM",
+                                    "ls_ttl": "Document & Content Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/dcm/",
+                                    "scion_id": "ls_dgtl_mg_in_dcm"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DTM",
+                                    "ls_ttl": "Data Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/dtm/",
+                                    "scion_id": "ls_dgtl_mg_in_dtm"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DVM",
+                                    "ls_ttl": "Device Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/dvm/",
+                                    "scion_id": "ls_dgtl_mg_in_dvm",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-MG-IN-DVM-INTN",
+                                            "ls_ttl": "MS Intune",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/mg/in/dvm/intn/intn_000.json",
+                                            "scion_id": "ls_dgtl_mg_in_dvm/intn"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-IAM",
+                                    "ls_ttl": "Identity & Access Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/iam/",
+                                    "scion_id": "ls_dgtl_mg_in_iam"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-NTM",
+                                    "ls_ttl": "Network Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/ntm/",
+                                    "scion_id": "ls_dgtl_mg_in_ntm"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-DGTL-NW",
                     "ls_ttl": "Networking",
                     "ls_type": "=>",

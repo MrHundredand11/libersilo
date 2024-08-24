@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-LULS-TD-BBL-SC-OT-IN-B_01-000",
+    "ls_ttl": "The Book of Genesis",
+    "ls_url": "/ls/luls/td/bbl/sc/ot/in/b_01/000/b_01-000.json",
+    "scion_id": "ls_luls_td_bbl_sc_ot_in_b_01_000",
+    "scions": [
+        {
+            "drct_id": "000",
+            "drct_ttl": "[OverView] of & for & around (The Book of Genesis)",
+            "scion_id": "ls_luls_td_bbl_sc_ot_in_b_01_000"
+        }
+    ]
+}

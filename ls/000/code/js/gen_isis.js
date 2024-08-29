@@ -96,7 +96,7 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
         .catch((error) =>
             console.error("Unable to fetch data:", error));
     
-    rsrc_bit.innerHTML = insc_rsrc;
+    rsrc_bit.innerHTML = rsrc_obj.vid_title;
     return rsrc_bit;
 }
 

@@ -75,7 +75,7 @@ function gen_Info(insc_i, insc_id, info) {
 
 function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
-    var test_path = './ls/000/rsrc/vd/dgtl/testestestest.json';
+    var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
     rsrc_bit.innerHTML = insc_rsrc;
     var rsrc_path = `${insc_path}`;
     fetch(test_path)

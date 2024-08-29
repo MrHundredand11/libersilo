@@ -78,16 +78,16 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
     
     var rsrc_path = `${insc_path}`;
-    var rsrc_obj;
+    var rsrc_obj = grabby(test_path)
 
-    fetch(test_path)
-        .then(res => res.json())
-        .then(data => {
-            rsrc_obj = data;
-        })
-        .then(() => {
-            console.log(rsrc_obj);
-        })
+    // fetch(test_path)
+    //     .then(res => res.json())
+    //     .then(data => {
+    //         rsrc_obj = data;
+    //     })
+    //     .then(() => {
+    //         console.log(rsrc_obj);
+    //     })
     console.log(rsrc_obj)
 
     // fetch(test_path)
@@ -128,3 +128,11 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     }
     return;
 }*/
+
+async function grabby(path) {
+    let obj;
+    const res = await fetch(path)
+    obj = await res.json();
+    console.log(obj)
+    return obj;
+}

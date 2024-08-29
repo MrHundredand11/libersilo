@@ -262,6 +262,11 @@ function gen_Insc(insc_i, scion) {
             }
 
             switch (scion.insc_typ2) {
+                case 'vid':
+                    var insc_rsrc_vid = gen_rsrc_vid(insc_id, scion.insc_path, scion.insc_rsrc);
+                    insc_prtr.append(insc_rsrc_vid);
+                    break;
+
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);
                     insc_prtr.style['align-items'] = 'center';

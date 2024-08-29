@@ -516,6 +516,31 @@
                                     "scion_id": "ls_dgtl_isec_thrt_mlwr"
                                 }
                             ]
+                        },
+                        {
+                            "ls_id": "LS-DGTL-SEC-VLN",
+                            "ls_ttl": "Security Vulnerabilities",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/dgtl/sec/vln/",
+                            "scion_id": "ls_dgtl_sec_vln",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-SEC-VLN-IN",
+                                    "ls_ttl": "[Instances] of (Security Vulnerabilities)",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/sec/vln/in/",
+                                    "scion_id": "ls_dgtl_sec_vln_in",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-SSRF-000",
+                                            "ls_ttl": "Server Side Request Forgery",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/sec/vln/in/ssrf/000/ssrf_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_ssrf_000"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },

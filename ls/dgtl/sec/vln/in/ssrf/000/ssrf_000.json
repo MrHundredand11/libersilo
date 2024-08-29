@@ -1,0 +1,29 @@
+{
+    "ls_id": "LS-DGTL-SEC-VLN-IN-SSRF-000",
+    "ls_ttl": "Server-Side Request Forgery",
+    "ls_url": "/ls/dgtl/sec/vln/in/ssrf/ssrf_000.json",
+    "scion_id": "ls_dgtl_sec_vln_in_ssrf_000",
+    "scions": [
+        {
+            "drct_id": "RSRC",
+            "drct_ttl": "[Resources] of & for & around (SSRF)",
+            "scion_id": "ls_dgtl_sec_vln_in_ssrf_000_rsrc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Videos</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>SSRF</b></i>)",
+                    "scion_id": "ls_dgtl_sec_vln_in_ssrf_000_rsrc_vids",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "vid",
+                            "insc_path": "/ls/000/rsrc/vd/dgtl/",
+                            "insc_rsrc": "ih5R_c16bKc"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-DGTL-SEC-VLN-000",
+    "ls_ttl": "Digital Security Vulnerabilities",
+    "ls_url": "/ls/dgtl/sec/vln/000/vln_000.json",
+    "scion_id": "ls_dgtl_sec_vln_000",
+    "scions": [
+        {
+            "drct_id": "LIST",
+            "drct_ttl": "[Lists] of & for & around (Digital Security Vulnerabilities)",
+            "scion_id": "ls_dgtl_sec_vln_000_list"
+        }
+    ]
+}

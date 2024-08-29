@@ -73,6 +73,26 @@ function gen_Info(insc_i, insc_id, info) {
     return info_bit;
 }
 
+function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
+    var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
+    var test_path = './ls/000/rsrc/vd/dgtl/testestestest.json';
+    rsrc_bit.innerHTML = insc_rsrc;
+    var rsrc_path = `${insc_path}`;
+    fetch(test_path)
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error
+                    (`HTTP error! Status: ${res.status}`);
+            }
+            return res.json();
+        })
+        .then((data) =>
+            console.log(data))
+        .catch((error) =>
+            console.error("Unable to fetch data:", error));
+    return rsrc_bit;
+}
+
 /*function getVers(obj, sc_id) {
     console.log(obj);
     const option = obj.value;

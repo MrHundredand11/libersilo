@@ -433,8 +433,8 @@
                     "ls_id": "LS-DGTL-ISEC",
                     "ls_ttl": "Information Security",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/isec",
-                    "scion_id": "ls_dgtl_isec",
+                    "ls_url": "/ls/dgtl/sec",
+                    "scion_id": "ls_dgtl_sec",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-ISEC-000",
@@ -526,7 +526,7 @@
                             "scions": [
                                 {
                                     "ls_id": "LS-DGTL-SEC-VLN-IN",
-                                    "ls_ttl": "[Instances] of (Security Vulnerabilities)",
+                                    "ls_ttl": "[Instances]",
                                     "ls_type": "=>",
                                     "ls_url": "/ls/dgtl/sec/vln/in/",
                                     "scion_id": "ls_dgtl_sec_vln_in",

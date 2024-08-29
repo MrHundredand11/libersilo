@@ -512,7 +512,7 @@
                                     "ls_id": "LS-DGTL-ISEC-THRT-MLWR",
                                     "ls_ttl": "Malware Threats",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/isec/thrt/mlwr.json",
+                                    "ls_url": "./ls/dgtl/isec/thrt/mlwr.json",
                                     "scion_id": "ls_dgtl_isec_thrt_mlwr"
                                 }
                             ]

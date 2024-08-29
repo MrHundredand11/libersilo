@@ -81,21 +81,30 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var rsrc_obj;
 
     fetch(test_path)
-        .then((res) => {
-            if (!res.ok) {
-                throw new Error
-                    (`HTTP error! Status: ${res.status}`);
-            }
-            return res.json();
-        })
+        .then(res => res.json())
         .then(data => {
             rsrc_obj = data;
-            return rsrc_obj;
         })
-        .then(() =>
-            console.log(rsrc_obj))
-        .catch((error) =>
-            console.error("Unable to fetch data:", error));
+        .then(() => {
+            console.log(rsrc_obj);
+        })
+
+    // fetch(test_path)
+    //     .then((res) => {
+    //         if (!res.ok) {
+    //             throw new Error
+    //                 (`HTTP error! Status: ${res.status}`);
+    //         }
+    //         return res.json();
+    //     })
+    //     .then(data => {
+    //         rsrc_obj = data;
+    //         return rsrc_obj;
+    //     })
+    //     .then(() =>
+    //         console.log(rsrc_obj))
+    //     .catch((error) =>
+    //         console.error("Unable to fetch data:", error));
     
     rsrc_bit.innerHTML = rsrc_obj["vid_title"];
     return rsrc_bit;

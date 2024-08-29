@@ -162,17 +162,17 @@
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CODE-000",
-                            "ls_ttl": "Overview of Coding + Programming",
+                            "ls_ttl": "[OverView]",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/code/000.json",
+                            "ls_url": "./ls/dgtl/code/000.json",
                             "scion_id": "ls_dgtl_code_000"
                         },
                         {
-                            "ls_id": "LS-DGTL-CODE-PRGM",
+                            "ls_id": "LS-DGTL-CODE-CN",
                             "ls_ttl": "Programming Concepts",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/code/prgm/",
-                            "scion_id": "ls_dgtl_code_prgm",
+                            "ls_url": "./ls/dgtl/code/cn/",
+                            "scion_id": "ls_dgtl_code_cn",
                             "scions": [
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-CCMMNTS",

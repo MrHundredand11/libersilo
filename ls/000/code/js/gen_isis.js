@@ -115,6 +115,8 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
         return a;
     };
 
+    console.log(grabby6_b)
+
     grabby6_b(test_path);
     var t2 = grabby6_b(test_path);
     console.log(t2);

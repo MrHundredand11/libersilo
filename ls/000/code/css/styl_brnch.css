@@ -75,19 +75,19 @@
     font-family: calibri;
 }
 
-.styl_brnch_pntr:--shvl_s00 {
+.styl_brnch_pntr:state(shvl_s00) {
     rotate: 0deg;
     display: inline-block;
     font-family: calibri;
 }
 
-.styl_brnch_pntr:--shvl_s01 {
+.styl_brnch_pntr:state(shvl_s01) {
     rotate: 45deg;
     display: inline-block;
     font-family: calibri;
 }
 
-.styl_brnch_pntr:--shvl_s02 {
+.styl_brnch_pntr:state(shvl_s02) {
     rotate: 0deg;
     display: inline-block;
     font-family: calibri;

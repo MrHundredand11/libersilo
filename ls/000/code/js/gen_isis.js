@@ -156,8 +156,8 @@ async function grabby2(path) {
 
 async function grabby4(path) {
     return fetch(path)
-        .finally((response) => {
-            return response.json().then((data) => {
+        .then((response) => {
+            return response.json().finally((data) => {
                 return data;
             }).catch((err) => {
                 console.log(err)

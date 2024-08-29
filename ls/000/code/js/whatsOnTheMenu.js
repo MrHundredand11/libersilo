@@ -10,7 +10,7 @@ function mnu_active_entry(scion_id) {
 }
 
 function whatsOnTheMenu() {
-    fetch('/ls/000/drtr.json')
+    fetch('/libersilo/ls/000/drtr.json')
         .then(response => {
             return response.json();
         })

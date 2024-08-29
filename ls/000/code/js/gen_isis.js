@@ -78,10 +78,16 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
     
     var rsrc_path = `${insc_path}`;
-    var rsrc_obj = grabby(test_path)
+    var rsrc_obj = grabby(test_path);
+    console.log(rsrc_obj);
+    var rsrc_obj2 = grabby2(test_path);
+    console.log(rsrc_obj2);
+    var rsrc_obj3 = grabby3(test_path);
+    console.log(rsrc_obj3);
+    var rsrc_obj4 = grabby4(test_path);
+    console.log(rsrc_obj4);
 
-    let out; rsrc_obj.then(x => out = x); console.log(out)
-
+    
     // fetch(test_path)
     //     .then(res => res.json())
     //     .then(data => {
@@ -139,3 +145,32 @@ async function grabby(path) {
     console.log(obj)
     return obj;
 }
+
+async function grabby2(path) {
+    let obj;
+    let res = await fetch(path)
+    obj = await res.json();
+    console.log(obj)
+    return obj;
+}
+
+async function grabby4(path) {
+    return fetch(path)
+        .then((response) => {
+            return response.json().then((data) => {
+                return data;
+            }).catch((err) => {
+                console.log(err)
+            })
+        });
+}
+
+const grabby3 = async (path, callback) => {
+    let fileData = await fetch(path)
+    let fileJson = await fileData.json();
+    return fileJson;
+}
+
+// const getFile = async () => {
+//     let jsonData = await 
+// }

@@ -86,8 +86,8 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     console.log(rsrc_obj3);
     var rsrc_obj4 = grabby4(test_path);
     console.log(rsrc_obj4);
-    
-    const grabby5_a = fetch(path)
+
+    const grabby5_a = fetch(test_path)
         .then((response) => response.json())
         .then((data) => {
             return data;

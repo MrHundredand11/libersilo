@@ -535,7 +535,7 @@
                                             "ls_id": "LS-DGTL-SEC-VLN-IN-SSRF-000",
                                             "ls_ttl": "Server Side Request Forgery",
                                             "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/sec/vln/in/ssrf/000/ssrf_000.json",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/ssrf/000/ssrf_000.json",
                                             "scion_id": "ls_dgtl_sec_vln_in_ssrf_000"
                                         }
                                     ]

@@ -89,6 +89,7 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     //         console.log(rsrc_obj);
     //     })
     console.log(rsrc_obj)
+    console.log(rsrc_obj["vid_title"])
 
     // fetch(test_path)
     //     .then((res) => {

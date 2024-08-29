@@ -505,7 +505,7 @@
                             "ls_id": "LS-DGTL-ISEC-THRT",
                             "ls_ttl": "Security Threats",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/isec/thrt/",
+                            "ls_url": "./ls/dgtl/isec/thrt/",
                             "scion_id": "ls_dgtl_isec_thrt",
                             "scions": [
                                 {
@@ -521,7 +521,7 @@
                             "ls_id": "LS-DGTL-SEC-VLN",
                             "ls_ttl": "Security Vulnerabilities",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/sec/vln/",
+                            "ls_url": "./ls/dgtl/sec/vln/",
                             "scion_id": "ls_dgtl_sec_vln",
                             "scions": [
                                 {
@@ -548,21 +548,21 @@
                     "ls_id": "LS-DGTL-MG",
                     "ls_ttl": "Digital Asset Management",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/mg/",
+                    "ls_url": "./ls/dgtl/mg/",
                     "scion_id": "ls_dgtl_mg",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-MG-IN",
-                            "ls_ttl": "[Instances] of (Digital Asset Management)",
+                            "ls_ttl": "[Instances]",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/mg/in/",
+                            "ls_url": "./ls/dgtl/mg/in/",
                             "scion_id": "ls_dgtl_mg_in",
                             "scions": [
                                 {
                                     "ls_id": "LS-DGTL-MG-IN-DCM",
                                     "ls_ttl": "Document & Content Management",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/mg/in/dcm/",
+                                    "ls_url": "./ls/dgtl/mg/in/dcm/",
                                     "scion_id": "ls_dgtl_mg_in_dcm"
                                 },
                                 {

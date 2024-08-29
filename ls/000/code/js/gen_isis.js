@@ -80,6 +80,8 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var rsrc_path = `${insc_path}`;
     var rsrc_obj = grabby(test_path)
 
+    let out; rsrc_obj.then(x => out = x); console.log(out)
+
     // fetch(test_path)
     //     .then(res => res.json())
     //     .then(data => {
@@ -88,8 +90,8 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     //     .then(() => {
     //         console.log(rsrc_obj);
     //     })
-    console.log(rsrc_obj)
-    console.log(rsrc_obj["vid_title"])
+//    console.log(rsrc_obj)
+    //console.log(rsrc_obj["vid_title"])
 
     // fetch(test_path)
     //     .then((res) => {

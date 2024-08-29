@@ -76,7 +76,7 @@ function gen_Info(insc_i, insc_id, info) {
 function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
-    
+    var rs_1;
     // var rsrc_path = `${insc_path}`;
     var rsrc_obj = grabby(test_path);
     console.log(rsrc_obj);
@@ -112,7 +112,8 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     const grabby6_b = async () => {
         const a = await grabby6_a;
         console.log(a);
-        return a;
+        rs_1 = a;
+        return rs_1;
     };
 
     console.log(grabby6_b)

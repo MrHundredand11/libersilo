@@ -91,17 +91,21 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var t = grabby5_b(test_path);
     console.log(t);
 
-    const grabby5_a = fetch(test_path)
+    const grabby6_a = fetch(test_path)
         .then((response) => response.json())
         .then((data) => {
             return data;
         });
 
-    const grabby5_b = async () => {
-        const a = await grabby5_a;
+    const grabby6_b = async () => {
+        const a = await grabby6_a;
         console.log(a);
         return a;
     };
+
+    grabby6_b(test_path);
+    var t2 = grabby6_b(test_path);
+    console.log(t2);
     
     // fetch(test_path)
     //     .then(res => res.json())

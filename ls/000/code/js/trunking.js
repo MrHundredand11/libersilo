@@ -275,7 +275,7 @@ function gen_Insc(insc_i, scion) {
                             var container = document.getElementById('id_temptest');
                             var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
                             rsrc_bit.innerHTML = data['vid_title'];
-                            container.append(rsrc_bit);
+                            container.append(insc_pntr, rsrc_bit);
                             return;
                         })
                     break;

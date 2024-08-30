@@ -77,50 +77,58 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
     var rs_1;
+
+    fetch(test_path)
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            console.log(data['vid_id'])
+        })
     // var rsrc_path = `${insc_path}`;
-    var rsrc_obj = grabby(test_path);
-    console.log(rsrc_obj);
-    var rsrc_obj2 = grabby2(test_path);
-    console.log(rsrc_obj2);
-    var rsrc_obj3 = grabby3(test_path);
-    console.log(rsrc_obj3);
-    var rsrc_obj4 = grabby4(test_path);
-    console.log(rsrc_obj4);
+    // var rsrc_obj = grabby(test_path);
+    // console.log(rsrc_obj);
+    // var rsrc_obj2 = grabby2(test_path);
+    // console.log(rsrc_obj2);
+    // var rsrc_obj3 = grabby3(test_path);
+    // console.log(rsrc_obj3);
+    // var rsrc_obj4 = grabby4(test_path);
+    // console.log(rsrc_obj4);
 
-    const grabby5_a = fetch(test_path)
-        .then((response) => response.json())
-        .then((data) => {
-            return data;
-        });
+    // const grabby5_a = fetch(test_path)
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //         return data;
+    //     });
 
-    const grabby5_b = async () => {
-        const a = await grabby5_a;
-        console.log(a);
-        return a;
-    };
+    // const grabby5_b = async () => {
+    //     const a = await grabby5_a;
+    //     console.log(a);
+    //     return a;
+    // };
 
-    grabby5_b(test_path);
-    var t = grabby5_b(test_path);
-    console.log(t);
+    // grabby5_b(test_path);
+    // var t = grabby5_b(test_path);
+    // console.log(t);
 
-    const grabby6_a = fetch(test_path)
-        .then((response) => response.json())
-        .then((data) => {
-            return data;
-        });
+    // const grabby6_a = fetch(test_path)
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //         return data;
+    //     });
 
-    const grabby6_b = async () => {
-        const a = await grabby6_a;
-        console.log(a);
-        rs_1 = a;
-        return rs_1;
-    };
+    // const grabby6_b = async () => {
+    //     const a = await grabby6_a;
+    //     console.log(a);
+    //     rs_1 = a;
+    //     return rs_1;
+    // };
 
-    console.log(rs_1);
+    // console.log(rs_1);
 
-    grabby6_b(test_path);
-    var t2 = grabby6_b(test_path);
-    console.log(t2);
+    // grabby6_b(test_path);
+    // var t2 = grabby6_b(test_path);
+    // console.log(t2);
     
     // fetch(test_path)
     //     .then(res => res.json())
@@ -172,50 +180,50 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     return;
 }*/
 
-async function grabby(path) {
-    let obj;
-    const res = await fetch(path)
-    obj = await res.json();
-    console.log(obj)
-    return obj;
-};
+// async function grabby(path) {
+//     let obj;
+//     const res = await fetch(path)
+//     obj = await res.json();
+//     console.log(obj)
+//     return obj;
+// };
 
-async function grabby2(path) {
-    let obj;
-    let res = await fetch(path)
-    obj = await res.json();
-    console.log(obj)
-    return obj;
-};
+// async function grabby2(path) {
+//     let obj;
+//     let res = await fetch(path)
+//     obj = await res.json();
+//     console.log(obj)
+//     return obj;
+// };
 
-async function grabby4(path) {
-    return fetch(path)
-        .then((response) => {
-            return response.json().finally((data) => {
-                return data;
-            }).catch((err) => {
-                console.log(err)
-            })
-        });
-};
+// async function grabby4(path) {
+//     return fetch(path)
+//         .then((response) => {
+//             return response.json().finally((data) => {
+//                 return data;
+//             }).catch((err) => {
+//                 console.log(err)
+//             })
+//         });
+// };
 
-const grabby3 = async (path, callback) => {
-    let fileData = await fetch(path)
-    let fileJson = await fileData.json();
-    return fileJson;
-};
+// const grabby3 = async (path, callback) => {
+//     let fileData = await fetch(path)
+//     let fileJson = await fileData.json();
+//     return fileJson;
+// };
 
-const grabby5_a = fetch(path)
-    .then((response) => response.json())
-    .then((data) => {
-        return data;
-    });
+// const grabby5_a = fetch(path)
+//     .then((response) => response.json())
+//     .then((data) => {
+//         return data;
+//     });
 
-const grabby5_b = async () => {
-    const a = await grabby5_a;
-    console.log(a);
-    return a;
-};
+// const grabby5_b = async () => {
+//     const a = await grabby5_a;
+//     console.log(a);
+//     return a;
+// };
 
 // const getFile = async () => {
 //     let jsonData = await 

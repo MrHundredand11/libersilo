@@ -90,5 +90,6 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
         })
     // var rsrc_path = `${insc_path}`;
     
-    return rsrc_bit;
+    //return rsrc_bit;
+    return
 }

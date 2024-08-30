@@ -263,17 +263,16 @@ function gen_Insc(insc_i, scion) {
 
             switch (scion.insc_typ2) {
                 case 'vid':
-                    var test_path = './ls/000/rsrc/vd/dgtl/yt/yt_ih5R_c16bKc.json';
-                    var insc_cntnd = gen_ECI('div', 'styl_temptest', 'id_temptest');
+                    //var test_path = './ls/000/rsrc/vd/dgtl/yt/yt_ih5R_c16bKc.json';
+                    var insc_cntnd = gen_ECI('div', 'styl_temptest', `id_${scion.insc_rsrc}`);
                     insc_prtr.append(insc_cntnd);
-                    fetch(test_path)
+                    fetch(scion.insc_path)
                         .then(response => {
                             return response.json();
                         })
                         .then(data => {
-                            var vid_id = data['vid_id'];
-                            var container = document.getElementById('id_temptest');
-                            var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
+                            var container = document.getElementById(`id_${scion.insc_rsrc}`);
+                            var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
                             rsrc_bit.innerHTML = data['vid_title'];
                             container.append(insc_pntr, rsrc_bit);
                             return;

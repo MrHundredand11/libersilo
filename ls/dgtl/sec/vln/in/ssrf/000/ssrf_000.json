@@ -20,6 +20,12 @@
                             "insc_typ2": "vid",
                             "insc_path": "./ls/000/rsrc/vd/dgtl/yt/yt_ih5R_c16bKc.json",
                             "insc_rsrc": "ih5R_c16bKc"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "vid",
+                            "insc_path": "./ls/000/rsrc/vd/dgtl/yt_Gk3_Q-3R6jc.json",
+                            "insc_rsrc": "Gk3_Q-3R6jc"
                         }
                     ]
                 }

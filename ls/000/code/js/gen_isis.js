@@ -84,81 +84,11 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
         })
         .then(data => {
             console.log(data['vid_id'])
+            var vid_id = data['vid_id']
+            console.log(vid_id)
         })
     // var rsrc_path = `${insc_path}`;
-    // var rsrc_obj = grabby(test_path);
-    // console.log(rsrc_obj);
-    // var rsrc_obj2 = grabby2(test_path);
-    // console.log(rsrc_obj2);
-    // var rsrc_obj3 = grabby3(test_path);
-    // console.log(rsrc_obj3);
-    // var rsrc_obj4 = grabby4(test_path);
-    // console.log(rsrc_obj4);
-
-    // const grabby5_a = fetch(test_path)
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //         return data;
-    //     });
-
-    // const grabby5_b = async () => {
-    //     const a = await grabby5_a;
-    //     console.log(a);
-    //     return a;
-    // };
-
-    // grabby5_b(test_path);
-    // var t = grabby5_b(test_path);
-    // console.log(t);
-
-    // const grabby6_a = fetch(test_path)
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //         return data;
-    //     });
-
-    // const grabby6_b = async () => {
-    //     const a = await grabby6_a;
-    //     console.log(a);
-    //     rs_1 = a;
-    //     return rs_1;
-    // };
-
-    // console.log(rs_1);
-
-    // grabby6_b(test_path);
-    // var t2 = grabby6_b(test_path);
-    // console.log(t2);
     
-    // fetch(test_path)
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         rsrc_obj = data;
-    //     })
-    //     .then(() => {
-    //         console.log(rsrc_obj);
-    //     })
-//    console.log(rsrc_obj)
-    //console.log(rsrc_obj["vid_title"])
-
-    // fetch(test_path)
-    //     .then((res) => {
-    //         if (!res.ok) {
-    //             throw new Error
-    //                 (`HTTP error! Status: ${res.status}`);
-    //         }
-    //         return res.json();
-    //     })
-    //     .then(data => {
-    //         rsrc_obj = data;
-    //         return rsrc_obj;
-    //     })
-    //     .then(() =>
-    //         console.log(rsrc_obj))
-    //     .catch((error) =>
-    //         console.error("Unable to fetch data:", error));
-    
-    //rsrc_bit.innerHTML = rsrc_obj["vid_title"];
     return rsrc_bit;
 }
 
@@ -179,52 +109,3 @@ function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
     }
     return;
 }*/
-
-// async function grabby(path) {
-//     let obj;
-//     const res = await fetch(path)
-//     obj = await res.json();
-//     console.log(obj)
-//     return obj;
-// };
-
-// async function grabby2(path) {
-//     let obj;
-//     let res = await fetch(path)
-//     obj = await res.json();
-//     console.log(obj)
-//     return obj;
-// };
-
-// async function grabby4(path) {
-//     return fetch(path)
-//         .then((response) => {
-//             return response.json().finally((data) => {
-//                 return data;
-//             }).catch((err) => {
-//                 console.log(err)
-//             })
-//         });
-// };
-
-// const grabby3 = async (path, callback) => {
-//     let fileData = await fetch(path)
-//     let fileJson = await fileData.json();
-//     return fileJson;
-// };
-
-// const grabby5_a = fetch(path)
-//     .then((response) => response.json())
-//     .then((data) => {
-//         return data;
-//     });
-
-// const grabby5_b = async () => {
-//     const a = await grabby5_a;
-//     console.log(a);
-//     return a;
-// };
-
-// const getFile = async () => {
-//     let jsonData = await 
-// }

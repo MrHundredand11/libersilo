@@ -263,7 +263,7 @@ function gen_Insc(insc_i, scion) {
 
             switch (scion.insc_typ2) {
                 case 'vid':
-                    var test_path = './ls/000/rsrc/vd/dgtl/yt_ih5R_c16bKc.json';
+                    var test_path = './ls/000/rsrc/vd/dgtl/yt/yt_ih5R_c16bKc.json';
                     var insc_cntnd = gen_ECI('div', 'styl_temptest', 'id_temptest');
                     insc_prtr.append(insc_cntnd);
                     fetch(test_path)

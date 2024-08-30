@@ -74,38 +74,21 @@ function gen_Info(insc_i, insc_id, info) {
 }
 
 function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
-    var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
-    var rs_1;
 
     fetch(test_path)
         .then(response => {
             return response.json();
         })
         .then(data => {
-            console.log(data['vid_id'])
-            var vid_id = data['vid_id']
-            console.log(vid_id)
+            console.log(data['vid_id']);
+            var vid_id = data['vid_id'];
+            console.log(vid_id);
+            var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
+            rsrc_bit.innerHTML = data['vid_title'];
+            return rsrc_bit;
         })
     // var rsrc_path = `${insc_path}`;
     
     return rsrc_bit;
 }
-
-/*function getVers(obj, sc_id) {
-    console.log(obj);
-    const option = obj.value;
-    console.log(option);
-    console.log(sc_id);
-    switch (option) {
-        case 'vw_vrs_live':
-
-            break;
-        
-        case 'vw_vrs_live':
-
-            break;
-
-    }
-    return;
-}*/

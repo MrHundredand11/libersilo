@@ -178,63 +178,63 @@
                                     "ls_id": "LS-DGTL-CODE-PRGM-CCMMNTS",
                                     "ls_ttl": "Code Coments",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/ccmmnts.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/ccmmnts.json",
                                     "scion_id": "ls_dgtl_code_prgm_ccmmnts"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-CTRL",
                                     "ls_ttl": "Control Structures",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/ctrl.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/ctrl.json",
                                     "scion_id": "ls_dgtl_code_prgm_ctrl"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-CRUD",
                                     "ls_ttl": "CRUD Operations",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/crud.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/crud.json",
                                     "scion_id": "ls_dgtl_code_prgm_crud"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-DSHBRD",
                                     "ls_ttl": "Dashboards",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/dshbrd.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/dshbrd.json",
                                     "scion_id": "ls_dgtl_code_prgm_dshbrd"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-DESDIS",
                                     "ls_ttl": "Designing for Disabilities",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/desdis.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/desdis.json",
                                     "scion_id": "ls_dgtl_code_prgm_desdis"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-ERRR",
                                     "ls_ttl": "Errors + Debugging",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/errr.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/errr.json",
                                     "scion_id": "ls_dgtl_code_prgm_errr"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-OUTPUT",
                                     "ls_ttl": "Outputs",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/output.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/output.json",
                                     "scion_id": "ls_dgtl_code_prgm_output"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-SSSION",
                                     "ls_ttl": "Session Structures",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/sssion.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/sssion.json",
                                     "scion_id": "ls_dgtl_code_prgm_sssion"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-PRGM-VAR",
                                     "ls_ttl": "Variables",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/prgm/var.json",
+                                    "ls_url": "./ls/dgtl/code/prgm/var.json",
                                     "scion_id": "ls_dgtl_code_prgm_var"
                                 }
                             ]
@@ -250,21 +250,21 @@
                                     "ls_id": "LS-DGTL-CODE-WEB-HTML",
                                     "ls_ttl": "HTML Structuring",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/web/html.json",
+                                    "ls_url": "./ls/dgtl/code/web/html.json",
                                     "scion_id": "ls_dgtl_code_web_html"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-WEB-CSS",
                                     "ls_ttl": "CSS Styling",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/web/css.json",
+                                    "ls_url": "./ls/dgtl/code/web/css.json",
                                     "scion_id": "ls_dgtl_code_web_css"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CODE-WEB-JS",
                                     "ls_ttl": "JavaScript Scripting",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/code/web/js.json",
+                                    "ls_url": "./ls/dgtl/code/web/js.json",
                                     "scion_id": "ls_dgtl_code_web_js"
                                 }
                             ]

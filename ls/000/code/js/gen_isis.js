@@ -72,24 +72,3 @@ function gen_Info(insc_i, insc_id, info) {
     info_bit.innerHTML = info.info_ttl;
     return info_bit;
 }
-
-// function gen_rsrc_vid(insc_id, insc_path, insc_rsrc) {
-//     var test_path = '/libersilo/ls/000/rsrc/vd/dgtl/testestestest.json';
-
-//     fetch(test_path)
-//         .then(response => {
-//             return response.json();
-//         })
-//         .then(data => {
-//             console.log(data['vid_id']);
-//             var vid_id = data['vid_id'];
-//             console.log(vid_id);
-//             var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', 'id_testestestestest');
-//             rsrc_bit.innerHTML = data['vid_title'];
-//             return rsrc_bit;
-//         })
-//     // var rsrc_path = `${insc_path}`;
-    
-//     //return rsrc_bit;
-//     return
-// }

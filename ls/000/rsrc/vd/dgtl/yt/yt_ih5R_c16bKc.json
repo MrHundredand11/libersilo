@@ -1,5 +1,6 @@
 {
     "scion_id": "ls_000_rsrc_vd_dgtl_vd_yt_ih5R_c16bKc",
+    "scion_path": "./ls/000/rsrc/vd/dgtl/yt_ih5R_c16bKc.json",
     "vid_id": "ih5R_c16bKc",
     "vid_title": "Server-Side Request Forgery (SSRF)  Complete Guide",
     "vid_author": "Rana Khalil",

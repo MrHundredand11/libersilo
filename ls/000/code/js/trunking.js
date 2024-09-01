@@ -850,7 +850,7 @@ async function fetchy(zz) {
                 if (data.scions !== undefined) {
                     var trst_boughs = data.scions;
                     for (i in trst_boughs) {
-                        if (trst_boughs[i].drct_id !== 'undefined'){
+                        if (typeof trst_boughs[i].drct_id !== 'undefined'){
                             console.log('A')
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;

@@ -836,7 +836,7 @@ async function fetchy(zz) {
                         var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
                         var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
                         drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
-                        drct_i_ttl.innerHTML = `${data.scions[i].drct_stub[0]} = [${data.scions[i].drct_stub[1]}]&nbsp;<i>of & for & around</i>&nbsp;(${data.ls_ttl})`;
+                        drct_i_ttl.innerHTML = `<b>${data.scions[i].drct_stub[0]} = [${data.scions[i].drct_stub[1]}]</b>&nbsp;<i>of & for & around</i>&nbsp;(<b>${data.ls_ttl}</b>)`;
                         drct_i.appendChild(drct_i_pnt);
                         drct_i.appendChild(drct_i_ttl);
                         directory_cntn.appendChild(drct_i);

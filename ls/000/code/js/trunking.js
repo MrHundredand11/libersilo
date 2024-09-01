@@ -279,25 +279,25 @@ function gen_Insc(insc_i, scion) {
                         })
                     break;
                 
-                case 'quot_r':
-                    var insc_cntn = gen_ECI('div', 'styl_insc_quot_cntn', `id_${scion.insc_rsrc}`);
-                    insc_prtr.append(insc_pntr, insc_cntn);
-                    insc_pntr.classList.add('styl_pntr_bg');
-                    insc_scns.classList.add('styl_scns_quot_bg');
+                // case 'quot_r':
+                //     var insc_cntn = gen_ECI('div', 'styl_insc_quot_cntn', `id_${scion.insc_rsrc}`);
+                //     insc_prtr.append(insc_pntr, insc_cntn);
+                //     insc_pntr.classList.add('styl_pntr_bg');
+                //     insc_scns.classList.add('styl_scns_quot_bg');
 
-                    fetch(scion.insc_path)
-                        .then(response => {
-                            return response.json();
-                        })
-                        .then(data => {
-                            var container = document.getElementById(`id_${scion.insc_rsrc}`);
-                            //var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
-                            container.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${data.rsrc_cntnt}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
-                            //container.append(insc_pntr, rsrc_bit);
-                            return;
-                        })
+                //     fetch(scion.insc_path)
+                //         .then(response => {
+                //             return response.json();
+                //         })
+                //         .then(data => {
+                //             var container = document.getElementById(`id_${scion.insc_rsrc}`);
+                //             //var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
+                //             container.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${data.rsrc_cntnt}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
+                //             //container.append(insc_pntr, rsrc_bit);
+                //             return;
+                //         })
 
-                    break;
+                //     break;
 
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);

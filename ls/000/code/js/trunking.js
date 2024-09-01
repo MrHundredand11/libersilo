@@ -808,7 +808,7 @@ async function fetchy(zz) {
     //            hd_vw_b.append(hd_vw_b_1, hd_vw_b_2);
        //         hd_vw_c.append(hd_vw_c_1, hd_vw_c_2);
           //      hd_view.append(hd_vw_a, hd_vw_b, hd_vw_c);
-                ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>${data.ls_ttl}</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
+                ls_ttl.innerHTML = `<img src='Seal.jpg' width='333' height='333'></img><br><span class='hd_ttl_arrw'>->&nbsp;</span>&nbsp;<span class='hd_ttl'>(&nbsp;${data.ls_ttl}&nbsp;)</span>&nbsp;<span class='hd_ttl_arrw'>&nbsp;<-</span>`;
                 
                 headBoard.appendChild(ls_ttl);
                 headBoard.appendChild(hd_neck);

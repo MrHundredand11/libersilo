@@ -822,7 +822,7 @@ async function fetchy(zz) {
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);
                 for (i in data.scions) {
-                    if (data.scions[i].drct_id !== 'undefined') {
+                    if (typeof data.scions[i].drct_id !== 'undefined') {
                         var drct_i = createElementWithClass('div', 'styl_drct_item');
                         var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
                         var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');

@@ -11,37 +11,37 @@
         },
         {
             "drct_stub": ["DFIN", "Definitions", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_DFIN",
             "scions": []
         },
         {
             "drct_stub": ["GLSS", "Glossary", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_GLSS",
             "scions": []
         },
         {
             "drct_stub": ["FACT", "Facts", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_FACT",
             "scions": []
         },
         {
             "drct_stub": ["PNCP", "Principles", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_PNCP",
             "scions": []
         },
         {
             "drct_stub": ["CNCP", "Concepts", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_CNCP",
             "scions": []
         },
         {
             "drct_stub": ["ARCT", "Archetypes", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_ARCT",
             "scions": []
         },
         {
             "drct_stub": ["QUOT", "Quotes", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_QUOT",
             "scions": [
                 {
                     "insc_typ1": "stm",
@@ -61,12 +61,12 @@
         },
         {
             "drct_stub": ["STDY", "Study", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_STDY",
             "scions": []
         },
         {
             "drct_stub": ["RSRC", "Resources", 1],
-            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scion_id": "ls_luls_td_bbl_prph_000_RSRC",
             "scions": []
         }
     ]

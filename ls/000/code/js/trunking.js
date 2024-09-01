@@ -279,25 +279,25 @@ function gen_Insc(insc_i, scion) {
                         })
                     break;
                 
-                // case 'quot_r':
-                //     var insc_cntn = gen_ECI('div', 'styl_insc_quot_cntn', `id_${scion.insc_rsrc}`);
-                //     insc_prtr.append(insc_pntr, insc_cntn);
-                //     insc_pntr.classList.add('styl_pntr_bg');
-                //     insc_scns.classList.add('styl_scns_quot_bg');
+                case 'quot_r':
+                    var insc_cntn = gen_ECI('div', 'styl_insc_quot_cntn', `id_${scion.insc_rsrc}`);
+                    insc_prtr.append(insc_pntr, insc_cntn);
+                    insc_pntr.classList.add('styl_pntr_bg');
+                    insc_scns.classList.add('styl_scns_quot_bg');
 
-                //     fetch(scion.insc_path)
-                //         .then(response => {
-                //             return response.json();
-                //         })
-                //         .then(data => {
-                //             var container = document.getElementById(`id_${scion.insc_rsrc}`);
-                //             //var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
-                //             container.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${data.rsrc_cntnt}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
-                //             //container.append(insc_pntr, rsrc_bit);
-                //             return;
-                //         })
+                    fetch(scion.insc_path)
+                        .then(response => {
+                            return response.json();
+                        })
+                        .then(data => {
+                            var container = document.getElementById(`id_${scion.insc_rsrc}`);
+                            //var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
+                            container.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${data.rsrc_cntnt}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
+                            //container.append(insc_pntr, rsrc_bit);
+                            return;
+                        })
 
-                //     break;
+                    break;
 
                 case 'trm':
                     var insc_trm = gen_term(insc_id, scion.insc_term);
@@ -871,7 +871,6 @@ async function fetchy(zz) {
                     var trst_boughs = data.scions;
                     for (i in trst_boughs) {
                         if (typeof trst_boughs[i].drct_id !== 'undefined'){
-                            console.log('A')
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
                             var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
@@ -890,10 +889,6 @@ async function fetchy(zz) {
                             bough_cntnr.append(bough_bmp_top, bough_nmtg, bough_trstlbrd, bough_bmp_btm);
                             trst_cntnr.appendChild(bough_cntnr);
                         } else {
-                            console.log('B')
-                            console.log(trst_boughs[i].drct_stub[0])
-                            console.log(trst_boughs[i].drct_stub[1])
-
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = `${trst_boughs[i].drct_stub[0]} = [${trst_boughs[i].drct_stub[1]}] of & for & around (${data.ls_ttl})`;
                             var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);

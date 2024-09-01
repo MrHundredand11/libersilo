@@ -843,6 +843,7 @@ async function fetchy(zz) {
                 headBoard.appendChild(headboard_tail);
                 for (i in data.scions) {
                     if (typeof data.scions[i].drct_id !== 'undefined') {
+                        //deprecate once all pages are converted to drct_stub instead of the stupidly named drct_id
                         var drct_i = createElementWithClass('div', 'styl_drct_item');
                         var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
                         var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
@@ -871,6 +872,7 @@ async function fetchy(zz) {
                     var trst_boughs = data.scions;
                     for (i in trst_boughs) {
                         if (typeof trst_boughs[i].drct_id !== 'undefined'){
+                            //deprecate once all pages are converted to drct_stub instead of the stupidly named drct_id
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
                             var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);

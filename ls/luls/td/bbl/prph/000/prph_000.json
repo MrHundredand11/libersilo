@@ -42,7 +42,22 @@
         {
             "drct_stub": ["QUOT", "Quotes", 1],
             "scion_id": "ls_luls_td_bbl_prph_000_000",
-            "scions": []
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Biblical Prophecy</b></i>)",
+                    "scion_id": "ls_luls_td_bbl_prph_000_quot_assrt",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot_r",
+                            "insc_path": "./ls/000/rsrc/quot/108_613.json",
+                            "insc_rsrc": "108_613"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "drct_stub": ["STDY", "Study", 1],

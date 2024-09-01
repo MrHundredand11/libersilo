@@ -2026,10 +2026,39 @@
                     "scion_id": "ls_luls_t",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-TD-APOC",
-                            "ls_ttl": "The Apocryphal Scriptures",
+                            "ls_id": "LS-LULS-TD-AFRICA",
+                            "ls_ttl": "African Traditions",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_apoc"
+                            "ls_url": "/ls/luls/td/africa/",
+                            "scion_id": "ls_luls_td_africa"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-ALChY",
+                            "ls_ttl": "Alchemical Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/td/alchy/",
+                            "scion_id": "ls_luls_td_alchy"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-APOC",
+                            "ls_ttl": "Apocryphal Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/td/apoc/",
+                            "scion_id": "ls_luls_td_apoc"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-ARTHUR",
+                            "ls_ttl": "Arthurian Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/td/arthur/",
+                            "scion_id": "ls_luls_td_arthur"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-AM",
+                            "ls_ttl": "Ascended Master Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "/ls/luls/td/am/",
+                            "scion_id": "ls_luls_td_am"
                         },
                         {
                             "ls_id": "LS-LULS-TD-BBL",
@@ -2408,44 +2437,53 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-CHURCH",
-                            "ls_ttl": "Inspired Writings of The Church",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-CHRCH",
+                            "ls_ttl": "Church Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/chrch/",
+                            "scion_id": "ls_luls_td_chrch"
                         },
                         {
-                            "ls_id": "LS-LULS-CLTC",
-                            "ls_ttl": "Celtic Scriptures + Spirituality",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-CLTC",
+                            "ls_ttl": "Celtic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/cltc/",
+                            "scion_id": "ls_luls_td_cltc"
                         },
                         {
-                            "ls_id": "LS-LULS-CREED",
-                            "ls_ttl": "Creeds + Oaths",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-EGYPT",
+                            "ls_ttl": "Egyptian Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/egypt/",
+                            "scion_id": "ls_luls_td_egypt"
                         },
                         {
-                            "ls_id": "LS-LULS-EGYPT",
-                            "ls_ttl": "Egyptian Scriptures + Spirituality",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-ENOCHIAN",
+                            "ls_ttl": "Enochian Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/enochian/",
+                            "scion_id": "ls_luls_td_enochian"
                         },
                         {
-                            "ls_id": "LS-LULS-GN",
-                            "ls_ttl": "Golden Nuggets",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-GNOSTIC",
+                            "ls_ttl": "Gnostic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/gnostic/",
+                            "scion_id": "ls_luls_td_gnostic"
                         },
                         {
-                            "ls_id": "LS-LULS-GQAM",
-                            "ls_ttl": "Grail Quest + Arthurian Mythos",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-GREEK",
+                            "ls_ttl": "Greek Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/greek/",
+                            "scion_id": "ls_luls_td_greek"
                         },
                         {
-                            "ls_id": "LS-LULS-GRK",
-                            "ls_ttl": "Greek Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-GRMR",
-                            "ls_ttl": "The Grimoires",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-GRIMOIRE",
+                            "ls_ttl": "Grimoire Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/grimoire/",
+                            "scion_id": "ls_luls_td_grimoire"
                         },
                         {
                             "ls_id": "LS-LULS-GUA",
@@ -2481,41 +2519,52 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-HINDU",
-                            "ls_ttl": "Hindu Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-HRMTC",
-                            "ls_ttl": "Hermetic Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-INIT",
-                            "ls_ttl": "The Initatic Journey",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-MRMN",
-                            "ls_ttl": "Mormon Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-TRDN-NRDC",
-                            "ls_ttl": "Nordic Scriptures + Spirituality",
-                            "ls_type": "=>"
-                        },
-                        {
-                            "ls_id": "LS-LULS-T-QBL",
-                            "ls_ttl": "Qabalistic Scriptures + Spirituality",
+                            "ls_id": "LS-LULS-TD-HINDU",
+                            "ls_ttl": "Hindu Traditions",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_t_qbl",
+                            "ls_url": "./ls/luls/td/hindu/",
+                            "scion_id": "ls_luls_td_hindu"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-HRMTC",
+                            "ls_ttl": "Hermetic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/hrmtc/",
+                            "scion_id": "ls_luls_td_hrmtc"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-INIT",
+                            "ls_ttl": "Initiatic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/init/",
+                            "scion_id": "ls_luls_td_init"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-MRMN",
+                            "ls_ttl": "Mormon Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/mrmn/",
+                            "scion_id": "ls_luls_td_mrmn"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-NRDC",
+                            "ls_ttl": "Nordic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/nrdc/",
+                            "scion_id": "ls_luls_td_nrdc"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-QBL",
+                            "ls_ttl": "Qabalistic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/qbl/",
+                            "scion_id": "ls_luls_td_qbl",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-TRDN-QBL-BHYR",
+                                    "ls_id": "LS-LULS-TD-QBL-BHYR",
                                     "ls_ttl": "The Sepher Bahir",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/trdn/qbl/bhyr",
+                                    "ls_url": "./ls/luls/trdn/qbl/bhyr",
                                     "scion_id": "ls_luls_trdn_qbl_bhyr",
                                     "scions": [
                                         {
@@ -2685,49 +2734,46 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-RC",
+                            "ls_id": "LS-LULS-TD-RC",
                             "ls_ttl": "Rosicrucian Traditions",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/trdn/rc/",
-                            "scion_id": "ls_luls_trdn_rc",
+                            "ls_url": "./ls/luls/td/rc/",
+                            "scion_id": "ls_luls_td_rc",
                             "scions": [
                                 {
                                     "ls_id": "LS-LULS-TRDN-RC-000",
                                     "ls_ttl": "Rosicrucian Traditions",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/trdn/rc/000.json",
+                                    "ls_url": "./ls/luls/trdn/rc/000.json",
                                     "scion_id": "ls_luls_trdn_rc_000"
                                 }
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-SHKSPR",
-                            "ls_ttl": "Shakespearean Scriptures + Spirituality",
+                            "ls_id": "LS-LULS-TD-SHKSPR",
+                            "ls_ttl": "Shakespearean Traditions",
                             "ls_type": "=>"
                         },
                         {
-                            "ls_id": "LS-LULS-SIGN",
-                            "ls_ttl": "The Sacraments of The Church",
-                            "ls_type": "=>"
+                            "ls_id": "LS-LULS-TD-SUMER",
+                            "ls_ttl": "Sumerian Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/sumer/",
+                            "scion_id": "ls_luls_td_sumer"
                         },
                         {
-                            "ls_id": "LS-LULS-TRDN-SUMER",
-                            "ls_ttl": "Sumerian Scriptures",
+                            "ls_id": "LS-LULS-TD-TAO",
+                            "ls_ttl": "Taoist Traditions",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/trdn/sumer"
+                            "ls_url": "./ls/luls/td/tao/",
+                            "scion_id": "ls_luls_td_tao"
                         },
                         {
-                            "ls_id": "LS-LULS-TRDN-TAO",
-                            "ls_ttl": "Taoism",
+                            "ls_id": "LS-LULS-TD-THELEMA",
+                            "ls_ttl": "Thelemic Traditions",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/trdn/tao"
-                        },
-                        {
-                            "ls_id": "LS-LULS-TRDN-THLMA",
-                            "ls_ttl": "Thelema",
-                            "ls_type": "=>",
-                            "ls_url": "/ls/luls/trdn/thlma",
-                            "scion_id": "ls_luls_trdn_thlma",
+                            "ls_url": "./ls/luls/td/thelema",
+                            "scion_id": "ls_luls_td_thelema",
                             "scions": [
                                 {
                                     "ls_id": "LS-LULS-TRDN-THLMA-000",
@@ -2864,6 +2910,27 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-THEOSOPHY",
+                            "ls_ttl": "Theosophic Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/theosophy/",
+                            "scion_id": "ls_luls_td_theosophy"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-TEMPLAR",
+                            "ls_ttl": "TEMPLAR Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/templar/",
+                            "scion_id": "ls_luls_td_tempalar"
+                        },
+                        {
+                            "ls_id": "LS-LULS-TD-TANTRA",
+                            "ls_ttl": "Tantric Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/tantra/",
+                            "scion_id": "ls_luls_td_tantra"
                         }
                     ]
                 }

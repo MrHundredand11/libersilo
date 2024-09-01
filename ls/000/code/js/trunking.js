@@ -822,14 +822,25 @@ async function fetchy(zz) {
                 directory_div.appendChild(directory_cntn);
                 headBoard.appendChild(headboard_tail);
                 for (i in data.scions) {
-                    var drct_i = createElementWithClass('div', 'styl_drct_item');
-                    var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
-                    var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
-                    drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
-                    drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
-                    drct_i.appendChild(drct_i_pnt);
-                    drct_i.appendChild(drct_i_ttl);
-                    directory_cntn.appendChild(drct_i);
+                    if (data.scions[i].drct_id !== 'undefined') {
+                        var drct_i = createElementWithClass('div', 'styl_drct_item');
+                        var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
+                        var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
+                        drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
+                        drct_i_ttl.innerHTML = `${data.scions[i].drct_id} = ${data.scions[i].drct_ttl}`;
+                        drct_i.appendChild(drct_i_pnt);
+                        drct_i.appendChild(drct_i_ttl);
+                        directory_cntn.appendChild(drct_i);
+                    } else {
+                        var drct_i = createElementWithClass('div', 'styl_drct_item');
+                        var drct_i_pnt = gen_Pntr(data.scions[i].scion_id, i);
+                        var drct_i_ttl = createElementWithClass('a', 'styl_drct_item_ttl');
+                        drct_i_ttl.setAttribute('href', `#id_b_cntnr_${data.scions[i].scion_id}`);
+                        drct_i_ttl.innerHTML = `${data.scions[i].drct_stub[0]} = [${data.scions[i].drct_stub[1]}] of & for & around (${data.ls_ttl})`;
+                        drct_i.appendChild(drct_i_pnt);
+                        drct_i.appendChild(drct_i_ttl);
+                        directory_cntn.appendChild(drct_i);
+                    }
                 }
             };
             gen_head(data);

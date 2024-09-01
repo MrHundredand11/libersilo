@@ -1,0 +1,13 @@
+{
+    "ls_id": "LS-LULS-TD-BBL-PRPH-000",
+    "ls_ttl": "Biblical Prophecy",
+    "ls_url": "./ls/luls/td/bbl/prph/000/prph_000.json",
+    "scion_id": "ls_luls_td_bbl_prph_000",
+    "scions": [
+        {
+            "drct_stub": ["000", "OverView", 1],
+            "scion_id": "ls_luls_td_bbl_prph_000_000",
+            "scions": []
+        }
+    ]
+}

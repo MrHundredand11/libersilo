@@ -1992,47 +1992,47 @@
                     "ls_id": "LS-LULS-RTFCT",
                     "ls_ttl": "Scriptural + Spiritual Artifacts",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/rtfct/",
+                    "ls_url": "./ls/luls/rtfct/",
                     "scion_id": "ls_luls_rtfct"
                 },
                 {
                     "ls_id": "LS-LULS-SYMB",
                     "ls_ttl": "Scriptural + Spiritual Symbols",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/symb/",
+                    "ls_url": "./ls/luls/symb/",
                     "scion_id": "ls_luls_symb"
                 },
                 {
                     "ls_id": "LS-LULS-TOOL",
                     "ls_ttl": "Scriptural + Spiritual Tools",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/tool/",
+                    "ls_url": "./ls/luls/tool/",
                     "scion_id": "ls_luls_tool",
                     "scions": [
                         {
                             "ls_id": "LS-LULS-TOOL-DICTNRY",
                             "ls_ttl": "The Dictionary",
                             "ls_type": "+>",
-                            "ls_url": "/ls/luls/tool/dictnry.json",
+                            "ls_url": "./ls/luls/tool/dictnry.json",
                             "scion_id": "ls_luls_tool_dictnry"
                         }
                     ]
                 },
                 {
-                    "ls_id": "LS-LULS-T",
+                    "ls_id": "LS-LULS-TD",
                     "ls_ttl": "Scriptural + Spiritual Traditions",
                     "ls_type": "=>",
-                    "ls_url": "/ls/luls/t/",
+                    "ls_url": "./ls/luls/t/",
                     "scion_id": "ls_luls_t",
                     "scions": [
                         {
-                            "ls_id": "LS-LULS-APOC",
+                            "ls_id": "LS-LULS-TD-APOC",
                             "ls_ttl": "The Apocryphal Scriptures",
                             "ls_type": "=>",
                             "scion_id": "ls_luls_apoc"
                         },
                         {
-                            "ls_id": "LS-LULS-T-BBL",
+                            "ls_id": "LS-LULS-TD-BBL",
                             "ls_ttl": "Biblical Traditions",
                             "ls_type": "=>",
                             "scion_id": "ls_luls_t_bbl",
@@ -2043,13 +2043,6 @@
                                     "ls_type": "+>",
                                     "ls_url": "/ls/luls/t/bbl/000.json",
                                     "scion_id": "ls_luls_t_bbl_000"
-                                },
-                                {
-                                    "ls_id": "LS-LULS-T-BBL-PRB",
-                                    "ls_ttl": "Biblical Parables",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/luls/t/bbl/prb/",
-                                    "scion_id": "ls_luls_t_bbl_prb"
                                 },
                                 {
                                     "ls_id": "LS-LULS-BBL-EVD",
@@ -2248,6 +2241,29 @@
                                                     "scion_id": "ls_luls_t_bbl_tk_cycl_i_7000tm_000"
                                                 }
                                             ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-PRB",
+                                    "ls_ttl": "Biblical Parables",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/prb/",
+                                    "scion_id": "ls_luls_td_bbl_prb"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-PRPH",
+                                    "ls_ttl": "Biblical Prophecy",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/prph/",
+                                    "scion_id": "ls_luls_td_bbl_prph",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-TD-BBL-PRPH-000",
+                                            "ls_ttl": "[OverView]",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/luls/td/bbl/prph/000/prph_000.json",
+                                            "scion_id": "ls_luls_td_bbl_prph_000"
                                         }
                                     ]
                                 },

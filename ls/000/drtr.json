@@ -2554,6 +2554,13 @@
                             "scion_id": "ls_luls_td_nrdc"
                         },
                         {
+                            "ls_id": "LS-LULS-TD-OCCULT",
+                            "ls_ttl": "Occult Traditions",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/occult/",
+                            "scion_id": "ls_luls_td_occult"
+                        },
+                        {
                             "ls_id": "LS-LULS-TD-QBL",
                             "ls_ttl": "Qabalistic Traditions",
                             "ls_type": "=>",
@@ -2750,9 +2757,11 @@
                             ]
                         },
                         {
-                            "ls_id": "LS-LULS-TD-SHKSPR",
+                            "ls_id": "LS-LULS-TD-SHAKESPEARE",
                             "ls_ttl": "Shakespearean Traditions",
-                            "ls_type": "=>"
+                            "ls_type": "=>",
+                            "ls_url": "./ls/luls/td/shakespeare/",
+                            "scion_id": "ls_luls_td_shakespeare"
                         },
                         {
                             "ls_id": "LS-LULS-TD-SUMER",
@@ -2920,10 +2929,10 @@
                         },
                         {
                             "ls_id": "LS-LULS-TD-TEMPLAR",
-                            "ls_ttl": "TEMPLAR Traditions",
+                            "ls_ttl": "Templar Traditions",
                             "ls_type": "=>",
                             "ls_url": "./ls/luls/td/templar/",
-                            "scion_id": "ls_luls_td_tempalar"
+                            "scion_id": "ls_luls_td_templar"
                         },
                         {
                             "ls_id": "LS-LULS-TD-TANTRA",

@@ -851,6 +851,7 @@ async function fetchy(zz) {
                     var trst_boughs = data.scions;
                     for (i in trst_boughs) {
                         if (trst_boughs[i].drct_id !== 'undefined'){
+                            console.log('A')
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = trst_boughs[i].drct_id + " = " + trst_boughs[i].drct_ttl;
                             var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);
@@ -869,6 +870,10 @@ async function fetchy(zz) {
                             bough_cntnr.append(bough_bmp_top, bough_nmtg, bough_trstlbrd, bough_bmp_btm);
                             trst_cntnr.appendChild(bough_cntnr);
                         } else {
+                            console.log('B')
+                            console.log(trst_boughs[i].drct_stub[0])
+                            console.log(trst_boughs[i].drct_stub[1])
+
                             var bough_id = trst_boughs[i].scion_id;
                             var bough_name = `${trst_boughs[i].drct_stub[0]} = [${trst_boughs[i].drct_stub[1]}] of & for & around (${data.ls_ttl})`;
                             var bough_cntnr = gen_ECI('div', 'styl_brnch_cntnr', `id_b_cntnr_${bough_id}`);

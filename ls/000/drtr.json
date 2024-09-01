@@ -2035,84 +2035,29 @@
                             "ls_id": "LS-LULS-TD-BBL",
                             "ls_ttl": "Biblical Traditions",
                             "ls_type": "=>",
-                            "scion_id": "ls_luls_t_bbl",
+                            "ls_url": "./ls/luls/td/bbl/",
+                            "scion_id": "ls_luls_td_bbl",
                             "scions": [
                                 {
-                                    "ls_id": "LS-LULS-T-BBL-000",
-                                    "ls_ttl": "Overview of 'The Holy Bible'",
+                                    "ls_id": "LS-LULS-TD-BBL-000",
+                                    "ls_ttl": "[OverView]",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/luls/t/bbl/000.json",
-                                    "scion_id": "ls_luls_t_bbl_000"
+                                    "ls_url": "./ls/luls/td/bbl/000.json",
+                                    "scion_id": "ls_luls_td_bbl_000"
                                 },
                                 {
-                                    "ls_id": "LS-LULS-BBL-EVD",
-                                    "ls_ttl": "Evidences for The Bible",
-                                    "ls_type": "=>"
-                                },
-                                {
-                                    "ls_id": "LS-LULS-BBL-NT",
-                                    "ls_ttl": "The New Testament",
-                                    "ls_type": "=>"
-                                },
-                                {
-                                    "ls_id": "LS-LULS-BBL-OT",
-                                    "ls_ttl": "The Old Testament",
+                                    "ls_id": "LS-LULS-TD-BBL-CN",
+                                    "ls_ttl": "Biblical Concepts",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/bbl/ot/",
-                                    "scion_id": "ls_luls_bbl_ot",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-01",
-                                            "ls_ttl": "The Book of Genesis",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/01/",
-                                            "scion_id": "ls_luls_bbl_ot_01"
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-02",
-                                            "ls_ttl": "The Book of Exodus",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/02/",
-                                            "scion_id": "ls_luls_bbl_ot_02"
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-03",
-                                            "ls_ttl": "The Book of Leviticus",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/03/",
-                                            "scion_id": "ls_luls_bbl_ot_03"
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-04",
-                                            "ls_ttl": "The Book of Numbers",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/04/",
-                                            "scion_id": "ls_luls_bbl_ot_04"
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-05",
-                                            "ls_ttl": "The Book of Deuteronomy",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/05/",
-                                            "scion_id": "ls_luls_bbl_ot_05"
-                                        },
-                                        {
-                                            "ls_id": "LS-LULS-BBL-OT-23",
-                                            "ls_ttl": "The Book of Isaiah",
-                                            "ls_type": "=>",
-                                            "ls_url": "/ls/luls/bbl/ot/23/",
-                                            "scion_id": "ls_luls_bbl_ot_23",
-                                            "scions": [
-                                                {
-                                                    "ls_id": "LS-LULS-BBL-OT-23-000",
-                                                    "ls_ttl": "Overview of The Book of Isaiah",
-                                                    "ls_type": "+>",
-                                                    "ls_url": "/ls/luls/bbl/ot/23/000.json",
-                                                    "scion_id": "ls_luls_bbl_ot_23_000"
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    "ls_url": "./ls/luls/td/bbl/cn/",
+                                    "scion_id": "ls_luls_td_bbl_cn"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-CODE",
+                                    "ls_ttl": "Biblical Codes",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/code/",
+                                    "scion_id": "ls_luls_td_bbl_code"
                                 },
                                 {
                                     "ls_id": "LS-LULS-T-BBL-CYC",
@@ -2245,6 +2190,48 @@
                                     ]
                                 },
                                 {
+                                    "ls_id": "LS-LULS-TD-BBL-EVNT",
+                                    "ls_ttl": "Biblical Events",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/evnt/",
+                                    "scion_id": "ls_luls_td_bbl_evnt"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-EVD",
+                                    "ls_ttl": "Biblical Evidences",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/evd/",
+                                    "scion_id": "ls_luls_td_bbl_evd"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-LAW",
+                                    "ls_ttl": "Biblical Laws",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/law/",
+                                    "scion_id": "ls_luls_td_bbl_law"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-LCT",
+                                    "ls_ttl": "Biblical Locations",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/lct/",
+                                    "scion_id": "ls_luls_td_bbl_lct"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-MD",
+                                    "ls_ttl": "Biblical Medicine",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/md/",
+                                    "scion_id": "ls_luls_td_bbl_md"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-MYST",
+                                    "ls_ttl": "Biblical Mysteries",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/myst/",
+                                    "scion_id": "ls_luls_td_bbl_myst"
+                                },
+                                {
                                     "ls_id": "LS-LULS-TD-BBL-PRB",
                                     "ls_ttl": "Biblical Parables",
                                     "ls_type": "=>",
@@ -2268,11 +2255,94 @@
                                     ]
                                 },
                                 {
-                                    "ls_id": "LS-LULS-BBL-TK",
-                                    "ls_ttl": "TimeKeeper",
+                                    "ls_id": "LS-LULS-TD-BBL-PTRN",
+                                    "ls_ttl": "Biblical Patterns",
                                     "ls_type": "=>",
-                                    "ls_url": "/ls/luls/t/bbl/tk/",
-                                    "scion_id": "ls_luls_t_bbl_tk",
+                                    "ls_url": "./ls/luls/td/bbl/ptrn/",
+                                    "scion_id": "ls_luls_td_bbl_ptrn"
+                                },
+                                {
+                                    "ls_id": "LS-LULS-TD-BBL-SC",
+                                    "ls_ttl": "Biblical Scriptures",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/sc/",
+                                    "scion_id": "ls_luls_td_bbl_sc",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-BBL-SC-NT",
+                                            "ls_ttl": "The New Testament",
+                                            "ls_type": "=>",
+                                            "ls_url": "./ls/luls/bbl/sc/nt/",
+                                            "scion_id": "ls_luls_bbl_sc_nt"
+                                        },
+                                        {
+                                            "ls_id": "LS-LULS-BBL-SC-OT",
+                                            "ls_ttl": "The Old Testament",
+                                            "ls_type": "=>",
+                                            "ls_url": "./ls/luls/bbl/sc/ot/",
+                                            "scion_id": "ls_luls_bbl_sc_ot",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-SC-OT-01",
+                                                    "ls_ttl": "The Book of Genesis",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "./ls/luls/bbl/sc/ot/b01/",
+                                                    "scion_id": "ls_luls_bbl_sc_ot_b01"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-OT-02",
+                                                    "ls_ttl": "The Book of Exodus",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "/ls/luls/bbl/ot/02/",
+                                                    "scion_id": "ls_luls_bbl_ot_02"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-OT-03",
+                                                    "ls_ttl": "The Book of Leviticus",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "/ls/luls/bbl/ot/03/",
+                                                    "scion_id": "ls_luls_bbl_ot_03"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-OT-04",
+                                                    "ls_ttl": "The Book of Numbers",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "/ls/luls/bbl/ot/04/",
+                                                    "scion_id": "ls_luls_bbl_ot_04"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-OT-05",
+                                                    "ls_ttl": "The Book of Deuteronomy",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "/ls/luls/bbl/ot/05/",
+                                                    "scion_id": "ls_luls_bbl_ot_05"
+                                                },
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-OT-23",
+                                                    "ls_ttl": "The Book of Isaiah",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "./ls/luls/bbl/sc/ot/23/",
+                                                    "scion_id": "ls_luls_bbl_sc_ot_23",
+                                                    "scions": [
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-OT-23-000",
+                                                            "ls_ttl": "Overview of The Book of Isaiah",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "./ls/luls/bbl/sc/ot/23/000.json",
+                                                            "scion_id": "ls_luls_bbl_sc_ot_23_000"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-LULS-BBL-TK",
+                                    "ls_ttl": "Biblical TimeKeeper",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/bbl/tk/",
+                                    "scion_id": "ls_luls_td_bbl_tk",
                                     "scions": [
                                         
                                         {

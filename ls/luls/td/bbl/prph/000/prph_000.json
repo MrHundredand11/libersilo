@@ -54,6 +54,12 @@
                             "insc_typ2": "quot_r",
                             "insc_path": "./ls/000/rsrc/quot/108_613.json",
                             "insc_rsrc": "108_613"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "quot_r",
+                            "insc_path": "./ls/000/rsrc/quot/94_1769.json",
+                            "insc_rsrc": "94_1769"
                         }
                     ]
                 }

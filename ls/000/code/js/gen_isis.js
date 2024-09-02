@@ -74,5 +74,9 @@ function gen_Info(insc_i, insc_id, info) {
     var info_cntnt = gen_ECI('div', 'styl_info_cntnt', `id_info_cntnt_${insc_id}_${insc_i}`);
     info_cntnt.innerHTML = info.info_cntn;
     info_cntnr.append(info_pntr, info_stpl, info_cntnt);
+    switch (info.info_tag) {
+        case 'Author':
+            info_cntnt.classList.add('styl_insc_rfrnc_auth')
+    }
     return info_cntnr;
 }

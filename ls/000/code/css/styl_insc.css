@@ -169,8 +169,17 @@
     text-align: center;
 }
 
+.styl_insc_quot_r {
+    margin-top: 53px;
+}
+
 .styl_insc_itrt_001 {
     font-family: georgia;
     font-size: 23px;
+    font-weight: bold;
+}
+
+.styl_insc_rfrnc_auth {
+    font-family: cambria;
     font-weight: bold;
 }

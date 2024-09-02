@@ -6,3 +6,9 @@
     position: relative;
     margin-left: 23px;
 }
+
+.styl_info_cntnr {
+    display: flex;
+    margin-left: 43px;
+    margin-top: 7px;
+}

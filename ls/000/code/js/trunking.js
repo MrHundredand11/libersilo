@@ -555,7 +555,7 @@ function gen_Insc(insc_i, scion) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
                 var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);
                 var info_cntn = gen_ECI('div', 'styl_info_cntn', `id_info_cntn_${insc_id}`);
-                info_head.innerHTML = "||\\_>>&nbsp;<b>[<u>Metadata</u>]</b>&nbsp; about&nbsp; (<b><i>this data</b></i>)&nbsp;::";
+                info_head.innerHTML = "|&nbsp;|\n|&nbsp;\\_>>&nbsp;<b>[<u>Metadata</u>]</b>&nbsp; about&nbsp; (<b><i>this data</b></i>)&nbsp;::";
                 insc_info.append(info_head, info_cntn);
                 for (x in scion.insc_info) {
                     info_cntn.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));

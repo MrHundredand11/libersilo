@@ -291,9 +291,15 @@ function gen_Insc(insc_i, scion) {
                         })
                         .then(data => {
                             var container = document.getElementById(`id_${scion.insc_rsrc}`);
+                            var prtr = document
                             //var rsrc_bit = gen_ECI('div', 'styl_rsrc_vid_bit', `id_${scion.insc_rsrc}_${scion.insc_rsrc}`);
                             container.innerHTML = `<span class='styl_bknd_001 bknd_l'>[</span>\t<span class='styl_insc_quot_wrds'>${data.rsrc_cntnt}</span>\t<span class='styl_bknd_001 bknd_r'>]</span>`;
-                            //container.append(insc_pntr, rsrc_bit);
+                            // //container.append(insc_pntr, rsrc_bit);
+                            var insc_rfrn_tag = generateTag(scion.insc_rsrc, "Reference");
+                            var insc_rfrn_short = gen_ECI('div', 'styl_insc_rfrn_short', `id_insc_rfrf_short_${scion.insc_rsrc}`);
+                            insc_rfrn_short.innerHTML = data.rsrc_auth[0]
+                            // in_cntnd.append(insc_cntn);
+                            // insc_prtr.append(insc_pntr, in_stpl, in_cntnd);
                             return;
                         })
 
@@ -549,7 +555,7 @@ function gen_Insc(insc_i, scion) {
                 var insc_info = gen_ECI('div', 'styl_insc_info', `id_insc_info_${insc_id}`);
                 var info_head = gen_ECI('div', 'styl_info_head', `id_info_head_${insc_id}`);
                 var info_cntn = gen_ECI('div', 'styl_info_cntn', `id_info_cntn_${insc_id}`);
-                info_head.innerHTML = "\\_>>&nbsp;[Extended Info + Correspondences]&nbsp;>>";
+                info_head.innerHTML = "\\_>>&nbsp;<b>[<u>Metadata</u>]</b>&nbsp; about&nbsp; (<b><i>this data</b></i>)&nbsp;::";
                 insc_info.append(info_head, info_cntn);
                 for (x in scion.insc_info) {
                     info_cntn.appendChild(gen_Info(x, insc_id, scion.insc_info[x]));

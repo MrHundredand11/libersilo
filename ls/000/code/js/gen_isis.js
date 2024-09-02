@@ -69,6 +69,6 @@ function gen_link(lf_id, lf_term) {
 
 function gen_Info(insc_i, insc_id, info) {
     var info_bit = gen_ECI('div', 'styl_info_bit', `id_info_bit_${insc_id}_${insc_i}`);
-    info_bit.innerHTML = info.info_ttl;
+    info_bit.innerHTML = info.info_cntn;
     return info_bit;
 }

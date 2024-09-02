@@ -68,7 +68,10 @@ function gen_link(lf_id, lf_term) {
 }
 
 function gen_Info(insc_i, insc_id, info) {
-    var info_bit = gen_ECI('div', 'styl_info_bit', `id_info_bit_${insc_id}_${insc_i}`);
-    info_bit.innerHTML = info.info_cntn;
-    return info_bit;
+    var info_cntnr = gen_ECI('div', 'styl_info_cntnr', `id_info_cntnr_${insc_id}_${insc_i}`);
+    var info_cntnt = gen_ECI('div', 'styl_info_cntnt', `id_info_cntnt_${insc_id}_${insc_i}`);
+    var info_stpl = generateTag(insc_id, info.info_tag);
+    info_cntnt.innerHTML = info.info_cntn;
+    info_cntnr.append(info_stpl, info_cntnt)
+    return info_cntnr;
 }

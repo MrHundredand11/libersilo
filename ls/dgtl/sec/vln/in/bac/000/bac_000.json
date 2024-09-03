@@ -1,0 +1,158 @@
+{
+    "ls_id": "LS-DGTL-SEC-VLN-IN-BAC-000",
+    "ls_ttl": "Broken Access Control",
+    "ls_url": "./ls/dgtl/sec/vln/in/bac/000/bac_000.json",
+    "scion_id": "ls_dgtl_sec_vln_in_bac_000",
+    "scions": [
+        {
+            "drct_stub": ["LIST", "Lists", 1],
+            "scion_id": "ls_dgtl_sec_vln_in_bac_000_list",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>List</b>&nbsp;of&nbsp;<b>[<u>Common Vulnerabilities</u>]</b>&nbsp;for&nbsp;(<b><i>Broken Access Control</b></i>)",
+                    "scion_id": "ls_dgtl_sec_vln_in_bac_000_list_vuln_cmmn",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Violation of the principle of least privilege or deny by default, where access should only be granted for particular capabilities, roles, or users, but is available to anyone.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Bypassing access control checks by modifying the URL (parameter tampering or force browsing), internal application state, or the HTML page, or by using an attack tool modifying API requests.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Permitting viewing or editing someone else's account, by providing its unique identifier (insecure direct object references).",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Accessing API with missing access controls for POST, PUT, and DELETE.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Elevation of privilege. Acting as a user without being logged in or acting as an admin when logged in as a user.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Metadata manipulation, such as replaying or tampering with a JSON Web Token (JWT) access control token, or a cookie or hidden field manipulated to elevate privileges or abusing JWT invalidation.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "CORS misconfiguration allows API access from unauthorized/untrusted origins.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Force browsing to authenticated pages as an unauthenticated user or to privileged pages as a standard user.",
+                            "insc_info": [
+                                {
+                                    "info_tag": "Source",
+                                    "info_cntn": "OWASP Top 10:2021",
+                                    "info_url": "Not Yet"
+                                },
+                                {
+                                    "info_tag": "Link",
+                                    "info_cntn": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+                                    "info_url": "Not Yet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

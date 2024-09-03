@@ -532,6 +532,13 @@
                                     "scion_id": "ls_dgtl_sec_vln_in",
                                     "scions": [
                                         {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-BAC-000",
+                                            "ls_ttl": "Broken Access Control",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/bac/000/bac_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_bac_000"
+                                        },
+                                        {
                                             "ls_id": "LS-DGTL-SEC-VLN-IN-SSRF-000",
                                             "ls_ttl": "Server Side Request Forgery",
                                             "ls_type": "+>",

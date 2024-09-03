@@ -624,22 +624,47 @@
                     "ls_id": "LS-DGTL-OS",
                     "ls_ttl": "Operating Systems",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/os/",
+                    "ls_url": "./ls/dgtl/os/",
                     "scion_id": "ls_dgtl_os",
                     "scions": [
                         {
-                            "ls_id": "LS-DGTL-OS-MS",
-                            "ls_ttl": "Microsoft Operating Systems",
+                            "ls_id": "LS-DGTL-OS-IN",
+                            "ls_ttl": "[Instances]",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/os/ms/",
-                            "scion_id": "ls_dgtl_os_ms",
+                            "ls_url": "./ls/dgtl/os/in/",
+                            "scion_id": "ls_dgtl_os_in",
                             "scions": [
                                 {
-                                    "ls_id": "LS-DGTL-OS-MS-WOS",
-                                    "ls_ttl": "The Windows OS",
-                                    "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/os/ms/wos.json",
-                                    "scion_id": "ls_dgtl_os_ms_wos"
+                                    "ls_id": "LS-DGTL-OS-IN-LINUX",
+                                    "ls_ttl": "Linux Operating Systems",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/os/in/linux/",
+                                    "scion_id": "ls_dgtl_os_in_linux",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-OS-IN-LINUX-000",
+                                            "ls_ttl": "[OverView]",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/os/in/linux/000/linux_000.json",
+                                            "scion_id": "ls_dgtl_os_in_linux_000"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-OS-IN-MS",
+                                    "ls_ttl": "Microsoft Operating Systems",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/os/in/ms/",
+                                    "scion_id": "ls_dgtl_os_in_ms",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-OS-IN-MS-WOS",
+                                            "ls_ttl": "The Windows OS",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/os/in/ms/wos.json",
+                                            "scion_id": "ls_dgtl_os_in_ms_wos"
+                                        }
+                                    ]
                                 }
                             ]
                         }

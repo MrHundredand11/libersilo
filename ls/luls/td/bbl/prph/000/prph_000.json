@@ -52,47 +52,47 @@
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "White"
+                            "insc_term": "White"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Red"
+                            "insc_term": "Red"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Scarlet"
+                            "insc_term": "Scarlet"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Pale"
+                            "insc_term": "Pale"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Emerald"
+                            "insc_term": "Emerald"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Purple"
+                            "insc_term": "Purple"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Sapphire"
+                            "insc_term": "Sapphire"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Black"
+                            "insc_term": "Black"
                         },
                         {
                             "insc_typ1": "insc",
                             "insc_typ2": "trm",
-                            "insc_trm": "Green"
+                            "insc_term": "Green"
                         }
                     ]
                 }

@@ -40,13 +40,72 @@
             "scions": []
         },
         {
+            "drct_stub": ["OPTC", "Optics", 1],
+            "scion_id": "ls_luls_td_bbl_prph_000_optc",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Colors</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Biblical Prophecy</b></i>)",
+                    "scion_id": "ls_luls_td_bbl_prph_000_optc_color",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "White"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Red"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Scarlet"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Pale"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Emerald"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Purple"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Sapphire"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Black"
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "trm",
+                            "insc_trm": "Green"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "drct_stub": ["QUOT", "Quotes", 1],
             "scion_id": "ls_luls_td_bbl_prph_000_quot",
             "scions": [
                 {
                     "insc_typ1": "stm",
                     "insc_typ2": "brn",
-                    "insc_ttl": "<b><u>Assorted Quotes</b></u>&nbsp; <i>around</i>&nbsp; (<b><i>Biblical Prophecy</b></i>)",
+                    "insc_ttl": "<b>[<u>Assorted Quotes</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Biblical Prophecy</b></i>)",
                     "scion_id": "ls_luls_td_bbl_prph_000_quot_assrt",
                     "scions": [
                         {

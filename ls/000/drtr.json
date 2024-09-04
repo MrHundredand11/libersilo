@@ -4389,22 +4389,103 @@
                 },
                 {
                     "ls_id": "LS-MMM-COLOR",
-                    "ls_ttl": "Color Theory",
+                    "ls_ttl": "Colors",
                     "ls_url": "./ls/mmm/color",
                     "ls_type": "=>",
-                    "scion_id": "ls_mmm_color"
+                    "scion_id": "ls_mmm_color",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-COLOR-000",
+                            "ls_ttl": "[OverView]",
+                            "ls_url": "./ls/mmm/color/000/color_000.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_color_000"
+                        },
+                        {
+                            "ls_id": "LS-MMM-COLOR-IN",
+                            "ls_ttl": "[Instances]",
+                            "ls_url": "./ls/mmm/color/in/",
+                            "ls_type": "=>",
+                            "scion_id": "ls_mmm_color_in",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-WHITE-000",
+                                    "ls_ttl": "White",
+                                    "ls_url": "./ls/mmm/color/in/white/000/white_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_white_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-BLACK-000",
+                                    "ls_ttl": "BLACK",
+                                    "ls_url": "./ls/mmm/color/in/black/000/black_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_black_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-VIOLET-000",
+                                    "ls_ttl": "Violet",
+                                    "ls_url": "./ls/mmm/color/in/violet/000/violet_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_violet_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-BLUE-000",
+                                    "ls_ttl": "Blue",
+                                    "ls_url": "./ls/mmm/color/in/blue/000/blue_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_blue_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-CYAN-000",
+                                    "ls_ttl": "Cyan",
+                                    "ls_url": "./ls/mmm/color/in/cyan/000/cyan_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_cyan_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-GREEN-000",
+                                    "ls_ttl": "Green",
+                                    "ls_url": "./ls/mmm/color/in/green/000/green_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_green_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-YELLOW-000",
+                                    "ls_ttl": "Yellow",
+                                    "ls_url": "./ls/mmm/color/in/yellow/000/yellow_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_yellow_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-ORANGE-000",
+                                    "ls_ttl": "Orange",
+                                    "ls_url": "./ls/mmm/color/in/orange/000/orange_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_orange_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-COLOR-IN-RED-000",
+                                    "ls_ttl": "Red",
+                                    "ls_url": "./ls/mmm/color/in/red/000/red_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_color_in_red_000"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "ls_id": "LS-MMM-CPHR",
                     "ls_ttl": "Ciphers",
-                    "ls_url": "./ls/mmm/cphr",
+                    "ls_url": "./ls/mmm/cphr/",
                     "ls_type": "=>",
                     "scion_id": "ls_mmm_cphr",
                     "scions": [
                         {
                             "ls_id": "LS-MMM-CPHR-000",
-                            "ls_ttl": "Overview of Ciphers",
-                            "ls_url": "./ls/mmm/cphr/000.json",
+                            "ls_ttl": "[OverView]",
+                            "ls_url": "./ls/mmm/cphr/000/cphr_000.json",
                             "ls_type": "+>",
                             "scion_id": "ls_mmm_cphr_000"
                         }

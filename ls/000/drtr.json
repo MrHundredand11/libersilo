@@ -2109,8 +2109,26 @@
                             "ls_id": "LS-LULS-TD-AM",
                             "ls_ttl": "Ascended Master Traditions",
                             "ls_type": "=>",
-                            "ls_url": "/ls/luls/td/am/",
-                            "scion_id": "ls_luls_td_am"
+                            "ls_url": "./ls/luls/td/am/",
+                            "scion_id": "ls_luls_td_am",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-LULS-TD-AM-XRCS",
+                                    "ls_ttl": "[Exercises]",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/luls/td/am/xrcs/",
+                                    "scion_id": "ls_luls_td_am_xrcs",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-TD-AM-XRCS-MMGP",
+                                            "ls_ttl": "Meditation on The Mighty God Presence",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/luls/td/am/xrcs/mmgp/000/mmgp_000.json",
+                                            "scion_id": "ls_luls_td_am_xrcs_mmgp_000"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "ls_id": "LS-LULS-TD-BBL",

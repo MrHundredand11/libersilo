@@ -4388,6 +4388,59 @@
                     "scion_id": "ls_mmm_000"
                 },
                 {
+                    "ls_id": "LS-MMM-CIPHER",
+                    "ls_ttl": "Ciphers",
+                    "ls_url": "./ls/mmm/cipher/",
+                    "ls_type": "=>",
+                    "scion_id": "ls_mmm_cipher",
+                    "scions": [
+                        {
+                            "ls_id": "LS-MMM-CIPHER-000",
+                            "ls_ttl": "[OverView]",
+                            "ls_url": "./ls/mmm/cipher/000/cipher_000.json",
+                            "ls_type": "+>",
+                            "scion_id": "ls_mmm_cipher_000"
+                        },
+                        {
+                            "ls_id": "LS-MMM-CIPHER-IN",
+                            "ls_ttl": "[Instances]",
+                            "ls_url": "./ls/mmm/cipher/in/",
+                            "ls_type": "=>",
+                            "scion_id": "ls_mmm_cipher_000",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-MMM-CIPHER-IN-ALW-000",
+                                    "ls_ttl": "The ALW Cipher",
+                                    "ls_url": "./ls/mmm/cipher/in/alw/000/alw_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_cipher_in_alw_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-CIPHER-IN-CAESAR-000",
+                                    "ls_ttl": "The Caesar Cipher",
+                                    "ls_url": "./ls/mmm/cipher/in/caesar/000/caesar_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_cipher_in_caesar_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-CIPHER-IN-MANTONG-000",
+                                    "ls_ttl": "The Mantong Cipher",
+                                    "ls_url": "./ls/mmm/cipher/in/mantong/000/mantong_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_cipher_in_mantong_000"
+                                },
+                                {
+                                    "ls_id": "LS-MMM-CIPHER-IN-UFONAUT-000",
+                                    "ls_ttl": "The UFOnaut Cipher",
+                                    "ls_url": "./ls/mmm/cipher/in/ufonaut/000/ufonaut_000.json",
+                                    "ls_type": "+>",
+                                    "scion_id": "ls_mmm_cipher_in_ufonaut_000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "ls_id": "LS-MMM-COLOR",
                     "ls_ttl": "Colors",
                     "ls_url": "./ls/mmm/color",
@@ -4417,7 +4470,7 @@
                                 },
                                 {
                                     "ls_id": "LS-MMM-COLOR-IN-BLACK-000",
-                                    "ls_ttl": "BLACK",
+                                    "ls_ttl": "Black",
                                     "ls_url": "./ls/mmm/color/in/black/000/black_000.json",
                                     "ls_type": "+>",
                                     "scion_id": "ls_mmm_color_in_black_000"
@@ -4472,22 +4525,6 @@
                                     "scion_id": "ls_mmm_color_in_red_000"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "ls_id": "LS-MMM-CPHR",
-                    "ls_ttl": "Ciphers",
-                    "ls_url": "./ls/mmm/cphr/",
-                    "ls_type": "=>",
-                    "scion_id": "ls_mmm_cphr",
-                    "scions": [
-                        {
-                            "ls_id": "LS-MMM-CPHR-000",
-                            "ls_ttl": "[OverView]",
-                            "ls_url": "./ls/mmm/cphr/000/cphr_000.json",
-                            "ls_type": "+>",
-                            "scion_id": "ls_mmm_cphr_000"
                         }
                     ]
                 },

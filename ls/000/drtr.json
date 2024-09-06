@@ -451,12 +451,28 @@
                             "scion_id": "ls_dgtl_isec_grc"
                         },
                         {
-                            "ls_id": "LS-DGTL-ISEC-DFN",
-                            "ls_ttl": "InfoSec Defensive Measures",
+                            "ls_id": "LS-DGTL-SEC-DFN",
+                            "ls_ttl": "Security Defenses",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/isec/dfn/",
+                            "ls_url": "./ls/dgtl/isec/dfn/",
                             "scion_id": "ls_dgtl_isec_dfn",
                             "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-SEC-DFN-IN",
+                                    "ls_ttl": "[Instances]",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/isec/dfn/in/",
+                                    "scion_id": "ls_dgtl_isec_dfn_in",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-DFN-IN-SSSN-0000",
+                                            "ls_ttl": "Session Management",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/isec/dfn/in/sssn/000/sssn_000.json",
+                                            "scion_id": "ls_dgtl_isec_dfn_in_sssn_000"
+                                        }
+                                    ]
+                                },
                                 {
                                     "ls_id": "LS-DGTL-ISEC-DFN-ACSCTRL",
                                     "ls_ttl": "Access Control",

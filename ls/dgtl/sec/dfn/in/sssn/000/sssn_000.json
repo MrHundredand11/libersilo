@@ -1,0 +1,32 @@
+{
+    "ls_id": "LS-DGTL-SEC-DFN-IN-SSSN-000",
+    "ls_ttl": "Session Management",
+    "ls_url": "./ls/dgtl/sec/dfn/in/sssn/000/sssn_000.json",
+    "scion_id": "ls_dgtl_sec_dfn_in_sssn_000",
+    "scions": [
+        {
+            "drct_stub": ["VULN", "Vulnerabilities", 1],
+            "scion_id": "ls_dgtl_sec_dfn_in_sssn_000_vuln",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Categories</u>]</b>&nbsp;of&nbsp;(<b><i>Session Management Vulnerabilities</i></b>)",
+                    "scion_id": "ls_dgtl_sec_dfn_in_sssn_000_vuln_ctgr",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Weaknesses in the generation of session tokens."
+                        },
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Weaknesses in the handling of session tokens throughout their life cycle."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -35,6 +35,18 @@
             "scions": []
         },
         {
+            "drct_stub": ["QSTN", "Questions", 1],
+            "scion_id": "ls_luls_td_bbl_prph_000_qstn",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Questions</u>]</b>&nbsp; <i>around</i>&nbsp; (<b><i>Biblical Prophecy</b></i>)",
+                    "scion_id": "ls_luls_td_bbl_prph_000_qstn_all"
+                }
+            ]
+        },
+        {
             "drct_stub": ["ARCT", "Archetypes", 1],
             "scion_id": "ls_luls_td_bbl_prph_000_arct",
             "scions": []

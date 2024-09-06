@@ -461,15 +461,15 @@
                                     "ls_id": "LS-DGTL-SEC-DFN-IN",
                                     "ls_ttl": "[Instances]",
                                     "ls_type": "=>",
-                                    "ls_url": "./ls/dgtl/isec/dfn/in/",
-                                    "scion_id": "ls_dgtl_isec_dfn_in",
+                                    "ls_url": "./ls/dgtl/sec/dfn/in/",
+                                    "scion_id": "ls_dgtl_sec_dfn_in",
                                     "scions": [
                                         {
                                             "ls_id": "LS-DGTL-SEC-DFN-IN-SSSN-0000",
                                             "ls_ttl": "Session Management",
                                             "ls_type": "+>",
-                                            "ls_url": "./ls/dgtl/isec/dfn/in/sssn/000/sssn_000.json",
-                                            "scion_id": "ls_dgtl_isec_dfn_in_sssn_000"
+                                            "ls_url": "./ls/dgtl/sec/dfn/in/sssn/000/sssn_000.json",
+                                            "scion_id": "ls_dgtl_sec_dfn_in_sssn_000"
                                         }
                                     ]
                                 },

@@ -430,6 +430,139 @@
                     ]
                 },
                 {
+                    "ls_id": "LS-DGTL-MG",
+                    "ls_ttl": "Management of Assets",
+                    "ls_type": "=>",
+                    "ls_url": "./ls/dgtl/mg/",
+                    "scion_id": "ls_dgtl_mg",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-MG-IN",
+                            "ls_ttl": "[Instances]",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/dgtl/mg/in/",
+                            "scion_id": "ls_dgtl_mg_in",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DCM",
+                                    "ls_ttl": "Document & Content Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/mg/in/dcm/",
+                                    "scion_id": "ls_dgtl_mg_in_dcm"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DTM",
+                                    "ls_ttl": "Data Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/dtm/",
+                                    "scion_id": "ls_dgtl_mg_in_dtm"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-DVM",
+                                    "ls_ttl": "Device Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/dvm/",
+                                    "scion_id": "ls_dgtl_mg_in_dvm",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-MG-IN-DVM-INTN",
+                                            "ls_ttl": "MS Intune",
+                                            "ls_type": "+>",
+                                            "ls_url": "/ls/dgtl/mg/in/dvm/intn/intn_000.json",
+                                            "scion_id": "ls_dgtl_mg_in_dvm/intn"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-IAM",
+                                    "ls_ttl": "Identity & Access Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/iam/",
+                                    "scion_id": "ls_dgtl_mg_in_iam"
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-MG-IN-NTM",
+                                    "ls_ttl": "Network Management",
+                                    "ls_type": "=>",
+                                    "ls_url": "/ls/dgtl/mg/in/ntm/",
+                                    "scion_id": "ls_dgtl_mg_in_ntm"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-NW",
+                    "ls_ttl": "Networking",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/nw/",
+                    "scion_id": "ls_dgtl_nw"
+                },
+                {
+                    "ls_id": "LS-DGTL-OS",
+                    "ls_ttl": "Operating Systems",
+                    "ls_type": "=>",
+                    "ls_url": "./ls/dgtl/os/",
+                    "scion_id": "ls_dgtl_os",
+                    "scions": [
+                        {
+                            "ls_id": "LS-DGTL-OS-IN",
+                            "ls_ttl": "[Instances]",
+                            "ls_type": "=>",
+                            "ls_url": "./ls/dgtl/os/in/",
+                            "scion_id": "ls_dgtl_os_in",
+                            "scions": [
+                                {
+                                    "ls_id": "LS-DGTL-OS-IN-LINUX",
+                                    "ls_ttl": "Linux Operating Systems",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/os/in/linux/",
+                                    "scion_id": "ls_dgtl_os_in_linux",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-OS-IN-LINUX-000",
+                                            "ls_ttl": "[OverView]",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/os/in/linux/000/linux_000.json",
+                                            "scion_id": "ls_dgtl_os_in_linux_000"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ls_id": "LS-DGTL-OS-IN-MS",
+                                    "ls_ttl": "Microsoft Operating Systems",
+                                    "ls_type": "=>",
+                                    "ls_url": "./ls/dgtl/os/in/ms/",
+                                    "scion_id": "ls_dgtl_os_in_ms",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-DGTL-OS-IN-MS-WOS",
+                                            "ls_ttl": "The Windows OS",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/os/in/ms/wos.json",
+                                            "scion_id": "ls_dgtl_os_in_ms_wos"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ls_id": "LS-DGTL-PRNT",
+                    "ls_ttl": "Printing",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/prnt/",
+                    "scion_id": "ls_dgtl_prnt"
+                },
+                {
+                    "ls_id": "LS-DGTL-QNTM",
+                    "ls_ttl": "Quantum Computing",
+                    "ls_type": "=>",
+                    "ls_url": "/ls/dgtl/qntm/",
+                    "scion_id": "ls_dgtl_qntm"
+                },
+                {
                     "ls_id": "LS-DGTL-ISEC",
                     "ls_ttl": "Information Security",
                     "ls_type": "=>",
@@ -555,157 +688,80 @@
                                             "scion_id": "ls_dgtl_sec_vln_in_bac_000"
                                         },
                                         {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-CRYPTFAIL-000",
+                                            "ls_ttl": "Cryptographic Failures",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/cryptfail/000/cryptfail_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_cryptfail_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-IDAUTHFAIL-000",
+                                            "ls_ttl": "Identification & Authentication Failures",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/idauthfail/000/idauthfail_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_idauthfail_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-INJECTION-000",
+                                            "ls_ttl": "Injection",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/injection/000/injection_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_injection_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-INSCRDSGN-000",
+                                            "ls_ttl": "Insecure Design",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/inscrdsgn/000/inscrdsgn_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_inscrdsgn_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-RCE-000",
+                                            "ls_ttl": "Remote Code Execution (RCE)",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/rce/000/rce_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_rce_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-SCLGMNFL-000",
+                                            "ls_ttl": "Security Logging & Monitoring Failures",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/sclgmnfl/000/sclgmnfl_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_sclgmnfl_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-SCMSCNFG-000",
+                                            "ls_ttl": "Security Misconfiguration",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/scmscnfg/000/scmscnfg_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_scmscnfg_000"
+                                        },
+                                        {
                                             "ls_id": "LS-DGTL-SEC-VLN-IN-SSRF-000",
-                                            "ls_ttl": "Server Side Request Forgery",
+                                            "ls_ttl": "Server Side Request Forgery (SSRF)",
                                             "ls_type": "+>",
                                             "ls_url": "./ls/dgtl/sec/vln/in/ssrf/000/ssrf_000.json",
                                             "scion_id": "ls_dgtl_sec_vln_in_ssrf_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-SDIF-000",
+                                            "ls_ttl": "Software & Data Integrity Failures",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/sdif/000/sdif_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_sdif_000"
+                                        },
+                                        {
+                                            "ls_id": "LS-DGTL-SEC-VLN-IN-VLNOTDCMPNT-000",
+                                            "ls_ttl": "Vulnerable & Outdated Components",
+                                            "ls_type": "+>",
+                                            "ls_url": "./ls/dgtl/sec/vln/in/vlnotdcmpnt/000/vlnotdcmpnt_000.json",
+                                            "scion_id": "ls_dgtl_sec_vln_in_vlnotdcmpnt_000"
                                         }
                                     ]
                                 }
                             ]
                         }
                     ]
-                },
-                {
-                    "ls_id": "LS-DGTL-MG",
-                    "ls_ttl": "Digital Asset Management",
-                    "ls_type": "=>",
-                    "ls_url": "./ls/dgtl/mg/",
-                    "scion_id": "ls_dgtl_mg",
-                    "scions": [
-                        {
-                            "ls_id": "LS-DGTL-MG-IN",
-                            "ls_ttl": "[Instances]",
-                            "ls_type": "=>",
-                            "ls_url": "./ls/dgtl/mg/in/",
-                            "scion_id": "ls_dgtl_mg_in",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-MG-IN-DCM",
-                                    "ls_ttl": "Document & Content Management",
-                                    "ls_type": "=>",
-                                    "ls_url": "./ls/dgtl/mg/in/dcm/",
-                                    "scion_id": "ls_dgtl_mg_in_dcm"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-MG-IN-DTM",
-                                    "ls_ttl": "Data Management",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/mg/in/dtm/",
-                                    "scion_id": "ls_dgtl_mg_in_dtm"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-MG-IN-DVM",
-                                    "ls_ttl": "Device Management",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/mg/in/dvm/",
-                                    "scion_id": "ls_dgtl_mg_in_dvm",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-MG-IN-DVM-INTN",
-                                            "ls_ttl": "MS Intune",
-                                            "ls_type": "+>",
-                                            "ls_url": "/ls/dgtl/mg/in/dvm/intn/intn_000.json",
-                                            "scion_id": "ls_dgtl_mg_in_dvm/intn"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-MG-IN-IAM",
-                                    "ls_ttl": "Identity & Access Management",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/mg/in/iam/",
-                                    "scion_id": "ls_dgtl_mg_in_iam"
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-MG-IN-NTM",
-                                    "ls_ttl": "Network Management",
-                                    "ls_type": "=>",
-                                    "ls_url": "/ls/dgtl/mg/in/ntm/",
-                                    "scion_id": "ls_dgtl_mg_in_ntm"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "ls_id": "LS-DGTL-NW",
-                    "ls_ttl": "Networking",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/nw/",
-                    "scion_id": "ls_dgtl_nw"
-                },
-                {
-                    "ls_id": "LS-DGTL-OS",
-                    "ls_ttl": "Operating Systems",
-                    "ls_type": "=>",
-                    "ls_url": "./ls/dgtl/os/",
-                    "scion_id": "ls_dgtl_os",
-                    "scions": [
-                        {
-                            "ls_id": "LS-DGTL-OS-IN",
-                            "ls_ttl": "[Instances]",
-                            "ls_type": "=>",
-                            "ls_url": "./ls/dgtl/os/in/",
-                            "scion_id": "ls_dgtl_os_in",
-                            "scions": [
-                                {
-                                    "ls_id": "LS-DGTL-OS-IN-LINUX",
-                                    "ls_ttl": "Linux Operating Systems",
-                                    "ls_type": "=>",
-                                    "ls_url": "./ls/dgtl/os/in/linux/",
-                                    "scion_id": "ls_dgtl_os_in_linux",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-OS-IN-LINUX-000",
-                                            "ls_ttl": "[OverView]",
-                                            "ls_type": "+>",
-                                            "ls_url": "./ls/dgtl/os/in/linux/000/linux_000.json",
-                                            "scion_id": "ls_dgtl_os_in_linux_000"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "ls_id": "LS-DGTL-OS-IN-MS",
-                                    "ls_ttl": "Microsoft Operating Systems",
-                                    "ls_type": "=>",
-                                    "ls_url": "./ls/dgtl/os/in/ms/",
-                                    "scion_id": "ls_dgtl_os_in_ms",
-                                    "scions": [
-                                        {
-                                            "ls_id": "LS-DGTL-OS-IN-MS-WOS",
-                                            "ls_ttl": "The Windows OS",
-                                            "ls_type": "+>",
-                                            "ls_url": "./ls/dgtl/os/in/ms/wos.json",
-                                            "scion_id": "ls_dgtl_os_in_ms_wos"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "ls_id": "LS-DGTL-PCL",
-                    "ls_ttl": "Protocols",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/pcl",
-                    "scion_id": "ls_dgtl_pcl"
-                },
-                {
-                    "ls_id": "LS-DGTL-PRNT",
-                    "ls_ttl": "Printing",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/prnt/",
-                    "scion_id": "ls_dgtl_prnt"
-                },
-                {
-                    "ls_id": "LS-DGTL-QNTM",
-                    "ls_ttl": "Quantum Computing",
-                    "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/qntm/",
-                    "scion_id": "ls_dgtl_qntm"
                 },
                 {
                     "ls_id": "LS-DGTL-SHLL",

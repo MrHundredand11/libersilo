@@ -2444,7 +2444,148 @@
                                             "ls_ttl": "The New Testament",
                                             "ls_type": "=>",
                                             "ls_url": "./ls/luls/bbl/sc/nt/",
-                                            "scion_id": "ls_luls_bbl_sc_nt"
+                                            "scion_id": "ls_luls_bbl_sc_nt",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66",
+                                                    "ls_ttl": "The Book of Revelation",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/",
+                                                    "scion_id": "ls_luls_bbl_sc_nt_b66",
+                                                    "scions": [
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-000",
+                                                            "ls_ttl": "[OverView]",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/000/b66_000.json",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_000"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-CH",
+                                                            "ls_ttl": "[Chapters]",
+                                                            "ls_type": "=>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/ch/",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_ch"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-VS",
+                                                            "ls_ttl": "[Verses]",
+                                                            "ls_type": "=>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs",
+                                                            "scions": [
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C01",
+                                                                    "ls_ttl": "Chapter 01",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01",
+                                                                    "scions": [
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V01-000",
+                                                                            "ls_ttl": "Ch 01 Vs 01",
+                                                                            "ls_type": "=>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v01/000/v01_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v01_000"
+                                                                        },
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V02-000",
+                                                                            "ls_ttl": "Ch 01 Vs 02",
+                                                                            "ls_type": "=>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v02/000/v02_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v02_000"
+                                                                        },
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V03-000",
+                                                                            "ls_ttl": "Ch 01 Vs 03",
+                                                                            "ls_type": "=>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v03/000/v03_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v03_000"
+                                                                        },
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V04-000",
+                                                                            "ls_ttl": "Ch 01 Vs 04",
+                                                                            "ls_type": "=>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v04/000/v04_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v04_000"
+                                                                        },
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V05-000",
+                                                                            "ls_ttl": "Ch 01 Vs 05",
+                                                                            "ls_type": "=>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v05/000/v05_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v05_000"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C02",
+                                                                    "ls_ttl": "Chapter 02",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c02/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c02"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C03",
+                                                                    "ls_ttl": "Chapter 03",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c03/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c03"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C04",
+                                                                    "ls_ttl": "Chapter 04",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c04/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c04"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C05",
+                                                                    "ls_ttl": "Chapter 05",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c05/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c05"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C06",
+                                                                    "ls_ttl": "Chapter 06",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c06/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c06"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C07",
+                                                                    "ls_ttl": "Chapter 07",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c07/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c07"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C08",
+                                                                    "ls_ttl": "Chapter 08",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c08/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c08"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C09",
+                                                                    "ls_ttl": "Chapter 09",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c09/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c09"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B66-C10",
+                                                                    "ls_ttl": "Chapter 10",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c10/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c10"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             "ls_id": "LS-LULS-BBL-SC-OT",

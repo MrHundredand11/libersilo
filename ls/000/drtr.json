@@ -2484,35 +2484,35 @@
                                                                         {
                                                                             "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V01-000",
                                                                             "ls_ttl": "Ch 01 Vs 01",
-                                                                            "ls_type": "=>",
+                                                                            "ls_type": "+>",
                                                                             "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v01/000/v01_000.json",
                                                                             "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v01_000"
                                                                         },
                                                                         {
                                                                             "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V02-000",
                                                                             "ls_ttl": "Ch 01 Vs 02",
-                                                                            "ls_type": "=>",
+                                                                            "ls_type": "+>",
                                                                             "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v02/000/v02_000.json",
                                                                             "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v02_000"
                                                                         },
                                                                         {
                                                                             "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V03-000",
                                                                             "ls_ttl": "Ch 01 Vs 03",
-                                                                            "ls_type": "=>",
+                                                                            "ls_type": "+>",
                                                                             "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v03/000/v03_000.json",
                                                                             "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v03_000"
                                                                         },
                                                                         {
                                                                             "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V04-000",
                                                                             "ls_ttl": "Ch 01 Vs 04",
-                                                                            "ls_type": "=>",
+                                                                            "ls_type": "+>",
                                                                             "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v04/000/v04_000.json",
                                                                             "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v04_000"
                                                                         },
                                                                         {
                                                                             "ls_id": "LS-LULS-BBL-SC-NT-B66-C01-V05-000",
                                                                             "ls_ttl": "Ch 01 Vs 05",
-                                                                            "ls_type": "=>",
+                                                                            "ls_type": "+>",
                                                                             "ls_url": "./ls/luls/bbl/sc/nt/b66/vs/c01/v05/000/v05_000.json",
                                                                             "scion_id": "ls_luls_bbl_sc_nt_b66_vs_c01_v05_000"
                                                                         }

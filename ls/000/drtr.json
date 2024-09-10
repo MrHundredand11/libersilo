@@ -2447,6 +2447,68 @@
                                             "scion_id": "ls_luls_bbl_sc_nt",
                                             "scions": [
                                                 {
+                                                    "ls_id": "LS-LULS-BBL-SC-NT-B65",
+                                                    "ls_ttl": "The Book of Jude",
+                                                    "ls_type": "=>",
+                                                    "ls_url": "./ls/luls/bbl/sc/nt/b65/",
+                                                    "scion_id": "ls_luls_bbl_sc_nt_b65",
+                                                    "scions": [
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B65-000",
+                                                            "ls_ttl": "[OverView]",
+                                                            "ls_type": "+>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b65/000/b65_000.json",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b65_000"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B65-CH",
+                                                            "ls_ttl": "[Chapters]",
+                                                            "ls_type": "=>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b65/ch/",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b65_ch"
+                                                        },
+                                                        {
+                                                            "ls_id": "LS-LULS-BBL-SC-NT-B65-PRPH",
+                                                            "ls_ttl": "[Prophecy]",
+                                                            "ls_type": "=>",
+                                                            "ls_url": "./ls/luls/bbl/sc/nt/b65/prph/",
+                                                            "scion_id": "ls_luls_bbl_sc_nt_b65_prph",
+                                                            "scions": [
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B65-PRPH-000",
+                                                                    "ls_ttl": "[OverView]",
+                                                                    "ls_type": "+>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b65/prph/000/prph_000.json",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b65_prph_000"
+                                                                },
+                                                                {
+                                                                    "ls_id": "LS-LULS-BBL-SC-NT-B65-PRPH-IN",
+                                                                    "ls_ttl": "[Instances]",
+                                                                    "ls_type": "=>",
+                                                                    "ls_url": "./ls/luls/bbl/sc/nt/b65/prph/in/",
+                                                                    "scion_id": "ls_luls_bbl_sc_nt_b65_prph_in",
+                                                                    "scions": [
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B65-PRPH-IN-P_01-000",
+                                                                            "ls_ttl": "Prophecy 01",
+                                                                            "ls_type": "+>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b65/prph/in/p_01/000/p_01_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b65_prph_in_p_01_000"
+                                                                        },
+                                                                        {
+                                                                            "ls_id": "LS-LULS-BBL-SC-NT-B65-PRPH-IN-P_02-000",
+                                                                            "ls_ttl": "Prophecy 02",
+                                                                            "ls_type": "+>",
+                                                                            "ls_url": "./ls/luls/bbl/sc/nt/b65/prph/in/p_02/000/p_02_000.json",
+                                                                            "scion_id": "ls_luls_bbl_sc_nt_b65_prph_in_p_02_000"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     "ls_id": "LS-LULS-BBL-SC-NT-B66",
                                                     "ls_ttl": "The Book of Revelation",
                                                     "ls_type": "=>",

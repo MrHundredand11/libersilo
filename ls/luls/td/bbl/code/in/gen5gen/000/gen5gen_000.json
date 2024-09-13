@@ -1,0 +1,27 @@
+{
+    "ls_id": "LS-LULS-TD-BBL-CODE-IN-GEN5GEN-000",
+    "ls_ttl": "Genesis 5 Genealogy Code",
+    "ls_url": "./ls/luls/td/bbl/code/in/gen5gen/000/gen5gen_000.json",
+    "scion_id": "ls_luls_td_bbl_code_in_gen5gen_000",
+    "scions": [
+        {
+            "drct_stub": ["TEXT", "Texts", 1],
+            "scion_id": "ls_luls_td_bbl_code_in_gen5gen_000_text",
+            "scions": [
+                {
+                    "insc_typ1": "stm",
+                    "insc_typ2": "brn",
+                    "insc_ttl": "<b>[<u>Web Articles</u>]</b>&nbsp;about the&nbsp;(<b><i>Genesis 5 Genealogy</i></b>)",
+                    "scion_id": "ls_luls_td_bbl_code_in_gen5gen_000_text_artcl_web",
+                    "scions": [
+                        {
+                            "insc_typ1": "insc",
+                            "insc_typ2": "txt",
+                            "insc_cntn": "Meanings of the Names in Genesis 5 (Chuck Missler)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

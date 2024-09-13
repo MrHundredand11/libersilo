@@ -2228,7 +2228,25 @@
                                     "ls_ttl": "Biblical Codes",
                                     "ls_type": "=>",
                                     "ls_url": "./ls/luls/td/bbl/code/",
-                                    "scion_id": "ls_luls_td_bbl_code"
+                                    "scion_id": "ls_luls_td_bbl_code",
+                                    "scions": [
+                                        {
+                                            "ls_id": "LS-LULS-TD-BBL-CODE-IN",
+                                            "ls_ttl": "[Instances]",
+                                            "ls_type": "=>",
+                                            "ls_url": "./ls/luls/td/bbl/code/in/",
+                                            "scion_id": "ls_luls_td_bbl_code_in",
+                                            "scions": [
+                                                {
+                                                    "ls_id": "LS-LULS-TD-BBL-CODE-IN-GEN5GEN-000",
+                                                    "ls_ttl": "Genesis 5 Genealogy Code",
+                                                    "ls_type": "+>",
+                                                    "ls_url": "./ls/luls/td/bbl/code/in/gen5gen/000/gen5gen_000.json",
+                                                    "scion_id": "ls_luls_td_bbl_code_in_gen5gen_000"
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
                                     "ls_id": "LS-LULS-T-BBL-CYC",

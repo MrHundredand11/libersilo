@@ -46,21 +46,21 @@
                     "ls_id": "LS-DBR-NAME",
                     "ls_ttl": "Proper Names",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dbr/name/",
+                    "ls_url": "./ls/dbr/name/",
                     "scion_id": "ls_dbr_name",
                     "scions": [
                         {
                             "ls_id": "LS-DBR-NAME-F",
                             "ls_ttl": "F Names",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dbr/name/f/",
+                            "ls_url": "./ls/dbr/name/f/",
                             "scion_id": "ls_dbr_name_f",
                             "scions": [
                                 {
                                     "ls_id": "LS-DBR-NAME-F-FAYETTE",
                                     "ls_ttl": "The Name Fayette",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dbr/name/f/fayette.json",
+                                    "ls_url": "./ls/dbr/name/f/fayette.json",
                                     "scion_id": "ls_dbr_name_f_fayette"
                                 }
                             ]
@@ -73,7 +73,7 @@
             "ls_id": "LS-DGTL",
             "ls_ttl": "Digital Realms",
             "ls_type": "->",
-            "ls_url": "/ls/dgtl/",
+            "ls_url": "./ls/dgtl/",
             "scion_id": "ls_dgtl",
             "scion_snip": "DGTL",
             "scions": [
@@ -81,35 +81,35 @@
                     "ls_id": "LS-DGTL-AI",
                     "ls_ttl": "Automation Intelligence",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/ai/",
+                    "ls_url": "./ls/dgtl/ai/",
                     "scion_id": "ls_dgtl_ai",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-AI-000",
                             "ls_ttl": "Overview of 'Automation Intelligence'",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/ai/000.json",
+                            "ls_url": "./ls/dgtl/ai/000.json",
                             "scion_id": "ls_dgtl_ai_000"
                         },
                         {
                             "ls_id": "LS-DGTL-AI-CLD",
                             "ls_ttl": "AI Cloud Offerings",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/ai/cld.json",
+                            "ls_url": "./ls/dgtl/ai/cld.json",
                             "scion_id": "ls_dgtl_ai_cld"
                         },
                         {
                             "ls_id": "LS-DGTL-AI-GPT",
                             "ls_ttl": "ChatGPT",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/ai/gpt.json",
+                            "ls_url": "./ls/dgtl/ai/gpt.json",
                             "scion_id": "ls_dgtl_ai_gpt"
                         },
                         {
                             "ls_id": "LS-DGTL-AI-ML",
                             "ls_ttl": "Machine Learning",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/ai/ml.json",
+                            "ls_url": "./ls/dgtl/ai/ml.json",
                             "scion_id": "ls_dgtl_ai_ml"
                         }
                     ]
@@ -118,35 +118,35 @@
                     "ls_id": "LS-DGTL-CLD",
                     "ls_ttl": "Cloud Computing",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/cld/",
+                    "ls_url": "./ls/dgtl/cld/",
                     "scion_id": "ls_dgtl_cld",
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-CLD-000",
-                            "ls_ttl": "Cloud Computing",
+                            "ls_ttl": "[OverView]",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/cld/cld_000.json",
+                            "ls_url": "./ls/dgtl/cld/cld_000.json",
                             "scion_id": "ls_dgtl_cld_000"
                         },
                         {
                             "ls_id": "LS-DGTL-CLD-MS",
                             "ls_ttl": "Microsoft Cloud Services",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/cld/ms/",
+                            "ls_url": "./ls/dgtl/cld/ms/",
                             "scion_id": "ls_dgtl_cld_ms",
                             "scions": [
                                 {
                                     "ls_id": "LS-DGTL-CLD-MS-AZR",
                                     "ls_ttl": "Microsoft Azure",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/cld/ms/azr.json",
+                                    "ls_url": "./ls/dgtl/cld/ms/azr.json",
                                     "scion_id": "ls_dgtl_cld_ms_azr"
                                 },
                                 {
                                     "ls_id": "LS-DGTL-CLD-MS-M365",
                                     "ls_ttl": "Microsoft 365",
                                     "ls_type": "+>",
-                                    "ls_url": "/ls/dgtl/cld/ms/m365.json",
+                                    "ls_url": "./ls/dgtl/cld/ms/m365.json",
                                     "scion_id": "ls_dgtl_cld_ms_m365"
                                 }
                             ]
@@ -157,7 +157,7 @@
                     "ls_id": "LS-DGTL-CODE",
                     "ls_ttl": "Coding + Programming",
                     "ls_type": "=>",
-                    "ls_url": "/ls/dgtl/code/",
+                    "ls_url": "./ls/dgtl/code/",
                     "scion_id": "ls_dgtl_code",
                     "scions": [
                         {
@@ -243,7 +243,7 @@
                             "ls_id": "LS-DGTL-CODE-WEB",
                             "ls_ttl": "Web Development + Design",
                             "ls_type": "=>",
-                            "ls_url": "/ls/dgtl/code/web/",
+                            "ls_url": "./ls/dgtl/code/web/",
                             "scion_id": "ls_dgtl_code_web",
                             "scions": [
                                 {
@@ -280,9 +280,9 @@
                     "scions": [
                         {
                             "ls_id": "LS-DGTL-DB-000",
-                            "ls_ttl": "Overview of 'Databases'",
+                            "ls_ttl": "[OverView]",
                             "ls_type": "+>",
-                            "ls_url": "/ls/dgtl/db/000.json",
+                            "ls_url": "./ls/dgtl/db/000.json",
                             "scion_id": "ls_dgtl_db_000"
                         },
                         {

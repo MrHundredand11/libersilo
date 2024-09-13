@@ -125,7 +125,7 @@
                             "ls_id": "LS-DGTL-CLD-000",
                             "ls_ttl": "[OverView]",
                             "ls_type": "+>",
-                            "ls_url": "./ls/dgtl/cld/cld_000.json",
+                            "ls_url": "./ls/dgtl/cld/000/cld_000.json",
                             "scion_id": "ls_dgtl_cld_000"
                         },
                         {

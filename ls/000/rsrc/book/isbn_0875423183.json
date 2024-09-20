@@ -1,0 +1,231 @@
+{
+    "head": {
+        "title": "The Key of it All: The Eastern mysteries",
+        "subtitle": "",
+        "authors": [
+            "David Allen Hulse"
+        ],
+        "publisher": "Llewellyn Worldwide Limited",
+        "published_date": "1993",
+        "ids": [
+            {
+                "type": "ISBN_10",
+                "identifier": "0875423183"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9780875423180"
+            },
+            {
+                "type": "librarything",
+                "identifier": "8459359"
+            },
+            {
+                "type": "goodreads",
+                "identifier": "333805"
+            },
+            {
+                "type": "lccn",
+                "identifier": "99045182"
+            }
+        ],
+        "categories": [
+            "Body, Mind & Spirit"
+        ],
+        "subjects": [
+            "Magic.",
+            "Symbolism of numbers.",
+            "Alphabet -- Miscellanea.",
+            "Language and languages -- Miscellanea.",
+            "Divination."
+        ]
+    },
+    "api_info": {
+        "google": {
+            "kind": "books#volume",
+            "id": "2X0PSQAACAAJ",
+            "etag": "UdBhFP/Wue0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2X0PSQAACAAJ",
+            "volumeInfo": {
+                "title": "The Key of it All: The Eastern mysteries",
+                "authors": [
+                    "David Allen Hulse"
+                ],
+                "publisher": "Llewellyn Worldwide Limited",
+                "publishedDate": "1993",
+                "description": "Catalogs and distills, in hundreds of tables of secret symbolism, the true alphabet magick of seven ancient Western magickal traditions--Greek, Coptic, Runes, Latin, Enochian, Tarot and English.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0875423183"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780875423180"
+                    },
+                    {
+                        "type": "librarything",
+                        "identifier": "8459359"
+                    },
+                    {
+                        "type": "goodreads",
+                        "identifier": "333805"
+                    },
+                    {
+                        "type": "lccn",
+                        "identifier": "99045182"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 656,
+                "printType": "BOOK",
+                "categories": [
+                    "Body, Mind & Spirit"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2X0PSQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2X0PSQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=2X0PSQAACAAJ&dq=isbn:0875423183&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=2X0PSQAACAAJ&dq=isbn:0875423183&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Key_of_it_All_The_Eastern_mysteries.html?hl=&id=2X0PSQAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2X0PSQAACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Key of It All series clarifies and extends the knowledge established by all previous books on occult magick."
+            }
+        },
+        "openlibrary": {
+            "other_titles": [
+                "Encyclopedic guide to the sacred languages & magickal systems of the world"
+            ],
+            "publishers": [
+                "Llewellyn"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "bk. 1. The Eastern mysteries",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "bk. 2. The Western mysteries.",
+                    "pagenum": ""
+                }
+            ],
+            "isbn_10": [
+                "0875423183",
+                "1567184294"
+            ],
+            "series": [
+                "Llewellyn's sourcebook series"
+            ],
+            "covers": [
+                809118,
+                667176
+            ],
+            "lc_classifications": [
+                "BF1623.P9 H85 2000",
+                "BF1623.P9H85 2000"
+            ],
+            "latest_revision": 20,
+            "key": "/books/OL46406M",
+            "authors": [
+                {
+                    "key": "/authors/OL30439A"
+                }
+            ],
+            "subtitle": "an encyclopedic guide to the sacred languages & magickal systems of the world",
+            "publish_places": [
+                "St. Paul, Minn"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "2 v. :",
+            "source_records": [
+                "bwb:9781567184297"
+            ],
+            "title": "The key of it all",
+            "dewey_decimal_class": [
+                "133.3/3"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Includes bibliographical references and index.\nBk. 2 has title: An encyclopedic guide to the sacred languages & magickal systems of the world."
+            },
+            "identifiers": {
+                "librarything": [
+                    "8459359"
+                ],
+                "goodreads": [
+                    "333805",
+                    "26803"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "edition_name": "2nd ed.",
+            "lccn": [
+                "99045182"
+            ],
+            "subjects": [
+                "Magic.",
+                "Symbolism of numbers.",
+                "Alphabet -- Miscellanea.",
+                "Language and languages -- Miscellanea.",
+                "Divination."
+            ],
+            "publish_date": "2000",
+            "publish_country": "mnu",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-08T02:00:27.807401"
+            },
+            "by_statement": "David Allen Hulse.",
+            "works": [
+                {
+                    "key": "/works/OL487133W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 20
+        }
+    }
+}

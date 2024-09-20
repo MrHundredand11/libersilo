@@ -1,0 +1,211 @@
+{
+    "head": {
+        "title": "Meditating on the Psalms",
+        "subtitle": "",
+        "authors": [
+            "John Eaton"
+        ],
+        "publisher": "Westminster John Knox Press",
+        "published_date": "2004-01-01",
+        "ids": [
+            {
+                "type": "ISBN_10",
+                "identifier": "0664229301"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9780664229306"
+            },
+            {
+                "type": "librarything",
+                "identifier": "3697344"
+            },
+            {
+                "type": "oclc",
+                "identifier": "60379398"
+            }
+        ],
+        "categories": [
+            "Religion"
+        ],
+        "subjects": ""
+    },
+    "api_info": {
+        "google": {
+            "kind": "books#volume",
+            "id": "gobG9NJ0RnUC",
+            "etag": "BKTooOHlaaI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/gobG9NJ0RnUC",
+            "volumeInfo": {
+                "title": "Meditating on the Psalms",
+                "authors": [
+                    "John Eaton"
+                ],
+                "publisher": "Westminster John Knox Press",
+                "publishedDate": "2004-01-01",
+                "description": "Spiritual insights into fifty-two of the best-loved psalms are influenced by the author's pastoral concerns and his commitment to the environment to enable readers to understand their importance and significance as a source of meditation for daily living. Original.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0664229301"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780664229306"
+                    },
+                    {
+                        "type": "librarything",
+                        "identifier": "3697344"
+                    },
+                    {
+                        "type": "oclc",
+                        "identifier": "60379398"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 202,
+                "printType": "BOOK",
+                "categories": [
+                    "Religion"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.6.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=gobG9NJ0RnUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=gobG9NJ0RnUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=gobG9NJ0RnUC&printsec=frontcover&dq=isbn:0664229301&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=gobG9NJ0RnUC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=gobG9NJ0RnUC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 10,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 8,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=gobG9NJ0RnUC&rdid=book-gobG9NJ0RnUC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 10000000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8000000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Meditating_on_the_Psalms-sample-epub.acsm?id=gobG9NJ0RnUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Meditating_on_the_Psalms-sample-pdf.acsm?id=gobG9NJ0RnUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=gobG9NJ0RnUC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Spiritual insights into fifty-two of the best-loved psalms are influenced by the author&#39;s pastoral concerns and his commitment to the environment to enable readers to understand their importance and significance as a source of meditation ..."
+            }
+        },
+        "openlibrary": {
+            "publishers": [
+                "Westminster John Knox Press"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "librarything": [
+                    "3697344"
+                ]
+            },
+            "title": "Meditating On The Psalms",
+            "number_of_pages": 189,
+            "covers": [
+                1332679
+            ],
+            "isbn_13": [
+                "9780664229306"
+            ],
+            "isbn_10": [
+                "0664229301"
+            ],
+            "publish_date": "February 2, 2005",
+            "key": "/books/OL7628377M",
+            "authors": [
+                {
+                    "key": "/authors/OL2742945A"
+                }
+            ],
+            "oclc_numbers": [
+                "60379398"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8242251W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "There can't be many Iron Age songs still in constant use today."
+            },
+            "ocaid": "meditatingonpsal0000eato",
+            "lc_classifications": [
+                "BS1430.3 .E238 2004"
+            ],
+            "source_records": [
+                "ia:meditatingonpsal0000eato",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "idb:9780664229306"
+            ],
+            "local_id": [
+                "urn:bwbsku:O6-DLJ-781"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-19T23:16:00.988968"
+            }
+        }
+    }
+}

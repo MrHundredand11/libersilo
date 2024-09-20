@@ -1,0 +1,233 @@
+{
+    "head": {
+        "title": "Shamanic Christianity",
+        "subtitle": "The Direct Experience of Mystical Communion",
+        "authors": [
+            "Bradford Keeney"
+        ],
+        "publisher": "Destiny Books",
+        "published_date": "2006-03-13",
+        "ids": [
+            {
+                "type": "ISBN_10",
+                "identifier": "1594770867"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9781594770869"
+            },
+            {
+                "type": "librarything",
+                "identifier": "3966103"
+            },
+            {
+                "type": "goodreads",
+                "identifier": "900310"
+            },
+            {
+                "type": "lccn",
+                "identifier": "2005037734"
+            },
+            {
+                "type": "oclc",
+                "identifier": "62789956"
+            }
+        ],
+        "categories": [
+            "Body, Mind & Spirit"
+        ],
+        "subjects": [
+            "Christian spirituality",
+            "Religion",
+            "Christianity",
+            "New Age / Body, Mind & Spirit",
+            "Relations",
+            "Shamanism",
+            "Mysticism",
+            "Spirituality - Shamanism",
+            "Body, Mind & Spirit / Mysticism",
+            "Christianity and other religions",
+            "Christianity - General"
+        ]
+    },
+    "api_info": {
+        "google": {
+            "kind": "books#volume",
+            "id": "b4vdGwAACAAJ",
+            "etag": "gwG+HQauys4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/b4vdGwAACAAJ",
+            "volumeInfo": {
+                "title": "Shamanic Christianity",
+                "subtitle": "The Direct Experience of Mystical Communion",
+                "authors": [
+                    "Bradford Keeney"
+                ],
+                "publisher": "Destiny Books",
+                "publishedDate": "2006-03-13",
+                "description": "A guide to reconnecting with Jesus, Mary, and the saints as shamanic teachers of divine mysteries \u2022 Contains meditations, contemplations, parables, and active ritual tasks that help bring forth a shamanic understanding and practice of Christianity \u2022 Shows shamanic experience to be the root of mystical communion When the missionaries came to North America to \u201csave\u201d the American Indians, they were perplexed to discover that while they talked about Jesus, some of the Indians claimed to talk directly with him. Among Christians there is almost complete silence on the subject of the place of shamanism in experiencing the divine, yet shamanic experience is at the root of all mystical communion. Shamanic Christianity offers a chance to rekindle the shamanic practices of Christianity to those who wish to restore their direct connection to the spirit world. In the tradition of contemplative practice, this reconnection takes the form of devotions. Presented in four forms, these devotions begin with a specific contemplation, followed by a meditative focus, then a parable from the author\u2019s own visionary experiences, and finally an active mystical practice to help ground the meditations and contemplations in a ritual or ceremony that involves active participation. These four forms serve to reintroduce Jesus, Mary, and the historically renowned saints as shamanic teachers of divine mysteries whose spiritual presence is readily available to contemporary lives. The author also presents specific directives for handling everyday challenges in a shamanic-inspired manner, drawing upon creative activities and resources that encourage approaching the world with the imaginative and playful spirit of a child, whose personal freedom and creative expression is always wide open to possibilities.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1594770867"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781594770869"
+                    },
+                    {
+                        "type": "librarything",
+                        "identifier": "3966103"
+                    },
+                    {
+                        "type": "goodreads",
+                        "identifier": "900310"
+                    },
+                    {
+                        "type": "lccn",
+                        "identifier": "2005037734"
+                    },
+                    {
+                        "type": "oclc",
+                        "identifier": "62789956"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 224,
+                "printType": "BOOK",
+                "categories": [
+                    "Body, Mind & Spirit"
+                ],
+                "averageRating": 2,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=b4vdGwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=b4vdGwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=b4vdGwAACAAJ&dq=isbn:1594770867&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=b4vdGwAACAAJ&dq=isbn:1594770867&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Shamanic_Christianity.html?hl=&id=b4vdGwAACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=b4vdGwAACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Shamanic Christianity offers a chance to rekindle the shamanic practices of Christianity to those who wish to restore their direct connection to the spirit world."
+            }
+        },
+        "openlibrary": {
+            "publishers": [
+                "Destiny Books"
+            ],
+            "number_of_pages": 224,
+            "subtitle": "The Direct Experience of Mystical Communion",
+            "weight": "9.6 ounces",
+            "covers": [
+                1992028
+            ],
+            "physical_format": "Paperback",
+            "lc_classifications": [
+                "BR127.K44 2006",
+                "BR127 .K44 2006"
+            ],
+            "key": "/books/OL8879048M",
+            "authors": [
+                {
+                    "key": "/authors/OL2901496A"
+                }
+            ],
+            "subjects": [
+                "Christian spirituality",
+                "Religion",
+                "Christianity",
+                "New Age / Body, Mind & Spirit",
+                "Relations",
+                "Shamanism",
+                "Mysticism",
+                "Spirituality - Shamanism",
+                "Body, Mind & Spirit / Mysticism",
+                "Christianity and other religions",
+                "Christianity - General"
+            ],
+            "isbn_13": [
+                "9781594770869"
+            ],
+            "source_records": [
+                "bwb:9781594770869",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:163282452:2567",
+                "marc:marc_columbia/Columbia-extract-20221130-012.mrc:94458598:2866"
+            ],
+            "title": "Shamanic Christianity",
+            "identifiers": {
+                "librarything": [
+                    "3966103"
+                ],
+                "goodreads": [
+                    "900310"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1594770867"
+            ],
+            "publish_date": "March 13, 2006",
+            "works": [
+                {
+                    "key": "/works/OL8624182W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.9 x 6 x 0.8 inches",
+            "lccn": [
+                "2005037734"
+            ],
+            "oclc_numbers": [
+                "62789956"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-29T17:34:36.206614"
+            }
+        }
+    }
+}
